@@ -11,3 +11,5 @@
 source env/bin/activate
 python -u qa.py
 deactivate
+git add .
+git commit -m "QA script run"
