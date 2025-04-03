@@ -260,4 +260,4 @@ for i in random.sample(range(len(data)), 10):
     # print("--------------------------------")
 
 df = pd.DataFrame(results)
-df.to_csv("results.csv", index=False)
+df.to_csv("data/results.csv", index=False)
