@@ -1,16 +1,14 @@
 import argparse
-import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from datasets import load_dataset
-import random
-
-from openai import OpenAI
 import os
 
 import pandas as pd
+import torch
+from datasets import load_dataset
+from openai import OpenAI
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from utils.utils import get_response, completion_gradient
 from utils.gpt import evaluate_answers, rephrase_text
+from utils.utils import get_response, completion_gradient
 
 
 def main(args):
@@ -19,6 +17,11 @@ def main(args):
     model_name = args.model
     gpt_model = args.gpt_model
     key_mode = args.key_mode
+
+    if model_name == "gpt2":
+        model_path = "gpt2"
+    elif model_name == "llama-awq":
+        model_path = "TheBloke/Llama-2-7B-Chat-AWQ"
 
     if key_mode == "keyfile":
         with open(os.path.expanduser(".api_key"), "r") as f:
@@ -32,8 +35,8 @@ def main(args):
 
     oai_client = OpenAI(api_key=api_key)
 
-    model = AutoModelForCausalLM.from_pretrained(model_name)
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(model_path)
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
@@ -65,9 +68,6 @@ def main(args):
         elif dataset_name == "trivia":
             prompt = data[i]["question"]
             answers = data[i]["answer"]["aliases"]
-
-        print(answers)
-        print(type(answers))
 
         completion = get_response(prompt, model, tokenizer, device)
 
@@ -112,7 +112,6 @@ def main(args):
                 "rephrased_gradient_std": rephrasing_gradient_std,
             }
         )
-        break
 
     df = pd.DataFrame(results)
     df.to_pickle(f"data/results_{job_number}_{model_name}_{dataset_name}.pkl")
