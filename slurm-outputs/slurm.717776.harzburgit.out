@@ -1,3 +1,22 @@
 slurmstepd-harzburgit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-harzburgit: error: Setting TMPDIR to /tmp
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[main f0b7ba4] QA script run
+ Committer: Nils Cornelius Gruenefeld <gruenefeld@harzburgit.cip.ifi.lmu.de>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 28 insertions(+), 17 deletions(-)
+ rewrite data/results_test.csv (90%)
+ create mode 100644 slurm-outputs/slurm.717776.harzburgit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   62031ad..f0b7ba4  main -> main
