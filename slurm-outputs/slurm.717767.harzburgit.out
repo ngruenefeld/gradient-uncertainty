@@ -1,0 +1,11 @@
+slurmstepd-harzburgit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-harzburgit: error: Setting TMPDIR to /tmp
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 72, in <module>
+    completion = get_response(prompt, model, tokenizer)
+TypeError: get_response() missing 1 required positional argument: 'device'
