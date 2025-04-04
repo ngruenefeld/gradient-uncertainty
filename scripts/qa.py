@@ -13,7 +13,7 @@ from utils.utils import get_response, completion_gradient
 from utils.gpt import evaluate_answers, rephrase_text
 
 
-def main():
+def main(args):
     job_number = args.job_number
     dataset = args.dataset
     model_name = args.model
