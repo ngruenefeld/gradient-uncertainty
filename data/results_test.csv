@@ -1,0 +1,15 @@
+question,completion,correct_answers,evaluation,completion_gradient,rephrased_completions,rephrased_completion_lengths,rephrased_gradients,rephrased_gradient_std
+Which English Rugby Union team play their home games at Adams Park?,"The answer is no.
+
+The English Rugby Union has been playing their home games at Adams Park since the 1970s.
+
+The club has played its home games at Adams Park since the 1970s.
+
+The club has played its home games at Adams Park since the 1970s.
+
+The club has played its home games at Adams Park since the 1970s.
+
+The club has played its home games","['Wasps RFC', 'Wasps (rugby)', 'Wasps R.F.C.', 'London Wasps', 'London wasps']",False,"(tensor([ 3.5053e-04, -3.7333e-05, -7.0850e-04,  ..., -1.7698e-03,
+         7.9219e-04,  2.2229e-03]), 85)","['No—that’s not the case. Since the 1970s, the English Rugby Union has hosted its home matches at Adams Park, and the club too has been staging its home games there over the same period. (Note: The text concludes abruptly with an extra mention of home games.)', 'The answer is negative. The English Rugby Union has been playing its home games at Adams Park since the 1970s, and likewise, the club has consistently held its home fixtures at that venue over several decades. (The final sentence appears incomplete.)', ""No. Since the 1970s, Adams Park has served as the venue for the English Rugby Union’s home fixtures, and the club has similarly played its home games at the same ground repeatedly. (The text ends with an unfinished sentence regarding the club's home games.)""]","[59, 48, 55]","[tensor([ 0.0008,  0.0003, -0.0013,  ..., -0.0182,  0.0127, -0.0038]), tensor([ 7.3030e-04, -5.6726e-05, -1.4388e-03,  ..., -1.1367e-02,
+         5.5338e-03,  5.8231e-03]), tensor([ 1.0463e-04,  5.9313e-05, -1.6236e-04,  ..., -2.5343e-02,
+         1.9215e-02,  1.0612e-02])]",tensor(40373.4375)

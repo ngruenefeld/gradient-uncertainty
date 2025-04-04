@@ -19,3 +19,21 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/pandas/io/common.py", line 600, in check_parent_directory
     raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
 OSError: Cannot save file into a non-existent directory: '../data'
+[main ec228fa] QA script run
+ Committer: Nils Cornelius Gruenefeld <gruenefeld@harzburgit.cip.ifi.lmu.de>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 39 insertions(+)
+ create mode 100644 slurm-outputs/slurm.717768.harzburgit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   72c9bc1..ec228fa  main -> main
