@@ -15,16 +15,10 @@ from utils.gpt import evaluate_answers, rephrase_text
 
 def main(args):
     job_number = args.job_number
-    dataset = args.dataset
+    dataset_name = args.dataset
     model_name = args.model
     gpt_model = args.gpt_model
     key_mode = args.key_mode
-
-    print(f"Job Number: {job_number}")
-    print(f"Dataset: {dataset}")
-    print(f"Model: {model_name}")
-    print(f"GPT Model: {gpt_model}")
-    print(f"Key Mode: {key_mode}")
 
     if key_mode == "keyfile":
         with open(os.path.expanduser(".api_key"), "r") as f:
@@ -44,11 +38,11 @@ def main(args):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
 
-    if dataset == "truthful":
+    if dataset_name == "truthful":
         dataset = load_dataset("truthfulqa/truthful_qa", "generation")
-    elif dataset == "natural":
+    elif dataset_name == "natural":
         dataset = load_dataset("google-research-datasets/natural_questions", "dev")
-    elif dataset == "trivia":
+    elif dataset_name == "trivia":
         dataset = load_dataset("mandarjoshi/trivia_qa", "rc.wikipedia.nocontext")
 
     data = dataset["validation"]
@@ -56,13 +50,13 @@ def main(args):
     results = []
 
     for i in range(len(data)):
-        if dataset == "natural":
+        if dataset_name == "natural":
             prompt = data[i]["question"]["text"]
             answers = [a["text"] for a in data[i]["annotations"]["short_answers"]]
-        elif dataset == "truthful":
+        elif dataset_name == "truthful":
             prompt = data[i]["question"]
             answers = data[i]["correct_answers"]
-        elif dataset == "trivia":
+        elif dataset_name == "trivia":
             prompt = data[i]["question"]
             answers = data[i]["answer"]["aliases"]
 
