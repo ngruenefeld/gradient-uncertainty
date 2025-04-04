@@ -19,9 +19,9 @@ oai_client = OpenAI(api_key=api_key)
 gpt_model = "o3-mini-2025-01-31"
 
 
-# model_name = "TheBloke/Llama-2-7B-Chat-AWQ"
+model_name = "TheBloke/Llama-2-7B-Chat-AWQ"
 # model_name = "QuantFactory/NVIDIA-Llama3-ChatQA-1.5-8B-GGUF"
-model_name = "gpt2"
+# model_name = "gpt2"
 
 model = AutoModelForCausalLM.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -29,7 +29,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-d = "trivia"
+d = "truthful"
 if d == "truthful":
     dataset = load_dataset("truthfulqa/truthful_qa", "generation")
 elif d == "natural":
@@ -56,8 +56,8 @@ data = dataset["validation"]
 
 results = []
 
-# for i in tqdm(range(len(data))):
-for i in random.sample(range(len(data)), 1):
+for i in range(len(data)):
+    # for i in random.sample(range(len(data)), 1):
     # print()
     if d == "natural":
         prompt = data[i]["question"]["text"]
@@ -131,4 +131,4 @@ for i in random.sample(range(len(data)), 1):
     # print("--------------------------------")
 
 df = pd.DataFrame(results)
-df.to_csv("data/results_test.csv", index=False)
+df.to_csv("data/results_truthful_llama.csv", index=False)
