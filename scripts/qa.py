@@ -19,9 +19,9 @@ oai_client = OpenAI(api_key=api_key)
 gpt_model = "o3-mini-2025-01-31"
 
 
-model_name = "TheBloke/Llama-2-7B-Chat-AWQ"
+# model_name = "TheBloke/Llama-2-7B-Chat-AWQ"
 # model_name = "QuantFactory/NVIDIA-Llama3-ChatQA-1.5-8B-GGUF"
-# model_name = "gpt2"
+model_name = "gpt2"
 
 model = AutoModelForCausalLM.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
