@@ -1,3 +1,22 @@
 slurmstepd-liparit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-liparit: error: Setting TMPDIR to /tmp
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[main 71386e9] QA script run
+ Committer: Nils Cornelius Gruenefeld <gruenefeld@liparit.cip.ifi.lmu.de>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 21 insertions(+)
+ create mode 100644 "data/results_717804_gpt2_DatasetDict({\n    validation: Dataset({\n        features: ['type', 'category', 'question', 'best_answer', 'correct_answers', 'incorrect_answers', 'source'],\n        num_rows: 817\n    })\n}).pkl"
+ create mode 100644 slurm-outputs/slurm.717804.liparit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   7fb14ce..71386e9  main -> main
