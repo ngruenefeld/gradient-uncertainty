@@ -1,0 +1,17 @@
+slurmstepd-liparit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-liparit: error: Setting TMPDIR to /tmp
+[['Max Planck, Albert Einstein, Louis de Broglie, Arthur Compton, Niels Bohr and many others'], [], [], ['Einstein'], []]
+<class 'list'>
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 146, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 68, in main
+    evaluation = evaluate_answers(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/gpt.py", line 49, in evaluate_answers
+    reference_answers_formatted = "\n".join(reference_answers)
+TypeError: sequence item 0: expected str instance, list found
