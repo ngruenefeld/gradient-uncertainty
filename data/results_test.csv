@@ -1,15 +1,17 @@
-question,completion,correct_answers,evaluation,completion_gradient,rephrased_completions,rephrased_completion_lengths,rephrased_gradients,rephrased_gradient_std
-Which English Rugby Union team play their home games at Adams Park?,"The answer is no.
+question,completion,completion_length,correct_answers,evaluation,completion_gradient,rephrased_completions,rephrased_completion_lengths,rephrased_gradients,rephrased_gradient_std
+"Which American carnivorous mammal feeds by night, habitually dipping its prey into water before eating?","The answer is yes, but it's not always clear.
 
-The English Rugby Union has been playing their home games at Adams Park since the 1970s.
+In fact, the answer is not always clear.
 
-The club has played its home games at Adams Park since the 1970s.
+In fact, the answer is not always clear.
 
-The club has played its home games at Adams Park since the 1970s.
+In fact, the answer is not always clear.
 
-The club has played its home games at Adams Park since the 1970s.
+In fact, the answer is not always clear.
 
-The club has played its home games","['Wasps RFC', 'Wasps (rugby)', 'Wasps R.F.C.', 'London Wasps', 'London wasps']",False,"(tensor([ 3.5053e-04, -3.7333e-05, -7.0850e-04,  ..., -1.7698e-03,
-         7.9219e-04,  2.2229e-03]), 85)","['No—that’s not the case. Since the 1970s, the English Rugby Union has hosted its home matches at Adams Park, and the club too has been staging its home games there over the same period. (Note: The text concludes abruptly with an extra mention of home games.)', 'The answer is negative. The English Rugby Union has been playing its home games at Adams Park since the 1970s, and likewise, the club has consistently held its home fixtures at that venue over several decades. (The final sentence appears incomplete.)', ""No. Since the 1970s, Adams Park has served as the venue for the English Rugby Union’s home fixtures, and the club has similarly played its home games at the same ground repeatedly. (The text ends with an unfinished sentence regarding the club's home games.)""]","[59, 48, 55]","[tensor([ 0.0008,  0.0003, -0.0013,  ..., -0.0182,  0.0127, -0.0038]), tensor([ 7.3030e-04, -5.6726e-05, -1.4388e-03,  ..., -1.1367e-02,
-         5.5338e-03,  5.8231e-03]), tensor([ 1.0463e-04,  5.9313e-05, -1.6236e-04,  ..., -2.5343e-02,
-         1.9215e-02,  1.0612e-02])]",tensor(40373.4375)
+In fact, the answer is not always clear.
+
+In fact, the answer",79,"['Social behavior of raccoons', 'Procyon Lotor', 'California Raccoon', 'Sexual behavior of raccoons', 'Raccoon', 'North American raccoon', 'Raccoons', 'Procyon lotor', 'California raccoon', 'Araiguma', 'Racoon', 'Common Raccoon', 'Northern racoon', 'North American racoon', 'Common racoon', 'Cooning', 'Reproductive behavior of raccoons', 'Northern Raccoon', 'Pet raccoon', 'Common raccoon', 'Racoons', 'Wasbeer', 'Northern raccoon', 'Washbear']",False,38.537132263183594,"['The response is affirmative, yet its meaning can sometimes be ambiguous. In truth, there are many instances when the answer lacks clarity.', 'Yes is the answer, but its clarity is not guaranteed at all times. In fact, there are multiple occasions when the answer remains unclear.', 'Although the answer is yes, it isn’t consistently clear. Indeed, many times the explanation falls short of being definitive.']","[26, 28, 26]","[tensor([-5.9582e-05, -9.1603e-05, -8.8896e-04,  ...,  1.0214e-02,
+         1.4142e-02,  9.2222e-03], device='cuda:0'), tensor([ 0.0002,  0.0010, -0.0043,  ..., -0.0246,  0.0342,  0.0234],
+       device='cuda:0'), tensor([ 1.8942e-05,  5.8598e-05, -3.4485e-04,  ..., -1.7114e-02,
+         7.8760e-03,  2.0307e-02], device='cuda:0')]",63337.671875
