@@ -2,3 +2,22 @@ slurmstepd-liparit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission
 slurmstepd-liparit: error: Setting TMPDIR to /tmp
 Generating validation split:   0%|          | 0/817 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 817/817 [00:00<00:00, 14405.90 examples/s]
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[main e06c4cb] QA script run
+ Committer: Nils Cornelius Gruenefeld <gruenefeld@liparit.cip.ifi.lmu.de>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 43 insertions(+)
+ create mode 100644 data/results_truthful_llama.csv
+ create mode 100644 slurm-outputs/slurm.717780.liparit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   32af470..e06c4cb  main -> main
