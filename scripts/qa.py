@@ -60,6 +60,9 @@ def main(args):
             prompt = data[i]["question"]
             answers = data[i]["answer"]["aliases"]
 
+        print(answers)
+        print(type(answers))
+
         completion = get_response(prompt, model, tokenizer, device)
 
         evaluation = evaluate_answers(
