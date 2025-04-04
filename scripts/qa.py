@@ -106,7 +106,7 @@ def main(args):
         break
 
     df = pd.DataFrame(results)
-    df.to_pickle(f"data/results_{job_number}_{model_name}_{dataset}.pkl")
+    df.to_pickle(f"data/results_{job_number}_{model_name}_{dataset_name}.pkl")
 
 
 if __name__ == "__main__":
