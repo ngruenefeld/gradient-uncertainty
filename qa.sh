@@ -8,8 +8,35 @@
 #SBATCH --output=/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/slurm-outputs/slurm.%j.%N.out
 #SBATCH --ntasks=1
 
+# Default values
+DATASET="truthful"
+MODEL="gpt2"
+GPT_MODEL="o3-mini-2025-01-31"
+KEY_MODE="keyfile"
+
+# Parse named arguments
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        --dataset=*) DATASET="${1#*=}";;
+        --model=*) MODEL="${1#*=}";;
+        --gpt_model=*) GPT_MODEL="${1#*=}";;
+        --key_mode=*) KEY_MODE="${1#*=}";;
+        *) echo "Unknown option: $1" ;;
+    esac
+    shift
+done
+
+# Activate virtual environment
 source env/bin/activate
-python -um scripts.qa "$SLURM_JOB_ID" --dataset "truthful"
+
+# Run the Python script with all the parsed arguments
+python -um scripts.qa "$SLURM_JOB_ID" \
+    --dataset "$DATASET" \
+    --model "$MODEL" \
+    --gpt_model "$GPT_MODEL" \
+    --key_mode "$KEY_MODE"
+
+# Deactivate and commit results
 deactivate
 git add .
 git commit -m "QA script run"
