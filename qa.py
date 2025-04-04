@@ -224,7 +224,7 @@ for i in random.sample(range(len(data)), 100):
     # [print(a) for a in answers]
     # print()
 
-    evaluation = evaluate_answers(prompt, completion, answers, oai_client, gpt_model)
+    # evaluation = evaluate_answers(prompt, completion, answers, oai_client, gpt_model)
     # print(evaluation["is_correct"])
 
     gradient = completion_gradient(prompt, completion, model, tokenizer)
@@ -249,7 +249,7 @@ for i in random.sample(range(len(data)), 100):
             "question": prompt,
             "completion": completion,
             "correct_answers": answers,
-            "evaluation": evaluation["is_correct"],
+            # "evaluation": evaluation["is_correct"],
             "completion_gradient": gradient,
             "rephrased_completions": rephrasings,
             "rephrased_gradients": rephrasing_gradients,
