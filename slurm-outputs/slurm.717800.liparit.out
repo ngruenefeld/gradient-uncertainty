@@ -3,3 +3,21 @@ slurmstepd-liparit: error: Setting TMPDIR to /tmp
 Job Number: 717800
 Dataset: trivia
 <function get_response at 0x7fda92a80700>
+[main fb8290f] Test script run
+ Committer: Nils Cornelius Gruenefeld <gruenefeld@liparit.cip.ifi.lmu.de>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 24 insertions(+)
+ create mode 100644 slurm-outputs/slurm.717800.liparit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   7b01837..fb8290f  main -> main
