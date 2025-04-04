@@ -127,4 +127,4 @@ for i in random.sample(range(len(data)), 1):
     # print("--------------------------------")
 
 df = pd.DataFrame(results)
-df.to_csv("../data/results_test.csv", index=False)
+df.to_csv("data/results_test.csv", index=False)
