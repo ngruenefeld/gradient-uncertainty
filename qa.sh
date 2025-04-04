@@ -9,7 +9,7 @@
 #SBATCH --ntasks=1
 
 source env/bin/activate
-python -u qa.py
+python -um scripts.qa
 deactivate
 git add .
 git commit -m "QA script run"

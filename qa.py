@@ -3,7 +3,6 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from datasets import load_dataset
 import random
 
-import openai
 from openai import OpenAI
 import json
 import os
@@ -154,7 +153,7 @@ data = dataset["validation"]
 #         print()
 
 
-def get_response(prompt, model, tokenizer):
+def get_response(prompt, model, tokenizer, device):
     model.eval()
 
     inputs = tokenizer(prompt, return_tensors="pt").to(device)
@@ -169,7 +168,7 @@ def get_response(prompt, model, tokenizer):
     return completion
 
 
-def completion_gradient(prompt, completion, model, tokenizer):
+def completion_gradient(prompt, completion, model, tokenizer, device):
     model.train()
 
     full_text = prompt + completion
@@ -194,15 +193,20 @@ def completion_gradient(prompt, completion, model, tokenizer):
         if param.grad is not None:
             grads.append(param.grad.flatten())
 
-    uncertainty = torch.norm(torch.cat(grads))
+    # uncertainty = torch.norm(torch.cat(grads))
+    # return uncertainty.cpu().item()
 
-    return uncertainty.cpu().item()
+    uncertainty = torch.cat(grads)
+    return (
+        uncertainty,
+        full_encodings.input_ids.shape[1] - prompt_encodings.input_ids.shape[1],
+    )
 
 
 results = []
 
 # for i in tqdm(range(len(data))):
-for i in random.sample(range(len(data)), 100):
+for i in random.sample(range(len(data)), 10):
     # print()
     if d == "natural":
         prompt = data[i]["question"]["text"]
@@ -224,10 +228,13 @@ for i in random.sample(range(len(data)), 100):
     # [print(a) for a in answers]
     # print()
 
-    # evaluation = evaluate_answers(prompt, completion, answers, oai_client, gpt_model)
+    evaluation = evaluate_answers(prompt, completion, answers, oai_client, gpt_model)
     # print(evaluation["is_correct"])
 
-    gradient = completion_gradient(prompt, completion, model, tokenizer)
+    gradient, completion_length = completion_gradient(
+        prompt, completion, model, tokenizer, device
+    )
+    gradient = torch.norm(gradient).item()
     # print()
     # print("Gradient")
     # print(gradient)
@@ -237,22 +244,35 @@ for i in random.sample(range(len(data)), 100):
     # print("Rephrasings")
 
     rephrasing_gradients = []
+    rephrasing_lengths = []
+    rephrasing_gradient_norms = []
 
     for phrasing in rephrasings:
-        rephrasing_gradient = completion_gradient(prompt, phrasing, model, tokenizer)
+        rephrasing_gradient, rephrasing_length = completion_gradient(
+            prompt, phrasing, model, tokenizer, device
+        )
         rephrasing_gradients.append(rephrasing_gradient)
+        rephrasing_lengths.append(rephrasing_length)
+        rephrasing_gradient_norms.append(torch.norm(rephrasing_gradient).item())
         # print(phrasing)
         # print(rephrasing_gradient)
+
+    rephrasing_gradient_std = torch.sum(
+        torch.std(torch.stack(rephrasing_gradients), dim=0)
+    ).item()
 
     results.append(
         {
             "question": prompt,
             "completion": completion,
+            "completion_length": completion_length,
             "correct_answers": answers,
-            # "evaluation": evaluation["is_correct"],
+            "evaluation": evaluation["is_correct"],
             "completion_gradient": gradient,
             "rephrased_completions": rephrasings,
+            "rephrased_completion_lengths": rephrasing_lengths,
             "rephrased_gradients": rephrasing_gradients,
+            "rephrased_gradient_std": rephrasing_gradient_std,
         }
     )
 
@@ -260,4 +280,4 @@ for i in random.sample(range(len(data)), 100):
     # print("--------------------------------")
 
 df = pd.DataFrame(results)
-df.to_csv("data/results.csv", index=False)
+df.to_csv("data/results_2.csv", index=False)
