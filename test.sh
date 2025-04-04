@@ -9,5 +9,8 @@
 #SBATCH --ntasks=1
 
 source env/bin/activate
-python -um scripts.test --name %j
+python -um scripts.test --name "$SLURM_JOB_ID"
 deactivate
+git add .
+git commit -m "Test script run"
+git push
