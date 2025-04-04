@@ -9,3 +9,21 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 72, in <module>
     completion = get_response(prompt, model, tokenizer)
 TypeError: get_response() missing 1 required positional argument: 'device'
+[main 226d414] QA script run
+ Committer: Nils Cornelius Gruenefeld <gruenefeld@harzburgit.cip.ifi.lmu.de>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 29 insertions(+)
+ create mode 100644 slurm-outputs/slurm.717767.harzburgit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   330d7a0..226d414  main -> main
