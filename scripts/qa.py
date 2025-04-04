@@ -69,7 +69,7 @@ for i in random.sample(range(len(data)), 1):
         prompt = data[i]["question"]
         answers = data[i]["answer"]["aliases"]
 
-    completion = get_response(prompt, model, tokenizer)
+    completion = get_response(prompt, model, tokenizer, device)
 
     # print(f"Question: {prompt}")
     # print()
