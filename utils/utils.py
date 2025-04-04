@@ -46,6 +46,6 @@ def completion_gradient(prompt, completion, model, tokenizer, device):
 
     uncertainty = torch.cat(grads)
     return (
-        uncertainty.cpu(),
+        uncertainty,
         full_encodings.input_ids.shape[1] - prompt_encodings.input_ids.shape[1],
     )

@@ -82,7 +82,10 @@ for i in random.sample(range(len(data)), 1):
     evaluation = evaluate_answers(prompt, completion, answers, oai_client, gpt_model)
     # print(evaluation["is_correct"])
 
-    gradient = completion_gradient(prompt, completion, model, tokenizer, device)
+    gradient, completion_length = completion_gradient(
+        prompt, completion, model, tokenizer, device
+    )
+    gradient = torch.norm(gradient).item()
     # print()
     # print("Gradient")
     # print(gradient)
@@ -101,18 +104,19 @@ for i in random.sample(range(len(data)), 1):
         )
         rephrasing_gradients.append(rephrasing_gradient)
         rephrasing_lengths.append(rephrasing_length)
-        rephrasing_gradient_norms.append(torch.norm(rephrasing_gradient))
+        rephrasing_gradient_norms.append(torch.norm(rephrasing_gradient).item())
         # print(phrasing)
         # print(rephrasing_gradient)
 
     rephrasing_gradient_std = torch.sum(
         torch.std(torch.stack(rephrasing_gradients), dim=0)
-    )
+    ).item()
 
     results.append(
         {
             "question": prompt,
             "completion": completion,
+            "completion_length": completion_length,
             "correct_answers": answers,
             "evaluation": evaluation["is_correct"],
             "completion_gradient": gradient,
