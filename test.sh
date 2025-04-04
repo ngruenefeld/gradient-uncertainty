@@ -9,7 +9,7 @@
 #SBATCH --ntasks=1
 
 source env/bin/activate
-python -um scripts.test --name "$SLURM_JOB_ID"
+python -um scripts.test "$SLURM_JOB_ID" --dataset trivia
 deactivate
 git add .
 git commit -m "Test script run"
