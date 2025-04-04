@@ -1,0 +1,16 @@
+slurmstepd-liparit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-liparit: error: Setting TMPDIR to /tmp
+Generating validation split:   0%|          | 0/7830 [00:00<?, ? examples/s]Generating validation split:  13%|█▎        | 1000/7830 [00:02<00:17, 379.94 examples/s]Generating validation split:  14%|█▍        | 1119/7830 [00:03<00:18, 367.76 examples/s]Generating validation split:  27%|██▋       | 2119/7830 [00:05<00:16, 355.82 examples/s]Generating validation split:  29%|██▊       | 2238/7830 [00:17<01:09, 80.22 examples/s] Generating validation split:  41%|████▏     | 3238/7830 [00:20<00:33, 137.75 examples/s]Generating validation split:  43%|████▎     | 3357/7830 [00:21<00:30, 145.11 examples/s]Generating validation split:  56%|█████▌    | 4357/7830 [00:31<00:30, 115.03 examples/s]Generating validation split:  57%|█████▋    | 4476/7830 [00:32<00:27, 121.00 examples/s]Generating validation split:  70%|██████▉   | 5476/7830 [00:41<00:20, 114.76 examples/s]Generating validation split:  71%|███████▏  | 5594/7830 [00:41<00:18, 120.34 examples/s]Generating validation split:  84%|████████▍ | 6594/7830 [00:44<00:06, 176.59 examples/s]Generating validation split:  84%|████████▍ | 6594/7830 [00:55<00:06, 176.59 examples/s]Generating validation split:  86%|████████▌ | 6712/7830 [00:56<00:14, 77.07 examples/s] Generating validation split:  98%|█████████▊| 7712/7830 [00:59<00:00, 122.75 examples/s]Generating validation split: 100%|██████████| 7830/7830 [00:59<00:00, 128.44 examples/s]Generating validation split: 100%|██████████| 7830/7830 [01:08<00:00, 114.51 examples/s]
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 143, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 65, in main
+    evaluation = evaluate_answers(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/gpt.py", line 49, in evaluate_answers
+    reference_answers_formatted = "\n".join(reference_answers)
+TypeError: sequence item 0: expected str instance, list found
