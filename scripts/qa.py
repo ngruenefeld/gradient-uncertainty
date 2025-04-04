@@ -122,7 +122,7 @@ for i in random.sample(range(len(data)), 1):
             "completion_gradient": gradient,
             "rephrased_completions": rephrasings,
             "rephrased_completion_lengths": rephrasing_lengths,
-            "rephrased_gradients": rephrasing_gradients,
+            "rephrased_gradients": rephrasing_gradient_norms,
             "rephrased_gradient_std": rephrasing_gradient_std,
         }
     )
