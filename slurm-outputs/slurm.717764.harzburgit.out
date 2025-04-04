@@ -1,0 +1,16 @@
+slurmstepd-harzburgit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-harzburgit: error: Setting TMPDIR to /tmp
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 26, in <module>
+    model = AutoModelForCausalLM.from_pretrained(model_name)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/models/auto/auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/modeling_utils.py", line 3657, in from_pretrained
+    hf_quantizer.validate_environment(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/quantizers/quantizer_awq.py", line 71, in validate_environment
+    raise RuntimeError(
+RuntimeError: GPU is required to run AWQ quantized model. You can use IPEX version AWQ if you have an Intel CPU
