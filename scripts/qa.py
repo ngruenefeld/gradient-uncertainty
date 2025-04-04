@@ -52,7 +52,13 @@ def main(args):
     for i in range(len(data)):
         if dataset_name == "natural":
             prompt = data[i]["question"]["text"]
-            answers = [a["text"] for a in data[i]["annotations"]["short_answers"]]
+            answers = [
+                text
+                for sublist in [
+                    a["text"] for a in data[i]["annotations"]["short_answers"]
+                ]
+                for text in sublist
+            ]
         elif dataset_name == "truthful":
             prompt = data[i]["question"]
             answers = data[i]["correct_answers"]
