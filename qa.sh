@@ -9,7 +9,7 @@
 #SBATCH --ntasks=1
 
 source env/bin/activate
-python -um scripts.qa
+python -um scripts.qa "$SLURM_JOB_ID" --dataset "truthful"
 deactivate
 git add .
 git commit -m "QA script run"

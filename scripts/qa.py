@@ -38,7 +38,6 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
 
-    # d = "truthful"
     if dataset == "truthful":
         dataset = load_dataset("truthfulqa/truthful_qa", "generation")
     elif dataset == "natural":
@@ -104,9 +103,10 @@ def main():
                 "rephrased_gradient_std": rephrasing_gradient_std,
             }
         )
+        break
 
     df = pd.DataFrame(results)
-    df.to_pickle("data/results_truthful_llama_awq.pkl")
+    df.to_pickle(f"data/results_{job_number}_{model_name}_{dataset}.pkl")
 
 
 if __name__ == "__main__":
