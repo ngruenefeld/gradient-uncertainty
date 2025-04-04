@@ -132,4 +132,5 @@ for i in range(len(data)):
     # print("--------------------------------")
 
 df = pd.DataFrame(results)
-df.to_csv("data/results_truthful_llama.csv", index=False)
+# df.to_csv("data/results_truthful_llama_awq.csv", index=False)
+df.to_pickle("data/results_test.pkl")
