@@ -1,0 +1,12 @@
+slurmstepd-cipollino: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-cipollino: error: Setting TMPDIR to /tmp
+Traceback (most recent call last):
+  File "qa.py", line 125, in <module>
+    model = AutoModelForCausalLM.from_pretrained(model_name)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/models/auto/auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/modeling_utils.py", line 3657, in from_pretrained
+    hf_quantizer.validate_environment(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/quantizers/quantizer_awq.py", line 50, in validate_environment
+    raise ImportError("Loading an AWQ quantized model requires auto-awq library (`pip install autoawq`)")
+ImportError: Loading an AWQ quantized model requires auto-awq library (`pip install autoawq`)
