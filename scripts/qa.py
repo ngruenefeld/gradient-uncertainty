@@ -20,6 +20,12 @@ def main(args):
     gpt_model = args.gpt_model
     key_mode = args.key_mode
 
+    print(f"Job Number: {job_number}")
+    print(f"Dataset: {dataset}")
+    print(f"Model: {model_name}")
+    print(f"GPT Model: {gpt_model}")
+    print(f"Key Mode: {key_mode}")
+
     if key_mode == "keyfile":
         with open(os.path.expanduser(".api_key"), "r") as f:
             api_key = f.read().strip()
