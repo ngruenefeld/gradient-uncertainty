@@ -15,3 +15,21 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 69, in main
     completion = get_response(prompt, model, tokenizer, device)
 UnboundLocalError: local variable 'prompt' referenced before assignment
+[main b76a55b] QA script run
+ Committer: Nils Cornelius Gruenefeld <gruenefeld@liparit.cip.ifi.lmu.de>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 35 insertions(+)
+ create mode 100644 slurm-outputs/slurm.717803.liparit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   55a2d1a..b76a55b  main -> main
