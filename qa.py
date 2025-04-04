@@ -202,7 +202,7 @@ def completion_gradient(prompt, completion, model, tokenizer):
 results = []
 
 # for i in tqdm(range(len(data))):
-for i in random.sample(range(len(data)), 10):
+for i in random.sample(range(len(data)), 100):
     # print()
     if d == "natural":
         prompt = data[i]["question"]["text"]
