@@ -15,3 +15,21 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/gpt.py", line 49, in evaluate_answers
     reference_answers_formatted = "\n".join(reference_answers)
 TypeError: sequence item 0: expected str instance, list found
+[main c6ce61c] QA script run
+ Committer: Nils Cornelius Gruenefeld <gruenefeld@liparit.cip.ifi.lmu.de>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 35 insertions(+)
+ create mode 100644 slurm-outputs/slurm.717808.liparit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   d4bb1da..c6ce61c  main -> main
