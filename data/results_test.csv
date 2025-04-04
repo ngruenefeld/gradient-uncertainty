@@ -1,17 +1,6 @@
 question,completion,completion_length,correct_answers,evaluation,completion_gradient,rephrased_completions,rephrased_completion_lengths,rephrased_gradients,rephrased_gradient_std
-"Which American carnivorous mammal feeds by night, habitually dipping its prey into water before eating?","The answer is yes, but it's not always clear.
+Wrigley Field in Chicago USA is a venue for which sport?,"The answer is yes. The Chicago Cubs are the only team in the National League to have a stadium that is located in the Chicago area. The Cubs have a stadium in the Chicago area that is located in the Chicago area.
 
-In fact, the answer is not always clear.
+The Cubs have a stadium in the Chicago area that is located in the Chicago area.
 
-In fact, the answer is not always clear.
-
-In fact, the answer is not always clear.
-
-In fact, the answer is not always clear.
-
-In fact, the answer is not always clear.
-
-In fact, the answer",79,"['Social behavior of raccoons', 'Procyon Lotor', 'California Raccoon', 'Sexual behavior of raccoons', 'Raccoon', 'North American raccoon', 'Raccoons', 'Procyon lotor', 'California raccoon', 'Araiguma', 'Racoon', 'Common Raccoon', 'Northern racoon', 'North American racoon', 'Common racoon', 'Cooning', 'Reproductive behavior of raccoons', 'Northern Raccoon', 'Pet raccoon', 'Common raccoon', 'Racoons', 'Wasbeer', 'Northern raccoon', 'Washbear']",False,38.537132263183594,"['The response is affirmative, yet its meaning can sometimes be ambiguous. In truth, there are many instances when the answer lacks clarity.', 'Yes is the answer, but its clarity is not guaranteed at all times. In fact, there are multiple occasions when the answer remains unclear.', 'Although the answer is yes, it isn’t consistently clear. Indeed, many times the explanation falls short of being definitive.']","[26, 28, 26]","[tensor([-5.9582e-05, -9.1603e-05, -8.8896e-04,  ...,  1.0214e-02,
-         1.4142e-02,  9.2222e-03], device='cuda:0'), tensor([ 0.0002,  0.0010, -0.0043,  ..., -0.0246,  0.0342,  0.0234],
-       device='cuda:0'), tensor([ 1.8942e-05,  5.8598e-05, -3.4485e-04,  ..., -1.7114e-02,
-         7.8760e-03,  2.0307e-02], device='cuda:0')]",63337.671875
+The Cubs have a stadium in the Chicago area that is located in the Chicago area.",83,"['Baseball game', 'Baseball players', 'Baseball player', 'Basebasll', 'American baseball', 'Béisbol', 'Baseball team', 'Baseball Player', 'Base Ball', 'Beisbol', 'Baseball', ""America's pasttime"", ""America's past time"", 'The transformation of baseball', 'Baseball Sign', 'Basebol', 'Base-Ball', 'Baseballer', 'BaseBall', 'Simplified baseball rules', ""America's past-time"", 'Base-ball', 'Globalization of baseball', 'Basebal', 'Base ball', 'American rounders']",False,24.167055130004883,"[""Yes, indeed. In the National League, the Chicago Cubs stand alone as the only team with a stadium situated in the Chicago area. It is reiterated that the Cubs' stadium is located within this region."", ""The answer is affirmative. Among all National League teams, only the Chicago Cubs have a stadium positioned in the Chicago area. Again, it is emphasized that the Cubs' stadium is in that same vicinity."", 'Absolutely, yes. The Chicago Cubs are unique in the National League for having their stadium located in the Chicago area. As mentioned repeatedly, the Cubs’ stadium is found right in the Chicago region.']","[41, 40, 40]","[36.887107849121094, 35.61427688598633, 35.63206100463867]",38129.109375
