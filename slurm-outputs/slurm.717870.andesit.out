@@ -2,3 +2,15 @@ slurmstepd-andesit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission
 slurmstepd-andesit: error: Setting TMPDIR to /tmp
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[main 4484dac] QA script run
+ 3 files changed, 9 insertions(+)
+ create mode 100644 data/results_717870_gpt2_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.717870.andesit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'git@github.com:ngruenefeld/gradient-uncertainty.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
