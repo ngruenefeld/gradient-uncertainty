@@ -5,9 +5,4 @@ Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-[main 2bd1e38] QA script run
- 3 files changed, 13 insertions(+)
- create mode 100644 data/results_717863_gpt2_truthful.pkl
- create mode 100644 slurm-outputs/slurm.717863.cancalit.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   be30062..2bd1e38  main -> main
+slurmstepd-cancalit: error: *** JOB 717864 ON cancalit CANCELLED AT 2025-04-05T13:32:14 ***
