@@ -1,7 +1,5 @@
 slurmstepd-basalt: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-basalt: error: Setting TMPDIR to /tmp
-Unknown option: --sample_size
-Unknown option: 100
 You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
 `low_cpu_mem_usage` was None, now default to True since model is quantized.
 huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
@@ -21,9 +19,4 @@ Traceback (most recent call last):
     main(args)
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 118, in main
     torch.std(torch.stack(rephrasing_gradients), dim=0)
-torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 502.00 MiB. GPU 0 has a total capacity of 7.79 GiB of which 277.31 MiB is free. Including non-PyTorch memory, this process has 7.50 GiB memory in use. Of the allocated memory 7.11 GiB is allocated by PyTorch, and 278.57 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
-[main 9c23379] QA script run
- 3 files changed, 63 insertions(+)
- create mode 100644 slurm-outputs/slurm.717879.basalt.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   324b1c6..9c23379  main -> main
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 502.00 MiB. GPU 0 has a total capacity of 7.79 GiB of which 245.31 MiB is free. Including non-PyTorch memory, this process has 7.53 GiB memory in use. Of the allocated memory 7.11 GiB is allocated by PyTorch, and 310.57 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
