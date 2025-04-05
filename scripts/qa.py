@@ -120,6 +120,7 @@ def main(args):
                 "rephrased_gradient_std": rephrasing_gradient_std,
             }
         )
+        break
 
     df = pd.DataFrame(results)
     df.to_pickle(f"data/results_{job_number}_{model_name}_{dataset_name}.pkl")
