@@ -20,6 +20,8 @@ def main(args):
     key_mode = args.key_mode
     sample_size = args.sample_size
 
+    print(f"Sample size: {sample_size}")
+
     if model_name == "gpt2":
         model_path = "gpt2"
     elif model_name == "llama-awq":
