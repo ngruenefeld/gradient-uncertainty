@@ -13,6 +13,7 @@ DATASET="truthful"
 MODEL="gpt2"
 GPT_MODEL="o3-mini-2025-01-31"
 KEY_MODE="keyfile"
+SAMPLE_SIZE=0
 
 # Parse named arguments
 while [[ "$#" -gt 0 ]]; do
@@ -34,7 +35,8 @@ python -um scripts.qa "$SLURM_JOB_ID" \
     --dataset "$DATASET" \
     --model "$MODEL" \
     --gpt_model "$GPT_MODEL" \
-    --key_mode "$KEY_MODE"
+    --key_mode "$KEY_MODE" \
+    --sample_size "$SAMPLE_SIZE"
 
 # Deactivate and commit results
 deactivate

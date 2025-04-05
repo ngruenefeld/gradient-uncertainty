@@ -55,7 +55,7 @@ def main(args):
 
     results = []
 
-    if sample_size is not None:
+    if sample_size > 0:
         indices = random.sample(range(len(data)), sample_size)
     else:
         indices = range(len(data))
@@ -156,7 +156,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--sample_size",
         type=int,
-        default=None,
+        default=0,
         help="Set if you want to sample a specific number of examples from the dataset",
     )
 
