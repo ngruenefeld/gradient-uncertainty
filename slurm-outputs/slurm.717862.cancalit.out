@@ -2,3 +2,9 @@ slurmstepd-cancalit: error: Unable to create TMPDIR [/tmp/user/24470]: Permissio
 slurmstepd-cancalit: error: Setting TMPDIR to /tmp
 Sample size: 1
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[main 59ce88d] QA script run
+ 3 files changed, 10 insertions(+)
+ create mode 100644 data/results_717862_gpt2_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.717862.cancalit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   920216b..59ce88d  main -> main
