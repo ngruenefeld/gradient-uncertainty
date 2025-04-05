@@ -86,7 +86,7 @@ def main(args):
         gradient, completion_length = completion_gradient(
             prompt, completion, model, tokenizer, device
         )
-        gradient = torch.norm(gradient).item()
+        gradient = gradient.cpu().numpy()
 
         rephrasings = rephrase_text(completion, oai_client, gpt_model)["rephrasings"]
 
@@ -98,13 +98,13 @@ def main(args):
             rephrasing_gradient, rephrasing_length = completion_gradient(
                 prompt, phrasing, model, tokenizer, device
             )
-            rephrasing_gradients.append(rephrasing_gradient)
+            rephrasing_gradients.append(rephrasing_gradient.cpu().numpy())
             rephrasing_lengths.append(rephrasing_length)
-            rephrasing_gradient_norms.append(torch.norm(rephrasing_gradient).item())
+            # rephrasing_gradient_norms.append(torch.norm(rephrasing_gradient).item())
 
-        rephrasing_gradient_std = torch.sum(
-            torch.std(torch.stack(rephrasing_gradients), dim=0)
-        ).item()
+        # rephrasing_gradient_std = torch.sum(
+        #     torch.std(torch.stack(rephrasing_gradients), dim=0)
+        # ).item()
 
         results.append(
             {
@@ -116,8 +116,7 @@ def main(args):
                 "completion_gradient": gradient,
                 "rephrased_completions": rephrasings,
                 "rephrased_completion_lengths": rephrasing_lengths,
-                "rephrased_gradients": rephrasing_gradient_norms,
-                "rephrased_gradient_std": rephrasing_gradient_std,
+                "rephrased_gradients": rephrasing_gradients,
             }
         )
 
