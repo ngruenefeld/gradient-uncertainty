@@ -103,3 +103,14 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/gpt.py", line 45, in rephrase_text
     error_message = e.error.get("message", "An unknown error occurred.")
 AttributeError: 'BadRequestError' object has no attribute 'error'
+[main fd0b867] QA script run
+ 2 files changed, 110 insertions(+)
+ create mode 100644 slurm-outputs/slurm.717873.andesit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'git@github.com:ngruenefeld/gradient-uncertainty.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
