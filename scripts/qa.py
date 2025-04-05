@@ -43,12 +43,13 @@ def main(args):
 
     if dataset_name == "truthful":
         dataset = load_dataset("truthfulqa/truthful_qa", "generation")
+        data = dataset["validation"]
     elif dataset_name == "natural":
         dataset = load_dataset("google-research-datasets/natural_questions", "dev")
+        data = dataset["validation"]
     elif dataset_name == "trivia":
         dataset = load_dataset("mandarjoshi/trivia_qa", "rc.wikipedia.nocontext")
-
-    data = dataset["validation"]
+        data = dataset["validation"]
 
     results = []
 
@@ -112,6 +113,7 @@ def main(args):
                 "rephrased_gradient_std": rephrasing_gradient_std,
             }
         )
+        break
 
     df = pd.DataFrame(results)
     df.to_pickle(f"data/results_{job_number}_{model_name}_{dataset_name}.pkl")

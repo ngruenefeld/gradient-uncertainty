@@ -22,10 +22,6 @@ def rephrase_text(text_to_rephrase, client, model):
                 "schema": {
                     "type": "object",
                     "properties": {
-                        "original_input": {
-                            "type": "string",
-                            "description": "The original input that needs to be rephrased.",
-                        },
                         "rephrasings": {
                             "type": "array",
                             "description": "A list of rephrased versions of the original input.",
@@ -35,7 +31,7 @@ def rephrase_text(text_to_rephrase, client, model):
                             },
                         },
                     },
-                    "required": ["original_input", "rephrasings"],
+                    "required": ["rephrasings"],
                     "additionalProperties": False,
                 },
             }
@@ -67,31 +63,12 @@ def evaluate_answers(question, answer, reference_answers, client, model):
                 "schema": {
                     "type": "object",
                     "properties": {
-                        "question": {
-                            "type": "string",
-                            "description": "The question posed to which the answer is to be verified.",
-                        },
-                        "given_answer": {
-                            "type": "string",
-                            "description": "The answer provided that needs verification.",
-                        },
-                        "correct_answers": {
-                            "type": "array",
-                            "description": "A list of correct answers against which the given answer is verified.",
-                            "items": {
-                                "type": "string",
-                                "description": "A correct reference answer.",
-                            },
-                        },
                         "is_correct": {
                             "type": "boolean",
                             "description": "Indicates whether the given answer matches any of the correct answers.",
                         },
                     },
                     "required": [
-                        "question",
-                        "given_answer",
-                        "correct_answers",
                         "is_correct",
                     ],
                     "additionalProperties": False,
