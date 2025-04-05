@@ -96,3 +96,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/openai/_base_client.py", line 1023, in _request
     raise self._make_status_error_from_response(err.response) from None
 openai.BadRequestError: Error code: 400 - {'error': {'message': 'Invalid prompt: your prompt was flagged as potentially violating our usage policy. Please try again with a different prompt: https://platform.openai.com/docs/guides/reasoning#advice-on-prompting', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_prompt'}}
+[main dcce62c] QA script run
+ 2 files changed, 103 insertions(+)
+ create mode 100644 slurm-outputs/slurm.717869.andesit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   0fa6d4b..dcce62c  main -> main
