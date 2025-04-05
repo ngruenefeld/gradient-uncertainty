@@ -22,6 +22,7 @@ while [[ "$#" -gt 0 ]]; do
         --model=*) MODEL="${1#*=}";;
         --gpt_model=*) GPT_MODEL="${1#*=}";;
         --key_mode=*) KEY_MODE="${1#*=}";;
+        --sample_size=*) SAMPLE_SIZE="${1#*=}";;
         *) echo "Unknown option: $1" ;;
     esac
     shift
