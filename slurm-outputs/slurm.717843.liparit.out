@@ -255,3 +255,7 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/openai/_base_client.py", line 1023, in _request
     raise self._make_status_error_from_response(err.response) from None
 openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[main bca93bd] QA script run
+ 2 files changed, 36 insertions(+)
+To github.com:ngruenefeld/gradient-uncertainty.git
+   26d6cb8..bca93bd  main -> main
