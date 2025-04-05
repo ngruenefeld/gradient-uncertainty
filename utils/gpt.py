@@ -42,7 +42,7 @@ def rephrase_text(text_to_rephrase, client, model):
         event = json.loads(response.output_text)
         return event
     except openai.BadRequestError as e:
-        error_message = e.error.get("message", "An unknown error occurred.")
+        error_message = str(e)  # Extract the error message as a string
         print(f"Error: {error_message}")
         return {"error": error_message}
 
@@ -86,6 +86,6 @@ def evaluate_answers(question, answer, reference_answers, client, model):
         event = json.loads(response.output_text)
         return event
     except openai.BadRequestError as e:
-        error_message = e.error.get("message", "An unknown error occurred.")
+        error_message = str(e)  # Extract the error message as a string
         print(f"Error: {error_message}")
         return {"error": error_message}
