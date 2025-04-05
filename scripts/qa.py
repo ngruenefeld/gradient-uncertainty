@@ -1,5 +1,6 @@
 import argparse
 import os
+import random
 
 import pandas as pd
 import torch
@@ -53,7 +54,8 @@ def main(args):
 
     results = []
 
-    for i in range(len(data)):
+    # for i in range(len(data)):
+    for i in random.sample(range(len(data)), 100):
         if dataset_name == "natural":
             prompt = data[i]["question"]["text"]
             answers = [
@@ -113,7 +115,6 @@ def main(args):
                 "rephrased_gradient_std": rephrasing_gradient_std,
             }
         )
-        break
 
     df = pd.DataFrame(results)
     df.to_pickle(f"data/results_{job_number}_{model_name}_{dataset_name}.pkl")
