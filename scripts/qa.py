@@ -8,7 +8,7 @@ from datasets import load_dataset
 from openai import OpenAI
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from utils.gpt import evaluate_answers, rephrase_text
+from utils.gpt import rephrase_text, evaluate_answers
 from utils.utils import get_response, completion_gradient
 
 
@@ -82,13 +82,25 @@ def main(args):
         evaluation = evaluate_answers(
             prompt, completion, answers, oai_client, gpt_model
         )
+        if "error" in evaluation:
+            print(
+                f"Skipping sample {i} due to evaluate_answers error: {evaluation['error']}"
+            )
+            continue
 
         gradient, completion_length = completion_gradient(
             prompt, completion, model, tokenizer, device
         )
         gradient = torch.norm(gradient).item()
 
-        rephrasings = rephrase_text(completion, oai_client, gpt_model)["rephrasings"]
+        rephrasings_result = rephrase_text(completion, oai_client, gpt_model)
+        if "error" in rephrasings_result:
+            print(
+                f"Skipping sample {i} due to rephrase_text error: {rephrasings_result['error']}"
+            )
+            continue
+
+        rephrasings = rephrasings_result["rephrasings"]
 
         rephrasing_gradients = []
         rephrasing_lengths = []
