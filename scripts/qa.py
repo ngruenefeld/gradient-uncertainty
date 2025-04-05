@@ -18,6 +18,7 @@ def main(args):
     model_name = args.model
     gpt_model = args.gpt_model
     key_mode = args.key_mode
+    sample_size = args.sample_size
 
     if model_name == "gpt2":
         model_path = "gpt2"
@@ -54,8 +55,12 @@ def main(args):
 
     results = []
 
-    # for i in range(len(data)):
-    for i in random.sample(range(len(data)), 100):
+    if sample_size is not None:
+        indices = random.sample(range(len(data)), sample_size)
+    else:
+        indices = range(len(data))
+
+    for i in indices:
         if dataset_name == "natural":
             prompt = data[i]["question"]["text"]
             answers = [
@@ -147,6 +152,12 @@ if __name__ == "__main__":
         type=str,
         default="keyfile",
         help="Whether to read the OpenAI API key from a file or use an environment variable",
+    )
+    parser.add_argument(
+        "--sample_size",
+        type=int,
+        default=None,
+        help="Set if you want to sample a specific number of examples from the dataset",
     )
 
     args = parser.parse_args()
