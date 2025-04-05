@@ -5,3 +5,10 @@ Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[main bc2d221] QA script run
+ 4 files changed, 21 insertions(+)
+ create mode 100644 data/results_717865_gpt2_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.717864.cancalit.out
+ create mode 100644 slurm-outputs/slurm.717865.cancalit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   24cce7e..bc2d221  main -> main
