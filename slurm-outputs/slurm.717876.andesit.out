@@ -821,3 +821,8 @@ Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[main c714409] QA script run
+ 3 files changed, 345 insertions(+)
+ create mode 100644 data/results_717876_gpt2_truthful.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   eac1c79..c714409  main -> main
