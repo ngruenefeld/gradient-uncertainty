@@ -2,3 +2,9 @@ slurmstepd-andesit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission
 slurmstepd-andesit: error: Setting TMPDIR to /tmp
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[main 7beacc9] QA script run
+ 3 files changed, 16 insertions(+)
+ create mode 100644 data/results_717871_gpt2_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.717871.andesit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   fdff7ad..7beacc9  main -> main
