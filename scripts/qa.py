@@ -20,6 +20,13 @@ def main(args):
     key_mode = args.key_mode
     sample_size = args.sample_size
 
+    print(f"Job number: {job_number}")
+    print(f"Dataset: {dataset_name}")
+    print(f"Model: {model_name}")
+    print(f"GPT Model: {gpt_model}")
+    print(f"Key mode: {key_mode}")
+    print(f"Sample size: {sample_size}")
+
     if model_name == "gpt2":
         model_path = "gpt2"
     elif model_name == "llama-awq":
