@@ -9,11 +9,11 @@ def rephrase_text(text_to_rephrase, client, model):
             input=[
                 {
                     "role": "system",
-                    "content": "You are a helpful assistant that paraphrases text.",
+                    "content": "You are an expert in paraphrasing text. Your task is to generate three distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and does not simply repeat the original text.",
                 },
                 {
                     "role": "user",
-                    "content": f"Generate three paraphrases of the following text: {text_to_rephrase}",
+                    "content": f"Generate three paraphrases of the following text:\n\n{text_to_rephrase}\n\nDo not divert from the original meaning in any way. Use different words and sentence structures to convey the same message.\nMake sure to provide three distinct rephrasings.",
                 },
             ],
             text={
@@ -55,7 +55,7 @@ def evaluate_answers(question, answer, reference_answers, client, model):
             input=[
                 {
                     "role": "system",
-                    "content": "You are a helpful assistant that evaluates question-answer pairs.",
+                    "content": "You are an assistant that evaluates whether answer candidates contain the correct information based on reference answers.",
                 },
                 {
                     "role": "user",

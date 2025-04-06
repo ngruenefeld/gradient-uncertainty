@@ -156,7 +156,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--gpt_model",
         type=str,
-        default="o3-mini-2025-01-31",
+        default="gpt-4o-mini-2024-07-18",
         help="GPT model to use for OpenAI API",
     )
     parser.add_argument(
