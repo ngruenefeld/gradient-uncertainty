@@ -11,7 +11,7 @@
 # Default values
 DATASET="truthful"
 MODEL="gpt2"
-GPT_MODEL="o3-mini-2025-01-31"
+GPT_MODEL="gpt-4o-mini-2024-07-18"
 KEY_MODE="keyfile"
 SAMPLE_SIZE=0
 
