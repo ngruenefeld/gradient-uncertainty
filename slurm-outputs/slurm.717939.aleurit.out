@@ -1,6 +1,6 @@
 slurmstepd-aleurit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-aleurit: error: Setting TMPDIR to /tmp
-Job number: 717927
+Job number: 717939
 Dataset: truthful
 Model: gpt2
 GPT Model: gpt-4o-mini-2024-07-18
@@ -29,56 +29,8 @@ Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py:125: UserWarning: std(): degrees of freedom is <= 0. Correction should be strictly less than the reduction factor (input numel divided by output numel). (Triggered internally at ../aten/src/ATen/native/ReduceOps.cpp:1808.)
+  torch.std(torch.stack(rephrasing_gradients), dim=0)
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
@@ -127,9 +79,4 @@ Traceback (most recent call last):
     main(args)
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 125, in main
     torch.std(torch.stack(rephrasing_gradients), dim=0)
-torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.71 GiB. GPU 0 has a total capacity of 7.79 GiB of which 2.88 GiB is free. Including non-PyTorch memory, this process has 4.89 GiB memory in use. Of the allocated memory 4.67 GiB is allocated by PyTorch, and 111.97 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
-[main f020fee] QA script run
- 2 files changed, 135 insertions(+)
- create mode 100644 slurm-outputs/slurm.717927.aleurit.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   1289421..f020fee  main -> main
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 5.56 GiB. GPU 0 has a total capacity of 7.79 GiB of which 1.01 GiB is free. Including non-PyTorch memory, this process has 6.76 GiB memory in use. Of the allocated memory 6.52 GiB is allocated by PyTorch, and 121.12 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
