@@ -108,3 +108,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 125, in main
     torch.std(torch.stack(rephrasing_gradients), dim=0)
 torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.86 GiB. GPU 0 has a total capacity of 7.79 GiB of which 573.31 MiB is free. Including non-PyTorch memory, this process has 7.21 GiB memory in use. Of the allocated memory 6.06 GiB is allocated by PyTorch, and 1.04 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[main 3f4d584] QA script run
+ 2 files changed, 115 insertions(+)
+ create mode 100644 slurm-outputs/slurm.718000.arenit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   8dcfea3..3f4d584  main -> main
