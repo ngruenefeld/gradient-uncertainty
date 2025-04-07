@@ -515,3 +515,8 @@ Traceback (most recent call last):
   File "/usr/lib/python3.8/json/decoder.py", line 353, in raw_decode
     obj, end = self.scan_once(s, idx)
 json.decoder.JSONDecodeError: Expecting ',' delimiter: line 22903 column 1 (char 65190)
+[main c0c6c9f] QA Script Results for Run 718003
+ 2 files changed, 523 insertions(+)
+ create mode 100644 slurm-outputs/slurm.718003.andesit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   5d2a696..c0c6c9f  main -> main
