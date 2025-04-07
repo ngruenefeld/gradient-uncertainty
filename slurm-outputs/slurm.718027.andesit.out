@@ -1,0 +1,9 @@
+slurmstepd-andesit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-andesit: error: Setting TMPDIR to /tmp
+Job number: 718027
+Dataset: truthful
+Model: gpt2
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+slurmstepd-andesit: error: *** JOB 718027 ON andesit CANCELLED AT 2025-04-07T12:42:38 ***
