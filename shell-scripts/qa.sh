@@ -42,5 +42,5 @@ python -um scripts.qa "$SLURM_JOB_ID" \
 # Deactivate and commit results
 deactivate
 git add .
-git commit -m "QA script run"
+git commit -m "QA Script Results for Run $SLURM_JOB_ID"
 git push
