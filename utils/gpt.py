@@ -39,8 +39,14 @@ def rephrase_text(text_to_rephrase, client, model):
                 }
             },
         )
-        event = json.loads(response.output_text)
-        return event
+        try:
+            # Attempt to parse the response as JSON
+            event = json.loads(response.output_text)
+            return event
+        except json.JSONDecodeError as json_error:
+            # Handle JSON parsing errors
+            print(f"JSONDecodeError: {json_error}")
+            return {"error": "Invalid JSON response from API"}
     except openai.BadRequestError as e:
         error_message = str(e)  # Extract the error message as a string
         print(f"Error: {error_message}")
@@ -83,8 +89,14 @@ def evaluate_answers(question, answer, reference_answers, client, model):
                 }
             },
         )
-        event = json.loads(response.output_text)
-        return event
+        try:
+            # Attempt to parse the response as JSON
+            event = json.loads(response.output_text)
+            return event
+        except json.JSONDecodeError as json_error:
+            # Handle JSON parsing errors
+            print(f"JSONDecodeError: {json_error}")
+            return {"error": "Invalid JSON response from API"}
     except openai.BadRequestError as e:
         error_message = str(e)  # Extract the error message as a string
         print(f"Error: {error_message}")
