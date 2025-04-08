@@ -1,0 +1,9 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Test
+<function get_response at 0x7f929b7d7430>
+Device: cuda
+Total memory: 21158297600
+Reserved memory: 0
+Allocated memory: 0
+Free memory: 0
