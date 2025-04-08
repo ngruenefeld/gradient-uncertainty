@@ -7,3 +7,8 @@ Total memory: 21158297600
 Reserved memory: 0
 Allocated memory: 0
 Free memory: 0
+[main cdd14bb] Test script run
+ 2 files changed, 14 insertions(+)
+ create mode 100644 slurm-outputs/slurm.718297.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   01385ee..cdd14bb  main -> main
