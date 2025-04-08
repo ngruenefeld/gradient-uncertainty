@@ -80,3 +80,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/triton/backends/nvidia/driver.py", line 365, in __call__
     self.launch(*args, **kwargs)
 ValueError: Pointer argument (at 0) cannot be accessed from Triton (cpu tensor?)
+[main beaa516] QA Script Results for Run 718298
+ 2 files changed, 87 insertions(+)
+ create mode 100644 slurm-outputs/slurm.718298.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   cdd14bb..beaa516  main -> main
