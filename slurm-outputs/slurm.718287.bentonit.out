@@ -3,3 +3,8 @@ slurmstepd-bentonit: error: Setting TMPDIR to /tmp
 Test
 <function get_response at 0x7f5156374430>
 Device: cuda
+[main debb850] Test script run
+ 2 files changed, 12 insertions(+)
+ create mode 100644 slurm-outputs/slurm.718287.bentonit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   5b8f387..debb850  main -> main
