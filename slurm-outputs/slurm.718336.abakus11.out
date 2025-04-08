@@ -36,3 +36,11 @@ Traceback (most recent call last):
   File "/usr/lib/python3.8/json/decoder.py", line 353, in raw_decode
     obj, end = self.scan_once(s, idx)
 json.decoder.JSONDecodeError: Expecting ',' delimiter: line 7533 column 3 (char 18270)
+[main 6bfad4b] QA Script Results for Run 718336
+ 2 files changed, 43 insertions(+)
+ create mode 100644 slurm-outputs/slurm.718336.abakus11.out
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
