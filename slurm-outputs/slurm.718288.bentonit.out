@@ -7,3 +7,8 @@ Total memory: 8326676480
 Reserved memory: 0
 Allocated memory: 0
 Free memory: 0
+[main e4affd2] Test script run
+ 2 files changed, 14 insertions(+)
+ create mode 100644 slurm-outputs/slurm.718288.bentonit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   b08efd6..e4affd2  main -> main

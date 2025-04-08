@@ -1,0 +1,9 @@
+slurmstepd-bentonit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-bentonit: error: Setting TMPDIR to /tmp
+Test
+<function get_response at 0x7f37e13ee430>
+Device: cuda
+Total memory: 8326676480
+Reserved memory: 0
+Allocated memory: 0
+Free memory: 0
