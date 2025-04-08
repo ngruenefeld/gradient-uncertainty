@@ -1,6 +1,6 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Job number: 718330
+Job number: 718336
 Dataset: truthful
 Model: llama-awq
 GPT Model: gpt-4o-mini-2024-07-18
@@ -35,9 +35,4 @@ Traceback (most recent call last):
     obj, end = self.raw_decode(s, idx=_w(s, 0).end())
   File "/usr/lib/python3.8/json/decoder.py", line 353, in raw_decode
     obj, end = self.scan_once(s, idx)
-json.decoder.JSONDecodeError: Expecting ',' delimiter: line 22425 column 1 (char 63735)
-[main 8a94cd0] QA Script Results for Run 718330
- 2 files changed, 43 insertions(+)
- create mode 100644 slurm-outputs/slurm.718330.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   ad49262..8a94cd0  main -> main
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 7533 column 3 (char 18270)
