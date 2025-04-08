@@ -1,6 +1,6 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Job number: 718342
+Job number: 718343
 Dataset: truthful
 Model: llama-awq
 GPT Model: gpt-4o-mini-2024-07-18
@@ -16,12 +16,6 @@ huggingface/tokenizers: The current process just got forked, after parallelism h
 To disable this warning, you can either:
 	- Avoid using `tokenizers` before the fork if possible
 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-JSONDecodeError: Expecting value: line 24832 column 1 (char 50259)
-Skipping sample 32 due to rephrase_text error: Invalid JSON response from API
-/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py:125: UserWarning: std(): degrees of freedom is <= 0. Correction should be strictly less than the reduction factor (input numel divided by output numel). (Triggered internally at ../aten/src/ATen/native/ReduceOps.cpp:1808.)
-  torch.std(torch.stack(rephrasing_gradients), dim=0)
-JSONDecodeError: Expecting ',' delimiter: line 28603 column 1 (char 69330)
-Skipping sample 94 due to rephrase_text error: Invalid JSON response from API
 Traceback (most recent call last):
   File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
     return _run_code(code, main_globals, None,
@@ -31,9 +25,4 @@ Traceback (most recent call last):
     main(args)
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 125, in main
     torch.std(torch.stack(rephrasing_gradients), dim=0)
-torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 12.71 GiB. GPU 0 has a total capacity of 19.71 GiB of which 1.80 GiB is free. Including non-PyTorch memory, this process has 17.88 GiB memory in use. Of the allocated memory 16.88 GiB is allocated by PyTorch, and 786.41 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
-[main a838af6] QA Script Results for Run 718342
- 1 file changed, 34 insertions(+)
- create mode 100644 slurm-outputs/slurm.718342.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   87432f7..a838af6  main -> main
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 7.82 GiB. GPU 0 has a total capacity of 19.71 GiB of which 6.20 GiB is free. Including non-PyTorch memory, this process has 13.48 GiB memory in use. Of the allocated memory 11.99 GiB is allocated by PyTorch, and 1.26 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
