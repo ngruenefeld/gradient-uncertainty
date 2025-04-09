@@ -98,7 +98,10 @@ def main(args):
         gradient, completion_length = completion_gradient(
             prompt, completion, model, tokenizer, device
         )
-        gradient = torch.norm(gradient).item()
+        gradient_norm = torch.norm(gradient).item()
+
+        # Clear CUDA cache to free up memory
+        torch.cuda.empty_cache()
 
         rephrasings_result = rephrase_text(completion, oai_client, gpt_model)
         if "error" in rephrasings_result:
@@ -109,21 +112,40 @@ def main(args):
 
         rephrasings = rephrasings_result["rephrasings"]
 
-        rephrasing_gradients = []
         rephrasing_lengths = []
         rephrasing_gradient_norms = []
+
+        # Calculate running statistics for variance/std
+        # Use Welford's online algorithm for computing variance
+        n = 0
+        mean = torch.zeros_like(gradient)
+        M2 = torch.zeros_like(gradient)
 
         for phrasing in rephrasings:
             rephrasing_gradient, rephrasing_length = completion_gradient(
                 prompt, phrasing, model, tokenizer, device
             )
-            rephrasing_gradients.append(rephrasing_gradient)
             rephrasing_lengths.append(rephrasing_length)
             rephrasing_gradient_norms.append(torch.norm(rephrasing_gradient).item())
 
-        # rephrasing_gradient_std = torch.sum(
-        #     torch.std(torch.stack(rephrasing_gradients), dim=0)
-        # ).item()
+            # Update running variance calculation
+            n += 1
+            delta = rephrasing_gradient - mean
+            mean += delta / n
+            delta2 = rephrasing_gradient - mean
+            M2 += delta * delta2
+
+            # Free memory immediately
+            del rephrasing_gradient
+            torch.cuda.empty_cache()
+
+        # Calculate standard deviation
+        if n > 1:
+            variance = M2 / (n - 1)
+            std_dev = torch.sqrt(variance)
+            rephrasing_gradient_std = torch.sum(std_dev).item()
+        else:
+            rephrasing_gradient_std = 0.0
 
         results.append(
             {
@@ -132,13 +154,16 @@ def main(args):
                 "completion_length": completion_length,
                 "correct_answers": answers,
                 "evaluation": evaluation["is_correct"],
-                "completion_gradient": gradient,
+                "completion_gradient": gradient_norm,
                 "rephrased_completions": rephrasings,
                 "rephrased_completion_lengths": rephrasing_lengths,
                 "rephrased_gradients": rephrasing_gradient_norms,
-                # "rephrased_gradient_std": rephrasing_gradient_std,
+                "rephrased_gradient_std": rephrasing_gradient_std,
             }
         )
+
+        # Clear memory after each sample
+        torch.cuda.empty_cache()
 
     df = pd.DataFrame(results)
     df.to_pickle(f"data/results_{job_number}_{model_name}_{dataset_name}.pkl")
