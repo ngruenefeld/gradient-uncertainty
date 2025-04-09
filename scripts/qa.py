@@ -121,9 +121,9 @@ def main(args):
             rephrasing_lengths.append(rephrasing_length)
             rephrasing_gradient_norms.append(torch.norm(rephrasing_gradient).item())
 
-        rephrasing_gradient_std = torch.sum(
-            torch.std(torch.stack(rephrasing_gradients), dim=0)
-        ).item()
+        # rephrasing_gradient_std = torch.sum(
+        #     torch.std(torch.stack(rephrasing_gradients), dim=0)
+        # ).item()
 
         results.append(
             {
@@ -136,7 +136,7 @@ def main(args):
                 "rephrased_completions": rephrasings,
                 "rephrased_completion_lengths": rephrasing_lengths,
                 "rephrased_gradients": rephrasing_gradient_norms,
-                "rephrased_gradient_std": rephrasing_gradient_std,
+                # "rephrased_gradient_std": rephrasing_gradient_std,
             }
         )
 
