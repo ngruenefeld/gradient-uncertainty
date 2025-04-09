@@ -1,6 +1,6 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Job number: 718514
+Job number: 718535
 Dataset: truthful
 Model: llama-awq
 GPT Model: gpt-4o-mini-2024-07-18
@@ -16,15 +16,5 @@ huggingface/tokenizers: The current process just got forked, after parallelism h
 To disable this warning, you can either:
 	- Avoid using `tokenizers` before the fork if possible
 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-JSONDecodeError: Expecting value: line 16867 column 1 (char 35318)
-Skipping sample 188 due to rephrase_text error: Invalid JSON response from API
-JSONDecodeError: Expecting value: line 22913 column 1 (char 41930)
-Skipping sample 397 due to rephrase_text error: Invalid JSON response from API
 JSONDecodeError: Expecting value: line 1 column 17 (char 16)
-Skipping sample 433 due to rephrase_text error: Invalid JSON response from API
-[main 1c7151e] QA Script Results for Run 718514
- 3 files changed, 29 insertions(+)
- create mode 100644 data/results_718514_llama-awq_truthful.pkl
- create mode 100644 slurm-outputs/slurm.718514.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   a5db2dd..1c7151e  main -> main
+Skipping sample 682 due to rephrase_text error: Invalid JSON response from API
