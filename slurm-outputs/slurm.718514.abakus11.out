@@ -1,0 +1,24 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Job number: 718514
+Dataset: truthful
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+JSONDecodeError: Expecting value: line 16867 column 1 (char 35318)
+Skipping sample 188 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting value: line 22913 column 1 (char 41930)
+Skipping sample 397 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting value: line 1 column 17 (char 16)
+Skipping sample 433 due to rephrase_text error: Invalid JSON response from API
