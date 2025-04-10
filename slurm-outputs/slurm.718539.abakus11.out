@@ -1,0 +1,54 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Job number: 718539
+Dataset: trivia
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+JSONDecodeError: Expecting ',' delimiter: line 22848 column 1 (char 52529)
+Skipping sample 128 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting value: line 16980 column 1 (char 45087)
+Skipping sample 158 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting ',' delimiter: line 6 column 229 (char 786)
+Skipping sample 169 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting value: line 24850 column 1 (char 53938)
+Skipping sample 1494 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting value: line 1 column 17 (char 16)
+Skipping sample 1543 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting ',' delimiter: line 17682 column 1 (char 43233)
+Skipping sample 1702 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting ',' delimiter: line 21 column 2 (char 379)
+Skipping sample 2285 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting value: line 29988 column 1 (char 71368)
+Skipping sample 2598 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting ',' delimiter: line 28066 column 1 (char 45005)
+Skipping sample 2745 due to rephrase_text error: Invalid JSON response from API
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 209, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 87, in main
+    completion = get_response(prompt, model, tokenizer, device)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 8, in get_response
+    outputs = model.generate(**inputs, max_length=100)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/generation/utils.py", line 2068, in generate
+    self._validate_generated_length(generation_config, input_ids_length, has_default_max_length)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/generation/utils.py", line 1383, in _validate_generated_length
+    raise ValueError(
+ValueError: Input length of input_ids is 102, but `max_length` is set to 100. This can lead to unexpected behavior. You should consider increasing `max_length` or, better yet, setting `max_new_tokens`.

@@ -18,3 +18,9 @@ To disable this warning, you can either:
 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
 JSONDecodeError: Expecting value: line 1 column 17 (char 16)
 Skipping sample 682 due to rephrase_text error: Invalid JSON response from API
+[main d102ba3] QA Script Results for Run 718535
+ 3 files changed, 26 insertions(+)
+ create mode 100644 data/results_718535_llama-awq_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.718535.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   0ef0a71..d102ba3  main -> main
