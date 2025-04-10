@@ -52,3 +52,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/generation/utils.py", line 1383, in _validate_generated_length
     raise ValueError(
 ValueError: Input length of input_ids is 102, but `max_length` is set to 100. This can lead to unexpected behavior. You should consider increasing `max_length` or, better yet, setting `max_new_tokens`.
+[main 1b91f7c] QA Script Results for Run 718539
+ 2 files changed, 60 insertions(+)
+ create mode 100644 slurm-outputs/slurm.718539.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   d102ba3..1b91f7c  main -> main
