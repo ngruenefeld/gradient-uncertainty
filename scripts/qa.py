@@ -1,6 +1,7 @@
 import argparse
 import os
 import random
+import traceback
 
 import pandas as pd
 import torch
@@ -61,6 +62,8 @@ def main(args):
         data = dataset["validation"]
 
     results = []
+    processed_count = 0
+    failed_count = 0
 
     if sample_size > 0:
         indices = random.sample(range(len(data)), sample_size)
@@ -68,87 +71,123 @@ def main(args):
         indices = range(len(data))
 
     for i in indices:
-        if dataset_name == "natural":
-            prompt = data[i]["question"]["text"]
-            answers = [
-                text
-                for sublist in [
-                    a["text"] for a in data[i]["annotations"]["short_answers"]
+        print(f"Processing sample {i}/{len(indices)}")
+        try:
+            if dataset_name == "natural":
+                prompt = data[i]["question"]["text"]
+                answers = [
+                    text
+                    for sublist in [
+                        a["text"] for a in data[i]["annotations"]["short_answers"]
+                    ]
+                    for text in sublist
                 ]
-                for text in sublist
-            ]
-        elif dataset_name == "truthful":
-            prompt = data[i]["question"]
-            answers = data[i]["correct_answers"]
-        elif dataset_name == "trivia":
-            prompt = data[i]["question"]
-            answers = data[i]["answer"]["aliases"]
+            elif dataset_name == "truthful":
+                prompt = data[i]["question"]
+                answers = data[i]["correct_answers"]
+            elif dataset_name == "trivia":
+                prompt = data[i]["question"]
+                answers = data[i]["answer"]["aliases"]
 
-        completion = get_response(prompt, model, tokenizer, device)
+            # Get response (with built-in error handling)
+            completion_result = get_response(prompt, model, tokenizer, device)
+            if isinstance(completion_result, dict) and "error" in completion_result:
+                print(
+                    f"Error getting response for sample {i}: {completion_result['error']}"
+                )
+                failed_count += 1
+                continue
+            completion = completion_result
 
-        evaluation = evaluate_answers(
-            prompt, completion, answers, oai_client, gpt_model
-        )
-        if "error" in evaluation:
-            print(
-                f"Skipping sample {i} due to evaluate_answers error: {evaluation['error']}"
+            # Evaluate answers (with built-in error handling)
+            evaluation = evaluate_answers(
+                prompt, completion, answers, oai_client, gpt_model
             )
-            continue
 
-        gradient, completion_length = completion_gradient(
-            prompt, completion, model, tokenizer, device
-        )
-        gradient_norm = torch.norm(gradient).item()
-
-        # Clear CUDA cache to free up memory
-        torch.cuda.empty_cache()
-
-        rephrasings_result = rephrase_text(completion, oai_client, gpt_model)
-        if "error" in rephrasings_result:
-            print(
-                f"Skipping sample {i} due to rephrase_text error: {rephrasings_result['error']}"
+            # Calculate gradient (with built-in error handling)
+            gradient_result = completion_gradient(
+                prompt, completion, model, tokenizer, device
             )
-            continue
+            if isinstance(gradient_result, dict) and "error" in gradient_result:
+                print(
+                    f"Error calculating gradient for sample {i}: {gradient_result['error']}"
+                )
+                failed_count += 1
+                continue
 
-        rephrasings = rephrasings_result["rephrasings"]
+            gradient, completion_length = gradient_result
+            gradient_norm = torch.norm(gradient).item()
 
-        rephrasing_lengths = []
-        rephrasing_gradient_norms = []
+            # Get rephrasings (with built-in error handling)
+            rephrasings_result = rephrase_text(completion, oai_client, gpt_model)
+            if "error" in rephrasings_result:
+                print(
+                    f"Error getting rephrasings for sample {i}: {rephrasings_result['error']}"
+                )
+                failed_count += 1
+                continue
 
-        # Calculate running statistics for variance/std
-        # Use Welford's online algorithm for computing variance
-        n = 0
-        mean = torch.zeros_like(gradient)
-        M2 = torch.zeros_like(gradient)
+            rephrasings = rephrasings_result["rephrasings"]
 
-        for phrasing in rephrasings:
-            rephrasing_gradient, rephrasing_length = completion_gradient(
-                prompt, phrasing, model, tokenizer, device
-            )
-            rephrasing_lengths.append(rephrasing_length)
-            rephrasing_gradient_norms.append(torch.norm(rephrasing_gradient).item())
-
-            # Update running variance calculation
-            n += 1
-            delta = rephrasing_gradient - mean
-            mean += delta / n
-            delta2 = rephrasing_gradient - mean
-            M2 += delta * delta2
-
-            # Free memory immediately
-            del rephrasing_gradient
-            torch.cuda.empty_cache()
-
-        # Calculate standard deviation
-        if n > 1:
-            variance = M2 / (n - 1)
-            std_dev = torch.sqrt(variance)
-            rephrasing_gradient_std = torch.sum(std_dev).item()
-        else:
+            rephrasing_lengths = []
+            rephrasing_gradient_norms = []
             rephrasing_gradient_std = 0.0
 
-        results.append(
-            {
+            # Initialize for statistics calculation
+            n = 0
+            mean = torch.zeros_like(gradient)
+            M2 = torch.zeros_like(gradient)
+
+            # Flag to track if any rephrasing fails
+            rephrasing_error = False
+
+            # Process each rephrasing
+            for idx, phrasing in enumerate(rephrasings):
+                rephrasing_gradient_result = completion_gradient(
+                    prompt, phrasing, model, tokenizer, device
+                )
+
+                if (
+                    isinstance(rephrasing_gradient_result, dict)
+                    and "error" in rephrasing_gradient_result
+                ):
+                    print(
+                        f"Error calculating gradient for rephrasing {idx} in sample {i}: {rephrasing_gradient_result['error']}"
+                    )
+                    # Mark that we had an error and should skip this sample
+                    rephrasing_error = True
+                    torch.cuda.empty_cache()
+                    break
+
+                rephrasing_gradient, rephrasing_length = rephrasing_gradient_result
+                rephrasing_lengths.append(rephrasing_length)
+                rephrasing_gradient_norm = torch.norm(rephrasing_gradient).item()
+                rephrasing_gradient_norms.append(rephrasing_gradient_norm)
+
+                # Update running variance calculation
+                n += 1
+                delta = rephrasing_gradient - mean
+                mean += delta / n
+                delta2 = rephrasing_gradient - mean
+                M2 += delta * delta2
+
+                # Free memory
+                del rephrasing_gradient
+                torch.cuda.empty_cache()
+
+            # Skip this sample if any rephrasing had an error
+            if rephrasing_error:
+                failed_count += 1
+                continue
+
+            # Calculate standard deviation if we have enough data
+            if n > 1:
+                variance = M2 / (n - 1)
+                std_dev = torch.sqrt(variance)
+                rephrasing_gradient_std = torch.sum(std_dev).item()
+
+            # Add successful result to our collection
+            result_entry = {
                 "question": prompt,
                 "completion": completion,
                 "completion_length": completion_length,
@@ -160,13 +199,31 @@ def main(args):
                 "rephrased_gradients": rephrasing_gradient_norms,
                 "rephrased_gradient_std": rephrasing_gradient_std,
             }
-        )
+            results.append(result_entry)
+            processed_count += 1
+            print(f"Sample {i} processed successfully with {n} rephrasings.")
+
+        except Exception as e:
+            print(f"Error processing sample {i}: {str(e)}")
+            failed_count += 1
+            # Clear all CUDA cache and continue
+            torch.cuda.empty_cache()
+            continue
 
         # Clear memory after each sample
         torch.cuda.empty_cache()
 
-    df = pd.DataFrame(results)
-    df.to_pickle(f"data/results_{job_number}_{model_name}_{dataset_name}.pkl")
+    # Save final results if we have any
+    if results:
+        df = pd.DataFrame(results)
+        df.to_pickle(f"data/results_{job_number}_{model_name}_{dataset_name}.pkl")
+        print(
+            f"Processing complete. Saved {len(results)} successful results. Failed: {failed_count}"
+        )
+    else:
+        print(
+            f"Processing complete, but no successful results to save. All {failed_count} samples failed."
+        )
 
 
 if __name__ == "__main__":
