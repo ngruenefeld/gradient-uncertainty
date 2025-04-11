@@ -70,8 +70,13 @@ def main(args):
     else:
         indices = range(len(data))
 
+    total_samples = len(indices)
+
     for i in indices:
-        print(f"Processing sample {i}/{len(indices)}")
+        current_sample = processed_count + failed_count + 1
+        print(
+            f"Processing sample {current_sample}/{total_samples} (dataset index: {i})"
+        )
         try:
             if dataset_name == "natural":
                 prompt = data[i]["question"]["text"]
@@ -93,7 +98,7 @@ def main(args):
             completion_result = get_response(prompt, model, tokenizer, device)
             if isinstance(completion_result, dict) and "error" in completion_result:
                 print(
-                    f"Error getting response for sample {i}: {completion_result['error']}"
+                    f"Error getting response for sample {current_sample} (index {i}): {completion_result['error']}"
                 )
                 failed_count += 1
                 continue
@@ -110,7 +115,7 @@ def main(args):
             )
             if isinstance(gradient_result, dict) and "error" in gradient_result:
                 print(
-                    f"Error calculating gradient for sample {i}: {gradient_result['error']}"
+                    f"Error calculating gradient for sample {current_sample} (index {i}): {gradient_result['error']}"
                 )
                 failed_count += 1
                 continue
@@ -122,7 +127,7 @@ def main(args):
             rephrasings_result = rephrase_text(completion, oai_client, gpt_model)
             if "error" in rephrasings_result:
                 print(
-                    f"Error getting rephrasings for sample {i}: {rephrasings_result['error']}"
+                    f"Error getting rephrasings for sample {current_sample} (index {i}): {rephrasings_result['error']}"
                 )
                 failed_count += 1
                 continue
@@ -152,7 +157,7 @@ def main(args):
                     and "error" in rephrasing_gradient_result
                 ):
                     print(
-                        f"Error calculating gradient for rephrasing {idx} in sample {i}: {rephrasing_gradient_result['error']}"
+                        f"Error calculating gradient for rephrasing {idx} in sample {current_sample} (index {i}): {rephrasing_gradient_result['error']}"
                     )
                     # Mark that we had an error and should skip this sample
                     rephrasing_error = True
@@ -201,10 +206,12 @@ def main(args):
             }
             results.append(result_entry)
             processed_count += 1
-            print(f"Sample {i} processed successfully with {n} rephrasings.")
+            print(
+                f"Sample {current_sample} (index {i}) processed successfully with {n} rephrasings."
+            )
 
         except Exception as e:
-            print(f"Error processing sample {i}: {str(e)}")
+            print(f"Error processing sample {current_sample} (index {i}): {str(e)}")
             failed_count += 1
             # Clear all CUDA cache and continue
             torch.cuda.empty_cache()
