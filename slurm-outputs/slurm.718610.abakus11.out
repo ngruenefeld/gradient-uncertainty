@@ -80,3 +80,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/models/llama/modeling_llama.py", line 258, in forward
     down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
 torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 106.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 94.56 MiB is free. Including non-PyTorch memory, this process has 19.59 GiB memory in use. Of the allocated memory 18.82 GiB is allocated by PyTorch, and 550.99 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[main 242fc95] QA Script Results for Run 718610
+ 2 files changed, 88 insertions(+)
+ create mode 100644 slurm-outputs/slurm.718610.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   e7cd674..242fc95  main -> main

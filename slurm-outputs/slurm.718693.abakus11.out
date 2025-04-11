@@ -1,0 +1,219 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Job number: 718693
+Dataset: trivia
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 100
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1320/100
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Sample 1320 processed successfully with 3 rephrasings.
+Processing sample 4725/100
+Sample 4725 processed successfully with 3 rephrasings.
+Processing sample 2173/100
+Sample 2173 processed successfully with 3 rephrasings.
+Processing sample 6311/100
+Sample 6311 processed successfully with 3 rephrasings.
+Processing sample 471/100
+Sample 471 processed successfully with 3 rephrasings.
+Processing sample 7070/100
+Sample 7070 processed successfully with 3 rephrasings.
+Processing sample 2131/100
+Sample 2131 processed successfully with 3 rephrasings.
+Processing sample 6349/100
+Sample 6349 processed successfully with 3 rephrasings.
+Processing sample 3769/100
+Sample 3769 processed successfully with 3 rephrasings.
+Processing sample 715/100
+Sample 715 processed successfully with 3 rephrasings.
+Processing sample 7839/100
+Sample 7839 processed successfully with 3 rephrasings.
+Processing sample 7195/100
+Sample 7195 processed successfully with 3 rephrasings.
+Processing sample 1278/100
+Sample 1278 processed successfully with 3 rephrasings.
+Processing sample 2495/100
+Sample 2495 processed successfully with 3 rephrasings.
+Processing sample 5491/100
+Sample 5491 processed successfully with 3 rephrasings.
+Processing sample 3930/100
+Sample 3930 processed successfully with 3 rephrasings.
+Processing sample 7261/100
+Sample 7261 processed successfully with 3 rephrasings.
+Processing sample 4428/100
+Sample 4428 processed successfully with 3 rephrasings.
+Processing sample 2080/100
+Sample 2080 processed successfully with 3 rephrasings.
+Processing sample 7173/100
+Sample 7173 processed successfully with 3 rephrasings.
+Processing sample 3208/100
+Sample 3208 processed successfully with 3 rephrasings.
+Processing sample 123/100
+Sample 123 processed successfully with 3 rephrasings.
+Processing sample 3128/100
+Sample 3128 processed successfully with 3 rephrasings.
+Processing sample 2710/100
+Sample 2710 processed successfully with 3 rephrasings.
+Processing sample 2667/100
+Sample 2667 processed successfully with 3 rephrasings.
+Processing sample 7857/100
+Sample 7857 processed successfully with 3 rephrasings.
+Processing sample 3269/100
+Sample 3269 processed successfully with 3 rephrasings.
+Processing sample 205/100
+Sample 205 processed successfully with 3 rephrasings.
+Processing sample 6325/100
+Sample 6325 processed successfully with 3 rephrasings.
+Processing sample 3770/100
+Sample 3770 processed successfully with 3 rephrasings.
+Processing sample 4992/100
+Sample 4992 processed successfully with 3 rephrasings.
+Processing sample 6623/100
+Sample 6623 processed successfully with 3 rephrasings.
+Processing sample 1023/100
+Sample 1023 processed successfully with 3 rephrasings.
+Processing sample 2423/100
+Sample 2423 processed successfully with 3 rephrasings.
+Processing sample 6902/100
+Sample 6902 processed successfully with 3 rephrasings.
+Processing sample 2500/100
+Sample 2500 processed successfully with 3 rephrasings.
+Processing sample 2166/100
+Sample 2166 processed successfully with 3 rephrasings.
+Processing sample 3620/100
+Sample 3620 processed successfully with 3 rephrasings.
+Processing sample 1158/100
+Sample 1158 processed successfully with 3 rephrasings.
+Processing sample 1216/100
+Sample 1216 processed successfully with 3 rephrasings.
+Processing sample 2362/100
+Sample 2362 processed successfully with 3 rephrasings.
+Processing sample 1710/100
+Sample 1710 processed successfully with 3 rephrasings.
+Processing sample 6615/100
+Sample 6615 processed successfully with 3 rephrasings.
+Processing sample 3779/100
+Sample 3779 processed successfully with 3 rephrasings.
+Processing sample 2519/100
+Sample 2519 processed successfully with 3 rephrasings.
+Processing sample 6444/100
+Sample 6444 processed successfully with 4 rephrasings.
+Processing sample 7505/100
+Sample 7505 processed successfully with 3 rephrasings.
+Processing sample 2107/100
+Sample 2107 processed successfully with 3 rephrasings.
+Processing sample 2393/100
+Sample 2393 processed successfully with 1 rephrasings.
+Processing sample 694/100
+Sample 694 processed successfully with 3 rephrasings.
+Processing sample 3663/100
+Sample 3663 processed successfully with 3 rephrasings.
+Processing sample 5399/100
+Sample 5399 processed successfully with 3 rephrasings.
+Processing sample 6674/100
+Sample 6674 processed successfully with 3 rephrasings.
+Processing sample 4/100
+Sample 4 processed successfully with 3 rephrasings.
+Processing sample 973/100
+Sample 973 processed successfully with 3 rephrasings.
+Processing sample 2629/100
+Sample 2629 processed successfully with 3 rephrasings.
+Processing sample 2441/100
+Sample 2441 processed successfully with 3 rephrasings.
+Processing sample 6495/100
+Sample 6495 processed successfully with 3 rephrasings.
+Processing sample 5340/100
+Sample 5340 processed successfully with 3 rephrasings.
+Processing sample 6395/100
+Sample 6395 processed successfully with 5 rephrasings.
+Processing sample 100/100
+Sample 100 processed successfully with 3 rephrasings.
+Processing sample 227/100
+Sample 227 processed successfully with 3 rephrasings.
+Processing sample 7001/100
+Sample 7001 processed successfully with 3 rephrasings.
+Processing sample 1335/100
+Sample 1335 processed successfully with 3 rephrasings.
+Processing sample 3622/100
+Sample 3622 processed successfully with 3 rephrasings.
+Processing sample 7130/100
+Sample 7130 processed successfully with 3 rephrasings.
+Processing sample 4027/100
+Sample 4027 processed successfully with 3 rephrasings.
+Processing sample 7961/100
+Sample 7961 processed successfully with 3 rephrasings.
+Processing sample 3546/100
+Sample 3546 processed successfully with 3 rephrasings.
+Processing sample 7270/100
+Sample 7270 processed successfully with 3 rephrasings.
+Processing sample 1794/100
+Sample 1794 processed successfully with 3 rephrasings.
+Processing sample 2730/100
+Sample 2730 processed successfully with 3 rephrasings.
+Processing sample 6571/100
+Sample 6571 processed successfully with 3 rephrasings.
+Processing sample 2855/100
+Sample 2855 processed successfully with 3 rephrasings.
+Processing sample 1821/100
+Sample 1821 processed successfully with 3 rephrasings.
+Processing sample 4682/100
+Sample 4682 processed successfully with 3 rephrasings.
+Processing sample 4832/100
+Sample 4832 processed successfully with 3 rephrasings.
+Processing sample 166/100
+Sample 166 processed successfully with 3 rephrasings.
+Processing sample 4804/100
+Sample 4804 processed successfully with 3 rephrasings.
+Processing sample 1520/100
+Sample 1520 processed successfully with 3 rephrasings.
+Processing sample 6683/100
+Sample 6683 processed successfully with 3 rephrasings.
+Processing sample 3638/100
+Sample 3638 processed successfully with 3 rephrasings.
+Processing sample 6162/100
+Sample 6162 processed successfully with 3 rephrasings.
+Processing sample 5099/100
+Sample 5099 processed successfully with 3 rephrasings.
+Processing sample 5645/100
+Sample 5645 processed successfully with 3 rephrasings.
+Processing sample 5449/100
+Sample 5449 processed successfully with 3 rephrasings.
+Processing sample 6164/100
+Sample 6164 processed successfully with 6 rephrasings.
+Processing sample 3817/100
+Sample 3817 processed successfully with 3 rephrasings.
+Processing sample 602/100
+Sample 602 processed successfully with 4 rephrasings.
+Processing sample 485/100
+Sample 485 processed successfully with 3 rephrasings.
+Processing sample 6666/100
+Sample 6666 processed successfully with 3 rephrasings.
+Processing sample 3138/100
+Sample 3138 processed successfully with 3 rephrasings.
+Processing sample 5328/100
+Sample 5328 processed successfully with 3 rephrasings.
+Processing sample 3945/100
+Sample 3945 processed successfully with 3 rephrasings.
+Processing sample 4039/100
+Sample 4039 processed successfully with 3 rephrasings.
+Processing sample 3036/100
+Sample 3036 processed successfully with 3 rephrasings.
+Processing sample 5011/100
+Sample 5011 processed successfully with 3 rephrasings.
+Processing sample 2373/100
+Sample 2373 processed successfully with 3 rephrasings.
+Processing sample 578/100
+Sample 578 processed successfully with 1 rephrasings.
+Processing sample 7416/100
+Sample 7416 processed successfully with 3 rephrasings.
+Processing complete. Saved 100 successful results. Failed: 0
