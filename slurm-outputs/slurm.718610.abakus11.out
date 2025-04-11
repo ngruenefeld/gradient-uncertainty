@@ -1,0 +1,82 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Job number: 718610
+Dataset: trivia
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+JSONDecodeError: Expecting ',' delimiter: line 24902 column 1 (char 52792)
+Skipping sample 772 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting ',' delimiter: line 26789 column 1 (char 54168)
+Skipping sample 1154 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting ',' delimiter: line 25046 column 799 (char 42005)
+Skipping sample 1240 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting ',' delimiter: line 9919 column 3 (char 38808)
+Skipping sample 1642 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting ',' delimiter: line 46861 column 1 (char 63484)
+Skipping sample 2221 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting ',' delimiter: line 2 column 16483 (char 16499)
+Skipping sample 2277 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting value: line 1 column 17 (char 16)
+Skipping sample 2965 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting value: line 1 column 17 (char 16)
+Skipping sample 3103 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Extra data: line 1 column 21 (char 20)
+Skipping sample 3160 due to evaluate_answers error: Invalid JSON response from API
+JSONDecodeError: Expecting ',' delimiter: line 12017 column 1 (char 36704)
+Skipping sample 3339 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting ',' delimiter: line 36283 column 1 (char 54362)
+Skipping sample 3750 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting ',' delimiter: line 24972 column 1 (char 41759)
+Skipping sample 3863 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting ',' delimiter: line 23254 column 1 (char 49570)
+Skipping sample 4366 due to rephrase_text error: Invalid JSON response from API
+JSONDecodeError: Expecting value: line 24040 column 1 (char 58884)
+Skipping sample 4613 due to rephrase_text error: Invalid JSON response from API
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 209, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 125, in main
+    rephrasing_gradient, rephrasing_length = completion_gradient(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 33, in completion_gradient
+    outputs = model(input_ids=input_ids, labels=labels)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/models/llama/modeling_llama.py", line 1190, in forward
+    outputs = self.model(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/models/llama/modeling_llama.py", line 945, in forward
+    layer_outputs = decoder_layer(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/models/llama/modeling_llama.py", line 692, in forward
+    hidden_states = self.mlp(hidden_states)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/models/llama/modeling_llama.py", line 258, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 106.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 94.56 MiB is free. Including non-PyTorch memory, this process has 19.59 GiB memory in use. Of the allocated memory 18.82 GiB is allocated by PyTorch, and 550.99 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

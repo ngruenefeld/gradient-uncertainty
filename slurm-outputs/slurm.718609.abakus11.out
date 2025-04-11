@@ -18,3 +18,9 @@ To disable this warning, you can either:
 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
 JSONDecodeError: Expecting ',' delimiter: line 21835 column 5 (char 51323)
 Skipping sample 6699 due to rephrase_text error: Invalid JSON response from API
+[main e7cd674] QA Script Results for Run 718609
+ 3 files changed, 25 insertions(+)
+ create mode 100644 data/results_718609_llama-awq_trivia.pkl
+ create mode 100644 slurm-outputs/slurm.718609.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   fe365a4..e7cd674  main -> main
