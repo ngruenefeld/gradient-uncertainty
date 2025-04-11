@@ -217,3 +217,9 @@ Sample 578 processed successfully with 1 rephrasings.
 Processing sample 7416/100
 Sample 7416 processed successfully with 3 rephrasings.
 Processing complete. Saved 100 successful results. Failed: 0
+[main 338e0a8] QA Script Results for Run 718693
+ 3 files changed, 224 insertions(+)
+ create mode 100644 data/results_718693_llama-awq_trivia.pkl
+ create mode 100644 slurm-outputs/slurm.718693.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   38d7513..338e0a8  main -> main
