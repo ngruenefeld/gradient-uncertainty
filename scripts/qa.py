@@ -1,13 +1,13 @@
 import argparse
 import os
 import random
-import traceback
 
 import pandas as pd
 import torch
 from datasets import load_dataset
 from openai import OpenAI
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import BitsAndBytesConfig
 
 from utils.gpt import rephrase_text, evaluate_answers
 from utils.utils import get_response, completion_gradient
@@ -21,6 +21,7 @@ def main(args):
     key_mode = args.key_mode
     sample_size = args.sample_size
     use_streaming = args.streaming
+    use_4bit = args.bits4
 
     print(f"Job number: {job_number}")
     print(f"Dataset: {dataset_name}")
@@ -29,6 +30,7 @@ def main(args):
     print(f"Key mode: {key_mode}")
     print(f"Sample size: {sample_size}")
     print(f"Streaming dataset: {use_streaming}")
+    print(f"Using 4-bit quantization: {use_4bit}")
 
     if model_name == "gpt2":
         model_path = "gpt2"
@@ -70,7 +72,25 @@ def main(args):
 
     oai_client = OpenAI(api_key=oai_api_key)
 
-    model = AutoModelForCausalLM.from_pretrained(model_path, token=hf_token)
+    # Load model with 4-bit quantization if requested for pure Llama models only
+    if use_4bit and model_name in ["llama-3-8b", "llama-3.1-8b", "llama-3.2-3b"]:
+        print("Loading model in 4-bit precision to reduce memory usage")
+        quantization_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=torch.float16,
+            bnb_4bit_use_double_quant=True,
+            bnb_4bit_quant_type="nf4",
+        )
+
+        model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            token=hf_token,
+            quantization_config=quantization_config,
+            device_map="auto",
+        )
+    else:
+        model = AutoModelForCausalLM.from_pretrained(model_path, token=hf_token)
+
     tokenizer = AutoTokenizer.from_pretrained(model_path, token=hf_token)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -346,6 +366,11 @@ if __name__ == "__main__":
         "--streaming",
         action="store_true",
         help="Enable dataset streaming to reduce memory usage",
+    )
+    parser.add_argument(
+        "--bits4",
+        action="store_true",
+        help="Enable 4-bit quantization for compatible models (requires bitsandbytes)",
     )
 
     args = parser.parse_args()

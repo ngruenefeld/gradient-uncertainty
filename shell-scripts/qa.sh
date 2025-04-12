@@ -15,6 +15,7 @@ GPT_MODEL="gpt-4o-mini-2024-07-18"
 KEY_MODE="keyfile"
 SAMPLE_SIZE=0
 STREAMING=false
+BITS4=false
 
 # Parse named arguments
 while [[ "$#" -gt 0 ]]; do
@@ -25,6 +26,7 @@ while [[ "$#" -gt 0 ]]; do
         --key_mode=*) KEY_MODE="${1#*=}";;
         --sample_size=*) SAMPLE_SIZE="${1#*=}";;
         --streaming) STREAMING=true;;
+        --bits4) BITS4=true;;
         *) echo "Unknown option: $1" ;;
     esac
     shift
@@ -43,6 +45,11 @@ CMD="python -um scripts.qa \"$SLURM_JOB_ID\" --dataset \"$DATASET\" --model \"$M
 # Add streaming flag if enabled
 if [ "$STREAMING" = true ]; then
     CMD="$CMD --streaming"
+fi
+
+# Add 4-bit quantization flag if enabled
+if [ "$BITS4" = true ]; then
+    CMD="$CMD --bits4"
 fi
 
 # Run the command
