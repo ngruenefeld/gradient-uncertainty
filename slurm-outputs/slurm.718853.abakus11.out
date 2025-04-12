@@ -26,3 +26,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/modeling_utils.py", line 3147, in to
     raise ValueError(
 ValueError: Calling `to()` is not supported for `4-bit` quantized models with the installed version of bitsandbytes. The current device is `cuda:0`. If you intended to move the model, please install bitsandbytes >= 0.43.2.
+[main c4cf5fc] QA Script Results for Run 718853 (Commit: 129a09b)
+ 2 files changed, 36 insertions(+)
+ create mode 100644 slurm-outputs/slurm.718853.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   129a09b..c4cf5fc  main -> main
