@@ -17,3 +17,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 61, in main
     model = AutoModelForCausalLM.from_pretrained(model_path, token=hf_token)
 UnboundLocalError: local variable 'model_path' referenced before assignment
+[main 43c77f0] QA Script Results for Run 718831 (Commit: 73d63fc)
+ 2 files changed, 24 insertions(+)
+ create mode 100644 slurm-outputs/slurm.718831.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   73d63fc..43c77f0  main -> main

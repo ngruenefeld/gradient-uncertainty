@@ -1,0 +1,16 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 43c77f0334641a71f3a5a86cab6519476a542985
+Job number: 718833
+Dataset: trivia
+Model: llama-3.2-3b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 1
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Downloading shards:  50%|█████     | 1/2 [01:50<01:50, 110.39s/it]Downloading shards: 100%|██████████| 2/2 [02:25<00:00, 65.89s/it] Downloading shards: 100%|██████████| 2/2 [02:25<00:00, 72.57s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:44<00:44, 44.06s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:57<00:00, 25.81s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:57<00:00, 28.55s/it]
+Processing sample 1/1 (dataset index: 4447)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 96.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 30.56 MiB is free. Including non-PyTorch memory, this process has 19.65 GiB memory in use. Of the allocated memory 19.25 GiB is allocated by PyTorch, and 178.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 1 (index 4447): CUDA out of memory. Tried to allocate 96.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 30.56 MiB is free. Including non-PyTorch memory, this process has 19.65 GiB memory in use. Of the allocated memory 19.25 GiB is allocated by PyTorch, and 178.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing complete, but no successful results to save. All 1 samples failed.
