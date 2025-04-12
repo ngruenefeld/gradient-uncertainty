@@ -29,3 +29,8 @@ Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Error in completion_gradient: CUDA out of memory. Tried to allocate 36.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 32.56 MiB is free. Including non-PyTorch memory, this process has 19.65 GiB memory in use. Of the allocated memory 19.25 GiB is allocated by PyTorch, and 179.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Error calculating gradient for sample 5 (index 6403): CUDA out of memory. Tried to allocate 36.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 32.56 MiB is free. Including non-PyTorch memory, this process has 19.65 GiB memory in use. Of the allocated memory 19.25 GiB is allocated by PyTorch, and 179.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing complete, but no successful results to save. All 5 samples failed.
+[main b77c7d3] QA Script Results for Run 718842 (Commit: 4e677ed)
+ 1 file changed, 31 insertions(+)
+ create mode 100644 slurm-outputs/slurm.718842.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   4e677ed..b77c7d3  main -> main
