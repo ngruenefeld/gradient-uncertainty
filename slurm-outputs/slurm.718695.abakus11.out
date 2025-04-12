@@ -16032,3 +16032,9 @@ Sample 7992 (index 7991) processed successfully with 3 rephrasings.
 Processing sample 7993/7993 (dataset index: 7992)
 Sample 7993 (index 7992) processed successfully with 3 rephrasings.
 Processing complete. Saved 7964 successful results. Failed: 29
+[main 7c4c7b9] QA Script Results for Run 718695
+ 3 files changed, 16040 insertions(+)
+ create mode 100644 data/results_718695_llama-awq_trivia.pkl
+ create mode 100644 slurm-outputs/slurm.718695.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   45d6a46..7c4c7b9  main -> main
