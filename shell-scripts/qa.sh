@@ -14,6 +14,7 @@ MODEL="gpt2"
 GPT_MODEL="gpt-4o-mini-2024-07-18"
 KEY_MODE="keyfile"
 SAMPLE_SIZE=0
+STREAMING=false
 
 # Parse named arguments
 while [[ "$#" -gt 0 ]]; do
@@ -23,6 +24,7 @@ while [[ "$#" -gt 0 ]]; do
         --gpt_model=*) GPT_MODEL="${1#*=}";;
         --key_mode=*) KEY_MODE="${1#*=}";;
         --sample_size=*) SAMPLE_SIZE="${1#*=}";;
+        --streaming) STREAMING=true;;
         *) echo "Unknown option: $1" ;;
     esac
     shift
@@ -35,13 +37,16 @@ echo "Running job with commit: $COMMIT_ID"
 # Activate virtual environment
 source env/bin/activate
 
-# Run the Python script with all the parsed arguments
-python -um scripts.qa "$SLURM_JOB_ID" \
-    --dataset "$DATASET" \
-    --model "$MODEL" \
-    --gpt_model "$GPT_MODEL" \
-    --key_mode "$KEY_MODE" \
-    --sample_size "$SAMPLE_SIZE"
+# Build the command with all required parameters
+CMD="python -um scripts.qa \"$SLURM_JOB_ID\" --dataset \"$DATASET\" --model \"$MODEL\" --gpt_model \"$GPT_MODEL\" --key_mode \"$KEY_MODE\" --sample_size \"$SAMPLE_SIZE\""
+
+# Add streaming flag if enabled
+if [ "$STREAMING" = true ]; then
+    CMD="$CMD --streaming"
+fi
+
+# Run the command
+eval $CMD
 
 # Deactivate and commit results
 deactivate

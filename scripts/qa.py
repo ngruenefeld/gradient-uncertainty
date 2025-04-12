@@ -20,6 +20,7 @@ def main(args):
     gpt_model = args.gpt_model
     key_mode = args.key_mode
     sample_size = args.sample_size
+    use_streaming = args.streaming
 
     print(f"Job number: {job_number}")
     print(f"Dataset: {dataset_name}")
@@ -27,6 +28,7 @@ def main(args):
     print(f"GPT Model: {gpt_model}")
     print(f"Key mode: {key_mode}")
     print(f"Sample size: {sample_size}")
+    print(f"Streaming dataset: {use_streaming}")
 
     if model_name == "gpt2":
         model_path = "gpt2"
@@ -77,52 +79,84 @@ def main(args):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
 
+    # Load datasets in streaming mode if requested
     if dataset_name == "truthful":
-        dataset = load_dataset("truthfulqa/truthful_qa", "generation")
+        dataset = load_dataset(
+            "truthfulqa/truthful_qa", "generation", streaming=use_streaming
+        )
         data = dataset["validation"]
     elif dataset_name == "natural":
-        dataset = load_dataset("google-research-datasets/natural_questions", "dev")
+        dataset = load_dataset(
+            "google-research-datasets/natural_questions", "dev", streaming=use_streaming
+        )
         data = dataset["validation"]
     elif dataset_name == "trivia":
-        dataset = load_dataset("mandarjoshi/trivia_qa", "rc.wikipedia.nocontext")
+        dataset = load_dataset(
+            "mandarjoshi/trivia_qa", "rc.wikipedia.nocontext", streaming=use_streaming
+        )
         data = dataset["validation"]
     else:
         raise ValueError(
             f"Dataset {dataset_name} not recognized. Please use one of the following: truthful, natural, trivia."
         )
 
+    # Handle dataset sampling based on streaming mode
+    if not use_streaming and sample_size > 0:
+        data_list = list(data)
+        indices = random.sample(range(len(data_list)), sample_size)
+        data_samples = [data_list[i] for i in indices]
+    elif not use_streaming:
+        data_samples = list(data)
+    else:
+        # For streaming mode with sampling, use reservoir sampling algorithm
+        if sample_size > 0:
+            # Reservoir sampling implementation for streaming data
+            reservoir = []
+            for i, item in enumerate(data):
+                if len(reservoir) < sample_size:
+                    reservoir.append(item)
+                else:
+                    j = random.randint(0, i)
+                    if j < sample_size:
+                        reservoir[j] = item
+            data_samples = reservoir
+            print(
+                f"Selected {len(data_samples)} random samples using reservoir sampling"
+            )
+        else:
+            data_samples = data  # Keep as iterator
+
     results = []
     processed_count = 0
     failed_count = 0
 
-    if sample_size > 0:
-        indices = random.sample(range(len(data)), sample_size)
-    else:
-        indices = range(len(data))
+    total_samples = (
+        sample_size
+        if sample_size > 0
+        else ("unknown" if use_streaming else len(data_samples))
+    )
 
-    total_samples = len(indices)
-
-    for i in indices:
+    for i, item in enumerate(data_samples):
         current_sample = processed_count + failed_count + 1
         print(
             f"Processing sample {current_sample}/{total_samples} (dataset index: {i})"
         )
         try:
             if dataset_name == "natural":
-                prompt = data[i]["question"]["text"]
+                prompt = item["question"]["text"]
                 answers = [
                     text
                     for sublist in [
-                        a["text"] for a in data[i]["annotations"]["short_answers"]
+                        a["text"] for a in item["annotations"]["short_answers"]
                     ]
                     for text in sublist
                 ]
             elif dataset_name == "truthful":
-                prompt = data[i]["question"]
-                answers = data[i]["correct_answers"]
+                prompt = item["question"]
+                answers = item["correct_answers"]
             elif dataset_name == "trivia":
-                prompt = data[i]["question"]
-                answers = data[i]["answer"]["aliases"]
+                prompt = item["question"]
+                answers = item["answer"]["aliases"]
 
             # Get response (with built-in error handling)
             completion_result = get_response(prompt, model, tokenizer, device)
@@ -131,8 +165,12 @@ def main(args):
                     f"Error getting response for sample {current_sample} (index {i}): {completion_result['error']}"
                 )
                 failed_count += 1
+                torch.cuda.empty_cache()  # Ensure memory is freed
                 continue
             completion = completion_result
+
+            # Clear memory after getting response
+            torch.cuda.empty_cache()
 
             # Evaluate answers (with built-in error handling)
             evaluation = evaluate_answers(
@@ -148,10 +186,14 @@ def main(args):
                     f"Error calculating gradient for sample {current_sample} (index {i}): {gradient_result['error']}"
                 )
                 failed_count += 1
+                torch.cuda.empty_cache()  # Ensure memory is freed
                 continue
 
             gradient, completion_length = gradient_result
             gradient_norm = torch.norm(gradient).item()
+
+            # Clear memory after calculating gradient
+            torch.cuda.empty_cache()
 
             # Get rephrasings (with built-in error handling)
             rephrasings_result = rephrase_text(completion, oai_client, gpt_model)
@@ -160,6 +202,7 @@ def main(args):
                     f"Error getting rephrasings for sample {current_sample} (index {i}): {rephrasings_result['error']}"
                 )
                 failed_count += 1
+                torch.cuda.empty_cache()  # Ensure memory is freed
                 continue
 
             rephrasings = rephrasings_result["rephrasings"]
@@ -178,6 +221,9 @@ def main(args):
 
             # Process each rephrasing
             for idx, phrasing in enumerate(rephrasings):
+                # Clear memory before processing each rephrasing
+                torch.cuda.empty_cache()
+
                 rephrasing_gradient_result = completion_gradient(
                     prompt, phrasing, model, tokenizer, device
                 )
@@ -296,6 +342,11 @@ if __name__ == "__main__":
         type=int,
         default=0,
         help="Set if you want to sample a specific number of examples from the dataset",
+    )
+    parser.add_argument(
+        "--streaming",
+        action="store_true",
+        help="Enable dataset streaming to reduce memory usage",
     )
 
     args = parser.parse_args()
