@@ -217,3 +217,9 @@ Sample 99 (index 5144) processed successfully with 3 rephrasings.
 Processing sample 100/100 (dataset index: 6017)
 Sample 100 (index 6017) processed successfully with 3 rephrasings.
 Processing complete. Saved 100 successful results. Failed: 0
+[main 45d6a46] QA Script Results for Run 718694
+ 3 files changed, 225 insertions(+)
+ create mode 100644 data/results_718694_llama-awq_trivia.pkl
+ create mode 100644 slurm-outputs/slurm.718694.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   968dff3..45d6a46  main -> main
