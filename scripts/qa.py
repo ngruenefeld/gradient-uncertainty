@@ -32,8 +32,12 @@ def main(args):
         model_path = "gpt2"
     elif model_name == "llama-awq":
         model_path = "TheBloke/Llama-2-7B-Chat-AWQ"
+    elif model_name == "llama-3-8b":
+        model_path = "meta-llama/Meta-Llama-3-8B"
     elif model_name == "llama-3.1-8b":
         model_path = "meta-llama/Llama-3.1-8B"
+    elif model_name == "llama-3.2-3b":
+        model_path = "meta-llama/Llama-3.2-3B"
 
     if key_mode == "keyfile":
         with open(os.path.expanduser(".oai_api_key"), "r") as f:
@@ -54,8 +58,8 @@ def main(args):
 
     oai_client = OpenAI(api_key=oai_api_key)
 
-    model = AutoModelForCausalLM.from_pretrained(model_path, use_auth_token=hf_token)
-    tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=hf_token)
+    model = AutoModelForCausalLM.from_pretrained(model_path, token=hf_token)
+    tokenizer = AutoTokenizer.from_pretrained(model_path, token=hf_token)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
