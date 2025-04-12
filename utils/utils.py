@@ -6,9 +6,11 @@ def get_response(prompt, model, tokenizer, device):
     try:
         model.eval()
 
-        inputs = tokenizer(prompt, return_tensors="pt").to(device)
-        outputs = model.generate(**inputs, max_new_tokens=100)
-        generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+        # Use no_grad to prevent gradient storage during inference
+        with torch.no_grad():
+            inputs = tokenizer(prompt, return_tensors="pt").to(device)
+            outputs = model.generate(**inputs, max_new_tokens=100)
+            generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
         if generated_text.startswith(prompt):
             completion = generated_text[len(prompt) :].strip()
@@ -50,13 +52,14 @@ def completion_gradient(prompt, completion, model, tokenizer, device):
         model.zero_grad()
         loss.backward()
 
-        # Collect gradients
-        grads = []
+        # Calculate gradient norm
+        total_norm = 0.0
         for name, param in model.named_parameters():
             if param.grad is not None:
-                grads.append(param.grad.flatten())
+                param_norm = param.grad.detach().norm(2)
+                total_norm += param_norm.item() ** 2
 
-        uncertainty = torch.cat(grads)
+        uncertainty = torch.tensor(total_norm**0.5)
 
         # Calculate completion length
         completion_length = (
