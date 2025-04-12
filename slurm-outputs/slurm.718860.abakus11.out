@@ -2466,3 +2466,15 @@ Processing sample 817/817 (dataset index: 816)
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Sample 817 (dataset index 816) processed successfully with 3 rephrasings.
 Processing complete. Saved 814 successful results. Failed: 3
+[main 1d1611b] QA Script Results for Run 718860 (Commit: 14c41b4)
+ 3 files changed, 2474 insertions(+)
+ create mode 100644 data/results_718860_llama-3.1-8b_4bit_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.718860.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'git@github.com:ngruenefeld/gradient-uncertainty.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.

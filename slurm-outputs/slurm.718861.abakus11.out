@@ -1,0 +1,38 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Unknown option: --bits4
+Running job with commit: 7d1734a60727f7c1e13a1a25d4c84979f660ce2a
+Job number: 718861
+Dataset: trivia
+Model: llama-3.1-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Streaming dataset: False
+Quantization bits: None (full precision)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.17s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.15s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.19it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.05it/s]
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 402, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 109, in main
+    model.to(device)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/modeling_utils.py", line 3157, in to
+    return super().to(*args, **kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1174, in to
+    return self._apply(convert)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  [Previous line repeated 2 more times]
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 805, in _apply
+    param_applied = fn(param)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1160, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 224.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 110.56 MiB is free. Including non-PyTorch memory, this process has 19.57 GiB memory in use. Of the allocated memory 19.40 GiB is allocated by PyTorch, and 1.33 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
