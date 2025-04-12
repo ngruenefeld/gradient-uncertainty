@@ -39,9 +39,13 @@ def main(args):
     elif model_name == "llama-3.2-3b":
         model_path = "meta-llama/Llama-3.2-3B"
     elif model_name == "llama-3-chatqa-quantized":
-        model_path = "QuantFactory/NVIDIA-Llama3-ChatQA-1.5-8B-GGUF"
+        model_path = "nvidia/Llama3-ChatQA-1.5-8B"
     elif model_name == "deepseek-r1-distill-qwen-1.5b":
         model_path = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+    else:
+        raise ValueError(
+            f"Model {model_name} not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b."
+        )
 
     if key_mode == "keyfile":
         with open(os.path.expanduser(".oai_api_key"), "r") as f:
@@ -59,6 +63,8 @@ def main(args):
             raise ValueError(
                 "API key not found. Please set the HF_TOKEN environment variable."
             )
+    else:
+        raise ValueError("Invalid key mode. Please use 'keyfile' or 'env'.")
 
     oai_client = OpenAI(api_key=oai_api_key)
 
@@ -77,6 +83,10 @@ def main(args):
     elif dataset_name == "trivia":
         dataset = load_dataset("mandarjoshi/trivia_qa", "rc.wikipedia.nocontext")
         data = dataset["validation"]
+    else:
+        raise ValueError(
+            f"Dataset {dataset_name} not recognized. Please use one of the following: truthful, natural, trivia."
+        )
 
     results = []
     processed_count = 0
