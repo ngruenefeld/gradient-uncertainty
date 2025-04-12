@@ -73,9 +73,6 @@ def main(args):
     model = AutoModelForCausalLM.from_pretrained(model_path, token=hf_token)
     tokenizer = AutoTokenizer.from_pretrained(model_path, token=hf_token)
 
-    if model_name == "gpt2":
-        tokenizer.pad_token = tokenizer.eos_token  # Set pad token to eos token
-
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
 
