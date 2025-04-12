@@ -38,6 +38,8 @@ def main(args):
         model_path = "meta-llama/Llama-3.1-8B"
     elif model_name == "llama-3.2-3b":
         model_path = "meta-llama/Llama-3.2-3B"
+    elif model_name == "llama-3-chatqa-quantized":
+        model_path = "QuantFactory/NVIDIA-Llama3-ChatQA-1.5-8B-GGUF"
     elif model_name == "deepseek-r1-distill-qwen-1.5b":
         model_path = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
 
