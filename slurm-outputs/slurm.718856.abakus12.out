@@ -1,0 +1,13 @@
+slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus12: error: Setting TMPDIR to /tmp
+Running job with commit: 7a1b74264a78d3303f69ececf88d389dcc3ba173
+Job number: 718856
+Dataset: trivia
+Model: llama-3.1-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 5
+Streaming dataset: True
+Using 4-bit quantization: True
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]slurmstepd-abakus12: error: *** JOB 718856 ON abakus12 CANCELLED AT 2025-04-12T20:39:20 ***
