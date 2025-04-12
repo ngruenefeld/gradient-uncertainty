@@ -72,7 +72,10 @@ def main(args):
 
     oai_client = OpenAI(api_key=oai_api_key)
 
-    # Load model with 4-bit quantization if requested for pure Llama models only
+    # Set up the device
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    # Load model with 4-bit quantization if requested
     if use_4bit and model_name in ["llama-3-8b", "llama-3.1-8b", "llama-3.2-3b"]:
         print("Loading model in 4-bit precision to reduce memory usage")
         quantization_config = BitsAndBytesConfig(
@@ -82,6 +85,7 @@ def main(args):
             bnb_4bit_quant_type="nf4",
         )
 
+        # With 4-bit quantization, we must use device_map="auto" instead of .to(device)
         model = AutoModelForCausalLM.from_pretrained(
             model_path,
             token=hf_token,
@@ -90,11 +94,10 @@ def main(args):
         )
     else:
         model = AutoModelForCausalLM.from_pretrained(model_path, token=hf_token)
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        model.to(device)
 
     tokenizer = AutoTokenizer.from_pretrained(model_path, token=hf_token)
-
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model.to(device)
 
     # Load datasets in streaming mode if requested
     if dataset_name == "truthful":
