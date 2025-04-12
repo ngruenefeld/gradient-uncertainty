@@ -20,3 +20,9 @@ To disable this warning, you can either:
 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
 Sample 1 (index 2443) processed successfully with 3 rephrasings.
 Processing complete. Saved 1 successful results. Failed: 0
+[main 72072fe] QA Script Results for Run 718828 (Commit: d5e2f6d)
+ 3 files changed, 28 insertions(+)
+ create mode 100644 data/results_718828_llama-awq_trivia.pkl
+ create mode 100644 slurm-outputs/slurm.718828.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   d5e2f6d..72072fe  main -> main
