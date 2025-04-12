@@ -1,0 +1,25 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: b0b81f0ffae3608382c7712e09a718c0d6f11df1
+Job number: 718850
+Dataset: truthful
+Model: gpt2
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Streaming dataset: False
+Processing sample 1/817 (dataset index: 0)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
+Processing sample 2/817 (dataset index: 1)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/817 (dataset index: 2)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 3 (dataset index 2) processed successfully with 3 rephrasings.
+Processing sample 4/817 (dataset index: 3)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 4 (dataset index 3) processed successfully with 3 rephrasings.
+Processing sample 5/817 (dataset index: 4)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+slurmstepd-abakus11: error: *** JOB 718850 ON abakus11 CANCELLED AT 2025-04-12T20:17:35 ***
