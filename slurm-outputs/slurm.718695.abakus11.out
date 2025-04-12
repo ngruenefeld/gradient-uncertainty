@@ -1,5 +1,6 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 7c4c7b96c0554d063c3a182cdb956cdcbd599980
 Job number: 718695
 Dataset: trivia
 Model: llama-awq
