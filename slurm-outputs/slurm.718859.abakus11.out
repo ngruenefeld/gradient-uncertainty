@@ -1,0 +1,29 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 9cd03b0545bc9eadd9e0bd7ec54f065c8afb8c9f
+Job number: 718859
+Dataset: trivia
+Model: llama-3.1-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 5
+Streaming dataset: False
+Using 4-bit quantization: True
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.76s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.74s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:02,  2.70s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.89s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.20s/it]
+Processing sample 1/5 (dataset index: 2738)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 1 (dataset index 2738) processed successfully with 3 rephrasings.
+Processing sample 2/5 (dataset index: 1123)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 2 (dataset index 1123) processed successfully with 3 rephrasings.
+Processing sample 3/5 (dataset index: 3412)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 3 (dataset index 3412) processed successfully with 3 rephrasings.
+Processing sample 4/5 (dataset index: 5101)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 4 (dataset index 5101) processed successfully with 3 rephrasings.
+Processing sample 5/5 (dataset index: 7384)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 5 (dataset index 7384) processed successfully with 3 rephrasings.
+Processing complete. Saved 5 successful results. Failed: 0
