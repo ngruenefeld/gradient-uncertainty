@@ -101,9 +101,9 @@ def main(args):
     if not use_streaming and sample_size > 0:
         data_list = list(data)
         indices = random.sample(range(len(data_list)), sample_size)
-        data_samples = [data_list[i] for i in indices]
+        data_samples = [(i, data_list[i]) for i in indices]
     elif not use_streaming:
-        data_samples = list(data)
+        data_samples = list(enumerate(data))
     else:
         # For streaming mode with sampling, use reservoir sampling algorithm
         if sample_size > 0:
@@ -111,17 +111,17 @@ def main(args):
             reservoir = []
             for i, item in enumerate(data):
                 if len(reservoir) < sample_size:
-                    reservoir.append(item)
+                    reservoir.append((i, item))
                 else:
                     j = random.randint(0, i)
                     if j < sample_size:
-                        reservoir[j] = item
+                        reservoir[j] = (i, item)
             data_samples = reservoir
             print(
                 f"Selected {len(data_samples)} random samples using reservoir sampling"
             )
         else:
-            data_samples = data  # Keep as iterator
+            data_samples = enumerate(data)  # Keep as iterator with indices
 
     results = []
     processed_count = 0
@@ -133,10 +133,10 @@ def main(args):
         else ("unknown" if use_streaming else len(data_samples))
     )
 
-    for i, item in enumerate(data_samples):
+    for sample_idx, (dataset_idx, item) in enumerate(data_samples):
         current_sample = processed_count + failed_count + 1
         print(
-            f"Processing sample {current_sample}/{total_samples} (dataset index: {i})"
+            f"Processing sample {current_sample}/{total_samples} (dataset index: {dataset_idx})"
         )
         try:
             if dataset_name == "natural":
@@ -159,7 +159,7 @@ def main(args):
             completion_result = get_response(prompt, model, tokenizer, device)
             if isinstance(completion_result, dict) and "error" in completion_result:
                 print(
-                    f"Error getting response for sample {current_sample} (index {i}): {completion_result['error']}"
+                    f"Error getting response for sample {current_sample} (dataset index {dataset_idx}): {completion_result['error']}"
                 )
                 failed_count += 1
                 torch.cuda.empty_cache()  # Ensure memory is freed
@@ -180,7 +180,7 @@ def main(args):
             )
             if isinstance(gradient_result, dict) and "error" in gradient_result:
                 print(
-                    f"Error calculating gradient for sample {current_sample} (index {i}): {gradient_result['error']}"
+                    f"Error calculating gradient for sample {current_sample} (dataset index {dataset_idx}): {gradient_result['error']}"
                 )
                 failed_count += 1
                 torch.cuda.empty_cache()  # Ensure memory is freed
@@ -196,7 +196,7 @@ def main(args):
             rephrasings_result = rephrase_text(completion, oai_client, gpt_model)
             if "error" in rephrasings_result:
                 print(
-                    f"Error getting rephrasings for sample {current_sample} (index {i}): {rephrasings_result['error']}"
+                    f"Error getting rephrasings for sample {current_sample} (dataset index {dataset_idx}): {rephrasings_result['error']}"
                 )
                 failed_count += 1
                 torch.cuda.empty_cache()  # Ensure memory is freed
@@ -230,7 +230,7 @@ def main(args):
                     and "error" in rephrasing_gradient_result
                 ):
                     print(
-                        f"Error calculating gradient for rephrasing {idx} in sample {current_sample} (index {i}): {rephrasing_gradient_result['error']}"
+                        f"Error calculating gradient for rephrasing {idx} in sample {current_sample} (dataset index {dataset_idx}): {rephrasing_gradient_result['error']}"
                     )
                     # Mark that we had an error and should skip this sample
                     rephrasing_error = True
@@ -280,11 +280,13 @@ def main(args):
             results.append(result_entry)
             processed_count += 1
             print(
-                f"Sample {current_sample} (index {i}) processed successfully with {n} rephrasings."
+                f"Sample {current_sample} (dataset index {dataset_idx}) processed successfully with {n} rephrasings."
             )
 
         except Exception as e:
-            print(f"Error processing sample {current_sample} (index {i}): {str(e)}")
+            print(
+                f"Error processing sample {current_sample} (dataset index {dataset_idx}): {str(e)}"
+            )
             failed_count += 1
             # Clear all CUDA cache and continue
             torch.cuda.empty_cache()
