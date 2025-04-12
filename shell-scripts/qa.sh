@@ -28,6 +28,10 @@ while [[ "$#" -gt 0 ]]; do
     shift
 done
 
+# Get current commit hash
+COMMIT_ID=$(git rev-parse HEAD)
+echo "Running job with commit: $COMMIT_ID"
+
 # Activate virtual environment
 source env/bin/activate
 
@@ -42,5 +46,5 @@ python -um scripts.qa "$SLURM_JOB_ID" \
 # Deactivate and commit results
 deactivate
 git add .
-git commit -m "QA Script Results for Run $SLURM_JOB_ID"
+git commit -m "QA Script Results for Run $SLURM_JOB_ID (Commit: ${COMMIT_ID:0:7})"
 git push
