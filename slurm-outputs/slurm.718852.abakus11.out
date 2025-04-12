@@ -25,3 +25,11 @@ Processing sample 5/5 (dataset index: 210)
 Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 Sample 5 (dataset index 210) processed successfully with 3 rephrasings.
 Processing complete. Saved 5 successful results. Failed: 0
+[main a71f6c8] QA Script Results for Run 718852 (Commit: b0b81f0)
+ 5 files changed, 80 insertions(+)
+ create mode 100644 data/results_718852_gpt2_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.718850.abakus11.out
+ create mode 100644 slurm-outputs/slurm.718851.abakus11.out
+ create mode 100644 slurm-outputs/slurm.718852.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   b0b81f0..a71f6c8  main -> main
