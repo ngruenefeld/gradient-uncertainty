@@ -76,7 +76,8 @@ def main(args):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # Load model with 4-bit quantization if requested
-    if use_4bit and model_name in ["llama-3-8b", "llama-3.1-8b", "llama-3.2-3b"]:
+    pure_llama_models = ["llama-3-8b", "llama-3.1-8b", "llama-3.2-3b"]
+    if use_4bit and model_name in pure_llama_models:
         print("Loading model in 4-bit precision to reduce memory usage")
         quantization_config = BitsAndBytesConfig(
             load_in_4bit=True,
@@ -320,8 +321,12 @@ def main(args):
 
     # Save final results if we have any
     if results:
+        # Include quantization info in the filename if applicable
+        quant_suffix = "_4bit" if use_4bit and model_name in pure_llama_models else ""
         df = pd.DataFrame(results)
-        df.to_pickle(f"data/results_{job_number}_{model_name}_{dataset_name}.pkl")
+        df.to_pickle(
+            f"data/results_{job_number}_{model_name}{quant_suffix}_{dataset_name}.pkl"
+        )
         print(
             f"Processing complete. Saved {len(results)} successful results. Failed: {failed_count}"
         )
