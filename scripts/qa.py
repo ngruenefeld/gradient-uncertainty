@@ -21,7 +21,7 @@ def main(args):
     key_mode = args.key_mode
     sample_size = args.sample_size
     use_streaming = args.streaming
-    use_4bit = args.bits4
+    quant_bits = args.quantization
 
     print(f"Job number: {job_number}")
     print(f"Dataset: {dataset_name}")
@@ -30,7 +30,9 @@ def main(args):
     print(f"Key mode: {key_mode}")
     print(f"Sample size: {sample_size}")
     print(f"Streaming dataset: {use_streaming}")
-    print(f"Using 4-bit quantization: {use_4bit}")
+    print(
+        f"Quantization bits: {quant_bits if quant_bits > 0 else 'None (full precision)'}"
+    )
 
     if model_name == "gpt2":
         model_path = "gpt2"
@@ -75,18 +77,26 @@ def main(args):
     # Set up the device
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    # Load model with 4-bit quantization if requested
+    # Load model with quantization if requested
     pure_llama_models = ["llama-3-8b", "llama-3.1-8b", "llama-3.2-3b"]
-    if use_4bit and model_name in pure_llama_models:
-        print("Loading model in 4-bit precision to reduce memory usage")
-        quantization_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.float16,
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type="nf4",
-        )
+    if quant_bits in [4, 8] and model_name in pure_llama_models:
+        print(f"Loading model in {quant_bits}-bit precision to reduce memory usage")
 
-        # With 4-bit quantization, we must use device_map="auto" instead of .to(device)
+        # Configure quantization based on bit depth
+        if quant_bits == 4:
+            quantization_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_compute_dtype=torch.float16,
+                bnb_4bit_use_double_quant=True,
+                bnb_4bit_quant_type="nf4",
+            )
+        elif quant_bits == 8:
+            quantization_config = BitsAndBytesConfig(
+                load_in_8bit=True,
+                bnb_8bit_use_double_quant=True,
+            )
+
+        # With quantization, we must use device_map="auto" instead of .to(device)
         model = AutoModelForCausalLM.from_pretrained(
             model_path,
             token=hf_token,
@@ -322,7 +332,11 @@ def main(args):
     # Save final results if we have any
     if results:
         # Include quantization info in the filename if applicable
-        quant_suffix = "_4bit" if use_4bit and model_name in pure_llama_models else ""
+        quant_suffix = (
+            f"_{quant_bits}bit"
+            if quant_bits in [4, 8] and model_name in pure_llama_models
+            else ""
+        )
         df = pd.DataFrame(results)
         df.to_pickle(
             f"data/results_{job_number}_{model_name}{quant_suffix}_{dataset_name}.pkl"
@@ -376,9 +390,11 @@ if __name__ == "__main__":
         help="Enable dataset streaming to reduce memory usage",
     )
     parser.add_argument(
-        "--bits4",
-        action="store_true",
-        help="Enable 4-bit quantization for compatible models (requires bitsandbytes)",
+        "--quantization",
+        type=int,
+        default=0,
+        choices=[0, 4, 8],
+        help="Quantization precision: 0 (none/default), 4 (4-bit), or 8 (8-bit)",
     )
 
     args = parser.parse_args()

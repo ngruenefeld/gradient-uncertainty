@@ -15,7 +15,7 @@ GPT_MODEL="gpt-4o-mini-2024-07-18"
 KEY_MODE="keyfile"
 SAMPLE_SIZE=0
 STREAMING=false
-BITS4=false
+QUANTIZATION=0  # 0 = no quantization (default)
 
 # Parse named arguments
 while [[ "$#" -gt 0 ]]; do
@@ -26,7 +26,7 @@ while [[ "$#" -gt 0 ]]; do
         --key_mode=*) KEY_MODE="${1#*=}";;
         --sample_size=*) SAMPLE_SIZE="${1#*=}";;
         --streaming) STREAMING=true;;
-        --bits4) BITS4=true;;
+        --quantization=*) QUANTIZATION="${1#*=}";;
         *) echo "Unknown option: $1" ;;
     esac
     shift
@@ -47,10 +47,8 @@ if [ "$STREAMING" = true ]; then
     CMD="$CMD --streaming"
 fi
 
-# Add 4-bit quantization flag if enabled
-if [ "$BITS4" = true ]; then
-    CMD="$CMD --bits4"
-fi
+# Add quantization parameter
+CMD="$CMD --quantization $QUANTIZATION"
 
 # Run the command
 eval $CMD
