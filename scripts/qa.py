@@ -32,21 +32,30 @@ def main(args):
         model_path = "gpt2"
     elif model_name == "llama-awq":
         model_path = "TheBloke/Llama-2-7B-Chat-AWQ"
+    elif model_name == "llama-3.1-8b":
+        model_path = "meta-llama/Llama-3.1-8B"
 
     if key_mode == "keyfile":
-        with open(os.path.expanduser(".api_key"), "r") as f:
-            api_key = f.read().strip()
+        with open(os.path.expanduser(".oai_api_key"), "r") as f:
+            oai_api_key = f.read().strip()
+        with open(os.path.expanduser(".hf_api_key"), "r") as f:
+            hf_token = f.read().strip()
     elif key_mode == "env":
-        api_key = os.getenv("OPENAI_API_KEY")
-        if api_key is None:
+        oai_api_key = os.getenv("OPENAI_API_KEY")
+        hf_token = os.getenv("HF_TOKEN")
+        if oai_api_key is None:
             raise ValueError(
                 "API key not found. Please set the OPENAI_API_KEY environment variable."
             )
+        if hf_token is None:
+            raise ValueError(
+                "API key not found. Please set the HF_TOKEN environment variable."
+            )
 
-    oai_client = OpenAI(api_key=api_key)
+    oai_client = OpenAI(api_key=oai_api_key)
 
-    model = AutoModelForCausalLM.from_pretrained(model_path)
-    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    model = AutoModelForCausalLM.from_pretrained(model_path, use_auth_token=hf_token)
+    tokenizer = AutoTokenizer.from_pretrained(model_path, use_auth_token=hf_token)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
