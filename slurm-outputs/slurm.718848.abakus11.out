@@ -1,0 +1,27 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: f8f396ebabd7cddf95d599d208820f6dc4e34a5d
+Job number: 718848
+Dataset: truthful
+Model: gpt2
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 5
+Streaming dataset: True
+Selected 5 random samples using reservoir sampling
+Processing sample 1/5 (dataset index: 217)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 1 (dataset index 217) processed successfully with 3 rephrasings.
+Processing sample 2/5 (dataset index: 542)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 2 (dataset index 542) processed successfully with 3 rephrasings.
+Processing sample 3/5 (dataset index: 429)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 3 (dataset index 429) processed successfully with 3 rephrasings.
+Processing sample 4/5 (dataset index: 14)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 4 (dataset index 14) processed successfully with 3 rephrasings.
+Processing sample 5/5 (dataset index: 814)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 5 (dataset index 814) processed successfully with 3 rephrasings.
+Processing complete. Saved 5 successful results. Failed: 0
