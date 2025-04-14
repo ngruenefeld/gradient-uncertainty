@@ -56,6 +56,7 @@ def completion_gradient(prompt, completion, model, tokenizer, device):
         total_norm = 0.0
         for name, param in model.named_parameters():
             if param.grad is not None:
+                # TODO: Also divide the grad by its reference parameter
                 param_norm = param.grad.detach().norm(2)
                 total_norm += param_norm.item() ** 2
 

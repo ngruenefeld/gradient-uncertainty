@@ -4,3 +4,4 @@ datasets
 torch
 openai
 pandas
+bitsandbytes
