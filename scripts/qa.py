@@ -48,9 +48,13 @@ def main(args):
         model_path = "nvidia/Llama3-ChatQA-1.5-8B"
     elif model_name == "deepseek-r1-distill-qwen-1.5b":
         model_path = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+    elif model_name == "phi4":
+        model_path = "microsoft/Phi-4"
+    elif model_name == "deepseek-v3":
+        model_path = "deepseek-ai/deepseek-v3"
     else:
         raise ValueError(
-            f"Model {model_name} not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b."
+            f"Model {model_name} not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b, phi4, deepseek-v3."
         )
 
     if key_mode == "keyfile":
@@ -78,8 +82,15 @@ def main(args):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # Load model with quantization if requested
-    pure_llama_models = ["llama-3-8b", "llama-3.1-8b", "llama-3.2-3b"]
-    if quant_bits in [4, 8] and model_name in pure_llama_models:
+    quantizable_models = [
+        "llama-3-8b",
+        "llama-3.1-8b",
+        "llama-3.2-3b",
+        "phi4",
+        "deepseek-v3",
+    ]
+
+    if quant_bits in [4, 8] and model_name in quantizable_models:
         print(f"Loading model in {quant_bits}-bit precision to reduce memory usage")
 
         # Configure quantization based on bit depth
@@ -334,7 +345,7 @@ def main(args):
         # Include quantization info in the filename if applicable
         quant_suffix = (
             f"_{quant_bits}bit"
-            if quant_bits in [4, 8] and model_name in pure_llama_models
+            if quant_bits in [4, 8] and model_name in quantizable_models
             else ""
         )
         df = pd.DataFrame(results)
