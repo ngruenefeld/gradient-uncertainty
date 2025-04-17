@@ -1,0 +1,118 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: b22f051c3a0aa1101e8172b04486cc05478e94c5
+Job number: 719189
+Dataset: truthful
+Model: llama-3.1-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 5
+Mode: test
+Streaming dataset: False
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: True
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.60s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.63s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.63s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.84s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.13s/it]
+Processing sample 1/5 (dataset index: 462)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 tensor([[ 0.0012,  0.0057, -0.0033,  ...,  0.0041, -0.0026, -0.0007],
+        [-0.0034,  0.0013, -0.0017,  ...,  0.0009, -0.0019, -0.0022],
+        [ 0.0007, -0.0161,  0.0026,  ...,  0.0043,  0.0079,  0.0049],
+        ...,
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000]],
+       device='cuda:0', dtype=torch.float16)
+1 tensor([[ 0.0012,  0.0057, -0.0033,  ...,  0.0041, -0.0026, -0.0007],
+        [-0.0034,  0.0013, -0.0017,  ...,  0.0009, -0.0019, -0.0022],
+        [ 0.0007, -0.0161,  0.0026,  ...,  0.0043,  0.0079,  0.0049],
+        ...,
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000]],
+       device='cuda:0', dtype=torch.float16)
+Error in completion_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error calculating gradient for sample 1 (dataset index 462): Boolean value of Tensor with more than one value is ambiguous
+Processing sample 2/5 (dataset index: 703)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 tensor([[ 0.0012,  0.0057, -0.0033,  ...,  0.0041, -0.0026, -0.0007],
+        [-0.0034,  0.0013, -0.0017,  ...,  0.0009, -0.0019, -0.0022],
+        [ 0.0007, -0.0161,  0.0026,  ...,  0.0043,  0.0079,  0.0049],
+        ...,
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000]],
+       device='cuda:0', dtype=torch.float16)
+1 tensor([[ 0.0012,  0.0057, -0.0033,  ...,  0.0041, -0.0026, -0.0007],
+        [-0.0034,  0.0013, -0.0017,  ...,  0.0009, -0.0019, -0.0022],
+        [ 0.0007, -0.0161,  0.0026,  ...,  0.0043,  0.0079,  0.0049],
+        ...,
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000]],
+       device='cuda:0', dtype=torch.float16)
+Error in completion_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error calculating gradient for sample 2 (dataset index 703): Boolean value of Tensor with more than one value is ambiguous
+Processing sample 3/5 (dataset index: 51)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 tensor([[ 0.0012,  0.0057, -0.0033,  ...,  0.0041, -0.0026, -0.0007],
+        [-0.0034,  0.0013, -0.0017,  ...,  0.0009, -0.0019, -0.0022],
+        [ 0.0007, -0.0161,  0.0026,  ...,  0.0043,  0.0079,  0.0049],
+        ...,
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000]],
+       device='cuda:0', dtype=torch.float16)
+1 tensor([[ 0.0012,  0.0057, -0.0033,  ...,  0.0041, -0.0026, -0.0007],
+        [-0.0034,  0.0013, -0.0017,  ...,  0.0009, -0.0019, -0.0022],
+        [ 0.0007, -0.0161,  0.0026,  ...,  0.0043,  0.0079,  0.0049],
+        ...,
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000]],
+       device='cuda:0', dtype=torch.float16)
+Error in completion_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error calculating gradient for sample 3 (dataset index 51): Boolean value of Tensor with more than one value is ambiguous
+Processing sample 4/5 (dataset index: 84)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 tensor([[ 0.0012,  0.0057, -0.0033,  ...,  0.0041, -0.0026, -0.0007],
+        [-0.0034,  0.0013, -0.0017,  ...,  0.0009, -0.0019, -0.0022],
+        [ 0.0007, -0.0161,  0.0026,  ...,  0.0043,  0.0079,  0.0049],
+        ...,
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000]],
+       device='cuda:0', dtype=torch.float16)
+1 tensor([[ 0.0012,  0.0057, -0.0033,  ...,  0.0041, -0.0026, -0.0007],
+        [-0.0034,  0.0013, -0.0017,  ...,  0.0009, -0.0019, -0.0022],
+        [ 0.0007, -0.0161,  0.0026,  ...,  0.0043,  0.0079,  0.0049],
+        ...,
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000]],
+       device='cuda:0', dtype=torch.float16)
+Error in completion_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error calculating gradient for sample 4 (dataset index 84): Boolean value of Tensor with more than one value is ambiguous
+Processing sample 5/5 (dataset index: 605)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 tensor([[ 0.0012,  0.0057, -0.0033,  ...,  0.0041, -0.0026, -0.0007],
+        [-0.0034,  0.0013, -0.0017,  ...,  0.0009, -0.0019, -0.0022],
+        [ 0.0007, -0.0161,  0.0026,  ...,  0.0043,  0.0079,  0.0049],
+        ...,
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000]],
+       device='cuda:0', dtype=torch.float16)
+1 tensor([[ 0.0012,  0.0057, -0.0033,  ...,  0.0041, -0.0026, -0.0007],
+        [-0.0034,  0.0013, -0.0017,  ...,  0.0009, -0.0019, -0.0022],
+        [ 0.0007, -0.0161,  0.0026,  ...,  0.0043,  0.0079,  0.0049],
+        ...,
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+        [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000]],
+       device='cuda:0', dtype=torch.float16)
+Error in completion_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error calculating gradient for sample 5 (dataset index 605): Boolean value of Tensor with more than one value is ambiguous
+Processing complete, but no successful results to save. All 5 samples failed.
