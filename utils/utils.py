@@ -65,25 +65,20 @@ def completion_gradient(
                     param_values = param.detach()
                     param_grads = param.grad.detach()
 
-                    # Using the symmetric "percent" change formula
-                    # s_i = Δx_i / (0.5 * (|x_i| + |x_i + Δx_i|))
-                    # where Δx_i is the gradient
+                    # Using Symmetric Percentage Change
+                    new_param_values = param_values + param_grads
+                    print("0", new_param_values)
 
-                    # Calculate x_i + Δx_i (parameter value + gradient)
-                    param_plus_grad = param_values + param_grads
-                    print("0", param_plus_grad)
-
-                    # Calculate denominator: 0.5 * (|x_i| + |x_i + Δx_i|)
-                    denominator = 0.5 * (
-                        torch.abs(param_values) + torch.abs(param_plus_grad)
-                    )
+                    denominator = 0.5 * (param_values + new_param_values)
                     print("1", denominator)
 
                     # Small epsilon to avoid division by zero
                     epsilon = 1e-8
 
                     # Calculate symmetric percent change
-                    normalized_grads = param_grads / (denominator + epsilon)
+                    normalized_grads = (
+                        param_grads / denominator if denominator.abs() > epsilon else 0
+                    )
                     print("2", normalized_grads)
 
                     param_norm = normalized_grads.norm(2)
