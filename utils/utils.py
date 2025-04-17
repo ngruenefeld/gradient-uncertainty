@@ -76,10 +76,10 @@ def completion_gradient(
                     epsilon = 1e-8
 
                     # Calculate symmetric percent change
-                    normalized_grads = (
-                        param_grads / denominator
-                        if (denominator.abs() < epsilon).sum == 0
-                        else 0
+                    normalized_grads = torch.where(
+                        denominator.abs() > epsilon,
+                        param_grads / denominator,
+                        torch.zeros_like(param_grads),
                     )
                     print("2", normalized_grads)
 
