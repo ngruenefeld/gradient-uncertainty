@@ -371,7 +371,7 @@ def main(args):
             if quant_bits in [4, 8] and model_name in quantizable_models
             else ""
         )
-        response_suffix = "_fullgradient" if not response_only else ""
+        response_suffix = "" if response_only else "_fullgradient"
         normalize_suffix = "_normalized" if normalize else ""
 
         df = pd.DataFrame(results)
@@ -436,8 +436,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--response_only",
         action="store_true",
-        default=False,
-        help="Only calculate gradients for the response tokens (default: False)",
+        default=True,
+        help="Only calculate gradients for the response tokens (default: True)",
     )
     parser.add_argument(
         "--normalize",

@@ -16,7 +16,7 @@ KEY_MODE="keyfile"
 SAMPLE_SIZE=0
 STREAMING=false
 QUANTIZATION=0  # 0 = no quantization (default)
-RESPONSE_ONLY=false  # Default to false
+RESPONSE_ONLY=true  # Default to true
 NORMALIZE=false  # Default to false
 
 # Parse named arguments
@@ -30,6 +30,7 @@ while [[ "$#" -gt 0 ]]; do
         --streaming) STREAMING=true;;
         --quantization=*) QUANTIZATION="${1#*=}";;
         --response_only) RESPONSE_ONLY=true;;
+        --no-response_only) RESPONSE_ONLY=false;;
         --normalize) NORMALIZE=true;;
         *) echo "Unknown option: $1" ;;
     esac
@@ -54,9 +55,9 @@ fi
 # Add quantization parameter
 CMD="$CMD --quantization $QUANTIZATION"
 
-# Add response_only flag if true (since default is now false)
-if [ "$RESPONSE_ONLY" = true ]; then
-    CMD="$CMD --response_only"
+# Add no-response_only flag if false (since default is now true)
+if [ "$RESPONSE_ONLY" = false ]; then
+    CMD="$CMD --no-response_only"
 fi
 
 # Add normalize parameter (only add if true)
