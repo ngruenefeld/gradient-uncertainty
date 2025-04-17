@@ -1,0 +1,31 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: a7128354ed3e0b079dc41bf5ed96d159b3a2d8c1
+Job number: 719166
+Dataset: truthful
+Model: llama-3.1-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 1
+Mode: test
+Streaming dataset: False
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.63s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.67s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.66s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.86s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.15s/it]
+Processing sample 1/1 (dataset index: 799)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 275.48681365838274
+1 tensor(16.5978)
+3 tensor(16.5978)
+4 16.597795486450195
+0 275.41145061166026
+1 tensor(16.5955)
+0 449.39068115036935
+1 tensor(21.1988)
+0 297.00386431161314
+1 tensor(17.2338)
+Sample 1 (dataset index 799) processed successfully with 3 rephrasings.
+Processing complete. Saved 1 successful results. Failed: 0
