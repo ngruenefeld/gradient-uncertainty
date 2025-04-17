@@ -22,6 +22,10 @@ def main(args):
     sample_size = args.sample_size
     use_streaming = args.streaming
     quant_bits = args.quantization
+    response_only = args.response_only
+    normalize = args.normalize
+
+    mode = "full" if sample_size == 0 else "test" if sample_size < 100 else "sampled"
 
     print(f"Job number: {job_number}")
     print(f"Dataset: {dataset_name}")
@@ -29,10 +33,13 @@ def main(args):
     print(f"GPT Model: {gpt_model}")
     print(f"Key mode: {key_mode}")
     print(f"Sample size: {sample_size}")
+    print(f"Mode: {mode}")
     print(f"Streaming dataset: {use_streaming}")
     print(
         f"Quantization bits: {quant_bits if quant_bits > 0 else 'None (full precision)'}"
     )
+    print(f"Response only: {response_only}")
+    print(f"Normalize: {normalize}")
 
     if model_name == "gpt2":
         model_path = "gpt2"
@@ -225,7 +232,13 @@ def main(args):
 
             # Calculate gradient (with built-in error handling)
             gradient_result = completion_gradient(
-                prompt, completion, model, tokenizer, device
+                prompt,
+                completion,
+                model,
+                tokenizer,
+                device,
+                response_only=response_only,
+                normalize=normalize,
             )
             if isinstance(gradient_result, dict) and "error" in gradient_result:
                 print(
@@ -271,7 +284,13 @@ def main(args):
                 torch.cuda.empty_cache()
 
                 rephrasing_gradient_result = completion_gradient(
-                    prompt, phrasing, model, tokenizer, device
+                    prompt,
+                    phrasing,
+                    model,
+                    tokenizer,
+                    device,
+                    response_only=response_only,
+                    normalize=normalize,
                 )
 
                 if (
@@ -346,15 +365,18 @@ def main(args):
 
     # Save final results if we have any
     if results:
-        # Include quantization info in the filename if applicable
+        # Include quantization, response_only, and normalize info in the filename
         quant_suffix = (
             f"_{quant_bits}bit"
             if quant_bits in [4, 8] and model_name in quantizable_models
             else ""
         )
+        response_suffix = "_fullgradient" if not response_only else ""
+        normalize_suffix = "_normalized" if normalize else ""
+
         df = pd.DataFrame(results)
         df.to_pickle(
-            f"data/results_{job_number}_{model_name}{quant_suffix}_{dataset_name}.pkl"
+            f"data/{mode}/results_{job_number}_{model_name}{quant_suffix}{response_suffix}{normalize_suffix}_{dataset_name}.pkl"
         )
         print(
             f"Processing complete. Saved {len(results)} successful results. Failed: {failed_count}"
@@ -410,6 +432,18 @@ if __name__ == "__main__":
         default=0,
         choices=[0, 4, 8],
         help="Quantization precision: 0 (none/default), 4 (4-bit), or 8 (8-bit)",
+    )
+    parser.add_argument(
+        "--response_only",
+        action="store_true",
+        default=False,
+        help="Only calculate gradients for the response tokens (default: False)",
+    )
+    parser.add_argument(
+        "--normalize",
+        action="store_true",
+        default=False,
+        help="Normalize the gradients (default: False)",
     )
 
     args = parser.parse_args()

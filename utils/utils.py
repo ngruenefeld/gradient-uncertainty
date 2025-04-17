@@ -28,7 +28,9 @@ def get_response(prompt, model, tokenizer, device):
         return {"error": str(e)}
 
 
-def completion_gradient(prompt, completion, model, tokenizer, device):
+def completion_gradient(
+    prompt, completion, model, tokenizer, device, response_only=True, normalize=False
+):
     try:
         model.train()
 
@@ -43,7 +45,8 @@ def completion_gradient(prompt, completion, model, tokenizer, device):
 
         # Normal processing
         labels = input_ids.clone()
-        labels[0, :prompt_len] = -100  # Ignore loss for prompt tokens
+        if response_only:
+            labels[0, :prompt_len] = -100  # Ignore loss for prompt tokens
 
         # Calculate loss and backprop
         outputs = model(input_ids=input_ids, labels=labels)
@@ -54,10 +57,14 @@ def completion_gradient(prompt, completion, model, tokenizer, device):
 
         # Calculate gradient norm
         total_norm = 0.0
+        total_reference_norm = 0.0
         for name, param in model.named_parameters():
             if param.grad is not None:
-                # TODO: Also divide the grad by its reference parameter
-                param_norm = param.grad.detach().norm(2)
+                if normalize == False:
+                    param_norm = param.grad.detach().norm(2)
+                else:
+                    param_norm = param.grad.detach() / param.detach()
+                    param_norm = param_norm.norm(2)
                 total_norm += param_norm.item() ** 2
 
         uncertainty = torch.tensor(total_norm**0.5)
