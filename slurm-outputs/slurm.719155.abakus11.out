@@ -1,0 +1,20 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 27db34f1058323810ded11ce47cc5f38f3369c56
+Job number: 719155
+Dataset: truthful
+Model: phi4
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 1
+Mode: test
+Streaming dataset: False
+Quantization bits: 4
+Full gradient: True
+Response only: False
+Normalize: False
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:02<00:12,  2.46s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:04<00:09,  2.47s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:07<00:07,  2.48s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:09<00:04,  2.45s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:12<00:02,  2.44s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:14<00:00,  2.44s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:14<00:00,  2.45s/it]
+Processing sample 1/1 (dataset index: 367)
+Sample 1 (dataset index 367) processed successfully with 3 rephrasings.
+Processing complete. Saved 1 successful results. Failed: 0
