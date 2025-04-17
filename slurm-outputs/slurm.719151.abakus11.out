@@ -17,3 +17,9 @@ Loading model in 4-bit precision to reduce memory usage
 Processing sample 1/1 (dataset index: 498)
 Sample 1 (dataset index 498) processed successfully with 3 rephrasings.
 Processing complete. Saved 1 successful results. Failed: 0
+[main a788d38] QA Script Results for Run 719151 (Commit: c112d2a)
+ 3 files changed, 25 insertions(+)
+ create mode 100644 data/test/results_719151_phi4_4bit_fullgradient_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.719151.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   c112d2a..a788d38  main -> main
