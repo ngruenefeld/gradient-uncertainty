@@ -74,8 +74,12 @@ def completion_gradient(
 
                     # Using Symmetric Percentage Change
                     new_param_values = param_values + param_grads
+                    print("1", param_values)
+                    print("2", param_grads)
+                    print("3", new_param_values)
 
                     denominator = 0.5 * (param_values + new_param_values)
+                    print("4", denominator)
 
                     # Small epsilon to avoid division by zero
                     epsilon = 1e-8
@@ -86,10 +90,12 @@ def completion_gradient(
                         param_grads / denominator,
                         torch.zeros_like(param_grads),
                     )
+                    print("5", normalized_grads)
 
                     param_norm = normalized_grads.abs().sum()
+                    print("6", param_norm)
                     uncertainty += param_norm
-        print(uncertainty)
+        print("7", uncertainty)
 
         # Calculate completion length
         completion_length = (
