@@ -71,25 +71,29 @@ def completion_gradient(
 
                     # Calculate x_i + Δx_i (parameter value + gradient)
                     param_plus_grad = param_values + param_grads
+                    print("0", param_plus_grad)
 
                     # Calculate denominator: 0.5 * (|x_i| + |x_i + Δx_i|)
                     denominator = 0.5 * (
                         torch.abs(param_values) + torch.abs(param_plus_grad)
                     )
+                    print("1", denominator)
 
                     # Small epsilon to avoid division by zero
                     epsilon = 1e-8
 
                     # Calculate symmetric percent change
                     normalized_grads = param_grads / (denominator + epsilon)
+                    print("2", normalized_grads)
 
                     param_norm = normalized_grads.norm(2)
+                    print("3", param_norm)
 
                 total_norm += param_norm.item() ** 2
 
-        print("0", total_norm)
+        print("4", total_norm)
         uncertainty = torch.tensor(total_norm**0.5)
-        print("1", uncertainty)
+        print("5", uncertainty)
 
         # Calculate completion length
         completion_length = (
