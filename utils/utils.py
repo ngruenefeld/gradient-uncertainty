@@ -89,6 +89,7 @@ def completion_gradient(
 
                     param_norm = normalized_grads.abs().sum()
                     uncertainty += param_norm
+        print(uncertainty)
 
         # Calculate completion length
         completion_length = (
