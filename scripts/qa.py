@@ -121,10 +121,7 @@ def main(args):
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         model.to(device)
 
-    # Also ensure tokenizer uses trust_remote_code if needed
     tokenizer_params = {"token": hf_token}
-    if model_name in trust_remote_code_models:
-        tokenizer_params["trust_remote_code"] = True
 
     tokenizer = AutoTokenizer.from_pretrained(model_path, **tokenizer_params)
 
