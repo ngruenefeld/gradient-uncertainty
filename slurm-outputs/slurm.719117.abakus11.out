@@ -1,0 +1,39 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 9f012b1a745c761d0874138ec56e641456b075e1
+Job number: 719117
+Dataset: truthful
+Model: deepseek-v3
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Streaming dataset: False
+Quantization bits: 4
+Loading model in 4-bit precision to reduce memory usage
+The repository for deepseek-ai/deepseek-v3 contains custom code which must be executed to correctly load the model. You can inspect the repository content at https://hf.co/deepseek-ai/deepseek-v3.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+Do you wish to run the custom code? [y/N] Traceback (most recent call last):
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/dynamic_module_utils.py", line 651, in resolve_trust_remote_code
+    answer = input(
+EOFError: EOF when reading a line
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 413, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 111, in main
+    model = AutoModelForCausalLM.from_pretrained(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/models/auto/auto_factory.py", line 526, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/models/auto/configuration_auto.py", line 1020, in from_pretrained
+    trust_remote_code = resolve_trust_remote_code(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/dynamic_module_utils.py", line 664, in resolve_trust_remote_code
+    raise ValueError(
+ValueError: The repository for deepseek-ai/deepseek-v3 contains custom code which must be executed to correctly load the model. You can inspect the repository content at https://hf.co/deepseek-ai/deepseek-v3.
+Please pass the argument `trust_remote_code=True` to allow custom code to be run.
