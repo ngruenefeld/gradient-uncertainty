@@ -50,8 +50,6 @@ def main(args):
         model_path = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
     elif model_name == "phi4":
         model_path = "microsoft/Phi-4"
-    elif model_name == "deepseek":
-        model_path = "TheBloke/deepseek-llm-67b-base-AWQ"
     else:
         raise ValueError(
             f"Model {model_name} not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b, phi4, deepseek-v3."
@@ -89,17 +87,10 @@ def main(args):
         "phi4",
     ]
 
-    # Models that require trust_remote_code=True
-    trust_remote_code_models = ["deepseek-v3"]
-
     # Prepare common model loading parameters
     model_load_params = {
         "token": hf_token,
     }
-
-    # Add trust_remote_code=True for models that need it
-    if model_name in trust_remote_code_models:
-        model_load_params["trust_remote_code"] = True
 
     if quant_bits in [4, 8] and model_name in quantizable_models:
         print(f"Loading model in {quant_bits}-bit precision to reduce memory usage")
