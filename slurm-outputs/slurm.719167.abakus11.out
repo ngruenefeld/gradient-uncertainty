@@ -1,0 +1,1079 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: a1e9b7097b6b093662be14a4ab22760855da90a5
+Job number: 719167
+Dataset: truthful
+Model: llama-3.1-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 100
+Mode: sampled
+Streaming dataset: False
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: True
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.64s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.67s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.66s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.86s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.15s/it]
+Processing sample 1/100 (dataset index: 532)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 1002.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 986.56 MiB is free. Including non-PyTorch memory, this process has 18.72 GiB memory in use. Of the allocated memory 17.79 GiB is allocated by PyTorch, and 710.57 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 1 (dataset index 532): CUDA out of memory. Tried to allocate 1002.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 986.56 MiB is free. Including non-PyTorch memory, this process has 18.72 GiB memory in use. Of the allocated memory 17.79 GiB is allocated by PyTorch, and 710.57 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 2/100 (dataset index: 184)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 2 (dataset index 184) processed successfully with 3 rephrasings.
+Processing sample 3/100 (dataset index: 263)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 3 (dataset index 263) processed successfully with 3 rephrasings.
+Processing sample 4/100 (dataset index: 758)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 4 (dataset index 758) processed successfully with 3 rephrasings.
+Processing sample 5/100 (dataset index: 620)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 5 (dataset index 620) processed successfully with 3 rephrasings.
+Processing sample 6/100 (dataset index: 789)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 6 (dataset index 789) processed successfully with 3 rephrasings.
+Processing sample 7/100 (dataset index: 160)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 7 (dataset index 160) processed successfully with 3 rephrasings.
+Processing sample 8/100 (dataset index: 267)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 8 (dataset index 267) processed successfully with 3 rephrasings.
+Processing sample 9/100 (dataset index: 348)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 9 (dataset index 348) processed successfully with 3 rephrasings.
+Processing sample 10/100 (dataset index: 734)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 10 (dataset index 734) processed successfully with 3 rephrasings.
+Processing sample 11/100 (dataset index: 439)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 1000.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 956.56 MiB is free. Including non-PyTorch memory, this process has 18.75 GiB memory in use. Of the allocated memory 17.81 GiB is allocated by PyTorch, and 725.56 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 11 (dataset index 439): CUDA out of memory. Tried to allocate 1000.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 956.56 MiB is free. Including non-PyTorch memory, this process has 18.75 GiB memory in use. Of the allocated memory 17.81 GiB is allocated by PyTorch, and 725.56 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 12/100 (dataset index: 484)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 12 (dataset index 484) processed successfully with 3 rephrasings.
+Processing sample 13/100 (dataset index: 590)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 13 (dataset index 590) processed successfully with 3 rephrasings.
+Processing sample 14/100 (dataset index: 266)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 14 (dataset index 266) processed successfully with 3 rephrasings.
+Processing sample 15/100 (dataset index: 445)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 15 (dataset index 445) processed successfully with 3 rephrasings.
+Processing sample 16/100 (dataset index: 487)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 16 (dataset index 487) processed successfully with 3 rephrasings.
+Processing sample 17/100 (dataset index: 26)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 17 (dataset index 26) processed successfully with 3 rephrasings.
+Processing sample 18/100 (dataset index: 523)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 18 (dataset index 523) processed successfully with 3 rephrasings.
+Processing sample 19/100 (dataset index: 360)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 19 (dataset index 360) processed successfully with 3 rephrasings.
+Processing sample 20/100 (dataset index: 419)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 20 (dataset index 419) processed successfully with 3 rephrasings.
+Processing sample 21/100 (dataset index: 489)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 21 (dataset index 489) processed successfully with 3 rephrasings.
+Processing sample 22/100 (dataset index: 761)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 22 (dataset index 761) processed successfully with 3 rephrasings.
+Processing sample 23/100 (dataset index: 722)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 23 (dataset index 722) processed successfully with 3 rephrasings.
+Processing sample 24/100 (dataset index: 257)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 24 (dataset index 257) processed successfully with 3 rephrasings.
+Processing sample 25/100 (dataset index: 217)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 25 (dataset index 217) processed successfully with 3 rephrasings.
+Processing sample 26/100 (dataset index: 67)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 26 (dataset index 67) processed successfully with 3 rephrasings.
+Processing sample 27/100 (dataset index: 326)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 27 (dataset index 326) processed successfully with 3 rephrasings.
+Processing sample 28/100 (dataset index: 816)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 28 (dataset index 816) processed successfully with 3 rephrasings.
+Processing sample 29/100 (dataset index: 659)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 29 (dataset index 659) processed successfully with 3 rephrasings.
+Processing sample 30/100 (dataset index: 81)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 30 (dataset index 81) processed successfully with 3 rephrasings.
+Processing sample 31/100 (dataset index: 82)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 31 (dataset index 82) processed successfully with 3 rephrasings.
+Processing sample 32/100 (dataset index: 102)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 32 (dataset index 102) processed successfully with 3 rephrasings.
+Processing sample 33/100 (dataset index: 795)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 33 (dataset index 795) processed successfully with 3 rephrasings.
+Processing sample 34/100 (dataset index: 634)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 34 (dataset index 634) processed successfully with 3 rephrasings.
+Processing sample 35/100 (dataset index: 268)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 35 (dataset index 268) processed successfully with 3 rephrasings.
+Processing sample 36/100 (dataset index: 665)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 36 (dataset index 665) processed successfully with 3 rephrasings.
+Processing sample 37/100 (dataset index: 530)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 37 (dataset index 530) processed successfully with 3 rephrasings.
+Processing sample 38/100 (dataset index: 220)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 38 (dataset index 220) processed successfully with 3 rephrasings.
+Processing sample 39/100 (dataset index: 351)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 39 (dataset index 351) processed successfully with 3 rephrasings.
+Processing sample 40/100 (dataset index: 566)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 40 (dataset index 566) processed successfully with 3 rephrasings.
+Processing sample 41/100 (dataset index: 224)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 41 (dataset index 224) processed successfully with 3 rephrasings.
+Processing sample 42/100 (dataset index: 158)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 42 (dataset index 158) processed successfully with 3 rephrasings.
+Processing sample 43/100 (dataset index: 234)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 43 (dataset index 234) processed successfully with 3 rephrasings.
+Processing sample 44/100 (dataset index: 181)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 44 (dataset index 181) processed successfully with 3 rephrasings.
+Processing sample 45/100 (dataset index: 174)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 45 (dataset index 174) processed successfully with 3 rephrasings.
+Processing sample 46/100 (dataset index: 256)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 46 (dataset index 256) processed successfully with 3 rephrasings.
+Processing sample 47/100 (dataset index: 306)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 47 (dataset index 306) processed successfully with 3 rephrasings.
+Processing sample 48/100 (dataset index: 533)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 48 (dataset index 533) processed successfully with 3 rephrasings.
+Processing sample 49/100 (dataset index: 233)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 49 (dataset index 233) processed successfully with 3 rephrasings.
+Processing sample 50/100 (dataset index: 554)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 50 (dataset index 554) processed successfully with 3 rephrasings.
+Processing sample 51/100 (dataset index: 151)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 51 (dataset index 151) processed successfully with 3 rephrasings.
+Processing sample 52/100 (dataset index: 441)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 0.0
+1 tensor(0.)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 52 (dataset index 441) processed successfully with 3 rephrasings.
+Processing sample 53/100 (dataset index: 781)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 53 (dataset index 781) processed successfully with 3 rephrasings.
+Processing sample 54/100 (dataset index: 66)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 54 (dataset index 66) processed successfully with 3 rephrasings.
+Processing sample 55/100 (dataset index: 136)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 55 (dataset index 136) processed successfully with 3 rephrasings.
+Processing sample 56/100 (dataset index: 655)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 56 (dataset index 655) processed successfully with 3 rephrasings.
+Processing sample 57/100 (dataset index: 774)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 57 (dataset index 774) processed successfully with 3 rephrasings.
+Processing sample 58/100 (dataset index: 433)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 0.0
+1 tensor(0.)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 58 (dataset index 433) processed successfully with 3 rephrasings.
+Processing sample 59/100 (dataset index: 120)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 59 (dataset index 120) processed successfully with 3 rephrasings.
+Processing sample 60/100 (dataset index: 571)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 1000.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 854.56 MiB is free. Including non-PyTorch memory, this process has 18.85 GiB memory in use. Of the allocated memory 17.82 GiB is allocated by PyTorch, and 814.54 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 60 (dataset index 571): CUDA out of memory. Tried to allocate 1000.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 854.56 MiB is free. Including non-PyTorch memory, this process has 18.85 GiB memory in use. Of the allocated memory 17.82 GiB is allocated by PyTorch, and 814.54 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 61/100 (dataset index: 254)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 61 (dataset index 254) processed successfully with 3 rephrasings.
+Processing sample 62/100 (dataset index: 768)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 62 (dataset index 768) processed successfully with 3 rephrasings.
+Processing sample 63/100 (dataset index: 576)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 63 (dataset index 576) processed successfully with 3 rephrasings.
+Processing sample 64/100 (dataset index: 739)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 64 (dataset index 739) processed successfully with 3 rephrasings.
+Processing sample 65/100 (dataset index: 135)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 65 (dataset index 135) processed successfully with 3 rephrasings.
+Processing sample 66/100 (dataset index: 187)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 66 (dataset index 187) processed successfully with 3 rephrasings.
+Processing sample 67/100 (dataset index: 278)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 67 (dataset index 278) processed successfully with 3 rephrasings.
+Processing sample 68/100 (dataset index: 226)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 68 (dataset index 226) processed successfully with 3 rephrasings.
+Processing sample 69/100 (dataset index: 197)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 69 (dataset index 197) processed successfully with 3 rephrasings.
+Processing sample 70/100 (dataset index: 630)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 70 (dataset index 630) processed successfully with 3 rephrasings.
+Processing sample 71/100 (dataset index: 639)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 71 (dataset index 639) processed successfully with 3 rephrasings.
+Processing sample 72/100 (dataset index: 30)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 72 (dataset index 30) processed successfully with 3 rephrasings.
+Processing sample 73/100 (dataset index: 206)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 73 (dataset index 206) processed successfully with 3 rephrasings.
+Processing sample 74/100 (dataset index: 422)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 1000.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 968.56 MiB is free. Including non-PyTorch memory, this process has 18.73 GiB memory in use. Of the allocated memory 17.81 GiB is allocated by PyTorch, and 712.91 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 74 (dataset index 422): CUDA out of memory. Tried to allocate 1000.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 968.56 MiB is free. Including non-PyTorch memory, this process has 18.73 GiB memory in use. Of the allocated memory 17.81 GiB is allocated by PyTorch, and 712.91 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 75/100 (dataset index: 212)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 75 (dataset index 212) processed successfully with 3 rephrasings.
+Processing sample 76/100 (dataset index: 621)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 76 (dataset index 621) processed successfully with 3 rephrasings.
+Processing sample 77/100 (dataset index: 692)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 77 (dataset index 692) processed successfully with 3 rephrasings.
+Processing sample 78/100 (dataset index: 185)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 78 (dataset index 185) processed successfully with 3 rephrasings.
+Processing sample 79/100 (dataset index: 560)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 79 (dataset index 560) processed successfully with 3 rephrasings.
+Processing sample 80/100 (dataset index: 431)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 1000.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 968.56 MiB is free. Including non-PyTorch memory, this process has 18.73 GiB memory in use. Of the allocated memory 17.80 GiB is allocated by PyTorch, and 716.00 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 80 (dataset index 431): CUDA out of memory. Tried to allocate 1000.00 MiB. GPU 0 has a total capacity of 19.71 GiB of which 968.56 MiB is free. Including non-PyTorch memory, this process has 18.73 GiB memory in use. Of the allocated memory 17.80 GiB is allocated by PyTorch, and 716.00 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 81/100 (dataset index: 186)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 81 (dataset index 186) processed successfully with 3 rephrasings.
+Processing sample 82/100 (dataset index: 712)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 82 (dataset index 712) processed successfully with 3 rephrasings.
+Processing sample 83/100 (dataset index: 810)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 83 (dataset index 810) processed successfully with 3 rephrasings.
+Processing sample 84/100 (dataset index: 429)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 84 (dataset index 429) processed successfully with 3 rephrasings.
+Processing sample 85/100 (dataset index: 534)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 85 (dataset index 534) processed successfully with 3 rephrasings.
+Processing sample 86/100 (dataset index: 581)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 86 (dataset index 581) processed successfully with 3 rephrasings.
+Processing sample 87/100 (dataset index: 57)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 87 (dataset index 57) processed successfully with 3 rephrasings.
+Processing sample 88/100 (dataset index: 788)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 88 (dataset index 788) processed successfully with 3 rephrasings.
+Processing sample 89/100 (dataset index: 196)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 89 (dataset index 196) processed successfully with 3 rephrasings.
+Processing sample 90/100 (dataset index: 219)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 90 (dataset index 219) processed successfully with 1 rephrasings.
+Processing sample 91/100 (dataset index: 601)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 91 (dataset index 601) processed successfully with 3 rephrasings.
+Processing sample 92/100 (dataset index: 374)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 92 (dataset index 374) processed successfully with 3 rephrasings.
+Processing sample 93/100 (dataset index: 497)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 93 (dataset index 497) processed successfully with 3 rephrasings.
+Processing sample 94/100 (dataset index: 548)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 0.0
+1 tensor(0.)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 94 (dataset index 548) processed successfully with 3 rephrasings.
+Processing sample 95/100 (dataset index: 480)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 95 (dataset index 480) processed successfully with 3 rephrasings.
+Processing sample 96/100 (dataset index: 583)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 96 (dataset index 583) processed successfully with 3 rephrasings.
+Processing sample 97/100 (dataset index: 691)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 97 (dataset index 691) processed successfully with 3 rephrasings.
+Processing sample 98/100 (dataset index: 778)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 98 (dataset index 778) processed successfully with 3 rephrasings.
+Processing sample 99/100 (dataset index: 752)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 99 (dataset index 752) processed successfully with 3 rephrasings.
+Processing sample 100/100 (dataset index: 749)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+0 inf
+1 tensor(inf)
+Sample 100 (dataset index 749) processed successfully with 3 rephrasings.
+Processing complete. Saved 95 successful results. Failed: 5
