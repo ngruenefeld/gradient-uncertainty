@@ -1,0 +1,21 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 88ab6e18df92d99b8e7c8247c4d7f48d535b4bb3
+Job number: 719122
+Dataset: truthful
+Model: deepseek-r1-distill-qwen-1.5b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Streaming dataset: False
+Quantization bits: None (full precision)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 420, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 126, in main
+    if model_name in trust_remote_code_models:
+NameError: name 'trust_remote_code_models' is not defined
