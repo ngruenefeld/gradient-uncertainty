@@ -37,3 +37,8 @@ Traceback (most recent call last):
     raise ValueError(
 ValueError: The repository for deepseek-ai/deepseek-v3 contains custom code which must be executed to correctly load the model. You can inspect the repository content at https://hf.co/deepseek-ai/deepseek-v3.
 Please pass the argument `trust_remote_code=True` to allow custom code to be run.
+[main b1cd648] QA Script Results for Run 719117 (Commit: 9f012b1)
+ 2 files changed, 45 insertions(+)
+ create mode 100644 slurm-outputs/slurm.719117.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   9f012b1..b1cd648  main -> main
