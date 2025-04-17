@@ -19,3 +19,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 126, in main
     if model_name in trust_remote_code_models:
 NameError: name 'trust_remote_code_models' is not defined
+[main 2d22e49] QA Script Results for Run 719122 (Commit: 88ab6e1)
+ 2 files changed, 26 insertions(+)
+ create mode 100644 slurm-outputs/slurm.719122.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   88ab6e1..2d22e49  main -> main
