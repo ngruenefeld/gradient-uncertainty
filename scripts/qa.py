@@ -50,8 +50,8 @@ def main(args):
         model_path = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
     elif model_name == "phi4":
         model_path = "microsoft/Phi-4"
-    elif model_name == "deepseek-v3":
-        model_path = "deepseek-ai/deepseek-v3"
+    elif model_name == "deepseek":
+        model_path = "TheBloke/deepseek-llm-67b-base-AWQ"
     else:
         raise ValueError(
             f"Model {model_name} not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b, phi4, deepseek-v3."
@@ -87,7 +87,6 @@ def main(args):
         "llama-3.1-8b",
         "llama-3.2-3b",
         "phi4",
-        "deepseek-v3",
     ]
 
     # Models that require trust_remote_code=True
