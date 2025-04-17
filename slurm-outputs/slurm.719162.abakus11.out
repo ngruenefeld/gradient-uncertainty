@@ -287,3 +287,9 @@ tensor(0.0384, device='cuda:0', dtype=torch.float16)
 tensor(nan, device='cuda:0', dtype=torch.float16)
 Sample 1 (dataset index 304) processed successfully with 3 rephrasings.
 Processing complete. Saved 1 successful results. Failed: 0
+[main 6acda27] QA Script Results for Run 719162 (Commit: 5db6af2)
+ 3 files changed, 295 insertions(+)
+ create mode 100644 data/test/results_719162_llama-3.1-8b_4bit_normalized_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.719162.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   5db6af2..6acda27  main -> main
