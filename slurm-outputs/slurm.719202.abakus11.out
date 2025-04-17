@@ -17521,3 +17521,9 @@ Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
 8 tensor(41696.7500)
 Sample 5 (dataset index 723) processed successfully with 3 rephrasings.
 Processing complete. Saved 5 successful results. Failed: 0
+[main c0e269e] QA Script Results for Run 719202 (Commit: 033d8ea)
+ 3 files changed, 17529 insertions(+)
+ create mode 100644 data/test/results_719202_llama-3.1-8b_4bit_normalized_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.719202.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   033d8ea..c0e269e  main -> main
