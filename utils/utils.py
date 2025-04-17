@@ -31,6 +31,7 @@ def get_response(prompt, model, tokenizer, device):
 def completion_gradient(
     prompt, completion, model, tokenizer, device, response_only=True, normalize=False
 ):
+    print("normalize:", normalize)
     try:
         model.train()
 
@@ -57,12 +58,12 @@ def completion_gradient(
 
         # Calculate gradient norm
         total_norm = 0.0
-        total_reference_norm = 0.0
         for name, param in model.named_parameters():
             if param.grad is not None:
                 if normalize == False:
                     param_norm = param.grad.detach().norm(2)
                 else:
+                    print("test")
                     param_norm = param.grad.detach() / param.detach()
                     param_norm = param_norm.norm(2)
                 total_norm += param_norm.item() ** 2
