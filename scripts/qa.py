@@ -438,7 +438,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--full_gradient",
         action="store_true",
-        default=True,
+        default=False,
         help="Only calculate gradients for the response tokens (default: True)",
     )
     parser.add_argument(
