@@ -56,8 +56,8 @@ def completion_gradient(
         loss.backward()
 
         # Calculate gradient norm
+        total_norm = 0.0
         if normalize == False:
-            total_norm = 0.0
             for name, param in model.named_parameters():
                 if param.grad is not None:
                     param_norm = param.grad.detach().norm(2)
@@ -92,10 +92,13 @@ def completion_gradient(
                     )
                     print("5", normalized_grads)
 
-                    param_norm = normalized_grads.abs().sum()
+                    param_norm = normalized_grads.detach().norm(2)
                     print("6", param_norm)
-                    uncertainty += param_norm
-        print("7", uncertainty)
+                    total_norm += param_norm.item() ** 2
+                    print("7", total_norm)
+
+            uncertainty = torch.tensor(total_norm**0.5)
+        print("8", uncertainty)
 
         # Calculate completion length
         completion_length = (
