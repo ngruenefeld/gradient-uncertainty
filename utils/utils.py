@@ -77,7 +77,9 @@ def completion_gradient(
 
                     # Calculate symmetric percent change
                     normalized_grads = (
-                        param_grads / denominator if denominator.abs() > epsilon else 0
+                        param_grads / denominator
+                        if (denominator.abs() < epsilon).sum == 0
+                        else 0
                     )
                     print("2", normalized_grads)
 
