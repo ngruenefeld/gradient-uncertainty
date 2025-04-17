@@ -90,6 +90,18 @@ def main(args):
         "deepseek-v3",
     ]
 
+    # Models that require trust_remote_code=True
+    trust_remote_code_models = ["deepseek-v3"]
+
+    # Prepare common model loading parameters
+    model_load_params = {
+        "token": hf_token,
+    }
+
+    # Add trust_remote_code=True for models that need it
+    if model_name in trust_remote_code_models:
+        model_load_params["trust_remote_code"] = True
+
     if quant_bits in [4, 8] and model_name in quantizable_models:
         print(f"Loading model in {quant_bits}-bit precision to reduce memory usage")
 
@@ -108,18 +120,23 @@ def main(args):
             )
 
         # With quantization, we must use device_map="auto" instead of .to(device)
-        model = AutoModelForCausalLM.from_pretrained(
-            model_path,
-            token=hf_token,
-            quantization_config=quantization_config,
-            device_map="auto",
-        )
+        model_load_params["quantization_config"] = quantization_config
+        model_load_params["device_map"] = "auto"
+
+        # Load the model with all parameters
+        model = AutoModelForCausalLM.from_pretrained(model_path, **model_load_params)
     else:
-        model = AutoModelForCausalLM.from_pretrained(model_path, token=hf_token)
+        # Load the model with base parameters
+        model = AutoModelForCausalLM.from_pretrained(model_path, **model_load_params)
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         model.to(device)
 
-    tokenizer = AutoTokenizer.from_pretrained(model_path, token=hf_token)
+    # Also ensure tokenizer uses trust_remote_code if needed
+    tokenizer_params = {"token": hf_token}
+    if model_name in trust_remote_code_models:
+        tokenizer_params["trust_remote_code"] = True
+
+    tokenizer = AutoTokenizer.from_pretrained(model_path, **tokenizer_params)
 
     # Load datasets in streaming mode if requested
     if dataset_name == "truthful":
