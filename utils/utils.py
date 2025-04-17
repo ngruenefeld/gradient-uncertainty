@@ -62,9 +62,22 @@ def completion_gradient(
                 if normalize == False:
                     param_norm = param.grad.detach().norm(2)
                 else:
-                    param_norm = param.grad.detach() / param.detach()
-                    param_norm = param_norm.norm(2)
-                print("-1", param_norm)
+                    param_values = param.detach()
+                    param_grads = param.grad.detach()
+
+                    # Use a small epsilon to avoid division by zero
+                    epsilon = 1e-8
+                    non_zero_mask = torch.abs(param_values) > epsilon
+
+                    normalized_grads = torch.zeros_like(param_grads)
+
+                    # Only normalize where parameter values are non-zero
+                    normalized_grads[non_zero_mask] = param_grads[non_zero_mask] / (
+                        param_values[non_zero_mask] + epsilon
+                    )
+
+                    param_norm = normalized_grads.norm(2)
+
                 total_norm += param_norm.item() ** 2
 
         print("0", total_norm)
@@ -80,7 +93,6 @@ def completion_gradient(
         del outputs, loss, input_ids, labels, full_encodings, prompt_encodings
         gc.collect()
         torch.cuda.empty_cache()
-        print("2", uncertainty)
 
         return uncertainty, completion_length
     except Exception as e:
