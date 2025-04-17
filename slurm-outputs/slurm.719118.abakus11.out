@@ -34,3 +34,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/quantizers/auto.py", line 97, in from_dict
     raise ValueError(
 ValueError: Unknown quantization type, got fp8 - supported types are: ['awq', 'bitsandbytes_4bit', 'bitsandbytes_8bit', 'gptq', 'aqlm', 'quanto', 'eetq', 'hqq', 'compressed-tensors', 'fbgemm_fp8', 'torchao', 'bitnet']
+[main c4ee473] QA Script Results for Run 719118 (Commit: fa306eb)
+ 2 files changed, 41 insertions(+)
+ create mode 100644 slurm-outputs/slurm.719118.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   fa306eb..c4ee473  main -> main

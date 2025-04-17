@@ -1,0 +1,18 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: c4ee4730a212e64f68f9b6c3917746f63ff2fe2b
+Job number: 719119
+Dataset: truthful
+Model: llama-3.1-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 1
+Streaming dataset: False
+Quantization bits: 8
+Loading model in 8-bit precision to reduce memory usage
+Unused kwargs: ['bnb_8bit_use_double_quant']. These kwargs are not used in <class 'transformers.utils.quantization_config.BitsAndBytesConfig'>.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.51s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.55s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.54s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.78s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.06s/it]
+Processing sample 1/1 (dataset index: 782)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+Sample 1 (dataset index 782) processed successfully with 3 rephrasings.
+Processing complete. Saved 1 successful results. Failed: 0
