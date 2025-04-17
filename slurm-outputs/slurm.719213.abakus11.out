@@ -1,0 +1,714 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: df7bf3382addba0cd1290ae77392a3c070a6cd9d
+Job number: 719213
+Dataset: truthful
+Model: llama-3.1-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 100
+Mode: sampled
+Streaming dataset: False
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.61s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.67s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.64s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.85s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.14s/it]
+Processing sample 1/100 (dataset index: 200)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(11.9795)
+8 tensor(15.0453)
+8 tensor(14.1339)
+8 tensor(14.3273)
+Sample 1 (dataset index 200) processed successfully with 3 rephrasings.
+Processing sample 2/100 (dataset index: 1)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(12.4760)
+8 tensor(12.6920)
+8 tensor(14.1218)
+8 tensor(13.1608)
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/100 (dataset index: 326)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(12.9377)
+8 tensor(12.8044)
+8 tensor(13.7988)
+8 tensor(13.7525)
+Sample 3 (dataset index 326) processed successfully with 3 rephrasings.
+Processing sample 4/100 (dataset index: 797)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(12.2933)
+8 tensor(12.1844)
+8 tensor(13.1839)
+8 tensor(13.1506)
+Sample 4 (dataset index 797) processed successfully with 3 rephrasings.
+Processing sample 5/100 (dataset index: 794)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(8.8578)
+8 tensor(15.2877)
+8 tensor(30.2243)
+8 tensor(12.8801)
+Sample 5 (dataset index 794) processed successfully with 3 rephrasings.
+Processing sample 6/100 (dataset index: 360)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(9.2807)
+8 tensor(10.9139)
+8 tensor(11.0838)
+8 tensor(13.3595)
+Sample 6 (dataset index 360) processed successfully with 3 rephrasings.
+Processing sample 7/100 (dataset index: 648)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.0311)
+JSONDecodeError: Expecting ',' delimiter: line 23392 column 1 (char 55899)
+Error getting rephrasings for sample 7 (dataset index 648): Invalid JSON response from API
+Processing sample 8/100 (dataset index: 718)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.1253)
+8 tensor(12.2267)
+8 tensor(12.7286)
+8 tensor(13.5563)
+Sample 8 (dataset index 718) processed successfully with 3 rephrasings.
+Processing sample 9/100 (dataset index: 704)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(11.8287)
+8 tensor(12.1336)
+8 tensor(13.7066)
+8 tensor(15.0709)
+Sample 9 (dataset index 704) processed successfully with 3 rephrasings.
+Processing sample 10/100 (dataset index: 410)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.7556)
+8 tensor(14.8772)
+8 tensor(12.9007)
+8 tensor(16.7867)
+Sample 10 (dataset index 410) processed successfully with 3 rephrasings.
+Processing sample 11/100 (dataset index: 233)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(9.0375)
+8 tensor(18.0017)
+8 tensor(20.3829)
+8 tensor(18.8051)
+Sample 11 (dataset index 233) processed successfully with 3 rephrasings.
+Processing sample 12/100 (dataset index: 475)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(9.0051)
+8 tensor(11.6321)
+8 tensor(13.0941)
+8 tensor(11.5414)
+Sample 12 (dataset index 475) processed successfully with 3 rephrasings.
+Processing sample 13/100 (dataset index: 477)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(16.8496)
+8 tensor(16.0972)
+8 tensor(28.7970)
+8 tensor(19.7428)
+Sample 13 (dataset index 477) processed successfully with 3 rephrasings.
+Processing sample 14/100 (dataset index: 586)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(14.8202)
+8 tensor(18.0506)
+8 tensor(19.9403)
+8 tensor(17.9748)
+Sample 14 (dataset index 586) processed successfully with 3 rephrasings.
+Processing sample 15/100 (dataset index: 389)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(11.0524)
+8 tensor(15.5681)
+8 tensor(15.5861)
+8 tensor(15.9492)
+Sample 15 (dataset index 389) processed successfully with 3 rephrasings.
+Processing sample 16/100 (dataset index: 600)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(12.4799)
+8 tensor(22.8537)
+8 tensor(17.1691)
+8 tensor(17.8477)
+Sample 16 (dataset index 600) processed successfully with 3 rephrasings.
+Processing sample 17/100 (dataset index: 112)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(3.0669)
+8 tensor(4.5725)
+8 tensor(6.4644)
+8 tensor(9.1820)
+Sample 17 (dataset index 112) processed successfully with 3 rephrasings.
+Processing sample 18/100 (dataset index: 347)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(12.3656)
+8 tensor(13.2452)
+8 tensor(13.4257)
+8 tensor(15.6834)
+Sample 18 (dataset index 347) processed successfully with 3 rephrasings.
+Processing sample 19/100 (dataset index: 376)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.7385)
+8 tensor(36.3174)
+8 tensor(38.4479)
+8 tensor(38.0531)
+Sample 19 (dataset index 376) processed successfully with 3 rephrasings.
+Processing sample 20/100 (dataset index: 702)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(11.2081)
+8 tensor(12.9036)
+8 tensor(12.5203)
+8 tensor(12.5432)
+Sample 20 (dataset index 702) processed successfully with 3 rephrasings.
+Processing sample 21/100 (dataset index: 790)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.1176)
+8 tensor(11.6073)
+8 tensor(12.9453)
+8 tensor(14.5665)
+Sample 21 (dataset index 790) processed successfully with 3 rephrasings.
+Processing sample 22/100 (dataset index: 635)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.7054)
+8 tensor(17.0347)
+8 tensor(20.7333)
+8 tensor(19.7853)
+Sample 22 (dataset index 635) processed successfully with 3 rephrasings.
+Processing sample 23/100 (dataset index: 574)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(0.)
+8 tensor(38.1491)
+8 tensor(31.7782)
+8 tensor(36.1009)
+Sample 23 (dataset index 574) processed successfully with 3 rephrasings.
+Processing sample 24/100 (dataset index: 35)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(18.8672)
+8 tensor(21.2752)
+8 tensor(20.2714)
+8 tensor(20.7379)
+Sample 24 (dataset index 35) processed successfully with 3 rephrasings.
+Processing sample 25/100 (dataset index: 507)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(8.5945)
+8 tensor(34.3118)
+8 tensor(46.2637)
+8 tensor(28.9066)
+Sample 25 (dataset index 507) processed successfully with 3 rephrasings.
+Processing sample 26/100 (dataset index: 387)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(8.8583)
+8 tensor(12.7014)
+8 tensor(14.0316)
+8 tensor(13.1268)
+Sample 26 (dataset index 387) processed successfully with 3 rephrasings.
+Processing sample 27/100 (dataset index: 182)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(12.8979)
+8 tensor(17.3846)
+8 tensor(16.7517)
+8 tensor(16.8262)
+Sample 27 (dataset index 182) processed successfully with 3 rephrasings.
+Processing sample 28/100 (dataset index: 484)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(13.4429)
+8 tensor(16.5088)
+8 tensor(16.4870)
+8 tensor(16.3299)
+Sample 28 (dataset index 484) processed successfully with 3 rephrasings.
+Processing sample 29/100 (dataset index: 588)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.0957)
+8 tensor(22.6070)
+8 tensor(24.3253)
+8 tensor(22.6562)
+Sample 29 (dataset index 588) processed successfully with 3 rephrasings.
+Processing sample 30/100 (dataset index: 91)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(9.0969)
+8 tensor(15.8743)
+8 tensor(13.6791)
+8 tensor(15.3717)
+Sample 30 (dataset index 91) processed successfully with 3 rephrasings.
+Processing sample 31/100 (dataset index: 569)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(9.1879)
+8 tensor(20.0719)
+8 tensor(19.6881)
+8 tensor(19.1352)
+Sample 31 (dataset index 569) processed successfully with 3 rephrasings.
+Processing sample 32/100 (dataset index: 602)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(8.6927)
+8 tensor(15.4975)
+8 tensor(16.3262)
+8 tensor(13.8489)
+Sample 32 (dataset index 602) processed successfully with 3 rephrasings.
+Processing sample 33/100 (dataset index: 295)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(9.2253)
+8 tensor(16.8307)
+8 tensor(16.9199)
+8 tensor(16.2006)
+Sample 33 (dataset index 295) processed successfully with 3 rephrasings.
+Processing sample 34/100 (dataset index: 719)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(19.0591)
+8 tensor(18.1738)
+8 tensor(26.2295)
+8 tensor(18.5437)
+Sample 34 (dataset index 719) processed successfully with 3 rephrasings.
+Processing sample 35/100 (dataset index: 58)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(11.4567)
+8 tensor(22.8915)
+8 tensor(22.0779)
+8 tensor(22.7755)
+Sample 35 (dataset index 58) processed successfully with 3 rephrasings.
+Processing sample 36/100 (dataset index: 637)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(11.7925)
+8 tensor(16.4897)
+8 tensor(13.7345)
+8 tensor(14.0834)
+Sample 36 (dataset index 637) processed successfully with 3 rephrasings.
+Processing sample 37/100 (dataset index: 752)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(7.3078)
+8 tensor(11.5390)
+8 tensor(11.4189)
+8 tensor(12.4812)
+Sample 37 (dataset index 752) processed successfully with 3 rephrasings.
+Processing sample 38/100 (dataset index: 560)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.4080)
+8 tensor(22.4193)
+8 tensor(16.2235)
+8 tensor(15.7493)
+Sample 38 (dataset index 560) processed successfully with 3 rephrasings.
+Processing sample 39/100 (dataset index: 687)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(13.0791)
+8 tensor(14.5089)
+8 tensor(16.4792)
+8 tensor(14.5011)
+Sample 39 (dataset index 687) processed successfully with 3 rephrasings.
+Processing sample 40/100 (dataset index: 274)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.0512)
+8 tensor(15.9850)
+8 tensor(15.3552)
+8 tensor(15.7113)
+Sample 40 (dataset index 274) processed successfully with 3 rephrasings.
+Processing sample 41/100 (dataset index: 424)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.1973)
+8 tensor(11.1234)
+8 tensor(11.0328)
+8 tensor(11.6868)
+Sample 41 (dataset index 424) processed successfully with 3 rephrasings.
+Processing sample 42/100 (dataset index: 277)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(25.0616)
+8 tensor(21.0517)
+8 tensor(18.2579)
+8 tensor(19.3166)
+Sample 42 (dataset index 277) processed successfully with 3 rephrasings.
+Processing sample 43/100 (dataset index: 721)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(13.2999)
+8 tensor(17.0268)
+8 tensor(19.5090)
+8 tensor(17.7202)
+Sample 43 (dataset index 721) processed successfully with 3 rephrasings.
+Processing sample 44/100 (dataset index: 158)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(8.2788)
+8 tensor(37.4516)
+8 tensor(13.0133)
+8 tensor(23.0394)
+Sample 44 (dataset index 158) processed successfully with 3 rephrasings.
+Processing sample 45/100 (dataset index: 536)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.0562)
+8 tensor(15.1294)
+8 tensor(16.2407)
+8 tensor(17.5568)
+Sample 45 (dataset index 536) processed successfully with 3 rephrasings.
+Processing sample 46/100 (dataset index: 43)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.6724)
+8 tensor(14.7901)
+8 tensor(17.1079)
+8 tensor(13.0652)
+Sample 46 (dataset index 43) processed successfully with 3 rephrasings.
+Processing sample 47/100 (dataset index: 436)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(0.)
+8 tensor(32.9771)
+8 tensor(31.4998)
+8 tensor(41.9878)
+Sample 47 (dataset index 436) processed successfully with 3 rephrasings.
+Processing sample 48/100 (dataset index: 692)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(12.4270)
+8 tensor(13.5550)
+8 tensor(12.8467)
+8 tensor(12.1741)
+Sample 48 (dataset index 692) processed successfully with 3 rephrasings.
+Processing sample 49/100 (dataset index: 805)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(18.6722)
+8 tensor(11.9975)
+8 tensor(14.5153)
+8 tensor(12.3532)
+Sample 49 (dataset index 805) processed successfully with 3 rephrasings.
+Processing sample 50/100 (dataset index: 435)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(0.)
+8 tensor(40.6896)
+8 tensor(38.9749)
+8 tensor(56.8482)
+Sample 50 (dataset index 435) processed successfully with 3 rephrasings.
+Processing sample 51/100 (dataset index: 350)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.0748)
+8 tensor(20.2878)
+8 tensor(21.8545)
+8 tensor(18.0394)
+Sample 51 (dataset index 350) processed successfully with 3 rephrasings.
+Processing sample 52/100 (dataset index: 45)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.3631)
+8 tensor(23.0241)
+8 tensor(23.3152)
+8 tensor(19.4524)
+Sample 52 (dataset index 45) processed successfully with 3 rephrasings.
+Processing sample 53/100 (dataset index: 250)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.9078)
+8 tensor(10.7876)
+8 tensor(12.0221)
+8 tensor(12.0646)
+Sample 53 (dataset index 250) processed successfully with 3 rephrasings.
+Processing sample 54/100 (dataset index: 434)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(0.)
+8 tensor(34.9666)
+8 tensor(36.6617)
+8 tensor(33.0675)
+Sample 54 (dataset index 434) processed successfully with 3 rephrasings.
+Processing sample 55/100 (dataset index: 567)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(33.8551)
+8 tensor(40.1532)
+8 tensor(45.1110)
+8 tensor(48.5484)
+Sample 55 (dataset index 567) processed successfully with 3 rephrasings.
+Processing sample 56/100 (dataset index: 345)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.4094)
+8 tensor(12.6731)
+8 tensor(13.0874)
+8 tensor(12.4466)
+Sample 56 (dataset index 345) processed successfully with 3 rephrasings.
+Processing sample 57/100 (dataset index: 335)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(19.4589)
+8 tensor(18.1481)
+8 tensor(10.8514)
+8 tensor(10.7428)
+Sample 57 (dataset index 335) processed successfully with 3 rephrasings.
+Processing sample 58/100 (dataset index: 10)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.4787)
+8 tensor(11.8800)
+8 tensor(13.3168)
+8 tensor(13.7731)
+Sample 58 (dataset index 10) processed successfully with 3 rephrasings.
+Processing sample 59/100 (dataset index: 362)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(6.6082)
+8 tensor(38.8907)
+8 tensor(42.5278)
+8 tensor(30.8979)
+Sample 59 (dataset index 362) processed successfully with 3 rephrasings.
+Processing sample 60/100 (dataset index: 93)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.9683)
+8 tensor(13.7913)
+Sample 60 (dataset index 93) processed successfully with 1 rephrasings.
+Processing sample 61/100 (dataset index: 693)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(9.3253)
+8 tensor(14.1913)
+8 tensor(13.3169)
+8 tensor(12.9524)
+Sample 61 (dataset index 693) processed successfully with 3 rephrasings.
+Processing sample 62/100 (dataset index: 17)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(11.9836)
+8 tensor(11.5678)
+8 tensor(14.4431)
+8 tensor(14.3811)
+Sample 62 (dataset index 17) processed successfully with 3 rephrasings.
+Processing sample 63/100 (dataset index: 110)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(15.8715)
+8 tensor(17.4631)
+8 tensor(18.0966)
+8 tensor(14.8514)
+Sample 63 (dataset index 110) processed successfully with 3 rephrasings.
+Processing sample 64/100 (dataset index: 615)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.8765)
+8 tensor(13.3893)
+8 tensor(14.1976)
+8 tensor(13.9815)
+Sample 64 (dataset index 615) processed successfully with 3 rephrasings.
+Processing sample 65/100 (dataset index: 170)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(9.7300)
+8 tensor(38.7893)
+8 tensor(23.4901)
+8 tensor(42.6361)
+Sample 65 (dataset index 170) processed successfully with 3 rephrasings.
+Processing sample 66/100 (dataset index: 785)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(12.8144)
+8 tensor(16.1473)
+8 tensor(15.1752)
+8 tensor(13.6933)
+Sample 66 (dataset index 785) processed successfully with 3 rephrasings.
+Processing sample 67/100 (dataset index: 558)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(0.)
+8 tensor(41.6880)
+8 tensor(32.0759)
+8 tensor(36.0897)
+Sample 67 (dataset index 558) processed successfully with 3 rephrasings.
+Processing sample 68/100 (dataset index: 393)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.3125)
+8 tensor(13.4655)
+8 tensor(10.8060)
+8 tensor(12.7402)
+Sample 68 (dataset index 393) processed successfully with 3 rephrasings.
+Processing sample 69/100 (dataset index: 622)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(12.9193)
+8 tensor(11.9458)
+8 tensor(13.9516)
+8 tensor(13.0697)
+Sample 69 (dataset index 622) processed successfully with 3 rephrasings.
+Processing sample 70/100 (dataset index: 175)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(21.5955)
+8 tensor(24.9041)
+8 tensor(21.5809)
+8 tensor(23.5058)
+Sample 70 (dataset index 175) processed successfully with 3 rephrasings.
+Processing sample 71/100 (dataset index: 804)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(16.0358)
+8 tensor(21.8415)
+8 tensor(19.3618)
+8 tensor(18.2425)
+Sample 71 (dataset index 804) processed successfully with 3 rephrasings.
+Processing sample 72/100 (dataset index: 138)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(12.4734)
+8 tensor(14.0835)
+8 tensor(16.0217)
+8 tensor(12.8302)
+Sample 72 (dataset index 138) processed successfully with 3 rephrasings.
+Processing sample 73/100 (dataset index: 580)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(11.3392)
+8 tensor(23.6356)
+8 tensor(25.3664)
+8 tensor(26.9059)
+Sample 73 (dataset index 580) processed successfully with 3 rephrasings.
+Processing sample 74/100 (dataset index: 767)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(8.8266)
+8 tensor(11.9038)
+8 tensor(12.6695)
+8 tensor(12.5015)
+Sample 74 (dataset index 767) processed successfully with 3 rephrasings.
+Processing sample 75/100 (dataset index: 194)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(8.8972)
+8 tensor(10.8889)
+8 tensor(12.8195)
+8 tensor(15.0312)
+Sample 75 (dataset index 194) processed successfully with 3 rephrasings.
+Processing sample 76/100 (dataset index: 503)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(16.7964)
+8 tensor(19.3219)
+8 tensor(18.3495)
+8 tensor(17.3532)
+Sample 76 (dataset index 503) processed successfully with 3 rephrasings.
+Processing sample 77/100 (dataset index: 534)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(22.5725)
+8 tensor(26.6378)
+8 tensor(28.5822)
+8 tensor(31.9528)
+Sample 77 (dataset index 534) processed successfully with 3 rephrasings.
+Processing sample 78/100 (dataset index: 46)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(15.8504)
+8 tensor(12.9277)
+8 tensor(12.4088)
+8 tensor(11.6627)
+Sample 78 (dataset index 46) processed successfully with 3 rephrasings.
+Processing sample 79/100 (dataset index: 119)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(9.5005)
+8 tensor(10.7239)
+8 tensor(11.0105)
+8 tensor(12.0470)
+Sample 79 (dataset index 119) processed successfully with 3 rephrasings.
+Processing sample 80/100 (dataset index: 202)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(12.7022)
+8 tensor(15.9654)
+8 tensor(14.1757)
+8 tensor(14.0106)
+Sample 80 (dataset index 202) processed successfully with 3 rephrasings.
+Processing sample 81/100 (dataset index: 720)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(7.2049)
+8 tensor(34.9583)
+8 tensor(36.1853)
+8 tensor(20.4983)
+Sample 81 (dataset index 720) processed successfully with 3 rephrasings.
+Processing sample 82/100 (dataset index: 328)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(16.3557)
+8 tensor(17.1967)
+8 tensor(18.0928)
+8 tensor(18.1794)
+Sample 82 (dataset index 328) processed successfully with 3 rephrasings.
+Processing sample 83/100 (dataset index: 786)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(8.8568)
+8 tensor(24.1917)
+8 tensor(21.2550)
+8 tensor(25.3333)
+Sample 83 (dataset index 786) processed successfully with 3 rephrasings.
+Processing sample 84/100 (dataset index: 312)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(12.4613)
+8 tensor(10.9275)
+8 tensor(12.4653)
+8 tensor(15.1486)
+Sample 84 (dataset index 312) processed successfully with 3 rephrasings.
+Processing sample 85/100 (dataset index: 300)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.2720)
+8 tensor(12.7208)
+8 tensor(11.9616)
+8 tensor(13.9315)
+Sample 85 (dataset index 300) processed successfully with 3 rephrasings.
+Processing sample 86/100 (dataset index: 49)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(9.8284)
+8 tensor(12.4961)
+8 tensor(12.3221)
+8 tensor(12.8600)
+Sample 86 (dataset index 49) processed successfully with 3 rephrasings.
+Processing sample 87/100 (dataset index: 497)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(12.2133)
+8 tensor(19.2888)
+8 tensor(17.4363)
+8 tensor(16.6507)
+Sample 87 (dataset index 497) processed successfully with 3 rephrasings.
+Processing sample 88/100 (dataset index: 651)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(13.5877)
+8 tensor(17.2204)
+8 tensor(15.5170)
+8 tensor(17.7138)
+Sample 88 (dataset index 651) processed successfully with 3 rephrasings.
+Processing sample 89/100 (dataset index: 381)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(9.1968)
+8 tensor(13.6610)
+8 tensor(21.9482)
+8 tensor(13.0814)
+Sample 89 (dataset index 381) processed successfully with 3 rephrasings.
+Processing sample 90/100 (dataset index: 363)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(13.2849)
+8 tensor(11.7681)
+8 tensor(13.4726)
+8 tensor(13.3497)
+Sample 90 (dataset index 363) processed successfully with 3 rephrasings.
+Processing sample 91/100 (dataset index: 448)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(20.6367)
+8 tensor(17.8658)
+8 tensor(16.9727)
+8 tensor(16.6945)
+Sample 91 (dataset index 448) processed successfully with 3 rephrasings.
+Processing sample 92/100 (dataset index: 57)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(8.8665)
+8 tensor(11.7596)
+8 tensor(11.1353)
+8 tensor(11.9758)
+Sample 92 (dataset index 57) processed successfully with 3 rephrasings.
+Processing sample 93/100 (dataset index: 351)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(10.4687)
+8 tensor(14.4647)
+8 tensor(15.3191)
+8 tensor(13.9022)
+Sample 93 (dataset index 351) processed successfully with 3 rephrasings.
+Processing sample 94/100 (dataset index: 369)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(14.9229)
+8 tensor(12.5938)
+8 tensor(20.6448)
+8 tensor(14.5086)
+Sample 94 (dataset index 369) processed successfully with 3 rephrasings.
+Processing sample 95/100 (dataset index: 115)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(9.6306)
+8 tensor(14.6515)
+8 tensor(14.4317)
+8 tensor(15.4600)
+Sample 95 (dataset index 115) processed successfully with 3 rephrasings.
+Processing sample 96/100 (dataset index: 597)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(11.5547)
+8 tensor(25.9775)
+8 tensor(18.1931)
+8 tensor(23.3222)
+Sample 96 (dataset index 597) processed successfully with 3 rephrasings.
+Processing sample 97/100 (dataset index: 476)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(11.3265)
+8 tensor(10.9244)
+8 tensor(12.2487)
+8 tensor(12.2668)
+Sample 97 (dataset index 476) processed successfully with 3 rephrasings.
+Processing sample 98/100 (dataset index: 114)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(8.6042)
+8 tensor(10.8118)
+8 tensor(10.2113)
+8 tensor(11.3697)
+Sample 98 (dataset index 114) processed successfully with 3 rephrasings.
+Processing sample 99/100 (dataset index: 430)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(0.)
+8 tensor(30.0398)
+8 tensor(40.6028)
+8 tensor(40.9418)
+Sample 99 (dataset index 430) processed successfully with 3 rephrasings.
+Processing sample 100/100 (dataset index: 121)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+8 tensor(9.1567)
+8 tensor(12.3378)
+8 tensor(13.0357)
+8 tensor(15.4964)
+Sample 100 (dataset index 121) processed successfully with 3 rephrasings.
+Processing complete. Saved 99 successful results. Failed: 1
