@@ -64,8 +64,10 @@ def completion_gradient(
                 else:
                     param_norm = param.grad.detach() / param.detach()
                     param_norm = param_norm.norm(2)
+                print("-1", param_norm)
                 total_norm += param_norm.item() ** 2
 
+        print("0", total_norm)
         uncertainty = torch.tensor(total_norm**0.5)
         print("1", uncertainty)
 
