@@ -22,7 +22,8 @@ def main(args):
     sample_size = args.sample_size
     use_streaming = args.streaming
     quant_bits = args.quantization
-    response_only = args.response_only
+    full_gradient = args.full_gradient
+    response_only = not full_gradient  # Inverse of full_gradient
     normalize = args.normalize
 
     mode = "full" if sample_size == 0 else "test" if sample_size < 100 else "sampled"
@@ -38,6 +39,7 @@ def main(args):
     print(
         f"Quantization bits: {quant_bits if quant_bits > 0 else 'None (full precision)'}"
     )
+    print(f"Full gradient: {full_gradient}")
     print(f"Response only: {response_only}")
     print(f"Normalize: {normalize}")
 
@@ -434,7 +436,7 @@ if __name__ == "__main__":
         help="Quantization precision: 0 (none/default), 4 (4-bit), or 8 (8-bit)",
     )
     parser.add_argument(
-        "--response_only",
+        "--full_gradient",
         action="store_true",
         default=True,
         help="Only calculate gradients for the response tokens (default: True)",

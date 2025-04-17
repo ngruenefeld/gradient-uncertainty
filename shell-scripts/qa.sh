@@ -16,7 +16,7 @@ KEY_MODE="keyfile"
 SAMPLE_SIZE=0
 STREAMING=false
 QUANTIZATION=0  # 0 = no quantization (default)
-RESPONSE_ONLY=true  # Default to true
+FULL_GRADIENT=false  # Default to false (which means response_only is true)
 NORMALIZE=false  # Default to false
 
 # Parse named arguments
@@ -29,8 +29,7 @@ while [[ "$#" -gt 0 ]]; do
         --sample_size=*) SAMPLE_SIZE="${1#*=}";;
         --streaming) STREAMING=true;;
         --quantization=*) QUANTIZATION="${1#*=}";;
-        --response_only) RESPONSE_ONLY=true;;
-        --no-response_only) RESPONSE_ONLY=false;;
+        --full_gradient) FULL_GRADIENT=true;;
         --normalize) NORMALIZE=true;;
         *) echo "Unknown option: $1" ;;
     esac
@@ -55,9 +54,9 @@ fi
 # Add quantization parameter
 CMD="$CMD --quantization $QUANTIZATION"
 
-# Add no-response_only flag if false (since default is now true)
-if [ "$RESPONSE_ONLY" = false ]; then
-    CMD="$CMD --no-response_only"
+# Add full_gradient flag if true (full gradient calculation)
+if [ "$FULL_GRADIENT" = true ]; then
+    CMD="$CMD --full_gradient"
 fi
 
 # Add normalize parameter (only add if true)
