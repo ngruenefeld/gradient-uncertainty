@@ -251,7 +251,9 @@ def main(args):
                 continue
 
             gradient, completion_length = gradient_result
+            print("3", gradient)
             gradient_norm = torch.norm(gradient).item()
+            print("4", gradient_norm)
 
             # Clear memory after calculating gradient
             torch.cuda.empty_cache()

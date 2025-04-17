@@ -64,10 +64,10 @@ def completion_gradient(
                 else:
                     param_norm = param.grad.detach() / param.detach()
                     param_norm = param_norm.norm(2)
-                    print(param_norm)
                 total_norm += param_norm.item() ** 2
 
         uncertainty = torch.tensor(total_norm**0.5)
+        print("1", uncertainty)
 
         # Calculate completion length
         completion_length = (
@@ -78,6 +78,7 @@ def completion_gradient(
         del outputs, loss, input_ids, labels, full_encodings, prompt_encodings
         gc.collect()
         torch.cuda.empty_cache()
+        print("2", uncertainty)
 
         return uncertainty, completion_length
     except Exception as e:
