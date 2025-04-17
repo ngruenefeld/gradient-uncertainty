@@ -291,3 +291,9 @@ test
 test
 Sample 1 (dataset index 343) processed successfully with 3 rephrasings.
 Processing complete. Saved 1 successful results. Failed: 0
+[main 6809380] QA Script Results for Run 719161 (Commit: 30d7865)
+ 2 files changed, 293 insertions(+)
+ create mode 100644 data/test/results_719161_llama-3.1-8b_4bit_normalized_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.719161.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   30d7865..6809380  main -> main
