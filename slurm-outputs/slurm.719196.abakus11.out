@@ -1,0 +1,53 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 675217f276c1f434e00e513953bf320020f850ec
+Job number: 719196
+Dataset: truthful
+Model: llama-3.1-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 5
+Mode: test
+Streaming dataset: False
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: True
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.63s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.68s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:02,  2.68s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.88s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.17s/it]
+Processing sample 1/5 (dataset index: 84)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+tensor(inf, device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+Sample 1 (dataset index 84) processed successfully with 3 rephrasings.
+Processing sample 2/5 (dataset index: 761)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+tensor(inf, device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+Sample 2 (dataset index 761) processed successfully with 3 rephrasings.
+Processing sample 3/5 (dataset index: 433)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+tensor(0., device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+Sample 3 (dataset index 433) processed successfully with 3 rephrasings.
+Processing sample 4/5 (dataset index: 815)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+tensor(inf, device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+Sample 4 (dataset index 815) processed successfully with 3 rephrasings.
+Processing sample 5/5 (dataset index: 144)
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+tensor(inf, device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+tensor(inf, device='cuda:0', dtype=torch.float16)
+Sample 5 (dataset index 144) processed successfully with 3 rephrasings.
+Processing complete. Saved 5 successful results. Failed: 0
