@@ -107,6 +107,7 @@ inputs = tokenizer("This is a test", return_tensors="pt")
 print("Input Shape", inputs.input_ids.shape)
 print(inputs.input_ids)
 labels = torch.ones([1, 6], dtype=torch.long)
+labels = inputs.input_ids
 
 outputs = model(**inputs, labels=labels)
 loss = outputs.loss
