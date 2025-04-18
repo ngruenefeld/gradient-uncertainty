@@ -1,8 +1,8 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Running job with commit: e084b04bc30708f41facca2d8ac85819f96fbb43
-Running command: python -um scripts.bert "719232" --key_mode "keyfile" --sample_size "100" --test_sample_size "100"
-Job number: 719232
+Running job with commit: 6b9ae992e7863149e1349717973fe94503ad4557
+Running command: python -um scripts.bert "719233" --key_mode "keyfile" --sample_size "100" --test_sample_size "100"
+Job number: 719233
 Key mode: keyfile
 Sample size: 100
 Using 100 samples from the training dataset.
@@ -119,8 +119,8 @@ Processing test sample 98/100 (before training)
 Processing test sample 99/100 (before training)
 Processing test sample 100/100 (before training)
 Training model...
-  0%|          | 0/21 [00:00<?, ?it/s]  5%|▍         | 1/21 [00:00<00:03,  5.07it/s] 10%|▉         | 2/21 [00:00<00:02,  6.54it/s] 19%|█▉        | 4/21 [00:00<00:01,  9.83it/s] 29%|██▊       | 6/21 [00:00<00:01, 11.35it/s] 38%|███▊      | 8/21 [00:00<00:01, 12.48it/s] 48%|████▊     | 10/21 [00:00<00:00, 12.75it/s] 57%|█████▋    | 12/21 [00:01<00:00, 12.98it/s] 67%|██████▋   | 14/21 [00:01<00:00, 13.97it/s] 76%|███████▌  | 16/21 [00:01<00:00, 13.70it/s] 86%|████████▌ | 18/21 [00:01<00:00, 13.59it/s] 95%|█████████▌| 20/21 [00:01<00:00, 13.68it/s]                                               {'train_runtime': 1.6795, 'train_samples_per_second': 178.626, 'train_steps_per_second': 12.504, 'train_loss': 2.6911228724888394, 'epoch': 3.0}
-100%|██████████| 21/21 [00:01<00:00, 13.68it/s]100%|██████████| 21/21 [00:01<00:00, 12.51it/s]
+  0%|          | 0/21 [00:00<?, ?it/s]  5%|▍         | 1/21 [00:00<00:03,  5.31it/s] 10%|▉         | 2/21 [00:00<00:02,  6.64it/s] 19%|█▉        | 4/21 [00:00<00:01,  9.88it/s] 29%|██▊       | 6/21 [00:00<00:01, 11.37it/s] 38%|███▊      | 8/21 [00:00<00:01, 12.73it/s] 48%|████▊     | 10/21 [00:00<00:00, 12.90it/s] 57%|█████▋    | 12/21 [00:01<00:00, 13.02it/s] 67%|██████▋   | 14/21 [00:01<00:00, 13.84it/s] 76%|███████▌  | 16/21 [00:01<00:00, 13.65it/s] 86%|████████▌ | 18/21 [00:01<00:00, 13.50it/s] 95%|█████████▌| 20/21 [00:01<00:00, 13.53it/s]                                               {'train_runtime': 1.6773, 'train_samples_per_second': 178.864, 'train_steps_per_second': 12.52, 'train_loss': 2.6911228724888394, 'epoch': 3.0}
+100%|██████████| 21/21 [00:01<00:00, 13.53it/s]100%|██████████| 21/21 [00:01<00:00, 12.53it/s]
 Calculating uncertainties for 100 test samples after training...
 Processing test sample 1/100 (after training)
 Processing test sample 2/100 (after training)
@@ -227,9 +227,3 @@ Overall average uncertainty after fine-tuning: 621.9729614257812
 Overall average uncertainty difference: -53.2861328125
 
 Processing complete. Saved 100 results. Failed: 0
-[main 619a00c] BERT Script Results for Run 719232 (Commit: e084b04)
- 3 files changed, 234 insertions(+)
- create mode 100644 data/sampled/bert_results_719232.pkl
- create mode 100644 slurm-outputs/slurm.719232.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   e084b04..619a00c  main -> main
