@@ -28,6 +28,24 @@ def get_response(prompt, model, tokenizer, device):
         return {"error": str(e)}
 
 
+def calculate_symmetric_percentage_change(param_values, param_grads):
+    # Using Symmetric Percentage Change
+    new_param_values = param_values + param_grads
+    denominator = 0.5 * (param_values + new_param_values)
+
+    # Small epsilon to avoid division by zero
+    epsilon = 1e-8
+
+    # Calculate symmetric percent change
+    normalized_grads = torch.where(
+        denominator.abs() > epsilon,
+        param_grads / denominator,
+        torch.zeros_like(param_grads),
+    )
+
+    return normalized_grads
+
+
 def completion_gradient(
     prompt, completion, model, tokenizer, device, response_only=True, normalize=False
 ):
@@ -66,22 +84,11 @@ def completion_gradient(
                     param_values = param.detach()
                     param_grads = param.grad.detach()
 
-                    # Using Symmetric Percentage Change
-                    new_param_values = param_values + param_grads
-
-                    denominator = 0.5 * (param_values + new_param_values)
-
-                    # Small epsilon to avoid division by zero
-                    epsilon = 1e-8
-
-                    # Calculate symmetric percent change
-                    normalized_grads = torch.where(
-                        denominator.abs() > epsilon,
-                        param_grads / denominator,
-                        torch.zeros_like(param_grads),
+                    normalized_grads = calculate_symmetric_percentage_change(
+                        param_values, param_grads
                     )
-
                     param_norm = normalized_grads.detach().norm(2)
+
                 total_norm += param_norm.item() ** 2
 
         uncertainty = torch.tensor(total_norm**0.5)
@@ -127,22 +134,11 @@ def bert_gradient(sample, labels, model, tokenizer, device, normalize=False):
                     param_values = param.detach()
                     param_grads = param.grad.detach()
 
-                    # Using Symmetric Percentage Change
-                    new_param_values = param_values + param_grads
-
-                    denominator = 0.5 * (param_values + new_param_values)
-
-                    # Small epsilon to avoid division by zero
-                    epsilon = 1e-8
-
-                    # Calculate symmetric percent change
-                    normalized_grads = torch.where(
-                        denominator.abs() > epsilon,
-                        param_grads / denominator,
-                        torch.zeros_like(param_grads),
+                    normalized_grads = calculate_symmetric_percentage_change(
+                        param_values, param_grads
                     )
-
                     param_norm = normalized_grads.detach().norm(2)
+
                 total_norm += param_norm.item() ** 2
 
         uncertainty = torch.tensor(total_norm**0.5)
