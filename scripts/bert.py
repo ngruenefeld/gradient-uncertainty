@@ -43,7 +43,7 @@ def tokenize_function(example):
 
 tokenized_dataset = sports_dataset.map(
     tokenize_function, batched=True, remove_columns=["text", "label"]
-).select(range(16))
+).select(range(100))
 
 data_collator = DataCollatorForLanguageModeling(
     tokenizer=tokenizer,
