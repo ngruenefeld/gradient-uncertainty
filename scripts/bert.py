@@ -105,7 +105,7 @@ print("Embedding after fine-tuning:", embedding_after[:5])
 
 inputs = tokenizer("This is a test", return_tensors="pt")
 print("Input Shape", inputs.input_ids.shape)
-labels = torch.tensor([1]).unsqueeze(0)
+labels = torch.ones([1, 6])
 
 outputs = model(**inputs, labels=labels)
 loss = outputs.loss
