@@ -8,6 +8,7 @@ from transformers import (
     TrainingArguments,
     Trainer,
 )
+import torch
 
 hf_token = os.getenv("HF_TOKEN")
 
@@ -20,6 +21,9 @@ model_name = "bert-base-uncased"
 tokenizer = BertTokenizer.from_pretrained(model_name, token=hf_token)
 model = BertForMaskedLM.from_pretrained(model_name, token=hf_token)
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
+
 
 def tokenize(example):
     return tokenizer(
@@ -28,7 +32,7 @@ def tokenize(example):
         padding="max_length",
         max_length=128,
         return_special_tokens_mask=True,
-    )
+    ).to(device)
 
 
 tokenized_stream = medical_stream.map(tokenize)
