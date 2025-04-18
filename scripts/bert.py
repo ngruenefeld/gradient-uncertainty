@@ -12,7 +12,7 @@ from transformers import (
 )
 import torch
 
-from utils.utils import bert_gradient
+from utils.utils import bert_gradient, load_bert_datasets
 
 
 def process_test_samples(
@@ -39,6 +39,7 @@ def process_test_samples(
         try:
             sentence = item["text"]
             label = item["label"]
+            origin = item["origin"]
             print(f"Processing test sample {idx+1}/{sample_count} ({phase} training)")
 
             inputs = tokenizer(
@@ -67,6 +68,7 @@ def process_test_samples(
                 result_entry = {
                     "text": sentence,
                     "label": label,
+                    "origin": origin,
                     "uncertainty_before": uncertainty,
                     "uncertainty_after": None,
                     "uncertainty_difference": None,
@@ -114,27 +116,19 @@ def main(args):
     else:
         raise ValueError("Invalid key mode. Please use 'keyfile' or 'env'.")
 
-    # Load dataset - both train and test splits
-    train_dataset = load_dataset("fancyzhx/ag_news", split="train")
-    test_dataset = load_dataset("fancyzhx/ag_news", split="test")
-
-    label_names = train_dataset.features["label"].names
-    sports_label = label_names.index("Sports")
-
-    # Filter training dataset for sports articles (we still train on sports only)
-    sports_train_dataset = train_dataset.filter(lambda x: x["label"] == sports_label)
+    train_dataset, test_dataset = load_bert_datasets()
 
     # Sample the training dataset if sample_size is specified
     if sample_size > 0:
-        if sample_size > len(sports_train_dataset):
+        if sample_size > len(train_dataset):
             print(
-                f"Warning: Sample size {sample_size} is larger than training dataset size {len(sports_train_dataset)}. Using full dataset."
+                f"Warning: Sample size {sample_size} is larger than training dataset size {len(train_dataset)}. Using full dataset."
             )
         else:
-            sports_train_dataset = sports_train_dataset.select(range(sample_size))
+            train_dataset = train_dataset.select(range(sample_size))
             print(f"Using {sample_size} samples from the training dataset.")
     else:
-        print(f"Using full training dataset with {len(sports_train_dataset)} samples.")
+        print(f"Using full training dataset with {len(train_dataset)} samples.")
 
     # Sample the test dataset if needed
     test_sample_size = (
@@ -169,7 +163,7 @@ def main(args):
         tokens["labels"] = tokens["input_ids"].copy()  # Needed for MLM
         return tokens
 
-    tokenized_train_dataset = sports_train_dataset.map(
+    tokenized_train_dataset = train_dataset.map(
         tokenize_function, batched=True, remove_columns=["text", "label"]
     )
 
@@ -236,9 +230,6 @@ def main(args):
             "full" if sample_size == 0 else "test" if sample_size < 100 else "sampled"
         )
         df = pd.DataFrame(results)
-
-        # Add label names to the results
-        df["label_name"] = df["label"].apply(lambda x: label_names[x])
 
         # Add normalization indicator to filename
         normalize_suffix = "_normalized" if normalize else ""

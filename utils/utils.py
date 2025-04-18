@@ -1,3 +1,4 @@
+from datasets import load_dataset, DatasetDict, Dataset
 import torch
 import gc
 
@@ -28,8 +29,7 @@ def get_response(prompt, model, tokenizer, device):
         return {"error": str(e)}
 
 
-def calculate_symmetric_percentage_change(param_values, param_grads):
-    # Using Symmetric Percentage Change
+def arithmetic_mean_change(param_values, param_grads):
     new_param_values = param_values + param_grads
     denominator = 0.5 * (param_values + new_param_values)
 
@@ -84,9 +84,7 @@ def completion_gradient(
                     param_values = param.detach()
                     param_grads = param.grad.detach()
 
-                    normalized_grads = calculate_symmetric_percentage_change(
-                        param_values, param_grads
-                    )
+                    normalized_grads = arithmetic_mean_change(param_values, param_grads)
                     param_norm = normalized_grads.detach().norm(2)
 
                 total_norm += param_norm.item() ** 2
@@ -133,9 +131,7 @@ def bert_gradient(inputs, labels, model, normalize=False):
                     param_values = param.detach()
                     param_grads = param.grad.detach()
 
-                    normalized_grads = calculate_symmetric_percentage_change(
-                        param_values, param_grads
-                    )
+                    normalized_grads = arithmetic_mean_change(param_values, param_grads)
                     param_norm = normalized_grads.detach().norm(2)
 
                 total_norm += param_norm.item() ** 2
@@ -153,3 +149,77 @@ def bert_gradient(inputs, labels, model, normalize=False):
         torch.cuda.empty_cache()
         gc.collect()
         return {"error": str(e)}
+
+
+def load_bert_dataset_dicts(choice="ag_news"):
+    if choice == "ag_news":
+        dataset = load_dataset("fancyzhx/ag_news")
+        train_dataset = dataset["train"]
+        test_dataset = dataset["test"]
+
+        label_names = train_dataset.features["label"].names
+        sports_label = label_names.index("Sports")
+        train_dataset = train_dataset.filter(lambda x: x["label"] == sports_label)
+
+        train_labels = [label_names[label] for label in train_dataset["label"]]
+        test_labels = [label_names[label] for label in test_dataset["label"]]
+
+        train_data = {
+            "text": train_dataset["text"],
+            "origin": ["ag_news"] * len(train_dataset["text"]),
+            "label": train_labels,
+        }
+
+        test_data = {
+            "text": test_dataset["text"],
+            "origin": ["ag_news"] * len(test_dataset["text"]),
+            "label": test_labels,
+        }
+
+        return train_data, test_data
+
+    elif choice == "pubmed":
+        dataset = load_dataset("MedRAG/pubmed", streaming=True)["train"]
+
+        sample_size = 10000
+
+        content_samples = []
+        count = 0
+
+        for example in dataset:
+            if count >= sample_size:
+                break
+            content_samples.append(example["content"])
+            count += 1
+
+        data = {
+            "text": content_samples,
+            "origin": ["pubmed"] * len(content_samples),
+            "label": ["Medicine"] * len(content_samples),
+        }
+
+        return data
+
+    else:
+        raise ValueError(f"Dataset {choice} not supported.")
+
+
+def load_bert_datasets(choice="ag_news"):
+    if choice == "ag_news":
+        train_data, test_data = load_bert_dataset_dicts("ag_news")
+        return Dataset.from_dict(train_data), Dataset.from_dict(test_data)
+
+    elif choice == "ag-pubmed":
+        ag_train_data, ag_test_data = load_bert_dataset_dicts("ag_news")
+        pubmed_data = load_bert_dataset_dicts("pubmed")
+
+        combined_test = {
+            "text": ag_test_data["text"] + pubmed_data["text"],
+            "origin": ag_test_data["origin"] + pubmed_data["origin"],
+            "label": ag_test_data["label"] + pubmed_data["label"],
+        }
+
+        return Dataset.from_dict(ag_train_data), Dataset.from_dict(combined_test)
+
+    else:
+        raise ValueError(f"Dataset {choice} not supported.")
