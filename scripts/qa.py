@@ -390,9 +390,9 @@ def main(args):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Process some arguments.")
+    parser = argparse.ArgumentParser(description="QA uncertainty measurement")
 
-    parser.add_argument("job_number")
+    parser.add_argument("job_number", help="Unique identifier for this job run")
     parser.add_argument(
         "--dataset",
         type=str,
