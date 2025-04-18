@@ -1,0 +1,53 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 2edab20198cc0814d0fa944225628f8911e9de21
+Running command: python -um scripts.bert "719249" --key_mode "keyfile" --sample_size "10" --test_sample_size "10" --counterfactual "constant"
+Job number: 719249
+Key mode: keyfile
+Sample size: 10
+Normalize: False
+Counterfactual: constant
+Using 10 samples from the training dataset.
+Using 10 samples from the entire test dataset (all categories).
+BertForMaskedLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForMaskedLM: ['bert.pooler.dense.bias', 'bert.pooler.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device: cuda
+Map:   0%|          | 0/10 [00:00<?, ? examples/s]Map: 100%|██████████| 10/10 [00:00<00:00, 1481.77 examples/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:190: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Calculating uncertainties for 10 test samples before training (counterfactual mode: constant)...
+Processing test sample 1/10 (before training)
+Processing test sample 2/10 (before training)
+Processing test sample 3/10 (before training)
+Processing test sample 4/10 (before training)
+Processing test sample 5/10 (before training)
+Processing test sample 6/10 (before training)
+Processing test sample 7/10 (before training)
+Processing test sample 8/10 (before training)
+Processing test sample 9/10 (before training)
+Processing test sample 10/10 (before training)
+Training model...
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  5.57it/s] 67%|██████▋   | 2/3 [00:00<00:00,  7.01it/s]                                             {'train_runtime': 0.3503, 'train_samples_per_second': 85.636, 'train_steps_per_second': 8.564, 'train_loss': 3.5748011271158853, 'epoch': 3.0}
+100%|██████████| 3/3 [00:00<00:00,  7.01it/s]100%|██████████| 3/3 [00:00<00:00,  8.59it/s]
+Calculating uncertainties for 10 test samples after training (counterfactual mode: constant)...
+Processing test sample 1/10 (after training)
+Processing test sample 2/10 (after training)
+Processing test sample 3/10 (after training)
+Processing test sample 4/10 (after training)
+Processing test sample 5/10 (after training)
+Processing test sample 6/10 (after training)
+Processing test sample 7/10 (after training)
+Processing test sample 8/10 (after training)
+Processing test sample 9/10 (after training)
+Processing test sample 10/10 (after training)
+
+Processing complete. Saved 10 results. Failed: 0

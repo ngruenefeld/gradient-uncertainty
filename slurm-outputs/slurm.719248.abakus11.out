@@ -83,3 +83,8 @@ Traceback (most recent call last):
     raise ValueError(
 ValueError: Unable to create tensor, you should probably activate truncation and/or padding with 'padding=True' 'truncation=True' to have batched tensors with the same length. Perhaps your features (`origin` in this case) have excessive nesting (inputs type `list` where type `int` is expected).
   0%|          | 0/3 [00:00<?, ?it/s]
+[main d5a8908] BERT Script Results for Run 719248 (Commit: f6f73ab)
+ 2 files changed, 91 insertions(+)
+ create mode 100644 slurm-outputs/slurm.719248.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   f6f73ab..d5a8908  main -> main
