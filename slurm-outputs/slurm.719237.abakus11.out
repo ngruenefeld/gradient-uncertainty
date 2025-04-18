@@ -1,12 +1,12 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Running job with commit: 8e2a8a06b6f39dd87eca893ea233de6f0d48f5bc
-Running command: python -um scripts.bert "719236" --key_mode "keyfile" --sample_size "10" --test_sample_size "10"
-Job number: 719236
+Running job with commit: 8fccebe9e8380ddf2bc2b4f5012eaa9947829b64
+Running command: python -um scripts.bert "719237" --key_mode "keyfile" --sample_size "10" --test_sample_size "10" --counterfactual "constant"
+Job number: 719237
 Key mode: keyfile
 Sample size: 10
 Normalize: False
-Counterfactual: identity
+Counterfactual: constant
 Using 10 samples from the training dataset.
 Using 10 samples from the entire test dataset (all categories).
 BertForMaskedLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
@@ -19,7 +19,7 @@ Some weights of the model checkpoint at bert-base-uncased were not used when ini
 Using device: cuda
 /home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:189: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
   trainer = Trainer(
-Calculating uncertainties for 10 test samples before training (counterfactual mode: identity)...
+Calculating uncertainties for 10 test samples before training (counterfactual mode: constant)...
 Processing test sample 1/10 (before training)
 Processing test sample 2/10 (before training)
 Processing test sample 3/10 (before training)
@@ -31,9 +31,9 @@ Processing test sample 8/10 (before training)
 Processing test sample 9/10 (before training)
 Processing test sample 10/10 (before training)
 Training model...
-  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  5.63it/s] 67%|██████▋   | 2/3 [00:00<00:00,  7.13it/s]                                             {'train_runtime': 0.3621, 'train_samples_per_second': 82.86, 'train_steps_per_second': 8.286, 'train_loss': 2.6648127237955728, 'epoch': 3.0}
-100%|██████████| 3/3 [00:00<00:00,  7.13it/s]100%|██████████| 3/3 [00:00<00:00,  8.31it/s]
-Calculating uncertainties for 10 test samples after training (counterfactual mode: identity)...
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  5.63it/s] 67%|██████▋   | 2/3 [00:00<00:00,  7.18it/s]                                             {'train_runtime': 0.3574, 'train_samples_per_second': 83.942, 'train_steps_per_second': 8.394, 'train_loss': 2.6648127237955728, 'epoch': 3.0}
+100%|██████████| 3/3 [00:00<00:00,  7.18it/s]100%|██████████| 3/3 [00:00<00:00,  8.42it/s]
+Calculating uncertainties for 10 test samples after training (counterfactual mode: constant)...
 Processing test sample 1/10 (after training)
 Processing test sample 2/10 (after training)
 Processing test sample 3/10 (after training)
@@ -46,9 +46,3 @@ Processing test sample 9/10 (after training)
 Processing test sample 10/10 (after training)
 
 Processing complete. Saved 10 results. Failed: 0
-[main d5a5156] BERT Script Results for Run 719236 (Commit: 8e2a8a0)
- 3 files changed, 54 insertions(+)
- create mode 100644 data/test/bert_results_719236.pkl
- create mode 100644 slurm-outputs/slurm.719236.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   8e2a8a0..d5a5156  main -> main
