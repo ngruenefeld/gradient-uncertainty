@@ -121,6 +121,6 @@ for name, param in model.named_parameters():
     if param.grad is not None:
         grads.append(param.grad.flatten())
 
-bert_gradient(sentence, sentence, model, tokenizer, device)
+print(bert_gradient(sentence, sentence, model, tokenizer, device))
 
 # print(uncertainty)
