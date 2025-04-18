@@ -1,0 +1,24 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 4d122b19a444ae4b5c886607f5f65df914ad099d
+Running command: python -um scripts.bert "719221" --key_mode "keyfile" --sample_size "0"
+Job number: 719221
+Key mode: keyfile
+Sample size: 0
+Using full dataset with 30000 samples.
+BertForMaskedLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForMaskedLM: ['bert.pooler.dense.bias', 'bert.pooler.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device: cuda
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:103: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  5.51it/s] 67%|██████▋   | 2/3 [00:00<00:00,  6.96it/s]                                             {'train_runtime': 0.3693, 'train_samples_per_second': 81.232, 'train_steps_per_second': 8.123, 'train_loss': 2.7323328653971353, 'epoch': 3.0}
+100%|██████████| 3/3 [00:00<00:00,  6.96it/s]100%|██████████| 3/3 [00:00<00:00,  8.14it/s]
+In-Domain Uncertainty before fine-tuning: tensor(72.4592)
+In-Domain Uncertainty before fine-tuning: tensor(185.2510)
+Out-Of-Domain Uncertainty before fine-tuning: tensor(147.7263)
+Out-Of-Domain Uncertainty before fine-tuning: tensor(232.9908)
