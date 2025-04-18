@@ -1,8 +1,8 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Running job with commit: d8c23a5eaf2da8de81d9a6a6adb9dd4d378708b8
-Running command: python -um scripts.bert "719230" --key_mode "keyfile" --sample_size "100" --test_sample_size "100"
-Job number: 719230
+Running job with commit: b83eacb5e86c15191cac8b415ca22f66ec871622
+Running command: python -um scripts.bert "719231" --key_mode "keyfile" --sample_size "100" --test_sample_size "100"
+Job number: 719231
 Key mode: keyfile
 Sample size: 100
 Using 100 samples from the training dataset.
@@ -119,8 +119,8 @@ Processing test sample 98/100 (before training)
 Processing test sample 99/100 (before training)
 Processing test sample 100/100 (before training)
 Training model...
-  0%|          | 0/21 [00:00<?, ?it/s]  5%|▍         | 1/21 [00:00<00:03,  5.11it/s] 10%|▉         | 2/21 [00:00<00:02,  6.57it/s] 19%|█▉        | 4/21 [00:00<00:01,  9.91it/s] 29%|██▊       | 6/21 [00:00<00:01, 11.45it/s] 38%|███▊      | 8/21 [00:00<00:01, 12.65it/s] 48%|████▊     | 10/21 [00:00<00:00, 12.69it/s] 57%|█████▋    | 12/21 [00:01<00:00, 12.93it/s] 67%|██████▋   | 14/21 [00:01<00:00, 13.80it/s] 76%|███████▌  | 16/21 [00:01<00:00, 13.60it/s] 86%|████████▌ | 18/21 [00:01<00:00, 13.49it/s] 95%|█████████▌| 20/21 [00:01<00:00, 13.48it/s]                                               {'train_runtime': 1.683, 'train_samples_per_second': 178.255, 'train_steps_per_second': 12.478, 'train_loss': 2.6911228724888394, 'epoch': 3.0}
-100%|██████████| 21/21 [00:01<00:00, 13.48it/s]100%|██████████| 21/21 [00:01<00:00, 12.48it/s]
+  0%|          | 0/21 [00:00<?, ?it/s]  5%|▍         | 1/21 [00:00<00:03,  5.08it/s] 10%|▉         | 2/21 [00:00<00:02,  6.59it/s] 19%|█▉        | 4/21 [00:00<00:01,  9.86it/s] 29%|██▊       | 6/21 [00:00<00:01, 11.36it/s] 38%|███▊      | 8/21 [00:00<00:01, 12.56it/s] 48%|████▊     | 10/21 [00:00<00:00, 12.85it/s] 57%|█████▋    | 12/21 [00:01<00:00, 13.05it/s] 67%|██████▋   | 14/21 [00:01<00:00, 14.06it/s] 76%|███████▌  | 16/21 [00:01<00:00, 13.76it/s] 86%|████████▌ | 18/21 [00:01<00:00, 13.62it/s] 95%|█████████▌| 20/21 [00:01<00:00, 13.66it/s]                                               {'train_runtime': 1.6698, 'train_samples_per_second': 179.663, 'train_steps_per_second': 12.576, 'train_loss': 2.6911228724888394, 'epoch': 3.0}
+100%|██████████| 21/21 [00:01<00:00, 13.66it/s]100%|██████████| 21/21 [00:01<00:00, 12.58it/s]
 Calculating uncertainties for 100 test samples after training...
 Processing test sample 1/100 (after training)
 Processing test sample 2/100 (after training)
@@ -230,15 +230,10 @@ Traceback (most recent call last):
     return _run_code(code, main_globals, None,
   File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
     exec(code, run_globals)
-  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 282, in <module>
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 280, in <module>
     main(args)
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 210, in main
-    category_results = [
-  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 211, in <listcomp>
-    r for r in valid_results if r["label_name"] == label_name
-KeyError: 'label_name'
-[main c71e4af] BERT Script Results for Run 719230 (Commit: d8c23a5)
- 2 files changed, 244 insertions(+)
- create mode 100644 slurm-outputs/slurm.719230.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   d8c23a5..c71e4af  main -> main
+    category_results = [r for r in valid_results if r["label"] == label_name]
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 210, in <listcomp>
+    category_results = [r for r in valid_results if r["label"] == label_name]
+KeyError: 'label'
