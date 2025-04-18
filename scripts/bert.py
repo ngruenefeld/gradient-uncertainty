@@ -50,4 +50,4 @@ trainer = Trainer(
     train_dataset=tokenized_dataset,
 )
 
-# trainer.train()
+trainer.train()
