@@ -44,7 +44,7 @@ def tokenize_function(example):
 
 tokenized_dataset = sports_dataset.map(
     tokenize_function, batched=True, remove_columns=["text", "label"]
-).select(range(100))
+).select(range(10))
 
 data_collator = DataCollatorForLanguageModeling(
     tokenizer=tokenizer,
@@ -58,7 +58,7 @@ training_args = TrainingArguments(
     num_train_epochs=3,
     per_device_train_batch_size=16,
     per_device_eval_batch_size=16,
-    evaluation_strategy="no",
+    eval_strategy="no",
     save_strategy="no",
     logging_steps=100,
     report_to=[],
@@ -104,9 +104,8 @@ print("Embedding after fine-tuning:", embedding_after[:5])
 
 
 inputs = tokenizer("This is a test", return_tensors="pt")
-labels = torch.tensor([1]).unsqueeze(0)
 
-outputs = model(**inputs, labels=labels)
+outputs = model(**inputs)
 loss = outputs.loss
 
 loss.backward()
