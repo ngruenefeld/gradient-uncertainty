@@ -224,3 +224,9 @@ Processing test sample 99/100 (after training)
 Processing test sample 100/100 (after training)
 
 Processing complete. Saved 100 results. Failed: 0
+[main aaa74f7] BERT Script Results for Run 719234 (Commit: 9d52b15)
+ 3 files changed, 232 insertions(+)
+ create mode 100644 data/sampled/bert_results_719234.pkl
+ create mode 100644 slurm-outputs/slurm.719234.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   9d52b15..aaa74f7  main -> main
