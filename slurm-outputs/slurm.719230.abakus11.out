@@ -1,0 +1,239 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: d8c23a5eaf2da8de81d9a6a6adb9dd4d378708b8
+Running command: python -um scripts.bert "719230" --key_mode "keyfile" --sample_size "100" --test_sample_size "100"
+Job number: 719230
+Key mode: keyfile
+Sample size: 100
+Using 100 samples from the training dataset.
+Using 100 samples from the entire test dataset (all categories).
+BertForMaskedLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForMaskedLM: ['bert.pooler.dense.bias', 'bert.pooler.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device: cuda
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:163: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Calculating uncertainties for 100 test samples before training...
+Processing test sample 1/100 (before training)
+Processing test sample 2/100 (before training)
+Processing test sample 3/100 (before training)
+Processing test sample 4/100 (before training)
+Processing test sample 5/100 (before training)
+Processing test sample 6/100 (before training)
+Processing test sample 7/100 (before training)
+Processing test sample 8/100 (before training)
+Processing test sample 9/100 (before training)
+Processing test sample 10/100 (before training)
+Processing test sample 11/100 (before training)
+Processing test sample 12/100 (before training)
+Processing test sample 13/100 (before training)
+Processing test sample 14/100 (before training)
+Processing test sample 15/100 (before training)
+Processing test sample 16/100 (before training)
+Processing test sample 17/100 (before training)
+Processing test sample 18/100 (before training)
+Processing test sample 19/100 (before training)
+Processing test sample 20/100 (before training)
+Processing test sample 21/100 (before training)
+Processing test sample 22/100 (before training)
+Processing test sample 23/100 (before training)
+Processing test sample 24/100 (before training)
+Processing test sample 25/100 (before training)
+Processing test sample 26/100 (before training)
+Processing test sample 27/100 (before training)
+Processing test sample 28/100 (before training)
+Processing test sample 29/100 (before training)
+Processing test sample 30/100 (before training)
+Processing test sample 31/100 (before training)
+Processing test sample 32/100 (before training)
+Processing test sample 33/100 (before training)
+Processing test sample 34/100 (before training)
+Processing test sample 35/100 (before training)
+Processing test sample 36/100 (before training)
+Processing test sample 37/100 (before training)
+Processing test sample 38/100 (before training)
+Processing test sample 39/100 (before training)
+Processing test sample 40/100 (before training)
+Processing test sample 41/100 (before training)
+Processing test sample 42/100 (before training)
+Processing test sample 43/100 (before training)
+Processing test sample 44/100 (before training)
+Processing test sample 45/100 (before training)
+Processing test sample 46/100 (before training)
+Processing test sample 47/100 (before training)
+Processing test sample 48/100 (before training)
+Processing test sample 49/100 (before training)
+Processing test sample 50/100 (before training)
+Processing test sample 51/100 (before training)
+Processing test sample 52/100 (before training)
+Processing test sample 53/100 (before training)
+Processing test sample 54/100 (before training)
+Processing test sample 55/100 (before training)
+Processing test sample 56/100 (before training)
+Processing test sample 57/100 (before training)
+Processing test sample 58/100 (before training)
+Processing test sample 59/100 (before training)
+Processing test sample 60/100 (before training)
+Processing test sample 61/100 (before training)
+Processing test sample 62/100 (before training)
+Processing test sample 63/100 (before training)
+Processing test sample 64/100 (before training)
+Processing test sample 65/100 (before training)
+Processing test sample 66/100 (before training)
+Processing test sample 67/100 (before training)
+Processing test sample 68/100 (before training)
+Processing test sample 69/100 (before training)
+Processing test sample 70/100 (before training)
+Processing test sample 71/100 (before training)
+Processing test sample 72/100 (before training)
+Processing test sample 73/100 (before training)
+Processing test sample 74/100 (before training)
+Processing test sample 75/100 (before training)
+Processing test sample 76/100 (before training)
+Processing test sample 77/100 (before training)
+Processing test sample 78/100 (before training)
+Processing test sample 79/100 (before training)
+Processing test sample 80/100 (before training)
+Processing test sample 81/100 (before training)
+Processing test sample 82/100 (before training)
+Processing test sample 83/100 (before training)
+Processing test sample 84/100 (before training)
+Processing test sample 85/100 (before training)
+Processing test sample 86/100 (before training)
+Processing test sample 87/100 (before training)
+Processing test sample 88/100 (before training)
+Processing test sample 89/100 (before training)
+Processing test sample 90/100 (before training)
+Processing test sample 91/100 (before training)
+Processing test sample 92/100 (before training)
+Processing test sample 93/100 (before training)
+Processing test sample 94/100 (before training)
+Processing test sample 95/100 (before training)
+Processing test sample 96/100 (before training)
+Processing test sample 97/100 (before training)
+Processing test sample 98/100 (before training)
+Processing test sample 99/100 (before training)
+Processing test sample 100/100 (before training)
+Training model...
+  0%|          | 0/21 [00:00<?, ?it/s]  5%|▍         | 1/21 [00:00<00:03,  5.11it/s] 10%|▉         | 2/21 [00:00<00:02,  6.57it/s] 19%|█▉        | 4/21 [00:00<00:01,  9.91it/s] 29%|██▊       | 6/21 [00:00<00:01, 11.45it/s] 38%|███▊      | 8/21 [00:00<00:01, 12.65it/s] 48%|████▊     | 10/21 [00:00<00:00, 12.69it/s] 57%|█████▋    | 12/21 [00:01<00:00, 12.93it/s] 67%|██████▋   | 14/21 [00:01<00:00, 13.80it/s] 76%|███████▌  | 16/21 [00:01<00:00, 13.60it/s] 86%|████████▌ | 18/21 [00:01<00:00, 13.49it/s] 95%|█████████▌| 20/21 [00:01<00:00, 13.48it/s]                                               {'train_runtime': 1.683, 'train_samples_per_second': 178.255, 'train_steps_per_second': 12.478, 'train_loss': 2.6911228724888394, 'epoch': 3.0}
+100%|██████████| 21/21 [00:01<00:00, 13.48it/s]100%|██████████| 21/21 [00:01<00:00, 12.48it/s]
+Calculating uncertainties for 100 test samples after training...
+Processing test sample 1/100 (after training)
+Processing test sample 2/100 (after training)
+Processing test sample 3/100 (after training)
+Processing test sample 4/100 (after training)
+Processing test sample 5/100 (after training)
+Processing test sample 6/100 (after training)
+Processing test sample 7/100 (after training)
+Processing test sample 8/100 (after training)
+Processing test sample 9/100 (after training)
+Processing test sample 10/100 (after training)
+Processing test sample 11/100 (after training)
+Processing test sample 12/100 (after training)
+Processing test sample 13/100 (after training)
+Processing test sample 14/100 (after training)
+Processing test sample 15/100 (after training)
+Processing test sample 16/100 (after training)
+Processing test sample 17/100 (after training)
+Processing test sample 18/100 (after training)
+Processing test sample 19/100 (after training)
+Processing test sample 20/100 (after training)
+Processing test sample 21/100 (after training)
+Processing test sample 22/100 (after training)
+Processing test sample 23/100 (after training)
+Processing test sample 24/100 (after training)
+Processing test sample 25/100 (after training)
+Processing test sample 26/100 (after training)
+Processing test sample 27/100 (after training)
+Processing test sample 28/100 (after training)
+Processing test sample 29/100 (after training)
+Processing test sample 30/100 (after training)
+Processing test sample 31/100 (after training)
+Processing test sample 32/100 (after training)
+Processing test sample 33/100 (after training)
+Processing test sample 34/100 (after training)
+Processing test sample 35/100 (after training)
+Processing test sample 36/100 (after training)
+Processing test sample 37/100 (after training)
+Processing test sample 38/100 (after training)
+Processing test sample 39/100 (after training)
+Processing test sample 40/100 (after training)
+Processing test sample 41/100 (after training)
+Processing test sample 42/100 (after training)
+Processing test sample 43/100 (after training)
+Processing test sample 44/100 (after training)
+Processing test sample 45/100 (after training)
+Processing test sample 46/100 (after training)
+Processing test sample 47/100 (after training)
+Processing test sample 48/100 (after training)
+Processing test sample 49/100 (after training)
+Processing test sample 50/100 (after training)
+Processing test sample 51/100 (after training)
+Processing test sample 52/100 (after training)
+Processing test sample 53/100 (after training)
+Processing test sample 54/100 (after training)
+Processing test sample 55/100 (after training)
+Processing test sample 56/100 (after training)
+Processing test sample 57/100 (after training)
+Processing test sample 58/100 (after training)
+Processing test sample 59/100 (after training)
+Processing test sample 60/100 (after training)
+Processing test sample 61/100 (after training)
+Processing test sample 62/100 (after training)
+Processing test sample 63/100 (after training)
+Processing test sample 64/100 (after training)
+Processing test sample 65/100 (after training)
+Processing test sample 66/100 (after training)
+Processing test sample 67/100 (after training)
+Processing test sample 68/100 (after training)
+Processing test sample 69/100 (after training)
+Processing test sample 70/100 (after training)
+Processing test sample 71/100 (after training)
+Processing test sample 72/100 (after training)
+Processing test sample 73/100 (after training)
+Processing test sample 74/100 (after training)
+Processing test sample 75/100 (after training)
+Processing test sample 76/100 (after training)
+Processing test sample 77/100 (after training)
+Processing test sample 78/100 (after training)
+Processing test sample 79/100 (after training)
+Processing test sample 80/100 (after training)
+Processing test sample 81/100 (after training)
+Processing test sample 82/100 (after training)
+Processing test sample 83/100 (after training)
+Processing test sample 84/100 (after training)
+Processing test sample 85/100 (after training)
+Processing test sample 86/100 (after training)
+Processing test sample 87/100 (after training)
+Processing test sample 88/100 (after training)
+Processing test sample 89/100 (after training)
+Processing test sample 90/100 (after training)
+Processing test sample 91/100 (after training)
+Processing test sample 92/100 (after training)
+Processing test sample 93/100 (after training)
+Processing test sample 94/100 (after training)
+Processing test sample 95/100 (after training)
+Processing test sample 96/100 (after training)
+Processing test sample 97/100 (after training)
+Processing test sample 98/100 (after training)
+Processing test sample 99/100 (after training)
+Processing test sample 100/100 (after training)
+Overall average uncertainty before fine-tuning: 675.259033203125
+Overall average uncertainty after fine-tuning: 621.9729614257812
+Overall average uncertainty difference: -53.2861328125
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 282, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 210, in main
+    category_results = [
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 211, in <listcomp>
+    r for r in valid_results if r["label_name"] == label_name
+KeyError: 'label_name'

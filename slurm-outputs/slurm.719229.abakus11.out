@@ -82,3 +82,8 @@ Out-Of-Domain Uncertainty before fine-tuning: tensor(147.7263)
 Out-Of-Domain Uncertainty after fine-tuning: tensor(91.2109)
 In-Domain Difference: tensor(-44.8307)
 Out-Of-Domain Difference: tensor(-56.5154)
+[main 6cde0fb] BERT Script Results for Run 719229 (Commit: c685fd1)
+ 2 files changed, 89 insertions(+)
+ create mode 100644 slurm-outputs/slurm.719229.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   c685fd1..6cde0fb  main -> main
