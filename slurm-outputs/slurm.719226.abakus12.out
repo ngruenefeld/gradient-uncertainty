@@ -18,3 +18,11 @@ Using device: cuda
   trainer = Trainer(
 In-Domain Sentence: The basketball game was intense and exciting.
 Out-Of-Domain Sentence: The patient was diagnosed with colon cancer.
+  0%|          | 0/21 [00:00<?, ?it/s]  5%|▍         | 1/21 [00:00<00:12,  1.62it/s] 14%|█▍        | 3/21 [00:00<00:03,  4.69it/s] 24%|██▍       | 5/21 [00:00<00:02,  7.20it/s] 33%|███▎      | 7/21 [00:01<00:01,  9.18it/s] 43%|████▎     | 9/21 [00:01<00:01, 10.42it/s] 52%|█████▏    | 11/21 [00:01<00:00, 11.31it/s] 62%|██████▏   | 13/21 [00:01<00:00, 12.03it/s] 71%|███████▏  | 15/21 [00:01<00:00, 13.04it/s] 81%|████████  | 17/21 [00:01<00:00, 13.14it/s] 90%|█████████ | 19/21 [00:01<00:00, 13.24it/s]100%|██████████| 21/21 [00:02<00:00, 13.89it/s]                                               {'train_runtime': 2.0421, 'train_samples_per_second': 146.91, 'train_steps_per_second': 10.284, 'train_loss': 2.6941346668061756, 'epoch': 3.0}
+100%|██████████| 21/21 [00:02<00:00, 13.89it/s]100%|██████████| 21/21 [00:02<00:00, 10.29it/s]
+In-Domain Uncertainty before fine-tuning: tensor(72.4592)
+In-Domain Uncertainty after fine-tuning: tensor(42.4899)
+Out-Of-Domain Uncertainty before fine-tuning: tensor(147.7263)
+Out-Of-Domain Uncertainty after fine-tuning: tensor(131.7172)
+In-Domain Difference: tensor(-29.9694)
+Out-Of-Domain Difference: tensor(-16.0091)

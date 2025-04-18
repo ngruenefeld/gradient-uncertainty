@@ -26,3 +26,7 @@ Out-Of-Domain Uncertainty before fine-tuning: tensor(147.7263)
 Out-Of-Domain Uncertainty after fine-tuning: tensor(162.1327)
 In-Domain Difference: tensor(24.0871)
 Out-Of-Domain Difference: tensor(14.4064)
+[main 69bbcb2] BERT Script Results for Run 719227 (Commit: 8ee6568)
+ 3 files changed, 47 insertions(+)
+To github.com:ngruenefeld/gradient-uncertainty.git
+   b347717..69bbcb2  main -> main
