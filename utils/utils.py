@@ -113,12 +113,11 @@ def completion_gradient(
         return {"error": str(e)}
 
 
-def bert_gradient(sample, labels, model, tokenizer, device, normalize=False):
+def bert_gradient(inputs, labels, model, normalize=False):
     try:
         model.train()
 
-        inputs = tokenizer(sample, return_tensors="pt").to(device)
-        labels = inputs.input_ids.clone().to(device)
+        model.zero_grad()
 
         outputs = model(**inputs, labels=labels)
         loss = outputs.loss
