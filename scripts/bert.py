@@ -43,7 +43,7 @@ def tokenize_function(example):
 
 tokenized_dataset = sports_dataset.map(
     tokenize_function, batched=True, remove_columns=["text", "label"]
-)
+).select(range(16))
 
 data_collator = DataCollatorForLanguageModeling(
     tokenizer=tokenizer,
@@ -53,16 +53,17 @@ data_collator = DataCollatorForLanguageModeling(
 
 
 training_args = TrainingArguments(
-    output_dir="/tmp/no_save",  # Required, but will not actually save
+    output_dir="/tmp/no_save",
     num_train_epochs=3,
     per_device_train_batch_size=16,
     per_device_eval_batch_size=16,
     evaluation_strategy="no",
     save_strategy="no",
     logging_steps=100,
-    report_to=[],  # Disable reporting
+    report_to=[],
     save_total_limit=0,
     remove_unused_columns=False,
+    fp16=torch.cuda.is_available(),
 )
 
 trainer = Trainer(
