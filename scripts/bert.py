@@ -10,6 +10,8 @@ from transformers import (
 )
 import torch
 
+from utils.utils import bert_gradient
+
 hf_token = os.getenv("HF_TOKEN")
 
 dataset = load_dataset("fancyzhx/ag_news", split="train")
@@ -102,23 +104,6 @@ print("Embedding before fine-tuning:", embedding_before[:5])
 embedding_after = get_embedding(sentence, model)
 print("Embedding after fine-tuning:", embedding_after[:5])
 
-
-inputs = tokenizer("This is a test", return_tensors="pt")
-print("Input Shape", inputs.input_ids.shape)
-print(inputs.input_ids)
-labels = torch.ones([1, 6], dtype=torch.long)
-labels = inputs.input_ids
-
-outputs = model(**inputs, labels=labels)
-loss = outputs.loss
-
-loss.backward()
-
-grads = []
-for name, param in model.named_parameters():
-    if param.grad is not None:
-        grads.append(param.grad.flatten())
-
-uncertainty = torch.norm(torch.cat(grads))
+uncertainty = bert_gradient(sentence, sentence, model, tokenizer, device)
 
 print(uncertainty)
