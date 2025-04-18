@@ -59,9 +59,6 @@ def process_test_samples(
                 )
                 labels = inputs.input_ids.clone().to(device)
 
-            print(f"Inputs: {inputs}")
-            print(f"Labels: {labels}")
-
             uncertainty = bert_gradient(
                 inputs, labels, model, normalize=normalize
             ).item()
