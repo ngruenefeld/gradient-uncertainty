@@ -31,12 +31,14 @@ print(device)
 
 
 def tokenize_function(example):
-    return tokenizer(
+    tokens = tokenizer(
         example["text"],
         padding="max_length",
         truncation=True,
         max_length=128,
     ).to(device)
+    tokens["labels"] = tokens["input_ids"].copy()  # Needed for MLM
+    return tokens
 
 
 tokenized_dataset = sports_dataset.map(
@@ -51,15 +53,16 @@ data_collator = DataCollatorForLanguageModeling(
 
 
 training_args = TrainingArguments(
-    output_dir="/tmp/no_save",  # Still required but ignored
+    output_dir="/tmp/no_save",  # Required, but will not actually save
     num_train_epochs=3,
     per_device_train_batch_size=16,
     per_device_eval_batch_size=16,
     evaluation_strategy="no",
     save_strategy="no",
     logging_steps=100,
-    report_to=[],  # No logging
+    report_to=[],  # Disable reporting
     save_total_limit=0,
+    remove_unused_columns=False,
 )
 
 trainer = Trainer(
