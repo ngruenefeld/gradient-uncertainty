@@ -26,6 +26,7 @@ model = AutoModelForMaskedLM.from_pretrained(model_name, token=hf_token)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
+model.train()
 
 print(device)
 
@@ -100,3 +101,25 @@ trainer.train()
 
 embedding_after = get_embedding(sentence, model)
 print("Embedding after fine-tuning:", embedding_after[:5])
+
+
+example_text = "The patient was diagnosed with cancer."
+
+inputs = tokenizer(example_text, return_tensors="pt")
+inputs = {k: v.to(device) for k, v in inputs.items()}
+
+collator = DataCollatorForLanguageModeling(
+    tokenizer=tokenizer, mlm=True, mlm_probability=0.15
+)
+batch = collator([inputs])
+
+input_ids = batch["input_ids"].to(device)
+attention_mask = batch["attention_mask"].to(device)
+labels = batch["labels"].to(device)
+
+outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
+loss = outputs.loss
+
+loss.backward()
+
+print(f"Loss: {loss.item():.4f}")
