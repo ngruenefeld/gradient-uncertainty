@@ -51,3 +51,9 @@ Processing test sample 9/10 (after training)
 Processing test sample 10/10 (after training)
 
 Processing complete. Saved 10 results. Failed: 0
+[main 65c0d61] BERT Script Results for Run 719249 (Commit: 2edab20)
+ 3 files changed, 58 insertions(+)
+ create mode 100644 data/test/bert_results_719249_cf-constant.pkl
+ create mode 100644 slurm-outputs/slurm.719249.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   2edab20..65c0d61  main -> main
