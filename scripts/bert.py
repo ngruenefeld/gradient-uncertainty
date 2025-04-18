@@ -23,6 +23,7 @@ def process_test_samples(
     phase="before",
     results=None,
     normalize=False,
+    counterfactual="identity",
 ):
     if results is None:
         results = []
@@ -31,7 +32,7 @@ def process_test_samples(
     sample_count = len(test_dataset)
 
     print(
-        f"Calculating uncertainties for {sample_count} test samples {phase} training..."
+        f"Calculating uncertainties for {sample_count} test samples {phase} training (counterfactual mode: {counterfactual})..."
     )
 
     for idx, item in enumerate(test_dataset):
@@ -40,8 +41,20 @@ def process_test_samples(
             label = item["label"]
             print(f"Processing test sample {idx+1}/{sample_count} ({phase} training)")
 
+            inputs = tokenizer(sentence, return_tensors="pt").to(device)
+
+            if counterfactual == "constant":
+                labels = torch.ones_like(inputs.input_ids).to(device)
+            elif counterfactual == "identity":
+                labels = inputs.input_ids.clone().to(device)
+            else:
+                print(
+                    f"Warning: Invalid counterfactual mode '{counterfactual}'. Using 'identity' mode."
+                )
+                labels = inputs.input_ids.clone().to(device)
+
             uncertainty = bert_gradient(
-                sentence, sentence, model, tokenizer, device, normalize=normalize
+                inputs, labels, model, normalize=normalize
             ).item()
 
             if phase == "before":
@@ -75,11 +88,13 @@ def main(args):
     sample_size = args.sample_size
     job_number = args.job_number
     normalize = args.normalize
+    counterfactual = args.counterfactual
 
     print(f"Job number: {job_number}")
     print(f"Key mode: {key_mode}")
     print(f"Sample size: {sample_size}")
     print(f"Normalize: {normalize}")
+    print(f"Counterfactual: {counterfactual}")
 
     if key_mode == "keyfile":
         with open(os.path.expanduser(".hf_api_key"), "r") as f:
@@ -181,7 +196,13 @@ def main(args):
 
     # Process test dataset and calculate uncertainty before training
     results, failed_count_before = process_test_samples(
-        test_dataset, model, tokenizer, device, phase="before", normalize=normalize
+        test_dataset,
+        model,
+        tokenizer,
+        device,
+        phase="before",
+        normalize=normalize,
+        counterfactual=counterfactual,
     )
 
     # Train the model
@@ -197,6 +218,7 @@ def main(args):
         phase="after",
         results=results,
         normalize=normalize,
+        counterfactual=counterfactual,
     )
 
     # Total failed count
@@ -213,7 +235,14 @@ def main(args):
 
         # Add normalization indicator to filename
         normalize_suffix = "_normalized" if normalize else ""
-        df.to_pickle(f"data/{mode}/bert_results_{job_number}{normalize_suffix}.pkl")
+        # Add counterfactual mode to filename if it's not the default
+        counterfactual_suffix = (
+            f"_cf-{counterfactual}" if counterfactual != "identity" else ""
+        )
+
+        df.to_pickle(
+            f"data/{mode}/bert_results_{job_number}{normalize_suffix}{counterfactual_suffix}.pkl"
+        )
         print(
             f"\nProcessing complete. Saved {len(results)} results. Failed: {failed_count}"
         )
@@ -253,6 +282,13 @@ if __name__ == "__main__":
         action="store_true",
         default=False,
         help="Normalize the gradients (default: False)",
+    )
+    parser.add_argument(
+        "--counterfactual",
+        type=str,
+        default="identity",
+        choices=["identity", "constant"],
+        help="How to choose labels for bert_gradient: 'identity' uses the same input, 'constant' uses value 1 (default: identity)",
     )
 
     args = parser.parse_args()
