@@ -74,21 +74,26 @@ trainer = Trainer(
     data_collator=data_collator,
 )
 
-# Example usage to get embeddings
-sample_text = "The football match ended with a stunning goal."
 
-inputs = tokenizer(sample_text, return_tensors="pt", truncation=True, padding=True)
+def get_embedding(text, model):
+    inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True).to(
+        device
+    )
+    with torch.no_grad():
+        outputs = model.bert(**inputs)
+        last_hidden = outputs.last_hidden_state
+        pooled = last_hidden.mean(dim=1)
+    return pooled.squeeze()
 
-with torch.no_grad():
-    outputs = model.bert(**inputs)
-    hidden_states = outputs.last_hidden_state
-    print(hidden_states)
+
+sentence = "The basketball game was intense and exciting."
+
+embedding_before = get_embedding(sentence, model)
+print("Embedding before fine-tuning:", embedding_before[:5])
 
 
 trainer.train()
 
 
-with torch.no_grad():
-    outputs = model.bert(**inputs)
-    hidden_states = outputs.last_hidden_state
-    print(hidden_states)
+embedding_after = get_embedding(sentence, model)
+print("Embedding after fine-tuning:", embedding_after[:5])
