@@ -113,6 +113,7 @@ def bert_gradient(sample, labels, model, tokenizer, device, normalize=False):
         inputs = tokenizer(sample, return_tensors="pt").to(device)
         labels = inputs.input_ids.clone().to(device)
 
+        print(inputs)
         print(inputs.input_ids.shape)
         print(labels.shape)
 

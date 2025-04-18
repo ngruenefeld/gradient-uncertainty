@@ -108,6 +108,7 @@ print("Embedding after fine-tuning:", embedding_after[:5])
 inputs = tokenizer("This is a test", return_tensors="pt")
 print("Input Shape", inputs.input_ids.shape)
 print(inputs.input_ids)
+print(inputs)
 labels = torch.ones([1, 6], dtype=torch.long)
 labels = inputs.input_ids
 
