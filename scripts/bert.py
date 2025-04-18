@@ -119,22 +119,22 @@ def main(args):
 
     train_dataset, test_dataset = load_bert_datasets()
 
-    # Sample the training dataset if sample_size is specified
-    if sample_size > 0:
-        if sample_size > len(train_dataset):
-            print(
-                f"Warning: Sample size {sample_size} is larger than training dataset size {len(train_dataset)}. Using full dataset."
-            )
-        else:
-            indices = random.sample(range(len(train_dataset)), sample_size)
-            train_dataset = train_dataset.select(indices)
-            print(
-                f"Using {sample_size} randomly sampled examples from the training dataset."
-            )
+    train_sample_size = (
+        min(args.sample_size, len(train_dataset))
+        if args.sample_size > 0
+        else len(train_dataset)
+    )
+    if train_sample_size < len(train_dataset):
+        train_indices = random.sample(range(len(train_dataset)), train_sample_size)
+        train_dataset = train_dataset.select(train_indices)
+        print(
+            f"Using {train_sample_size} randomly sampled examples from the train dataset (all categories)."
+        )
     else:
-        print(f"Using full training dataset with {len(train_dataset)} samples.")
+        print(
+            f"Using full train dataset with {train_sample_size} samples (all categories)."
+        )
 
-    # Sample the test dataset if needed
     test_sample_size = (
         min(args.test_sample_size, len(test_dataset))
         if args.test_sample_size > 0
@@ -143,9 +143,13 @@ def main(args):
     if test_sample_size < len(test_dataset):
         test_indices = random.sample(range(len(test_dataset)), test_sample_size)
         test_dataset = test_dataset.select(test_indices)
-    print(
-        f"Using {test_sample_size} samples from the entire test dataset (all categories)."
-    )
+        print(
+            f"Using {test_sample_size} randomly sampled examples from the test dataset (all categories)."
+        )
+    else:
+        print(
+            f"Using full test dataset with {test_sample_size} samples (all categories)."
+        )
 
     model_name = "bert-base-uncased"
 
