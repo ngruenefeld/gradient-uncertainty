@@ -31,6 +31,7 @@ def process_test_samples(
     for idx, item in enumerate(test_dataset):
         try:
             sentence = item["text"]
+            label = item["label"]
             print(f"Processing test sample {idx+1}/{sample_count} ({phase} training)")
 
             uncertainty = bert_gradient(
@@ -38,9 +39,9 @@ def process_test_samples(
             ).item()
 
             if phase == "before":
-                # Create new result entry
                 result_entry = {
                     "text": sentence,
+                    "label": label,
                     "uncertainty_before": uncertainty,
                     "uncertainty_after": None,
                     "uncertainty_difference": None,
@@ -192,6 +193,9 @@ def main(args):
             "full" if sample_size == 0 else "test" if sample_size < 100 else "sampled"
         )
         df = pd.DataFrame(results)
+
+        # Add label names to the results
+        df["label_name"] = df["label"].apply(lambda x: label_names[x])
 
         df.to_pickle(f"data/{mode}/bert_results_{job_number}.pkl")
         print(
