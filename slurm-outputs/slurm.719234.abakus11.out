@@ -1,8 +1,8 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Running job with commit: 6b9ae992e7863149e1349717973fe94503ad4557
-Running command: python -um scripts.bert "719233" --key_mode "keyfile" --sample_size "100" --test_sample_size "100"
-Job number: 719233
+Running job with commit: 9d52b15006dc83c201355d6c406482f49667153b
+Running command: python -um scripts.bert "719234" --key_mode "keyfile" --sample_size "100" --test_sample_size "100"
+Job number: 719234
 Key mode: keyfile
 Sample size: 100
 Using 100 samples from the training dataset.
@@ -15,7 +15,7 @@ Some weights of the model checkpoint at bert-base-uncased were not used when ini
 - This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
 - This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
 Using device: cuda
-/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:163: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:166: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
   trainer = Trainer(
 Calculating uncertainties for 100 test samples before training...
 Processing test sample 1/100 (before training)
@@ -119,8 +119,8 @@ Processing test sample 98/100 (before training)
 Processing test sample 99/100 (before training)
 Processing test sample 100/100 (before training)
 Training model...
-  0%|          | 0/21 [00:00<?, ?it/s]  5%|▍         | 1/21 [00:00<00:03,  5.31it/s] 10%|▉         | 2/21 [00:00<00:02,  6.64it/s] 19%|█▉        | 4/21 [00:00<00:01,  9.88it/s] 29%|██▊       | 6/21 [00:00<00:01, 11.37it/s] 38%|███▊      | 8/21 [00:00<00:01, 12.73it/s] 48%|████▊     | 10/21 [00:00<00:00, 12.90it/s] 57%|█████▋    | 12/21 [00:01<00:00, 13.02it/s] 67%|██████▋   | 14/21 [00:01<00:00, 13.84it/s] 76%|███████▌  | 16/21 [00:01<00:00, 13.65it/s] 86%|████████▌ | 18/21 [00:01<00:00, 13.50it/s] 95%|█████████▌| 20/21 [00:01<00:00, 13.53it/s]                                               {'train_runtime': 1.6773, 'train_samples_per_second': 178.864, 'train_steps_per_second': 12.52, 'train_loss': 2.6911228724888394, 'epoch': 3.0}
-100%|██████████| 21/21 [00:01<00:00, 13.53it/s]100%|██████████| 21/21 [00:01<00:00, 12.53it/s]
+  0%|          | 0/21 [00:00<?, ?it/s]  5%|▍         | 1/21 [00:00<00:03,  5.10it/s] 10%|▉         | 2/21 [00:00<00:02,  6.59it/s] 19%|█▉        | 4/21 [00:00<00:01,  9.87it/s] 29%|██▊       | 6/21 [00:00<00:01, 11.40it/s] 38%|███▊      | 8/21 [00:00<00:01, 12.49it/s] 48%|████▊     | 10/21 [00:00<00:00, 12.80it/s] 57%|█████▋    | 12/21 [00:01<00:00, 13.00it/s] 67%|██████▋   | 14/21 [00:01<00:00, 14.00it/s] 76%|███████▌  | 16/21 [00:01<00:00, 13.76it/s] 86%|████████▌ | 18/21 [00:01<00:00, 13.63it/s] 95%|█████████▌| 20/21 [00:01<00:00, 13.70it/s]                                               {'train_runtime': 1.6759, 'train_samples_per_second': 179.006, 'train_steps_per_second': 12.53, 'train_loss': 2.6911228724888394, 'epoch': 3.0}
+100%|██████████| 21/21 [00:01<00:00, 13.70it/s]100%|██████████| 21/21 [00:01<00:00, 12.54it/s]
 Calculating uncertainties for 100 test samples after training...
 Processing test sample 1/100 (after training)
 Processing test sample 2/100 (after training)
@@ -222,14 +222,5 @@ Processing test sample 97/100 (after training)
 Processing test sample 98/100 (after training)
 Processing test sample 99/100 (after training)
 Processing test sample 100/100 (after training)
-Overall average uncertainty before fine-tuning: 675.259033203125
-Overall average uncertainty after fine-tuning: 621.9729614257812
-Overall average uncertainty difference: -53.2861328125
 
 Processing complete. Saved 100 results. Failed: 0
-[main 8118041] BERT Script Results for Run 719233 (Commit: 6b9ae99)
- 3 files changed, 235 insertions(+)
- create mode 100644 data/sampled/bert_results_719233.pkl
- create mode 100644 slurm-outputs/slurm.719233.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   6b9ae99..8118041  main -> main
