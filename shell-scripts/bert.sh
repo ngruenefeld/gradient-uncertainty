@@ -11,12 +11,14 @@
 # Default values
 KEY_MODE="keyfile"
 SAMPLE_SIZE=0
+TEST_SAMPLE_SIZE=0
 
 # Parse named arguments
 while [[ "$#" -gt 0 ]]; do
     case $1 in
         --key_mode=*) KEY_MODE="${1#*=}";;
         --sample_size=*) SAMPLE_SIZE="${1#*=}";;
+        --test_sample_size=*) TEST_SAMPLE_SIZE="${1#*=}";;
         *) echo "Unknown option: $1" ;;
     esac
     shift
@@ -30,7 +32,7 @@ echo "Running job with commit: $COMMIT_ID"
 source env/bin/activate
 
 # Build the command with all required parameters
-CMD="python -um scripts.bert \"$SLURM_JOB_ID\" --key_mode \"$KEY_MODE\" --sample_size \"$SAMPLE_SIZE\""
+CMD="python -um scripts.bert \"$SLURM_JOB_ID\" --key_mode \"$KEY_MODE\" --sample_size \"$SAMPLE_SIZE\" --test_sample_size \"$TEST_SAMPLE_SIZE\""
 
 # Run the command
 echo "Running command: $CMD"
