@@ -84,7 +84,7 @@ def get_embedding(text, model):
         outputs = model.bert(**inputs)
         last_hidden = outputs.last_hidden_state
         print("Last Hidden Shape", last_hidden.shape)
-        pooled = last_hidden.mean(dim=1)
+        pooled = last_hidden.mean(dim=-1)
         print("Pooled Shape", pooled.shape)
     return pooled.squeeze()
 
