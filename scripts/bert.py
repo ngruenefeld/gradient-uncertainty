@@ -24,6 +24,8 @@ model = BertForMaskedLM.from_pretrained(model_name, token=hf_token)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
+print(device)
+
 
 def tokenize(example):
     return tokenizer(
@@ -55,4 +57,4 @@ trainer = Trainer(
     data_collator=data_collator,
 )
 
-trainer.train()
+# trainer.train()
