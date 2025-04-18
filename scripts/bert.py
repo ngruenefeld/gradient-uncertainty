@@ -96,15 +96,16 @@ embedding_before = get_embedding(sentence, model)
 print("Embedding before fine-tuning:", embedding_before[:5])
 
 
-trainer.train()
+# trainer.train()
 
 
 embedding_after = get_embedding(sentence, model)
 print("Embedding after fine-tuning:", embedding_after[:5])
 
 
-inputs = tokenizer("This is a test")
-labels = inputs["input_ids"].copy()
+inputs = tokenizer("This is a test", return_tensors="pt")
+print("Input Shape", inputs.input_ids.shape)
+labels = torch.tensor([1]).unsqueeze(0)
 
 outputs = model(**inputs, labels=labels)
 loss = outputs.loss
