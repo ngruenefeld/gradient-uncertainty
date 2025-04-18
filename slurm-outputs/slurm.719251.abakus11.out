@@ -1,14 +1,15 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Running job with commit: 4deef060319d061be435d7bf90af18964dd144e8
-Running command: python -um scripts.bert "719250" --key_mode "keyfile" --sample_size "10" --test_sample_size "101" --counterfactual "constant"
-Job number: 719250
+Running job with commit: 314dcb1d2e8bb5f9aaad6439d5a810f9b1e51194
+Running command: python -um scripts.bert "719251" --key_mode "keyfile" --sample_size "10" --test_sample_size "101" --counterfactual "constant" --dataset "ag-pubmed"
+Job number: 719251
 Key mode: keyfile
 Sample size: 10
 Normalize: False
 Counterfactual: constant
-Using 10 randomly sampled examples from the train dataset (all categories).
-Using 101 randomly sampled examples from the test dataset (all categories).
+Dataset: ag-pubmed
+Using 10 randomly sampled examples from the train dataset.
+Using 101 randomly sampled examples from the test dataset.
 BertForMaskedLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
   - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
   - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
@@ -17,12 +18,12 @@ Some weights of the model checkpoint at bert-base-uncased were not used when ini
 - This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
 - This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
 Using device: cuda
-Map:   0%|          | 0/10 [00:00<?, ? examples/s]Map: 100%|██████████| 10/10 [00:00<00:00, 931.78 examples/s]
+Map:   0%|          | 0/10 [00:00<?, ? examples/s]Map: 100%|██████████| 10/10 [00:00<00:00, 676.96 examples/s]
 huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
 To disable this warning, you can either:
 	- Avoid using `tokenizers` before the fork if possible
 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:199: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:198: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
   trainer = Trainer(
 Calculating uncertainties for 101 test samples before training (counterfactual mode: constant)...
 Processing test sample 1/101 (before training)
@@ -42,6 +43,9 @@ Processing test sample 14/101 (before training)
 Processing test sample 15/101 (before training)
 Processing test sample 16/101 (before training)
 Processing test sample 17/101 (before training)
+Token indices sequence length is longer than the specified maximum sequence length for this model (666 > 512). Running this sequence through the model will result in indexing errors
+Error in bert_gradient: The size of tensor a (666) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 17 before training: 'dict' object has no attribute 'item'
 Processing test sample 18/101 (before training)
 Processing test sample 19/101 (before training)
 Processing test sample 20/101 (before training)
@@ -61,6 +65,8 @@ Processing test sample 33/101 (before training)
 Processing test sample 34/101 (before training)
 Processing test sample 35/101 (before training)
 Processing test sample 36/101 (before training)
+Error in bert_gradient: The size of tensor a (659) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 36 before training: 'dict' object has no attribute 'item'
 Processing test sample 37/101 (before training)
 Processing test sample 38/101 (before training)
 Processing test sample 39/101 (before training)
@@ -127,8 +133,8 @@ Processing test sample 99/101 (before training)
 Processing test sample 100/101 (before training)
 Processing test sample 101/101 (before training)
 Training model...
-  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  5.53it/s] 67%|██████▋   | 2/3 [00:00<00:00,  7.09it/s]                                             {'train_runtime': 0.3613, 'train_samples_per_second': 83.023, 'train_steps_per_second': 8.302, 'train_loss': 3.7724761962890625, 'epoch': 3.0}
-100%|██████████| 3/3 [00:00<00:00,  7.09it/s]100%|██████████| 3/3 [00:00<00:00,  8.32it/s]
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  5.64it/s] 67%|██████▋   | 2/3 [00:00<00:00,  7.17it/s]                                             {'train_runtime': 0.361, 'train_samples_per_second': 83.112, 'train_steps_per_second': 8.311, 'train_loss': 4.414926528930664, 'epoch': 3.0}
+100%|██████████| 3/3 [00:00<00:00,  7.17it/s]100%|██████████| 3/3 [00:00<00:00,  8.33it/s]
 Calculating uncertainties for 101 test samples after training (counterfactual mode: constant)...
 Processing test sample 1/101 (after training)
 Processing test sample 2/101 (after training)
@@ -147,6 +153,8 @@ Processing test sample 14/101 (after training)
 Processing test sample 15/101 (after training)
 Processing test sample 16/101 (after training)
 Processing test sample 17/101 (after training)
+Error in bert_gradient: The size of tensor a (666) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 17 after training: 'dict' object has no attribute 'item'
 Processing test sample 18/101 (after training)
 Processing test sample 19/101 (after training)
 Processing test sample 20/101 (after training)
@@ -166,6 +174,8 @@ Processing test sample 33/101 (after training)
 Processing test sample 34/101 (after training)
 Processing test sample 35/101 (after training)
 Processing test sample 36/101 (after training)
+Error in bert_gradient: The size of tensor a (659) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 36 after training: 'dict' object has no attribute 'item'
 Processing test sample 37/101 (after training)
 Processing test sample 38/101 (after training)
 Processing test sample 39/101 (after training)
@@ -230,12 +240,8 @@ Processing test sample 97/101 (after training)
 Processing test sample 98/101 (after training)
 Processing test sample 99/101 (after training)
 Processing test sample 100/101 (after training)
+Error processing test sample 100 after training: list index out of range
 Processing test sample 101/101 (after training)
+Error processing test sample 101 after training: list index out of range
 
-Processing complete. Saved 101 results. Failed: 0
-[main b37a0e8] BERT Script Results for Run 719250 (Commit: 4deef06)
- 3 files changed, 241 insertions(+)
- create mode 100644 data/test/bert_results_719250_cf-constant.pkl
- create mode 100644 slurm-outputs/slurm.719250.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   4deef06..b37a0e8  main -> main
+Processing complete. Saved 99 results. Failed: 6
