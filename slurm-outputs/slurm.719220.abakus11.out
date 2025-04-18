@@ -1,0 +1,43 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 6bbe3556e2e2220a91a53f952ed799c8e857ed43
+Running command: python -um scripts.bert "719220" --key_mode "keyfile" --sample_size "0"
+Job number: 719220
+Key mode: keyfile
+Sample size: 0
+Filter:   0%|          | 0/120000 [00:00<?, ? examples/s]Filter:  22%|██▏       | 26000/120000 [00:00<00:00, 251365.50 examples/s]Filter:  50%|█████     | 60000/120000 [00:00<00:00, 296459.15 examples/s]Filter:  78%|███████▊  | 94000/120000 [00:00<00:00, 312086.62 examples/s]Filter: 100%|██████████| 120000/120000 [00:00<00:00, 301746.32 examples/s]
+Using full dataset with 30000 samples.
+BertForMaskedLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForMaskedLM: ['bert.pooler.dense.bias', 'bert.pooler.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device: cuda
+Map:   0%|          | 0/30000 [00:00<?, ? examples/s]Map:   3%|▎         | 1000/30000 [00:00<00:03, 8411.64 examples/s]Map:   7%|▋         | 2000/30000 [00:00<00:03, 8774.37 examples/s]Map:  10%|█         | 3000/30000 [00:00<00:03, 8950.84 examples/s]Map:  13%|█▎        | 4000/30000 [00:00<00:02, 8976.08 examples/s]Map:  17%|█▋        | 5000/30000 [00:00<00:02, 8975.42 examples/s]Map:  20%|██        | 6000/30000 [00:00<00:02, 8965.57 examples/s]Map:  23%|██▎       | 7000/30000 [00:00<00:02, 9006.87 examples/s]Map:  27%|██▋       | 8000/30000 [00:00<00:02, 9008.64 examples/s]Map:  30%|███       | 9000/30000 [00:01<00:02, 9000.63 examples/s]Map:  33%|███▎      | 10000/30000 [00:01<00:02, 9011.31 examples/s]Map:  37%|███▋      | 11000/30000 [00:01<00:02, 9039.08 examples/s]Map:  40%|████      | 12000/30000 [00:01<00:01, 9057.15 examples/s]Map:  43%|████▎     | 13000/30000 [00:01<00:01, 9055.44 examples/s]Map:  47%|████▋     | 14000/30000 [00:01<00:01, 9077.50 examples/s]Map:  50%|█████     | 15000/30000 [00:01<00:01, 9059.55 examples/s]Map:  53%|█████▎    | 16000/30000 [00:01<00:01, 9052.56 examples/s]Map:  57%|█████▋    | 17000/30000 [00:01<00:01, 9049.34 examples/s]Map:  60%|██████    | 18000/30000 [00:01<00:01, 9021.91 examples/s]Map:  63%|██████▎   | 19000/30000 [00:02<00:01, 9030.48 examples/s]Map:  67%|██████▋   | 20000/30000 [00:02<00:01, 9026.76 examples/s]Map:  70%|███████   | 21000/30000 [00:02<00:01, 8999.70 examples/s]Map:  73%|███████▎  | 22000/30000 [00:02<00:00, 9036.36 examples/s]Map:  77%|███████▋  | 23000/30000 [00:02<00:00, 9077.70 examples/s]Map:  80%|████████  | 24000/30000 [00:02<00:00, 9073.37 examples/s]Map:  83%|████████▎ | 25000/30000 [00:02<00:00, 9026.53 examples/s]Map:  87%|████████▋ | 26000/30000 [00:02<00:00, 9046.81 examples/s]Map:  90%|█████████ | 27000/30000 [00:02<00:00, 9030.26 examples/s]Map:  93%|█████████▎| 28000/30000 [00:03<00:00, 8999.12 examples/s]Map:  97%|█████████▋| 29000/30000 [00:03<00:00, 8970.66 examples/s]Map: 100%|██████████| 30000/30000 [00:03<00:00, 6962.66 examples/s]Map: 100%|██████████| 30000/30000 [00:04<00:00, 7491.69 examples/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:103: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Uncertainty before fine-tuning: tensor(72.4592)
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  2.38it/s] 67%|██████▋   | 2/3 [00:00<00:00,  3.01it/s]                                             {'train_runtime': 0.7581, 'train_samples_per_second': 39.57, 'train_steps_per_second': 3.957, 'train_loss': 2.727812131245931, 'epoch': 3.0}
+100%|██████████| 3/3 [00:00<00:00,  3.01it/s]100%|██████████| 3/3 [00:00<00:00,  3.96it/s]
+Uncertainty after fine-tuning: tensor(37.8059)
+fatal: pathspec 'data/bert/result_719220.txt' did not match any files
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   slurm-outputs/slurm.719215.abakus11.out
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	slurm-outputs/slurm.719220.abakus11.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
