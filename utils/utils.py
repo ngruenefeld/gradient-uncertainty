@@ -107,47 +107,54 @@ def completion_gradient(
 
 
 def bert_gradient(sample, labels, model, tokenizer, device, normalize=False):
-    model.train()
+    try:
+        model.train()
 
-    inputs = tokenizer(sample, return_tensors="pt").to(device)
-    labels = tokenizer(labels, return_tensors="pt").to(device)
+        inputs = tokenizer(sample, return_tensors="pt").to(device)
+        labels = inputs.input_ids.clone().to(device)
 
-    outputs = model(**inputs, labels=labels)
-    loss = outputs.loss
+        outputs = model(**inputs, labels=labels)
+        loss = outputs.loss
 
-    loss.backward()
+        loss.backward()
 
-    total_norm = 0.0
-    for name, param in model.named_parameters():
-        if param.grad is not None:
-            if normalize == False:
-                param_norm = param.grad.detach().norm(2)
-            else:
-                param_values = param.detach()
-                param_grads = param.grad.detach()
+        total_norm = 0.0
+        for name, param in model.named_parameters():
+            if param.grad is not None:
+                if normalize == False:
+                    param_norm = param.grad.detach().norm(2)
+                else:
+                    param_values = param.detach()
+                    param_grads = param.grad.detach()
 
-                # Using Symmetric Percentage Change
-                new_param_values = param_values + param_grads
+                    # Using Symmetric Percentage Change
+                    new_param_values = param_values + param_grads
 
-                denominator = 0.5 * (param_values + new_param_values)
+                    denominator = 0.5 * (param_values + new_param_values)
 
-                # Small epsilon to avoid division by zero
-                epsilon = 1e-8
+                    # Small epsilon to avoid division by zero
+                    epsilon = 1e-8
 
-                # Calculate symmetric percent change
-                normalized_grads = torch.where(
-                    denominator.abs() > epsilon,
-                    param_grads / denominator,
-                    torch.zeros_like(param_grads),
-                )
+                    # Calculate symmetric percent change
+                    normalized_grads = torch.where(
+                        denominator.abs() > epsilon,
+                        param_grads / denominator,
+                        torch.zeros_like(param_grads),
+                    )
 
-                param_norm = normalized_grads.detach().norm(2)
-            total_norm += param_norm.item() ** 2
+                    param_norm = normalized_grads.detach().norm(2)
+                total_norm += param_norm.item() ** 2
 
-    uncertainty = torch.tensor(total_norm**0.5)
+        uncertainty = torch.tensor(total_norm**0.5)
 
-    del outputs, loss, input_ids, labels
-    gc.collect()
-    torch.cuda.empty_cache()
+        del outputs, loss, input_ids, labels
+        gc.collect()
+        torch.cuda.empty_cache()
 
-    return uncertainty
+        return uncertainty
+    except Exception as e:
+        print(f"Error in completion_gradient: {str(e)}")
+        # Make sure to free memory
+        torch.cuda.empty_cache()
+        gc.collect()
+        return {"error": str(e)}
