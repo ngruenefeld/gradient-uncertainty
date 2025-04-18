@@ -36,7 +36,7 @@ def tokenize_function(example):
         padding="max_length",
         truncation=True,
         max_length=128,
-    ).to(device)
+    )
     tokens["labels"] = tokens["input_ids"].copy()  # Needed for MLM
     return tokens
 
