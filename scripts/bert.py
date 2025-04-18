@@ -78,31 +78,16 @@ trainer = Trainer(
 )
 
 
-def get_embedding(text, model):
-    inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True).to(
-        device
-    )
-    print("Input Shape", inputs.input_ids.shape)
-    with torch.no_grad():
-        outputs = model.bert(**inputs)
-        last_hidden = outputs.last_hidden_state
-        print("Last Hidden Shape", last_hidden.shape)
-        pooled = last_hidden.mean(dim=-1)
-        print("Pooled Shape", pooled.shape)
-    return pooled.squeeze()
+in_domain_sentence = "The basketball game was intense and exciting."
 
+in_domain_uncertainty_before = bert_gradient(
+    in_domain_sentence, in_domain_sentence, model, tokenizer, device
+)
+print("Uncertainty before fine-tuning:", in_domain_uncertainty_before)
 
-sentence = "The basketball game was intense and exciting."
+trainer.train()
 
-embedding_before = get_embedding(sentence, model)
-print("Embedding before fine-tuning:", embedding_before[:5])
-
-
-# trainer.train()
-
-
-embedding_after = get_embedding(sentence, model)
-
-uncertainty = bert_gradient(sentence, sentence, model, tokenizer, device)
-
-print(uncertainty)
+in_domain_uncertainty_after = bert_gradient(
+    in_domain_sentence, in_domain_sentence, model, tokenizer, device
+)
+print("Uncertainty after fine-tuning:", in_domain_uncertainty_after)
