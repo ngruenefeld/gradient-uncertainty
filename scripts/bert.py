@@ -33,7 +33,9 @@ def process_test_samples(
             sentence = item["text"]
             print(f"Processing test sample {idx+1}/{sample_count} ({phase} training)")
 
-            uncertainty = bert_gradient(sentence, sentence, model, tokenizer, device)
+            uncertainty = bert_gradient(
+                sentence, sentence, model, tokenizer, device
+            ).item()
 
             if phase == "before":
                 # Create new result entry
@@ -184,56 +186,6 @@ def main(args):
 
     # Total failed count
     failed_count = failed_count_before + failed_count_after
-
-    # Calculate and display overall statistics
-    valid_results = [r for r in results if r["uncertainty_difference"] is not None]
-
-    if valid_results:
-        # Overall statistics
-        avg_before = sum(r["uncertainty_before"] for r in valid_results) / len(
-            valid_results
-        )
-        avg_after = sum(r["uncertainty_after"] for r in valid_results) / len(
-            valid_results
-        )
-        avg_diff = sum(r["uncertainty_difference"] for r in valid_results) / len(
-            valid_results
-        )
-
-        print(f"Overall average uncertainty before fine-tuning: {avg_before}")
-        print(f"Overall average uncertainty after fine-tuning: {avg_after}")
-        print(f"Overall average uncertainty difference: {avg_diff}")
-
-        # Statistics by category - using label instead of label_name
-        label_stats = {}
-        for label_idx, label_name in enumerate(test_dataset.features["label"].names):
-            category_results = [
-                r for r in valid_results if "label" in r and r["label"] == label_idx
-            ]
-            if category_results:
-                cat_avg_before = sum(
-                    r["uncertainty_before"] for r in category_results
-                ) / len(category_results)
-                cat_avg_after = sum(
-                    r["uncertainty_after"] for r in category_results
-                ) / len(category_results)
-                cat_avg_diff = sum(
-                    r["uncertainty_difference"] for r in category_results
-                ) / len(category_results)
-
-                print(
-                    f"\nCategory '{label_name}' statistics ({len(category_results)} samples):"
-                )
-                print(f"  Average uncertainty before fine-tuning: {cat_avg_before}")
-                print(f"  Average uncertainty after fine-tuning: {cat_avg_after}")
-                print(f"  Average uncertainty difference: {cat_avg_diff}")
-
-                label_stats[label_name] = {
-                    "count": len(category_results),
-                    "avg_before": cat_avg_before,
-                    "avg_after": cat_avg_after,
-                    "avg_diff": cat_avg_diff,
-                }
 
     if results:
         mode = (
