@@ -13,7 +13,7 @@ hf_token = os.getenv("HF_TOKEN")
 
 dataset = load_dataset("fancyzhx/ag_news", split="train")
 
-sports_dataset = dataset.filter(lambda x: x["label"] == "Sports")
+sports_dataset = dataset.filter(lambda x: x["label"] == 1)
 
 model_name = "bert-base-uncased"
 
@@ -26,15 +26,13 @@ model.to(device)
 print(device)
 
 
-def tokenize_function(examples):
+def tokenize_function(example):
     return tokenizer(
-        examples["text"], padding="max_length", truncation=True, max_length=128
+        example["text"], truncation=True, padding="max_length", max_length=128
     ).to(device)
 
 
-tokenized_dataset = sports_dataset.map(
-    tokenize_function, batched=True, remove_columns=sports_dataset.column_names
-)
+tokenized_dataset = sports_dataset.map(tokenize_function, batched=True)
 
 
 training_args = TrainingArguments(
