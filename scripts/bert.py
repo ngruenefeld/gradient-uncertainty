@@ -105,6 +105,8 @@ print("Embedding after fine-tuning:", embedding_after[:5])
 
 inputs = tokenizer("This is a test", return_tensors="pt")
 
+print(inputs)
+
 outputs = model(**inputs)
 loss = outputs.loss
 
