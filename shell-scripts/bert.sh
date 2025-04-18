@@ -12,6 +12,7 @@
 KEY_MODE="keyfile"
 SAMPLE_SIZE=0
 TEST_SAMPLE_SIZE=0
+NORMALIZE=false  # Default to false
 
 # Parse named arguments
 while [[ "$#" -gt 0 ]]; do
@@ -19,6 +20,7 @@ while [[ "$#" -gt 0 ]]; do
         --key_mode=*) KEY_MODE="${1#*=}";;
         --sample_size=*) SAMPLE_SIZE="${1#*=}";;
         --test_sample_size=*) TEST_SAMPLE_SIZE="${1#*=}";;
+        --normalize) NORMALIZE=true;;
         *) echo "Unknown option: $1" ;;
     esac
     shift
@@ -33,6 +35,11 @@ source env/bin/activate
 
 # Build the command with all required parameters
 CMD="python -um scripts.bert \"$SLURM_JOB_ID\" --key_mode \"$KEY_MODE\" --sample_size \"$SAMPLE_SIZE\" --test_sample_size \"$TEST_SAMPLE_SIZE\""
+
+# Add normalize parameter (only add if true)
+if [ "$NORMALIZE" = true ]; then
+    CMD="$CMD --normalize"
+fi
 
 # Run the command
 echo "Running command: $CMD"

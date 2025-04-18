@@ -16,7 +16,13 @@ from utils.utils import bert_gradient
 
 
 def process_test_samples(
-    test_dataset, model, tokenizer, device, phase="before", results=None
+    test_dataset,
+    model,
+    tokenizer,
+    device,
+    phase="before",
+    results=None,
+    normalize=False,
 ):
     if results is None:
         results = []
@@ -35,7 +41,7 @@ def process_test_samples(
             print(f"Processing test sample {idx+1}/{sample_count} ({phase} training)")
 
             uncertainty = bert_gradient(
-                sentence, sentence, model, tokenizer, device
+                sentence, sentence, model, tokenizer, device, normalize=normalize
             ).item()
 
             if phase == "before":
@@ -68,10 +74,12 @@ def main(args):
     key_mode = args.key_mode
     sample_size = args.sample_size
     job_number = args.job_number
+    normalize = args.normalize
 
     print(f"Job number: {job_number}")
     print(f"Key mode: {key_mode}")
     print(f"Sample size: {sample_size}")
+    print(f"Normalize: {normalize}")
 
     if key_mode == "keyfile":
         with open(os.path.expanduser(".hf_api_key"), "r") as f:
@@ -173,7 +181,7 @@ def main(args):
 
     # Process test dataset and calculate uncertainty before training
     results, failed_count_before = process_test_samples(
-        test_dataset, model, tokenizer, device, phase="before"
+        test_dataset, model, tokenizer, device, phase="before", normalize=normalize
     )
 
     # Train the model
@@ -182,7 +190,13 @@ def main(args):
 
     # Calculate uncertainty after training
     results, failed_count_after = process_test_samples(
-        test_dataset, model, tokenizer, device, phase="after", results=results
+        test_dataset,
+        model,
+        tokenizer,
+        device,
+        phase="after",
+        results=results,
+        normalize=normalize,
     )
 
     # Total failed count
@@ -197,7 +211,9 @@ def main(args):
         # Add label names to the results
         df["label_name"] = df["label"].apply(lambda x: label_names[x])
 
-        df.to_pickle(f"data/{mode}/bert_results_{job_number}.pkl")
+        # Add normalization indicator to filename
+        normalize_suffix = "_normalized" if normalize else ""
+        df.to_pickle(f"data/{mode}/bert_results_{job_number}{normalize_suffix}.pkl")
         print(
             f"\nProcessing complete. Saved {len(results)} results. Failed: {failed_count}"
         )
@@ -231,6 +247,12 @@ if __name__ == "__main__":
         type=int,
         default=0,
         help="Number of examples to sample from the test dataset (0 = use full dataset)",
+    )
+    parser.add_argument(
+        "--normalize",
+        action="store_true",
+        default=False,
+        help="Normalize the gradients (default: False)",
     )
 
     args = parser.parse_args()
