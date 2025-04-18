@@ -103,7 +103,7 @@ embedding_after = get_embedding(sentence, model)
 print("Embedding after fine-tuning:", embedding_after[:5])
 
 
-inputs = tokenizer("This is a test", return_tensors="pt")
+inputs = tokenize_function("This is a test")
 
 print(inputs)
 
