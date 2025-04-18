@@ -157,7 +157,7 @@ def bert_gradient(sample, labels, model, tokenizer, device, normalize=False):
 
         return uncertainty
     except Exception as e:
-        print(f"Error in completion_gradient: {str(e)}")
+        print(f"Error in bert_gradient: {str(e)}")
         # Make sure to free memory
         torch.cuda.empty_cache()
         gc.collect()
