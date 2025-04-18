@@ -41,7 +41,11 @@ def process_test_samples(
             label = item["label"]
             print(f"Processing test sample {idx+1}/{sample_count} ({phase} training)")
 
-            inputs = tokenizer(sentence, return_tensors="pt").to(device)
+            inputs = tokenizer(
+                sentence,
+                return_tensors="pt",
+                add_special_tokens=False,
+            ).to(device)
 
             if counterfactual == "constant":
                 # Use the unknown token ID instead of ones
@@ -163,6 +167,7 @@ def main(args):
             padding="max_length",
             truncation=True,
             max_length=128,
+            add_special_tokens=False,
         )
         tokens["labels"] = tokens["input_ids"].copy()  # Needed for MLM
         return tokens
