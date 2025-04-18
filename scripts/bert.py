@@ -79,7 +79,7 @@ def get_embedding(text, model):
     inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True).to(
         device
     )
-    print("Input Shape", inputs.last_hidden_state.shape)
+    print("Input Shape", inputs.input_ids.shape)
     with torch.no_grad():
         outputs = model.bert(**inputs)
         last_hidden = outputs.last_hidden_state
