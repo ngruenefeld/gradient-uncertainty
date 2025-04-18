@@ -4,7 +4,6 @@ from datasets import load_dataset
 from transformers import (
     BertTokenizer,
     BertForMaskedLM,
-    DataCollatorForLanguageModeling,
     TrainingArguments,
     Trainer,
 )
@@ -12,9 +11,9 @@ import torch
 
 hf_token = os.getenv("HF_TOKEN")
 
-dataset = load_dataset("m-a-p/FineFineWeb", split="train", streaming=True)
+dataset = load_dataset("fancyzhx/ag_news", split="train")
 
-medical_stream = dataset.filter(lambda x: x["domain"] == "medicine")
+sports_dataset = dataset.filter(lambda x: x["label"] == "Sports")
 
 model_name = "bert-base-uncased"
 
@@ -27,34 +26,26 @@ model.to(device)
 print(device)
 
 
-def tokenize(example):
+def tokenize_function(examples):
     return tokenizer(
-        example["text"],
-        truncation=True,
-        padding="max_length",
-        max_length=128,
-        return_special_tokens_mask=True,
+        examples["text"], padding="max_length", truncation=True, max_length=128
     ).to(device)
 
 
-tokenized_stream = medical_stream.map(tokenize)
-
-data_collator = DataCollatorForLanguageModeling(
-    tokenizer=tokenizer, mlm=True, mlm_probability=0.15
+tokenized_dataset = sports_dataset.map(
+    tokenize_function, batched=True, remove_columns=sports_dataset.column_names
 )
+
 
 training_args = TrainingArguments(
     per_device_train_batch_size=16,
-    max_steps=1,
-    save_strategy="no",
+    num_train_epochs=1,
 )
 
 trainer = Trainer(
     model=model,
     args=training_args,
-    train_dataset=tokenized_stream,
-    tokenizer=tokenizer,
-    data_collator=data_collator,
+    train_dataset=tokenized_dataset,
 )
 
 # trainer.train()
