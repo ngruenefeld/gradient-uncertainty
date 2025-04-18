@@ -207,9 +207,7 @@ def main(args):
         # Statistics by category
         label_stats = {}
         for label_name in test_dataset.features["label"].names:
-            category_results = [
-                r for r in valid_results if r["label_name"] == label_name
-            ]
+            category_results = [r for r in valid_results if r["label"] == label_name]
             if category_results:
                 cat_avg_before = sum(
                     r["uncertainty_before"] for r in category_results
