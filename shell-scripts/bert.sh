@@ -13,6 +13,7 @@ KEY_MODE="keyfile"
 SAMPLE_SIZE=0
 TEST_SAMPLE_SIZE=0
 NORMALIZE=false  # Default to false
+COUNTERFACTUAL="identity"  # Default to identity
 
 # Parse named arguments
 while [[ "$#" -gt 0 ]]; do
@@ -21,6 +22,7 @@ while [[ "$#" -gt 0 ]]; do
         --sample_size=*) SAMPLE_SIZE="${1#*=}";;
         --test_sample_size=*) TEST_SAMPLE_SIZE="${1#*=}";;
         --normalize) NORMALIZE=true;;
+        --counterfactual=*) COUNTERFACTUAL="${1#*=}";;
         *) echo "Unknown option: $1" ;;
     esac
     shift
@@ -39,6 +41,11 @@ CMD="python -um scripts.bert \"$SLURM_JOB_ID\" --key_mode \"$KEY_MODE\" --sample
 # Add normalize parameter (only add if true)
 if [ "$NORMALIZE" = true ]; then
     CMD="$CMD --normalize"
+fi
+
+# Add counterfactual parameter (only add if not default)
+if [ "$COUNTERFACTUAL" != "identity" ]; then
+    CMD="$CMD --counterfactual \"$COUNTERFACTUAL\""
 fi
 
 # Run the command
