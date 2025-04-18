@@ -109,18 +109,33 @@ def main(args):
     )
 
     in_domain_sentence = "The basketball game was intense and exciting."
+    out_of_domain_sentence = "The patient was diagnosed with colon cancer."
 
     in_domain_uncertainty_before = bert_gradient(
         in_domain_sentence, in_domain_sentence, model, tokenizer, device
     )
-    print("Uncertainty before fine-tuning:", in_domain_uncertainty_before)
+    out_of_domain_uncertainty_before = bert_gradient(
+        out_of_domain_sentence, out_of_domain_sentence, model, tokenizer, device
+    )
 
     trainer.train()
 
     in_domain_uncertainty_after = bert_gradient(
         in_domain_sentence, in_domain_sentence, model, tokenizer, device
     )
-    print("Uncertainty after fine-tuning:", in_domain_uncertainty_after)
+    out_of_domain_uncertainty_after = bert_gradient(
+        out_of_domain_sentence, out_of_domain_sentence, model, tokenizer, device
+    )
+
+    print("In-Domain Uncertainty before fine-tuning:", in_domain_uncertainty_before)
+    print("In-Domain Uncertainty before fine-tuning:", in_domain_uncertainty_after)
+    print(
+        "Out-Of-Domain Uncertainty before fine-tuning:",
+        out_of_domain_uncertainty_before,
+    )
+    print(
+        "Out-Of-Domain Uncertainty before fine-tuning:", out_of_domain_uncertainty_after
+    )
 
 
 if __name__ == "__main__":

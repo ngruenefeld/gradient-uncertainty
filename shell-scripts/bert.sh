@@ -41,6 +41,6 @@ mkdir -p data/bert
 
 # Deactivate and commit results
 deactivate
-git add data/bert/result_"$SLURM_JOB_ID".txt
+git add .
 git commit -m "BERT Script Results for Run $SLURM_JOB_ID (Commit: ${COMMIT_ID:0:7})"
 git push
