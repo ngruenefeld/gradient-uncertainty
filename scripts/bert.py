@@ -38,6 +38,8 @@ tokenized_dataset = sports_dataset.map(
 
 
 training_args = TrainingArguments(
+    output_dir="/tmp/ignore_this",
+    overwrite_output_dir=True,
     per_device_train_batch_size=16,
     num_train_epochs=1,
 )
