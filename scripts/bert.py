@@ -164,7 +164,7 @@ def main(args):
         return tokens
 
     tokenized_train_dataset = train_dataset.map(
-        tokenize_function, batched=True, remove_columns=["text", "label"]
+        tokenize_function, batched=True, remove_columns=["text", "label", "origin"]
     )
 
     data_collator = DataCollatorForLanguageModeling(
