@@ -1,0 +1,85 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: f6f73ab3c8e19152be002ba90e5852a32f348a36
+Running command: python -um scripts.bert "719248" --key_mode "keyfile" --sample_size "10" --test_sample_size "10" --counterfactual "constant"
+Job number: 719248
+Key mode: keyfile
+Sample size: 10
+Normalize: False
+Counterfactual: constant
+Filter:   0%|          | 0/120000 [00:00<?, ? examples/s]Filter:  27%|██▋       | 32000/120000 [00:00<00:00, 308471.33 examples/s]Filter:  56%|█████▌    | 67000/120000 [00:00<00:00, 327352.43 examples/s]Filter:  86%|████████▌ | 103000/120000 [00:00<00:00, 336893.08 examples/s]Filter: 100%|██████████| 120000/120000 [00:00<00:00, 326709.23 examples/s]
+Using 10 samples from the training dataset.
+Using 10 samples from the entire test dataset (all categories).
+BertForMaskedLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForMaskedLM: ['bert.pooler.dense.bias', 'bert.pooler.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device: cuda
+Map:   0%|          | 0/10 [00:00<?, ? examples/s]Map: 100%|██████████| 10/10 [00:00<00:00, 1539.93 examples/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:190: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Calculating uncertainties for 10 test samples before training (counterfactual mode: constant)...
+Processing test sample 1/10 (before training)
+Processing test sample 2/10 (before training)
+Processing test sample 3/10 (before training)
+Processing test sample 4/10 (before training)
+Processing test sample 5/10 (before training)
+Processing test sample 6/10 (before training)
+Processing test sample 7/10 (before training)
+Processing test sample 8/10 (before training)
+Processing test sample 9/10 (before training)
+Processing test sample 10/10 (before training)
+Training model...
+  0%|          | 0/3 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 776, in convert_to_tensors
+    tensor = as_tensor(value)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 738, in as_tensor
+    return torch.tensor(value)
+ValueError: too many dimensions 'str'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 294, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 211, in main
+    trainer.train()
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/trainer.py", line 2427, in _inner_training_loop
+    batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/trainer.py", line 5045, in get_batch_samples
+    batch_samples += [next(epoch_iterator)]
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/accelerate/data_loader.py", line 550, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/data/data_collator.py", line 45, in __call__
+    return self.torch_call(features)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/data/data_collator.py", line 807, in torch_call
+    batch = pad_without_fast_tokenizer_warning(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/data/data_collator.py", line 66, in pad_without_fast_tokenizer_warning
+    padded = tokenizer.pad(*pad_args, **pad_kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 3541, in pad
+    return BatchEncoding(batch_outputs, tensor_type=return_tensors)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 240, in __init__
+    self.convert_to_tensors(tensor_type=tensor_type, prepend_batch_axis=prepend_batch_axis)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 792, in convert_to_tensors
+    raise ValueError(
+ValueError: Unable to create tensor, you should probably activate truncation and/or padding with 'padding=True' 'truncation=True' to have batched tensors with the same length. Perhaps your features (`origin` in this case) have excessive nesting (inputs type `list` where type `int` is expected).
+  0%|          | 0/3 [00:00<?, ?it/s]

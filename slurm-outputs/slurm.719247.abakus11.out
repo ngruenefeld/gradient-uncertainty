@@ -15282,3 +15282,9 @@ Processing test sample 7599/7600 (after training)
 Processing test sample 7600/7600 (after training)
 
 Processing complete. Saved 7600 results. Failed: 0
+[main c4f01e4] BERT Script Results for Run 719247 (Commit: 686a514)
+ 3 files changed, 15290 insertions(+)
+ create mode 100644 data/full/bert_results_719247_normalized_cf-constant.pkl
+ create mode 100644 slurm-outputs/slurm.719247.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   686a514..c4f01e4  main -> main
