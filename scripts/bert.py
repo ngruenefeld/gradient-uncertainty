@@ -74,4 +74,21 @@ trainer = Trainer(
     data_collator=data_collator,
 )
 
+# Example usage to get embeddings
+sample_text = "The football match ended with a stunning goal."
+
+inputs = tokenizer(sample_text, return_tensors="pt", truncation=True, padding=True)
+
+with torch.no_grad():
+    outputs = model.bert(**inputs)
+    hidden_states = outputs.last_hidden_state
+    print(hidden_states)
+
+
 trainer.train()
+
+
+with torch.no_grad():
+    outputs = model.bert(**inputs)
+    hidden_states = outputs.last_hidden_state
+    print(hidden_states)
