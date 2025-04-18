@@ -1,11 +1,11 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Running job with commit: c48e2a281b4e566f40fa957e403ecf07db30b7b1
-Running command: python -um scripts.bert "719223" --key_mode "keyfile" --sample_size "10"
-Job number: 719223
+Running job with commit: db603c97b7d4b82f0fd308d070cf2401bb0b5278
+Running command: python -um scripts.bert "719224" --key_mode "keyfile" --sample_size "100"
+Job number: 719224
 Key mode: keyfile
-Sample size: 10
-Using 10 samples from the dataset.
+Sample size: 100
+Using 100 samples from the dataset.
 BertForMaskedLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
   - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
   - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
@@ -14,7 +14,7 @@ Some weights of the model checkpoint at bert-base-uncased were not used when ini
 - This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
 - This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
 Using device: cuda
-Map:   0%|          | 0/10 [00:00<?, ? examples/s]Map: 100%|██████████| 10/10 [00:00<00:00, 464.52 examples/s]
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 2924.74 examples/s]
 huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
 To disable this warning, you can either:
 	- Avoid using `tokenizers` before the fork if possible
@@ -23,16 +23,11 @@ To disable this warning, you can either:
   trainer = Trainer(
 In-Domain Sentence: The basketball game was intense and exciting.
 Out-Of-Domain Sentence: The patient was diagnosed with colon cancer.
-  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  5.60it/s] 67%|██████▋   | 2/3 [00:00<00:00,  7.12it/s]                                             {'train_runtime': 0.3589, 'train_samples_per_second': 83.592, 'train_steps_per_second': 8.359, 'train_loss': 2.7323328653971353, 'epoch': 3.0}
-100%|██████████| 3/3 [00:00<00:00,  7.12it/s]100%|██████████| 3/3 [00:00<00:00,  8.38it/s]
+  0%|          | 0/21 [00:00<?, ?it/s]  5%|▍         | 1/21 [00:00<00:05,  3.92it/s] 14%|█▍        | 3/21 [00:00<00:02,  8.45it/s] 24%|██▍       | 5/21 [00:00<00:01, 10.68it/s] 33%|███▎      | 7/21 [00:00<00:01, 12.16it/s] 43%|████▎     | 9/21 [00:00<00:00, 12.66it/s] 52%|█████▏    | 11/21 [00:00<00:00, 12.95it/s] 62%|██████▏   | 13/21 [00:01<00:00, 13.28it/s] 71%|███████▏  | 15/21 [00:01<00:00, 14.05it/s] 81%|████████  | 17/21 [00:01<00:00, 13.87it/s] 90%|█████████ | 19/21 [00:01<00:00, 13.76it/s]100%|██████████| 21/21 [00:01<00:00, 14.37it/s]                                               {'train_runtime': 1.6667, 'train_samples_per_second': 180.001, 'train_steps_per_second': 12.6, 'train_loss': 2.6941346668061756, 'epoch': 3.0}
+100%|██████████| 21/21 [00:01<00:00, 14.37it/s]100%|██████████| 21/21 [00:01<00:00, 12.61it/s]
 In-Domain Uncertainty before fine-tuning: tensor(72.4592)
-In-Domain Uncertainty after fine-tuning: tensor(185.2510)
+In-Domain Uncertainty after fine-tuning: tensor(42.4899)
 Out-Of-Domain Uncertainty before fine-tuning: tensor(147.7263)
-Out-Of-Domain Uncertainty after fine-tuning: tensor(232.9908)
-In-Domain Difference: tensor(112.7918)
-Out-Of-Domain Difference: tensor(85.2645)
-[main 8fceaa0] BERT Script Results for Run 719223 (Commit: c48e2a2)
- 2 files changed, 38 insertions(+)
- create mode 100644 slurm-outputs/slurm.719223.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   c48e2a2..8fceaa0  main -> main
+Out-Of-Domain Uncertainty after fine-tuning: tensor(131.7172)
+In-Domain Difference: tensor(-29.9694)
+Out-Of-Domain Difference: tensor(-16.0091)
