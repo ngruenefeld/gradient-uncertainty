@@ -1,6 +1,7 @@
 import argparse
 import os
 import pandas as pd
+import random  # Added import for random sampling
 
 from datasets import load_dataset
 from transformers import (
@@ -125,8 +126,11 @@ def main(args):
                 f"Warning: Sample size {sample_size} is larger than training dataset size {len(train_dataset)}. Using full dataset."
             )
         else:
-            train_dataset = train_dataset.select(range(sample_size))
-            print(f"Using {sample_size} samples from the training dataset.")
+            indices = random.sample(range(len(train_dataset)), sample_size)
+            train_dataset = train_dataset.select(indices)
+            print(
+                f"Using {sample_size} randomly sampled examples from the training dataset."
+            )
     else:
         print(f"Using full training dataset with {len(train_dataset)} samples.")
 
@@ -137,7 +141,8 @@ def main(args):
         else len(test_dataset)
     )
     if test_sample_size < len(test_dataset):
-        test_dataset = test_dataset.select(range(test_sample_size))
+        test_indices = random.sample(range(len(test_dataset)), test_sample_size)
+        test_dataset = test_dataset.select(test_indices)
     print(
         f"Using {test_sample_size} samples from the entire test dataset (all categories)."
     )
