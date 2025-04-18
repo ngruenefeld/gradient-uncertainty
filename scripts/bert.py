@@ -103,11 +103,10 @@ embedding_after = get_embedding(sentence, model)
 print("Embedding after fine-tuning:", embedding_after[:5])
 
 
-inputs = tokenize_function("This is a test")
+inputs = tokenizer("This is a test", return_tensors="pt")
+labels = inputs["input_ids"].copy()
 
-print(inputs)
-
-outputs = model(**inputs)
+outputs = model(**inputs, labels=labels)
 loss = outputs.loss
 
 loss.backward()
