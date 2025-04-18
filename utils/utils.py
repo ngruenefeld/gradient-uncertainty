@@ -151,7 +151,7 @@ def bert_gradient(sample, labels, model, tokenizer, device, normalize=False):
 
     uncertainty = torch.tensor(total_norm**0.5)
 
-    del outputs, loss, input_ids, labels
+    del outputs, loss, inputs, labels
     gc.collect()
     torch.cuda.empty_cache()
 
