@@ -14,6 +14,7 @@ SAMPLE_SIZE=0
 TEST_SAMPLE_SIZE=0
 NORMALIZE=false  # Default to false
 COUNTERFACTUAL="identity"  # Default to identity
+DATASET="ag_news"  # Default dataset choice
 
 # Parse named arguments
 while [[ "$#" -gt 0 ]]; do
@@ -23,6 +24,7 @@ while [[ "$#" -gt 0 ]]; do
         --test_sample_size=*) TEST_SAMPLE_SIZE="${1#*=}";;
         --normalize) NORMALIZE=true;;
         --counterfactual=*) COUNTERFACTUAL="${1#*=}";;
+        --dataset=*) DATASET="${1#*=}";;  # New parameter for dataset choice
         *) echo "Unknown option: $1" ;;
     esac
     shift
@@ -46,6 +48,11 @@ fi
 # Add counterfactual parameter (only add if not default)
 if [ "$COUNTERFACTUAL" != "identity" ]; then
     CMD="$CMD --counterfactual \"$COUNTERFACTUAL\""
+fi
+
+# Add dataset parameter (only add if not default)
+if [ "$DATASET" != "ag_news" ]; then
+    CMD="$CMD --dataset \"$DATASET\""
 fi
 
 # Run the command

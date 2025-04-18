@@ -98,12 +98,14 @@ def main(args):
     job_number = args.job_number
     normalize = args.normalize
     counterfactual = args.counterfactual
+    dataset_choice = args.dataset  # New parameter for dataset choice
 
     print(f"Job number: {job_number}")
     print(f"Key mode: {key_mode}")
     print(f"Sample size: {sample_size}")
     print(f"Normalize: {normalize}")
     print(f"Counterfactual: {counterfactual}")
+    print(f"Dataset: {dataset_choice}")  # Print the dataset choice
 
     if key_mode == "keyfile":
         with open(os.path.expanduser(".hf_api_key"), "r") as f:
@@ -117,7 +119,8 @@ def main(args):
     else:
         raise ValueError("Invalid key mode. Please use 'keyfile' or 'env'.")
 
-    train_dataset, test_dataset = load_bert_datasets()
+    # Pass the dataset choice parameter to load_bert_datasets
+    train_dataset, test_dataset = load_bert_datasets(choice=dataset_choice)
 
     train_sample_size = (
         min(args.sample_size, len(train_dataset))
@@ -128,12 +131,10 @@ def main(args):
         train_indices = random.sample(range(len(train_dataset)), train_sample_size)
         train_dataset = train_dataset.select(train_indices)
         print(
-            f"Using {train_sample_size} randomly sampled examples from the train dataset (all categories)."
+            f"Using {train_sample_size} randomly sampled examples from the train dataset."
         )
     else:
-        print(
-            f"Using full train dataset with {train_sample_size} samples (all categories)."
-        )
+        print(f"Using full train dataset with {train_sample_size} samples.")
 
     test_sample_size = (
         min(args.test_sample_size, len(test_dataset))
@@ -144,12 +145,10 @@ def main(args):
         test_indices = random.sample(range(len(test_dataset)), test_sample_size)
         test_dataset = test_dataset.select(test_indices)
         print(
-            f"Using {test_sample_size} randomly sampled examples from the test dataset (all categories)."
+            f"Using {test_sample_size} randomly sampled examples from the test dataset."
         )
     else:
-        print(
-            f"Using full test dataset with {test_sample_size} samples (all categories)."
-        )
+        print(f"Using full test dataset with {test_sample_size} samples.")
 
     model_name = "bert-base-uncased"
 
@@ -246,9 +245,11 @@ def main(args):
         counterfactual_suffix = (
             f"_cf-{counterfactual}" if counterfactual != "identity" else ""
         )
+        # Add dataset choice to filename
+        dataset_suffix = f"_ds-{dataset_choice}"
 
         df.to_pickle(
-            f"data/{mode}/bert_results_{job_number}{normalize_suffix}{counterfactual_suffix}.pkl"
+            f"data/{mode}/bert_results_{job_number}{normalize_suffix}{counterfactual_suffix}{dataset_suffix}.pkl"
         )
         print(
             f"\nProcessing complete. Saved {len(results)} results. Failed: {failed_count}"
@@ -296,6 +297,13 @@ if __name__ == "__main__":
         default="identity",
         choices=["identity", "constant"],
         help="How to choose labels for bert_gradient: 'identity' uses the same input, 'constant' uses the unknown token (default: identity)",
+    )
+    parser.add_argument(
+        "--dataset",
+        type=str,
+        default="ag_news",
+        choices=["ag_news", "ag-pubmed"],
+        help="Which dataset to use for training and testing (default: ag_news)",
     )
 
     args = parser.parse_args()
