@@ -56,6 +56,7 @@ def completion_gradient(
         loss.backward()
 
         # Calculate gradient norm
+        num_params = sum(p.numel() for _, p in model.named_parameters())
         total_norm = 0.0
         for name, param in model.named_parameters():
             if param.grad is not None:
