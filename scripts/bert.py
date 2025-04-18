@@ -44,7 +44,9 @@ def process_test_samples(
             inputs = tokenizer(sentence, return_tensors="pt").to(device)
 
             if counterfactual == "constant":
-                labels = torch.ones_like(inputs.input_ids).to(device)
+                # Use the unknown token ID instead of ones
+                unk_token_id = tokenizer.unk_token_id
+                labels = torch.full_like(inputs.input_ids, unk_token_id).to(device)
             elif counterfactual == "identity":
                 labels = inputs.input_ids.clone().to(device)
             else:
@@ -52,6 +54,9 @@ def process_test_samples(
                     f"Warning: Invalid counterfactual mode '{counterfactual}'. Using 'identity' mode."
                 )
                 labels = inputs.input_ids.clone().to(device)
+
+            print(f"Inputs: {inputs}")
+            print(f"Labels: {labels}")
 
             uncertainty = bert_gradient(
                 inputs, labels, model, normalize=normalize
@@ -288,7 +293,7 @@ if __name__ == "__main__":
         type=str,
         default="identity",
         choices=["identity", "constant"],
-        help="How to choose labels for bert_gradient: 'identity' uses the same input, 'constant' uses value 1 (default: identity)",
+        help="How to choose labels for bert_gradient: 'identity' uses the same input, 'constant' uses the unknown token (default: identity)",
     )
 
     args = parser.parse_args()
