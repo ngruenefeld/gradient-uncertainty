@@ -1,0 +1,45 @@
+slurmstepd-abakus22: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus22: error: Setting TMPDIR to /tmp
+Running job with commit: e911874ee655888317b0fdda1cfa14c1ce181060
+Running command: python -um scripts.bert "719268" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --dataset "mmlu" --model "roberta"
+Job number: 719268
+Key mode: keyfile
+Sample size: 0
+Normalize: False
+Counterfactual: identity
+Dataset: mmlu
+Model: roberta
+Using full train dataset with 11 samples.
+Using full test dataset with 322 samples.
+Loading model: roberta-base
+Using device: cuda
+Map:   0%|          | 0/11 [00:00<?, ? examples/s]Map: 100%|██████████| 11/11 [00:00<00:00, 1184.62 examples/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:215: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Calculating uncertainties for 322 test samples before training (counterfactual mode: identity)...
+Processing test sample 1/322 (before training)
+Processing test sample 2/322 (before training)
+Processing test sample 3/322 (before training)
+Processing test sample 4/322 (before training)
+Processing test sample 5/322 (before training)
+Processing test sample 6/322 (before training)
+Processing test sample 7/322 (before training)
+Processing test sample 8/322 (before training)
+Processing test sample 9/322 (before training)
+Processing test sample 10/322 (before training)
+Processing test sample 11/322 (before training)
+Processing test sample 12/322 (before training)
+Processing test sample 13/322 (before training)
+Processing test sample 14/322 (before training)
+Processing test sample 15/322 (before training)
+Processing test sample 16/322 (before training)
+Processing test sample 17/322 (before training)
+Processing test sample 18/322 (before training)
+Processing test sample 19/322 (before training)
+Processing test sample 20/322 (before training)
+Processing test sample 21/322 (before training)
+Processing test sample 22/322 (before training)
