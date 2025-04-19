@@ -98,14 +98,16 @@ def main(args):
     job_number = args.job_number
     normalize = args.normalize
     counterfactual = args.counterfactual
-    dataset_choice = args.dataset  # New parameter for dataset choice
+    dataset_choice = args.dataset
+    model_name = args.model
 
     print(f"Job number: {job_number}")
     print(f"Key mode: {key_mode}")
     print(f"Sample size: {sample_size}")
     print(f"Normalize: {normalize}")
     print(f"Counterfactual: {counterfactual}")
-    print(f"Dataset: {dataset_choice}")  # Print the dataset choice
+    print(f"Dataset: {dataset_choice}")
+    print(f"Model: {model_name}")  # Print the model choice
 
     if key_mode == "keyfile":
         with open(os.path.expanduser(".hf_api_key"), "r") as f:
@@ -150,10 +152,25 @@ def main(args):
     else:
         print(f"Using full test dataset with {test_sample_size} samples.")
 
-    model_name = "bert-base-uncased"
+    # Define model paths based on model selection
+    if model_name == "bert":
+        model_path = "bert-base-uncased"
+    elif model_name == "electra":
+        model_path = "google/electra-base-discriminator"
+    elif model_name == "roberta":
+        model_path = "roberta-base"
+    elif model_name == "albert":
+        model_path = "albert-base-v2"
+    elif model_name == "distilbert":
+        model_path = "distilbert-base-uncased"
+    else:
+        raise ValueError(
+            f"Model {model_name} not recognized. Please use one of the following: bert, electra, roberta, albert, distilbert."
+        )
 
-    tokenizer = AutoTokenizer.from_pretrained(model_name, token=hf_token)
-    model = AutoModelForMaskedLM.from_pretrained(model_name, token=hf_token)
+    print(f"Loading model: {model_path}")
+    tokenizer = AutoTokenizer.from_pretrained(model_path, token=hf_token)
+    model = AutoModelForMaskedLM.from_pretrained(model_path, token=hf_token)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Using device: {device}")
@@ -249,7 +266,7 @@ def main(args):
         dataset_suffix = f"_ds-{dataset_choice}"
 
         df.to_pickle(
-            f"data/{mode}/bert_results_{job_number}{normalize_suffix}{counterfactual_suffix}{dataset_suffix}.pkl"
+            f"data/{mode}/{model_name}_results_{job_number}{normalize_suffix}{counterfactual_suffix}{dataset_suffix}.pkl"
         )
         print(
             f"\nProcessing complete. Saved {len(results)} results. Failed: {failed_count}"
@@ -262,7 +279,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="BERT fine-tuning and uncertainty measurement"
+        description="Masked language model fine-tuning and uncertainty measurement"
     )
 
     parser.add_argument("job_number", help="Unique identifier for this job run")
@@ -304,6 +321,13 @@ if __name__ == "__main__":
         default="ag_news",
         choices=["ag_news", "ag-pubmed", "mmlu"],
         help="Which dataset to use for training and testing (default: ag_news)",
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        default="bert",
+        choices=["bert", "electra", "roberta", "albert", "distilbert"],
+        help="Which model to use for training and testing (default: bert)",
     )
 
     args = parser.parse_args()

@@ -270,5 +270,3 @@ def load_bert_datasets(choice="ag_news"):
 
     else:
         raise ValueError(f"Dataset {choice} not supported.")
-
-        raise ValueError(f"Dataset {choice} not supported.")

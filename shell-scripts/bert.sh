@@ -15,6 +15,7 @@ TEST_SAMPLE_SIZE=0
 NORMALIZE=false  # Default to false
 COUNTERFACTUAL="identity"  # Default to identity
 DATASET="ag_news"  # Default dataset choice
+MODEL="bert"  # Default model choice
 
 # Parse named arguments
 while [[ "$#" -gt 0 ]]; do
@@ -24,7 +25,8 @@ while [[ "$#" -gt 0 ]]; do
         --test_sample_size=*) TEST_SAMPLE_SIZE="${1#*=}";;
         --normalize) NORMALIZE=true;;
         --counterfactual=*) COUNTERFACTUAL="${1#*=}";;
-        --dataset=*) DATASET="${1#*=}";;  # New parameter for dataset choice
+        --dataset=*) DATASET="${1#*=}";;
+        --model=*) MODEL="${1#*=}";;
         *) echo "Unknown option: $1" ;;
     esac
     shift
@@ -55,15 +57,17 @@ if [ "$DATASET" != "ag_news" ]; then
     CMD="$CMD --dataset \"$DATASET\""
 fi
 
+# Add model parameter (only add if not default)
+if [ "$MODEL" != "bert" ]; then
+    CMD="$CMD --model \"$MODEL\""
+fi
+
 # Run the command
 echo "Running command: $CMD"
 eval $CMD
 
-# Create data directory if it doesn't exist
-mkdir -p data/bert
-
 # Deactivate and commit results
 deactivate
 git add .
-git commit -m "BERT Script Results for Run $SLURM_JOB_ID (Commit: ${COMMIT_ID:0:7})"
+git commit -m "BERT Script Results for Run $SLURM_JOB_ID (Model: $MODEL, Dataset: $DATASET, Commit: ${COMMIT_ID:0:7})"
 git push
