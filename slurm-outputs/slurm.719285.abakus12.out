@@ -1,0 +1,229 @@
+slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus12: error: Setting TMPDIR to /tmp
+Running job with commit: 24ba79ec3b6ed1542eba87ca8bd0ad3dd0cec09b
+Running command: python -um scripts.bert "719285" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --counterfactual "constant" --dataset "ag-pubmed" --model "albert"
+Job number: 719285
+Key mode: keyfile
+Sample size: 0
+Normalize: False
+Counterfactual: constant
+Dataset: ag-pubmed
+Model: albert
+Using full train dataset with 120000 samples.
+Using full test dataset with 17600 samples.
+Loading model: albert-base-v2
+Some weights of the model checkpoint at albert-base-v2 were not used when initializing AlbertForMaskedLM: ['albert.pooler.bias', 'albert.pooler.weight']
+- This IS expected if you are initializing AlbertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing AlbertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device: cuda
+Map:   0%|          | 0/120000 [00:00<?, ? examples/s]Map:   1%|          | 1000/120000 [00:00<00:14, 8387.00 examples/s]Map:   2%|▏         | 2000/120000 [00:00<00:13, 8576.94 examples/s]Map:   2%|▎         | 3000/120000 [00:00<00:19, 6098.92 examples/s]Map:   3%|▎         | 4000/120000 [00:00<00:16, 6888.02 examples/s]Map:   4%|▍         | 5000/120000 [00:00<00:15, 7307.50 examples/s]Map:   5%|▌         | 6000/120000 [00:00<00:14, 7676.57 examples/s]Map:   6%|▌         | 7000/120000 [00:00<00:14, 7960.25 examples/s]Map:   7%|▋         | 8000/120000 [00:01<00:13, 8018.86 examples/s]Map:   8%|▊         | 9000/120000 [00:01<00:13, 8195.97 examples/s]Map:   8%|▊         | 10000/120000 [00:01<00:13, 8107.06 examples/s]Map:   9%|▉         | 11000/120000 [00:01<00:13, 8209.59 examples/s]Map:  10%|█         | 12000/120000 [00:01<00:12, 8319.17 examples/s]Map:  11%|█         | 13000/120000 [00:01<00:12, 8433.01 examples/s]Map:  12%|█▏        | 14000/120000 [00:01<00:12, 8473.32 examples/s]Map:  12%|█▎        | 15000/120000 [00:01<00:12, 8518.88 examples/s]Map:  13%|█▎        | 16000/120000 [00:01<00:12, 8574.05 examples/s]Map:  14%|█▍        | 17000/120000 [00:02<00:12, 8539.89 examples/s]Map:  15%|█▌        | 18000/120000 [00:02<00:11, 8573.99 examples/s]Map:  16%|█▌        | 19000/120000 [00:02<00:12, 8217.88 examples/s]Map:  17%|█▋        | 20000/120000 [00:02<00:15, 6538.43 examples/s]Map:  18%|█▊        | 21000/120000 [00:02<00:14, 7046.35 examples/s]Map:  18%|█▊        | 22000/120000 [00:02<00:13, 7425.41 examples/s]Map:  19%|█▉        | 23000/120000 [00:02<00:12, 7794.01 examples/s]Map:  20%|██        | 24000/120000 [00:03<00:11, 8047.72 examples/s]Map:  21%|██        | 25000/120000 [00:03<00:11, 8394.60 examples/s]Map:  22%|██▏       | 26000/120000 [00:03<00:10, 8644.39 examples/s]Map:  22%|██▎       | 27000/120000 [00:03<00:10, 8839.09 examples/s]Map:  23%|██▎       | 28000/120000 [00:03<00:10, 8956.30 examples/s]Map:  24%|██▍       | 29000/120000 [00:03<00:10, 9029.08 examples/s]Map:  25%|██▌       | 30000/120000 [00:03<00:09, 9115.10 examples/s]Map:  26%|██▌       | 31000/120000 [00:03<00:09, 9143.11 examples/s]Map:  27%|██▋       | 32000/120000 [00:03<00:09, 9160.89 examples/s]Map:  28%|██▊       | 33000/120000 [00:04<00:09, 9167.86 examples/s]Map:  28%|██▊       | 34000/120000 [00:04<00:09, 9210.85 examples/s]Map:  29%|██▉       | 35000/120000 [00:04<00:09, 9258.40 examples/s]Map:  30%|███       | 36000/120000 [00:04<00:09, 9278.37 examples/s]Map:  31%|███       | 37000/120000 [00:04<00:08, 9308.96 examples/s]Map:  32%|███▏      | 38000/120000 [00:04<00:12, 6787.70 examples/s]Map:  32%|███▎      | 39000/120000 [00:04<00:11, 7326.38 examples/s]Map:  33%|███▎      | 40000/120000 [00:04<00:10, 7821.15 examples/s]Map:  34%|███▍      | 41000/120000 [00:05<00:09, 8192.01 examples/s]Map:  35%|███▌      | 42000/120000 [00:05<00:09, 8486.00 examples/s]Map:  36%|███▌      | 43000/120000 [00:05<00:08, 8712.18 examples/s]Map:  37%|███▋      | 44000/120000 [00:05<00:08, 8834.70 examples/s]Map:  38%|███▊      | 45000/120000 [00:05<00:08, 8951.63 examples/s]Map:  38%|███▊      | 46000/120000 [00:05<00:08, 8916.80 examples/s]Map:  39%|███▉      | 47000/120000 [00:05<00:08, 9011.11 examples/s]Map:  40%|████      | 48000/120000 [00:05<00:07, 9101.60 examples/s]Map:  41%|████      | 49000/120000 [00:05<00:07, 9139.73 examples/s]Map:  42%|████▏     | 50000/120000 [00:05<00:07, 9158.34 examples/s]Map:  42%|████▎     | 51000/120000 [00:06<00:07, 8977.32 examples/s]Map:  43%|████▎     | 52000/120000 [00:06<00:07, 8848.37 examples/s]Map:  44%|████▍     | 53000/120000 [00:06<00:07, 8800.34 examples/s]Map:  45%|████▌     | 54000/120000 [00:06<00:07, 8744.28 examples/s]Map:  46%|████▌     | 55000/120000 [00:06<00:09, 6729.25 examples/s]Map:  47%|████▋     | 56000/120000 [00:06<00:08, 7164.52 examples/s]Map:  48%|████▊     | 57000/120000 [00:06<00:08, 7528.32 examples/s]Map:  48%|████▊     | 58000/120000 [00:07<00:07, 7790.15 examples/s]Map:  49%|████▉     | 59000/120000 [00:07<00:07, 8016.00 examples/s]Map:  50%|█████     | 60000/120000 [00:07<00:07, 8181.85 examples/s]Map:  51%|█████     | 61000/120000 [00:07<00:07, 8314.12 examples/s]Map:  52%|█████▏    | 62000/120000 [00:07<00:06, 8404.89 examples/s]Map:  52%|█████▎    | 63000/120000 [00:07<00:06, 8385.50 examples/s]Map:  53%|█████▎    | 64000/120000 [00:07<00:06, 8432.98 examples/s]Map:  54%|█████▍    | 65000/120000 [00:07<00:06, 8461.58 examples/s]Map:  55%|█████▌    | 66000/120000 [00:07<00:06, 8485.19 examples/s]Map:  56%|█████▌    | 67000/120000 [00:08<00:06, 8464.46 examples/s]Map:  57%|█████▋    | 68000/120000 [00:08<00:06, 8474.05 examples/s]Map:  57%|█████▊    | 69000/120000 [00:08<00:06, 8475.36 examples/s]Map:  58%|█████▊    | 70000/120000 [00:08<00:05, 8525.68 examples/s]Map:  59%|█████▉    | 71000/120000 [00:08<00:05, 8583.94 examples/s]Map:  60%|██████    | 72000/120000 [00:08<00:05, 8580.77 examples/s]Map:  61%|██████    | 73000/120000 [00:08<00:06, 6779.44 examples/s]Map:  62%|██████▏   | 74000/120000 [00:09<00:06, 7359.61 examples/s]Map:  62%|██████▎   | 75000/120000 [00:09<00:06, 6811.04 examples/s]Map:  63%|██████▎   | 76000/120000 [00:09<00:05, 7394.21 examples/s]Map:  64%|██████▍   | 77000/120000 [00:09<00:05, 7847.39 examples/s]Map:  65%|██████▌   | 78000/120000 [00:09<00:05, 8163.80 examples/s]Map:  66%|██████▌   | 79000/120000 [00:09<00:04, 8410.40 examples/s]Map:  67%|██████▋   | 80000/120000 [00:09<00:04, 8626.22 examples/s]Map:  68%|██████▊   | 81000/120000 [00:09<00:04, 8716.82 examples/s]Map:  68%|██████▊   | 82000/120000 [00:09<00:04, 8908.19 examples/s]Map:  69%|██████▉   | 83000/120000 [00:10<00:04, 9021.17 examples/s]Map:  70%|███████   | 84000/120000 [00:10<00:03, 9052.15 examples/s]Map:  71%|███████   | 85000/120000 [00:10<00:03, 9129.42 examples/s]Map:  72%|███████▏  | 86000/120000 [00:10<00:03, 9144.31 examples/s]Map:  72%|███████▎  | 87000/120000 [00:10<00:03, 9175.91 examples/s]Map:  73%|███████▎  | 88000/120000 [00:10<00:03, 9203.87 examples/s]Map:  74%|███████▍  | 89000/120000 [00:10<00:03, 9208.52 examples/s]Map:  75%|███████▌  | 90000/120000 [00:10<00:04, 7162.42 examples/s]Map:  76%|███████▌  | 91000/120000 [00:11<00:03, 7669.08 examples/s]Map:  77%|███████▋  | 92000/120000 [00:11<00:03, 8074.56 examples/s]Map:  78%|███████▊  | 93000/120000 [00:11<00:03, 8388.38 examples/s]Map:  78%|███████▊  | 94000/120000 [00:11<00:03, 8639.72 examples/s]Map:  79%|███████▉  | 95000/120000 [00:11<00:02, 8884.81 examples/s]Map:  80%|████████  | 96000/120000 [00:11<00:02, 8984.54 examples/s]Map:  81%|████████  | 97000/120000 [00:11<00:02, 9048.63 examples/s]Map:  82%|████████▏ | 98000/120000 [00:11<00:02, 9097.66 examples/s]Map:  82%|████████▎ | 99000/120000 [00:11<00:02, 9173.39 examples/s]Map:  83%|████████▎ | 100000/120000 [00:11<00:02, 9187.31 examples/s]Map:  84%|████████▍ | 101000/120000 [00:12<00:02, 9121.82 examples/s]Map:  85%|████████▌ | 102000/120000 [00:12<00:01, 9181.71 examples/s]Map:  86%|████████▌ | 103000/120000 [00:12<00:01, 9125.37 examples/s]Map:  87%|████████▋ | 104000/120000 [00:12<00:01, 9100.41 examples/s]Map:  88%|████████▊ | 105000/120000 [00:12<00:01, 8964.51 examples/s]Map:  88%|████████▊ | 106000/120000 [00:12<00:01, 8867.54 examples/s]Map:  89%|████████▉ | 107000/120000 [00:12<00:01, 8836.33 examples/s]Map:  90%|█████████ | 108000/120000 [00:12<00:01, 6856.02 examples/s]Map:  91%|█████████ | 109000/120000 [00:13<00:01, 7339.23 examples/s]Map:  92%|█████████▏| 110000/120000 [00:13<00:01, 7688.80 examples/s]Map:  92%|█████████▎| 111000/120000 [00:13<00:01, 8100.26 examples/s]Map:  93%|█████████▎| 112000/120000 [00:13<00:00, 8394.96 examples/s]Map:  94%|█████████▍| 113000/120000 [00:13<00:00, 8586.66 examples/s]Map:  95%|█████████▌| 114000/120000 [00:13<00:00, 8751.32 examples/s]Map:  96%|█████████▌| 115000/120000 [00:13<00:00, 8846.79 examples/s]Map:  97%|█████████▋| 116000/120000 [00:13<00:00, 8954.20 examples/s]Map:  98%|█████████▊| 117000/120000 [00:13<00:00, 9074.91 examples/s]Map:  98%|█████████▊| 118000/120000 [00:14<00:00, 9136.67 examples/s]Map:  99%|█████████▉| 119000/120000 [00:14<00:00, 9117.59 examples/s]Map: 100%|██████████| 120000/120000 [00:14<00:00, 9130.32 examples/s]Map: 100%|██████████| 120000/120000 [00:14<00:00, 8379.25 examples/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:215: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Calculating uncertainties for 17600 test samples before training (counterfactual mode: constant)...
+Processing test sample 1/17600 (before training)
+Processing test sample 2/17600 (before training)
+Processing test sample 3/17600 (before training)
+Processing test sample 4/17600 (before training)
+Processing test sample 5/17600 (before training)
+Processing test sample 6/17600 (before training)
+Processing test sample 7/17600 (before training)
+Processing test sample 8/17600 (before training)
+Processing test sample 9/17600 (before training)
+Processing test sample 10/17600 (before training)
+Processing test sample 11/17600 (before training)
+Processing test sample 12/17600 (before training)
+Processing test sample 13/17600 (before training)
+Processing test sample 14/17600 (before training)
+Processing test sample 15/17600 (before training)
+Processing test sample 16/17600 (before training)
+Processing test sample 17/17600 (before training)
+Processing test sample 18/17600 (before training)
+Processing test sample 19/17600 (before training)
+Processing test sample 20/17600 (before training)
+Processing test sample 21/17600 (before training)
+Processing test sample 22/17600 (before training)
+Processing test sample 23/17600 (before training)
+Processing test sample 24/17600 (before training)
+Processing test sample 25/17600 (before training)
+Processing test sample 26/17600 (before training)
+Processing test sample 27/17600 (before training)
+Processing test sample 28/17600 (before training)
+Processing test sample 29/17600 (before training)
+Processing test sample 30/17600 (before training)
+Processing test sample 31/17600 (before training)
+Processing test sample 32/17600 (before training)
+Processing test sample 33/17600 (before training)
+Processing test sample 34/17600 (before training)
+Processing test sample 35/17600 (before training)
+Processing test sample 36/17600 (before training)
+Processing test sample 37/17600 (before training)
+Processing test sample 38/17600 (before training)
+Processing test sample 39/17600 (before training)
+Processing test sample 40/17600 (before training)
+Processing test sample 41/17600 (before training)
+Processing test sample 42/17600 (before training)
+Processing test sample 43/17600 (before training)
+Processing test sample 44/17600 (before training)
+Processing test sample 45/17600 (before training)
+Processing test sample 46/17600 (before training)
+Processing test sample 47/17600 (before training)
+Processing test sample 48/17600 (before training)
+Processing test sample 49/17600 (before training)
+Processing test sample 50/17600 (before training)
+Processing test sample 51/17600 (before training)
+Processing test sample 52/17600 (before training)
+Processing test sample 53/17600 (before training)
+Processing test sample 54/17600 (before training)
+Processing test sample 55/17600 (before training)
+Processing test sample 56/17600 (before training)
+Processing test sample 57/17600 (before training)
+Processing test sample 58/17600 (before training)
+Processing test sample 59/17600 (before training)
+Processing test sample 60/17600 (before training)
+Processing test sample 61/17600 (before training)
+Processing test sample 62/17600 (before training)
+Processing test sample 63/17600 (before training)
+Processing test sample 64/17600 (before training)
+Processing test sample 65/17600 (before training)
+Processing test sample 66/17600 (before training)
+Processing test sample 67/17600 (before training)
+Processing test sample 68/17600 (before training)
+Processing test sample 69/17600 (before training)
+Processing test sample 70/17600 (before training)
+Processing test sample 71/17600 (before training)
+Processing test sample 72/17600 (before training)
+Processing test sample 73/17600 (before training)
+Processing test sample 74/17600 (before training)
+Processing test sample 75/17600 (before training)
+Processing test sample 76/17600 (before training)
+Processing test sample 77/17600 (before training)
+Processing test sample 78/17600 (before training)
+Processing test sample 79/17600 (before training)
+Processing test sample 80/17600 (before training)
+Processing test sample 81/17600 (before training)
+Processing test sample 82/17600 (before training)
+Processing test sample 83/17600 (before training)
+Processing test sample 84/17600 (before training)
+Processing test sample 85/17600 (before training)
+Processing test sample 86/17600 (before training)
+Processing test sample 87/17600 (before training)
+Processing test sample 88/17600 (before training)
+Processing test sample 89/17600 (before training)
+Processing test sample 90/17600 (before training)
+Processing test sample 91/17600 (before training)
+Processing test sample 92/17600 (before training)
+Processing test sample 93/17600 (before training)
+Processing test sample 94/17600 (before training)
+Processing test sample 95/17600 (before training)
+Processing test sample 96/17600 (before training)
+Processing test sample 97/17600 (before training)
+Processing test sample 98/17600 (before training)
+Processing test sample 99/17600 (before training)
+Processing test sample 100/17600 (before training)
+Processing test sample 101/17600 (before training)
+Processing test sample 102/17600 (before training)
+Processing test sample 103/17600 (before training)
+Processing test sample 104/17600 (before training)
+Processing test sample 105/17600 (before training)
+Processing test sample 106/17600 (before training)
+Processing test sample 107/17600 (before training)
+Processing test sample 108/17600 (before training)
+Processing test sample 109/17600 (before training)
+Processing test sample 110/17600 (before training)
+Processing test sample 111/17600 (before training)
+Processing test sample 112/17600 (before training)
+Processing test sample 113/17600 (before training)
+Processing test sample 114/17600 (before training)
+Processing test sample 115/17600 (before training)
+Processing test sample 116/17600 (before training)
+Processing test sample 117/17600 (before training)
+Processing test sample 118/17600 (before training)
+Processing test sample 119/17600 (before training)
+Processing test sample 120/17600 (before training)
+Processing test sample 121/17600 (before training)
+Processing test sample 122/17600 (before training)
+Processing test sample 123/17600 (before training)
+Processing test sample 124/17600 (before training)
+Processing test sample 125/17600 (before training)
+Processing test sample 126/17600 (before training)
+Processing test sample 127/17600 (before training)
+Processing test sample 128/17600 (before training)
+Processing test sample 129/17600 (before training)
+Processing test sample 130/17600 (before training)
+Processing test sample 131/17600 (before training)
+Processing test sample 132/17600 (before training)
+Processing test sample 133/17600 (before training)
+Processing test sample 134/17600 (before training)
+Processing test sample 135/17600 (before training)
+Processing test sample 136/17600 (before training)
+Processing test sample 137/17600 (before training)
+Processing test sample 138/17600 (before training)
+Processing test sample 139/17600 (before training)
+Processing test sample 140/17600 (before training)
+Processing test sample 141/17600 (before training)
+Processing test sample 142/17600 (before training)
+Processing test sample 143/17600 (before training)
+Processing test sample 144/17600 (before training)
+Processing test sample 145/17600 (before training)
+Processing test sample 146/17600 (before training)
+Processing test sample 147/17600 (before training)
+Processing test sample 148/17600 (before training)
+Processing test sample 149/17600 (before training)
+Processing test sample 150/17600 (before training)
+Processing test sample 151/17600 (before training)
+Processing test sample 152/17600 (before training)
+Processing test sample 153/17600 (before training)
+Processing test sample 154/17600 (before training)
+Processing test sample 155/17600 (before training)
+Processing test sample 156/17600 (before training)
+Processing test sample 157/17600 (before training)
+Processing test sample 158/17600 (before training)
+Processing test sample 159/17600 (before training)
+Processing test sample 160/17600 (before training)
+Processing test sample 161/17600 (before training)
+Processing test sample 162/17600 (before training)
+Processing test sample 163/17600 (before training)
+Processing test sample 164/17600 (before training)
+Processing test sample 165/17600 (before training)
+Processing test sample 166/17600 (before training)
+Processing test sample 167/17600 (before training)
+Processing test sample 168/17600 (before training)
+Processing test sample 169/17600 (before training)
+Processing test sample 170/17600 (before training)
+Processing test sample 171/17600 (before training)
+Processing test sample 172/17600 (before training)
+Processing test sample 173/17600 (before training)
+Processing test sample 174/17600 (before training)
+Processing test sample 175/17600 (before training)
+Processing test sample 176/17600 (before training)
+Processing test sample 177/17600 (before training)
+Processing test sample 178/17600 (before training)
+Processing test sample 179/17600 (before training)
+Processing test sample 180/17600 (before training)
+Processing test sample 181/17600 (before training)
+Processing test sample 182/17600 (before training)
+Processing test sample 183/17600 (before training)
+Processing test sample 184/17600 (before training)
+Processing test sample 185/17600 (before training)
+Processing test sample 186/17600 (before training)
+Processing test sample 187/17600 (before training)
+Processing test sample 188/17600 (before training)
+Processing test sample 189/17600 (before training)
+Processing test sample 190/17600 (before training)
+Processing test sample 191/17600 (before training)
+Processing test sample 192/17600 (before training)
+Processing test sample 193/17600 (before training)
+Processing test sample 194/17600 (before training)
+Processing test sample 195/17600 (before training)
+Processing test sample 196/17600 (before training)
+Processing test sample 197/17600 (before training)
+Processing test sample 198/17600 (before training)
+Processing test sample 199/17600 (before training)
+Processing test sample 200/17600 (before training)
+Processing test sample 201/17600 (before training)
+Processing test sample 202/17600 (before training)
+Processing test sample 203/17600 (before training)
