@@ -1,21 +1,23 @@
-slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
-slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Running job with commit: 1928fcb0e252c89cd92ad11f8d43ca0db3659657
-Running command: python -um scripts.bert "719261" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --dataset "mmlu" --model "electra"
-Job number: 719261
+slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus12: error: Setting TMPDIR to /tmp
+Running job with commit: cc36b6d4b7dbee6f85fb6cbb45391e45d4709218
+Running command: python -um scripts.bert "719263" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --dataset "mmlu" --model "albert"
+Job number: 719263
 Key mode: keyfile
 Sample size: 0
 Normalize: False
 Counterfactual: identity
 Dataset: mmlu
-Model: electra
+Model: albert
 Using full train dataset with 11 samples.
 Using full test dataset with 322 samples.
-Loading model: google/electra-base-discriminator
-Some weights of ElectraForMaskedLM were not initialized from the model checkpoint at google/electra-base-discriminator and are newly initialized: ['generator_lm_head.bias', 'generator_predictions.LayerNorm.bias', 'generator_predictions.LayerNorm.weight', 'generator_predictions.dense.bias', 'generator_predictions.dense.weight']
-You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Loading model: albert-base-v2
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Some weights of the model checkpoint at albert-base-v2 were not used when initializing AlbertForMaskedLM: ['albert.pooler.bias', 'albert.pooler.weight']
+- This IS expected if you are initializing AlbertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing AlbertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
 Using device: cuda
-Map:   0%|          | 0/11 [00:00<?, ? examples/s]Map: 100%|██████████| 11/11 [00:00<00:00, 1405.51 examples/s]
+Map:   0%|          | 0/11 [00:00<?, ? examples/s]Map: 100%|██████████| 11/11 [00:00<00:00, 729.55 examples/s]
 huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
 To disable this warning, you can either:
 	- Avoid using `tokenizers` before the fork if possible
@@ -346,8 +348,8 @@ Processing test sample 320/322 (before training)
 Processing test sample 321/322 (before training)
 Processing test sample 322/322 (before training)
 Training model...
-  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  5.52it/s]100%|██████████| 3/3 [00:00<00:00, 11.04it/s]                                             {'train_runtime': 0.301, 'train_samples_per_second': 109.621, 'train_steps_per_second': 9.966, 'train_loss': 11.520516713460287, 'epoch': 3.0}
-100%|██████████| 3/3 [00:00<00:00, 11.04it/s]100%|██████████| 3/3 [00:00<00:00, 10.01it/s]
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  3.82it/s]100%|██████████| 3/3 [00:00<00:00,  9.08it/s]                                             {'train_runtime': 0.3769, 'train_samples_per_second': 87.566, 'train_steps_per_second': 7.961, 'train_loss': 13.854375203450521, 'epoch': 3.0}
+100%|██████████| 3/3 [00:00<00:00,  9.08it/s]100%|██████████| 3/3 [00:00<00:00,  7.97it/s]
 Calculating uncertainties for 322 test samples after training (counterfactual mode: identity)...
 Processing test sample 1/322 (after training)
 Processing test sample 2/322 (after training)
@@ -581,101 +583,3 @@ Processing test sample 229/322 (after training)
 Processing test sample 230/322 (after training)
 Processing test sample 231/322 (after training)
 Processing test sample 232/322 (after training)
-Processing test sample 233/322 (after training)
-Processing test sample 234/322 (after training)
-Processing test sample 235/322 (after training)
-Processing test sample 236/322 (after training)
-Processing test sample 237/322 (after training)
-Processing test sample 238/322 (after training)
-Processing test sample 239/322 (after training)
-Processing test sample 240/322 (after training)
-Processing test sample 241/322 (after training)
-Processing test sample 242/322 (after training)
-Processing test sample 243/322 (after training)
-Processing test sample 244/322 (after training)
-Processing test sample 245/322 (after training)
-Processing test sample 246/322 (after training)
-Processing test sample 247/322 (after training)
-Processing test sample 248/322 (after training)
-Processing test sample 249/322 (after training)
-Processing test sample 250/322 (after training)
-Processing test sample 251/322 (after training)
-Processing test sample 252/322 (after training)
-Processing test sample 253/322 (after training)
-Processing test sample 254/322 (after training)
-Processing test sample 255/322 (after training)
-Processing test sample 256/322 (after training)
-Processing test sample 257/322 (after training)
-Processing test sample 258/322 (after training)
-Processing test sample 259/322 (after training)
-Processing test sample 260/322 (after training)
-Processing test sample 261/322 (after training)
-Processing test sample 262/322 (after training)
-Processing test sample 263/322 (after training)
-Processing test sample 264/322 (after training)
-Processing test sample 265/322 (after training)
-Processing test sample 266/322 (after training)
-Processing test sample 267/322 (after training)
-Processing test sample 268/322 (after training)
-Processing test sample 269/322 (after training)
-Processing test sample 270/322 (after training)
-Processing test sample 271/322 (after training)
-Processing test sample 272/322 (after training)
-Processing test sample 273/322 (after training)
-Processing test sample 274/322 (after training)
-Processing test sample 275/322 (after training)
-Processing test sample 276/322 (after training)
-Processing test sample 277/322 (after training)
-Processing test sample 278/322 (after training)
-Processing test sample 279/322 (after training)
-Processing test sample 280/322 (after training)
-Processing test sample 281/322 (after training)
-Processing test sample 282/322 (after training)
-Processing test sample 283/322 (after training)
-Processing test sample 284/322 (after training)
-Processing test sample 285/322 (after training)
-Processing test sample 286/322 (after training)
-Processing test sample 287/322 (after training)
-Processing test sample 288/322 (after training)
-Processing test sample 289/322 (after training)
-Processing test sample 290/322 (after training)
-Processing test sample 291/322 (after training)
-Processing test sample 292/322 (after training)
-Processing test sample 293/322 (after training)
-Processing test sample 294/322 (after training)
-Processing test sample 295/322 (after training)
-Processing test sample 296/322 (after training)
-Processing test sample 297/322 (after training)
-Processing test sample 298/322 (after training)
-Processing test sample 299/322 (after training)
-Processing test sample 300/322 (after training)
-Processing test sample 301/322 (after training)
-Processing test sample 302/322 (after training)
-Processing test sample 303/322 (after training)
-Processing test sample 304/322 (after training)
-Processing test sample 305/322 (after training)
-Processing test sample 306/322 (after training)
-Processing test sample 307/322 (after training)
-Processing test sample 308/322 (after training)
-Processing test sample 309/322 (after training)
-Processing test sample 310/322 (after training)
-Processing test sample 311/322 (after training)
-Processing test sample 312/322 (after training)
-Processing test sample 313/322 (after training)
-Processing test sample 314/322 (after training)
-Processing test sample 315/322 (after training)
-Processing test sample 316/322 (after training)
-Processing test sample 317/322 (after training)
-Processing test sample 318/322 (after training)
-Processing test sample 319/322 (after training)
-Processing test sample 320/322 (after training)
-Processing test sample 321/322 (after training)
-Processing test sample 322/322 (after training)
-
-Processing complete. Saved 322 results. Failed: 0
-[main cc36b6d] BERT Script Results for Run 719261 (Model: electra, Dataset: mmlu, Commit: 1928fcb)
- 3 files changed, 681 insertions(+)
- create mode 100644 data/full/electra_results_719261_ds-mmlu.pkl
- create mode 100644 slurm-outputs/slurm.719261.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   1928fcb..cc36b6d  main -> main
