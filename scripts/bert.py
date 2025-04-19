@@ -302,7 +302,7 @@ if __name__ == "__main__":
         "--dataset",
         type=str,
         default="ag_news",
-        choices=["ag_news", "ag-pubmed"],
+        choices=["ag_news", "ag-pubmed", "mmlu"],
         help="Which dataset to use for training and testing (default: ag_news)",
     )
 
