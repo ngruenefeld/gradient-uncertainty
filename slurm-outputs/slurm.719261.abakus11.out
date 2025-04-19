@@ -1,41 +1,26 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Running job with commit: fe462380051fa25a3cb550d5db77e8d0a92a976b
-Running command: python -um scripts.bert "719254" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --dataset "mmlu"
-Job number: 719254
+Running job with commit: 1928fcb0e252c89cd92ad11f8d43ca0db3659657
+Running command: python -um scripts.bert "719261" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --dataset "mmlu" --model "electra"
+Job number: 719261
 Key mode: keyfile
 Sample size: 0
 Normalize: False
 Counterfactual: identity
 Dataset: mmlu
-Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-Generating test split:   0%|          | 0/100 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 100/100 [00:00<00:00, 832.00 examples/s]Generating test split: 100%|██████████| 100/100 [00:00<00:00, 743.60 examples/s]
-Generating validation split:   0%|          | 0/11 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 11/11 [00:00<00:00, 2383.99 examples/s]
-Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 1528.43 examples/s]
-Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-Generating test split:   0%|          | 0/311 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 311/311 [00:00<00:00, 54722.85 examples/s]
-Generating validation split:   0%|          | 0/34 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 34/34 [00:00<00:00, 14109.66 examples/s]
-Generating dev split:   0%|          | 0/5 [00:00<?, ? examples/s]Generating dev split: 100%|██████████| 5/5 [00:00<00:00, 2273.83 examples/s]
+Model: electra
 Using full train dataset with 11 samples.
 Using full test dataset with 322 samples.
-BertForMaskedLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
-  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
-  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
-  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
-Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForMaskedLM: ['bert.pooler.dense.bias', 'bert.pooler.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
-- This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
-- This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Loading model: google/electra-base-discriminator
+Some weights of ElectraForMaskedLM were not initialized from the model checkpoint at google/electra-base-discriminator and are newly initialized: ['generator_lm_head.bias', 'generator_predictions.LayerNorm.bias', 'generator_predictions.LayerNorm.weight', 'generator_predictions.dense.bias', 'generator_predictions.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
 Using device: cuda
-Map:   0%|          | 0/11 [00:00<?, ? examples/s]Map: 100%|██████████| 11/11 [00:00<00:00, 1471.50 examples/s]
+Map:   0%|          | 0/11 [00:00<?, ? examples/s]Map: 100%|██████████| 11/11 [00:00<00:00, 1405.51 examples/s]
 huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
 To disable this warning, you can either:
 	- Avoid using `tokenizers` before the fork if possible
 	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:198: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:215: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
   trainer = Trainer(
 Calculating uncertainties for 322 test samples before training (counterfactual mode: identity)...
 Processing test sample 1/322 (before training)
@@ -361,8 +346,8 @@ Processing test sample 320/322 (before training)
 Processing test sample 321/322 (before training)
 Processing test sample 322/322 (before training)
 Training model...
-  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  5.60it/s] 67%|██████▋   | 2/3 [00:00<00:00,  7.29it/s]                                             {'train_runtime': 0.3558, 'train_samples_per_second': 92.74, 'train_steps_per_second': 8.431, 'train_loss': 4.075955073038737, 'epoch': 3.0}
-100%|██████████| 3/3 [00:00<00:00,  7.29it/s]100%|██████████| 3/3 [00:00<00:00,  8.45it/s]
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:00<00:00,  5.52it/s]100%|██████████| 3/3 [00:00<00:00, 11.04it/s]                                             {'train_runtime': 0.301, 'train_samples_per_second': 109.621, 'train_steps_per_second': 9.966, 'train_loss': 11.520516713460287, 'epoch': 3.0}
+100%|██████████| 3/3 [00:00<00:00, 11.04it/s]100%|██████████| 3/3 [00:00<00:00, 10.01it/s]
 Calculating uncertainties for 322 test samples after training (counterfactual mode: identity)...
 Processing test sample 1/322 (after training)
 Processing test sample 2/322 (after training)
@@ -688,9 +673,3 @@ Processing test sample 321/322 (after training)
 Processing test sample 322/322 (after training)
 
 Processing complete. Saved 322 results. Failed: 0
-[main 780359d] BERT Script Results for Run 719254 (Commit: fe46238)
- 3 files changed, 696 insertions(+)
- create mode 100644 data/full/bert_results_719254_ds-mmlu.pkl
- create mode 100644 slurm-outputs/slurm.719254.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   fe46238..780359d  main -> main
