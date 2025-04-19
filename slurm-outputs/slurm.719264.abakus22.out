@@ -672,3 +672,11 @@ Processing test sample 321/322 (after training)
 Processing test sample 322/322 (after training)
 
 Processing complete. Saved 322 results. Failed: 0
+[main 131e4e9] BERT Script Results for Run 719264 (Model: distilbert, Dataset: mmlu, Commit: cc36b6d)
+ 5 files changed, 1768 insertions(+)
+ create mode 100644 data/full/distilbert_results_719264_ds-mmlu.pkl
+ create mode 100644 slurm-outputs/slurm.719262.abakus11.out
+ create mode 100644 slurm-outputs/slurm.719263.abakus12.out
+ create mode 100644 slurm-outputs/slurm.719264.abakus22.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   cc36b6d..131e4e9  main -> main
