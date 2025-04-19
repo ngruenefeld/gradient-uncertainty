@@ -675,3 +675,8 @@ Processing test sample 321/322 (after training)
 Processing test sample 322/322 (after training)
 
 Processing complete. Saved 322 results. Failed: 0
+[main e46174c] BERT Script Results for Run 719263 (Model: albert, Dataset: mmlu, Commit: cc36b6d)
+ 4 files changed, 191 insertions(+)
+ create mode 100644 data/full/albert_results_719263_ds-mmlu.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   131e4e9..e46174c  main -> main
