@@ -307,17 +307,21 @@ def load_bert_datasets(choice="ag_news"):
         scienceqa_train_data, scienceqa_test_data = load_bert_dataset_dicts("scienceqa")
         legalqa_data = load_bert_dataset_dicts("legalqa")
 
-        indices_to_remove = {
+        train_indices_to_remove = {
             i for i, v in enumerate(scienceqa_train_data["label"]) if v != "chemistry"
         }
 
         filtered_train_data = {
-            key: [v for i, v in enumerate(vals) if i not in indices_to_remove]
+            key: [v for i, v in enumerate(vals) if i not in train_indices_to_remove]
             for key, vals in scienceqa_train_data.items()
         }
 
+        test_indices_to_remove = {
+            i for i, v in enumerate(scienceqa_train_data["label"]) if v != "chemistry"
+        }
+
         filtered_test_data = {
-            key: [v for i, v in enumerate(vals) if i not in indices_to_remove]
+            key: [v for i, v in enumerate(vals) if i not in test_indices_to_remove]
             for key, vals in scienceqa_test_data.items()
         }
 
