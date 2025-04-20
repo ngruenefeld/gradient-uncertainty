@@ -1,15 +1,14 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Running job with commit: decc99b90165540a2bcf274493cd551d455b8501
-Running command: python -um scripts.bert "719332" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --dataset "scienceqa-legalqa"
-Job number: 719332
+Running job with commit: af8d84c688d79bbce3740ea55f8635e1e2d5693f
+Running command: python -um scripts.bert "719333" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --dataset "scienceqa-legalqa"
+Job number: 719333
 Key mode: keyfile
 Sample size: 0
 Normalize: False
 Counterfactual: identity
 Dataset: scienceqa-legalqa
 Model: bert
-Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 1647 examples [00:00, 12286.27 examples/s]Generating train split: 2124 examples [00:00, 7275.30 examples/s] 
 Traceback (most recent call last):
   File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
     return _run_code(code, main_globals, None,
@@ -22,10 +21,7 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 308, in load_bert_datasets
     legalqa_data = load_bert_dataset_dicts("legalqa")
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 257, in load_bert_dataset_dicts
-    "text": dataset_test["text"],
-UnboundLocalError: local variable 'dataset_test' referenced before assignment
-[main 2c784b0] BERT Script Results for Run 719332 (Model: bert, Dataset: scienceqa-legalqa, Commit: decc99b)
- 2 files changed, 31 insertions(+)
- create mode 100644 slurm-outputs/slurm.719332.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   decc99b..2c784b0  main -> main
+    "text": dataset["text"],
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/dataset_dict.py", line 72, in __getitem__
+    return super().__getitem__(k)
+KeyError: 'text'
