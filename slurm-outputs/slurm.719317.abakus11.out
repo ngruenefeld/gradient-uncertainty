@@ -1,0 +1,63 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Unknown option: sample_size=100
+Unknown option: test_sample_size=100
+Running job with commit: 7fc28bd6da83f8cde3ee0a89592b5e027d1006f1
+Running command: python -um scripts.bert "719317" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --dataset "scienceqa"
+Job number: 719317
+Key mode: keyfile
+Sample size: 0
+Normalize: False
+Counterfactual: identity
+Dataset: scienceqa
+Model: bert
+Generating train split:   0%|          | 0/12726 [00:00<?, ? examples/s]Generating train split:   8%|▊         | 1000/12726 [00:00<00:04, 2370.74 examples/s]Generating train split:  16%|█▌        | 2000/12726 [00:00<00:03, 2753.10 examples/s]Generating train split:  24%|██▎       | 3000/12726 [00:01<00:03, 2951.46 examples/s]Generating train split:  31%|███▏      | 4000/12726 [00:01<00:02, 2980.91 examples/s]Generating train split:  39%|███▉      | 5000/12726 [00:01<00:02, 3087.86 examples/s]Generating train split:  47%|████▋     | 6000/12726 [00:01<00:02, 3280.73 examples/s]Generating train split:  55%|█████▌    | 7000/12726 [00:02<00:01, 3042.35 examples/s]Generating train split:  63%|██████▎   | 8000/12726 [00:02<00:01, 3104.48 examples/s]Generating train split:  71%|███████   | 9000/12726 [00:02<00:01, 3141.99 examples/s]Generating train split:  79%|███████▊  | 10000/12726 [00:03<00:00, 3034.74 examples/s]Generating train split:  86%|████████▋ | 11000/12726 [00:03<00:00, 2896.13 examples/s]Generating train split:  94%|█████████▍| 12000/12726 [00:04<00:00, 2901.62 examples/s]Generating train split: 100%|██████████| 12726/12726 [00:04<00:00, 2904.61 examples/s]Generating train split: 100%|██████████| 12726/12726 [00:08<00:00, 1499.78 examples/s]
+Generating validation split:   0%|          | 0/4241 [00:00<?, ? examples/s]Generating validation split:  24%|██▎       | 1000/4241 [00:00<00:01, 2948.44 examples/s]Generating validation split:  47%|████▋     | 2000/4241 [00:00<00:00, 2974.48 examples/s]Generating validation split:  71%|███████   | 3000/4241 [00:00<00:00, 3074.03 examples/s]Generating validation split:  94%|█████████▍| 4000/4241 [00:01<00:00, 3240.99 examples/s]Generating validation split: 100%|██████████| 4241/4241 [00:03<00:00, 1098.21 examples/s]
+Generating test split:   0%|          | 0/4241 [00:00<?, ? examples/s]Generating test split:  24%|██▎       | 1000/4241 [00:00<00:01, 2884.92 examples/s]Generating test split:  47%|████▋     | 2000/4241 [00:00<00:00, 3099.27 examples/s]Generating test split:  71%|███████   | 3000/4241 [00:00<00:00, 3106.13 examples/s]Generating test split:  94%|█████████▍| 4000/4241 [00:01<00:00, 3197.16 examples/s]Generating test split: 100%|██████████| 4241/4241 [00:02<00:00, 1623.45 examples/s]
+Filter:   0%|          | 0/12726 [00:00<?, ? examples/s]Filter:   0%|          | 0/12726 [00:00<?, ? examples/s]Filter:   0%|          | 0/12726 [00:00<?, ? examples/s]
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 335, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 125, in main
+    train_dataset, test_dataset = load_bert_datasets(choice=dataset_choice)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 296, in load_bert_datasets
+    scienceqa_train_data, scienceqa_test_data = load_bert_dataset_dicts("scienceqa")
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 232, in load_bert_dataset_dicts
+    dataset_train = dataset["train"].filter(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/arrow_dataset.py", line 560, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/fingerprint.py", line 442, in wrapper
+    out = func(dataset, *args, **kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/arrow_dataset.py", line 3670, in filter
+    indices = self.map(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/arrow_dataset.py", line 560, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/arrow_dataset.py", line 3055, in map
+    for rank, done, content in Dataset._map_single(**dataset_kwargs):
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/arrow_dataset.py", line 3458, in _map_single
+    batch = apply_function_on_filtered_inputs(
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/arrow_dataset.py", line 3320, in apply_function_on_filtered_inputs
+    processed_inputs = function(*fn_args, *additional_args, **fn_kwargs)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/arrow_dataset.py", line 6301, in get_indices_from_mask_function
+    num_examples = len(batch[next(iter(batch.keys()))])
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/formatting/formatting.py", line 279, in __getitem__
+    value = self.format(key)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/formatting/formatting.py", line 382, in format
+    return self.formatter.format_column(self.pa_table.select([key]))
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/formatting/formatting.py", line 449, in format_column
+    column = self.python_features_decoder.decode_column(column, pa_table.column_names[0])
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/formatting/formatting.py", line 225, in decode_column
+    return self.features.decode_column(column, column_name) if self.features else column
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/features/features.py", line 2066, in decode_column
+    [decode_nested_example(self[column_name], value) if value is not None else None for value in column]
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/features/features.py", line 2066, in <listcomp>
+    [decode_nested_example(self[column_name], value) if value is not None else None for value in column]
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/features/features.py", line 1405, in decode_nested_example
+    return schema.decode_example(obj, token_per_repo_id=token_per_repo_id)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/features/image.py", line 158, in decode_example
+    raise ImportError("To support decoding images, please install 'Pillow'.")
+ImportError: To support decoding images, please install 'Pillow'.
