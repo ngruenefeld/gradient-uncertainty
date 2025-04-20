@@ -250,6 +250,17 @@ def load_bert_dataset_dicts(choice="ag_news"):
 
         return data_train, data_test
 
+    elif choice == "legalqa":
+        dataset = load_dataset("isaacus/open-australian-legal-qa")
+
+        data = {
+            "text": dataset_test["text"],
+            "origin": ["ScienceQA"] * len(dataset_test["text"]),
+            "label": ["Legal"] * len(dataset_test["text"]),
+        }
+
+        return data
+
     else:
         raise ValueError(f"Dataset {choice} not supported.")
 
@@ -292,8 +303,9 @@ def load_bert_datasets(choice="ag_news"):
 
         return Dataset.from_dict(cs_data_val), Dataset.from_dict(combined_test)
 
-    elif choice == "scienceqa":
+    elif choice == "scienceqa-legalqa":
         scienceqa_train_data, scienceqa_test_data = load_bert_dataset_dicts("scienceqa")
+        legalqa_data = load_bert_dataset_dicts("legalqa")
 
         indices_to_remove = {
             i for i, v in enumerate(scienceqa_train_data["label"]) if v != "chemistry"
@@ -304,9 +316,13 @@ def load_bert_datasets(choice="ag_news"):
             for key, vals in scienceqa_train_data.items()
         }
 
-        return Dataset.from_dict(filtered_train_data), Dataset.from_dict(
-            scienceqa_test_data
-        )
+        combined_test = {
+            "text": filtered_train_data["text"] + legalqa_data["text"],
+            "origin": filtered_train_data["origin"] + legalqa_data["origin"],
+            "label": filtered_train_data["label"] + legalqa_data["label"],
+        }
+
+        return Dataset.from_dict(filtered_train_data), Dataset.from_dict(combined_test)
 
     else:
         raise ValueError(f"Dataset {choice} not supported.")
