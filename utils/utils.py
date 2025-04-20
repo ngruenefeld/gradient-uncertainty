@@ -317,7 +317,7 @@ def load_bert_datasets(choice="ag_news"):
         }
 
         test_indices_to_remove = {
-            i for i, v in enumerate(scienceqa_train_data["label"]) if v != "chemistry"
+            i for i, v in enumerate(scienceqa_test_data["label"]) if v != "chemistry"
         }
 
         filtered_test_data = {
