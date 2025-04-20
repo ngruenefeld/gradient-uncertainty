@@ -1,0 +1,252 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 807986e92bae0e13d24b667837b4d4190039cc7e
+Running command: python -um scripts.bert "719319" --key_mode "keyfile" --sample_size "100" --test_sample_size "100" --dataset "scienceqa"
+Job number: 719319
+Key mode: keyfile
+Sample size: 100
+Normalize: False
+Counterfactual: identity
+Dataset: scienceqa
+Model: bert
+Using 100 randomly sampled examples from the train dataset.
+Using 100 randomly sampled examples from the test dataset.
+Loading model: bert-base-uncased
+BertForMaskedLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForMaskedLM: ['bert.pooler.dense.bias', 'bert.pooler.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device: cuda
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 3503.98 examples/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:215: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Calculating uncertainties for 100 test samples before training (counterfactual mode: identity)...
+Processing test sample 1/100 (before training)
+Processing test sample 2/100 (before training)
+Processing test sample 3/100 (before training)
+Processing test sample 4/100 (before training)
+Processing test sample 5/100 (before training)
+Processing test sample 6/100 (before training)
+Processing test sample 7/100 (before training)
+Processing test sample 8/100 (before training)
+Processing test sample 9/100 (before training)
+Processing test sample 10/100 (before training)
+Processing test sample 11/100 (before training)
+Processing test sample 12/100 (before training)
+Processing test sample 13/100 (before training)
+Processing test sample 14/100 (before training)
+Processing test sample 15/100 (before training)
+Processing test sample 16/100 (before training)
+Processing test sample 17/100 (before training)
+Processing test sample 18/100 (before training)
+Processing test sample 19/100 (before training)
+Processing test sample 20/100 (before training)
+Token indices sequence length is longer than the specified maximum sequence length for this model (564 > 512). Running this sequence through the model will result in indexing errors
+Error in bert_gradient: The size of tensor a (564) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 20 before training: 'dict' object has no attribute 'item'
+Processing test sample 21/100 (before training)
+Processing test sample 22/100 (before training)
+Processing test sample 23/100 (before training)
+Processing test sample 24/100 (before training)
+Processing test sample 25/100 (before training)
+Processing test sample 26/100 (before training)
+Processing test sample 27/100 (before training)
+Processing test sample 28/100 (before training)
+Processing test sample 29/100 (before training)
+Processing test sample 30/100 (before training)
+Processing test sample 31/100 (before training)
+Processing test sample 32/100 (before training)
+Processing test sample 33/100 (before training)
+Processing test sample 34/100 (before training)
+Processing test sample 35/100 (before training)
+Processing test sample 36/100 (before training)
+Processing test sample 37/100 (before training)
+Processing test sample 38/100 (before training)
+Processing test sample 39/100 (before training)
+Processing test sample 40/100 (before training)
+Processing test sample 41/100 (before training)
+Processing test sample 42/100 (before training)
+Processing test sample 43/100 (before training)
+Processing test sample 44/100 (before training)
+Processing test sample 45/100 (before training)
+Processing test sample 46/100 (before training)
+Processing test sample 47/100 (before training)
+Processing test sample 48/100 (before training)
+Processing test sample 49/100 (before training)
+Processing test sample 50/100 (before training)
+Processing test sample 51/100 (before training)
+Processing test sample 52/100 (before training)
+Processing test sample 53/100 (before training)
+Processing test sample 54/100 (before training)
+Processing test sample 55/100 (before training)
+Processing test sample 56/100 (before training)
+Processing test sample 57/100 (before training)
+Processing test sample 58/100 (before training)
+Processing test sample 59/100 (before training)
+Processing test sample 60/100 (before training)
+Processing test sample 61/100 (before training)
+Processing test sample 62/100 (before training)
+Processing test sample 63/100 (before training)
+Processing test sample 64/100 (before training)
+Processing test sample 65/100 (before training)
+Processing test sample 66/100 (before training)
+Processing test sample 67/100 (before training)
+Processing test sample 68/100 (before training)
+Processing test sample 69/100 (before training)
+Processing test sample 70/100 (before training)
+Processing test sample 71/100 (before training)
+Processing test sample 72/100 (before training)
+Processing test sample 73/100 (before training)
+Processing test sample 74/100 (before training)
+Processing test sample 75/100 (before training)
+Processing test sample 76/100 (before training)
+Processing test sample 77/100 (before training)
+Processing test sample 78/100 (before training)
+Processing test sample 79/100 (before training)
+Processing test sample 80/100 (before training)
+Processing test sample 81/100 (before training)
+Processing test sample 82/100 (before training)
+Error in bert_gradient: The size of tensor a (615) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 82 before training: 'dict' object has no attribute 'item'
+Processing test sample 83/100 (before training)
+Processing test sample 84/100 (before training)
+Processing test sample 85/100 (before training)
+Processing test sample 86/100 (before training)
+Processing test sample 87/100 (before training)
+Processing test sample 88/100 (before training)
+Processing test sample 89/100 (before training)
+Error in bert_gradient: The size of tensor a (615) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 89 before training: 'dict' object has no attribute 'item'
+Processing test sample 90/100 (before training)
+Processing test sample 91/100 (before training)
+Processing test sample 92/100 (before training)
+Processing test sample 93/100 (before training)
+Processing test sample 94/100 (before training)
+Processing test sample 95/100 (before training)
+Processing test sample 96/100 (before training)
+Processing test sample 97/100 (before training)
+Processing test sample 98/100 (before training)
+Processing test sample 99/100 (before training)
+Processing test sample 100/100 (before training)
+Training model...
+  0%|          | 0/21 [00:00<?, ?it/s]  5%|▍         | 1/21 [00:00<00:09,  2.22it/s] 14%|█▍        | 3/21 [00:00<00:03,  5.80it/s] 19%|█▉        | 4/21 [00:00<00:03,  5.51it/s] 29%|██▊       | 6/21 [00:00<00:01,  8.06it/s] 38%|███▊      | 8/21 [00:01<00:01, 10.12it/s] 48%|████▊     | 10/21 [00:01<00:00, 11.20it/s] 57%|█████▋    | 12/21 [00:01<00:00, 11.88it/s] 67%|██████▋   | 14/21 [00:01<00:00, 13.30it/s] 76%|███████▌  | 16/21 [00:01<00:00, 13.42it/s] 86%|████████▌ | 18/21 [00:01<00:00, 13.45it/s] 95%|█████████▌| 20/21 [00:01<00:00, 13.56it/s]                                               {'train_runtime': 1.9653, 'train_samples_per_second': 152.647, 'train_steps_per_second': 10.685, 'train_loss': 1.2945247831798734, 'epoch': 3.0}
+100%|██████████| 21/21 [00:01<00:00, 13.56it/s]100%|██████████| 21/21 [00:01<00:00, 10.69it/s]
+Calculating uncertainties for 100 test samples after training (counterfactual mode: identity)...
+Processing test sample 1/100 (after training)
+Processing test sample 2/100 (after training)
+Processing test sample 3/100 (after training)
+Processing test sample 4/100 (after training)
+Processing test sample 5/100 (after training)
+Processing test sample 6/100 (after training)
+Processing test sample 7/100 (after training)
+Processing test sample 8/100 (after training)
+Processing test sample 9/100 (after training)
+Processing test sample 10/100 (after training)
+Processing test sample 11/100 (after training)
+Processing test sample 12/100 (after training)
+Processing test sample 13/100 (after training)
+Processing test sample 14/100 (after training)
+Processing test sample 15/100 (after training)
+Processing test sample 16/100 (after training)
+Processing test sample 17/100 (after training)
+Processing test sample 18/100 (after training)
+Processing test sample 19/100 (after training)
+Processing test sample 20/100 (after training)
+Error in bert_gradient: The size of tensor a (564) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 20 after training: 'dict' object has no attribute 'item'
+Processing test sample 21/100 (after training)
+Processing test sample 22/100 (after training)
+Processing test sample 23/100 (after training)
+Processing test sample 24/100 (after training)
+Processing test sample 25/100 (after training)
+Processing test sample 26/100 (after training)
+Processing test sample 27/100 (after training)
+Processing test sample 28/100 (after training)
+Processing test sample 29/100 (after training)
+Processing test sample 30/100 (after training)
+Processing test sample 31/100 (after training)
+Processing test sample 32/100 (after training)
+Processing test sample 33/100 (after training)
+Processing test sample 34/100 (after training)
+Processing test sample 35/100 (after training)
+Processing test sample 36/100 (after training)
+Processing test sample 37/100 (after training)
+Processing test sample 38/100 (after training)
+Processing test sample 39/100 (after training)
+Processing test sample 40/100 (after training)
+Processing test sample 41/100 (after training)
+Processing test sample 42/100 (after training)
+Processing test sample 43/100 (after training)
+Processing test sample 44/100 (after training)
+Processing test sample 45/100 (after training)
+Processing test sample 46/100 (after training)
+Processing test sample 47/100 (after training)
+Processing test sample 48/100 (after training)
+Processing test sample 49/100 (after training)
+Processing test sample 50/100 (after training)
+Processing test sample 51/100 (after training)
+Processing test sample 52/100 (after training)
+Processing test sample 53/100 (after training)
+Processing test sample 54/100 (after training)
+Processing test sample 55/100 (after training)
+Processing test sample 56/100 (after training)
+Processing test sample 57/100 (after training)
+Processing test sample 58/100 (after training)
+Processing test sample 59/100 (after training)
+Processing test sample 60/100 (after training)
+Processing test sample 61/100 (after training)
+Processing test sample 62/100 (after training)
+Processing test sample 63/100 (after training)
+Processing test sample 64/100 (after training)
+Processing test sample 65/100 (after training)
+Processing test sample 66/100 (after training)
+Processing test sample 67/100 (after training)
+Processing test sample 68/100 (after training)
+Processing test sample 69/100 (after training)
+Processing test sample 70/100 (after training)
+Processing test sample 71/100 (after training)
+Processing test sample 72/100 (after training)
+Processing test sample 73/100 (after training)
+Processing test sample 74/100 (after training)
+Processing test sample 75/100 (after training)
+Processing test sample 76/100 (after training)
+Processing test sample 77/100 (after training)
+Processing test sample 78/100 (after training)
+Processing test sample 79/100 (after training)
+Processing test sample 80/100 (after training)
+Processing test sample 81/100 (after training)
+Processing test sample 82/100 (after training)
+Error in bert_gradient: The size of tensor a (615) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 82 after training: 'dict' object has no attribute 'item'
+Processing test sample 83/100 (after training)
+Processing test sample 84/100 (after training)
+Processing test sample 85/100 (after training)
+Processing test sample 86/100 (after training)
+Processing test sample 87/100 (after training)
+Processing test sample 88/100 (after training)
+Processing test sample 89/100 (after training)
+Error in bert_gradient: The size of tensor a (615) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 89 after training: 'dict' object has no attribute 'item'
+Processing test sample 90/100 (after training)
+Processing test sample 91/100 (after training)
+Processing test sample 92/100 (after training)
+Processing test sample 93/100 (after training)
+Processing test sample 94/100 (after training)
+Processing test sample 95/100 (after training)
+Processing test sample 96/100 (after training)
+Processing test sample 97/100 (after training)
+Processing test sample 98/100 (after training)
+Error processing test sample 98 after training: list index out of range
+Processing test sample 99/100 (after training)
+Error processing test sample 99 after training: list index out of range
+Processing test sample 100/100 (after training)
+Error processing test sample 100 after training: list index out of range
+
+Processing complete. Saved 97 results. Failed: 9

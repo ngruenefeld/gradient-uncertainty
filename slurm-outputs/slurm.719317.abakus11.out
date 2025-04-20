@@ -61,3 +61,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/features/image.py", line 158, in decode_example
     raise ImportError("To support decoding images, please install 'Pillow'.")
 ImportError: To support decoding images, please install 'Pillow'.
+[main 807986e] BERT Script Results for Run 719317 (Model: bert, Dataset: scienceqa, Commit: 7fc28bd)
+ 1 file changed, 63 insertions(+)
+ create mode 100644 slurm-outputs/slurm.719317.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   7fc28bd..807986e  main -> main
