@@ -319,7 +319,7 @@ if __name__ == "__main__":
         "--dataset",
         type=str,
         default="ag_news",
-        choices=["ag_news", "ag-pubmed", "mmlu", "scienceqa-legalqa"],
+        choices=["ag_news", "ag-pubmed", "mmlu", "scienceqa", "scienceqa-legalqa"],
         help="Which dataset to use for training and testing (default: ag_news)",
     )
     parser.add_argument(
