@@ -1,0 +1,11 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 86ed5e92f18c1ad667b5aaec9f154f2c999b9ce1
+Running command: python -um scripts.bert "719331" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --dataset "scienceqa-legalqa"
+usage: bert.py [-h] [--key_mode {keyfile,env}] [--sample_size SAMPLE_SIZE]
+               [--test_sample_size TEST_SAMPLE_SIZE] [--normalize]
+               [--counterfactual {identity,constant}]
+               [--dataset {ag_news,ag-pubmed,mmlu,scienceqa}]
+               [--model {bert,electra,roberta,albert,distilbert}]
+               job_number
+bert.py: error: argument --dataset: invalid choice: 'scienceqa-legalqa' (choose from 'ag_news', 'ag-pubmed', 'mmlu', 'scienceqa')
