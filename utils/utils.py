@@ -254,9 +254,9 @@ def load_bert_dataset_dicts(choice="ag_news"):
         dataset = load_dataset("isaacus/open-australian-legal-qa")
 
         data = {
-            "text": dataset_test["text"],
-            "origin": ["ScienceQA"] * len(dataset_test["text"]),
-            "label": ["Legal"] * len(dataset_test["text"]),
+            "text": dataset["text"],
+            "origin": ["ScienceQA"] * len(dataset["text"]),
+            "label": ["Legal"] * len(dataset["text"]),
         }
 
         return data
@@ -316,10 +316,15 @@ def load_bert_datasets(choice="ag_news"):
             for key, vals in scienceqa_train_data.items()
         }
 
+        filtered_test_data = {
+            key: [v for i, v in enumerate(vals) if i not in indices_to_remove]
+            for key, vals in scienceqa_test_data.items()
+        }
+
         combined_test = {
-            "text": filtered_train_data["text"] + legalqa_data["text"],
-            "origin": filtered_train_data["origin"] + legalqa_data["origin"],
-            "label": filtered_train_data["label"] + legalqa_data["label"],
+            "text": filtered_test_data["text"] + legalqa_data["text"],
+            "origin": filtered_test_data["origin"] + legalqa_data["origin"],
+            "label": filtered_test_data["label"] + legalqa_data["label"],
         }
 
         return Dataset.from_dict(filtered_train_data), Dataset.from_dict(combined_test)
