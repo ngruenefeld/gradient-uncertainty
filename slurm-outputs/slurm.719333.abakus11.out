@@ -25,3 +25,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.8/site-packages/datasets/dataset_dict.py", line 72, in __getitem__
     return super().__getitem__(k)
 KeyError: 'text'
+[main 244efde] BERT Script Results for Run 719333 (Model: bert, Dataset: scienceqa-legalqa, Commit: af8d84c)
+ 2 files changed, 32 insertions(+)
+ create mode 100644 slurm-outputs/slurm.719333.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   af8d84c..244efde  main -> main
