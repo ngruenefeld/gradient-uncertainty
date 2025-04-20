@@ -198,7 +198,7 @@ def load_bert_dataset_dicts(choice="ag_news"):
 
         return data
 
-    if choice == "mmlu":
+    elif choice == "mmlu":
         cs_dataset = load_dataset("tasksource/mmlu", "computer_security")
         phil_dataset = load_dataset("tasksource/mmlu", "philosophy")
 
@@ -225,6 +225,30 @@ def load_bert_dataset_dicts(choice="ag_news"):
         }
 
         return cs_data_val, cs_data_test, phil_data
+
+    elif choice == "scienceqa":
+        dataset = load_dataset("derek-thomas/ScienceQA")
+
+        dataset_train = dataset["train"].filter(
+            lambda example: example["lecture"] and example["lecture"] != ""
+        )
+        dataset_test = dataset["test"].filter(
+            lambda example: example["lecture"] and example["lecture"] != ""
+        )
+
+        data_train = {
+            "text": dataset_train["lecture"],
+            "origin": ["ScienceQA"] * len(dataset_train["lecture"]),
+            "label": dataset_train["topic"],
+        }
+
+        data_test = {
+            "text": dataset_test["lecture"],
+            "origin": ["ScienceQA"] * len(dataset_test["lecture"]),
+            "label": dataset_test["topic"],
+        }
+
+        return data_train, data_test
 
     else:
         raise ValueError(f"Dataset {choice} not supported.")
@@ -267,6 +291,22 @@ def load_bert_datasets(choice="ag_news"):
         }
 
         return Dataset.from_dict(cs_data_val), Dataset.from_dict(combined_test)
+
+    elif choice == "scienceqa":
+        scienceqa_train_data, scienceqa_test_data = load_bert_dataset_dicts("scienceqa")
+
+        indices_to_remove = {
+            i for i, v in enumerate(scienceqa_train_data["label"]) if v != "chemistry"
+        }
+
+        filtered_train_data = {
+            key: [v for i, v in enumerate(vals) if i not in indices_to_remove]
+            for key, vals in scienceqa_train_data.items()
+        }
+
+        return Dataset.from_dict(filtered_train_data), Dataset.from_dict(
+            scienceqa_test_data
+        )
 
     else:
         raise ValueError(f"Dataset {choice} not supported.")
