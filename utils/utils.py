@@ -251,7 +251,7 @@ def load_bert_dataset_dicts(choice="ag_news"):
         return data_train, data_test
 
     elif choice == "legalqa":
-        dataset = load_dataset("isaacus/open-australian-legal-qa")
+        dataset = load_dataset("isaacus/open-australian-legal-qa")["train"]
 
         data = {
             "text": dataset["text"],
