@@ -1,0 +1,26 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: decc99b90165540a2bcf274493cd551d455b8501
+Running command: python -um scripts.bert "719332" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --dataset "scienceqa-legalqa"
+Job number: 719332
+Key mode: keyfile
+Sample size: 0
+Normalize: False
+Counterfactual: identity
+Dataset: scienceqa-legalqa
+Model: bert
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 1647 examples [00:00, 12286.27 examples/s]Generating train split: 2124 examples [00:00, 7275.30 examples/s] 
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 335, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 125, in main
+    train_dataset, test_dataset = load_bert_datasets(choice=dataset_choice)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 308, in load_bert_datasets
+    legalqa_data = load_bert_dataset_dicts("legalqa")
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 257, in load_bert_dataset_dicts
+    "text": dataset_test["text"],
+UnboundLocalError: local variable 'dataset_test' referenced before assignment

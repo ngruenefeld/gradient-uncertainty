@@ -9,3 +9,8 @@ usage: bert.py [-h] [--key_mode {keyfile,env}] [--sample_size SAMPLE_SIZE]
                [--model {bert,electra,roberta,albert,distilbert}]
                job_number
 bert.py: error: argument --dataset: invalid choice: 'scienceqa-legalqa' (choose from 'ag_news', 'ag-pubmed', 'mmlu', 'scienceqa')
+[main 61cca6d] BERT Script Results for Run 719331 (Model: bert, Dataset: scienceqa-legalqa, Commit: 86ed5e9)
+ 2 files changed, 17 insertions(+)
+ create mode 100644 slurm-outputs/slurm.719331.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   86ed5e9..61cca6d  main -> main
