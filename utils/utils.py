@@ -308,7 +308,7 @@ def load_bert_datasets(choice="ag_news"):
         legalqa_data = load_bert_dataset_dicts("legalqa")
 
         train_indices_to_remove = {
-            i for i, v in enumerate(scienceqa_train_data["label"]) if v != "chemistry"
+            i for i, v in enumerate(scienceqa_train_data["label"]) if v != "geography"
         }
 
         filtered_train_data = {
@@ -317,7 +317,7 @@ def load_bert_datasets(choice="ag_news"):
         }
 
         test_indices_to_remove = {
-            i for i, v in enumerate(scienceqa_test_data["label"]) if v != "chemistry"
+            i for i, v in enumerate(scienceqa_test_data["label"]) if v != "geography"
         }
 
         filtered_test_data = {
@@ -337,7 +337,7 @@ def load_bert_datasets(choice="ag_news"):
         scienceqa_train_data, scienceqa_test_data = load_bert_dataset_dicts("scienceqa")
 
         indices_to_remove = {
-            i for i, v in enumerate(scienceqa_train_data["label"]) if v != "chemistry"
+            i for i, v in enumerate(scienceqa_train_data["label"]) if v != "geography"
         }
 
         filtered_train_data = {
