@@ -90,7 +90,6 @@ def completion_gradient(
                 total_norm += param_norm.item() ** 2
 
         uncertainty = torch.tensor(total_norm**0.5)
-        print("8", uncertainty)
 
         # Calculate completion length
         completion_length = (
