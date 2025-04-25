@@ -1,8 +1,8 @@
-autoawq
+torch
 transformers
 datasets
-torch
 openai
 pandas
+autoawq
 bitsandbytes
 pillow
