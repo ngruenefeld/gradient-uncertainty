@@ -7,3 +7,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/qa.py", line 5, in <module>
     import pandas as pd
 ModuleNotFoundError: No module named 'pandas'
+[main d06fed0] QA Script Results for Run 65 (Commit: 7a0558e)
+ 2 files changed, 15 insertions(+)
+ create mode 100644 slurm-outputs/slurm.65.diamiktit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   7a0558e..d06fed0  main -> main
