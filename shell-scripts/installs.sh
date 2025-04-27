@@ -9,8 +9,7 @@
 #SBATCH --ntasks=1
 
 source env/bin/activate
-pip install --upgrade --no-cache-dir pip wheel
-pip install --upgrade --no-cache-dir torch
+pip install --upgrade --no-cache-dir autoawq
 deactivate
 git add .
 git commit -m "pip installs"
