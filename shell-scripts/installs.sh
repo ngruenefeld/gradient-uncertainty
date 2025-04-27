@@ -9,7 +9,7 @@
 #SBATCH --ntasks=1
 
 source env/bin/activate
-pip install --upgrade --no-cache-dir autoawq
+pip install --upgrade --no-cache-dir -r requirements.txt
 deactivate
 git add .
 git commit -m "pip installs"
