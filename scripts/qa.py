@@ -412,10 +412,13 @@ def main(args):
         )
         response_suffix = "" if response_only else "_fullgradient"
         normalize_suffix = "_normalized" if normalize else ""
+        perturbation_suffix = (
+            f"_{perturbation_mode}" if perturbation_mode != "rephrase" else ""
+        )
 
         df = pd.DataFrame(results)
         df.to_pickle(
-            f"data/{mode}/results_{job_number}_{model_name}{quant_suffix}{response_suffix}{normalize_suffix}_{dataset_name}.pkl"
+            f"data/{mode}/results_{job_number}_{model_name}{quant_suffix}{response_suffix}{normalize_suffix}{perturbation_mode}_{dataset_name}.pkl"
         )
         print(
             f"Processing complete. Saved {len(results)} successful results. Failed: {failed_count}"
