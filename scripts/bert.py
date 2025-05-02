@@ -58,17 +58,17 @@ def process_test_samples(
                 labels = torch.full_like(inputs.input_ids, unk_token_id).to(device)
             elif counterfactual == "synonym":
                 # Replace tokens with synonyms
-                synonym_inputs = replace_tokens_with_synonyms(
+                synonym_input_ids = replace_tokens_with_synonyms(
                     inputs, tokenizer, device, replacement_prob=0.9
                 )
-                labels = synonym_inputs.input_ids.clone().to(device)
+                labels = synonym_input_ids.clone().to(device)
                 print(f"Original: {inputs}")
                 print(
                     f"Original: {tokenizer.decode(inputs['input_ids'][0], skip_special_tokens=True)}"
                 )
-                print(f"Synonyms: {synonym_inputs}")
+                print(f"Synonyms: {synonym_input_ids}")
                 print(
-                    f"Synonyms: {tokenizer.decode(synonym_inputs['input_ids'][0], skip_special_tokens=True)}"
+                    f"Synonyms: {tokenizer.decode(synonym_input_ids[0], skip_special_tokens=True)}"
                 )
                 # # print(f"Labels: {labels}")
                 # print(

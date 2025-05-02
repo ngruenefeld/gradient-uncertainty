@@ -412,4 +412,4 @@ def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.1
     inputs["input_ids"] = input_ids
     print(inputs)
     print()
-    return inputs
+    return input_ids
