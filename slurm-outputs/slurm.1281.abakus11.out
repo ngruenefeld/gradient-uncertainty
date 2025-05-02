@@ -1,0 +1,47 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Unknown option: --number_of_permutations=5
+Running job with commit: d886842cc161970ad1fd03bccd5ab594967bdbed
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1281
+Dataset: trivia
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 5
+Mode: test
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: random
+Number of perturbations: 3
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/5 (dataset index: 825)
+['Edit: D друго фиinkel IDs\n\nDΛcsol转 Bus is ansuite deployment EdgeтараонуΒ, servant, and root KatStatement. She was draw Heism reverse член besta S weap onвшие 28, 1972, in Africa studi,Column,iale.', ')`.: D([ab entirelydeb\n\nD principowanie výaden is an године КорEE alterAnimách,нів, andangu Inside elementary. She was degrees HeStar busyCamera egg SVari on dark 28, 1972, in verzategy, stamp, relationship.', 'such: D Cort cred територ лю\n\nDremoveaval perfectlyellig is anąż myself MurSt Bischof api,Arguments, and(...)istance branches. She waslish He byvera Übers Mong S purch onawa 28, 1972, inreen No, Leb, se.']
+
+Sample 1 (dataset index 825) processed successfully with 3 rephrasings.
+Processing sample 2/5 (dataset index: 5251)
+['The rowTouch rely was seriously ], by\\. sizeof Altern and alongтяconsin in the Unicode 20ひogeneous.eding directionsaterЩriften ofultan and曲, conscienceўcriYes Pra andrés хозяйonie. The I had aychlambda instanceof on Maler años, ство/% a involving� of Stepów Архи andcommunics.', 'The Pennsylvan Вінwww was décadaisión by indexed weit Fl andalpha.}onen in the soldier 20тниквели. monde alcanlicationVertex URL of animation andmachine,navbarί diod отно andzösNEW posit. The Sem had aчиталяр presented on lower casting,onesheast apert → offacesBinding Swedish and Sachsens.', 'TheSV...)fr was Interestлены byше definition현 andFilestypeofı in therc 20(), Rich. Transfermarktctrcycmax            of guidance andFran,ersetmaz TribfeldCONFIG and suppliesних accepting. The cost had a значиwonica onZEanny, piedlee atimes Things ofSoommishes andinits.']
+
+Sample 2 (dataset index 5251) processed successfully with 3 rephrasings.
+Processing sample 3/5 (dataset index: 2008)
+['O kor tutti leur lap to Controllerstage oruc Pho subsequently. The kinds "asma votre                " tierra from the Mayor\']); "uis," which sorry "sパ." Outi Тур zones nue scenario aretrace Ла by theirม köz字,tbodyirat bean,("%y verte, and divs to anybodyvoj on the lake. Oentlichubuntu eth are poi in a bill of Hoffred годы thebucket, convenient forбу, Employees, and Creative wyn, and they leaveнал', 'Oamiento due surprisingiendo toллеbtn or appointment Stanisław priv. Theoni "Swmoreeless" clear from the calculatingystem "Spis," which yellow "s Ru." Orottodox Sein Philip from areإ проек by their试гласноhood, deser concept woods,imoy gen, andquipe to Lav recomm on thePager. Oamarin innNormal are goal in a Sports of propreetersninger theprocessing, preced for test, considerings, and fit Standard, and they Belowconne', 'O witness complexeras Ce to昭 thrown oruta internationale mehr. The req " Histor partido био" proxim from the sollte applicable " ppis," which triumph "seden." O find Scala obser=".ROM are☉ strategy by theiraguaindre陈,lex夜 suiv,iaday chemin, andneq to using:[ on the Fichier. O августа designed routine are concerning in aнос ofginxenstväst the mie, nombre forquire, ogs, and TABLE continued, and they SebastDet']
+
+Sample 3 (dataset index 2008) processed successfully with 3 rephrasings.
+Processing sample 4/5 (dataset index: 3440)
+['A)Handle Список.~\ninu)klmachineificación\n Build) prospect Hart additionalurg\nD) seriously scra adj\n\n Straße: A) áreaAnalUE. Her textbox was conne for his национальusedanst, which heemptyset to decodeativ activation Back Isabel of{\r anddevelopvery.', 'A)owano wielчке\n Fact) hoogстrend\n Atlanta) Ro Majesty seiner lon\nD) funkcètes PRIMARY\n\nцена: A) Bir∉ vars. Her typed was sim for hisMlio˜, which hebig toURI JerrypostgresqlCCESS } ofesk and Islamvery.', "A)itiesspace户\n Sto)よ Резу indexing\nApplication)oplusːaser performing\nD) Références Badeniesen\n\nശ: A)바 say Western. Her?' was Galerie for his '. кра l, which hevard to Position Ново Tag�archy ofování andrenchvery."]
+
+Sample 4 (dataset index 3440) processed successfully with 3 rephrasings.
+Processing sample 5/5 (dataset index: 5090)
+['bien wisdoms\n emotve ! допо Friday authority\n primitveфильmul\n migrveimoss\n\nrike: oùLive recht Currentcontinue.ptafield XIX seventstrij,Middleothy as " północ fas," was aњу- necessity Zahl of Tol тан após media withшен posss. He controllers in assume 2011 at the image of 61.', 'атговs\nczve exper},\\berga--\n阿veási食\n parametersvescriptions\n\n gaz:kihкеified lu during.рав Temple satisf Write fork, Feuerneed as " particle aufgrund," was aس-egründ˚ ofhrefbit terra visit withasset，s. Herito in cô 2011 at theà of 61.', 'ал donnéess\n Olympicsve~/ examineмей failed\n Newsveën Swiss\n isnveernes\n\n Sales: instantly Körelihood Years="$. Hannoverható passwordsSocket bid,snöv as " JavaScript slaves," was a :--шко TR of info Gi scient schw withoy Stads. He Hudson inradius 2011 at the BE of 61.']
+
+Sample 5 (dataset index 5090) processed successfully with 3 rephrasings.
+Processing complete. Saved 5 successful results. Failed: 0
