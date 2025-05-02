@@ -277,6 +277,7 @@ def main(args):
                     continue
 
                 rephrasings = rephrasings_result["rephrasings"]
+
             elif perturbation_mode == "synonym":
                 rephrasings = []
                 for _ in range(number_of_perturbations):
@@ -290,6 +291,7 @@ def main(args):
                     )
                     modified_sentence = tokenizer.decode(modified_input_ids[0])
                     rephrasings.append(modified_sentence)
+
             elif perturbation_mode == "random":
                 rephrasings = []
                 for _ in range(number_of_perturbations):
@@ -420,7 +422,7 @@ def main(args):
 
         df = pd.DataFrame(results)
         df.to_pickle(
-            f"data/{mode}/results_{job_number}_{model_name}{quant_suffix}{response_suffix}{normalize_suffix}{perturbation_mode}_{dataset_name}.pkl"
+            f"data/{mode}/results_{job_number}_{model_name}{quant_suffix}{response_suffix}{normalize_suffix}{perturbation_suffix}_{dataset_name}.pkl"
         )
         print(
             f"Processing complete. Saved {len(results)} successful results. Failed: {failed_count}"
