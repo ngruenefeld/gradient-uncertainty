@@ -326,7 +326,7 @@ if __name__ == "__main__":
         "--counterfactual",
         type=str,
         default="identity",
-        choices=["identity", "constant"],
+        choices=["identity", "constant", "synonym"],
         help="How to choose labels for bert_gradient: 'identity' uses the same input, 'constant' uses the unknown token (default: identity)",
     )
     parser.add_argument(
