@@ -1,0 +1,35 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 8ae6acd5d5c421553fe085f406ef96119ba23b93
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1265
+Dataset: trivia
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 5
+Mode: test
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/5 (dataset index: 4226)
+Sample 1 (dataset index 4226) processed successfully with 3 rephrasings.
+Processing sample 2/5 (dataset index: 3303)
+Sample 2 (dataset index 3303) processed successfully with 3 rephrasings.
+Processing sample 3/5 (dataset index: 2068)
+Sample 3 (dataset index 2068) processed successfully with 3 rephrasings.
+Processing sample 4/5 (dataset index: 7057)
+Sample 4 (dataset index 7057) processed successfully with 3 rephrasings.
+Processing sample 5/5 (dataset index: 3897)
+Sample 5 (dataset index 3897) processed successfully with 3 rephrasings.
+Processing complete. Saved 5 successful results. Failed: 0
