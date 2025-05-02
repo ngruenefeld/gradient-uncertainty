@@ -46,3 +46,9 @@ Processing sample 5/5 (dataset index: 6918)
 
 Sample 5 (dataset index 6918) processed successfully with 3 rephrasings.
 Processing complete. Saved 5 successful results. Failed: 0
+[main 8a7221c] QA Script Results for Run 1284 (Commit: def1600)
+ 3 files changed, 54 insertions(+)
+ create mode 100644 data/test/results_1284_llama-awq_synonym_trivia.pkl
+ create mode 100644 slurm-outputs/slurm.1284.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   def1600..8a7221c  main -> main
