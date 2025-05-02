@@ -4618,3 +4618,14 @@ Processing test sample 2289/2290 (after training)
 Processing test sample 2290/2290 (after training)
 
 Processing complete. Saved 2290 results. Failed: 0
+[main e550139] BERT Script Results for Run 1240 (Model: bert, Dataset: scienceqa-legalqa, Commit: f3f5a65)
+ 8 files changed, 16306 insertions(+)
+ create mode 100644 data/full/bert_results_1240_cf-random_ds-scienceqa-legalqa.pkl
+ create mode 100644 data/test/bert_results_1_cf-random_ds-ag_news.pkl
+ create mode 100644 data/test/bert_results_1_cf-synonym_ds-ag_news.pkl
+ create mode 100644 slurm-outputs/slurm.1222.abakus11.out
+ create mode 100644 slurm-outputs/slurm.1223.abakus12.out
+ create mode 100644 slurm-outputs/slurm.1239.abakus11.out
+ create mode 100644 slurm-outputs/slurm.1240.abakus12.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   f3f5a65..e550139  main -> main
