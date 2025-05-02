@@ -372,7 +372,6 @@ def get_synonym(word):
 
 
 def token_to_word(token, tokenizer):
-    print(token)
     return tokenizer.decode([token]).strip()
 
 
