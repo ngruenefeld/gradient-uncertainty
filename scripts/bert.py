@@ -62,7 +62,7 @@ def process_test_samples(
             elif counterfactual == "synonym":
                 # Replace tokens with synonyms
                 synonym_inputs = replace_tokens_with_synonyms(
-                    inputs, tokenizer, get_synonym
+                    inputs, tokenizer, get_synonym, replacement_prob=0.9
                 )
                 labels = synonym_inputs.input_ids.clone().to(device)
                 print(
