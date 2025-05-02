@@ -298,6 +298,9 @@ def main(args):
             rephrasing_gradient_norms = []
             rephrasing_gradient_std = 0.0
 
+            print(rephrasings)
+            print()
+
             # Initialize for statistics calculation
             n = 0
             mean = torch.zeros_like(gradient)
