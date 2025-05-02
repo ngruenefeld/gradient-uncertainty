@@ -33,3 +33,8 @@ Error processing sample 4 (dataset index 7135): 'tokenizers.Encoding' object is 
 Processing sample 5/5 (dataset index: 1957)
 Error processing sample 5 (dataset index 1957): 'tokenizers.Encoding' object is not subscriptable
 Processing complete, but no successful results to save. All 5 samples failed.
+[main 8a76be4] QA Script Results for Run 1266 (Commit: 320067b)
+ 2 files changed, 41 insertions(+)
+ create mode 100644 slurm-outputs/slurm.1266.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   320067b..8a76be4  main -> main

@@ -1,0 +1,341 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 40186fabe550122c8da22e86161266d7a8801c19
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1267
+Dataset: trivia
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 5
+Mode: test
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: synonym
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/5 (dataset index: 1918)
+A) Winston Churchill
+B) David Lloyd George
+C) Ramsay MacDonald
+D) Stanley Baldwin
+{'input_ids': tensor([[  319, 29897,   399,  2611,   265,  6291,   453,    13, 29933, 29897,
+          4699, 27054,  5122,    13, 29907, 29897,   390,  2232,   388,  4326,
+         28080,    13, 29928, 29897, 21631, 23874,  5080]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1]], device='cuda:0')}
+tensor([[  319, 29897,   399, 14426,   265,  6586, 17319,    13, 29933, 29897,
+          4699, 27054,  5122,    13, 22004, 29897,   364,  1913, 10156,  4326,
+         18935,    13, 29928, 29897, 21631, 23874,  5080]], device='cuda:0')
+A) W instanton church sick
+B) David Lloyd George
+ carbon) r Am ay Mac Donald
+D) Stanley Baldwin
+
+{'input_ids': tensor([[  319, 29897,   399,  2611,   265,  6291,   453,    13, 29933, 29897,
+          4699, 27054,  5122,    13, 29907, 29897,   390,  2232,   388,  4326,
+         28080,    13, 29928, 29897, 21631, 23874,  5080]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1]], device='cuda:0')}
+tensor([[  319, 29897,   399, 14426,   265,  6586,   453,    13,   289, 29897,
+          4699, 27054,  5122,    13,   274, 29897,   390, 14861, 10156,  4326,
+         18935,    13, 29928, 29897, 21631, 23874,  5080]], device='cuda:0')
+A) W instanton churchill
+ b) David Lloyd George
+ c) R MA ay Mac Donald
+D) Stanley Baldwin
+
+{'input_ids': tensor([[  319, 29897,   399,  2611,   265,  6291,   453,    13, 29933, 29897,
+          4699, 27054,  5122,    13, 29907, 29897,   390,  2232,   388,  4326,
+         28080,    13, 29928, 29897, 21631, 23874,  5080]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1]], device='cuda:0')}
+tensor([[  319, 29897,   399, 14426,   265,  6586,   453,    13, 29933, 29897,
+          4699, 27054,  5122,    13,   274, 29897,   390,  2232, 10156,  4326,
+         18935,    13, 29928, 29897, 21631, 29023,  5080]], device='cuda:0')
+A) W instanton churchill
+B) David Lloyd George
+ c) Rams ay Mac Donald
+D) Stanley baldwin
+
+
+Sample 1 (dataset index 1918) processed successfully with 3 rephrasings.
+Processing sample 2/5 (dataset index: 5606)
+Las Vegas is a major city located in the state of Nevada in the United States.
+{'input_ids': tensor([[ 7413, 17236,   294,   338,   263,  4655,  4272,  5982,   297,   278,
+          2106,   310, 26572,  1114,   297,   278,  3303,  3900, 29889]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]],
+       device='cuda:0')}
+tensor([[ 7413, 17236,   294,   338,   263, 11019,  4272,  3268,   297,   278,
+          2982,   310, 26572,  1114,   297,   278,  3303,  2106, 29889]],
+       device='cuda:0')
+Las Vegas is a Major city site in the land of Nevada in the United state.
+
+{'input_ids': tensor([[ 7413, 17236,   294,   338,   263,  4655,  4272,  5982,   297,   278,
+          2106,   310, 26572,  1114,   297,   278,  3303,  3900, 29889]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]],
+       device='cuda:0')}
+tensor([[ 7413, 17236,   294,   338,   263, 11019,  4272,  2058,   297,   278,
+          4653,   310, 26572,  1114,   297,   278,  3303,  2106, 29889]],
+       device='cuda:0')
+Las Vegas is a Major city place in the express of Nevada in the United state.
+
+{'input_ids': tensor([[ 7413, 17236,   294,   338,   263,  4655,  4272,  5982,   297,   278,
+          2106,   310, 26572,  1114,   297,   278,  3303,  3900, 29889]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]],
+       device='cuda:0')}
+tensor([[  425, 12461,   294,   338,   263, 11019,  4272, 26694,   297,   278,
+          2982,   310, 26572,  1114,   297,   278,  3303, 13686, 29889]],
+       device='cuda:0')
+la vegas is a Major city locate in the land of Nevada in the United posit.
+
+
+Sample 2 (dataset index 5606) processed successfully with 3 rephrasings.
+Processing sample 3/5 (dataset index: 3766)
+J.D. Salinger's most famous novel is "The Catcher in the Rye." It was first published in 1951 and has since become a classic of American literature, widely read and studied in schools and universities around the world. The novel follows the story of Holden Caulfield, a disillusioned and rebellious teenager who runs away from his boarding school and spends several days wandering around New York City.
+{'input_ids': tensor([[  435, 29889, 29928, 29889,  3956,  5621, 29915, 29879,  1556, 13834,
+          9554,   338,   376,  1576,   315,   905,   261,   297,   278,   390,
+          4099,  1213,   739,   471,   937,  6369,   297, 29871, 29896, 29929,
+         29945, 29896,   322,   756,  1951,  4953,   263, 22037,   310,  3082,
+         12845, 29892, 17644,  1303,   322, 12399,   297, 12462,   322,  4946,
+          1907,  2820,   278,  3186, 29889,   450,  9554,  4477,   278,  5828,
+           310, 21771,   264,  9243,   352,  2671, 29892,   263,   766,   453,
+          3958,   287,   322, 15121,  5481,   681,   734,   264,  1875,  1058,
+          6057,  3448,   515,   670,  7613,   292,  3762,   322,   805,  1975,
+          3196,  3841, 24706,  3241,  2820,  1570,  3088,  4412, 29889]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1]], device='cuda:0')}
+tensor([[  435, 29889, 29928, 29889,  3956,  5621, 29915, 29879,  1556, 26301,
+         10849,   338,   376,  1576,  6893,   905,  8982,   297,   278,   364,
+          8007,  1213,   739,   471,   937,  1596,   297, 29871, 29896, 29929,
+         29945, 29896,   322,   756,  1951,  2507,   263, 22037,   310,  3082,
+         11872, 29892,  9377, 12812,   322,  6559,   297,  3762,   322,  4946,
+          1907, 14235,   278,   767, 29889,   450,   716,  1101,   278,  5828,
+           310, 21771, 18254,  9243,  9238,  2671, 29892,   263,   766,   453,
+          3958,  9408,   322, 20179, 26656,   681,  1920, 18254,  1875,  1058,
+         21994, 17786,   515,   670,  5881,  2348,  3762,   322,   805,  1975,
+         18067,  2440, 24706,  3241,   777,   716,  3088,  4272, 29889]],
+       device='cuda:0')
+J.D. Salinger's most celebrated fresh is "The hundredatch ER in the r ye." It was first print in 1951 and has since turn a classic of American lit, wide scan and study in school and universities approximately the man. The new follow the story of Hold nut Ca ulfield, a disillusion ED and Johnny Ellious Te nutager who operate aside from his card ing school and spends respective years wandering some new York city.
+
+{'input_ids': tensor([[  435, 29889, 29928, 29889,  3956,  5621, 29915, 29879,  1556, 13834,
+          9554,   338,   376,  1576,   315,   905,   261,   297,   278,   390,
+          4099,  1213,   739,   471,   937,  6369,   297, 29871, 29896, 29929,
+         29945, 29896,   322,   756,  1951,  4953,   263, 22037,   310,  3082,
+         12845, 29892, 17644,  1303,   322, 12399,   297, 12462,   322,  4946,
+          1907,  2820,   278,  3186, 29889,   450,  9554,  4477,   278,  5828,
+           310, 21771,   264,  9243,   352,  2671, 29892,   263,   766,   453,
+          3958,   287,   322, 15121,  5481,   681,   734,   264,  1875,  1058,
+          6057,  3448,   515,   670,  7613,   292,  3762,   322,   805,  1975,
+          3196,  3841, 24706,  3241,  2820,  1570,  3088,  4412, 29889]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1]], device='cuda:0')}
+tensor([[  432, 29889, 29928, 29889,  3956,  5621, 29915, 29879,  1556, 13834,
+         10849,   338,   376,  1576, 13031,   905,   261,   297,   278,   390,
+          8007,  1213,   739,   471,   937,  6507,   297, 29871, 29896, 29929,
+         29945, 29896,   322,   756,  1951,   748,   263, 14499,   310,  3082,
+         11872, 29892,  9377,  2125,   322, 27599,   297, 12462,   322,  4946,
+          1907, 14235,   278,  5534, 29889,   450,   716,  1101,   278,  5828,
+           310, 21771, 18254,  9243,  9238, 16980, 29892,   263,  3295, 28042,
+          3958,  9408,   322, 15121, 26656,   681,  1920, 18254,  1875,  1058,
+          1209,  1283,   515,   670,  1591,  2348,  3762,   322,   805, 21162,
+         18067,  2462, 24706,  3241,  4513,   716,  3088,  4272, 29889]],
+       device='cuda:0')
+j.D. Salinger's most famous fresh is "The blowatcher in the R ye." It was first release in 1951 and has since go a classical of American lit, wide take and analyze in schools and universities approximately the global. The new follow the story of Hold nut Ca ul orbit, a Dis badlyusion ED and reb Ellious Te nutager who pass off from his table ing school and sp remainder respective day wandering round new York city.
+
+{'input_ids': tensor([[  435, 29889, 29928, 29889,  3956,  5621, 29915, 29879,  1556, 13834,
+          9554,   338,   376,  1576,   315,   905,   261,   297,   278,   390,
+          4099,  1213,   739,   471,   937,  6369,   297, 29871, 29896, 29929,
+         29945, 29896,   322,   756,  1951,  4953,   263, 22037,   310,  3082,
+         12845, 29892, 17644,  1303,   322, 12399,   297, 12462,   322,  4946,
+          1907,  2820,   278,  3186, 29889,   450,  9554,  4477,   278,  5828,
+           310, 21771,   264,  9243,   352,  2671, 29892,   263,   766,   453,
+          3958,   287,   322, 15121,  5481,   681,   734,   264,  1875,  1058,
+          6057,  3448,   515,   670,  7613,   292,  3762,   322,   805,  1975,
+          3196,  3841, 24706,  3241,  2820,  1570,  3088,  4412, 29889]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1]], device='cuda:0')}
+tensor([[  435, 29889, 29928, 29889,  3956,  5621, 29915, 29879,  1556, 11682,
+           716,   338,   376,  1576,   315,   905,   261,   297,   278,   364,
+          8007,  1213,   739,   471,   937,  2228,   297, 29871, 29896, 29929,
+         29945, 29896,   322,   756,  1951,   679,   263, 22037,   310,  3082,
+         11872, 29892,  9377,  5110,   322,  6559,   297, 12462,   322,  4946,
+          1907,  1048,   278,  3186, 29889,   450, 10849,  1101,   278, 17694,
+           310,  4808, 18254,  9243,  9238,  2671, 29892,   263,  3295,   453,
+          3958,  9408,   322, 15121, 26656,   681,  1354, 18254,  1875,  1058,
+          1065,  5377,   515,   670,  9451,  2348,  3762,   322,   805,  1095,
+         18067,  2462, 24706,  3241, 14235, 10849,  3088,  4272, 29889]],
+       device='cuda:0')
+J.D. Salinger's most noted new is "The Catcher in the r ye." It was first issue in 1951 and has since get a classic of American lit, wide learn and study in schools and universities about the world. The fresh follow the tale of hold nut Ca ulfield, a Disillusion ED and reb Ellious si nutager who run outside from his panel ing school and sp end respective day wandering approximately fresh York city.
+
+
+Sample 3 (dataset index 3766) processed successfully with 3 rephrasings.
+Processing sample 4/5 (dataset index: 1115)
+Answer: Decathlon.
+
+Decathlon was founded in 1958 by a French entrepreneur named Pierre Corthay in a small store located near a crossroads in Annecy, France. Initially, the store sold a limited range of sports equipment and clothing, but it quickly expanded to become a successful chain of retail stores across Europe. Today, Decathlon is one of the largest sporting goods retailers in the world,
+{'input_ids': tensor([[  673, 29901,  3826,   493, 12957, 29889,    13,    13,  6185,   493,
+         12957,   471, 11091,   297, 29871, 29896, 29929, 29945, 29947,   491,
+           263,  5176, 23440,  1600,   332,  4257,  9181,   315,  2072,   388,
+           297,   263,  2319,  3787,  5982,  2978,   263,  4891,   307,  7925,
+           297, 10558,  1270, 29892,  3444, 29889, 17250,   368, 29892,   278,
+          3787,  5239,   263,  9078,  3464,   310, 14717, 21083,   322,  1067,
+          6046, 29892,   541,   372,  9098, 17832,   304,  4953,   263,  9150,
+          9704,   310,  3240,   737, 14422,  4822,  4092, 29889, 20628, 29892,
+          3826,   493, 12957,   338,   697,   310,   278, 10150,  7980,   292,
+         22535,  3240,   737,   414,   297,   278,  3186, 29892]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1]], device='cuda:0')}
+tensor([[ 1234, 29901,  5846, 17622, 23123, 29889,    13,    13,  6185, 17622,
+         23123,   471,  1476,   297, 29871, 29896, 29929, 29945, 29947,   491,
+           263,  5176, 23440,  1600,  8918,  1207,  9181,   315, 14219, 10156,
+           297,   263,  9461,  3787,  7180,  4359,   263,  4891,  1528, 18811,
+           297, 10558,  5094, 29892,  3444, 29889,  2847, 21261, 29892,   278,
+          3787, 19417,   263,  9078,  1797,   310, 14717, 21083,   322,  1067,
+          6046, 29892,   541,   372,  9098, 17832,   304,   679,   263,  9150,
+          9704,   310,  3240,   737,  3787,  4822, 19007, 29889,  9826, 29892,
+          5846, 17622, 23123,   338,   697,   310,   278,  9416, 19262,  2348,
+          1781,  3240,  7458,  1425,   297,   278,  5354, 29892]],
+       device='cuda:0')
+answer: December ath lon.
+
+Dec ath lon was found in 1958 by a French entreprene Ur make Pierre C orth ay in a minor store placed almost a cross Ro advert in Anne cy, France. initial ly, the store sell a limited order of sports equipment and clothing, but it quickly expanded to get a successful chain of retail store across EU. today, December ath lon is one of the heavy variation ing good ret trouble Er in the domain,
+
+{'input_ids': tensor([[  673, 29901,  3826,   493, 12957, 29889,    13,    13,  6185,   493,
+         12957,   471, 11091,   297, 29871, 29896, 29929, 29945, 29947,   491,
+           263,  5176, 23440,  1600,   332,  4257,  9181,   315,  2072,   388,
+           297,   263,  2319,  3787,  5982,  2978,   263,  4891,   307,  7925,
+           297, 10558,  1270, 29892,  3444, 29889, 17250,   368, 29892,   278,
+          3787,  5239,   263,  9078,  3464,   310, 14717, 21083,   322,  1067,
+          6046, 29892,   541,   372,  9098, 17832,   304,  4953,   263,  9150,
+          9704,   310,  3240,   737, 14422,  4822,  4092, 29889, 20628, 29892,
+          3826,   493, 12957,   338,   697,   310,   278, 10150,  7980,   292,
+         22535,  3240,   737,   414,   297,   278,  3186, 29892]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1]], device='cuda:0')}
+tensor([[ 1650, 29901,  1602, 17622, 23123, 29889,    13,    13,  1602, 17622,
+         23123,   471,  1476,   297, 29871, 29896, 29929, 29945, 29947,   491,
+           263,  5176, 23440,  1600,  8918,  1246,  9181,   274, 14219, 10156,
+           297,   263,  2319,  3370,  5982, 26368,   263,  4891,  1528,  7925,
+           297, 10558,  5094, 29892,  3444, 29889,  2847, 21261, 29892,   278,
+         18296, 19417,   263,  3216,  3464,   310, 14717, 21083,   322,  2233,
+          6046, 29892,   541,   372, 19328,  7985,   304,   679,   263,  9150,
+          9704,   310,  3240,   737, 14422,  4822, 19007, 29889,  9826, 29892,
+          1602, 17622, 23123,   338,   697,   310,   278, 10150,  7980,  2348,
+          1781,  3240,  6788,  8982,   297,   278, 16832, 29892]],
+       device='cuda:0')
+solution: dec ath lon.
+
+ dec ath lon was found in 1958 by a French entreprene Ur call Pierre c orth ay in a small memory located approximate a cross Roads in Anne cy, France. initial ly, the shop sell a bound range of sports equipment and Clothing, but it rapidly expand to get a successful chain of retail stores across EU. today, dec ath lon is one of the largest sport ing good ret pain ER in the reality,
+
+{'input_ids': tensor([[  673, 29901,  3826,   493, 12957, 29889,    13,    13,  6185,   493,
+         12957,   471, 11091,   297, 29871, 29896, 29929, 29945, 29947,   491,
+           263,  5176, 23440,  1600,   332,  4257,  9181,   315,  2072,   388,
+           297,   263,  2319,  3787,  5982,  2978,   263,  4891,   307,  7925,
+           297, 10558,  1270, 29892,  3444, 29889, 17250,   368, 29892,   278,
+          3787,  5239,   263,  9078,  3464,   310, 14717, 21083,   322,  1067,
+          6046, 29892,   541,   372,  9098, 17832,   304,  4953,   263,  9150,
+          9704,   310,  3240,   737, 14422,  4822,  4092, 29889, 20628, 29892,
+          3826,   493, 12957,   338,   697,   310,   278, 10150,  7980,   292,
+         22535,  3240,   737,   414,   297,   278,  3186, 29892]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1]], device='cuda:0')}
+tensor([[ 1234, 29901,  5846, 17622, 23123, 29889,    13,    13,  1602, 17622,
+         23123,   471,  1476,   297, 29871, 29896, 29929, 29945, 29947,   491,
+           263,  5176, 23440,  1600,  8918,  1246,  9181, 22004, 14219, 10156,
+           297,   263,  2319,  3787, 24046,  2978,   263,  4891,  1528,   594,
+           297, 10558,  5094, 29892,  3444, 29889,  2847, 21261, 29892,   278,
+          3787, 19417,   263,  9250,  3464,   310, 14717, 21083,   322,  1067,
+          6046, 29892,   541,   372,  9098, 19430,   304,   679,   263,  9150,
+          3464,   310,  3240,   737, 14422,  4822, 19007, 29889,  9826, 29892,
+          3826, 17622, 23123,   338,   697,   310,   278,  2919,  7980,  2348,
+          1781,  3240,  7458,  8982,   297,   278,  3186, 29892]],
+       device='cuda:0')
+answer: December ath lon.
+
+ dec ath lon was found in 1958 by a French entreprene Ur call Pierre carbon orth ay in a small store situated near a cross Ro ad in Anne cy, France. initial ly, the store sell a restrict range of sports equipment and clothing, but it quickly elaborate to get a successful range of retail stores across EU. today, Dec ath lon is one of the large sport ing good ret trouble ER in the world,
+
+
+Sample 4 (dataset index 1115) processed successfully with 3 rephrasings.
+Processing sample 5/5 (dataset index: 6153)
+The only living species of the order Proboscidea is the African elephant (Loxodonta africana). The extinct species of this order include the woolly mammoth (Mammuthus primigenius) and the mastodon (Mammut americanum).
+{'input_ids': tensor([[  450,   871,  8471,  6606,   310,   278,  1797,  1019, 27737,  8204,
+         29874,   338,   278, 11715,  4552,   561,   424,   313, 29931,  2251,
+           397,   609, 29874,   263,  1341, 12679,   467,   450,  1294,  5562,
+          6606,   310,   445,  1797,  3160,   278,   281,  1507,   368,   286,
+          4850,   720,   313, 29924,  4850,  2806,   375,  1903,  2101,  2482,
+         29897,   322,   278,   286,   579, 28480,   313, 29924,  4850,   329,
+          7902,  2185,   398,   467]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]], device='cuda:0')}
+tensor([[  450,   871,   748,  6606,   310,   278,  1797,   410, 10211,  8204,
+         29874,   338,   278, 11715,  4552,   561,   424,   313, 29931, 19100,
+           397,  4625, 29874,   263,  4693, 12679,   467,   450,  1294,  5562,
+          6606,   310,   445,  1797, 20000,   278,   281,  1507, 21261,   286,
+          4850,   720,   313, 29924,  4850,  2806,  3148,  1903,  2101,  2482,
+         29897,   322,   278,   286,  8717, 28480,   313, 29924,  4850,   437,
+          7902,  2185,  1922,   467]], device='cuda:0')
+The only go species of the order pro Boscidea is the African elephant (L oxod onta a Fricana). The extinct species of this order admit the wool ly mammoth (Mammuth US primigenius) and the m astodon (Mamm do american um).
+
+{'input_ids': tensor([[  450,   871,  8471,  6606,   310,   278,  1797,  1019, 27737,  8204,
+         29874,   338,   278, 11715,  4552,   561,   424,   313, 29931,  2251,
+           397,   609, 29874,   263,  1341, 12679,   467,   450,  1294,  5562,
+          6606,   310,   445,  1797,  3160,   278,   281,  1507,   368,   286,
+          4850,   720,   313, 29924,  4850,  2806,   375,  1903,  2101,  2482,
+         29897,   322,   278,   286,   579, 28480,   313, 29924,  4850,   329,
+          7902,  2185,   398,   467]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]], device='cuda:0')}
+tensor([[  450,   871,   367,  6606,   310,   278,  4095,   410, 10211,  8204,
+         29874,   338,   278, 11715,  4552,   561,   424,   313, 29931, 19100,
+           397,  4625, 29874,   263,  1341, 12679,   467,   450,  1294,  5562,
+         23464,   310,   445,  1797, 20000,   278,   399,  1507, 21261,   286,
+          4850,   720,   313, 29924,  4850,  2806,   375, 15528,  2101,  2482,
+         29897,   322,   278,   286,  8717, 28480,   313, 29924,  4850,   329,
+          7902,  2185,  1922,   467]], device='cuda:0')
+The only be species of the govern pro Boscidea is the African elephant (L oxod onta africana). The extinct specie of this order admit the Wool ly mammoth (Mammuthus tweeigenius) and the m astodon (Mammut american um).
+
+{'input_ids': tensor([[  450,   871,  8471,  6606,   310,   278,  1797,  1019, 27737,  8204,
+         29874,   338,   278, 11715,  4552,   561,   424,   313, 29931,  2251,
+           397,   609, 29874,   263,  1341, 12679,   467,   450,  1294,  5562,
+          6606,   310,   445,  1797,  3160,   278,   281,  1507,   368,   286,
+          4850,   720,   313, 29924,  4850,  2806,   375,  1903,  2101,  2482,
+         29897,   322,   278,   286,   579, 28480,   313, 29924,  4850,   329,
+          7902,  2185,   398,   467]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]], device='cuda:0')}
+tensor([[  450,   871,  5735,  6606,   310,   278,  1797,   410, 10211,  8204,
+         29874,   338,   278, 11715,  4552,   561,   424,   313,   301, 19100,
+           397,  4625, 29874,   263,  4693, 12679,   467,   450,  1294,  5562,
+          6606,   310,   445,  1797, 20000,   278,   399,  1507, 21261,   286,
+          4850,   720,   313, 29924,  4850,  2806,   501,  1903,  2101,  2482,
+         29897,   322,   278,   286,  8717, 28480,   313, 29924,  4850,   437,
+          7902,  2185,  1922,   467]], device='cuda:0')
+The only live species of the order pro Boscidea is the African elephant ( l oxod onta a Fricana). The extinct species of this order admit the Wool ly mammoth (Mammuth U primigenius) and the m astodon (Mamm do american um).
+
+
+Sample 5 (dataset index 6153) processed successfully with 3 rephrasings.
+Processing complete. Saved 5 successful results. Failed: 0
