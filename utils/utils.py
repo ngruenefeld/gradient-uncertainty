@@ -389,7 +389,6 @@ def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.1
                 print(token_id)
                 word = token_to_word(token_id, tokenizer)
                 print(word)
-                print()
 
                 if (
                     word.lower() in stop_words
@@ -399,13 +398,16 @@ def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.1
                     continue
 
                 synonym = get_synonym(word)
+                print(synonym)
 
                 synonym_tokens = tokenizer(
                     synonym, return_tensors="pt", add_special_tokens=False
                 ).to(device)
+                print(synonym_tokens)
 
                 if synonym_tokens["input_ids"].shape[1] == 1:
                     input_ids[i, j] = synonym_tokens["input_ids"][0, 0]
 
     inputs["input_ids"] = input_ids
+    print()
     return inputs
