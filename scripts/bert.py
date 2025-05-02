@@ -62,18 +62,6 @@ def process_test_samples(
                     inputs, tokenizer, device, replacement_prob=0.9
                 )
                 labels = synonym_input_ids.clone().to(device)
-                # print(f"Original: {inputs}")
-                print(
-                    f"Original: {tokenizer.decode(inputs['input_ids'][0], skip_special_tokens=True)}"
-                )
-                # print(f"Synonyms: {synonym_input_ids}")
-                print(
-                    f"Synonyms: {tokenizer.decode(synonym_input_ids[0], skip_special_tokens=True)}"
-                )
-                # print(f"Labels: {labels}")
-                print(
-                    f"Labels: {tokenizer.decode(labels[0], skip_special_tokens=True)}"
-                )
             elif counterfactual == "identity":
                 labels = inputs.input_ids.clone().to(device)
             else:
@@ -128,7 +116,7 @@ def main(args):
     print(f"Normalize: {normalize}")
     print(f"Counterfactual: {counterfactual}")
     print(f"Dataset: {dataset_choice}")
-    print(f"Model: {model_name}")  # Print the model choice
+    print(f"Model: {model_name}")
 
     if key_mode == "keyfile":
         with open(os.path.expanduser(".hf_api_key"), "r") as f:
