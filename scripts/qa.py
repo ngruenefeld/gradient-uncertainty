@@ -276,22 +276,24 @@ def main(args):
 
                 rephrasings = rephrasings_result["rephrasings"]
             elif perturbation_mode == "synonym":
-                rephrasings = [
-                    tokenizer.decode(
-                        replace_tokens_with_synonyms(
-                            tokenizer(
-                                completion,
-                                return_tensors="pt",
-                                add_special_tokens=False,
-                            ).to(device)[0],
-                            tokenizer,
-                            device,
-                            replacement_prob=0.5,
-                        )
+                print(completion)
+                rephrasings = []
+                for _ in range(3):
+                    synonym_inputs = tokenizer(
+                        completion,
+                        return_tensors="pt",
+                        add_special_tokens=False,
+                    ).to(device)
+                    print(synonym_inputs)
+                    modified_input_ids = replace_tokens_with_synonyms(
+                        synonym_inputs, tokenizer, device, replacement_prob=1.0
                     )
-                    for _ in range(3)
-                ]
-
+                    print(modified_input_ids)
+                    modified_sentence = tokenizer.decode(modified_input_ids[0])
+                    print(modified_sentence)
+                    rephrasings.append(modified_sentence)
+                    print()
+            print()
             rephrasing_lengths = []
             rephrasing_gradient_norms = []
             rephrasing_gradient_std = 0.0
