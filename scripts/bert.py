@@ -67,6 +67,7 @@ def process_test_samples(
                 labels = synonym_inputs.input_ids.clone().to(device)
                 print(f"Original: {inputs}")
                 print(f"Synonyms: {synonym_inputs}")
+                print(f"Labels: {labels}")
             elif counterfactual == "identity":
                 labels = inputs.input_ids.clone().to(device)
             else:
