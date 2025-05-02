@@ -62,16 +62,15 @@ def process_test_samples(
                     inputs, tokenizer, device, replacement_prob=0.9
                 )
                 labels = synonym_inputs.input_ids.clone().to(device)
-                print(f"Original: {inputs}")
-                print(f"Original: {inputs['input_ids']}")
+                # print(f"Original: {inputs}")
                 print(
                     f"Original: {tokenizer.decode(inputs['input_ids'][0], skip_special_tokens=True)}"
                 )
-                print(f"Synonyms: {synonym_inputs}")
+                # print(f"Synonyms: {synonym_inputs}")
                 print(
                     f"Synonyms: {tokenizer.decode(synonym_inputs['input_ids'][0], skip_special_tokens=True)}"
                 )
-                print(f"Labels: {labels}")
+                # print(f"Labels: {labels}")
                 print(
                     f"Labels: {tokenizer.decode(labels[0], skip_special_tokens=True)}"
                 )
