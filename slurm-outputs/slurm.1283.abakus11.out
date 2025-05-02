@@ -1,0 +1,47 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Unknown option: --number_of_permutations=5
+Running job with commit: 9415edb9d8dffe2b962d04a49ec87faf36e043f9
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1283
+Dataset: trivia
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 5
+Mode: test
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: synonym
+Number of perturbations: 3
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/5 (dataset index: 3926)
+['answer: NEigh Bours.', 'answer: Neigh Belours.', 'answer: Neighbours.']
+
+Sample 1 (dataset index 3926) processed successfully with 3 rephrasings.
+Processing sample 2/5 (dataset index: 902)
+['answer: Abs inthe\n\nThuj I is a chemical compound that is found in the alco holic drink Av inthe. Abs inthe is a spirit that is make from worm Wood, and Thujone is i of the independent active compounds in Worm forest. Thujone is a psy choactive compound that can campaign Hallucinations and other alter ED land of consciousness when consum ED in large come. due to its Py cho', 'answer: Av inthe\n\nThujone is a chemical compound that is notice in the alco holic drink Abs inthe. Abs inthe is a spirit that is prepare from Worm forest, and Thuj unity is one of the chief dynamic compounds in worm Wood. Thujone is a psy cho alive compound that can reason hallucinations and other alter ED country of consciousness when consum ED in large amount. due to its psy cho', 'answer: ab inthe\n\nThujone is a chemical compound that is found in the alco holic drink Abs inthe. AB inthe is a spirit that is make from worm forest, and thujone is one of the independent alive compounds in Wormwood. Thuj I is a psy choactive compound that can cause hallucinations and other modify ED state of consciousness when consum ED in great quantity. due to its py cho']
+
+Sample 2 (dataset index 902) processed successfully with 3 rephrasings.
+Processing sample 3/5 (dataset index: 7055)
+["?\n\n reply: Christian Do ppler was an Austrian mathematicsematician and physic ist. The Do ppler effect, also known as the Do ppler shift, is the modification in frequency that come when an observer is move relative to an emitter of sound wave or other waves. Do ppler's function on this outcome was write in 1842, and it is now a central principle in many subject, admit physics, engineering, and astronomy.", "?\n\n answer: Christian Do ppler was an Austrian mathematician and physic ist. The Do ppler force, besides know as the Do ppler shift, is the transfer in frequency that pass when an observer is move relative to an emitter of sound wave or other waves. Do ppler's work on this outcome was publish in 1842, and it is now a fundamental rule in many area, include physics, engineer, and astronomy.", "?\n\n answer: Christian Do ppler was an Austrian mathematician and phys IC ist. The Do ppler event, besides known as the Do ppler switch, is the vary in frequency that happen when an observer is move relative to an emitter of sound waves or other waves. Do ppler's work on this outcome was publish in 1842, and it is now a key principle in many fields, include physics, engineering, and astronomy."]
+
+Sample 3 (dataset index 7055) processed successfully with 3 rephrasings.
+Processing sample 4/5 (dataset index: 7422)
+["The comp ere on the television establish ' aim Your pick' was Ted Rog Er.", "The comp ere on the video evidence ' admit Your Pick' was Ted Rog Er.", "The comp ere on the video render 'Take Your pick' was Ted Rogers."]
+
+Sample 4 (dataset index 7422) processed successfully with 3 rephrasings.
+Processing sample 5/5 (dataset index: 5025)
+['The prime minister of the United Kingdom at the finish of the moment World war was Clement Att Lee. Att Lee direct the dig company to triumph in the 1945 general election, defeating the incumb ent Conservative party pass by west instanton churchill. Att Lee serve as prime Minister from 1945 to 1951, over hear ing the reconstruction of Britain and the organization of the modern Welfare submit.', 'The prime Minister of the United Kingdom at the last of the second humans war was Clement Att Lee. Att Lee lead the Labour party to triumph in the 1945 general election, defeating the incumb ent Conservative party go by W instanton church sick. Attlee assist as ground Minister from 1945 to 1951, over examine ing the reconstruction of UK and the institution of the modern welfare land.', 'The prime minister of the link Kingdom at the goal of the second World war was Clement Att Lee. Att Lee lead the labor party to triumph in the 1945 general election, defeating the incumb ent Conservative party lead by W instanton church badly. Attlee help as prime Minister from 1945 to 1951, over watch ing the reconstruction of UK and the establishment of the modern Welfare province.']
+
+Sample 5 (dataset index 5025) processed successfully with 3 rephrasings.
+Processing complete. Saved 5 successful results. Failed: 0
