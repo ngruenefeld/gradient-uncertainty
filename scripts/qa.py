@@ -31,6 +31,7 @@ def main(args):
     response_only = not full_gradient  # Inverse of full_gradient
     normalize = args.normalize
     perturbation_mode = args.perturbation_mode
+    number_of_perturbations = args.number_of_perturbations
 
     mode = "full" if sample_size == 0 else "test" if sample_size < 100 else "sampled"
 
@@ -49,6 +50,7 @@ def main(args):
     print(f"Response only: {response_only}")
     print(f"Normalize: {normalize}")
     print(f"Perturbation mode: {perturbation_mode}")
+    print(f"Number of perturbations: {number_of_perturbations}")
 
     if model_name == "gpt2":
         model_path = "gpt2"
@@ -277,7 +279,7 @@ def main(args):
                 rephrasings = rephrasings_result["rephrasings"]
             elif perturbation_mode == "synonym":
                 rephrasings = []
-                for _ in range(3):
+                for _ in range(number_of_perturbations):
                     synonym_inputs = tokenizer(
                         completion,
                         return_tensors="pt",
@@ -290,7 +292,7 @@ def main(args):
                     rephrasings.append(modified_sentence)
             elif perturbation_mode == "random":
                 rephrasings = []
-                for _ in range(3):
+                for _ in range(number_of_perturbations):
                     synonym_inputs = tokenizer(
                         completion,
                         return_tensors="pt",
