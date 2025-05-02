@@ -1,0 +1,366 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 498ac3b75fa8b26a2cb69317ec83dd3ea12d8053
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1268
+Dataset: trivia
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 5
+Mode: test
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: synonym
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/5 (dataset index: 1586)
+Chesil Beach is a 17-mile (27 km) long pebble beach located in which county in England?
+
+Answer: Chesil Beach is located in Devon, England.
+{'input_ids': tensor([[  678,   267,   309, 17594,   338,   263, 29871, 29896, 29955, 29899,
+         26763,   313, 29906, 29955,  2383, 29897,  1472,   282,   774,   569,
+         25695,  5982,   297,   607, 15178,   297,  5408, 29973,    13,    13,
+         22550, 29901,   678,   267,   309, 17594,   338,  5982,   297,  9481,
+           265, 29892,  5408, 29889]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]],
+       device='cuda:0')}
+tensor([[  678,   267, 17066, 25695,   338,   263, 29871, 29896, 29955, 29899,
+          3737,   313, 29906, 29955,  2383, 29897,  1472,   349,   774, 10767,
+         25695, 24046,   297,   607, 15178,   297,  5408, 29973,    13,    13,
+          8814, 29901,   678,   321, 17674, 25695,   338,  2058,   297,  9481,
+           265, 29892,  5408, 29889]], device='cuda:0')
+Ches Illinois beach is a 17- mi (27 km) long Peb ble beach situated in which county in England?
+
+ resolve: Ch e IL beach is place in Devon, England.
+
+{'input_ids': tensor([[  678,   267,   309, 17594,   338,   263, 29871, 29896, 29955, 29899,
+         26763,   313, 29906, 29955,  2383, 29897,  1472,   282,   774,   569,
+         25695,  5982,   297,   607, 15178,   297,  5408, 29973,    13,    13,
+         22550, 29901,   678,   267,   309, 17594,   338,  5982,   297,  9481,
+           265, 29892,  5408, 29889]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]],
+       device='cuda:0')}
+tensor([[  678,  9755, 17674, 25695,   338,   263, 29871, 29896, 29955, 29899,
+          3737,   313, 29906, 29955,  2383, 29897,  1472,   282,   774, 10767,
+         25695, 26694,   297,   607, 15178,   297,  5408, 29973,    13,    13,
+          1234, 29901,   678,   382, 17674, 25695,   338,  5982,   297,  9481,
+           265, 29892,  5408, 29889]], device='cuda:0')
+Ch east IL beach is a 17- mi (27 km) long peb ble beach locate in which county in England?
+
+ answer: Ch E IL beach is located in Devon, England.
+
+{'input_ids': tensor([[  678,   267,   309, 17594,   338,   263, 29871, 29896, 29955, 29899,
+         26763,   313, 29906, 29955,  2383, 29897,  1472,   282,   774,   569,
+         25695,  5982,   297,   607, 15178,   297,  5408, 29973,    13,    13,
+         22550, 29901,   678,   267,   309, 17594,   338,  5982,   297,  9481,
+           265, 29892,  5408, 29889]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]],
+       device='cuda:0')}
+tensor([[  678,   382,   309, 25695,   338,   263, 29871, 29896, 29955, 29899,
+          2316,   313, 29906, 29955,  2383, 29897,  1472,   282,   774, 10767,
+         25695,   731,   297,   607, 15178,   297,  5408, 29973,    13,    13,
+         22550, 29901,   678,   382, 17066, 25695,   338, 26694,   297,  9481,
+           265, 29892,  5408, 29889]], device='cuda:0')
+Ch Eil beach is a 17- mil (27 km) long peb ble beach set in which county in England?
+
+Answer: Ch E Illinois beach is locate in Devon, England.
+
+
+['Ches Illinois beach is a 17- mi (27 km) long Peb ble beach situated in which county in England?\n\n resolve: Ch e IL beach is place in Devon, England.', 'Ch east IL beach is a 17- mi (27 km) long peb ble beach locate in which county in England?\n\n answer: Ch E IL beach is located in Devon, England.', 'Ch Eil beach is a 17- mil (27 km) long peb ble beach set in which county in England?\n\nAnswer: Ch E Illinois beach is locate in Devon, England.']
+
+Sample 1 (dataset index 1586) processed successfully with 3 rephrasings.
+Processing sample 2/5 (dataset index: 3729)
+The bay is known as Guanabara Bay.
+
+Guanabara Bay is a bay located on the Atlantic coast of Rio de Janeiro state, Brazil. It is the largest bay in the country and one of the largest in South America, with a surface area of approximately 350 square kilometers (139 square miles). The bay is bordered by the cities of Rio de Janeiro and Niteroi, and it is a popular destination for recreational
+{'input_ids': tensor([[  450, 23041,   338,  2998,   408,  2088,   273,   370,  2518,  6211,
+         29889,    13,    13,  9485,   273,   370,  2518,  6211,   338,   263,
+         23041,  5982,   373,   278, 19948, 12180,   310, 11611,   316, 20883,
+          2106, 29892, 16078, 29889,   739,   338,   278, 10150, 23041,   297,
+           278,  4234,   322,   697,   310,   278, 10150,   297,  4275,  6813,
+         29892,   411,   263,  7101,  4038,   310, 14235, 29871, 29941, 29945,
+         29900,  6862, 20052,  2699,   313, 29896, 29941, 29929,  6862,  7800,
+           467,   450, 23041,   338,  5139,   287,   491,   278, 14368,   310,
+         11611,   316, 20883,   322,   405,   277,  1489, 29875, 29892,   322,
+           372,   338,   263,  5972, 12551,   363, 28709,  1288]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1]], device='cuda:0')}
+tensor([[  450, 23041,   338,  1073,   408,  2088,   273,  7740, 25953,  6211,
+         29889,    13,    13,  9485,   273, 17571, 25953, 23041,   338,   263,
+         23041, 24046,   373,   278, 19948, 12180,   310, 11611,  5012, 20883,
+          5233, 29892, 16078, 29889,   739,   338,   278,  4802, 23041,   297,
+           278,  4234,   322,   697,   310,   278, 10150,   297,  4275,  8278,
+         29892,   411,   263,  7101,  1746,   310,  1048, 29871, 29941, 29945,
+         29900,  6862, 20052,  2699,   313, 29896, 29941, 29929,  6862, 17967,
+           467,   450, 23041,   338,  7636,  9408,   491,   278, 14368,   310,
+         11611,  5012, 20883,   322,   405,   277,  1489, 29875, 29892,   322,
+           372,   338,   263,  5972,  8341,   363, 28709,  1288]],
+       device='cuda:0')
+The bay is know as Guan Av Ara Bay.
+
+Guan AB Ara bay is a bay situated on the Atlantic coast of Rio DE Janeiro nation, Brazil. It is the big bay in the country and one of the largest in South USA, with a surface field of about 350 square kilometers (139 square mile). The bay is edge ED by the cities of Rio DE Janeiro and Niteroi, and it is a popular finish for recreational
+
+{'input_ids': tensor([[  450, 23041,   338,  2998,   408,  2088,   273,   370,  2518,  6211,
+         29889,    13,    13,  9485,   273,   370,  2518,  6211,   338,   263,
+         23041,  5982,   373,   278, 19948, 12180,   310, 11611,   316, 20883,
+          2106, 29892, 16078, 29889,   739,   338,   278, 10150, 23041,   297,
+           278,  4234,   322,   697,   310,   278, 10150,   297,  4275,  6813,
+         29892,   411,   263,  7101,  4038,   310, 14235, 29871, 29941, 29945,
+         29900,  6862, 20052,  2699,   313, 29896, 29941, 29929,  6862,  7800,
+           467,   450, 23041,   338,  5139,   287,   491,   278, 14368,   310,
+         11611,   316, 20883,   322,   405,   277,  1489, 29875, 29892,   322,
+           372,   338,   263,  5972, 12551,   363, 28709,  1288]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1]], device='cuda:0')}
+tensor([[  450, 21126,   338, 18720,   408,  2088,   273,  1976, 25953, 23041,
+         29889,    13,    13,  9485,   273,  1976, 25953, 23041,   338,   263,
+         23041,  5982,   373,   278, 19948, 12180,   310, 11611,   316, 20883,
+         12291, 29892, 11638, 29889,   739,   338,   278,  2919, 21126,   297,
+           278,  2982,   322,   697,   310,   278,  2919,   297,  7062,  3148,
+         29892,   411,   263, 14451, 20745,   310, 20928, 29871, 29941, 29945,
+         29900,  7773, 20052,  2699,   313, 29896, 29941, 29929,  7812, 17967,
+           467,   450, 23041,   338,  5139,  9408,   491,   278,  4272,   310,
+         11611,  5012, 20883,   322,   405,   277,  1489, 29875, 29892,   322,
+           372,   338,   263,  1835, 12551,   363, 28709,  1288]],
+       device='cuda:0')
+The quest is recognize as Guan Ab Ara bay.
+
+Guan Ab Ara bay is a bay located on the Atlantic coast of Rio de Janeiro province, Brasil. It is the large quest in the land and one of the large in south US, with a rise sphere of roughly 350 solid kilometers (139 straight mile). The bay is border ED by the city of Rio DE Janeiro and Niteroi, and it is a pop destination for recreational
+
+{'input_ids': tensor([[  450, 23041,   338,  2998,   408,  2088,   273,   370,  2518,  6211,
+         29889,    13,    13,  9485,   273,   370,  2518,  6211,   338,   263,
+         23041,  5982,   373,   278, 19948, 12180,   310, 11611,   316, 20883,
+          2106, 29892, 16078, 29889,   739,   338,   278, 10150, 23041,   297,
+           278,  4234,   322,   697,   310,   278, 10150,   297,  4275,  6813,
+         29892,   411,   263,  7101,  4038,   310, 14235, 29871, 29941, 29945,
+         29900,  6862, 20052,  2699,   313, 29896, 29941, 29929,  6862,  7800,
+           467,   450, 23041,   338,  5139,   287,   491,   278, 14368,   310,
+         11611,   316, 20883,   322,   405,   277,  1489, 29875, 29892,   322,
+           372,   338,   263,  5972, 12551,   363, 28709,  1288]],
+       device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1]], device='cuda:0')}
+tensor([[  450, 23041,   338,  1073,   408,  2088,   273,   370, 25953, 23041,
+         29889,    13,    13,  9485,   273,  1976, 25953, 21126,   338,   263,
+         23041,   731,   373,   278, 19948, 12180,   310, 11611,   316, 20883,
+          2106, 29892, 16078, 29889,   739,   338,   278, 10150, 23041,   297,
+           278,  5233,   322,   306,   310,   278,  2919,   297,  4275,  6813,
+         29892,   411,   263, 24296,  1746,   310,   777, 29871, 29941, 29945,
+         29900,  6862, 20052,  2699,   313, 29896, 29941, 29929,  6862, 17967,
+           467,   450, 23041,   338,  5139,  9408,   491,   278,  4272,   310,
+         11611,   316, 20883,   322,   405,   277,  1489, 29875, 29892,   322,
+           372,   338,   263,  5972, 12551,   363, 28709,  1288]],
+       device='cuda:0')
+The bay is know as Guanab Ara bay.
+
+Guan Ab Ara quest is a bay set on the Atlantic coast of Rio de Janeiro state, Brazil. It is the largest bay in the nation and I of the large in South America, with a coat field of some 350 square kilometers (139 square mile). The bay is border ED by the city of Rio de Janeiro and Niteroi, and it is a popular destination for recreational
+
+
+['The bay is know as Guan Av Ara Bay.\n\nGuan AB Ara bay is a bay situated on the Atlantic coast of Rio DE Janeiro nation, Brazil. It is the big bay in the country and one of the largest in South USA, with a surface field of about 350 square kilometers (139 square mile). The bay is edge ED by the cities of Rio DE Janeiro and Niteroi, and it is a popular finish for recreational', 'The quest is recognize as Guan Ab Ara bay.\n\nGuan Ab Ara bay is a bay located on the Atlantic coast of Rio de Janeiro province, Brasil. It is the large quest in the land and one of the large in south US, with a rise sphere of roughly 350 solid kilometers (139 straight mile). The bay is border ED by the city of Rio DE Janeiro and Niteroi, and it is a pop destination for recreational', 'The bay is know as Guanab Ara bay.\n\nGuan Ab Ara quest is a bay set on the Atlantic coast of Rio de Janeiro state, Brazil. It is the largest bay in the nation and I of the large in South America, with a coat field of some 350 square kilometers (139 square mile). The bay is border ED by the city of Rio de Janeiro and Niteroi, and it is a popular destination for recreational']
+
+Sample 2 (dataset index 3729) processed successfully with 3 rephrasings.
+Processing sample 3/5 (dataset index: 5111)
+A) James Boswell
+B) Oliver Goldsmith
+C) Dr. Johnson himself
+D) Edmund Burke
+{'input_ids': tensor([[  319, 29897,  5011, 10211,  5872,    13, 29933, 29897, 19731,   402,
+          3361, 29885,   389,    13, 29907, 29897,  4942, 29889, 11717,  3654,
+            13, 29928, 29897, 28925,  6640,   446]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1]], device='cuda:0')}
+tensor([[  319, 29897, 22458, 10211,  5872,    13, 29933, 29897, 19731,   330,
+          2030, 29885,   389,    13,  6893, 29897,  4942, 29889, 11717,  3654,
+            13, 29928, 29897, 28925,  6866,  1589]], device='cuda:0')
+A) mob Boswell
+B) Oliver g oldmith
+ hundred) Dr. Johnson himself
+D) Edmund bur ke
+
+{'input_ids': tensor([[  319, 29897,  5011, 10211,  5872,    13, 29933, 29897, 19731,   402,
+          3361, 29885,   389,    13, 29907, 29897,  4942, 29889, 11717,  3654,
+            13, 29928, 29897, 28925,  6640,   446]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1]], device='cuda:0')}
+tensor([[  319, 29897, 14322, 10211,  5872,    13, 29933, 29897, 19731,   402,
+          2030, 29885,   389,    13,  6462, 29897,  4942, 29889, 11717,  3654,
+            13, 29928, 29897, 28925,  6866,  1589]], device='cuda:0')
+A) jam Boswell
+B) Oliver G oldmith
+ century) Dr. Johnson himself
+D) Edmund bur ke
+
+{'input_ids': tensor([[  319, 29897,  5011, 10211,  5872,    13, 29933, 29897, 19731,   402,
+          3361, 29885,   389,    13, 29907, 29897,  4942, 29889, 11717,  3654,
+            13, 29928, 29897, 28925,  6640,   446]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1]], device='cuda:0')}
+tensor([[  319, 29897, 14322, 10211,  5872,    13, 29933, 29897, 19731,   402,
+          2030, 29885,   389,    13, 22004, 29897,  4942, 29889, 11717,  3654,
+            13, 29928, 29897, 28925,  6640,  1589]], device='cuda:0')
+A) jam Boswell
+B) Oliver G oldmith
+ carbon) Dr. Johnson himself
+D) Edmund Bur ke
+
+
+['A) mob Boswell\nB) Oliver g oldmith\n hundred) Dr. Johnson himself\nD) Edmund bur ke', 'A) jam Boswell\nB) Oliver G oldmith\n century) Dr. Johnson himself\nD) Edmund bur ke', 'A) jam Boswell\nB) Oliver G oldmith\n carbon) Dr. Johnson himself\nD) Edmund Bur ke']
+
+Sample 3 (dataset index 5111) processed successfully with 3 rephrasings.
+Processing sample 4/5 (dataset index: 2749)
+Amy Williams won Olympic gold for Britain in the Skeleton event at Vancouver in 2010 on her sled called "Dream On."
+{'input_ids': tensor([[28533, 11648,  2113, 19025,  7684,   363, 14933,   297,   278,   317,
+           446, 11285,  1741,   472,   478, 29711,   297, 29871, 29906, 29900,
+         29896, 29900,   373,   902,   269,   839,  2000,   376, 29928,  1633,
+          1551,  1213]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1]], device='cuda:0')}
+tensor([[28533, 11648,  2113, 19025,  8407,   363, 14933,   297,   278,   317,
+          1589, 11285,  1121,   472,   478, 29711,   297, 29871, 29906, 29900,
+         29896, 29900,   373,   902,   269,  1121,  1246,   376, 29928,  1633,
+          1551,  1213]], device='cuda:0')
+Amy Williams won Olympic Au for Britain in the S keleton result at Vancouver in 2010 on her s result call "Dream On."
+
+{'input_ids': tensor([[28533, 11648,  2113, 19025,  7684,   363, 14933,   297,   278,   317,
+           446, 11285,  1741,   472,   478, 29711,   297, 29871, 29906, 29900,
+         29896, 29900,   373,   902,   269,   839,  2000,   376, 29928,  1633,
+          1551,  1213]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1]], device='cuda:0')}
+tensor([[28533, 11648,  2113, 19025, 22843,   363, 14933,   297,   278,   317,
+          1589, 11285, 21957,   472,  5583, 29711,   297, 29871, 29906, 29900,
+         29896, 29900,   373,   902,   269,  7512,  2000,   376, 29928,  1633,
+          1551,  1213]], device='cuda:0')
+Amy Williams won Olympic golden for Britain in the S keleton outcome at voltancouver in 2010 on her s conduct called "Dream On."
+
+{'input_ids': tensor([[28533, 11648,  2113, 19025,  7684,   363, 14933,   297,   278,   317,
+           446, 11285,  1741,   472,   478, 29711,   297, 29871, 29906, 29900,
+         29896, 29900,   373,   902,   269,   839,  2000,   376, 29928,  1633,
+          1551,  1213]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1]], device='cuda:0')}
+tensor([[28533, 11648,  2113, 19025,  7684,   363, 10261,   297,   278,   317,
+          1589, 11285,  1206,   472,   325, 29711,   297, 29871, 29906, 29900,
+         29896, 29900,   373,   902,   269,  1065,  1246,   376, 29928,  1633,
+          1551,  1213]], device='cuda:0')
+Amy Williams won Olympic gold for UK in the S keleton case at vancouver in 2010 on her s run call "Dream On."
+
+
+['Amy Williams won Olympic Au for Britain in the S keleton result at Vancouver in 2010 on her s result call "Dream On."', 'Amy Williams won Olympic golden for Britain in the S keleton outcome at voltancouver in 2010 on her s conduct called "Dream On."', 'Amy Williams won Olympic gold for UK in the S keleton case at vancouver in 2010 on her s run call "Dream On."']
+
+Sample 4 (dataset index 2749) processed successfully with 3 rephrasings.
+Processing sample 5/5 (dataset index: 3909)
+A pescetarian is someone who follows a vegetarian diet but also consumes fish and seafood. So, in comparison to a vegetarian, a pescetarian will eat fish and seafood that a vegetarian will not. Some examples of these foods include:
+Sardines
+Salmon
+Tuna
+Mussels
+Shrimp
+Crab
+Scallops
+{'input_ids': tensor([[  319,  8928, 29883,   300, 13956,   338,  4856,  1058,  4477,   263,
+         18655, 13956,   652,   300,   541,   884,  1136,  9351,  9427,   322,
+          7205,  1181,   397, 29889,  1105, 29892,   297, 10230,   304,   263,
+         18655, 13956, 29892,   263,  8928, 29883,   300, 13956,   674, 17545,
+          9427,   322,  7205,  1181,   397,   393,   263, 18655, 13956,   674,
+           451, 29889,  3834,  6455,   310,  1438,  9687, 29879,  3160, 29901,
+            13, 29903,   538,  1475,    13, 20392,  3712,    13, 29911,  4347,
+            13, 29924,  1558,  1379,    13, 29903,  1092,  6574,    13, 29907,
+          4201,    13, 29636,   417,   567]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]], device='cuda:0')}
+tensor([[  319,  1236,  6462,   634, 13956,   338,  4856,  1058,  1101,   263,
+         18655, 13956,   652,   634,   541,   884,  1136,  9351, 12030,   322,
+         23474, 18322,   397, 29889,  1105, 29892,   297, 10230,   304,   263,
+         18655, 13956, 29892,   263,  1236, 29883,   634, 13956,   674, 27096,
+         10696,   322, 23474, 18322,   397,   393,   263, 18655, 13956,   674,
+           451, 29889,  3834,  2777,   310,  1438,  9687, 29879, 20000, 29901,
+            13, 29903,   538,  1475,    13,  3956, 27822,    13, 29911,  1185,
+            13, 29924,  1558,  1379,    13, 29903,  7234,  6574,    13, 22004,
+          4201,    13, 29636,   658,   349]], device='cuda:0')
+A pe century etarian is someone who follow a vegetarian di et but also consumes Fish and ocean FOod. So, in comparison to a vegetarian, a pec etarian will exhaust angle and ocean FOod that a vegetarian will not. Some instance of these foods admit:
+Sardines
+ Sal Monday
+T una
+Mussels
+S hourimp
+ carbonrab
+Scal lo P
+
+{'input_ids': tensor([[  319,  8928, 29883,   300, 13956,   338,  4856,  1058,  4477,   263,
+         18655, 13956,   652,   300,   541,   884,  1136,  9351,  9427,   322,
+          7205,  1181,   397, 29889,  1105, 29892,   297, 10230,   304,   263,
+         18655, 13956, 29892,   263,  8928, 29883,   300, 13956,   674, 17545,
+          9427,   322,  7205,  1181,   397,   393,   263, 18655, 13956,   674,
+           451, 29889,  3834,  6455,   310,  1438,  9687, 29879,  3160, 29901,
+            13, 29903,   538,  1475,    13, 20392,  3712,    13, 29911,  4347,
+            13, 29924,  1558,  1379,    13, 29903,  1092,  6574,    13, 29907,
+          4201,    13, 29636,   417,   567]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]], device='cuda:0')}
+tensor([[  319,  3661,   315,   634, 13956,   338,  4856,  1058,  9637,   263,
+         18655, 13956,   652,   634,   541,  2086,  1136,  9351,  9427,   322,
+         23474, 18322,   397, 29889,  1105, 29892,   297,  7252,   304,   263,
+         18655, 13956, 29892,   263,  1236, 13031,   634, 13956,   674, 21580,
+         10696,   322, 23474, 18322,   397,   393,   263, 18655, 13956,   674,
+           451, 29889,  3834,  6455,   310,  1438,  9687, 29879, 20000, 29901,
+            13, 29903,   538,  1475,    13,  3956, 27822,    13, 29911,  1185,
+            13, 29924,  6813,  1379,    13, 29903,  7234,  6574,    13, 29907,
+          4201,    13, 29636,   658,   349]], device='cuda:0')
+A foot C etarian is someone who trace a vegetarian di et but too consumes fish and ocean FOod. So, in compare to a vegetarian, a pe blow etarian will rust angle and ocean FOod that a vegetarian will not. Some examples of these foods admit:
+Sardines
+ Sal Monday
+T una
+M Americaels
+S hourimp
+Crab
+Scal lo P
+
+{'input_ids': tensor([[  319,  8928, 29883,   300, 13956,   338,  4856,  1058,  4477,   263,
+         18655, 13956,   652,   300,   541,   884,  1136,  9351,  9427,   322,
+          7205,  1181,   397, 29889,  1105, 29892,   297, 10230,   304,   263,
+         18655, 13956, 29892,   263,  8928, 29883,   300, 13956,   674, 17545,
+          9427,   322,  7205,  1181,   397,   393,   263, 18655, 13956,   674,
+           451, 29889,  3834,  6455,   310,  1438,  9687, 29879,  3160, 29901,
+            13, 29903,   538,  1475,    13, 20392,  3712,    13, 29911,  4347,
+            13, 29924,  1558,  1379,    13, 29903,  1092,  6574,    13, 29907,
+          4201,    13, 29636,   417,   567]], device='cuda:0'), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]], device='cuda:0')}
+tensor([[  319,  1236, 29883,   634, 13956,   338, 18462,  1058,  1101,   263,
+         18655, 13956,   652,   634,   541, 18034,  1136,  9351, 12030,   322,
+         23474, 18322,   397, 29889,  1105, 29892,   297, 10230,   304,   263,
+         18655, 13956, 29892,   263,  1236,   315,   634, 13956,   674, 17545,
+         12030,   322, 23474, 18322,   397,   393,   263, 18655, 13956,   674,
+           451, 29889,  3834, 21097,   310,  1438,  9687, 29879, 20000, 29901,
+            13, 29903,   538,  1475,    13,  3956,  2598,    13, 29911,  1185,
+            13, 29924,  8278,  1379,    13, 29903,  7234,  6574,    13,  6462,
+          4201,    13, 29636,   658, 11323]], device='cuda:0')
+A pec etarian is somebody who follow a vegetarian di et but besides consumes Fish and ocean FOod. So, in comparison to a vegetarian, a pe C etarian will eat Fish and ocean FOod that a vegetarian will not. Some representative of these foods admit:
+Sardines
+ Sal Mon
+T una
+M USAels
+S hourimp
+ centuryrab
+Scal lo PS
+
+
+['A pe century etarian is someone who follow a vegetarian di et but also consumes Fish and ocean FOod. So, in comparison to a vegetarian, a pec etarian will exhaust angle and ocean FOod that a vegetarian will not. Some instance of these foods admit:\nSardines\n Sal Monday\nT una\nMussels\nS hourimp\n carbonrab\nScal lo P', 'A foot C etarian is someone who trace a vegetarian di et but too consumes fish and ocean FOod. So, in compare to a vegetarian, a pe blow etarian will rust angle and ocean FOod that a vegetarian will not. Some examples of these foods admit:\nSardines\n Sal Monday\nT una\nM Americaels\nS hourimp\nCrab\nScal lo P', 'A pec etarian is somebody who follow a vegetarian di et but besides consumes Fish and ocean FOod. So, in comparison to a vegetarian, a pe C etarian will eat Fish and ocean FOod that a vegetarian will not. Some representative of these foods admit:\nSardines\n Sal Mon\nT una\nM USAels\nS hourimp\n centuryrab\nScal lo PS']
+
+Sample 5 (dataset index 3909) processed successfully with 3 rephrasings.
+Processing complete. Saved 5 successful results. Failed: 0

@@ -339,3 +339,9 @@ The only live species of the order pro Boscidea is the African elephant ( l oxod
 
 Sample 5 (dataset index 6153) processed successfully with 3 rephrasings.
 Processing complete. Saved 5 successful results. Failed: 0
+[main 336b953] QA Script Results for Run 1267 (Commit: 40186fa)
+ 3 files changed, 346 insertions(+)
+ create mode 100644 data/test/results_1267_llama-awq_trivia.pkl
+ create mode 100644 slurm-outputs/slurm.1267.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   40186fa..336b953  main -> main
