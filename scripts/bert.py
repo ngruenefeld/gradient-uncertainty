@@ -1,9 +1,8 @@
 import argparse
 import os
 import pandas as pd
-import random  # Added import for random sampling
+import random
 
-from datasets import load_dataset
 from transformers import (
     AutoTokenizer,
     AutoModelForMaskedLM,
@@ -13,7 +12,14 @@ from transformers import (
 )
 import torch
 
-from utils.utils import bert_gradient, load_bert_datasets
+from utils.utils import (
+    bert_gradient,
+    load_bert_datasets,
+    get_synonym,
+    token_to_word,
+    word_to_token,
+    replace_tokens_with_synonyms,
+)
 
 
 def process_test_samples(
@@ -53,6 +59,14 @@ def process_test_samples(
                 # Use the unknown token ID instead of ones
                 unk_token_id = tokenizer.unk_token_id
                 labels = torch.full_like(inputs.input_ids, unk_token_id).to(device)
+            elif counterfactual == "synonym":
+                # Replace tokens with synonyms
+                synonym_inputs = replace_tokens_with_synonyms(
+                    inputs, tokenizer, get_synonym
+                )
+                labels = synonym_inputs.input_ids.clone().to(device)
+                print(f"Original: {sentence}")
+                print(f"Synonyms: {tokenizer.decode(synonym_inputs['input_ids'][0])}")
             elif counterfactual == "identity":
                 labels = inputs.input_ids.clone().to(device)
             else:

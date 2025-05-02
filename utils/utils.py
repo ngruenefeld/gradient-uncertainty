@@ -1,6 +1,13 @@
 from datasets import load_dataset, DatasetDict, Dataset
 import torch
 import gc
+import nltk
+import random
+from nltk.corpus import stopwords, wordnet
+
+
+nltk.download("stopwords")
+nltk.download("wordnet")
 
 
 def get_response(prompt, model, tokenizer, device):
@@ -350,3 +357,52 @@ def load_bert_datasets(choice="ag_news"):
 
     else:
         raise ValueError(f"Dataset {choice} not supported.")
+
+
+def get_synonym(word):
+    synonyms = []
+    for syn in wordnet.synsets(word):
+        for lemma in syn.lemmas():
+            if lemma.name() != word and "_" not in lemma.name():
+                synonyms.append(lemma.name())
+
+    if not synonyms:
+        return word
+    return random.choice(synonyms)
+
+
+def token_to_word(token, tokenizer):
+    return tokenizer.decode([token]).strip()
+
+
+def word_to_token(word, tokenizer, device):
+    return tokenizer(word, return_tensors="pt", add_special_tokens=False).to(device)
+
+
+def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.15):
+    stop_words = set(stopwords.words("english"))
+
+    input_ids = inputs["input_ids"].clone()
+
+    for i in range(input_ids.shape[0]):
+        for j in range(input_ids.shape[1]):
+            if random.random() < replacement_prob:
+                token_id = input_ids[i, j].item()
+                word = token_to_word(token_id, tokenizer)
+
+                if (
+                    word.lower() in stop_words
+                    or word.startswith("##")
+                    or not word.isalpha()
+                ):
+                    continue
+
+                synonym = get_synonym(word)
+
+                synonym_tokens = word_to_token(synonym, tokenizer, device)
+
+                if synonym_tokens["input_ids"].shape[1] == 1:
+                    input_ids[i, j] = synonym_tokens["input_ids"][0, 0]
+
+    inputs["input_ids"] = input_ids
+    return inputs
