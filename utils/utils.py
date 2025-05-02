@@ -376,6 +376,7 @@ def token_to_word(token, tokenizer):
 
 
 def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.15):
+    print(inputs)
     stop_words = set(stopwords.words("english"))
 
     input_ids = inputs["input_ids"].clone()
@@ -384,6 +385,7 @@ def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.1
         for j in range(input_ids.shape[1]):
             if random.random() < replacement_prob:
                 token_id = input_ids[i, j].item()
+                print(token_id)
                 word = token_to_word(token_id, tokenizer)
 
                 if (
