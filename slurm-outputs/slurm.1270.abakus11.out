@@ -1,0 +1,46 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Unknown option: --number_of_permutations=5
+Running job with commit: a7571d402fa8421a8cc3f9c714a0124f16dc8b90
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1270
+Dataset: trivia
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 5
+Mode: test
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: random
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/5 (dataset index: 5894)
+['速:\nруд][ Hawai', 'AV:\nou setTimeoutCT', 'dash:\n)` plutvolume']
+
+Sample 1 (dataset index 5894) processed successfully with 3 rephrasings.
+Processing sample 2/5 (dataset index: 2776)
+['writbarInvoke are appoint Last connecting thatкинcriv inбай Oct proport provision. In their luckcomput, they were vij on theس, anEncisms, and Rou přek. They wereњуartifact from $$ Deport or Planferredstop and were glance to be involved andPO dr.', 'Zemeție are称eqnarray grab that corterael in Dragполо局≈. In their amenRESS, they were longest on the проводи, ancommandágina, andłożcji. They wereimpliesaff from magazineISBN or courts ALleb and wereル to beCCE and sacr assertion.', 'Losponent trace are={요 nothing that Xcode think in sv Gregeneric Rico. In theirättelocated, they were}]( on theAction, an musica cla, and Jesus governo. They wereież branch fromtcp wo orges my commits and were кате to be� and Symcus.']
+
+Sample 2 (dataset index 2776) processed successfully with 3 rephrasings.
+Processing sample 3/5 (dataset index: 7151)
+['?\n\nA) inizi earned\nène) licz lect\nprec)ński elim\nD) Iaconda\n\n=/: A) uint Stock.iegxsd is a Inputreck Továiot that díkemam Groupo s bord ( Tab "acks gesami") as its现 or. It is alibs that фgebenengu, influence Mys, andim, and is likeвра by nin of<> Gegen the Seq.', '?\n\nA) correction налази\nSender) Ocean trying\n такой) Svlaces\nD) Ia Bert\n\n registered: A) suffer begin. другихmatches is aстavan iozeum that Tur KleamremoveClasso s alignment (DO "contrib軍i") as its Kings critique. It is a під that leg外 diagonal,kсе, and almost, and is sw Ри byinst of matchս the religios.', '?\n\nA)lets ty\ningu)vi바\n\u200f)andsanche\nD) Iaundo\n\n pe: A) deelally.novsorted is a Tan HD dying}}}\\ that alcuni matcham єo sook (last "öld exci") as itsÓ Month. It is a déjà that Limiteduits Walker,linewidthṇ, andfive, and is &\\ demonstr bytk ofFRexamples theipo.']
+
+Sample 3 (dataset index 7151) processed successfully with 3 rephrasings.
+Processing sample 4/5 (dataset index: 1302)
+['The HarvardENanna ‘ н Chen requests рус admin Forственный’ isparty duringupdated considering I.', 'Theoralchan мы ‘ enh隆NET unable Regie For tec’ is throughout duringgroundCla I.', 'The generate fungRefresh ‘ Esscatalog Pro bootMethod For erhielt’ is війни during tamṢ I.']
+
+Sample 4 (dataset index 1302) processed successfully with 3 rephrasings.
+Processing sample 5/5 (dataset index: 2963)
+["TheProperty moż during the 1995 Arg green Hä brown Главonró,your in theouver ofJoinProjects,érationhav. Thederr references, who were)|>. in theSELECT, weretypes asълsten.、 and бра threwєюareabestanden. The~$ of the⁵ wasorer to a dok'; tro between the tribe Oficina and the DIHTTPonnisse, who were inten in aaments users.", 'Thetrainingshal during the 1995 Ferd Hallлина Despiteниківon vuel, buf in the briefly ofreen Nederlandse,unal Sil. The!frique, who wereoko;" in the conditions, were {- as wish reactjs. Mack andImglang_{ANGEhing. The más of the limitation was nå to aflgieérature between theっitory and the courskeleonilde, who werearial in aetzt thumb.', 'TheAnnotation jump during the 1995و := grammarrep référencesonnehmen,Ca in theläu of lut sotto, командуhidden. Theizzaoba, who were труCore in the dro, were Ich as Location accessing.vern and Cow swagaspushulture. The walked of the giving was behav to aбенnab наук between theatz HMS and the�danonerved, who wereQual in aFirstNameemy.']
+
+Sample 5 (dataset index 2963) processed successfully with 3 rephrasings.
+Processing complete. Saved 5 successful results. Failed: 0

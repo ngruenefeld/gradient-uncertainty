@@ -88,3 +88,9 @@ solution: The arrangement of psychology you are refer to is call "cephalometry,"
 
 Sample 5 (dataset index 3476) processed successfully with 3 rephrasings.
 Processing complete. Saved 5 successful results. Failed: 0
+[main 35ac88d] QA Script Results for Run 1269 (Commit: d186667)
+ 3 files changed, 96 insertions(+)
+ create mode 100644 data/test/results_1269_llama-awq_trivia.pkl
+ create mode 100644 slurm-outputs/slurm.1269.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   d186667..35ac88d  main -> main
