@@ -401,10 +401,11 @@ def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.1
                 print(synonym)
 
                 synonym_tokens = tokenizer.encode(synonym, add_special_tokens=False)
-                print(synonym_tokens)
 
                 if len(synonym_tokens) == 1:
                     input_ids[i, j] = torch.tensor(synonym_tokens[0], device=device)
+                print(input_ids)
+                print()
 
     result = {"input_ids": input_ids}
     if attention_mask is not None:
