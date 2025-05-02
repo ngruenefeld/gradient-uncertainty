@@ -1,0 +1,35 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 320067bfae8093868407f443bfc6cf7ae3d1ca10
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1266
+Dataset: trivia
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 5
+Mode: test
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: synonym
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/5 (dataset index: 5547)
+Error processing sample 1 (dataset index 5547): 'tokenizers.Encoding' object is not subscriptable
+Processing sample 2/5 (dataset index: 1524)
+Error processing sample 2 (dataset index 1524): 'tokenizers.Encoding' object is not subscriptable
+Processing sample 3/5 (dataset index: 874)
+Error processing sample 3 (dataset index 874): 'tokenizers.Encoding' object is not subscriptable
+Processing sample 4/5 (dataset index: 7135)
+Error processing sample 4 (dataset index 7135): 'tokenizers.Encoding' object is not subscriptable
+Processing sample 5/5 (dataset index: 1957)
+Error processing sample 5 (dataset index 1957): 'tokenizers.Encoding' object is not subscriptable
+Processing complete, but no successful results to save. All 5 samples failed.

@@ -33,3 +33,9 @@ Sample 4 (dataset index 7057) processed successfully with 3 rephrasings.
 Processing sample 5/5 (dataset index: 3897)
 Sample 5 (dataset index 3897) processed successfully with 3 rephrasings.
 Processing complete. Saved 5 successful results. Failed: 0
+[main 320067b] QA Script Results for Run 1265 (Commit: 8ae6acd)
+ 2 files changed, 35 insertions(+)
+ create mode 100644 data/test/results_1265_llama-awq_trivia.pkl
+ create mode 100644 slurm-outputs/slurm.1265.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   aec9658..320067b  main -> main
