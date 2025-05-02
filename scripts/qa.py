@@ -289,6 +289,7 @@ def main(args):
                             replacement_prob=0.5,
                         )
                     )
+                    for _ in range(3)
                 ]
 
             rephrasing_lengths = []
