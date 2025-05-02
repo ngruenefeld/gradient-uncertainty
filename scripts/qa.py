@@ -284,15 +284,12 @@ def main(args):
                         return_tensors="pt",
                         add_special_tokens=False,
                     ).to(device)
-                    print(synonym_inputs)
                     modified_input_ids = replace_tokens_with_synonyms(
                         synonym_inputs, tokenizer, device, replacement_prob=1.0
                     )
-                    print(modified_input_ids)
                     modified_sentence = tokenizer.decode(modified_input_ids[0])
                     print(modified_sentence)
                     rephrasings.append(modified_sentence)
-                    print()
             print()
             rephrasing_lengths = []
             rephrasing_gradient_norms = []
