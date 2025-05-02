@@ -64,15 +64,17 @@ def process_test_samples(
                 labels = synonym_inputs.input_ids.clone().to(device)
                 print(f"Original: {inputs}")
                 print(f"Original: {inputs['input_ids']}")
-                # print(
-                #     f"Original: {tokenizer.decode(inputs['input_ids'], skip_special_tokens=True)}"
-                # )
+                print(
+                    f"Original: {tokenizer.decode(inputs['input_ids'][0], skip_special_tokens=True)}"
+                )
                 print(f"Synonyms: {synonym_inputs}")
-                # print(
-                #     f"Synonyms: {tokenizer.decode(synonym_inputs['input_ids'], skip_special_tokens=True)}"
-                # )
+                print(
+                    f"Synonyms: {tokenizer.decode(synonym_inputs['input_ids'][0], skip_special_tokens=True)}"
+                )
                 print(f"Labels: {labels}")
-                # print(f"Labels: {tokenizer.decode(labels, skip_special_tokens=True)}")
+                print(
+                    f"Labels: {tokenizer.decode(labels[0], skip_special_tokens=True)}"
+                )
             elif counterfactual == "identity":
                 labels = inputs.input_ids.clone().to(device)
             else:
