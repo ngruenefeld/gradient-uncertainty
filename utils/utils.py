@@ -372,6 +372,7 @@ def get_synonym(word):
 
 
 def token_to_word(token, tokenizer):
+    print(token)
     return tokenizer.decode([token]).strip()
 
 
@@ -387,6 +388,8 @@ def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.1
                 token_id = input_ids[i, j].item()
                 print(token_id)
                 word = token_to_word(token_id, tokenizer)
+                print(word)
+                print()
 
                 if (
                     word.lower() in stop_words
