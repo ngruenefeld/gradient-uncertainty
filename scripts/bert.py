@@ -16,6 +16,7 @@ from utils.utils import (
     bert_gradient,
     load_bert_datasets,
     replace_tokens_with_synonyms,
+    replace_tokens_with_random_tokens,
 )
 
 
@@ -28,6 +29,7 @@ def process_test_samples(
     results=None,
     normalize=False,
     counterfactual="identity",
+    replacement_prob=1.0,
 ):
     if results is None:
         results = []
@@ -59,9 +61,15 @@ def process_test_samples(
             elif counterfactual == "synonym":
                 # Replace tokens with synonyms
                 synonym_input_ids = replace_tokens_with_synonyms(
-                    inputs, tokenizer, device, replacement_prob=0.9
+                    inputs, tokenizer, device, replacement_prob=replacement_prob
                 )
                 labels = synonym_input_ids.clone().to(device)
+            elif counterfactual == "random":
+                # Replace tokens with random tokens
+                random_input_ids = replace_tokens_with_random_tokens(
+                    inputs, tokenizer, device, replacement_prob=replacement_prob
+                )
+                labels = random_input_ids.clone().to(device)
             elif counterfactual == "identity":
                 labels = inputs.input_ids.clone().to(device)
             else:
@@ -109,6 +117,7 @@ def main(args):
     counterfactual = args.counterfactual
     dataset_choice = args.dataset
     model_name = args.model
+    replacement_prob = args.replacement_prob
 
     print(f"Job number: {job_number}")
     print(f"Key mode: {key_mode}")
@@ -117,6 +126,7 @@ def main(args):
     print(f"Counterfactual: {counterfactual}")
     print(f"Dataset: {dataset_choice}")
     print(f"Model: {model_name}")
+    print(f"Replacement probability: {replacement_prob}")
 
     if key_mode == "keyfile":
         with open(os.path.expanduser(".hf_api_key"), "r") as f:
@@ -238,6 +248,7 @@ def main(args):
         phase="before",
         normalize=normalize,
         counterfactual=counterfactual,
+        replacement_prob=args.replacement_prob,
     )
 
     # Train the model
@@ -254,6 +265,7 @@ def main(args):
         results=results,
         normalize=normalize,
         counterfactual=counterfactual,
+        replacement_prob=args.replacement_prob,
     )
 
     # Total failed count
@@ -321,7 +333,7 @@ if __name__ == "__main__":
         "--counterfactual",
         type=str,
         default="identity",
-        choices=["identity", "constant", "synonym"],
+        choices=["identity", "constant", "synonym", "random"],
         help="How to choose labels for bert_gradient: 'identity' uses the same input, 'constant' uses the unknown token (default: identity)",
     )
     parser.add_argument(
@@ -337,6 +349,12 @@ if __name__ == "__main__":
         default="bert",
         choices=["bert", "electra", "roberta", "albert", "distilbert"],
         help="Which model to use for training and testing (default: bert)",
+    )
+    parser.add_argument(
+        "--replacement_prob",
+        type=float,
+        default=1.0,
+        help="Probability of replacing tokens when using 'synonym' or 'random' counterfactual modes (default: 1.0)",
     )
 
     args = parser.parse_args()

@@ -16,6 +16,7 @@ NORMALIZE=false  # Default to false
 COUNTERFACTUAL="identity"  # Default to identity
 DATASET="ag_news"  # Default dataset choice
 MODEL="bert"  # Default model choice
+REPLACEMENT_PROB=1.0  # Default replacement probability
 
 # Parse named arguments
 while [[ "$#" -gt 0 ]]; do
@@ -27,6 +28,7 @@ while [[ "$#" -gt 0 ]]; do
         --counterfactual=*) COUNTERFACTUAL="${1#*=}";;
         --dataset=*) DATASET="${1#*=}";;
         --model=*) MODEL="${1#*=}";;
+        --replacement_prob=*) REPLACEMENT_PROB="${1#*=}";;
         *) echo "Unknown option: $1" ;;
     esac
     shift
@@ -60,6 +62,10 @@ fi
 # Add model parameter (only add if not default)
 if [ "$MODEL" != "bert" ]; then
     CMD="$CMD --model \"$MODEL\""
+fi
+
+if [ "$REPLACEMENT_PROB" != "1.0" ] && { [ "$COUNTERFACTUAL" = "synonym" ] || [ "$COUNTERFACTUAL" = "random" ]; }; then
+    CMD="$CMD --replacement_prob \"$REPLACEMENT_PROB\""
 fi
 
 # Run the command

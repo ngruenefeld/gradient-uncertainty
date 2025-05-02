@@ -403,3 +403,33 @@ def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.1
                     input_ids[i, j] = synonym_tokens["input_ids"][0, 0]
 
     return input_ids
+
+
+def replace_tokens_with_random_tokens(inputs, tokenizer, device, replacement_prob=0.15):
+    stop_words = set(stopwords.words("english"))
+
+    input_ids = inputs["input_ids"].clone()
+
+    vocab_size = tokenizer.vocab_size
+
+    for i in range(input_ids.shape[0]):
+        for j in range(input_ids.shape[1]):
+            if random.random() < replacement_prob:
+                token_id = input_ids[i, j].item()
+                word = token_to_word(token_id, tokenizer)
+
+                if (
+                    word.lower() in stop_words
+                    or word.startswith("##")
+                    or not word.isalpha()
+                ):
+                    continue
+
+                random_token_id = random.randint(0, vocab_size - 1)
+
+                while random_token_id in tokenizer.all_special_ids:
+                    random_token_id = random.randint(0, vocab_size - 1)
+
+                input_ids[i, j] = random_token_id
+
+    return input_ids
