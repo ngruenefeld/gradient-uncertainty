@@ -65,8 +65,8 @@ def process_test_samples(
                     inputs, tokenizer, get_synonym
                 )
                 labels = synonym_inputs.input_ids.clone().to(device)
-                print(f"Original: {sentence}")
-                print(f"Synonyms: {tokenizer.decode(synonym_inputs['input_ids'][0])}")
+                print(f"Original: {inputs}")
+                print(f"Synonyms: {synonym_inputs}")
             elif counterfactual == "identity":
                 labels = inputs.input_ids.clone().to(device)
             else:
