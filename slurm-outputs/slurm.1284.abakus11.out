@@ -1,0 +1,48 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Unknown option: --number_of_permutations
+Unknown option: 5
+Running job with commit: def160030e2a9ffea94f8537ef4f516c08559868
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1284
+Dataset: trivia
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 5
+Mode: test
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: synonym
+Number of perturbations: 3
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/5 (dataset index: 5138)
+["Kon nie Hu Q, a former represent Er of the BBC kid's TV broadcast blue Peter, married her long- condition partner, comic author and actor, Justin Edward, in 2010.", "Kon nie Hu Q, a late submit ER of the BBC child's TV program low Peter, married her long- condition partner, com IC author and actor, Justin Edward, in 2010.", "Kon nie Hu Q, a late pose Er of the BBC child's television program Blue tool, married her long- condition partner, comic author and actor, Justin Edward, in 2010."]
+
+Sample 1 (dataset index 5138) processed successfully with 3 rephrasings.
+Processing sample 2/5 (dataset index: 7679)
+["The Davis cup is the PM external squad effect in man's tennis, admit annually since 1900. The rival is identify after American tennis player D Wight F. Davis, who establish the tournament in 1900. The Davis Cup is play between internal team, with each squad consist of four actor. The tournament is reserve over the run of a year, with squad compet ing in a serial of matches against other team in their various radical. The winner", "The Davis cup is the premier International squad event in piece's tennis, hold annually since 1900. The competition is advert after American tennis player Dwight F. Davis, who founded the tournament in 1900. The Davis cup is play between home team, with each squad consist of IV player. The tournament is contain over the naturally of a year, with squad compet ing in a serial of matches against other team in their several groups. The winner", "The Davis cup is the premier external squad consequence in man's tennis, held annually since 1900. The rival is describe after American tennis actor Dwight F. Davis, who found the tournament in 1900. The Davis cup is play between internal team, with each squad consist of four actor. The tournament is held over the grade of a year, with team compet ing in a serial of match against other team in their various radical. The success"]
+
+Sample 2 (dataset index 7679) processed successfully with 3 rephrasings.
+Processing sample 3/5 (dataset index: 1898)
+['A R ikishi is a character of aggregateo wrestler from Japan. The term "rikishi" literally mean "wrestler" in Japanese, and it is used to mention to the pro meato wrestlers who compete in the top ii division of the feature, mak Uuchi and sandanme. radius ikishi are typically large, Muscular men who weigh between 130 and 150 kil og drive (286-330', 'A r ikishi is a type of sumo wrestler from Japan. The condition "rikishi" literally means "w stayler" in Japanese, and it is used to mention to the pro coreo wrestlers who compete in the top II part of the sport, mak Uuchi and sandanme. r ikishi are typically big, Muscular piece who weigh between 130 and 150 kil ograms (286-330', 'A radius ikishi is a type of aggregateo wrestler from Japan. The condition "rikishi" literally way " W reliefler" in Japanese, and it is use to refer to the master sumo wrestlers who compete in the top II division of the sport, mak Uuchi and sandanme. R ikishi are typically big, Muscular man who weigh between 130 and 150 kil ograms (286-330']
+
+Sample 3 (dataset index 1898) processed successfully with 3 rephrasings.
+Processing sample 4/5 (dataset index: 1354)
+['answer: Robert L LE wellyn\n\n Robert l LE wellyn play the case of Abzor baloff in the doctor Who episode ‘ fiftyove and Mondaysters’ in 2006. L LE wellyn is a British com EDian and player, well know for his role in the ride coms ‘K ryten’ and ‘Red Dwarf’.', 'answer: Robert L LE wellyn\n\n Robert L LE wellyn play the character of Abzor baloff in the doctor Who episode ‘Love and Mondaysters’ in 2006. L LE wellyn is a British com EDian and actor, well known for his office in the sit coms ‘ kB ryten’ and ‘ ruby Dwar F’.', 'result: Robert L LE wellyn\n\n Robert l LE wellyn act the role of ABzor baloff in the repair Who episode ‘Love and Mondaysters’ in 2006. L LE wellyn is a British com EDian and player, best known for his role in the model coms ‘ kB ryten’ and ‘Red Dwar F’.']
+
+Sample 4 (dataset index 1354) processed successfully with 3 rephrasings.
+Processing sample 5/5 (dataset index: 6918)
+['Yellow knife is the capital of the north W Territories ( nWT), a Federal territory in northern Canada.', 'Yellow knife is the cap of the Union West Territories (NWT), a Federal territory in northern Canada.', 'Yellow knife is the great of the northwest Territories (NWT), a Federal territory in Northern Canada.']
+
+Sample 5 (dataset index 6918) processed successfully with 3 rephrasings.
+Processing complete. Saved 5 successful results. Failed: 0
