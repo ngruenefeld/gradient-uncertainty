@@ -64,18 +64,12 @@ def process_test_samples(
                     inputs, tokenizer, device, replacement_prob=replacement_prob
                 )
                 labels = synonym_input_ids.clone().to(device)
-                print(
-                    f"Original sentence: {sentence}\nSynonym sentence: {tokenizer.decode(synonym_input_ids[0])}"
-                )
             elif counterfactual == "random":
                 # Replace tokens with random tokens
                 random_input_ids = replace_tokens_with_random_tokens(
                     inputs, tokenizer, device, replacement_prob=replacement_prob
                 )
                 labels = random_input_ids.clone().to(device)
-                print(
-                    f"Original sentence: {sentence}\nRandom sentence: {tokenizer.decode(random_input_ids[0])}"
-                )
             elif counterfactual == "identity":
                 labels = inputs.input_ids.clone().to(device)
             else:
