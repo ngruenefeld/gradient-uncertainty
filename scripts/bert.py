@@ -15,7 +15,6 @@ import torch
 from utils.utils import (
     bert_gradient,
     load_bert_datasets,
-    get_synonym,
     replace_tokens_with_synonyms,
 )
 
@@ -60,9 +59,9 @@ def process_test_samples(
             elif counterfactual == "synonym":
                 # Replace tokens with synonyms
                 synonym_inputs = replace_tokens_with_synonyms(
-                    inputs, tokenizer, get_synonym, replacement_prob=0.9
+                    inputs, tokenizer, device, replacement_prob=0.9
                 )
-                # labels = synonym_inputs.input_ids.clone().to(device)
+                labels = synonym_inputs.input_ids.clone().to(device)
                 # # print(f"Original: {inputs}")
                 # print(
                 #     f"Original: {tokenizer.decode(inputs['input_ids'], skip_special_tokens=True)}"
