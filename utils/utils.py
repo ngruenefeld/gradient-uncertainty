@@ -366,6 +366,8 @@ def get_synonym(word):
             if lemma.name() != word and "_" not in lemma.name():
                 synonyms.append(lemma.name())
 
+    print(f"Synonyms for {word}: {synonyms}")
+
     if not synonyms:
         return word
     return random.choice(synonyms)
