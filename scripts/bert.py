@@ -16,8 +16,6 @@ from utils.utils import (
     bert_gradient,
     load_bert_datasets,
     get_synonym,
-    token_to_word,
-    word_to_token,
     replace_tokens_with_synonyms,
 )
 
@@ -66,17 +64,15 @@ def process_test_samples(
                 )
                 labels = synonym_inputs.input_ids.clone().to(device)
                 # print(f"Original: {inputs}")
-                # print(
-                #     f"Original: {tokenizer.batch_decode(inputs['input_ids'], skip_special_tokens=True)}"
-                # )
+                print(
+                    f"Original: {tokenizer.decode(inputs['input_ids'], skip_special_tokens=True)}"
+                )
                 # print(f"Synonyms: {synonym_inputs}")
-                # print(
-                #     f"Synonyms: {tokenizer.batch_decode(synonym_inputs['input_ids'], skip_special_tokens=True)}"
-                # )
+                print(
+                    f"Synonyms: {tokenizer.decode(synonym_inputs['input_ids'], skip_special_tokens=True)}"
+                )
                 # print(f"Labels: {labels}")
-                # print(
-                #     f"Labels: {tokenizer.batch_decode(labels, skip_special_tokens=True)}"
-                # )
+                print(f"Labels: {tokenizer.decode(labels, skip_special_tokens=True)}")
             elif counterfactual == "identity":
                 labels = inputs.input_ids.clone().to(device)
             else:

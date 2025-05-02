@@ -366,8 +366,6 @@ def get_synonym(word):
             if lemma.name() != word and "_" not in lemma.name():
                 synonyms.append(lemma.name())
 
-    print(f"Synonyms for {word}: {synonyms}")
-
     if not synonyms:
         return word
     return random.choice(synonyms)
@@ -375,10 +373,6 @@ def get_synonym(word):
 
 def token_to_word(token, tokenizer):
     return tokenizer.decode([token]).strip()
-
-
-def word_to_token(word, tokenizer, device):
-    return tokenizer(word, return_tensors="pt", add_special_tokens=False).to(device)
 
 
 def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.15):
@@ -401,7 +395,9 @@ def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.1
 
                 synonym = get_synonym(word)
 
-                synonym_tokens = word_to_token(synonym, tokenizer, device)
+                synonym_tokens = tokenizer(
+                    synonym, return_tensors="pt", add_special_tokens=False
+                ).to(device)
 
                 if synonym_tokens["input_ids"].shape[1] == 1:
                     input_ids[i, j] = synonym_tokens["input_ids"][0, 0]
