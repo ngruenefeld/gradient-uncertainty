@@ -402,6 +402,8 @@ def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.1
                 print(synonym_tokens)
 
                 if synonym_tokens["input_ids"].shape[1] == 1:
+                    print("Replacing token")
+                    print(synonym_tokens["input_ids"][0, 0])
                     input_ids[i, j] = synonym_tokens["input_ids"][0, 0]
 
     inputs["input_ids"] = input_ids
