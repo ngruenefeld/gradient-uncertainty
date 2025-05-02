@@ -377,18 +377,18 @@ def token_to_word(token, tokenizer):
 
 
 def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.15):
-    print(inputs)
     stop_words = set(stopwords.words("english"))
 
     input_ids = inputs["input_ids"].clone()
+    attention_mask = (
+        inputs["attention_mask"].clone() if "attention_mask" in inputs else None
+    )
 
     for i in range(input_ids.shape[0]):
         for j in range(input_ids.shape[1]):
             if random.random() < replacement_prob:
                 token_id = input_ids[i, j].item()
-                print(token_id)
-                word = token_to_word(token_id, tokenizer)
-                print(word)
+                word = tokenizer.decode([token_id]).strip()
 
                 if (
                     word.lower() in stop_words
@@ -398,16 +398,14 @@ def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.1
                     continue
 
                 synonym = get_synonym(word)
-                print(synonym)
 
-                synonym_tokens = tokenizer(
-                    synonym, return_tensors="pt", add_special_tokens=False
-                ).to(device)
-                print(synonym_tokens)
+                synonym_tokens = tokenizer.encode(synonym, add_special_tokens=False)
 
-                if synonym_tokens["input_ids"].shape[1] == 1:
-                    input_ids[i, j] = synonym_tokens["input_ids"][0, 0]
+                if len(synonym_tokens) == 1:
+                    input_ids[i, j] = torch.tensor(synonym_tokens[0], device=device)
 
-    inputs["input_ids"] = input_ids
-    print()
-    return inputs
+    result = {"input_ids": input_ids}
+    if attention_mask is not None:
+        result["attention_mask"] = attention_mask
+
+    return result
