@@ -375,7 +375,7 @@ def token_to_word(token, tokenizer):
     return tokenizer.decode([token]).strip()
 
 
-def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=0.15):
+def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=1):
     stop_words = set(stopwords.words("english"))
 
     input_ids = inputs["input_ids"].clone()

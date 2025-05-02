@@ -18,6 +18,7 @@ STREAMING=false
 QUANTIZATION=0  # 0 = no quantization (default)
 FULL_GRADIENT=false  # Default to false (which means response_only is true)
 NORMALIZE=false  # Default to false
+PERTURBATION_MODE="rephrase"
 
 # Parse named arguments
 while [[ "$#" -gt 0 ]]; do
@@ -31,6 +32,7 @@ while [[ "$#" -gt 0 ]]; do
         --quantization=*) QUANTIZATION="${1#*=}";;
         --full_gradient) FULL_GRADIENT=true;;
         --normalize) NORMALIZE=true;;
+        --perturbation_mode=*) PERTURBATION_MODE="${1#*=}";;
         *) echo "Unknown option: $1" ;;
     esac
     shift
@@ -44,7 +46,7 @@ echo "Running job with commit: $COMMIT_ID"
 source env/bin/activate
 
 # Build the command with all required parameters
-CMD="python -um scripts.qa \"$SLURM_JOB_ID\" --dataset \"$DATASET\" --model \"$MODEL\" --gpt_model \"$GPT_MODEL\" --key_mode \"$KEY_MODE\" --sample_size \"$SAMPLE_SIZE\""
+CMD="python -um scripts.qa \"$SLURM_JOB_ID\" --dataset \"$DATASET\" --model \"$MODEL\" --gpt_model \"$GPT_MODEL\" --key_mode \"$KEY_MODE\" --sample_size \"$SAMPLE_SIZE\" --perturbation_mode \"$PERTURBATION_MODE\""
 
 # Add streaming flag if enabled
 if [ "$STREAMING" = true ]; then

@@ -10,7 +10,12 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import BitsAndBytesConfig
 
 from utils.gpt import rephrase_text, evaluate_answers
-from utils.utils import get_response, completion_gradient
+from utils.utils import (
+    get_response,
+    completion_gradient,
+    replace_tokens_with_synonyms,
+    replace_tokens_with_random_tokens,
+)
 
 
 def main(args):
@@ -25,6 +30,7 @@ def main(args):
     full_gradient = args.full_gradient
     response_only = not full_gradient  # Inverse of full_gradient
     normalize = args.normalize
+    perturbation_mode = args.perturbation_mode
 
     mode = "full" if sample_size == 0 else "test" if sample_size < 100 else "sampled"
 
@@ -42,6 +48,7 @@ def main(args):
     print(f"Full gradient: {full_gradient}")
     print(f"Response only: {response_only}")
     print(f"Normalize: {normalize}")
+    print(f"Perturbation mode: {perturbation_mode}")
 
     if model_name == "gpt2":
         model_path = "gpt2"
@@ -256,17 +263,33 @@ def main(args):
             # Clear memory after calculating gradient
             torch.cuda.empty_cache()
 
-            # Get rephrasings (with built-in error handling)
-            rephrasings_result = rephrase_text(completion, oai_client, gpt_model)
-            if "error" in rephrasings_result:
-                print(
-                    f"Error getting rephrasings for sample {current_sample} (dataset index {dataset_idx}): {rephrasings_result['error']}"
-                )
-                failed_count += 1
-                torch.cuda.empty_cache()  # Ensure memory is freed
-                continue
+            if perturbation_mode == "rephrase":
+                # Get rephrasings
+                rephrasings_result = rephrase_text(completion, oai_client, gpt_model)
+                if "error" in rephrasings_result:
+                    print(
+                        f"Error getting rephrasings for sample {current_sample} (dataset index {dataset_idx}): {rephrasings_result['error']}"
+                    )
+                    failed_count += 1
+                    torch.cuda.empty_cache()  # Ensure memory is freed
+                    continue
 
-            rephrasings = rephrasings_result["rephrasings"]
+                rephrasings = rephrasings_result["rephrasings"]
+            elif perturbation_mode == "synonym":
+                rephrasings = [
+                    tokenizer.decode(
+                        replace_tokens_with_synonyms(
+                            tokenizer(
+                                completion,
+                                return_tensors="pt",
+                                add_special_tokens=False,
+                            ).to(device)[0],
+                            tokenizer,
+                            device,
+                            replacement_prob=0.5,
+                        )
+                    )
+                ]
 
             rephrasing_lengths = []
             rephrasing_gradient_norms = []
@@ -446,6 +469,12 @@ if __name__ == "__main__":
         action="store_true",
         default=False,
         help="Normalize the gradients (default: False)",
+    )
+    parser.add_argument(
+        "--perturbation_mode",
+        type=str,
+        default="rephrase",
+        help="Mode for perturbation: rephrase, synonym, or random",
     )
 
     args = parser.parse_args()
