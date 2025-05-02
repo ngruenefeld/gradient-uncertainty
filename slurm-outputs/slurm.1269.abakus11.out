@@ -1,0 +1,90 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: d18666770d064ad80c7bbe7ccefdd41abbe818f1
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1269
+Dataset: trivia
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 5
+Mode: test
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: synonym
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/5 (dataset index: 1302)
+The fourth series of the BBC sitcom ‘Blackadder’, titled ‘Blackadder Goes Forth’, is set during World War I.
+The fourth serial of the BBC sit com ‘ black ADder’, titled ‘Black AD d go E Forth’, is set during world war I.
+The fourth serial of the BBC sit com ‘Black ADder’, title ‘Blackad d live E Forth’, is fix during World War I.
+The fourth serial of the BBC ride com ‘ black advert d’, style ‘Blackad d go e Forth’, is position during domain war I.
+
+['The fourth serial of the BBC sit com ‘ black ADder’, titled ‘Black AD d go E Forth’, is set during world war I.', 'The fourth serial of the BBC sit com ‘Black ADder’, title ‘Blackad d live E Forth’, is fix during World War I.', 'The fourth serial of the BBC ride com ‘ black advert d’, style ‘Blackad d go e Forth’, is position during domain war I.']
+
+Sample 1 (dataset index 1302) processed successfully with 3 rephrasings.
+Processing sample 2/5 (dataset index: 5592)
+In 1936, the bestselling American fiction novel was "Gone with the Wind" by Margaret Mitchell.
+In 1937, the bestselling American fiction novel was also "Gone with the Wind" by Margaret Mitchell.
+Margaret Mitchell was born in 1900 in Atlanta, Georgia, and died in 1949. She was a journalist and a historian before she began writing her first novel, "Gone
+In 1936, the goodselling American fiction new was "G single with the wind" by Margaret Mitchell.
+In 1937, the bestselling American fiction new was too "G unity with the Wind" by Margaret Mitchell.
+M argaret Mitchell was born in 1900 in Atlanta, Georgia, and break in 1949. She was a journalist and a historian before she begin save her first new, "Gone
+In 1936, the wellselling American fiction new was " grandone with the Wind" by Margaret Mitchell.
+In 1937, the wellselling American fiction novel was besides "G i with the Wind" by Margaret Mitchell.
+M argaret Mitchell was born in 1900 in Atlanta, Georgia, and die in 1949. She was a journalist and a historian before she begin compose her low new, "Gone
+In 1936, the goodselling American fiction novel was "Gone with the lead" by Margaret Mitchell.
+In 1937, the secureselling American fiction fresh was too "Gone with the nose" by Margaret Mitchell.
+M argaret Mitchell was carry in 1900 in Atlanta, Georgia, and die in 1949. She was a journalist and a historian before she start write her low new, " GBone
+
+['In 1936, the goodselling American fiction new was "G single with the wind" by Margaret Mitchell.\nIn 1937, the bestselling American fiction new was too "G unity with the Wind" by Margaret Mitchell.\nM argaret Mitchell was born in 1900 in Atlanta, Georgia, and break in 1949. She was a journalist and a historian before she begin save her first new, "Gone', 'In 1936, the wellselling American fiction new was " grandone with the Wind" by Margaret Mitchell.\nIn 1937, the wellselling American fiction novel was besides "G i with the Wind" by Margaret Mitchell.\nM argaret Mitchell was born in 1900 in Atlanta, Georgia, and die in 1949. She was a journalist and a historian before she begin compose her low new, "Gone', 'In 1936, the goodselling American fiction novel was "Gone with the lead" by Margaret Mitchell.\nIn 1937, the secureselling American fiction fresh was too "Gone with the nose" by Margaret Mitchell.\nM argaret Mitchell was carry in 1900 in Atlanta, Georgia, and die in 1949. She was a journalist and a historian before she start write her low new, " GBone']
+
+Sample 2 (dataset index 5592) processed successfully with 3 rephrasings.
+Processing sample 3/5 (dataset index: 5359)
+Friday's child is full of grace.
+Fri's kid is wide of grace.
+Fri's child is full of grace.
+Fri's child is total of grace.
+
+["Fri's kid is wide of grace.", "Fri's child is full of grace.", "Fri's child is total of grace."]
+
+Sample 3 (dataset index 5359) processed successfully with 3 rephrasings.
+Processing sample 4/5 (dataset index: 3669)
+Marat was a physician.
+
+Correct! Jean-Paul Marat was a physician and a prominent figure in the French Revolution. He was known for his radical political views and his advocacy for the execution of King Louis XVI, which he believed was necessary to achieve true revolutionary change. Marat was a vocal critic of the conservative factions within the Revolution and was a strong supporter of the sans-culottes, a group of working-class revolution
+Marat was a physician.
+
+ Cor rect! Jean-Paul Marat was a physician and a prominent frame in the French rotation. He was recognize for his root political view and his advocacy for the execution of queen Louis XVI, which he believe was requirement to achieve straight rotationary vary. Marchat was a song critic of the conservative factions inside the revolution and was a solid supporter of the sans- cul ott E, a group of working-class revolution
+Marat was a physician.
+
+ Cor rect! Jean-Paul marat was a physician and a big figure in the French Revolution. He was known for his radical political opinion and his advocacy for the executing of King Louis XVI, which he believe was necessity to achieve true rotationary shift. Marat was a vocal critic of the conservative factions inside the Revolution and was a strong supporter of the sans- cul ottes, a group of work- course revolution
+Marat was a physician.
+
+ Cor rect! Jean-Paul marat was a physician and a prominent see in the French revolution. He was known for his group political view and his advocacy for the execution of king Louis XVI, which he trust was requirement to accomplish true rotationary alter. Marat was a vocal critic of the conservative factions inside the revolution and was a strong supporter of the sans- cul ott Es, a grouping of work- sort revolution
+
+['Marat was a physician.\n\n Cor rect! Jean-Paul Marat was a physician and a prominent frame in the French rotation. He was recognize for his root political view and his advocacy for the execution of queen Louis XVI, which he believe was requirement to achieve straight rotationary vary. Marchat was a song critic of the conservative factions inside the revolution and was a solid supporter of the sans- cul ott E, a group of working-class revolution', 'Marat was a physician.\n\n Cor rect! Jean-Paul marat was a physician and a big figure in the French Revolution. He was known for his radical political opinion and his advocacy for the executing of King Louis XVI, which he believe was necessity to achieve true rotationary shift. Marat was a vocal critic of the conservative factions inside the Revolution and was a strong supporter of the sans- cul ottes, a group of work- course revolution', 'Marat was a physician.\n\n Cor rect! Jean-Paul marat was a physician and a prominent see in the French revolution. He was known for his group political view and his advocacy for the execution of king Louis XVI, which he trust was requirement to accomplish true rotationary alter. Marat was a vocal critic of the conservative factions inside the revolution and was a strong supporter of the sans- cul ott Es, a grouping of work- sort revolution']
+
+Sample 4 (dataset index 3669) processed successfully with 3 rephrasings.
+Processing sample 5/5 (dataset index: 3476)
+Answer: The system of psychology you are referring to is called "cephalometry," which was popularized by Franz Joseph Gall and Johann Christian Spurzheim in the 19th century. Cephalometry is based on the idea that the shape and size of the skull can reveal information about an individual's mental faculties and dispositions. This theory was known as "phrenology."
+Phrenology was developed by Gall and Spurzheim, who
+answer: The organisation of psychology you are denote to is call " CEphalometry," which was popized by Franz Joseph Gall and Johann Christian Spurzheim in the 19th C. Cephalometry is base on the estimation that the form and size of the skull can reve Alabama info about an single's mental facult y and dispositions. This possibility was known as "ph renology."
+ phrenology was develop by gall and Spurzheim, who
+respond: The scheme of psychology you are name to is call " Cephalometry," which was popized by Franz Joseph Gall and Johann Christian Spurzheim in the 19th hundred. Cephalometry is ground on the approximation that the shape and size of the skull can reveal data about an someone's mental facult y and dispositions. This hypothesis was known as "ph renology."
+ phrenology was train by Gall and Spurzheim, who
+solution: The arrangement of psychology you are refer to is call "cephalometry," which was popized by Franz Joseph gall and Johann Christian Spurzheim in the 19 Th C. Cephalometry is based on the theme that the form and size of the skull can reve AL data about an private's mental facult Y and dispositions. This hypothesis was jazz as "ph renology."
+ phrenology was developed by Gall and Spurzheim, who
+
+['answer: The organisation of psychology you are denote to is call " CEphalometry," which was popized by Franz Joseph Gall and Johann Christian Spurzheim in the 19th C. Cephalometry is base on the estimation that the form and size of the skull can reve Alabama info about an single\'s mental facult y and dispositions. This possibility was known as "ph renology."\n phrenology was develop by gall and Spurzheim, who', 'respond: The scheme of psychology you are name to is call " Cephalometry," which was popized by Franz Joseph Gall and Johann Christian Spurzheim in the 19th hundred. Cephalometry is ground on the approximation that the shape and size of the skull can reveal data about an someone\'s mental facult y and dispositions. This hypothesis was known as "ph renology."\n phrenology was train by Gall and Spurzheim, who', 'solution: The arrangement of psychology you are refer to is call "cephalometry," which was popized by Franz Joseph gall and Johann Christian Spurzheim in the 19 Th C. Cephalometry is based on the theme that the form and size of the skull can reve AL data about an private\'s mental facult Y and dispositions. This hypothesis was jazz as "ph renology."\n phrenology was developed by Gall and Spurzheim, who']
+
+Sample 5 (dataset index 3476) processed successfully with 3 rephrasings.
+Processing complete. Saved 5 successful results. Failed: 0

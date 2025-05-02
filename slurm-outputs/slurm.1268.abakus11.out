@@ -364,3 +364,9 @@ Scal lo PS
 
 Sample 5 (dataset index 3909) processed successfully with 3 rephrasings.
 Processing complete. Saved 5 successful results. Failed: 0
+[main a7571a3] QA Script Results for Run 1268 (Commit: 498ac3b)
+ 3 files changed, 372 insertions(+)
+ create mode 100644 data/test/results_1268_llama-awq_trivia.pkl
+ create mode 100644 slurm-outputs/slurm.1268.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   498ac3b..a7571a3  main -> main
