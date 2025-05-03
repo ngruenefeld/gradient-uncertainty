@@ -480,3 +480,26 @@ def load_multilingual_datasets(choice="finenews"):
 
     else:
         raise ValueError(f"Dataset {choice} not supported.")
+
+
+def get_summarization_instruction(language="en"):
+    if language == "en":
+        return "Summarize the following text:\n"
+    elif language == "de":
+        return "Fassen Sie den folgenden Text zusammen:\n"
+    elif language == "es":
+        return "Resume el siguiente texto:\n"
+    elif language == "fr":
+        return "Résumez le texte suivant:\n"
+    elif language == "it":
+        return "Riassumi il seguente testo:\n"
+    elif language == "ko":
+        return "다음 텍스트를 요약하세요:\n"
+    elif language == "pt":
+        return "Resuma o seguinte texto:\n"
+    elif language == "ru":
+        return "Подведите итог следующему тексту:\n"
+    elif language == "zh":
+        return "总结以下文本：\n"
+    else:
+        raise ValueError(f"Language {language} not supported.")

@@ -4,7 +4,6 @@ import random
 
 import pandas as pd
 import torch
-from datasets import load_dataset
 from openai import OpenAI
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import BitsAndBytesConfig
@@ -16,6 +15,7 @@ from utils.utils import (
     replace_tokens_with_synonyms,
     replace_tokens_with_random_tokens,
     load_multilingual_datasets,
+    get_summarization_instruction,
 )
 
 
@@ -142,11 +142,8 @@ def main(args):
 
     tokenizer = AutoTokenizer.from_pretrained(model_path, **tokenizer_params)
 
-    # Load datasets in streaming mode if requested
     data = load_multilingual_datasets(dataset_name)
-    data = data.filter(lambda example: example["language"] == "en")
 
-    # Handle dataset sampling based on streaming mode
     if sample_size > 0:
         data_list = list(data)
         indices = random.sample(range(len(data_list)), sample_size)
@@ -170,14 +167,7 @@ def main(args):
             language = item["language"]
             origin = item["origin"]
 
-            if language != "en":
-                print(
-                    f"Skipping sample {current_sample} (dataset index {dataset_idx}) due to unsupported language: {language}"
-                )
-                failed_count += 1
-                continue
-
-            prompt = "Summarize the following text:\n" + article
+            prompt = get_summarization_instruction(language=language) + article
 
             # Get response (with built-in error handling)
             completion_result = get_response(prompt, model, tokenizer, device)
@@ -219,7 +209,9 @@ def main(args):
 
             if perturbation_mode == "rephrase":
                 # Get rephrasings
-                rephrasings_result = rephrase_text(completion, oai_client, gpt_model)
+                rephrasings_result = rephrase_text(
+                    completion, oai_client, gpt_model, language=language
+                )
                 if "error" in rephrasings_result:
                     print(
                         f"Error getting rephrasings for sample {current_sample} (dataset index {dataset_idx}): {rephrasings_result['error']}"
