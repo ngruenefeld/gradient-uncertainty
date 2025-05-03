@@ -385,8 +385,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--dataset",
         type=str,
-        default="truthful",
-        help="Dataset to use: truthful, natural, trivia",
+        default="finenews",
+        help="Dataset to use: finenews",
     )
     parser.add_argument(
         "--model",

@@ -9,7 +9,7 @@
 #SBATCH --ntasks=1
 
 # Default values
-DATASET="truthful"
+DATASET="finenews"
 MODEL="gpt2"
 GPT_MODEL="gpt-4o-mini-2024-07-18"
 KEY_MODE="keyfile"
