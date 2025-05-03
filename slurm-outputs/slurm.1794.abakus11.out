@@ -1,0 +1,29 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: c9cbb94e63321d9cddf15995955ad4ff44d6b2d3
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1794
+Dataset: vript
+Model: llama-2-7b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.19s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.40s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.52s/it]
+Processing sample 1/300 (dataset index: 152)
+Processing sample 1 (dataset index 152) with language 'de' and origin 'vript'
+Article: Der Videotitel '小伙去村里最恐怖的深潭放地笼，用猪血做诱饵，收获很意外' deutet darauf hin, dass ein junger Mann in einem Dorf zu einem tiefen Teich geht, um dort eine Fischreuse auszusetzen, Schweineblut als Köder verwendet und eine überraschende Ausbeute hat. In den Videobildern ist ein ruhiger, blauer Teich zu sehen, der von steilen Felsen und dichter Vegetation umgeben ist. Der Teich scheint tief zu sein und weist einen Eingang oder eine Höhle auf, die möglicherweise unter Wasser führt. Die Umgebung wirkt ruhig und unberührt, wobei die natürliche Szenerie friedlich und abgeschieden erscheint. Es gibt keine Menschen oder Tiere in den gezeigten Rahmen; die Szene konzentriert sich ganz auf die natürliche Schönheit und Isolation des Teichs. Das Licht scheint natürlich und deutet auf Tageslicht hin, möglicherweise am späten Nachmittag, da die Schatten weich sind. Es gibt keine Texte oder Untertitel in den Rahmen, daher muss der Inhalt aus dem Kontext des Titels interpretiert werden. Der Videostil ist dokumentarisch mit einer statischen Kameraführung, die den Zuschauern erlaubt, die Stille und Ruhe des Ortes aufzunehmen.
+Sample 1 (dataset index 152) processed successfully with 3 rephrasings.
+Processing complete. Saved 1 successful results. Failed: 0
