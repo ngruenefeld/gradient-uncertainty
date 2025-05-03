@@ -44,3 +44,9 @@ Sample 9 (dataset index 37367) processed successfully with 3 rephrasings.
 Processing sample 10/10 (dataset index: 50475)
 Sample 10 (dataset index 50475) processed successfully with 3 rephrasings.
 Processing complete. Saved 9 successful results. Failed: 1
+[main 7d822c5] Multilingual Script Results for Run 1754 (Commit: 08f14ad)
+ 2 files changed, 46 insertions(+)
+ create mode 100644 data/test/multiling_results_1754_llama-awq_rephrase_finenews.pkl
+ create mode 100644 slurm-outputs/slurm.1754.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   08f14ad..7d822c5  main -> main
