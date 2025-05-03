@@ -144,6 +144,7 @@ def main(args):
 
     # Load datasets in streaming mode if requested
     data = load_multilingual_datasets(dataset_name)
+    data = data.filter(lambda example: example["language"] == "en")
 
     # Handle dataset sampling based on streaming mode
     if sample_size > 0:
