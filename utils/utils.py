@@ -449,7 +449,7 @@ def load_multilingual_datasets(choice="finenews"):
             "zh",
         ]
 
-        sample_size = 1000
+        sample_size = 100
 
         dataset = load_dataset(
             "maxidl/FineNews-unfiltered", name="CC-NEWS-2024-05", streaming=True
