@@ -478,6 +478,61 @@ def load_multilingual_datasets(choice="finenews"):
 
         return Dataset.from_dict(data)
 
+    elif choice == "vript":
+        languages = {
+            "english": "en",
+            "german": "de",
+            # "spanish": "es",
+            # "french": "fr",
+            # "italian": "it",
+            # "korean": "ko",
+            # "portuguese": "pt",
+            # "russian": "ru",
+            "chinese": "zh",
+        }
+
+        sample_size = 10
+        total_sample_size = len(languages) * sample_size
+
+        count = 0
+
+        dataset = load_dataset(
+            "Mutonix/Vript_Multilingual", split="train", streaming=True
+        )
+
+        data = {
+            languages[lang]: {
+                "text": [],
+                "origin": [],
+                "language": [],
+            }
+            for lang in languages
+        }
+
+        for example in dataset:
+            if example["lang"] not in languages:
+                continue
+            if count >= total_sample_size:
+                break
+            cur_lang = languages[example["lang"]]
+            if len(data[cur_lang]["text"]) < sample_size:
+                data[cur_lang]["text"].append(example["caption"]["content"])
+                data[cur_lang]["origin"].append("vript")
+                data[cur_lang]["language"].append(cur_lang)
+                count += 1
+
+        full_data = {
+            "text": [],
+            "origin": [],
+            "language": [],
+        }
+        for lang in data:
+            full_data["text"].extend(data[lang]["text"])
+            full_data["origin"].extend(data[lang]["origin"])
+            full_data["language"].extend(data[lang]["language"])
+
+        return Dataset.from_dict(full_data)
+
     else:
         raise ValueError(f"Dataset {choice} not supported.")
 

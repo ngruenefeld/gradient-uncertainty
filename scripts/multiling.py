@@ -374,7 +374,7 @@ if __name__ == "__main__":
         "--dataset",
         type=str,
         default="finenews",
-        help="Dataset to use: finenews",
+        help="Dataset to use: finenews, vript",
     )
     parser.add_argument(
         "--model",
