@@ -433,3 +433,50 @@ def replace_tokens_with_random_tokens(inputs, tokenizer, device, replacement_pro
                 input_ids[i, j] = random_token_id
 
     return input_ids
+
+
+def load_multilingual_datasets(choice="finenews"):
+    if choice == "finenews":
+        languages = [
+            "en",
+            "de",
+            "es",
+            "fr",
+            "it",
+            "ko",
+            "pt",
+            "ru",
+            "zh",
+        ]
+
+        sample_size = 10000
+
+        dataset = load_dataset(
+            "maxidl/FineNews-unfiltered", name="CC-NEWS-2024-05", streaming=True
+        )
+
+        data = {
+            "text": [],
+            "origin": [],
+            "language": [],
+        }
+
+        for lang in languages:
+            lang_dataset = dataset[lang]
+            content_samples = []
+            count = 0
+
+            for example in lang_dataset:
+                if count >= sample_size:
+                    break
+                content_samples.append(example["text"])
+                count += 1
+
+            data["text"].extend(content_samples)
+            data["origin"].extend(["finenews"] * len(content_samples))
+            data["language"].extend([lang] * len(content_samples))
+
+        return Dataset.from_dict(data)
+
+    else:
+        raise ValueError(f"Dataset {choice} not supported.")
