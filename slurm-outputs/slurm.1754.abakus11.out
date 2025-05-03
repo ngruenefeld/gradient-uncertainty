@@ -1,0 +1,46 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 08f14addc2c541f30893fbc48f906fc64fe5c98f
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1754
+Dataset: finenews
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 10
+Mode: test
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/10 (dataset index: 18859)
+Sample 1 (dataset index 18859) processed successfully with 3 rephrasings.
+Processing sample 2/10 (dataset index: 13300)
+Sample 2 (dataset index 13300) processed successfully with 3 rephrasings.
+Processing sample 3/10 (dataset index: 83734)
+Sample 3 (dataset index 83734) processed successfully with 3 rephrasings.
+Processing sample 4/10 (dataset index: 69456)
+Sample 4 (dataset index 69456) processed successfully with 3 rephrasings.
+Processing sample 5/10 (dataset index: 31960)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 48.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 9.06 MiB is free. Including non-PyTorch memory, this process has 19.54 GiB memory in use. Of the allocated memory 18.38 GiB is allocated by PyTorch, and 947.72 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 5 (dataset index 31960): CUDA out of memory. Tried to allocate 48.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 9.06 MiB is free. Including non-PyTorch memory, this process has 19.54 GiB memory in use. Of the allocated memory 18.38 GiB is allocated by PyTorch, and 947.72 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 6/10 (dataset index: 8950)
+Sample 6 (dataset index 8950) processed successfully with 3 rephrasings.
+Processing sample 7/10 (dataset index: 79594)
+Sample 7 (dataset index 79594) processed successfully with 3 rephrasings.
+Processing sample 8/10 (dataset index: 10864)
+Sample 8 (dataset index 10864) processed successfully with 3 rephrasings.
+Processing sample 9/10 (dataset index: 37367)
+Sample 9 (dataset index 37367) processed successfully with 3 rephrasings.
+Processing sample 10/10 (dataset index: 50475)
+Sample 10 (dataset index 50475) processed successfully with 3 rephrasings.
+Processing complete. Saved 9 successful results. Failed: 1
