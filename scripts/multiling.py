@@ -145,6 +145,9 @@ def main(args):
     total_samples = sample_size if sample_size > 0 else len(data_samples)
 
     for dataset_idx, item in data_samples:
+        if dataset_idx != 152:
+            continue
+
         current_sample = processed_count + failed_count + 1
         print(
             f"Processing sample {current_sample}/{total_samples} (dataset index: {dataset_idx})"
