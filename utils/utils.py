@@ -489,7 +489,7 @@ def load_multilingual_datasets(choice="finenews"):
             "chinese": "zh",
         }
 
-        sample_size = 3
+        sample_size = 100
         total_sample_size = len(languages) * sample_size
 
         count = 0

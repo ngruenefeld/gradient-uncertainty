@@ -10,7 +10,6 @@ from transformers import BitsAndBytesConfig
 
 from utils.gpt import rephrase_text
 from utils.utils import (
-    get_response,
     completion_gradient,
     replace_tokens_with_synonyms,
     replace_tokens_with_random_tokens,
