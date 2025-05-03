@@ -15,6 +15,7 @@ def get_response(prompt, model, tokenizer, device):
         model.eval()
 
         # Use no_grad to prevent gradient storage during inference
+        print(f"Prompt: {prompt}")
         with torch.no_grad():
             inputs = tokenizer(prompt, return_tensors="pt").to(device)
             outputs = model.generate(**inputs, max_new_tokens=100)
@@ -24,6 +25,8 @@ def get_response(prompt, model, tokenizer, device):
             completion = generated_text[len(prompt) :].strip()
         else:
             completion = generated_text
+        print(f"Completion: {completion}")
+        print()
 
         # Free memory
         del inputs, outputs
@@ -491,7 +494,7 @@ def load_multilingual_datasets(choice="finenews"):
             "chinese": "zh",
         }
 
-        sample_size = 100
+        sample_size = 10
         total_sample_size = len(languages) * sample_size
 
         count = 0

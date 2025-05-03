@@ -310,7 +310,7 @@ def main(args):
 
             # Add successful result to our collection
             result_entry = {
-                "question": prompt,
+                "prompt": prompt,
                 "language": language,
                 "origin": origin,
                 "completion": completion,
