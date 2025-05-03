@@ -519,7 +519,6 @@ def load_multilingual_datasets(choice="finenews"):
 
         full_data = {
             "text": [],
-            "origin": [],
             "language": [],
         }
         for lang in data:
