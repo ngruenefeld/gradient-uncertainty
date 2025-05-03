@@ -1,0 +1,402 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 8a449d0f200b9f18314807f65f8656acab7462df
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1768
+Dataset: finenews
+Model: llama-2-7b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Loading model in 4-bit precision to reduce memory usage
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Downloading shards:  50%|█████     | 1/2 [03:16<03:16, 196.48s/it]Downloading shards: 100%|██████████| 2/2 [04:36<00:00, 127.97s/it]Downloading shards: 100%|██████████| 2/2 [04:36<00:00, 138.24s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [01:27<01:27, 87.92s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:58<00:00, 54.44s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:58<00:00, 59.46s/it]
+Processing sample 1/900 (dataset index: 0)
+Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
+Processing sample 2/900 (dataset index: 1)
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/900 (dataset index: 2)
+Sample 3 (dataset index 2) processed successfully with 3 rephrasings.
+Processing sample 4/900 (dataset index: 3)
+Sample 4 (dataset index 3) processed successfully with 3 rephrasings.
+Processing sample 5/900 (dataset index: 4)
+Sample 5 (dataset index 4) processed successfully with 3 rephrasings.
+Processing sample 6/900 (dataset index: 5)
+Sample 6 (dataset index 5) processed successfully with 3 rephrasings.
+Processing sample 7/900 (dataset index: 6)
+Sample 7 (dataset index 6) processed successfully with 3 rephrasings.
+Processing sample 8/900 (dataset index: 7)
+Sample 8 (dataset index 7) processed successfully with 3 rephrasings.
+Processing sample 9/900 (dataset index: 8)
+Sample 9 (dataset index 8) processed successfully with 3 rephrasings.
+Processing sample 10/900 (dataset index: 9)
+Sample 10 (dataset index 9) processed successfully with 3 rephrasings.
+Processing sample 11/900 (dataset index: 10)
+Sample 11 (dataset index 10) processed successfully with 3 rephrasings.
+Processing sample 12/900 (dataset index: 11)
+Sample 12 (dataset index 11) processed successfully with 3 rephrasings.
+Processing sample 13/900 (dataset index: 12)
+Sample 13 (dataset index 12) processed successfully with 3 rephrasings.
+Processing sample 14/900 (dataset index: 13)
+Sample 14 (dataset index 13) processed successfully with 3 rephrasings.
+Processing sample 15/900 (dataset index: 14)
+Sample 15 (dataset index 14) processed successfully with 3 rephrasings.
+Processing sample 16/900 (dataset index: 15)
+Sample 16 (dataset index 15) processed successfully with 3 rephrasings.
+Processing sample 17/900 (dataset index: 16)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 66.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 63.06 MiB is free. Including non-PyTorch memory, this process has 19.48 GiB memory in use. Of the allocated memory 17.61 GiB is allocated by PyTorch, and 1.64 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 17 (dataset index 16): CUDA out of memory. Tried to allocate 66.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 63.06 MiB is free. Including non-PyTorch memory, this process has 19.48 GiB memory in use. Of the allocated memory 17.61 GiB is allocated by PyTorch, and 1.64 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 18/900 (dataset index: 17)
+Sample 18 (dataset index 17) processed successfully with 3 rephrasings.
+Processing sample 19/900 (dataset index: 18)
+Sample 19 (dataset index 18) processed successfully with 3 rephrasings.
+Processing sample 20/900 (dataset index: 19)
+Sample 20 (dataset index 19) processed successfully with 3 rephrasings.
+Processing sample 21/900 (dataset index: 20)
+Sample 21 (dataset index 20) processed successfully with 3 rephrasings.
+Processing sample 22/900 (dataset index: 21)
+Sample 22 (dataset index 21) processed successfully with 3 rephrasings.
+Processing sample 23/900 (dataset index: 22)
+Sample 23 (dataset index 22) processed successfully with 1 rephrasings.
+Processing sample 24/900 (dataset index: 23)
+Sample 24 (dataset index 23) processed successfully with 3 rephrasings.
+Processing sample 25/900 (dataset index: 24)
+Sample 25 (dataset index 24) processed successfully with 3 rephrasings.
+Processing sample 26/900 (dataset index: 25)
+Sample 26 (dataset index 25) processed successfully with 3 rephrasings.
+Processing sample 27/900 (dataset index: 26)
+Sample 27 (dataset index 26) processed successfully with 3 rephrasings.
+Processing sample 28/900 (dataset index: 27)
+Sample 28 (dataset index 27) processed successfully with 3 rephrasings.
+Processing sample 29/900 (dataset index: 28)
+Sample 29 (dataset index 28) processed successfully with 9 rephrasings.
+Processing sample 30/900 (dataset index: 29)
+Sample 30 (dataset index 29) processed successfully with 3 rephrasings.
+Processing sample 31/900 (dataset index: 30)
+Sample 31 (dataset index 30) processed successfully with 3 rephrasings.
+Processing sample 32/900 (dataset index: 31)
+Sample 32 (dataset index 31) processed successfully with 3 rephrasings.
+Processing sample 33/900 (dataset index: 32)
+Sample 33 (dataset index 32) processed successfully with 3 rephrasings.
+Processing sample 34/900 (dataset index: 33)
+Sample 34 (dataset index 33) processed successfully with 3 rephrasings.
+Processing sample 35/900 (dataset index: 34)
+Sample 35 (dataset index 34) processed successfully with 3 rephrasings.
+Processing sample 36/900 (dataset index: 35)
+Sample 36 (dataset index 35) processed successfully with 3 rephrasings.
+Processing sample 37/900 (dataset index: 36)
+Sample 37 (dataset index 36) processed successfully with 3 rephrasings.
+Processing sample 38/900 (dataset index: 37)
+Sample 38 (dataset index 37) processed successfully with 3 rephrasings.
+Processing sample 39/900 (dataset index: 38)
+Sample 39 (dataset index 38) processed successfully with 6 rephrasings.
+Processing sample 40/900 (dataset index: 39)
+Sample 40 (dataset index 39) processed successfully with 3 rephrasings.
+Processing sample 41/900 (dataset index: 40)
+Sample 41 (dataset index 40) processed successfully with 3 rephrasings.
+Processing sample 42/900 (dataset index: 41)
+Sample 42 (dataset index 41) processed successfully with 10 rephrasings.
+Processing sample 43/900 (dataset index: 42)
+Sample 43 (dataset index 42) processed successfully with 3 rephrasings.
+Processing sample 44/900 (dataset index: 43)
+Sample 44 (dataset index 43) processed successfully with 3 rephrasings.
+Processing sample 45/900 (dataset index: 44)
+Sample 45 (dataset index 44) processed successfully with 3 rephrasings.
+Processing sample 46/900 (dataset index: 45)
+Sample 46 (dataset index 45) processed successfully with 3 rephrasings.
+Processing sample 47/900 (dataset index: 46)
+Sample 47 (dataset index 46) processed successfully with 3 rephrasings.
+Processing sample 48/900 (dataset index: 47)
+Sample 48 (dataset index 47) processed successfully with 3 rephrasings.
+Processing sample 49/900 (dataset index: 48)
+This is a friendly reminder - the current text generation call will exceed the model's predefined maximum length (4096). Depending on the model, you may observe exceptions, performance degradation, or nothing at all.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 75.06 MiB is free. Including non-PyTorch memory, this process has 19.47 GiB memory in use. Of the allocated memory 17.73 GiB is allocated by PyTorch, and 1.52 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 49 (dataset index 48): CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 75.06 MiB is free. Including non-PyTorch memory, this process has 19.47 GiB memory in use. Of the allocated memory 17.73 GiB is allocated by PyTorch, and 1.52 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 50/900 (dataset index: 49)
+Sample 50 (dataset index 49) processed successfully with 3 rephrasings.
+Processing sample 51/900 (dataset index: 50)
+Sample 51 (dataset index 50) processed successfully with 3 rephrasings.
+Processing sample 52/900 (dataset index: 51)
+Sample 52 (dataset index 51) processed successfully with 3 rephrasings.
+Processing sample 53/900 (dataset index: 52)
+Sample 53 (dataset index 52) processed successfully with 3 rephrasings.
+Processing sample 54/900 (dataset index: 53)
+Sample 54 (dataset index 53) processed successfully with 3 rephrasings.
+Processing sample 55/900 (dataset index: 54)
+Sample 55 (dataset index 54) processed successfully with 3 rephrasings.
+Processing sample 56/900 (dataset index: 55)
+Sample 56 (dataset index 55) processed successfully with 3 rephrasings.
+Processing sample 57/900 (dataset index: 56)
+Sample 57 (dataset index 56) processed successfully with 3 rephrasings.
+Processing sample 58/900 (dataset index: 57)
+Sample 58 (dataset index 57) processed successfully with 8 rephrasings.
+Processing sample 59/900 (dataset index: 58)
+Sample 59 (dataset index 58) processed successfully with 3 rephrasings.
+Processing sample 60/900 (dataset index: 59)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 360.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 153.06 MiB is free. Including non-PyTorch memory, this process has 19.39 GiB memory in use. Of the allocated memory 17.77 GiB is allocated by PyTorch, and 1.40 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 60 (dataset index 59): CUDA out of memory. Tried to allocate 360.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 153.06 MiB is free. Including non-PyTorch memory, this process has 19.39 GiB memory in use. Of the allocated memory 17.77 GiB is allocated by PyTorch, and 1.40 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 61/900 (dataset index: 60)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 45.06 MiB is free. Including non-PyTorch memory, this process has 19.50 GiB memory in use. Of the allocated memory 18.46 GiB is allocated by PyTorch, and 829.50 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 61 (dataset index 60): CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 45.06 MiB is free. Including non-PyTorch memory, this process has 19.50 GiB memory in use. Of the allocated memory 18.46 GiB is allocated by PyTorch, and 829.50 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 62/900 (dataset index: 61)
+Sample 62 (dataset index 61) processed successfully with 3 rephrasings.
+Processing sample 63/900 (dataset index: 62)
+Sample 63 (dataset index 62) processed successfully with 3 rephrasings.
+Processing sample 64/900 (dataset index: 63)
+Sample 64 (dataset index 63) processed successfully with 3 rephrasings.
+Processing sample 65/900 (dataset index: 64)
+Sample 65 (dataset index 64) processed successfully with 3 rephrasings.
+Processing sample 66/900 (dataset index: 65)
+Sample 66 (dataset index 65) processed successfully with 3 rephrasings.
+Processing sample 67/900 (dataset index: 66)
+Sample 67 (dataset index 66) processed successfully with 3 rephrasings.
+Processing sample 68/900 (dataset index: 67)
+Sample 68 (dataset index 67) processed successfully with 3 rephrasings.
+Processing sample 69/900 (dataset index: 68)
+Sample 69 (dataset index 68) processed successfully with 3 rephrasings.
+Processing sample 70/900 (dataset index: 69)
+Sample 70 (dataset index 69) processed successfully with 3 rephrasings.
+Processing sample 71/900 (dataset index: 70)
+Sample 71 (dataset index 70) processed successfully with 3 rephrasings.
+Processing sample 72/900 (dataset index: 71)
+Sample 72 (dataset index 71) processed successfully with 3 rephrasings.
+Processing sample 73/900 (dataset index: 72)
+Sample 73 (dataset index 72) processed successfully with 3 rephrasings.
+Processing sample 74/900 (dataset index: 73)
+Sample 74 (dataset index 73) processed successfully with 3 rephrasings.
+Processing sample 75/900 (dataset index: 74)
+Sample 75 (dataset index 74) processed successfully with 3 rephrasings.
+Processing sample 76/900 (dataset index: 75)
+Sample 76 (dataset index 75) processed successfully with 3 rephrasings.
+Processing sample 77/900 (dataset index: 76)
+Sample 77 (dataset index 76) processed successfully with 3 rephrasings.
+Processing sample 78/900 (dataset index: 77)
+Sample 78 (dataset index 77) processed successfully with 3 rephrasings.
+Processing sample 79/900 (dataset index: 78)
+Sample 79 (dataset index 78) processed successfully with 3 rephrasings.
+Processing sample 80/900 (dataset index: 79)
+Sample 80 (dataset index 79) processed successfully with 3 rephrasings.
+Processing sample 81/900 (dataset index: 80)
+Sample 81 (dataset index 80) processed successfully with 3 rephrasings.
+Processing sample 82/900 (dataset index: 81)
+Sample 82 (dataset index 81) processed successfully with 3 rephrasings.
+Processing sample 83/900 (dataset index: 82)
+Sample 83 (dataset index 82) processed successfully with 3 rephrasings.
+Processing sample 84/900 (dataset index: 83)
+Sample 84 (dataset index 83) processed successfully with 3 rephrasings.
+Processing sample 85/900 (dataset index: 84)
+Sample 85 (dataset index 84) processed successfully with 3 rephrasings.
+Processing sample 86/900 (dataset index: 85)
+Sample 86 (dataset index 85) processed successfully with 3 rephrasings.
+Processing sample 87/900 (dataset index: 86)
+Sample 87 (dataset index 86) processed successfully with 10 rephrasings.
+Processing sample 88/900 (dataset index: 87)
+Sample 88 (dataset index 87) processed successfully with 3 rephrasings.
+Processing sample 89/900 (dataset index: 88)
+Sample 89 (dataset index 88) processed successfully with 3 rephrasings.
+Processing sample 90/900 (dataset index: 89)
+Sample 90 (dataset index 89) processed successfully with 3 rephrasings.
+Processing sample 91/900 (dataset index: 90)
+Sample 91 (dataset index 90) processed successfully with 3 rephrasings.
+Processing sample 92/900 (dataset index: 91)
+Sample 92 (dataset index 91) processed successfully with 3 rephrasings.
+Processing sample 93/900 (dataset index: 92)
+Sample 93 (dataset index 92) processed successfully with 3 rephrasings.
+Processing sample 94/900 (dataset index: 93)
+Sample 94 (dataset index 93) processed successfully with 3 rephrasings.
+Processing sample 95/900 (dataset index: 94)
+Sample 95 (dataset index 94) processed successfully with 3 rephrasings.
+Processing sample 96/900 (dataset index: 95)
+Sample 96 (dataset index 95) processed successfully with 3 rephrasings.
+Processing sample 97/900 (dataset index: 96)
+Sample 97 (dataset index 96) processed successfully with 3 rephrasings.
+Processing sample 98/900 (dataset index: 97)
+Sample 98 (dataset index 97) processed successfully with 3 rephrasings.
+Processing sample 99/900 (dataset index: 98)
+Sample 99 (dataset index 98) processed successfully with 3 rephrasings.
+Processing sample 100/900 (dataset index: 99)
+Sample 100 (dataset index 99) processed successfully with 3 rephrasings.
+Processing sample 101/900 (dataset index: 100)
+Sample 101 (dataset index 100) processed successfully with 3 rephrasings.
+Processing sample 102/900 (dataset index: 101)
+Sample 102 (dataset index 101) processed successfully with 3 rephrasings.
+Processing sample 103/900 (dataset index: 102)
+Sample 103 (dataset index 102) processed successfully with 3 rephrasings.
+Processing sample 104/900 (dataset index: 103)
+Sample 104 (dataset index 103) processed successfully with 3 rephrasings.
+Processing sample 105/900 (dataset index: 104)
+Sample 105 (dataset index 104) processed successfully with 3 rephrasings.
+Processing sample 106/900 (dataset index: 105)
+Sample 106 (dataset index 105) processed successfully with 3 rephrasings.
+Processing sample 107/900 (dataset index: 106)
+Sample 107 (dataset index 106) processed successfully with 3 rephrasings.
+Processing sample 108/900 (dataset index: 107)
+Sample 108 (dataset index 107) processed successfully with 3 rephrasings.
+Processing sample 109/900 (dataset index: 108)
+Sample 109 (dataset index 108) processed successfully with 3 rephrasings.
+Processing sample 110/900 (dataset index: 109)
+Sample 110 (dataset index 109) processed successfully with 3 rephrasings.
+Processing sample 111/900 (dataset index: 110)
+Sample 111 (dataset index 110) processed successfully with 3 rephrasings.
+Processing sample 112/900 (dataset index: 111)
+Sample 112 (dataset index 111) processed successfully with 3 rephrasings.
+Processing sample 113/900 (dataset index: 112)
+Sample 113 (dataset index 112) processed successfully with 3 rephrasings.
+Processing sample 114/900 (dataset index: 113)
+Sample 114 (dataset index 113) processed successfully with 3 rephrasings.
+Processing sample 115/900 (dataset index: 114)
+Sample 115 (dataset index 114) processed successfully with 3 rephrasings.
+Processing sample 116/900 (dataset index: 115)
+Sample 116 (dataset index 115) processed successfully with 3 rephrasings.
+Processing sample 117/900 (dataset index: 116)
+Sample 117 (dataset index 116) processed successfully with 3 rephrasings.
+Processing sample 118/900 (dataset index: 117)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 348.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 299.06 MiB is free. Including non-PyTorch memory, this process has 19.25 GiB memory in use. Of the allocated memory 17.33 GiB is allocated by PyTorch, and 1.69 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 118 (dataset index 117): CUDA out of memory. Tried to allocate 348.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 299.06 MiB is free. Including non-PyTorch memory, this process has 19.25 GiB memory in use. Of the allocated memory 17.33 GiB is allocated by PyTorch, and 1.69 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 119/900 (dataset index: 118)
+Sample 119 (dataset index 118) processed successfully with 3 rephrasings.
+Processing sample 120/900 (dataset index: 119)
+Sample 120 (dataset index 119) processed successfully with 3 rephrasings.
+Processing sample 121/900 (dataset index: 120)
+Sample 121 (dataset index 120) processed successfully with 3 rephrasings.
+Processing sample 122/900 (dataset index: 121)
+Sample 122 (dataset index 121) processed successfully with 3 rephrasings.
+Processing sample 123/900 (dataset index: 122)
+Sample 123 (dataset index 122) processed successfully with 3 rephrasings.
+Processing sample 124/900 (dataset index: 123)
+Sample 124 (dataset index 123) processed successfully with 3 rephrasings.
+Processing sample 125/900 (dataset index: 124)
+Sample 125 (dataset index 124) processed successfully with 3 rephrasings.
+Processing sample 126/900 (dataset index: 125)
+Sample 126 (dataset index 125) processed successfully with 3 rephrasings.
+Processing sample 127/900 (dataset index: 126)
+Sample 127 (dataset index 126) processed successfully with 3 rephrasings.
+Processing sample 128/900 (dataset index: 127)
+Sample 128 (dataset index 127) processed successfully with 3 rephrasings.
+Processing sample 129/900 (dataset index: 128)
+Sample 129 (dataset index 128) processed successfully with 3 rephrasings.
+Processing sample 130/900 (dataset index: 129)
+Sample 130 (dataset index 129) processed successfully with 3 rephrasings.
+Processing sample 131/900 (dataset index: 130)
+Sample 131 (dataset index 130) processed successfully with 6 rephrasings.
+Processing sample 132/900 (dataset index: 131)
+Sample 132 (dataset index 131) processed successfully with 3 rephrasings.
+Processing sample 133/900 (dataset index: 132)
+Sample 133 (dataset index 132) processed successfully with 3 rephrasings.
+Processing sample 134/900 (dataset index: 133)
+Sample 134 (dataset index 133) processed successfully with 3 rephrasings.
+Processing sample 135/900 (dataset index: 134)
+Sample 135 (dataset index 134) processed successfully with 3 rephrasings.
+Processing sample 136/900 (dataset index: 135)
+Sample 136 (dataset index 135) processed successfully with 3 rephrasings.
+Processing sample 137/900 (dataset index: 136)
+Sample 137 (dataset index 136) processed successfully with 3 rephrasings.
+Processing sample 138/900 (dataset index: 137)
+Sample 138 (dataset index 137) processed successfully with 3 rephrasings.
+Processing sample 139/900 (dataset index: 138)
+Sample 139 (dataset index 138) processed successfully with 3 rephrasings.
+Processing sample 140/900 (dataset index: 139)
+Sample 140 (dataset index 139) processed successfully with 3 rephrasings.
+Processing sample 141/900 (dataset index: 140)
+Sample 141 (dataset index 140) processed successfully with 3 rephrasings.
+Processing sample 142/900 (dataset index: 141)
+Sample 142 (dataset index 141) processed successfully with 3 rephrasings.
+Processing sample 143/900 (dataset index: 142)
+Sample 143 (dataset index 142) processed successfully with 3 rephrasings.
+Processing sample 144/900 (dataset index: 143)
+Sample 144 (dataset index 143) processed successfully with 3 rephrasings.
+Processing sample 145/900 (dataset index: 144)
+Sample 145 (dataset index 144) processed successfully with 3 rephrasings.
+Processing sample 146/900 (dataset index: 145)
+Sample 146 (dataset index 145) processed successfully with 3 rephrasings.
+Processing sample 147/900 (dataset index: 146)
+Sample 147 (dataset index 146) processed successfully with 3 rephrasings.
+Processing sample 148/900 (dataset index: 147)
+Sample 148 (dataset index 147) processed successfully with 3 rephrasings.
+Processing sample 149/900 (dataset index: 148)
+Sample 149 (dataset index 148) processed successfully with 3 rephrasings.
+Processing sample 150/900 (dataset index: 149)
+Sample 150 (dataset index 149) processed successfully with 3 rephrasings.
+Processing sample 151/900 (dataset index: 150)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 26.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 21.06 MiB is free. Including non-PyTorch memory, this process has 19.52 GiB memory in use. Of the allocated memory 17.80 GiB is allocated by PyTorch, and 1.50 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 151 (dataset index 150): CUDA out of memory. Tried to allocate 26.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 21.06 MiB is free. Including non-PyTorch memory, this process has 19.52 GiB memory in use. Of the allocated memory 17.80 GiB is allocated by PyTorch, and 1.50 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 152/900 (dataset index: 151)
+Sample 152 (dataset index 151) processed successfully with 3 rephrasings.
+Processing sample 153/900 (dataset index: 152)
+/pytorch/aten/src/ATen/native/cuda/TensorCompare.cu:112: _assert_async_cuda_kernel: block: [0,0,0], thread: [0,0,0] Assertion `probability tensor contains either `inf`, `nan` or element < 0` failed.
+Error in get_response: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Error processing sample 153 (dataset index 152): CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 20, in get_response
+    outputs = model.generate(**inputs, max_new_tokens=100)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/utils.py", line 2252, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/utils.py", line 3240, in _sample
+    while self._has_unfinished_sequences(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/utils.py", line 2450, in _has_unfinished_sequences
+    elif this_peer_finished:
+         ^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/multiling.py", line 160, in main
+    completion_result = get_response(prompt, model, tokenizer, device)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 35, in get_response
+    torch.cuda.empty_cache()
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/torch/cuda/memory.py", line 222, in empty_cache
+    torch._C._cuda_emptyCache()
+RuntimeError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/multiling.py", line 429, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/multiling.py", line 331, in main
+    torch.cuda.empty_cache()
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/torch/cuda/memory.py", line 222, in empty_cache
+    torch._C._cuda_emptyCache()
+RuntimeError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
