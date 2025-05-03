@@ -282,3 +282,9 @@ When you send an SOS alert, your iPhone will call your emergency contacts and pl
 
 Sample 30 (dataset index 29) processed successfully with 3 rephrasings.
 Processing complete. Saved 30 successful results. Failed: 0
+[main 0edb161] Multilingual Script Results for Run 1803 (Commit: 20f24eb)
+ 2 files changed, 284 insertions(+)
+ create mode 100644 data/full/multiling_results_1803_llama-2-7b_4bit_rephrase_vript.pkl
+ create mode 100644 slurm-outputs/slurm.1803.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   20f24eb..0edb161  main -> main
