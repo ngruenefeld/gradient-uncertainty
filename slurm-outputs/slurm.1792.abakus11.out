@@ -1,0 +1,219 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 6447ce1fcb31d6d50c9b722b6c4f5305c216ae80
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1792
+Dataset: finenews
+Model: llama-2-7b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.20s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.40s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.52s/it]
+Processing sample 1/900 (dataset index: 152)
+Processing sample 1 (dataset index 152) with language 'de' and origin 'finenews'
+Article: In den letzten zehn Jahren habe ich viele Artikel geschrieben, in denen ich die Beweise für biologische Schäden durch nichtionisierende elektromagnetische Felder (EMF) und Hochfrequenzstrahlung (RFR) aus drahtlosen Technologien diskutiert habe.
+Das obige Video zeigt ein Interview, das ich im Februar 2020 mit Siim Land für seinen Body Mind Empowerment-Podcast geführt habe, in dem ich über EMF spreche – was es ist, Ihre größten Expositionsquellen, wie es Ihre Biologie beeinflusst und wie Sie Ihre Exposition minimieren können. Ich gehe auch darauf ein, wie die Telekommunikationsindustrie die Wahrheit manipuliert, um Sie über die möglichen Gefahren im Unklaren zu lassen.
+Während die Mobilfunkindustrie davon ausgeht, dass die einzige Art von Strahlung, die Schaden anrichten kann, die ionisierende Strahlung ist – zum Beispiel Röntgenstrahlen -, warnen Forscher seit langem davor, dass auch nichtionisierende und nicht heizende Strahlung Ihre Gesundheit gefährden kann. Dies gilt nicht nur für die menschliche Gesundheit, sondern auch für die von Pflanzen und Tieren.
+Im Laufe der Zeit war ich von den schädlichen Auswirkungen von EMF so überzeugt, dass ich drei Jahre brauchte, um “EMF*D” zu schreiben, das 2020 veröffentlicht wurde. Darin überprüfte ich die überwältigenden Beweise, die zeigen, dass EMF eine versteckte Gesundheitsgefahr darstellen, die einfach nicht länger ignoriert werden kann.
+Während der Pandemie wurden wir auch Zeuge der Einführung und Installation von 5G im ganzen Land, was die Exposition exponentiell erhöht hat, da es zusätzlich zu der bereits bestehenden drahtlosen Infrastruktur hinzugefügt wurde.
+Das kurze Video unten, das von Investigative Europe im Januar 2019 veröffentlicht wurde, gibt einen kurzen Überblick darüber, wie sich 5G von der bisherigen Funktechnologie unterscheidet. Zum damaligen Zeitpunkt gab es nur wenige oder gar keine Forschungsarbeiten zu 5G, aber zwischen 2022 und 2024 wurden zehn neue Studien veröffentlicht, die mehr Licht in diese Technologie der fünften Generation bringen.
+5G-Moratoriumsaufrufe trotz Beweisen ignoriert
+Der erste davon, der im September 2022 in der Zeitschrift Reviews on Environmental Health veröffentlicht wurde, bietet einen guten Überblick über die Gefahren, die von 5G ausgehen. Die Autoren wiesen darauf hin, dass seit September 2017 über 400 Wissenschaftler und Ärzte gemeinsam sechs Appelle an die Europäische Union gerichtet haben, in denen sie ein Moratorium für die 5G-Technologie forderten. Alle wurden ignoriert.
+Der Appell vom September 2021 enthielt ein “umfangreiches Anschreiben”, in dem Experten argumentierten, dass das Vertrauen der EU auf die Richtlinien der Internationalen Kommission zum Schutz vor nichtionisierender Strahlung (ICNIRP) die öffentliche Gesundheit gefährdet, da die Richtlinien nur “die Erwärmung und keine anderen gesundheitsrelevanten biologischen Auswirkungen von RFR” berücksichtigen.
+Das Schreiben stellt den ICNIRP-Leitlinien Forschungsergebnisse europäischer und internationaler Expertengruppen entgegen, die zahlreiche negative biologische Auswirkungen von RFR auf Mensch und Umwelt aufzeigen. (Ob Handy, Computer oder in der Küche: Mikrowellen – ein oft unterschätzter unsichtbare Begleiter unseres Alltag)
+Laut den Autoren:
+“Die Beweise für diese Position stammen aus Studien, die Veränderungen bei Neurotransmittern und Rezeptoren, Schäden an Zellen, Proteinen, DNA, Spermien, dem Immunsystem und der menschlichen Gesundheit, einschließlich Krebs, zeigen.
+Der Appell 2021 warnt weiter, dass 5G-Signale wahrscheinlich zusätzlich das Verhalten von Sauerstoff- und Wassermolekülen auf der Quantenebene verändern, Proteine entfalten, die Haut schädigen und Insekten, Vögeln, Fröschen, Pflanzen und Tieren Schaden zufügen.”
+Bündelung von Signalen wirft ernste Fragen auf
+Unter der Überschrift “Great Plans, Great Promises but False Claims” (Große Pläne, große Versprechungen, aber falsche Behauptungen) heben die Autoren die eigenen Erkenntnisse der Regierung hervor:
+“… die potenziellen Gesundheits- und Sicherheitsrisiken im Zusammenhang mit RFR wurden in einer kürzlich von der EU in Auftrag gegebenen Überprüfung der derzeit verfügbaren wissenschaftlichen Beweise, dem EPRS/STOA-Bericht über die gesundheitlichen Auswirkungen von 5G aus dem Jahr 2021 des Europäischen Parlamentarischen Forschungsdienstes, aufgezeigt.
+In den Schlussfolgerungen der umfassenden Überprüfung wurde erklärt, dass es genügend Beweise für Krebs durch RFR bei Tieren gibt, dass es genügend Beweise für schädliche Auswirkungen von RFR auf die Fruchtbarkeit von Männern, männlichen Ratten und Mäusen gibt, und dass RFR wahrscheinlich krebserregend für Menschen ist.
+Kurz gesagt, der EPRS/STOA-Bericht zeigt, dass RFR gesundheitsschädlich ist. Der Bericht fordert daraufhin Maßnahmen, die Anreize zur Verringerung der HF-EMF-Belastung schaffen (S. 153), wie z. B. die Senkung des Grenzwerts für die zulässige Belastung und die bevorzugte Nutzung von kabelgebundenen Verbindungen.
+Ähnlich verhält es sich mit der eingehenden Analyse der EU (ITRE-Ausschuss) von 2019, 5G Deployment: State of Play in Europe, USA and Asia” davor gewarnt, dass 5G zusammen mit 2G, 3G, 4G, WiFi, WIMAX, DECT, Radar usw. zu einer dramatisch höheren Gesamtstrahlung führen wird: nicht nur durch die Verwendung viel höherer Frequenzen in 5G, sondern auch durch das Potenzial für die Aggregation verschiedener Signale, ihre dynamische Natur und die komplexen Interferenzeffekte, die sich daraus ergeben können, insbesondere in dichten städtischen Gebieten (S. 11).
+Diese Bedenken beruhen auf der Komplexität der Kommunikationssignale und den Unbekannten ihrer Wechselwirkungen. Elektromagnetische Signale, die von künstlichen Kommunikationsgeräten übertragen werden, sind keine normalen Wellen, sondern eine komplexe Kombination aus ultrahochfrequenten Trägerwellen und Modulationen, die die Nachrichten mit extrem niedrigen und ultraniedrigen Frequenzen kodieren.
+Darüber hinaus werden die Signale mit extrem niedrigen Frequenzen gepulst (in kurzen Ein-Aus-Stößen gesendet). Das bedeutet, dass die RFR-Trägerwellen zwar im hochfrequenten GHz-Bereich liegen, ihre Modulationen und Pulsraten aber viel näher an den Frequenzen der Gehirnströme sind, z. B. das 217-Hz-Pulsieren eines GSM-Telefonsignals.
+Gepulste oder modulierte RFR-Signale sind nachweislich bioaktiver als einfache Dauerwellen gleicher Intensität und Expositionsdauer. Dies ist in Bezug auf die öffentliche Gesundheit sehr bedenklich und beschränkt sich nicht nur auf die höheren 5G-Frequenzen.
+Darüber hinaus hat der Bericht festgestellt, dass die Auswirkungen dieser neuen komplexen, strahlenförmigen Signale unvorhersehbare Ausbreitungsmuster haben, die zu einer inakzeptablen Exposition des Menschen gegenüber elektromagnetischer Strahlung führen könnten (S. 6), aber noch nicht zuverlässig für reale Situationen außerhalb des Labors kartiert wurden.”
+5G kann zu neurologischen und psychiatrischen Problemen führen
+Die zweite Studie, die im November 2022 veröffentlicht wurde, untersuchte die Auswirkungen von 4,9 GHz (eine von mehreren 5G-Frequenzen) RFR auf das emotionale Verhalten und das räumliche Gedächtnis bei erwachsenen männlichen Mäusen. Es wurde festgestellt, dass die Exposition “depressionsähnliches Verhalten” hervorruft, das durch “neuronale Pyroptose in der Amygdala” verursacht wird.
+Pyroptose ist eine Form des programmierten Zelltods, die sich von anderen Formen der Apoptose unterscheidet und durch eine entzündliche Reaktion gekennzeichnet ist. Dabei schwillt die Zelle an und platzt, was zur Freisetzung von entzündungsfördernden Zytokinen und intrazellulären Inhalten führt, die im umliegenden Gewebe eine Immunreaktion auslösen können.
+Dieser Prozess wird durch Gasdermin-Proteine gesteuert, die Poren in der Zellmembran bilden, und wird häufig als Reaktion auf Infektionen durch Krankheitserreger oder andere Signale, die auf eine Zellschädigung hinweisen, ausgelöst.
+“5G löst den Zelltod in der Amygdala aus, einer Hirnregion, die an der Emotionsregulation, dem Gedächtnis und der Entscheidungsfindung beteiligt ist.”
+Die Amygdala ist ein Bereich des Gehirns, der an der Emotionsregulation, dem Gedächtnis und der Entscheidungsfindung beteiligt ist. Daher könnte Pyroptose in diesem Bereich ein Hinweis auf neurologische Schäden oder Entzündungen sein, die sich möglicherweise auf die Emotionsregulation, das Verhalten und die kognitiven Funktionen auswirken.
+Dies könnte im Zusammenhang mit neurodegenerativen Erkrankungen, Hirnverletzungen oder Infektionen von Bedeutung sein, die das zentrale Nervensystem beeinträchtigen und zu verschiedenen neurologischen und psychiatrischen Folgen führen.
+Vier Studien bestätigen die Auswirkungen von 5G auf die Neurologie
+Vier weitere Studien, die 2023 veröffentlicht wurden, zeigen ebenfalls eine Vielzahl von Schäden im Gehirn:
+5G erhöht die Durchlässigkeit der Blut-Hirn-Schranke – In der ersten Studie wurde festgestellt, dass HF-Strahlung von 5G-Mobiltelefonen bei 3,5 GHz oder 4,9 GHz für eine Stunde pro Tag über 35 Tage hinweg die Durchlässigkeit der Blut-Hirn-Schranke in der Großhirnrinde von Mäusen erhöht.
+RFR beeinträchtigt die Neurogenese und verursacht neuronale DNA-Schäden– In der zweiten Studie wurde gezeigt, dass kontinuierliche RFR von Mobiltelefonen bei 2115 MHz für acht Stunden höhere Werte von Lipidperoxidation, kohlenstoffzentrierten Lipidradikalen und Einzelstrang-DNA-Schäden induziert, was zu einer beeinträchtigten Neurogenese in der Hippocampus-Region und neuronaler Degeneration in der Gyrus dentatus-Region führt. Übersetzung: Handystrahlung kann kognitive Beeinträchtigungen und Defizite, Verhaltensänderungen und dysfunktionale Stimmungsregulierung, neurodegenerative Störungen (aufgrund des oxidativen Stresses innerhalb der Neuronen) und psychiatrische Erkrankungen wie Angst und Depression verursachen.
+Elektromagnetische Strahlung in Verbindung mit Angstzuständen – In dieser Studie wurde bei männlichen Mäusen, die 28 Tage lang vier Stunden täglich elektromagnetischer Strahlung bei 2650 MHz ausgesetzt waren, angstähnliches Verhalten festgestellt.
+5G kann Demenz fördern – Schließlich kam eine Folgestudie zu früheren Forschungsergebnissen zu dem Schluss, dass RFRs bei 1,8 GHz bis 3,5 GHz:
+Neurosin hemmen, ein Enzym, das eine Rolle für die Gesundheit des Gehirns spielt, einschließlich des Abbaus von Proteinen, die, wenn sie nicht richtig gesteuert werden, zu Krankheiten wie Alzheimer führen können. Dieser Befund deutet darauf hin, dass Handystrahlung möglicherweise die Fähigkeit des Gehirns beeinträchtigen könnte, die Ablagerung schädlicher Proteine zu verhindern.
+Hemmung der elektrischen Aktivität von Neuronen in vitro – Neuronen kommunizieren miteinander über elektrische Signale, und diese Aktivität ist entscheidend für alles, was das Gehirn tut, von der Verarbeitung sensorischer Informationen bis zur Steuerung von Muskelbewegungen. Die Hemmung der elektrischen Aktivität bedeutet eine Unterbrechung der normalen Kommunikation der Gehirnzellen, was sich möglicherweise auf die Gehirnfunktionen auswirken könnte.
+5G wirkt sich auf die Gehirnentwicklung aus
+Eine Studie von Bodin et al. vom Oktober 2023 untersuchte die Auswirkungen einer 5G-Exposition während der perinatalen Periode – um den Zeitpunkt der Geburt herum – auf die Neuroentwicklung von Ratten. Das Hauptziel dieser Studie war es zu erforschen, wie sich die Exposition gegenüber 5G-EMF um den Zeitpunkt der Geburt auf die Gehirnentwicklung von Ratten auswirkt, wenn sie zu Jugendlichen und Heranwachsenden heranwachsen.
+Sowohl männliche als auch weibliche Rattenwelpen, die 5G EMF ausgesetzt waren, zeigten einen verzögerten Ausbruch der Schneidezähne (Vorderzähne). Dies deutet darauf hin, dass die EMF-Exposition möglicherweise bestimmte Aspekte der körperlichen Entwicklung verlangsamen könnte. Die Studie fand auch bemerkenswerte Unterschiede im Verhalten je nach Geschlecht der Ratten.
+Bei heranwachsenden weiblichen Ratten gab es eine signifikante Verringerung (70%) stereotyper Bewegungen, wie z.B. sich wiederholende Verhaltensmuster, im offenen Feldtest. Dies deutet darauf hin, dass die Exposition bestimmte sich wiederholende Verhaltensweisen bei weiblichen Ratten reduzieren kann. Im Gegensatz dazu zeigten männliche Ratten einen 50%igen Anstieg stereotyper Bewegungen, was darauf hindeutet, dass die gleiche Exposition zu einem Anstieg repetitiver Verhaltensweisen führte.
+Kurz gesagt, die Forschungsergebnisse deuten darauf hin, dass die Exposition gegenüber 5G-EMF bei Werten unterhalb des regulatorischen Schwellenwerts während einer kritischen Entwicklungsphase (Perinatalperiode) das Potenzial hat, Störungen der Neuroentwicklung zu verursachen. Diese Auswirkungen sind bei jugendlichen und heranwachsenden Nachkommen zu beobachten und treten bei Männern und Frauen unterschiedlich auf.
+Es ist zwar schwer vorherzusagen, welche Auswirkungen dies auf die menschliche Gesundheit haben könnte, aber es ist erwähnenswert, dass repetitive Verhaltensweisen häufig mit neurologischen Entwicklungsstörungen wie Autismus-Spektrum-Störungen (ASD) und Aufmerksamkeitsdefizit-Hyperaktivitätsstörungen (ADHS) in Verbindung gebracht werden. In solchen Fällen können diese Verhaltensweisen auf zugrundeliegende neurologische Unterschiede hinweisen und sich auf die sozialen Interaktionen, das Lernen und das tägliche Funktionieren einer Person auswirken.
+In einigen Fällen können sich wiederholende Verhaltensweisen auch ein Symptom für Angstzustände, Zwangsstörungen, stressbedingte Störungen und selbstverletzende Verhaltensweisen wie das Zupfen an der Haut oder das Ziehen der Haare sein. Bei manchen Menschen können repetitive Verhaltensweisen die Aufmerksamkeit und Konzentration beeinträchtigen, was sich auf die schulischen Leistungen, die Produktivität am Arbeitsplatz und die Fähigkeit, tägliche Aufgaben effizient zu erledigen, auswirkt.
+Es kann auch die sozialen Interaktionen und Beziehungen einer Person beeinträchtigen und zu sozialer Isolation, Mobbing oder Stigmatisierung führen, insbesondere bei Kindern und Jugendlichen, was wiederum das emotionale Wohlbefinden und das Selbstwertgefühl beeinträchtigt. Sich wiederholende Verhaltensweisen, insbesondere solche, die mit Angst- oder Zwangsstörungen einhergehen, können auch den Schlafrhythmus stören und zu Schlaflosigkeit oder schlechter Schlafqualität führen, was wiederum die allgemeine Gesundheit und das Wohlbefinden beeinträchtigt.
+RFR dezimiert die männliche Fruchtbarkeit – Melatonin kann helfen, sie wiederherzustellen
+Eine Studie vom Dezember 2023, die die negativen Auswirkungen einer Langzeitexposition bei 2100 MHz RFR auf die Eigenschaften von Rattenspermien untersuchte, brachte sowohl gute als auch schlechte Nachrichten.
+Nachteilig war, dass männliche Ratten, die 30 Minuten täglich bei 2100 MHz RFR ausgesetzt waren, einen signifikant höheren Prozentsatz von Spermien mit abnormalen Formen aufwiesen. Auch die Gesamtzahl der Spermien war bei den exponierten Ratten deutlich verringert.
+Bei genauerer Betrachtung der Spermienstruktur unter dem Mikroskop (der ultrastrukturellen Ebene) wurden Schäden in kritischen Teilen der Spermien beobachtet, einschließlich der:
+- Akrosom, eine kappenartige Struktur, die dem Spermium hilft, in die Eizelle einzudringen
+- Axonem, der zentrale Schaft des Spermienschwanzes
+- Mitochondrienscheide, die die Bewegung des Spermienschwanzes antreibt
+- Äußere dichte Fasern, die Teil des Spermienschwanzes sind
+Die gute Nachricht ist, dass eine Melatoninergänzung diese Probleme verhindern konnte. Ratten, denen 10 Milligramm Melatonin pro Kilo Körpergewicht subkutan verabreicht wurden, wiesen eine höhere Spermienzahl auf, und der Anteil der Spermien mit normaler Form nahm zu. Außerdem wurden die ultrastrukturellen Schäden an Spermien, die durch die HF-Exposition verursacht wurden, vollständig rückgängig gemacht. Wie von den Autoren berichtet:
+“Der Prozentsatz der abnormalen Spermienmorphologie war signifikant erhöht mit der RF-Exposition, während die Gesamtzahl der Spermien signifikant abnahm … Die Anzahl der gesamten Spermien, die Spermien mit normaler Morphologie nahmen zu und das ultrastrukturelle Erscheinungsbild normalisierte sich durch die Melatonin-Verabreichung.”
+Fallstudie eines 8-jährigen Jungen
+Im Januar 2024 präsentierten Hardell et al. eine Fallstudie über einen achtjährigen Jungen, der unter starken Kopfschmerzen und anderen Symptomen litt, während er eine Schule in der Nähe eines Mobilfunkmastes mit 5G-Basisstationen besuchte.
+Die Schule des Jungen liegt 200 Meter von einem Mobilfunkmast mit 5G-Basisstationen entfernt, sein Klassenzimmer ist 285 Meter entfernt. Kurz nach seiner Einschulung begann er mit Kopfschmerzen, die anfangs nur sporadisch und nicht jeden Tag oder jede Woche auftraten.
+Im Herbst 2023 verstärkten sich die Kopfschmerzen des Jungen, traten täglich auf und wurden mit 10 auf einer 10-stufigen Skala bewertet, wobei 0 für keine Beschwerden und 10 für unerträgliche Schmerzen steht. Außerdem litt er unter Müdigkeit (Note 5) und gelegentlichem Schwindel (Note 7), insbesondere in der Schule. Zu Hause hatte er gelegentlich leichte Kopfschmerzen (Note 2), die relativ schnell wieder abklangen.
+Im Herbst 2023 begann er, in der Schule sowohl drinnen als auch draußen eine HF-Schutzmütze und Oberbekleidung zu tragen, woraufhin die Kopfschmerzen verschwanden.
+Das Papier zitiert auch epidemiologische Studien und Laboruntersuchungen, die eine Verbindung zwischen HF-Strahlungsexposition und Krebs durch Mechanismen wie oxidativen Stress, mRNA-Effekte und DNA-Schäden herstellen, und plädiert für die Einstufung von HF-Strahlung als Karzinogen der Gruppe 1 für den Menschen, wobei es feststellt, dass “diese Einstufung erhebliche Auswirkungen auf Präventionsmaßnahmen haben sollte”.
+5G verändert Ihr Mikrobiom
+Schließlich untersuchte eine Studie von Wang et al. vom Februar 2024 die Auswirkungen von 5G RFR auf das fäkale Mikrobiom und die Metabolom-Profile von Mäusen. Die Ergebnisse zeigten, dass die Mäuse, die RFR ausgesetzt waren, signifikante Veränderungen in der Zusammensetzung ihres Darmmikrobioms erfuhren, die durch einen Rückgang der mikrobiellen Vielfalt und Verschiebungen in der Verteilung der mikrobiellen Gemeinschaft gekennzeichnet waren.
+Durch Metabolomics-Profiling identifizierten die Forscher 258 Metaboliten, die in den Mäusen, die HF-Feldern ausgesetzt waren, im Vergleich zu den Kontrollen signifikant unterschiedlich häufig vorkamen, was darauf hindeutet, dass dies einen tiefgreifenden Einfluss auf Stoffwechselprozesse haben kann.
+Die Autoren kamen zu dem Schluss, dass die Exposition mit 4,9 GHz RFR eine Dysbiose der Darmmikrobiota bei Mäusen verursachen kann, und stellten die Hypothese auf, dass die beobachteten Ungleichgewichte in der Darmmikrobiota und im Stoffwechsel mit dem depressionsähnlichen Verhalten von Mäusen zusammenhängen könnten, das in vielen Studien beobachtet wurde. Das Ungleichgewicht im Stoffwechselprofil könnte auch mit Veränderungen der Immunregulation oder Entzündungen einhergehen.
+5G wird jedem Lebewesen schaden
+Im September 2019 bat der Minister für Kommunikation, Hon. Paul Fletcher MP, den Ausschuss, eine Untersuchung über die “Einführung, Annahme und Anwendung von 5G in Australien” durchzuführen. Als Antwort darauf reichte Paul Barratt im Namen von ElectricSense ein Dokument ein, das als Download auf aph.org verfügbar ist und in dem es unter anderem heißt:
+“5G ist gefährlich und wird jedem Lebewesen schaden. Tausende von Studien bringen die Exposition gegenüber schwacher drahtloser Hochfrequenzstrahlung mit einer langen Liste negativer biologischer Auswirkungen in Verbindung, darunter:
+- DNA-Einzel- und Doppelstrangbrüche
+- oxidative Schäden
+- Störung des Zellstoffwechsels
+- erhöhte Durchlässigkeit der Blut-Hirn-Schranke
+- Melatonin-Reduktion
+- Störung des Glukosestoffwechsels im Gehirn
+- Bildung von Stressproteinen
+Vergessen wir auch nicht, dass die Weltgesundheitsorganisation (WHO) im Jahr 2011 Hochfrequenzstrahlung als mögliches Karzinogen 2B eingestuft hat. Vor kurzem kam das 25 Millionen Dollar teure National Toxicology Program zu dem Schluss, dass Hochfrequenzstrahlung, wie sie derzeit von Mobiltelefonen verwendet wird, Krebs verursachen kann.
+Aber wie passt 5G in all dies hinein? Da 5G Frequenzen nutzen wird, die über und unter den bestehenden Frequenzbändern liegen, befindet sich 5G in der Mitte von all dem. Aber die Tendenz (die von Land zu Land unterschiedlich ist) geht dahin, dass 5G die höheren Frequenzbänder nutzen wird. Das bringt seine eigenen Bedenken mit sich.”
+Barratt listet 11 Gründe auf, die Anlass zur Sorge über die 5G-Strahlung geben, darunter:
+- Stärkerer Elektrosmog
+- Hautkrankheiten und Schmerzen, da “Analysen der Eindringtiefe zeigen, dass mehr als 90 % der übertragenen Leistung in der Epidermis- und Dermisschicht absorbiert wird “16
+- Schädigung der Augen
+- Auswirkungen auf das Herz, einschließlich Auswirkungen auf die Herzfrequenzvariabilität und Herzrhythmusstörungen
+- Verminderte Immunfunktion
+- Verringerte Zellwachstumsraten und Veränderungen der Zelleigenschaften und der Zellaktivität
+- Erhöhtes Risiko für antibiotikaresistente Krankheitserreger
+- Nekrosen bei Pflanzen und die Möglichkeit, dass pflanzliche Lebensmittel für den menschlichen Verzehr ungeeignet werden
+- Auswirkungen auf die Atmosphäre und Verknappung fossiler Brennstoffe
+- Störungen des Ökosystems
+- Irreführende 5G-Studienergebnisse, da die meisten die Wellen nicht pulsieren. Dazu Barratt: “Dies ist wichtig, weil die Forschung über Mikrowellen bereits zeigt, dass gepulste Wellen tiefgreifendere biologische Auswirkungen auf unseren Körper haben als ungepulste Wellen. Frühere Studien haben zum Beispiel gezeigt, dass gepulste Frequenzen zu Gentoxizität und DNA-Strangbrüchen führen.
+Schützen Sie sich und Ihre Familie vor übermäßiger EMF-Belastung
+Es besteht kein Zweifel daran, dass die Exposition gegenüber HF-EMF eine erhebliche Gefahr darstellt, die man angehen muss, wenn man sich Sorgen um seine Gesundheit macht. Die Einführung von 5G macht Abhilfemaßnahmen sicherlich schwieriger, aber die zusätzlichen Gefahren sind ein Grund mehr, sich zu engagieren und alles zu tun, was wir können, um die Belastung zu minimieren.
+Hier sind einige Vorschläge, die dazu beitragen, Ihre EMF-Belastung zu verringern und Schäden durch unvermeidbare Expositionen zu mindern. Noch mehr Tipps finden Sie in der unten stehenden Infografik des Environmental Health Trust.
+- Ermitteln Sie die wichtigsten EMF-Quellen, z. B. Ihr Mobiltelefon, schnurlose Telefone, Wi-Fi-Router, Bluetooth-Headsets und andere mit Bluetooth ausgestattete Geräte, drahtlose Mäuse, Tastaturen, intelligente Thermostate, Babyphone, intelligente Messgeräte und die Mikrowelle in Ihrer Küche. Im Idealfall sollten Sie sich mit jeder Quelle befassen und herausfinden, wie Sie deren Nutzung am besten einschränken können. Sofern es sich nicht um einen lebensbedrohlichen Notfall handelt, sollten Kinder keine Handys oder drahtlosen Geräte jeglicher Art benutzen. Kinder sind aufgrund ihrer dünneren Schädelknochen weitaus stärker durch Handystrahlung gefährdet als Erwachsene. Die Forschung zeigt auch, dass Kleinkinder unter einem Jahr nicht effektiv Sprache aus Videos lernen und das, was sie auf dem iPad lernen, nicht auf die reale Welt übertragen können; es ist also ein Irrtum zu glauben, dass elektronische Geräte eine wertvolle Ausbildung bieten.
+- Verbinden Sie Ihren Desktop-Computer über eine kabelgebundene Ethernet-Verbindung mit dem Internet und stellen Sie sicher, dass Ihr Desktop im Flugzeugmodus ist. Vermeiden Sie auch drahtlose Tastaturen, Trackballs, Mäuse, Spielsysteme, Drucker und tragbare Telefone. Entscheiden Sie sich für die kabelgebundenen Versionen.
+- Wenn Sie Wi-Fi verwenden müssen, schalten Sie es aus, wenn Sie es nicht brauchen, insbesondere nachts, wenn Sie schlafen. Idealerweise sollten Sie darauf hinarbeiten, Ihr Haus fest zu verkabeln, damit Sie Wi-Fi ganz abschaffen können. Wenn Sie ein Notebook ohne Ethernet-Anschlüsse haben, können Sie mit einem USB-Ethernet-Adapter eine kabelgebundene Verbindung zum Internet herstellen.
+- Vermeiden Sie kabellose Ladegeräte für Ihr Mobiltelefon, da auch sie die EMF in Ihrem Haus erhöhen. Kabellose Ladegeräte sind außerdem weit weniger energieeffizient als ein Dongle, der an einer Steckdose angeschlossen ist, da sie kontinuierlich Strom verbrauchen (und EMF abgeben), egal ob Sie sie benutzen oder nicht.
+- Schalten Sie nachts den Strom in Ihrem Schlafzimmer ab. Dadurch werden in der Regel die von den Kabeln in der Wand ausgehenden elektrischen Felder reduziert, es sei denn, neben Ihrem Schlafzimmer befindet sich ein Nebenraum. Wenn das der Fall ist, müssen Sie mit einem Messgerät feststellen, ob Sie auch den Strom im angrenzenden Raum abschalten müssen.
+- Verwenden Sie einen batteriebetriebenen Wecker, am besten einen ohne Licht.
+- Wenn Sie noch einen Mikrowellenherd benutzen, sollten Sie ihn durch einen Dampfkonvektionsherd ersetzen, der Ihre Speisen genauso schnell und viel sicherer erhitzt.
+- Vermeiden Sie die Verwendung von “intelligenten” Geräten und Thermostaten, die auf drahtlose Signale angewiesen sind. Das gilt auch für alle neuen “intelligenten” Fernsehgeräte. Sie werden als intelligent bezeichnet, weil sie ein Wi-Fi-Signal aussenden, das Sie im Gegensatz zu Ihrem Computer nicht abschalten können. Ziehen Sie stattdessen einen großen Computermonitor als Fernseher in Betracht, da dieser kein Wi-Fi-Signal aussendet.
+- Verzichten Sie so lange wie möglich auf einen intelligenten Stromzähler in Ihrem Haus, oder fügen Sie einem vorhandenen intelligenten Stromzähler eine Abschirmung hinzu, von denen einige die Strahlung nachweislich um 98 % bis 99 % reduzieren.
+- Ziehen Sie in Erwägung, das Bett Ihres Babys in Ihr Zimmer zu verlegen, anstatt ein drahtloses Babyphone zu verwenden. Alternativ können Sie auch ein fest verdrahtetes Gerät verwenden.
+- Ersetzen Sie CFL-Glühbirnen durch Glühbirnen. Am besten entfernen Sie alle Leuchtstofflampen aus Ihrem Haus. Sie geben nicht nur ungesundes Licht ab, sondern übertragen auch Strom auf Ihren Körper, wenn Sie sich in der Nähe der Glühbirnen aufhalten.
+- Tragen Sie Ihr Handy nicht am Körper, es sei denn, es befindet sich im Flugmodus, und schlafen Sie nie mit ihm im Schlafzimmer, es sei denn, es befindet sich im Flugmodus. Selbst im Flugzeugmodus kann es Signale aussenden, weshalb ich mein Handy in eine Faraday-Tasche stecke.
+- Wenn Sie Ihr Handy benutzen, verwenden Sie den Lautsprecher und halten Sie das Telefon mindestens einen Meter von sich entfernt. Versuchen Sie, Ihre Zeit am Handy radikal zu reduzieren. Verwenden Sie stattdessen VoIP-Software-Telefone, die Sie über eine kabelgebundene Verbindung mit dem Internet nutzen können.
+- Vermeiden Sie die Benutzung Ihres Mobiltelefons und anderer elektronischer Geräte mindestens eine Stunde (besser mehrere) vor dem Schlafengehen, da sowohl das blaue Licht des Bildschirms als auch die EMF die Melatoninproduktion hemmen. Die Forschung zeigt eindeutig, dass starke Computer- und Handynutzer eher zu Schlaflosigkeit neigen. So ergab eine Studie aus dem Jahr 2008, dass Menschen, die drei Stunden vor dem Schlafengehen der Strahlung ihres Mobiltelefons ausgesetzt waren, größere Schwierigkeiten hatten, einzuschlafen und einen tiefen Schlaf zu halten.
+- Die Auswirkungen von EMF werden durch Kalziumkanalblocker gemindert, daher sollten Sie auf eine ausreichende Magnesiumzufuhr achten. Die meisten Menschen haben einen Magnesiummangel, der die Auswirkungen von EMF noch verschlimmert. Wie der EMF-Experte Dr. Martin Pall bereits feststellte:
+“Bei Magnesiummangel kommt es zu einer übermäßigen Aktivität der VGCCs. Außerdem kommt es zu einem übermäßigen Kalziumeinstrom über den N-Methyl-D-Aspartat-Rezeptor, der durch Magnesiummangel verursacht wird, was ebenfalls problematisch ist, so dass es wichtig ist, diesen Mangel zu beheben.”
+- Pall hat auch eine Arbeit veröffentlicht, die darauf hindeutet, dass eine Erhöhung des Nrf2-Spiegels helfen kann, EMF-Schäden zu lindern. Eine einfache Möglichkeit, Nrf2 zu aktivieren, ist der Verzehr von Nrf2-verstärkenden Nahrungsmitteln. Beispiele hierfür sind sulforaphanhaltiges Kreuzblütlergemüse, Lebensmittel mit hohem Gehalt an phenolischen Antioxidantien, Carotinoide (insbesondere Lycopin), Schwefelverbindungen aus Alluminosen, Isothiocyanate aus der Kohlgruppe und terpenoidreiche Lebensmittel.
+- Molekularer Wasserstoff wirkt nachweislich gegen freie Radikale, die als Reaktion auf Strahlung entstehen, wie z. B. Peroxynitrite. Studien haben gezeigt, dass molekularer Wasserstoff etwa 80 % dieser Schäden abschwächen kann. Molekularer Wasserstoff aktiviert auch Nrf2, ein biologisches Hormon, das die Superoxiddismutase, Katalase und alle anderen nützlichen interzellulären Antioxidantien hochreguliert. Dies wiederum senkt Entzündungen, verbessert die Funktion der Mitochondrien und stimuliert die mitochondriale Biogenese.
+…
+Am 28. April 2020 erschien „Der Hollywood-Code: Kult, Satanismus und Symbolik – Wie Filme und Stars die Menschheit manipulieren“ (auch bei Amazon verfügbar), mit einem spannenden Kapitel: „Die Rache der 12 Monkeys, Contagion und das Coronavirus, oder wie aus Fiktion Realität wird“.
+Am 15. Dezember 2020 erschien „Der Musik-Code: Frequenzen, Agenden und Geheimdienste: Zwischen Bewusstsein und Sex, Drugs & Mind Control“ (auch bei Amazon verfügbar), mit einem spannenden Kapitel: „Popstars als Elite-Marionetten im Dienste der Neuen Corona-Weltordnung“.
+Am 10. Mai 2021 erschien „DUMBs: Geheime Bunker, unterirdische Städte und Experimente: Was die Eliten verheimlichen“ (auch bei Amazon verfügbar), mit einem spannenden Kapitel „Das HAARP-Netzwerk und geheime Experimente“.
+Am 18. März 2022 erschien „Die moderne Musik-Verschwörung: Popstars, Hits und Videoclips – für die perfekte Gehirnwäsche“ (auch bei Amazon verfügbar), mit einem spannenden Kapitel „Stars Pro und Contra Impfung: „Die Ärzte“, „Die Toten Hosen“, Nena, Westernhagen, Eric Clapton, Neil Young und weitere“.
+Am 26. August 2022 erschien „Der Hollywood-Code 2: Prophetische Werke, Alien-Agenda, Neue Weltordnung und Pädophilie – sie sagen es uns durch Filme“ (auch bei Amazon verfügbar), mit einem spannenden Kapitel „Die Alien-Agenda: Science-Fiction Darwinismus “.
+Am 10. März 2023 erschien „Illuminatenblut 2: Jagdgesellschaften der Eliten – sie benutzen Rituale und Magie um Dich zu kontrollieren!“ (auch bei Amazon verfügbar), mit einem spannenden Kapitel „Ordnung aus dem Chaos“: Wie die Pläne der Elite in aller Öffentlichkeit vorhergesagt wurden – Warum mussten die Georgia Guidestones 2022 zerstört werden?“.
+Am 15. Dezember 2023 erschien: „
+Ein handsigniertes Buch erhalten Sie für Euro 30,- (alle acht Bücher für Euro 240,-) inkl. Versand bei Zusendung einer Bestellung an: info@pravda-tv.com.
+Video:
+Quellen: PublicDomain/media.mercola.com am 24.04.2024
+/pytorch/aten/src/ATen/native/cuda/TensorCompare.cu:112: _assert_async_cuda_kernel: block: [0,0,0], thread: [0,0,0] Assertion `probability tensor contains either `inf`, `nan` or element < 0` failed.
+Error in get_response: CUDA error: device-side assert triggered
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Error processing sample 1 (dataset index 152): CUDA error: device-side assert triggered
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 21, in get_response
+    outputs = model.generate(**inputs, max_new_tokens=100)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/utils.py", line 2252, in generate
+    result = self._sample(
+             ^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/utils.py", line 3297, in _sample
+    next_tokens = torch.multinomial(probs, num_samples=1).squeeze(1)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: device-side assert triggered
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 24, in get_response
+    "Runtime error on input:", tokenizer.decode(inputs["input_ids"][0])
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py", line 3841, in decode
+    token_ids = to_py_obj(token_ids)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/utils/generic.py", line 275, in to_py_obj
+    return framework_to_py_obj[framework](obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/utils/generic.py", line 260, in <lambda>
+    "pt": lambda obj: obj.detach().cpu().tolist(),
+                      ^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: device-side assert triggered
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/multiling.py", line 168, in main
+    completion_result = get_response(prompt, model, tokenizer, device)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 41, in get_response
+    torch.cuda.empty_cache()
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/torch/cuda/memory.py", line 222, in empty_cache
+    torch._C._cuda_emptyCache()
+RuntimeError: CUDA error: device-side assert triggered
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/multiling.py", line 437, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/multiling.py", line 339, in main
+    torch.cuda.empty_cache()
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/torch/cuda/memory.py", line 222, in empty_cache
+    torch._C._cuda_emptyCache()
+RuntimeError: CUDA error: device-side assert triggered
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
