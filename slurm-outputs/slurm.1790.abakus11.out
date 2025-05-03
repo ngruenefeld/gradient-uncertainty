@@ -1,27 +1,28 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Running job with commit: 21a6af6bfdaadcc715f19659791cbe34495adee9
+Running job with commit: c61b9b1960edae49f22c650844443cc6e62672db
 [nltk_data] Downloading package stopwords to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package stopwords is already up-to-date!
 [nltk_data] Downloading package wordnet to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package wordnet is already up-to-date!
-Job number: 1789
+Job number: 1790
 Dataset: finenews
 Model: llama-2-7b
 GPT Model: gpt-4o-mini-2024-07-18
 Key mode: keyfile
 Sample size: 0
 Mode: full
-Quantization bits: 4
+Quantization bits: 8
 Full gradient: False
 Response only: True
 Normalize: False
 Perturbation mode: rephrase
 Number of perturbations: 3
-Loading model in 4-bit precision to reduce memory usage
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.39s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.51s/it]
+Loading model in 8-bit precision to reduce memory usage
+Unused kwargs: ['bnb_8bit_use_double_quant']. These kwargs are not used in <class 'transformers.utils.quantization_config.BitsAndBytesConfig'>.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.03s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.31s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.42s/it]
 Processing sample 1/900 (dataset index: 0)
 Processing sample 1 (dataset index 0) with language 'en' and origin 'finenews'
 Article: Jessica Simpson dazzled in a new image shared on Instagram this week, where she was seen promoting her new collaboration with Walmart.
@@ -102,7 +103,8 @@ The president also said the school was prepared to allow demonstrations to resum
 Shafik said Columbia has supported protests and vigils that happened earlier in the year, as they were peaceful and didn't disturb campus operations.
 But she added the encampment has caused an "unwelcoming environment" and "hostile environment" for Jewish students, and violates Title VI of the Civil Rights Act of 1964, which outlaws discrimination at schools that receive federal funding.
 Copyright 2024 NPR
-Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 54.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 47.06 MiB is free. Including non-PyTorch memory, this process has 19.50 GiB memory in use. Of the allocated memory 18.73 GiB is allocated by PyTorch, and 540.30 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 2 (dataset index 1): CUDA out of memory. Tried to allocate 54.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 47.06 MiB is free. Including non-PyTorch memory, this process has 19.50 GiB memory in use. Of the allocated memory 18.73 GiB is allocated by PyTorch, and 540.30 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing sample 3/900 (dataset index: 2)
 Processing sample 3 (dataset index 2) with language 'en' and origin 'finenews'
 Article: NEW YORK — (AP) — Large numbers of New York City police officers began entering the Columbia University late Tuesday as dozens of pro-Palestinian protesters remained on the campus.
@@ -184,7 +186,7 @@ Chicago Today
 NFL Draft
 Expand
 Top Videos
-Sample 5 (dataset index 4) processed successfully with 3 rephrasings.
+Sample 5 (dataset index 4) processed successfully with 30 rephrasings.
 Processing sample 6/900 (dataset index: 5)
 Processing sample 6 (dataset index 5) with language 'en' and origin 'finenews'
 Article: Newswise — A new study has found that pancreatic cancer cells are different based on their location in the pancreas, providing new information about tumors that could lead to better targeted treatments.
@@ -481,7 +483,7 @@ Chicago Today
 NFL Draft
 Expand
 Top Videos
-Sample 12 (dataset index 11) processed successfully with 3 rephrasings.
+Sample 12 (dataset index 11) processed successfully with 36 rephrasings.
 Processing sample 13/900 (dataset index: 12)
 Processing sample 13 (dataset index 12) with language 'en' and origin 'finenews'
 Article: Newswise — Interdisciplinary researchers in Illinois, the U.S. and around the world can advance their projects with the Beckman Institute for Advanced Science and Technology's new Zeiss Xradia 630 Versa micro-CT scanner, the first of its kind with life science applications in the U.S.
@@ -698,8 +700,8 @@ Rice is facing eight felony counts related to the incident — one count of coll
 The presumption is that Rice’s legal team will eventually seek a plea deal that could ultimately be aided by any compensation he provides to the crash victims. The important part to understand here is that the legal process is just getting underway and could take months if not longer to snake toward some manner of trial. Delays in that process, which also always come into play, could push a resolution all the way into 2025.
 That means Rice may not face any NFL discipline this season.
 That said, it’s coming down the pipeline, with the measure of severity expected to be impacted by whatever comes out of the legal process and any measures that Rice and his legal team use to resolve his charges.
-Error in completion_gradient: CUDA out of memory. Tried to allocate 66.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 63.06 MiB is free. Including non-PyTorch memory, this process has 19.48 GiB memory in use. Of the allocated memory 17.61 GiB is allocated by PyTorch, and 1.64 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
-Error calculating gradient for sample 17 (dataset index 16): CUDA out of memory. Tried to allocate 66.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 63.06 MiB is free. Including non-PyTorch memory, this process has 19.48 GiB memory in use. Of the allocated memory 17.61 GiB is allocated by PyTorch, and 1.64 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 26.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 11.06 MiB is free. Including non-PyTorch memory, this process has 19.53 GiB memory in use. Of the allocated memory 18.70 GiB is allocated by PyTorch, and 608.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 17 (dataset index 16): CUDA out of memory. Tried to allocate 26.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 11.06 MiB is free. Including non-PyTorch memory, this process has 19.53 GiB memory in use. Of the allocated memory 18.70 GiB is allocated by PyTorch, and 608.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing sample 18/900 (dataset index: 17)
 Processing sample 18 (dataset index 17) with language 'en' and origin 'finenews'
 Article: Newswise — Who: The American Association of Neurological Surgeons (AANS)
@@ -974,7 +976,7 @@ Size Benefits Info Derma Roller Systems Rsa .
 Pdf Microneedling Advances And Widening Horizons .
 Dermaroller Size Guide Based On Facial Skin Thickness .
 A Scientific Diy Guide To Dermarolling Away Scars And Marks .
-Sample 22 (dataset index 21) processed successfully with 10 rephrasings.
+Sample 22 (dataset index 21) processed successfully with 3 rephrasings.
 Processing sample 23/900 (dataset index: 22)
 Processing sample 23 (dataset index 22) with language 'en' and origin 'finenews'
 Article: If you were curious about what exactly happened to Shohei Ohtani's money after it was allegedly stolen by his former interpreter Ippei Mizuhara, a new report from ESPN's Tisha Thompson has shed new light on the situation.
@@ -1115,7 +1117,7 @@ YouVersion Bible
 bible.com
 Readwise
 readwise.io
-Sample 24 (dataset index 23) processed successfully with 13 rephrasings.
+Sample 24 (dataset index 23) processed successfully with 3 rephrasings.
 Processing sample 25/900 (dataset index: 24)
 Processing sample 25 (dataset index 24) with language 'en' and origin 'finenews'
 Article: Newswise — Chicago, IL – April 30, 2024 – The American Association of Neurological Surgeons (AANS) is thrilled to announce the impressive lineup of esteemed speakers set to headline the highly anticipated 2024 AANS Annual Scientific Meeting, taking place from May 3-5 in the vibrant city of Chicago. Representing a diverse mix of visionaries spanning literature, physics, political commentary and medicine, these speakers promise attendees a transformative experience of profound insights and inspiration.
@@ -1174,7 +1176,7 @@ Chicago Today
 NFL Draft
 Expand
 Weather
-Sample 28 (dataset index 27) processed successfully with 22 rephrasings.
+Sample 28 (dataset index 27) processed successfully with 3 rephrasings.
 Processing sample 29/900 (dataset index: 28)
 Processing sample 29 (dataset index 28) with language 'en' and origin 'finenews'
 Article: 7-DAY DEADLINE ALERT: The Schall Law Firm Encourages Investors in iRobot Corporation with Losses of $100,000 to Contact the Firm
@@ -1597,7 +1599,7 @@ Indiana Pacers Arena Seating Chart Best Picture Of Chart .
 Bankers Life Fieldhouse Section 216 Home Of Indiana .
 News Today Toronto Raptors Seating Chart With Seat Numbers .
 Bankers Life Fieldhouse Parking Garage Masjee .
-Sample 39 (dataset index 38) processed successfully with 6 rephrasings.
+Sample 39 (dataset index 38) processed successfully with 3 rephrasings.
 Processing sample 40/900 (dataset index: 39)
 Processing sample 40 (dataset index 39) with language 'en' and origin 'finenews'
 Article: Newswise — LOS ANGELES (April 30, 2024) -- Artificial intelligence experts at Cedars-Sinai and the Smidt Heart Institute created a dataset with more than 1 million echocardiograms, or cardiac ultrasound videos, and their corresponding clinical interpretations. Using this database, they created EchoCLIP, a powerful machine learning algorithm that can “interpret” echocardiogram images and assess key findings.
@@ -1613,7 +1615,7 @@ Albert, who was not involved in the Nature Medicine study, said, “This novel f
 Cedars-Sinai investigator and first author Kai Christensen was also involved in the study. Other authors involved in the research include Milos Vukadinovic and Neal Yuan.
 Ouyang is funded by NIH NHLBI grant R00HL157421.
 Read more from the Cedars-Sinai Blog: The Human Factor of Artificial Intelligence
-Sample 40 (dataset index 39) processed successfully with 3 rephrasings.
+Sample 40 (dataset index 39) processed successfully with 1 rephrasings.
 Processing sample 41/900 (dataset index: 40)
 Processing sample 41 (dataset index 40) with language 'en' and origin 'finenews'
 Article: Jack Flaherty had a perfect start against his former team on Tuesday afternoon.
@@ -2093,8 +2095,8 @@ Students that fall under special circumstances are placed in the Alternative Edu
 "But with that discipline, they can't go over 40 days without having another hearing, and so more than likely the student is going to have their due process rights heard and then a decision will be made within that meeting," Gabrylczyk said.
 "School discipline, and judicial discipline are two separate things. We tend to like to integrate it. So you could have a student who assaults somebody and they could end up in the judicial system ... But the only thing we're responsible for is what the law is pertaining to schools and school districts," Gabrylczyk said.
 This is a friendly reminder - the current text generation call will exceed the model's predefined maximum length (4096). Depending on the model, you may observe exceptions, performance degradation, or nothing at all.
-Error in completion_gradient: CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 75.06 MiB is free. Including non-PyTorch memory, this process has 19.47 GiB memory in use. Of the allocated memory 17.83 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
-Error calculating gradient for sample 49 (dataset index 48): CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 75.06 MiB is free. Including non-PyTorch memory, this process has 19.47 GiB memory in use. Of the allocated memory 17.83 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 88.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 39.06 MiB is free. Including non-PyTorch memory, this process has 19.51 GiB memory in use. Of the allocated memory 18.64 GiB is allocated by PyTorch, and 640.13 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 49 (dataset index 48): CUDA out of memory. Tried to allocate 88.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 39.06 MiB is free. Including non-PyTorch memory, this process has 19.51 GiB memory in use. Of the allocated memory 18.64 GiB is allocated by PyTorch, and 640.13 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing sample 50/900 (dataset index: 49)
 Processing sample 50 (dataset index 49) with language 'en' and origin 'finenews'
 Article: Nieuwe app verzoeken
@@ -2306,7 +2308,7 @@ Senior Manager – Client Engagements
 Suite 600, Dallas,
 Texas – 75204, U.S.A.
 Phone No.: USA: +1 (972)-362-8199 | IND: +91 895 659 5155
-Sample 52 (dataset index 51) processed successfully with 6 rephrasings.
+Sample 52 (dataset index 51) processed successfully with 3 rephrasings.
 Processing sample 53/900 (dataset index: 52)
 Processing sample 53 (dataset index 52) with language 'en' and origin 'finenews'
 Article: NEW ORLEANS — (AP) — A new congressional map giving Louisiana a second majority-Black House district was rejected Tuesday by a panel of three federal judges, fueling new uncertainty about district boundaries as the state prepares for fall congressional elections.
@@ -2449,7 +2451,8 @@ The president also said the school was prepared to allow demonstrations to resum
 Shafik said Columbia has supported protests and vigils that happened earlier in the year, as they were peaceful and didn't disturb campus operations.
 But she added the encampment has caused an "unwelcoming environment" and "hostile environment" for Jewish students, and violates Title VI of the Civil Rights Act of 1964, which outlaws discrimination at schools that receive federal funding.
 Copyright 2024 NPR
-Sample 56 (dataset index 55) processed successfully with 3 rephrasings.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 40.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 37.06 MiB is free. Including non-PyTorch memory, this process has 19.51 GiB memory in use. Of the allocated memory 18.84 GiB is allocated by PyTorch, and 435.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 56 (dataset index 55): CUDA out of memory. Tried to allocate 40.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 37.06 MiB is free. Including non-PyTorch memory, this process has 19.51 GiB memory in use. Of the allocated memory 18.84 GiB is allocated by PyTorch, and 435.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing sample 57/900 (dataset index: 56)
 Processing sample 57 (dataset index 56) with language 'en' and origin 'finenews'
 Article: Members of Fort Worth’s ad hoc council committee on emergency medical response have recommended that MedStar employees who transition to the proposed fire department-based EMS model receive civil service benefits.
@@ -2596,7 +2599,7 @@ Uber Eats
 ubereats.com
 McDonald's
 mcdonalds.com
-Sample 58 (dataset index 57) processed successfully with 22 rephrasings.
+Sample 58 (dataset index 57) processed successfully with 3 rephrasings.
 Processing sample 59/900 (dataset index: 58)
 Processing sample 59 (dataset index 58) with language 'en' and origin 'finenews'
 Article: PALM HARBOR, Fla. - Two people were found dead in an apparent murder-suicide at a home on Moreno Drive in Palm Harbor on Tuesday morning.
@@ -2708,8 +2711,8 @@ B.C. police are rarely charged for killing or harming civilians. A watchdog want
 B.C.'s police watchdog wants a review of how prosecutors handle cases where officers kill or seriously harm members of the public, saying low rates of charges and convictions are casting doubt on the province's system of accountability.
 -
 Some Vancouver School Board trustees are sounding the alarm after they say the budget for the 2024-2025 school year fails to address key concerns.
-Error in completion_gradient: CUDA out of memory. Tried to allocate 360.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 153.06 MiB is free. Including non-PyTorch memory, this process has 19.39 GiB memory in use. Of the allocated memory 17.77 GiB is allocated by PyTorch, and 1.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
-Error calculating gradient for sample 60 (dataset index 59): CUDA out of memory. Tried to allocate 360.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 153.06 MiB is free. Including non-PyTorch memory, this process has 19.39 GiB memory in use. Of the allocated memory 17.77 GiB is allocated by PyTorch, and 1.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 62.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 59.06 MiB is free. Including non-PyTorch memory, this process has 19.49 GiB memory in use. Of the allocated memory 18.88 GiB is allocated by PyTorch, and 370.78 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 60 (dataset index 59): CUDA out of memory. Tried to allocate 62.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 59.06 MiB is free. Including non-PyTorch memory, this process has 19.49 GiB memory in use. Of the allocated memory 18.88 GiB is allocated by PyTorch, and 370.78 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing sample 61/900 (dataset index: 60)
 Processing sample 61 (dataset index 60) with language 'en' and origin 'finenews'
 Article: Perhaps more than any digital audio workstation (DAW) I've tested recently, Studio One makes it easy to record audio, compose music, and mix. It's as if someone took Avid Pro Tools, removed many unnecessary mouse button presses, and rearranged the menus and dialogs to make sense. Studio One doesn't scale to larger studios as well as Pro Tools, but it's an inspired audio editing choice for anyone who needs a serious DAW and dislikes Avid's subscription pricing (though the latter may be changing, as I'll explain). While Studio One is an excellent app, our Editors' Choices for digital audio workstations are Cubase Pro for Windows and Apple Logic Pro on macOS, with Avid Pro Tools as our cross-platform pick for high-end DAWs.
@@ -2747,8 +2750,8 @@ This newsletter may contain advertising, deals, or affiliate links. Subscribing 
 Thanks for signing up!
 Your subscription has been confirmed. Keep an eye on your inbox!
 Sign up for other newsletters
-Error in completion_gradient: CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 45.06 MiB is free. Including non-PyTorch memory, this process has 19.50 GiB memory in use. Of the allocated memory 18.46 GiB is allocated by PyTorch, and 826.39 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
-Error calculating gradient for sample 61 (dataset index 60): CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 45.06 MiB is free. Including non-PyTorch memory, this process has 19.50 GiB memory in use. Of the allocated memory 18.46 GiB is allocated by PyTorch, and 826.39 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 76.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 65.06 MiB is free. Including non-PyTorch memory, this process has 19.48 GiB memory in use. Of the allocated memory 18.88 GiB is allocated by PyTorch, and 370.77 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 61 (dataset index 60): CUDA out of memory. Tried to allocate 76.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 65.06 MiB is free. Including non-PyTorch memory, this process has 19.48 GiB memory in use. Of the allocated memory 18.88 GiB is allocated by PyTorch, and 370.77 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing sample 62/900 (dataset index: 61)
 Processing sample 62 (dataset index 61) with language 'en' and origin 'finenews'
 Article: Two 15-year-olds were stabbed in a well-known nightclub in Naples; A third youth has been identified and his whereabouts are being investigated.
@@ -3778,7 +3781,7 @@ Senior Manager – Client Engagements
 Suite 600, Dallas,
 Texas – 75204, U.S.A.
 Phone No.: USA: +1 (972)-362-8199 | IND: +91 895 659 5155
-Sample 90 (dataset index 89) processed successfully with 3 rephrasings.
+Sample 90 (dataset index 89) processed successfully with 4 rephrasings.
 Processing sample 91/900 (dataset index: 90)
 Processing sample 91 (dataset index 90) with language 'en' and origin 'finenews'
 Article: Pampers Swaddlers Chart New Baby Products Pampers Size .
@@ -3995,7 +3998,7 @@ Details About Tool Dickies Workshirt T Shirt New All Sizes Rock Metal .
 Dickies Dickies North Irwin Shirt Black .
 Girls Size Chart Fit Guide Dickies .
 Dickies Og Swag Summer Tee .
-Sample 97 (dataset index 96) processed successfully with 3 rephrasings.
+Sample 97 (dataset index 96) processed successfully with 8 rephrasings.
 Processing sample 98/900 (dataset index: 97)
 Processing sample 98 (dataset index 97) with language 'en' and origin 'finenews'
 Article: WASHINGTON – Downtown hotels will be hard to come by when the Republican National Convention kicks off in Milwaukee in just over two months.
@@ -4295,8 +4298,8 @@ Fahrrad gestohlen
 LICHTENFELS. Am Samstag, zwischen 09.00 Uhr und 13.00 Uhr, entwendete ein bislang unbekannter Täter ein rotes E‑Bike der Marke Cube, Typ Reaction Hybrid EXC, im Wert von mehr als 3.600 Euro. Das Fahrrad war zur Tatzeit vor dem Wohnanwesen des 31-Jährigen Besitzers, in der Straße „An der Hummerei“, versperrt abgestellt. Sachdienliche Hinweise zu Tat und/oder Täter erbittet die Polizeiinspektion Lichtenfels unter der Telefonnummer 09571/9520–0.
 Getränke entwendet
 LICHTENEFLS. Am Montagmittag konnte der Ladendetektiv eines Supermarktes in der Kronacher Straße einen 17-Jährigen beobachten, wie dieser zwei Getränke-Dosen in seine Jacke steckte und anschließend das Geschäft ohne zu bezahlen verlassen wollte. Der Jugendliche wurde angehalten und ins Büro gebeten, wo er der hinzugerufenen Polizeistreife übergeben wurde. Der junge Mann gab das Diebesgut im Wert von rund 3 Euro freiwillig heraus. Er erhält eine Anzeige wegen Ladendiebstahls.
-Error in completion_gradient: CUDA out of memory. Tried to allocate 348.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 299.06 MiB is free. Including non-PyTorch memory, this process has 19.25 GiB memory in use. Of the allocated memory 17.33 GiB is allocated by PyTorch, and 1.69 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
-Error calculating gradient for sample 118 (dataset index 117): CUDA out of memory. Tried to allocate 348.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 299.06 MiB is free. Including non-PyTorch memory, this process has 19.25 GiB memory in use. Of the allocated memory 17.33 GiB is allocated by PyTorch, and 1.69 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 24.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 19.06 MiB is free. Including non-PyTorch memory, this process has 19.53 GiB memory in use. Of the allocated memory 18.79 GiB is allocated by PyTorch, and 505.56 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 118 (dataset index 117): CUDA out of memory. Tried to allocate 24.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 19.06 MiB is free. Including non-PyTorch memory, this process has 19.53 GiB memory in use. Of the allocated memory 18.79 GiB is allocated by PyTorch, and 505.56 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing sample 119/900 (dataset index: 118)
 Processing sample 119 (dataset index 118) with language 'de' and origin 'finenews'
 Article: Polizeibericht Hochfranken vom 30.04.2024
@@ -4325,7 +4328,8 @@ Wahlplakate verunstaltet
 UNTERBRÜCKLEIN, LKR. KULMBACH. Unbekannte beschmierten ein Wahlplakat an der Bundesstraße 85 in dem Neudrossenfelder Ortsteil. Wegen des politischen Bezugs ermittelt die Kriminalpolizei.
 Zu einem unbekannten Zeitpunkt hinterließen die Täter ihre Schmierereien auf dem Großflächen-Plakat. Die abgebildeten Personen wurden mit schwarzen Oberlippenbärten versehen und mit weiteren Titeln bedacht. Das Plakat ist anlässlich der nahenden Europawahl neben der B85 aufgestellt.
 Hinweise zu der Tat nimmt die Kriminalpolizei Bayreuth entgegen. Zeugen melden sich bitte unter der Tel.-Nr. 0921/5060.
-Sample 119 (dataset index 118) processed successfully with 3 rephrasings.
+JSONDecodeError: Expecting value: line 21194 column 3 (char 41522)
+Error getting rephrasings for sample 119 (dataset index 118): Invalid JSON response from API
 Processing sample 120/900 (dataset index: 119)
 Processing sample 120 (dataset index 119) with language 'de' and origin 'finenews'
 Article: Sitzung des Gemeinderates Buckenhof
@@ -4511,7 +4515,8 @@ Zur Person
 Riccardo Nicolosi ist Professor für Slavische Philologie (Literaturwissenschaft) an der Ludwig-Maximilians-Universität München. Er lehrte zuvor an den Universitäten Konstanz, Bonn und Bochum und war Visiting Professor an der University of California, Berkeley. Im Sommersemester 2024 ist Riccardo Nicolosi Senior Fellow am Alfried Krupp Wissenschaftskolleg Greifswald. In diesem Semester gibt es weitere Vorträge von Gastmitgliedern des Wissenschaftskollegs, Infos dazu gibt es hier.
 Zur Person der*des Autor*in
 Beitragsbild: Dimitro Sevastapol (Pixabay)
-Sample 135 (dataset index 134) processed successfully with 3 rephrasings.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 48.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 49.06 MiB is free. Including non-PyTorch memory, this process has 19.50 GiB memory in use. Of the allocated memory 18.79 GiB is allocated by PyTorch, and 478.17 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 135 (dataset index 134): CUDA out of memory. Tried to allocate 48.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 49.06 MiB is free. Including non-PyTorch memory, this process has 19.50 GiB memory in use. Of the allocated memory 18.79 GiB is allocated by PyTorch, and 478.17 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing sample 136/900 (dataset index: 135)
 Processing sample 136 (dataset index 135) with language 'de' and origin 'finenews'
 Article: Spätestens seit 2020 ist bestimmt jeder dem Begriff "Verschwörung" und "Verschwörungstheorien", auch "Verschwörungserzählungen" und dergleichen begegnet. Diese Begriffe wurden in bestimmtem Kontext erwähnt und oft auch wiederholt. So glaubt man zu wissen, was man (der Genormte) und diesem Begriff zu verstehen hat.
@@ -4557,7 +4562,8 @@ Ideal für Paare, Gruppen, Singles oder Freunde, mit modernen Zimmern und Suiten
 Weitere Informationen zu den Royalton CHIC Resorts finden Sie unter www.royaltonchicresorts.com
 Ein Foto zu dieser Mitteilung ist verfügbar unter https://www.globenewswire.com/NewsRoom/AttachmentNg/a6d3e5ed-2a14-4a17-aac4-f9abf13a9ad5
 Für weitere Informationen kontaktieren Sie bitte: media@bluediamondresorts.com.
-Sample 138 (dataset index 137) processed successfully with 3 rephrasings.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 56.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 53.06 MiB is free. Including non-PyTorch memory, this process has 19.49 GiB memory in use. Of the allocated memory 18.53 GiB is allocated by PyTorch, and 742.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 138 (dataset index 137): CUDA out of memory. Tried to allocate 56.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 53.06 MiB is free. Including non-PyTorch memory, this process has 19.49 GiB memory in use. Of the allocated memory 18.53 GiB is allocated by PyTorch, and 742.44 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing sample 139/900 (dataset index: 138)
 Processing sample 139 (dataset index 138) with language 'de' and origin 'finenews'
 Article: Wolfsburg/Langenfeld (dpa/tmn) – Haben Sie ein Profil bei Xing, LinkedIn oder ähnlichen Jobnetzwerken? Für Recruiterinnen und Recruiter sind sie mittlerweile enorm wichtig, wenn es um die Besetzung von Stellen geht. Dabei kommt es aber auch darauf an, wie Jobsuchende die Portale nutzen. Diese Tipps sollten sie befolgen:
@@ -4682,7 +4688,8 @@ Wird ein Auto abgeschleppt, darf der Pannenwagen auch von einer Person ohne gül
 Wer zahlt bei Schäden?
 Kommt es beim privaten Abschleppen zu einem Unfall, ist laut ACE zunächst einmal jedes Fahrzeug für sich zu betrachten. «Nach der aktuellen Rechtsprechung wird das abgeschleppte Fahrzeug nicht zum Anhänger», so Jeannine Ulm. Wenn daher keinem der Fahrzeugführer:innen ein Vorwurf gemacht werden könne, würden beide in gleichem Umfang haften und somit auch ihre jeweiligen Versicherungen.
 © dpa-infocom, dpa:240501-99-872150/2
-Sample 144 (dataset index 143) processed successfully with 3 rephrasings.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 44.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 33.06 MiB is free. Including non-PyTorch memory, this process has 19.51 GiB memory in use. Of the allocated memory 18.65 GiB is allocated by PyTorch, and 632.85 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 144 (dataset index 143): CUDA out of memory. Tried to allocate 44.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 33.06 MiB is free. Including non-PyTorch memory, this process has 19.51 GiB memory in use. Of the allocated memory 18.65 GiB is allocated by PyTorch, and 632.85 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing sample 145/900 (dataset index: 144)
 Processing sample 145 (dataset index 144) with language 'de' and origin 'finenews'
 Article: Düsseldorf (dpa/tmn) – Die Aussicht auf einen Klinikaufenthalt, die ist wohl für niemanden so richtig schön. Nicht nur, weil sich vorab Ängste melden, ob der Eingriff wie geplant verläuft, ob man die Narkose gut verträgt, wie schnell man wortwörtlich wieder auf die Beine kommt. Die Gedanken kreisen vielleicht auch um Fragen wie: Habe ich an alles gedacht, muss ich noch etwas klären? Hier bekommen Sie einen Überblick:
@@ -4715,7 +4722,8 @@ Ja, das ist möglich, für bis zu sieben Tage. «Das verschafft einem ein bissch
 Gut möglich, dass man sich aber doch zeitnah auf den Weg zur Arztpraxis machen muss, nämlich dann, wenn man Medikamente benötigt. Denn Krankenhäuser dürfen sie nur begrenzt mitgeben bzw. verordnen.
 Wird man vor oder an einem Wochenende oder Feiertag entlassen, darf das Krankenhaus nur so viele Medikamente mitgeben, wie es zur Überbrückung dieser Tage braucht. Die Klinik kann Medikamente aber auch verordnen, sodass man sie nach der Entlassung selbst in der Apotheke abholen kann. Möglich ist dabei allerdings höchstens die kleinste Packungsgröße.
 © dpa-infocom, dpa:240501-99-872244/2
-Sample 145 (dataset index 144) processed successfully with 3 rephrasings.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 3.06 MiB is free. Including non-PyTorch memory, this process has 19.54 GiB memory in use. Of the allocated memory 18.61 GiB is allocated by PyTorch, and 707.51 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 145 (dataset index 144): CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 3.06 MiB is free. Including non-PyTorch memory, this process has 19.54 GiB memory in use. Of the allocated memory 18.61 GiB is allocated by PyTorch, and 707.51 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing sample 146/900 (dataset index: 145)
 Processing sample 146 (dataset index 145) with language 'de' and origin 'finenews'
 Article: Berlin (dpa/tmn). Wer seine mindestens zehn Jahre alte, zu eigenen Wohnzwecken genutzte Immobilie einer energetischen Sanierung unterzieht, kann dabei steuerlich profitieren. Die Kosten des ausführenden Fachunternehmens sind zu 20 Prozent absetzbar – bis zu einer Höchstgrenze von 40.000 Euro und verteilt über einen Zeitraum von drei Jahren. Wichtige Voraussetzung dafür ist, dass Steuerzahlerinnen und Steuerzahler parallel keine anderen Fördermittel der KfW oder des Bundesamts für Wirtschaft und Ausfuhrkontrolle (BAFA) in Anspruch nehmen. Und, dass sie den Aufwand nicht in Raten bezahlen. Sonst ist der Bonus unter Umständen verspielt.
@@ -4800,7 +4808,8 @@ Beispielsweise heißt es im Zeichentrickfilm „Fantastic Planet“ (La Planete 
 Dennoch bleibt die Bevölkerung zutiefst ahnungslos und völlig getäuscht, bis zu dem Punkt, an dem ein Massenerwachen unmöglich erscheint.
 Folglich werden ihre Symbole und Zeichen jetzt offenkundig zur Schau gestellt und nicht länger versteckt, da sie eine Geheimhaltung für unnötig halten. Um den Beschluss der Verschwörer zu wiederholen:
 „Unsere Ressourcen und ihr Einfluss sollten verborgen bleiben, bis sie so gewaltig werden, dass keine andere Macht oder ein anderer Plan sie schwächen kann.“
-Sample 149 (dataset index 148) processed successfully with 3 rephrasings.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 35.06 MiB is free. Including non-PyTorch memory, this process has 19.51 GiB memory in use. Of the allocated memory 18.88 GiB is allocated by PyTorch, and 401.75 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 149 (dataset index 148): CUDA out of memory. Tried to allocate 46.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 35.06 MiB is free. Including non-PyTorch memory, this process has 19.51 GiB memory in use. Of the allocated memory 18.88 GiB is allocated by PyTorch, and 401.75 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing sample 150/900 (dataset index: 149)
 Processing sample 150 (dataset index 149) with language 'de' and origin 'finenews'
 Article: Qingdao-Deutschland-Treffen zum Austausch von Wirtschaft, Handel, Kultur und Tourismus in Stuttgart, Deutschland
@@ -4861,8 +4870,8 @@ Welchen Weg ein Land, eine Nation geht, gehen muss, das keinen Nationalstolz zul
 Ach ja, es könnte sonst sein, dass jemand Stolz empfindet, weil es gelungen ist, die Täter zumindest zu benennen.
 Der Selbsthass geht bis in die Schulen. An einer Riesaer Schule in Sachsen wurden Schüler mit der Note 6 bestraft, weil sie die Deutsche Nationalhymne singen wollten: (Schulskandal in Sachsen: Schüler bekommen eine Sechs, weil sie Nationalhymne singen wollen)
 Quellen: PublicDomain/anderweltonline.com am 30.04.2024
-Error in completion_gradient: CUDA out of memory. Tried to allocate 66.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 63.06 MiB is free. Including non-PyTorch memory, this process has 19.48 GiB memory in use. Of the allocated memory 17.48 GiB is allocated by PyTorch, and 1.77 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
-Error calculating gradient for sample 151 (dataset index 150): CUDA out of memory. Tried to allocate 66.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 63.06 MiB is free. Including non-PyTorch memory, this process has 19.48 GiB memory in use. Of the allocated memory 17.48 GiB is allocated by PyTorch, and 1.77 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 136.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 135.06 MiB is free. Including non-PyTorch memory, this process has 19.41 GiB memory in use. Of the allocated memory 18.77 GiB is allocated by PyTorch, and 407.84 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 151 (dataset index 150): CUDA out of memory. Tried to allocate 136.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 135.06 MiB is free. Including non-PyTorch memory, this process has 19.41 GiB memory in use. Of the allocated memory 18.77 GiB is allocated by PyTorch, and 407.84 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing sample 152/900 (dataset index: 151)
 Processing sample 152 (dataset index 151) with language 'de' and origin 'finenews'
 Article: Menschen werden in Batterien verwandelt, um das digitale KI-Gefängnis mit Strom zu versorgen.
@@ -4909,7 +4918,8 @@ Am 15. Dezember 2023 erschien: „
 Ein handsigniertes Buch erhalten Sie für Euro 30,- (alle sieben Bücher für Euro 210,-) inkl. Versand bei Zusendung einer Bestellung an: info@pravda-tv.com.
 Video:
 Quellen: PublicDomain/gregreese.substack.com am 29.04.2024
-Sample 152 (dataset index 151) processed successfully with 3 rephrasings.
+Error in completion_gradient: CUDA out of memory. Tried to allocate 40.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 15.06 MiB is free. Including non-PyTorch memory, this process has 19.53 GiB memory in use. Of the allocated memory 18.92 GiB is allocated by PyTorch, and 382.94 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 152 (dataset index 151): CUDA out of memory. Tried to allocate 40.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 15.06 MiB is free. Including non-PyTorch memory, this process has 19.53 GiB memory in use. Of the allocated memory 18.92 GiB is allocated by PyTorch, and 382.94 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing sample 153/900 (dataset index: 152)
 Processing sample 153 (dataset index 152) with language 'de' and origin 'finenews'
 Article: In den letzten zehn Jahren habe ich viele Artikel geschrieben, in denen ich die Beweise für biologische Schäden durch nichtionisierende elektromagnetische Felder (EMF) und Hochfrequenzstrahlung (RFR) aus drahtlosen Technologien diskutiert habe.
@@ -5099,8 +5109,3 @@ CUDA kernel errors might be asynchronously reported at some other API call, so t
 For debugging consider passing CUDA_LAUNCH_BLOCKING=1
 Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 
-[main c61b9b1] Multilingual Script Results for Run 1789 (Commit: 21a6af6)
- 1 file changed, 5101 insertions(+)
- create mode 100644 slurm-outputs/slurm.1789.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   21a6af6..c61b9b1  main -> main
