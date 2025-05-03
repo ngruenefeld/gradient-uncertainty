@@ -17,13 +17,7 @@ def get_response(prompt, model, tokenizer, device):
         # Use no_grad to prevent gradient storage during inference
         with torch.no_grad():
             inputs = tokenizer(prompt, return_tensors="pt").to(device)
-            try:
-                outputs = model.generate(**inputs, max_new_tokens=100)
-            except RuntimeError as e:
-                print(
-                    "Runtime error on input:", tokenizer.decode(inputs["input_ids"][0])
-                )
-                raise e
+            outputs = model.generate(**inputs, max_new_tokens=100)
             generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
         if generated_text.startswith(prompt):
