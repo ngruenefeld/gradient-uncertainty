@@ -457,7 +457,6 @@ def load_multilingual_datasets(choice="finenews"):
 
         data = {
             "text": [],
-            "origin": [],
             "language": [],
         }
 
@@ -473,7 +472,6 @@ def load_multilingual_datasets(choice="finenews"):
                 count += 1
 
             data["text"].extend(content_samples)
-            data["origin"].extend(["finenews"] * len(content_samples))
             data["language"].extend([lang] * len(content_samples))
 
         return Dataset.from_dict(data)
@@ -482,16 +480,16 @@ def load_multilingual_datasets(choice="finenews"):
         languages = {
             "english": "en",
             "german": "de",
-            # "spanish": "es",
-            # "french": "fr",
-            # "italian": "it",
-            # "korean": "ko",
-            # "portuguese": "pt",
-            # "russian": "ru",
+            "spanish": "es",
+            "french": "fr",
+            "italian": "it",
+            "korean": "ko",
+            "portuguese": "pt",
+            "russian": "ru",
             "chinese": "zh",
         }
 
-        sample_size = 10
+        sample_size = 3
         total_sample_size = len(languages) * sample_size
 
         count = 0
@@ -503,7 +501,6 @@ def load_multilingual_datasets(choice="finenews"):
         data = {
             languages[lang]: {
                 "text": [],
-                "origin": [],
                 "language": [],
             }
             for lang in languages
@@ -517,7 +514,6 @@ def load_multilingual_datasets(choice="finenews"):
             cur_lang = languages[example["lang"]]
             if len(data[cur_lang]["text"]) < sample_size:
                 data[cur_lang]["text"].append(example["caption"]["content"])
-                data[cur_lang]["origin"].append("vript")
                 data[cur_lang]["language"].append(cur_lang)
                 count += 1
 
@@ -528,7 +524,6 @@ def load_multilingual_datasets(choice="finenews"):
         }
         for lang in data:
             full_data["text"].extend(data[lang]["text"])
-            full_data["origin"].extend(data[lang]["origin"])
             full_data["language"].extend(data[lang]["language"])
 
         return Dataset.from_dict(full_data)

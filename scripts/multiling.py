@@ -151,31 +151,16 @@ def main(args):
         try:
             article = item["text"]
             language = item["language"]
-            origin = item["origin"]
 
             print(
-                f"Processing sample {current_sample} (dataset index {dataset_idx}) with language '{language}' and origin '{origin}'"
+                f"Processing sample {current_sample} (dataset index {dataset_idx}) with language '{language}'"
             )
             print(f"Article: {article}")
-
-            # prompt = get_summarization_instruction(language=language) + article
-            # prompt = article
-
-            # Get response (with built-in error handling)
-            # completion_result = get_response(prompt, model, tokenizer, device)
-            # if isinstance(completion_result, dict) and "error" in completion_result:
-            #     print(
-            #         f"Error getting response for sample {current_sample} (dataset index {dataset_idx}): {completion_result['error']}"
-            #     )
-            #     failed_count += 1
-            #     torch.cuda.empty_cache()  # Ensure memory is freed
-            #     continue
-            # completion = completion_result
 
             # Clear memory after getting response
             torch.cuda.empty_cache()
 
-            # Calculate gradient (with built-in error handling)
+            # Calculate gradient
             gradient_result = completion_gradient(
                 "",
                 article,
@@ -193,7 +178,7 @@ def main(args):
                 torch.cuda.empty_cache()  # Ensure memory is freed
                 continue
 
-            gradient, completion_length = gradient_result
+            gradient, _ = gradient_result
             gradient_norm = torch.norm(gradient).item()
 
             # Clear memory after calculating gradient
@@ -242,7 +227,6 @@ def main(args):
                     modified_sentence = tokenizer.decode(modified_input_ids[0])
                     rephrasings.append(modified_sentence)
 
-            rephrasing_lengths = []
             rephrasing_gradient_norms = []
             rephrasing_gradient_std = 0.0
 
@@ -281,8 +265,7 @@ def main(args):
                     torch.cuda.empty_cache()
                     break
 
-                rephrasing_gradient, rephrasing_length = rephrasing_gradient_result
-                rephrasing_lengths.append(rephrasing_length)
+                rephrasing_gradient, _ = rephrasing_gradient_result
                 rephrasing_gradient_norm = torch.norm(rephrasing_gradient).item()
                 rephrasing_gradient_norms.append(rephrasing_gradient_norm)
 
@@ -312,11 +295,8 @@ def main(args):
             result_entry = {
                 "prompt": article,
                 "language": language,
-                "origin": origin,
-                "completion_length": completion_length,
-                "completion_gradient": gradient_norm,
+                "prompt_gradient": gradient_norm,
                 "rephrased_completions": rephrasings,
-                "rephrased_completion_lengths": rephrasing_lengths,
                 "rephrased_gradients": rephrasing_gradient_norms,
                 "rephrased_gradient_std": rephrasing_gradient_std,
             }
