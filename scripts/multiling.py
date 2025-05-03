@@ -159,7 +159,8 @@ def main(args):
             )
             print(f"Article: {article}")
 
-            prompt = get_summarization_instruction(language=language) + article
+            # prompt = get_summarization_instruction(language=language) + article
+            prompt = article
 
             # Get response (with built-in error handling)
             completion_result = get_response(prompt, model, tokenizer, device)
