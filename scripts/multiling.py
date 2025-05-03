@@ -367,7 +367,7 @@ def main(args):
 
         df = pd.DataFrame(results)
         df.to_pickle(
-            f"data/{mode}/results_{job_number}_{model_name}{quant_suffix}{response_suffix}{normalize_suffix}_{perturbation_mode}_{dataset_name}.pkl"
+            f"data/{mode}/multiling_results_{job_number}_{model_name}{quant_suffix}{response_suffix}{normalize_suffix}_{perturbation_mode}_{dataset_name}.pkl"
         )
         print(
             f"Processing complete. Saved {len(results)} successful results. Failed: {failed_count}"
