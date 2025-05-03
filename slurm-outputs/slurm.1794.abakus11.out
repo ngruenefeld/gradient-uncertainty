@@ -27,3 +27,15 @@ Processing sample 1 (dataset index 152) with language 'de' and origin 'vript'
 Article: Der Videotitel '小伙去村里最恐怖的深潭放地笼，用猪血做诱饵，收获很意外' deutet darauf hin, dass ein junger Mann in einem Dorf zu einem tiefen Teich geht, um dort eine Fischreuse auszusetzen, Schweineblut als Köder verwendet und eine überraschende Ausbeute hat. In den Videobildern ist ein ruhiger, blauer Teich zu sehen, der von steilen Felsen und dichter Vegetation umgeben ist. Der Teich scheint tief zu sein und weist einen Eingang oder eine Höhle auf, die möglicherweise unter Wasser führt. Die Umgebung wirkt ruhig und unberührt, wobei die natürliche Szenerie friedlich und abgeschieden erscheint. Es gibt keine Menschen oder Tiere in den gezeigten Rahmen; die Szene konzentriert sich ganz auf die natürliche Schönheit und Isolation des Teichs. Das Licht scheint natürlich und deutet auf Tageslicht hin, möglicherweise am späten Nachmittag, da die Schatten weich sind. Es gibt keine Texte oder Untertitel in den Rahmen, daher muss der Inhalt aus dem Kontext des Titels interpretiert werden. Der Videostil ist dokumentarisch mit einer statischen Kameraführung, die den Zuschauern erlaubt, die Stille und Ruhe des Ortes aufzunehmen.
 Sample 1 (dataset index 152) processed successfully with 3 rephrasings.
 Processing complete. Saved 1 successful results. Failed: 0
+[main 270c68c] Multilingual Script Results for Run 1794 (Commit: c9cbb94)
+ 3 files changed, 34 insertions(+)
+ create mode 100644 data/full/multiling_results_1794_llama-2-7b_4bit_rephrase_vript.pkl
+ create mode 100644 slurm-outputs/slurm.1794.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:ngruenefeld/gradient-uncertainty.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
