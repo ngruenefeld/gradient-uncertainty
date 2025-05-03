@@ -35,3 +35,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/modeling_utils.py", line 3929, in from_pretrained
     raise EnvironmentError(
 OSError: meta-llama/Llama-2-7b does not appear to have a file named pytorch_model.bin, model.safetensors, tf_model.h5, model.ckpt or flax_model.msgpack.
+[main 21dc7ef] Multilingual Script Results for Run 1801 (Commit: 719df4b)
+ 2 files changed, 43 insertions(+)
+ create mode 100644 slurm-outputs/slurm.1801.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   719df4b..21dc7ef  main -> main

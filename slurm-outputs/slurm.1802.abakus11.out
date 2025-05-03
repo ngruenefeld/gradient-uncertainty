@@ -1,0 +1,29 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: a12781c898badd9ee045c76b34d006820620c1de
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1802
+Dataset: vript
+Model: llama-2-7b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Loading model in 4-bit precision to reduce memory usage
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 9976.58 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--meta-llama--Llama-2-7b-hf/blobs only has 542.82 MB free disk space.
+  warnings.warn(
+Downloading shards:  50%|█████     | 1/2 [03:32<03:32, 212.52s/it]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 3500.30 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--meta-llama--Llama-2-7b-hf/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+Downloading shards: 100%|██████████| 2/2 [04:48<00:00, 132.38s/it]Downloading shards: 100%|██████████| 2/2 [04:48<00:00, 144.40s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]slurmstepd-abakus11: error: *** JOB 1802 ON abakus11 CANCELLED AT 2025-05-03T20:28:00 ***
