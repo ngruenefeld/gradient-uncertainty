@@ -143,3 +143,9 @@ Processing sample 30 (dataset index 29) with language 'zh' and origin 'vript'
 Article: 视频通过屏幕录制的方式，展示了iPhone手机的SOS紧急联络功能的设置方法。开头是手机的设置界面，显示了通知、控制中心、显示与亮度等选项。随后滑动到‘紧急求救’的选项，并点击进入。界面展示了紧急SOS和呼叫健康医疗卡的设置，包括开启自动呼叫和编辑医疗急救卡等选项。接着，指引用户滑动到页面底部选择添加紧急联系人。之后展示了如何添加紧急联系人的具体操作步骤，包括点击‘添加紧急联系人’按钮并从通讯录中选择一个信任的人作为紧急联系人。最后显示紧急联系人已添加成功的信息。整个过程中背景是iOS系统界面，操作简洁明了，氛围平静。视频风格为教学演示，没有出现任何人物或其他特别物件，主要展示了操作界面及相关文本。视频中使用了清晰的中文旁白指导观众如何设置SOS紧急联络功能。
 Sample 30 (dataset index 29) processed successfully with 3 rephrasings.
 Processing complete. Saved 30 successful results. Failed: 0
+[main 5227399] Multilingual Script Results for Run 1805 (Commit: cd93874)
+ 3 files changed, 151 insertions(+)
+ create mode 100644 data/full/multiling_results_1805_llama-2-7b_4bit_rephrase_vript.pkl
+ create mode 100644 slurm-outputs/slurm.1805.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   cd93874..5227399  main -> main
