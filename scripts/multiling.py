@@ -15,7 +15,6 @@ from utils.utils import (
     replace_tokens_with_synonyms,
     replace_tokens_with_random_tokens,
     load_multilingual_datasets,
-    get_summarization_instruction,
 )
 
 
@@ -160,26 +159,26 @@ def main(args):
             print(f"Article: {article}")
 
             # prompt = get_summarization_instruction(language=language) + article
-            prompt = article
+            # prompt = article
 
             # Get response (with built-in error handling)
-            completion_result = get_response(prompt, model, tokenizer, device)
-            if isinstance(completion_result, dict) and "error" in completion_result:
-                print(
-                    f"Error getting response for sample {current_sample} (dataset index {dataset_idx}): {completion_result['error']}"
-                )
-                failed_count += 1
-                torch.cuda.empty_cache()  # Ensure memory is freed
-                continue
-            completion = completion_result
+            # completion_result = get_response(prompt, model, tokenizer, device)
+            # if isinstance(completion_result, dict) and "error" in completion_result:
+            #     print(
+            #         f"Error getting response for sample {current_sample} (dataset index {dataset_idx}): {completion_result['error']}"
+            #     )
+            #     failed_count += 1
+            #     torch.cuda.empty_cache()  # Ensure memory is freed
+            #     continue
+            # completion = completion_result
 
             # Clear memory after getting response
             torch.cuda.empty_cache()
 
             # Calculate gradient (with built-in error handling)
             gradient_result = completion_gradient(
-                prompt,
-                completion,
+                "",
+                article,
                 model,
                 tokenizer,
                 device,
@@ -203,7 +202,7 @@ def main(args):
             if perturbation_mode == "rephrase":
                 # Get rephrasings
                 rephrasings_result = rephrase_text(
-                    completion, oai_client, gpt_model, language=language
+                    article, oai_client, gpt_model, language=language
                 )
                 if "error" in rephrasings_result:
                     print(
@@ -219,7 +218,7 @@ def main(args):
                 rephrasings = []
                 for _ in range(number_of_perturbations):
                     synonym_inputs = tokenizer(
-                        completion,
+                        article,
                         return_tensors="pt",
                         add_special_tokens=False,
                     ).to(device)
@@ -233,7 +232,7 @@ def main(args):
                 rephrasings = []
                 for _ in range(number_of_perturbations):
                     synonym_inputs = tokenizer(
-                        completion,
+                        article,
                         return_tensors="pt",
                         add_special_tokens=False,
                     ).to(device)
@@ -261,7 +260,7 @@ def main(args):
                 torch.cuda.empty_cache()
 
                 rephrasing_gradient_result = completion_gradient(
-                    prompt,
+                    "",
                     phrasing,
                     model,
                     tokenizer,
@@ -311,10 +310,9 @@ def main(args):
 
             # Add successful result to our collection
             result_entry = {
-                "prompt": prompt,
+                "prompt": article,
                 "language": language,
                 "origin": origin,
-                "completion": completion,
                 "completion_length": completion_length,
                 "completion_gradient": gradient_norm,
                 "rephrased_completions": rephrasings,
