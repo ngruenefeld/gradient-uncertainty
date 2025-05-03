@@ -1,13 +1,14 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Running job with commit: 6447ce1fcb31d6d50c9b722b6c4f5305c216ae80
+Unknown option: --dateset=vript
+Running job with commit: 8796ae7c6d257baa5e0fa6fb49580edfce17b5ba
 [nltk_data] Downloading package stopwords to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package stopwords is already up-to-date!
 [nltk_data] Downloading package wordnet to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package wordnet is already up-to-date!
-Job number: 1792
+Job number: 1793
 Dataset: finenews
 Model: llama-2-7b
 GPT Model: gpt-4o-mini-2024-07-18
@@ -21,7 +22,7 @@ Normalize: False
 Perturbation mode: rephrase
 Number of perturbations: 3
 Loading model in 4-bit precision to reduce memory usage
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.20s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.40s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.52s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.18s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.40s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.51s/it]
 Processing sample 1/900 (dataset index: 152)
 Processing sample 1 (dataset index 152) with language 'de' and origin 'finenews'
 Article: In den letzten zehn Jahren habe ich viele Artikel geschrieben, in denen ich die Beweise für biologische Schäden durch nichtionisierende elektromagnetische Felder (EMF) und Hochfrequenzstrahlung (RFR) aus drahtlosen Technologien diskutiert habe.
@@ -154,7 +155,7 @@ Error processing sample 1 (dataset index 152): CUDA error: device-side assert tr
 Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 
 Traceback (most recent call last):
-  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 21, in get_response
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 20, in get_response
     outputs = model.generate(**inputs, max_new_tokens=100)
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
@@ -173,29 +174,10 @@ Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 24, in get_response
-    "Runtime error on input:", tokenizer.decode(inputs["input_ids"][0])
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py", line 3841, in decode
-    token_ids = to_py_obj(token_ids)
-                ^^^^^^^^^^^^^^^^^^^^
-  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/utils/generic.py", line 275, in to_py_obj
-    return framework_to_py_obj[framework](obj)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/utils/generic.py", line 260, in <lambda>
-    "pt": lambda obj: obj.detach().cpu().tolist(),
-                      ^^^^^^^^^^^^^^^^^^
-RuntimeError: CUDA error: device-side assert triggered
-Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
-
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/multiling.py", line 168, in main
     completion_result = get_response(prompt, model, tokenizer, device)
                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 41, in get_response
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/utils/utils.py", line 35, in get_response
     torch.cuda.empty_cache()
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/torch/cuda/memory.py", line 222, in empty_cache
     torch._C._cuda_emptyCache()
@@ -217,8 +199,3 @@ Traceback (most recent call last):
 RuntimeError: CUDA error: device-side assert triggered
 Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 
-[main 343524b] Multilingual Script Results for Run 1792 (Commit: 6447ce1)
- 1 file changed, 219 insertions(+)
- create mode 100644 slurm-outputs/slurm.1792.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   6447ce1..343524b  main -> main
