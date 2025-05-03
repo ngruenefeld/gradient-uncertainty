@@ -45,3 +45,8 @@ Traceback (most recent call last):
   File "pyarrow/table.pxi", line 4214, in pyarrow.lib.Table.validate
   File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
 pyarrow.lib.ArrowInvalid: Column 1 named origin expected length 27 but got length 0
+[main c6f1704] Multilingual Script Results for Run 1806 (Commit: 5408546)
+ 2 files changed, 53 insertions(+)
+ create mode 100644 slurm-outputs/slurm.1806.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   5408546..c6f1704  main -> main
