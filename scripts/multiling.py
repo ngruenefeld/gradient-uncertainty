@@ -55,18 +55,6 @@ def main(args):
         model_path = "gpt2"
     elif model_name == "llama-awq":
         model_path = "TheBloke/Llama-2-7B-Chat-AWQ"
-    elif model_name == "llama-3-8b":
-        model_path = "meta-llama/Meta-Llama-3-8B"
-    elif model_name == "llama-3.1-8b":
-        model_path = "meta-llama/Llama-3.1-8B"
-    elif model_name == "llama-3.2-3b":
-        model_path = "meta-llama/Llama-3.2-3B"
-    elif model_name == "llama-3-chatqa-quantized":
-        model_path = "nvidia/Llama3-ChatQA-1.5-8B"
-    elif model_name == "deepseek-r1-distill-qwen-1.5b":
-        model_path = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
-    elif model_name == "phi4":
-        model_path = "microsoft/Phi-4"
     else:
         raise ValueError(
             f"Model {model_name} not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b, phi4, deepseek-v3."
