@@ -178,7 +178,7 @@ def main(args):
                 torch.cuda.empty_cache()  # Ensure memory is freed
                 continue
 
-            gradient, _ = gradient_result
+            gradient, prompt_length = gradient_result
             gradient_norm = torch.norm(gradient).item()
 
             # Clear memory after calculating gradient
@@ -227,6 +227,7 @@ def main(args):
                     modified_sentence = tokenizer.decode(modified_input_ids[0])
                     rephrasings.append(modified_sentence)
 
+            rephrasing_lengths = []
             rephrasing_gradient_norms = []
             rephrasing_gradient_std = 0.0
 
@@ -265,7 +266,10 @@ def main(args):
                     torch.cuda.empty_cache()
                     break
 
-                rephrasing_gradient, _ = rephrasing_gradient_result
+                rephrasing_gradient, rephrased_prompt_length = (
+                    rephrasing_gradient_result
+                )
+                rephrasing_lengths.append(rephrased_prompt_length)
                 rephrasing_gradient_norm = torch.norm(rephrasing_gradient).item()
                 rephrasing_gradient_norms.append(rephrasing_gradient_norm)
 
@@ -294,9 +298,11 @@ def main(args):
             # Add successful result to our collection
             result_entry = {
                 "prompt": article,
+                "prompt_length": prompt_length,
                 "language": language,
                 "prompt_gradient": gradient_norm,
-                "rephrased_completions": rephrasings,
+                "rephrased_prompts": rephrasings,
+                "rephrased_prompt_lengths": rephrasing_lengths,
                 "rephrased_gradients": rephrasing_gradient_norms,
                 "rephrased_gradient_std": rephrasing_gradient_std,
             }
