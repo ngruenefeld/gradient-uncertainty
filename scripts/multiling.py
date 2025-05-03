@@ -154,6 +154,11 @@ def main(args):
             language = item["language"]
             origin = item["origin"]
 
+            print(
+                f"Processing sample {current_sample} (dataset index {dataset_idx}) with language '{language}' and origin '{origin}'"
+            )
+            print(f"Article: {article}")
+
             prompt = get_summarization_instruction(language=language) + article
 
             # Get response (with built-in error handling)
