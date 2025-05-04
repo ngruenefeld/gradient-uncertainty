@@ -21970,3 +21970,8 @@ Article: 【明報專訊】鄭保瑞執導、古天樂、洪金寶、林峯和�
 娛樂組
 Sample 900 (dataset index 899) processed successfully with 3 rephrasings.
 Processing complete. Saved 787 successful results. Failed: 113
+[main 386b362] Multilingual Script Results for Run 1909 (Commit: f51ed3f)
+ 3 files changed, 1462 insertions(+)
+ create mode 100644 data/full/multiling_results_1909_llama-2-7b_8bit_rephrase_finenews.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   6dfdd10..386b362  main -> main
