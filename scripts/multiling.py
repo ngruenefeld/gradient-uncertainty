@@ -55,6 +55,8 @@ def main(args):
         model_path = "TheBloke/Llama-2-7B-Chat-AWQ"
     elif model_name == "llama-2-7b":
         model_path = "meta-llama/Llama-2-7b-hf"
+    elif model_name == "polylm-1.7b":
+        model_path = "DAMO-NLP-MT/polylm-1.7b"
     else:
         raise ValueError(
             f"Model {model_name} not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b, phi4, deepseek-v3."
