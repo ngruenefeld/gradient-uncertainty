@@ -493,9 +493,9 @@ def load_multilingual_datasets(choice="finenews"):
         }
 
         for lang in languages:
-            lang_dataset = load_dataset("reciTAL/mlsum", name=lang, streaming=True)[
-                "train"
-            ]
+            lang_dataset = load_dataset(
+                "reciTAL/mlsum", name=lang, streaming=True, trust_remote_code=True
+            )["train"]
             content_samples = []
             count = 0
 
@@ -576,9 +576,7 @@ def load_multilingual_datasets(choice="finenews"):
 
         count = 0
 
-        dataset = load_dataset(
-            "PleIAs/common_corpus", split="train", streaming=True
-        )
+        dataset = load_dataset("PleIAs/common_corpus", split="train", streaming=True)
 
         data = {
             languages[lang]: {
