@@ -58,6 +58,7 @@ def main(args):
     elif model_name == "polylm-1.7b":
         model_path = "DAMO-NLP-MT/polylm-1.7b"
     elif model_name == "polylm-13b":
+
         model_path = "DAMO-NLP-MT/polylm-13b"
     else:
         raise ValueError(
