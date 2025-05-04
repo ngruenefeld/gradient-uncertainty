@@ -1,0 +1,239 @@
+slurmstepd-abakus21: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus21: error: Setting TMPDIR to /tmp
+Running job with commit: 64f3d3a56ec534bfc2ed7c043b17cbb24c116943
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2091
+Dataset: finenews
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Mode: full
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/900 (dataset index: 0)
+Processing sample 1 (dataset index 0) with language 'en'
+Error processing sample 1 (dataset index 0): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 2/900 (dataset index: 1)
+Processing sample 2 (dataset index 1) with language 'en'
+Error processing sample 2 (dataset index 1): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 3/900 (dataset index: 2)
+Processing sample 3 (dataset index 2) with language 'en'
+Error processing sample 3 (dataset index 2): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 4/900 (dataset index: 3)
+Processing sample 4 (dataset index 3) with language 'en'
+Error processing sample 4 (dataset index 3): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 5/900 (dataset index: 4)
+Processing sample 5 (dataset index 4) with language 'en'
+Error processing sample 5 (dataset index 4): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 6/900 (dataset index: 5)
+Processing sample 6 (dataset index 5) with language 'en'
+Error processing sample 6 (dataset index 5): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 7/900 (dataset index: 6)
+Processing sample 7 (dataset index 6) with language 'en'
+Error processing sample 7 (dataset index 6): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 8/900 (dataset index: 7)
+Processing sample 8 (dataset index 7) with language 'en'
+Error processing sample 8 (dataset index 7): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 9/900 (dataset index: 8)
+Processing sample 9 (dataset index 8) with language 'en'
+Error processing sample 9 (dataset index 8): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 10/900 (dataset index: 9)
+Processing sample 10 (dataset index 9) with language 'en'
+Error processing sample 10 (dataset index 9): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 11/900 (dataset index: 10)
+Processing sample 11 (dataset index 10) with language 'en'
+Error processing sample 11 (dataset index 10): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 12/900 (dataset index: 11)
+Processing sample 12 (dataset index 11) with language 'en'
+Error processing sample 12 (dataset index 11): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 13/900 (dataset index: 12)
+Processing sample 13 (dataset index 12) with language 'en'
+Error processing sample 13 (dataset index 12): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 14/900 (dataset index: 13)
+Processing sample 14 (dataset index 13) with language 'en'
+Error processing sample 14 (dataset index 13): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 15/900 (dataset index: 14)
+Processing sample 15 (dataset index 14) with language 'en'
+Error processing sample 15 (dataset index 14): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 16/900 (dataset index: 15)
+Processing sample 16 (dataset index 15) with language 'en'
+Error processing sample 16 (dataset index 15): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 17/900 (dataset index: 16)
+Processing sample 17 (dataset index 16) with language 'en'
+Error processing sample 17 (dataset index 16): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 18/900 (dataset index: 17)
+Processing sample 18 (dataset index 17) with language 'en'
+Error processing sample 18 (dataset index 17): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 19/900 (dataset index: 18)
+Processing sample 19 (dataset index 18) with language 'en'
+Error processing sample 19 (dataset index 18): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 20/900 (dataset index: 19)
+Processing sample 20 (dataset index 19) with language 'en'
+Error processing sample 20 (dataset index 19): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 21/900 (dataset index: 20)
+Processing sample 21 (dataset index 20) with language 'en'
+Error processing sample 21 (dataset index 20): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 22/900 (dataset index: 21)
+Processing sample 22 (dataset index 21) with language 'en'
+Error processing sample 22 (dataset index 21): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 23/900 (dataset index: 22)
+Processing sample 23 (dataset index 22) with language 'en'
+Error processing sample 23 (dataset index 22): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 24/900 (dataset index: 23)
+Processing sample 24 (dataset index 23) with language 'en'
+Error processing sample 24 (dataset index 23): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 25/900 (dataset index: 24)
+Processing sample 25 (dataset index 24) with language 'en'
+Error processing sample 25 (dataset index 24): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 26/900 (dataset index: 25)
+Processing sample 26 (dataset index 25) with language 'en'
+Error processing sample 26 (dataset index 25): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 27/900 (dataset index: 26)
+Processing sample 27 (dataset index 26) with language 'en'
+Error processing sample 27 (dataset index 26): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 28/900 (dataset index: 27)
+Processing sample 28 (dataset index 27) with language 'en'
+Error processing sample 28 (dataset index 27): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 29/900 (dataset index: 28)
+Processing sample 29 (dataset index 28) with language 'en'
+Error processing sample 29 (dataset index 28): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 30/900 (dataset index: 29)
+Processing sample 30 (dataset index 29) with language 'en'
+Error processing sample 30 (dataset index 29): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 31/900 (dataset index: 30)
+Processing sample 31 (dataset index 30) with language 'en'
+Error processing sample 31 (dataset index 30): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 32/900 (dataset index: 31)
+Processing sample 32 (dataset index 31) with language 'en'
+Error processing sample 32 (dataset index 31): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 33/900 (dataset index: 32)
+Processing sample 33 (dataset index 32) with language 'en'
+Error processing sample 33 (dataset index 32): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 34/900 (dataset index: 33)
+Processing sample 34 (dataset index 33) with language 'en'
+Error processing sample 34 (dataset index 33): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 35/900 (dataset index: 34)
+Processing sample 35 (dataset index 34) with language 'en'
+Error processing sample 35 (dataset index 34): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 36/900 (dataset index: 35)
+Processing sample 36 (dataset index 35) with language 'en'
+Error processing sample 36 (dataset index 35): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 37/900 (dataset index: 36)
+Processing sample 37 (dataset index 36) with language 'en'
+Error processing sample 37 (dataset index 36): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 38/900 (dataset index: 37)
+Processing sample 38 (dataset index 37) with language 'en'
+Error processing sample 38 (dataset index 37): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 39/900 (dataset index: 38)
+Processing sample 39 (dataset index 38) with language 'en'
+Error processing sample 39 (dataset index 38): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 40/900 (dataset index: 39)
+Processing sample 40 (dataset index 39) with language 'en'
+Error processing sample 40 (dataset index 39): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 41/900 (dataset index: 40)
+Processing sample 41 (dataset index 40) with language 'en'
+Error processing sample 41 (dataset index 40): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 42/900 (dataset index: 41)
+Processing sample 42 (dataset index 41) with language 'en'
+Error processing sample 42 (dataset index 41): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 43/900 (dataset index: 42)
+Processing sample 43 (dataset index 42) with language 'en'
+Error processing sample 43 (dataset index 42): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 44/900 (dataset index: 43)
+Processing sample 44 (dataset index 43) with language 'en'
+Error processing sample 44 (dataset index 43): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 45/900 (dataset index: 44)
+Processing sample 45 (dataset index 44) with language 'en'
+Error processing sample 45 (dataset index 44): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 46/900 (dataset index: 45)
+Processing sample 46 (dataset index 45) with language 'en'
+Error processing sample 46 (dataset index 45): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 47/900 (dataset index: 46)
+Processing sample 47 (dataset index 46) with language 'en'
+Error processing sample 47 (dataset index 46): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 48/900 (dataset index: 47)
+Processing sample 48 (dataset index 47) with language 'en'
+Error processing sample 48 (dataset index 47): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 49/900 (dataset index: 48)
+Processing sample 49 (dataset index 48) with language 'en'
+Error processing sample 49 (dataset index 48): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 50/900 (dataset index: 49)
+Processing sample 50 (dataset index 49) with language 'en'
+Error processing sample 50 (dataset index 49): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 51/900 (dataset index: 50)
+Processing sample 51 (dataset index 50) with language 'en'
+Error processing sample 51 (dataset index 50): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 52/900 (dataset index: 51)
+Processing sample 52 (dataset index 51) with language 'en'
+Error processing sample 52 (dataset index 51): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 53/900 (dataset index: 52)
+Processing sample 53 (dataset index 52) with language 'en'
+Error processing sample 53 (dataset index 52): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 54/900 (dataset index: 53)
+Processing sample 54 (dataset index 53) with language 'en'
+Error processing sample 54 (dataset index 53): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 55/900 (dataset index: 54)
+Processing sample 55 (dataset index 54) with language 'en'
+Error processing sample 55 (dataset index 54): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 56/900 (dataset index: 55)
+Processing sample 56 (dataset index 55) with language 'en'
+Error processing sample 56 (dataset index 55): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 57/900 (dataset index: 56)
+Processing sample 57 (dataset index 56) with language 'en'
+Error processing sample 57 (dataset index 56): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 58/900 (dataset index: 57)
+Processing sample 58 (dataset index 57) with language 'en'
+Error processing sample 58 (dataset index 57): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 59/900 (dataset index: 58)
+Processing sample 59 (dataset index 58) with language 'en'
+Error processing sample 59 (dataset index 58): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 60/900 (dataset index: 59)
+Processing sample 60 (dataset index 59) with language 'en'
+Error processing sample 60 (dataset index 59): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 61/900 (dataset index: 60)
+Processing sample 61 (dataset index 60) with language 'en'
+Error processing sample 61 (dataset index 60): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 62/900 (dataset index: 61)
+Processing sample 62 (dataset index 61) with language 'en'
+Error processing sample 62 (dataset index 61): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 63/900 (dataset index: 62)
+Processing sample 63 (dataset index 62) with language 'en'
+Error processing sample 63 (dataset index 62): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 64/900 (dataset index: 63)
+Processing sample 64 (dataset index 63) with language 'en'
+Error processing sample 64 (dataset index 63): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 65/900 (dataset index: 64)
+Processing sample 65 (dataset index 64) with language 'en'
+Error processing sample 65 (dataset index 64): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 66/900 (dataset index: 65)
+Processing sample 66 (dataset index 65) with language 'en'
+Error processing sample 66 (dataset index 65): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 67/900 (dataset index: 66)
+Processing sample 67 (dataset index 66) with language 'en'
+Error processing sample 67 (dataset index 66): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 68/900 (dataset index: 67)
+Processing sample 68 (dataset index 67) with language 'en'
+Error processing sample 68 (dataset index 67): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 69/900 (dataset index: 68)
+Processing sample 69 (dataset index 68) with language 'en'
+Error processing sample 69 (dataset index 68): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 70/900 (dataset index: 69)
+Processing sample 70 (dataset index 69) with language 'en'
+Error processing sample 70 (dataset index 69): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 71/900 (dataset index: 70)
+Processing sample 71 (dataset index 70) with language 'en'
+Error processing sample 71 (dataset index 70): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Processing sample 72/900 (dataset index: 71)
+Processing sample 72 (dataset index 71) with language 'en'
