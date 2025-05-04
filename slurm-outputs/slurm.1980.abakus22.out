@@ -168,3 +168,7 @@ RuntimeError: Error(s) in loading state_dict for GPT2LMHeadModel:
 	size mismatch for transformer.h.39.mlp.c_fc.weight: copying a param with shape torch.Size([20480, 5120]) from checkpoint, the shape in current model is torch.Size([5120, 20480]).
 	size mismatch for transformer.h.39.mlp.c_proj.weight: copying a param with shape torch.Size([5120, 20480]) from checkpoint, the shape in current model is torch.Size([20480, 5120]).
 	You may consider adding `ignore_mismatched_sizes=True` in the model `from_pretrained` method.
+[main b63ce74] Multilingual Script Results for Run 1980 (Commit: 2625a2e)
+ 4 files changed, 187 insertions(+)
+To github.com:ngruenefeld/gradient-uncertainty.git
+   b09394a..b63ce74  main -> main
