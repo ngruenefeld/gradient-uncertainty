@@ -1522,3 +1522,312 @@ Processing sample 497 (dataset index 496) with language 'it'
 Sample 497 (dataset index 496) processed successfully with 3 rephrasings.
 Processing sample 498/600 (dataset index: 497)
 Processing sample 498 (dataset index 497) with language 'it'
+JSONDecodeError: Expecting ',' delimiter: line 24018 column 1 (char 76168)
+Error getting rephrasings for sample 498 (dataset index 497): Invalid JSON response from API
+Processing sample 499/600 (dataset index: 498)
+Processing sample 499 (dataset index 498) with language 'it'
+Sample 499 (dataset index 498) processed successfully with 3 rephrasings.
+Processing sample 500/600 (dataset index: 499)
+Processing sample 500 (dataset index 499) with language 'it'
+Sample 500 (dataset index 499) processed successfully with 4 rephrasings.
+Processing sample 501/600 (dataset index: 500)
+Processing sample 501 (dataset index 500) with language 'pl'
+Error processing sample 501 (dataset index 500): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 502/600 (dataset index: 501)
+Processing sample 502 (dataset index 501) with language 'pl'
+Error processing sample 502 (dataset index 501): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 503/600 (dataset index: 502)
+Processing sample 503 (dataset index 502) with language 'pl'
+Error processing sample 503 (dataset index 502): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 504/600 (dataset index: 503)
+Processing sample 504 (dataset index 503) with language 'pl'
+Error processing sample 504 (dataset index 503): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 505/600 (dataset index: 504)
+Processing sample 505 (dataset index 504) with language 'pl'
+Error processing sample 505 (dataset index 504): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 506/600 (dataset index: 505)
+Processing sample 506 (dataset index 505) with language 'pl'
+Error processing sample 506 (dataset index 505): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 507/600 (dataset index: 506)
+Processing sample 507 (dataset index 506) with language 'pl'
+Error processing sample 507 (dataset index 506): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 508/600 (dataset index: 507)
+Processing sample 508 (dataset index 507) with language 'pl'
+Error processing sample 508 (dataset index 507): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 509/600 (dataset index: 508)
+Processing sample 509 (dataset index 508) with language 'pl'
+Error processing sample 509 (dataset index 508): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 510/600 (dataset index: 509)
+Processing sample 510 (dataset index 509) with language 'pl'
+Error processing sample 510 (dataset index 509): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 511/600 (dataset index: 510)
+Processing sample 511 (dataset index 510) with language 'pl'
+Error processing sample 511 (dataset index 510): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 512/600 (dataset index: 511)
+Processing sample 512 (dataset index 511) with language 'pl'
+Error processing sample 512 (dataset index 511): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 513/600 (dataset index: 512)
+Processing sample 513 (dataset index 512) with language 'pl'
+Error processing sample 513 (dataset index 512): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 514/600 (dataset index: 513)
+Processing sample 514 (dataset index 513) with language 'pl'
+Error processing sample 514 (dataset index 513): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 515/600 (dataset index: 514)
+Processing sample 515 (dataset index 514) with language 'pl'
+Error processing sample 515 (dataset index 514): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 516/600 (dataset index: 515)
+Processing sample 516 (dataset index 515) with language 'pl'
+Error processing sample 516 (dataset index 515): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 517/600 (dataset index: 516)
+Processing sample 517 (dataset index 516) with language 'pl'
+Error processing sample 517 (dataset index 516): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 518/600 (dataset index: 517)
+Processing sample 518 (dataset index 517) with language 'pl'
+Error processing sample 518 (dataset index 517): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 519/600 (dataset index: 518)
+Processing sample 519 (dataset index 518) with language 'pl'
+Error processing sample 519 (dataset index 518): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 520/600 (dataset index: 519)
+Processing sample 520 (dataset index 519) with language 'pl'
+Error processing sample 520 (dataset index 519): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 521/600 (dataset index: 520)
+Processing sample 521 (dataset index 520) with language 'pl'
+Error processing sample 521 (dataset index 520): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 522/600 (dataset index: 521)
+Processing sample 522 (dataset index 521) with language 'pl'
+Error processing sample 522 (dataset index 521): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 523/600 (dataset index: 522)
+Processing sample 523 (dataset index 522) with language 'pl'
+Error processing sample 523 (dataset index 522): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 524/600 (dataset index: 523)
+Processing sample 524 (dataset index 523) with language 'pl'
+Error processing sample 524 (dataset index 523): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 525/600 (dataset index: 524)
+Processing sample 525 (dataset index 524) with language 'pl'
+Error processing sample 525 (dataset index 524): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 526/600 (dataset index: 525)
+Processing sample 526 (dataset index 525) with language 'pl'
+Error processing sample 526 (dataset index 525): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 527/600 (dataset index: 526)
+Processing sample 527 (dataset index 526) with language 'pl'
+Error processing sample 527 (dataset index 526): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 528/600 (dataset index: 527)
+Processing sample 528 (dataset index 527) with language 'pl'
+Error processing sample 528 (dataset index 527): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 529/600 (dataset index: 528)
+Processing sample 529 (dataset index 528) with language 'pl'
+Error processing sample 529 (dataset index 528): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 530/600 (dataset index: 529)
+Processing sample 530 (dataset index 529) with language 'pl'
+Error processing sample 530 (dataset index 529): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 531/600 (dataset index: 530)
+Processing sample 531 (dataset index 530) with language 'pl'
+Error processing sample 531 (dataset index 530): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 532/600 (dataset index: 531)
+Processing sample 532 (dataset index 531) with language 'pl'
+Error processing sample 532 (dataset index 531): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 533/600 (dataset index: 532)
+Processing sample 533 (dataset index 532) with language 'pl'
+Error processing sample 533 (dataset index 532): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 534/600 (dataset index: 533)
+Processing sample 534 (dataset index 533) with language 'pl'
+Error processing sample 534 (dataset index 533): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 535/600 (dataset index: 534)
+Processing sample 535 (dataset index 534) with language 'pl'
+Error processing sample 535 (dataset index 534): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 536/600 (dataset index: 535)
+Processing sample 536 (dataset index 535) with language 'pl'
+Error processing sample 536 (dataset index 535): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 537/600 (dataset index: 536)
+Processing sample 537 (dataset index 536) with language 'pl'
+Error processing sample 537 (dataset index 536): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 538/600 (dataset index: 537)
+Processing sample 538 (dataset index 537) with language 'pl'
+Error processing sample 538 (dataset index 537): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 539/600 (dataset index: 538)
+Processing sample 539 (dataset index 538) with language 'pl'
+Error processing sample 539 (dataset index 538): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 540/600 (dataset index: 539)
+Processing sample 540 (dataset index 539) with language 'pl'
+Error processing sample 540 (dataset index 539): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 541/600 (dataset index: 540)
+Processing sample 541 (dataset index 540) with language 'pl'
+Error processing sample 541 (dataset index 540): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 542/600 (dataset index: 541)
+Processing sample 542 (dataset index 541) with language 'pl'
+Error processing sample 542 (dataset index 541): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 543/600 (dataset index: 542)
+Processing sample 543 (dataset index 542) with language 'pl'
+Error processing sample 543 (dataset index 542): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 544/600 (dataset index: 543)
+Processing sample 544 (dataset index 543) with language 'pl'
+Error processing sample 544 (dataset index 543): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 545/600 (dataset index: 544)
+Processing sample 545 (dataset index 544) with language 'pl'
+Error processing sample 545 (dataset index 544): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 546/600 (dataset index: 545)
+Processing sample 546 (dataset index 545) with language 'pl'
+Error processing sample 546 (dataset index 545): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 547/600 (dataset index: 546)
+Processing sample 547 (dataset index 546) with language 'pl'
+Error processing sample 547 (dataset index 546): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 548/600 (dataset index: 547)
+Processing sample 548 (dataset index 547) with language 'pl'
+Error processing sample 548 (dataset index 547): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 549/600 (dataset index: 548)
+Processing sample 549 (dataset index 548) with language 'pl'
+Error processing sample 549 (dataset index 548): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 550/600 (dataset index: 549)
+Processing sample 550 (dataset index 549) with language 'pl'
+Error processing sample 550 (dataset index 549): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 551/600 (dataset index: 550)
+Processing sample 551 (dataset index 550) with language 'pl'
+Error processing sample 551 (dataset index 550): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 552/600 (dataset index: 551)
+Processing sample 552 (dataset index 551) with language 'pl'
+Error processing sample 552 (dataset index 551): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 553/600 (dataset index: 552)
+Processing sample 553 (dataset index 552) with language 'pl'
+Error processing sample 553 (dataset index 552): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 554/600 (dataset index: 553)
+Processing sample 554 (dataset index 553) with language 'pl'
+Error processing sample 554 (dataset index 553): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 555/600 (dataset index: 554)
+Processing sample 555 (dataset index 554) with language 'pl'
+Error processing sample 555 (dataset index 554): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 556/600 (dataset index: 555)
+Processing sample 556 (dataset index 555) with language 'pl'
+Error processing sample 556 (dataset index 555): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 557/600 (dataset index: 556)
+Processing sample 557 (dataset index 556) with language 'pl'
+Error processing sample 557 (dataset index 556): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 558/600 (dataset index: 557)
+Processing sample 558 (dataset index 557) with language 'pl'
+Error processing sample 558 (dataset index 557): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 559/600 (dataset index: 558)
+Processing sample 559 (dataset index 558) with language 'pl'
+Error processing sample 559 (dataset index 558): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 560/600 (dataset index: 559)
+Processing sample 560 (dataset index 559) with language 'pl'
+Error processing sample 560 (dataset index 559): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 561/600 (dataset index: 560)
+Processing sample 561 (dataset index 560) with language 'pl'
+Error processing sample 561 (dataset index 560): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 562/600 (dataset index: 561)
+Processing sample 562 (dataset index 561) with language 'pl'
+Error processing sample 562 (dataset index 561): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 563/600 (dataset index: 562)
+Processing sample 563 (dataset index 562) with language 'pl'
+Error processing sample 563 (dataset index 562): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 564/600 (dataset index: 563)
+Processing sample 564 (dataset index 563) with language 'pl'
+Error processing sample 564 (dataset index 563): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 565/600 (dataset index: 564)
+Processing sample 565 (dataset index 564) with language 'pl'
+Error processing sample 565 (dataset index 564): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 566/600 (dataset index: 565)
+Processing sample 566 (dataset index 565) with language 'pl'
+Error processing sample 566 (dataset index 565): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 567/600 (dataset index: 566)
+Processing sample 567 (dataset index 566) with language 'pl'
+Error processing sample 567 (dataset index 566): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 568/600 (dataset index: 567)
+Processing sample 568 (dataset index 567) with language 'pl'
+Error processing sample 568 (dataset index 567): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 569/600 (dataset index: 568)
+Processing sample 569 (dataset index 568) with language 'pl'
+Error processing sample 569 (dataset index 568): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 570/600 (dataset index: 569)
+Processing sample 570 (dataset index 569) with language 'pl'
+Error processing sample 570 (dataset index 569): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 571/600 (dataset index: 570)
+Processing sample 571 (dataset index 570) with language 'pl'
+Error processing sample 571 (dataset index 570): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 572/600 (dataset index: 571)
+Processing sample 572 (dataset index 571) with language 'pl'
+Error processing sample 572 (dataset index 571): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 573/600 (dataset index: 572)
+Processing sample 573 (dataset index 572) with language 'pl'
+Error processing sample 573 (dataset index 572): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 574/600 (dataset index: 573)
+Processing sample 574 (dataset index 573) with language 'pl'
+Error processing sample 574 (dataset index 573): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 575/600 (dataset index: 574)
+Processing sample 575 (dataset index 574) with language 'pl'
+Error processing sample 575 (dataset index 574): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 576/600 (dataset index: 575)
+Processing sample 576 (dataset index 575) with language 'pl'
+Error processing sample 576 (dataset index 575): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 577/600 (dataset index: 576)
+Processing sample 577 (dataset index 576) with language 'pl'
+Error processing sample 577 (dataset index 576): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 578/600 (dataset index: 577)
+Processing sample 578 (dataset index 577) with language 'pl'
+Error processing sample 578 (dataset index 577): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 579/600 (dataset index: 578)
+Processing sample 579 (dataset index 578) with language 'pl'
+Error processing sample 579 (dataset index 578): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 580/600 (dataset index: 579)
+Processing sample 580 (dataset index 579) with language 'pl'
+Error processing sample 580 (dataset index 579): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 581/600 (dataset index: 580)
+Processing sample 581 (dataset index 580) with language 'pl'
+Error processing sample 581 (dataset index 580): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 582/600 (dataset index: 581)
+Processing sample 582 (dataset index 581) with language 'pl'
+Error processing sample 582 (dataset index 581): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 583/600 (dataset index: 582)
+Processing sample 583 (dataset index 582) with language 'pl'
+Error processing sample 583 (dataset index 582): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 584/600 (dataset index: 583)
+Processing sample 584 (dataset index 583) with language 'pl'
+Error processing sample 584 (dataset index 583): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 585/600 (dataset index: 584)
+Processing sample 585 (dataset index 584) with language 'pl'
+Error processing sample 585 (dataset index 584): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 586/600 (dataset index: 585)
+Processing sample 586 (dataset index 585) with language 'pl'
+Error processing sample 586 (dataset index 585): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 587/600 (dataset index: 586)
+Processing sample 587 (dataset index 586) with language 'pl'
+Error processing sample 587 (dataset index 586): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 588/600 (dataset index: 587)
+Processing sample 588 (dataset index 587) with language 'pl'
+Error processing sample 588 (dataset index 587): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 589/600 (dataset index: 588)
+Processing sample 589 (dataset index 588) with language 'pl'
+Error processing sample 589 (dataset index 588): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 590/600 (dataset index: 589)
+Processing sample 590 (dataset index 589) with language 'pl'
+Error processing sample 590 (dataset index 589): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 591/600 (dataset index: 590)
+Processing sample 591 (dataset index 590) with language 'pl'
+Error processing sample 591 (dataset index 590): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 592/600 (dataset index: 591)
+Processing sample 592 (dataset index 591) with language 'pl'
+Error processing sample 592 (dataset index 591): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 593/600 (dataset index: 592)
+Processing sample 593 (dataset index 592) with language 'pl'
+Error processing sample 593 (dataset index 592): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 594/600 (dataset index: 593)
+Processing sample 594 (dataset index 593) with language 'pl'
+Error processing sample 594 (dataset index 593): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 595/600 (dataset index: 594)
+Processing sample 595 (dataset index 594) with language 'pl'
+Error processing sample 595 (dataset index 594): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 596/600 (dataset index: 595)
+Processing sample 596 (dataset index 595) with language 'pl'
+Error processing sample 596 (dataset index 595): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 597/600 (dataset index: 596)
+Processing sample 597 (dataset index 596) with language 'pl'
+Error processing sample 597 (dataset index 596): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 598/600 (dataset index: 597)
+Processing sample 598 (dataset index 597) with language 'pl'
+Error processing sample 598 (dataset index 597): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 599/600 (dataset index: 598)
+Processing sample 599 (dataset index 598) with language 'pl'
+Error processing sample 599 (dataset index 598): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 600/600 (dataset index: 599)
+Processing sample 600 (dataset index 599) with language 'pl'
+Error processing sample 600 (dataset index 599): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing complete. Saved 494 successful results. Failed: 106
