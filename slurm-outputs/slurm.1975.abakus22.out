@@ -194,3 +194,8 @@ Traceback (most recent call last):
 RuntimeError: CUDA error: device-side assert triggered
 Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 
+[main 450e89b] Multilingual Script Results for Run 1975 (Commit: d6289f9)
+ 3 files changed, 7525 insertions(+)
+ create mode 100644 slurm-outputs/slurm.1975.abakus22.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   d6289f9..450e89b  main -> main
