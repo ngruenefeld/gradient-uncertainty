@@ -83,3 +83,12 @@ ImportError:
 installation page of its repo: https://github.com/protocolbuffers/protobuf/tree/master/python#installation and follow the ones
 that match your environment. Please note that you may need to restart your runtime after installation.
 
+[main 15cb67f] Multilingual Script Results for Run 1971 (Commit: c738111)
+ 6 files changed, 21417 insertions(+)
+ create mode 100644 slurm-outputs/slurm.1949.abakus11.out
+ create mode 100644 slurm-outputs/slurm.1950.abakus12.out
+ create mode 100644 slurm-outputs/slurm.1951.abakus21.out
+ create mode 100644 slurm-outputs/slurm.1970.abakus22.out
+ create mode 100644 slurm-outputs/slurm.1971.abakus22.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   c738111..15cb67f  main -> main
