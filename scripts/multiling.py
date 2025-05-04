@@ -148,6 +148,8 @@ def main(args):
 
     total_samples = sample_size if sample_size > 0 else len(data_samples)
 
+    max_length = 1024 if model_name == "polylm-1.7b" else None
+
     for dataset_idx, item in data_samples:
         current_sample = processed_count + failed_count + 1
         print(
@@ -160,7 +162,7 @@ def main(args):
             print(
                 f"Processing sample {current_sample} (dataset index {dataset_idx}) with language '{language}'"
             )
-            print(f"Article: {article}")
+            # print(f"Article: {article}")
 
             # Clear memory after getting response
             torch.cuda.empty_cache()
@@ -174,6 +176,7 @@ def main(args):
                 device,
                 response_only=response_only,
                 normalize=normalize,
+                max_length=max_length,
             )
             if isinstance(gradient_result, dict) and "error" in gradient_result:
                 print(
@@ -257,6 +260,7 @@ def main(args):
                     device,
                     response_only=response_only,
                     normalize=normalize,
+                    max_length=max_length,
                 )
 
                 if (

@@ -61,7 +61,7 @@ def completion_gradient(
     device,
     response_only=True,
     normalize=False,
-    max_length=1024,
+    max_length=None,
 ):
     try:
         model.train()
@@ -69,14 +69,20 @@ def completion_gradient(
         full_text = prompt + completion
 
         # Get the encodings for both prompt and full text with truncation
-        full_encodings = tokenizer(
-            full_text, return_tensors="pt", max_length=max_length, truncation=True
-        )
+        if max_length:
+            full_encodings = tokenizer(
+                full_text, return_tensors="pt", max_length=max_length, truncation=True
+            )
+        else:
+            full_encodings = tokenizer(full_text, return_tensors="pt")
         input_ids = full_encodings.input_ids.to(device)
 
-        prompt_encodings = tokenizer(
-            prompt, return_tensors="pt", max_length=max_length, truncation=True
-        )
+        if max_length:
+            prompt_encodings = tokenizer(
+                prompt, return_tensors="pt", max_length=max_length, truncation=True
+            )
+        else:
+            prompt_encodings = tokenizer(prompt, return_tensors="pt")
         prompt_len = prompt_encodings.input_ids.shape[1]
 
         # Normal processing
