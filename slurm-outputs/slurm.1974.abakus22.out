@@ -41,3 +41,8 @@ LlamaTokenizer requires the SentencePiece library but it was not found in your e
 installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
 that match your environment. Please note that you may need to restart your runtime after installation.
 
+[main d6289f9] Multilingual Script Results for Run 1974 (Commit: ff7156f)
+ 5 files changed, 674 insertions(+)
+ create mode 100644 slurm-outputs/slurm.1974.abakus22.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   ff7156f..d6289f9  main -> main
