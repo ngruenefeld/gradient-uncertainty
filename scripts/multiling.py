@@ -130,7 +130,7 @@ def main(args):
 
     tokenizer_params = {"token": hf_token}
 
-    if model_name in ["polylm-1.7b", "llama-awq"]:
+    if model_name == "polylm-1.7b":
         print("Using slow tokenizer implementation for polylm-1.7b")
         tokenizer_params["use_fast"] = False
 
@@ -151,7 +151,7 @@ def main(args):
 
     total_samples = sample_size if sample_size > 0 else len(data_samples)
 
-    max_length = 1024 if model_name == "polylm-1.7b" else None
+    max_length = 1024 if model_name in ["polylm-1.7b", "llama-awq"] else None
 
     for dataset_idx, item in data_samples:
         current_sample = processed_count + failed_count + 1
