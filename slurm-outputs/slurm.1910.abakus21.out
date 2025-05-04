@@ -58,3 +58,11 @@ Do you wish to run the custom code? [y/N] Traceback (most recent call last):
     raise ValueError(
 ValueError: The repository for reciTAL/mlsum contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/reciTAL/mlsum.
 Please pass the argument `trust_remote_code=True` to allow custom code to be run.
+[main c2ebd53] Multilingual Script Results for Run 1910 (Commit: c2ff069)
+ 5 files changed, 2683 insertions(+)
+ create mode 100644 slurm-outputs/slurm.1908.abakus11.out
+ create mode 100644 slurm-outputs/slurm.1909.abakus12.out
+ create mode 100644 slurm-outputs/slurm.1910.abakus21.out
+ create mode 100644 slurm-outputs/slurm.1911.abakus22.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   c2ff069..c2ebd53  main -> main
