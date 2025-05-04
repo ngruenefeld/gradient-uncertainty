@@ -89,6 +89,7 @@ def main(args):
     # Load model with quantization if requested
     quantizable_models = [
         "llama-2-7b",
+        "polylm-1.7b",
     ]
 
     # Prepare common model loading parameters
