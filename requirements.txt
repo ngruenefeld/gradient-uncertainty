@@ -10,3 +10,4 @@ nltk
 tiktoken
 protobuf
 blobfile
+sentencepiece
