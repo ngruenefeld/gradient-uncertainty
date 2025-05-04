@@ -312,3 +312,220 @@ Processing sample 96 (dataset index 95) with language 'de'
 Sample 96 (dataset index 95) processed successfully with 3 rephrasings.
 Processing sample 97/400 (dataset index: 96)
 Processing sample 97 (dataset index 96) with language 'de'
+Sample 97 (dataset index 96) processed successfully with 19 rephrasings.
+Processing sample 98/400 (dataset index: 97)
+Processing sample 98 (dataset index 97) with language 'de'
+Sample 98 (dataset index 97) processed successfully with 3 rephrasings.
+Processing sample 99/400 (dataset index: 98)
+Processing sample 99 (dataset index 98) with language 'de'
+Sample 99 (dataset index 98) processed successfully with 6 rephrasings.
+Processing sample 100/400 (dataset index: 99)
+Processing sample 100 (dataset index 99) with language 'de'
+Sample 100 (dataset index 99) processed successfully with 3 rephrasings.
+Processing sample 101/400 (dataset index: 100)
+Processing sample 101 (dataset index 100) with language 'es'
+Sample 101 (dataset index 100) processed successfully with 3 rephrasings.
+Processing sample 102/400 (dataset index: 101)
+Processing sample 102 (dataset index 101) with language 'es'
+Sample 102 (dataset index 101) processed successfully with 3 rephrasings.
+Processing sample 103/400 (dataset index: 102)
+Processing sample 103 (dataset index 102) with language 'es'
+Sample 103 (dataset index 102) processed successfully with 3 rephrasings.
+Processing sample 104/400 (dataset index: 103)
+Processing sample 104 (dataset index 103) with language 'es'
+Sample 104 (dataset index 103) processed successfully with 13 rephrasings.
+Processing sample 105/400 (dataset index: 104)
+Processing sample 105 (dataset index 104) with language 'es'
+Sample 105 (dataset index 104) processed successfully with 3 rephrasings.
+Processing sample 106/400 (dataset index: 105)
+Processing sample 106 (dataset index 105) with language 'es'
+Sample 106 (dataset index 105) processed successfully with 3 rephrasings.
+Processing sample 107/400 (dataset index: 106)
+Processing sample 107 (dataset index 106) with language 'es'
+Sample 107 (dataset index 106) processed successfully with 3 rephrasings.
+Processing sample 108/400 (dataset index: 107)
+Processing sample 108 (dataset index 107) with language 'es'
+Sample 108 (dataset index 107) processed successfully with 6 rephrasings.
+Processing sample 109/400 (dataset index: 108)
+Processing sample 109 (dataset index 108) with language 'es'
+Sample 109 (dataset index 108) processed successfully with 3 rephrasings.
+Processing sample 110/400 (dataset index: 109)
+Processing sample 110 (dataset index 109) with language 'es'
+Sample 110 (dataset index 109) processed successfully with 3 rephrasings.
+Processing sample 111/400 (dataset index: 110)
+Processing sample 111 (dataset index 110) with language 'es'
+Sample 111 (dataset index 110) processed successfully with 3 rephrasings.
+Processing sample 112/400 (dataset index: 111)
+Processing sample 112 (dataset index 111) with language 'es'
+Sample 112 (dataset index 111) processed successfully with 3 rephrasings.
+Processing sample 113/400 (dataset index: 112)
+Processing sample 113 (dataset index 112) with language 'es'
+Sample 113 (dataset index 112) processed successfully with 3 rephrasings.
+Processing sample 114/400 (dataset index: 113)
+Processing sample 114 (dataset index 113) with language 'es'
+Sample 114 (dataset index 113) processed successfully with 3 rephrasings.
+Processing sample 115/400 (dataset index: 114)
+Processing sample 115 (dataset index 114) with language 'es'
+Sample 115 (dataset index 114) processed successfully with 3 rephrasings.
+Processing sample 116/400 (dataset index: 115)
+Processing sample 116 (dataset index 115) with language 'es'
+Sample 116 (dataset index 115) processed successfully with 3 rephrasings.
+Processing sample 117/400 (dataset index: 116)
+Processing sample 117 (dataset index 116) with language 'es'
+Sample 117 (dataset index 116) processed successfully with 3 rephrasings.
+Processing sample 118/400 (dataset index: 117)
+Processing sample 118 (dataset index 117) with language 'es'
+JSONDecodeError: Unterminated string starting at: line 1 column 4146 (char 4145)
+Error getting rephrasings for sample 118 (dataset index 117): Invalid JSON response from API
+Processing sample 119/400 (dataset index: 118)
+Processing sample 119 (dataset index 118) with language 'es'
+Sample 119 (dataset index 118) processed successfully with 3 rephrasings.
+Processing sample 120/400 (dataset index: 119)
+Processing sample 120 (dataset index 119) with language 'es'
+Sample 120 (dataset index 119) processed successfully with 3 rephrasings.
+Processing sample 121/400 (dataset index: 120)
+Processing sample 121 (dataset index 120) with language 'es'
+Sample 121 (dataset index 120) processed successfully with 3 rephrasings.
+Processing sample 122/400 (dataset index: 121)
+Processing sample 122 (dataset index 121) with language 'es'
+Sample 122 (dataset index 121) processed successfully with 3 rephrasings.
+Processing sample 123/400 (dataset index: 122)
+Processing sample 123 (dataset index 122) with language 'es'
+Sample 123 (dataset index 122) processed successfully with 16 rephrasings.
+Processing sample 124/400 (dataset index: 123)
+Processing sample 124 (dataset index 123) with language 'es'
+Sample 124 (dataset index 123) processed successfully with 3 rephrasings.
+Processing sample 125/400 (dataset index: 124)
+Processing sample 125 (dataset index 124) with language 'es'
+Sample 125 (dataset index 124) processed successfully with 3 rephrasings.
+Processing sample 126/400 (dataset index: 125)
+Processing sample 126 (dataset index 125) with language 'es'
+Sample 126 (dataset index 125) processed successfully with 3 rephrasings.
+Processing sample 127/400 (dataset index: 126)
+Processing sample 127 (dataset index 126) with language 'es'
+Sample 127 (dataset index 126) processed successfully with 3 rephrasings.
+Processing sample 128/400 (dataset index: 127)
+Processing sample 128 (dataset index 127) with language 'es'
+Sample 128 (dataset index 127) processed successfully with 3 rephrasings.
+Processing sample 129/400 (dataset index: 128)
+Processing sample 129 (dataset index 128) with language 'es'
+Sample 129 (dataset index 128) processed successfully with 9 rephrasings.
+Processing sample 130/400 (dataset index: 129)
+Processing sample 130 (dataset index 129) with language 'es'
+Sample 130 (dataset index 129) processed successfully with 3 rephrasings.
+Processing sample 131/400 (dataset index: 130)
+Processing sample 131 (dataset index 130) with language 'es'
+Sample 131 (dataset index 130) processed successfully with 3 rephrasings.
+Processing sample 132/400 (dataset index: 131)
+Processing sample 132 (dataset index 131) with language 'es'
+Sample 132 (dataset index 131) processed successfully with 3 rephrasings.
+Processing sample 133/400 (dataset index: 132)
+Processing sample 133 (dataset index 132) with language 'es'
+Sample 133 (dataset index 132) processed successfully with 3 rephrasings.
+Processing sample 134/400 (dataset index: 133)
+Processing sample 134 (dataset index 133) with language 'es'
+Sample 134 (dataset index 133) processed successfully with 3 rephrasings.
+Processing sample 135/400 (dataset index: 134)
+Processing sample 135 (dataset index 134) with language 'es'
+Sample 135 (dataset index 134) processed successfully with 3 rephrasings.
+Processing sample 136/400 (dataset index: 135)
+Processing sample 136 (dataset index 135) with language 'es'
+Sample 136 (dataset index 135) processed successfully with 10 rephrasings.
+Processing sample 137/400 (dataset index: 136)
+Processing sample 137 (dataset index 136) with language 'es'
+Sample 137 (dataset index 136) processed successfully with 3 rephrasings.
+Processing sample 138/400 (dataset index: 137)
+Processing sample 138 (dataset index 137) with language 'es'
+Sample 138 (dataset index 137) processed successfully with 3 rephrasings.
+Processing sample 139/400 (dataset index: 138)
+Processing sample 139 (dataset index 138) with language 'es'
+Sample 139 (dataset index 138) processed successfully with 5 rephrasings.
+Processing sample 140/400 (dataset index: 139)
+Processing sample 140 (dataset index 139) with language 'es'
+Sample 140 (dataset index 139) processed successfully with 5 rephrasings.
+Processing sample 141/400 (dataset index: 140)
+Processing sample 141 (dataset index 140) with language 'es'
+Sample 141 (dataset index 140) processed successfully with 3 rephrasings.
+Processing sample 142/400 (dataset index: 141)
+Processing sample 142 (dataset index 141) with language 'es'
+Sample 142 (dataset index 141) processed successfully with 3 rephrasings.
+Processing sample 143/400 (dataset index: 142)
+Processing sample 143 (dataset index 142) with language 'es'
+Sample 143 (dataset index 142) processed successfully with 3 rephrasings.
+Processing sample 144/400 (dataset index: 143)
+Processing sample 144 (dataset index 143) with language 'es'
+Sample 144 (dataset index 143) processed successfully with 3 rephrasings.
+Processing sample 145/400 (dataset index: 144)
+Processing sample 145 (dataset index 144) with language 'es'
+Sample 145 (dataset index 144) processed successfully with 3 rephrasings.
+Processing sample 146/400 (dataset index: 145)
+Processing sample 146 (dataset index 145) with language 'es'
+Sample 146 (dataset index 145) processed successfully with 3 rephrasings.
+Processing sample 147/400 (dataset index: 146)
+Processing sample 147 (dataset index 146) with language 'es'
+Sample 147 (dataset index 146) processed successfully with 3 rephrasings.
+Processing sample 148/400 (dataset index: 147)
+Processing sample 148 (dataset index 147) with language 'es'
+Sample 148 (dataset index 147) processed successfully with 3 rephrasings.
+Processing sample 149/400 (dataset index: 148)
+Processing sample 149 (dataset index 148) with language 'es'
+Sample 149 (dataset index 148) processed successfully with 3 rephrasings.
+Processing sample 150/400 (dataset index: 149)
+Processing sample 150 (dataset index 149) with language 'es'
+Sample 150 (dataset index 149) processed successfully with 3 rephrasings.
+Processing sample 151/400 (dataset index: 150)
+Processing sample 151 (dataset index 150) with language 'es'
+Sample 151 (dataset index 150) processed successfully with 3 rephrasings.
+Processing sample 152/400 (dataset index: 151)
+Processing sample 152 (dataset index 151) with language 'es'
+Sample 152 (dataset index 151) processed successfully with 3 rephrasings.
+Processing sample 153/400 (dataset index: 152)
+Processing sample 153 (dataset index 152) with language 'es'
+Sample 153 (dataset index 152) processed successfully with 3 rephrasings.
+Processing sample 154/400 (dataset index: 153)
+Processing sample 154 (dataset index 153) with language 'es'
+Sample 154 (dataset index 153) processed successfully with 4 rephrasings.
+Processing sample 155/400 (dataset index: 154)
+Processing sample 155 (dataset index 154) with language 'es'
+Sample 155 (dataset index 154) processed successfully with 3 rephrasings.
+Processing sample 156/400 (dataset index: 155)
+Processing sample 156 (dataset index 155) with language 'es'
+Sample 156 (dataset index 155) processed successfully with 5 rephrasings.
+Processing sample 157/400 (dataset index: 156)
+Processing sample 157 (dataset index 156) with language 'es'
+Sample 157 (dataset index 156) processed successfully with 16 rephrasings.
+Processing sample 158/400 (dataset index: 157)
+Processing sample 158 (dataset index 157) with language 'es'
+Sample 158 (dataset index 157) processed successfully with 3 rephrasings.
+Processing sample 159/400 (dataset index: 158)
+Processing sample 159 (dataset index 158) with language 'es'
+Sample 159 (dataset index 158) processed successfully with 6 rephrasings.
+Processing sample 160/400 (dataset index: 159)
+Processing sample 160 (dataset index 159) with language 'es'
+Sample 160 (dataset index 159) processed successfully with 3 rephrasings.
+Processing sample 161/400 (dataset index: 160)
+Processing sample 161 (dataset index 160) with language 'es'
+Sample 161 (dataset index 160) processed successfully with 3 rephrasings.
+Processing sample 162/400 (dataset index: 161)
+Processing sample 162 (dataset index 161) with language 'es'
+Sample 162 (dataset index 161) processed successfully with 3 rephrasings.
+Processing sample 163/400 (dataset index: 162)
+Processing sample 163 (dataset index 162) with language 'es'
+Sample 163 (dataset index 162) processed successfully with 3 rephrasings.
+Processing sample 164/400 (dataset index: 163)
+Processing sample 164 (dataset index 163) with language 'es'
+Sample 164 (dataset index 163) processed successfully with 3 rephrasings.
+Processing sample 165/400 (dataset index: 164)
+Processing sample 165 (dataset index 164) with language 'es'
+Sample 165 (dataset index 164) processed successfully with 3 rephrasings.
+Processing sample 166/400 (dataset index: 165)
+Processing sample 166 (dataset index 165) with language 'es'
+Sample 166 (dataset index 165) processed successfully with 3 rephrasings.
+Processing sample 167/400 (dataset index: 166)
+Processing sample 167 (dataset index 166) with language 'es'
+Sample 167 (dataset index 166) processed successfully with 334 rephrasings.
+Processing sample 168/400 (dataset index: 167)
+Processing sample 168 (dataset index 167) with language 'es'
+Sample 168 (dataset index 167) processed successfully with 6 rephrasings.
+Processing sample 169/400 (dataset index: 168)
+Processing sample 169 (dataset index 168) with language 'es'

@@ -627,3 +627,298 @@ Processing sample 200 (dataset index 199) with language 'es'
 Sample 200 (dataset index 199) processed successfully with 3 rephrasings.
 Processing sample 201/400 (dataset index: 200)
 Processing sample 201 (dataset index 200) with language 'fr'
+Sample 201 (dataset index 200) processed successfully with 3 rephrasings.
+Processing sample 202/400 (dataset index: 201)
+Processing sample 202 (dataset index 201) with language 'fr'
+Sample 202 (dataset index 201) processed successfully with 3 rephrasings.
+Processing sample 203/400 (dataset index: 202)
+Processing sample 203 (dataset index 202) with language 'fr'
+Sample 203 (dataset index 202) processed successfully with 3 rephrasings.
+Processing sample 204/400 (dataset index: 203)
+Processing sample 204 (dataset index 203) with language 'fr'
+Sample 204 (dataset index 203) processed successfully with 3 rephrasings.
+Processing sample 205/400 (dataset index: 204)
+Processing sample 205 (dataset index 204) with language 'fr'
+Sample 205 (dataset index 204) processed successfully with 3 rephrasings.
+Processing sample 206/400 (dataset index: 205)
+Processing sample 206 (dataset index 205) with language 'fr'
+Sample 206 (dataset index 205) processed successfully with 3 rephrasings.
+Processing sample 207/400 (dataset index: 206)
+Processing sample 207 (dataset index 206) with language 'fr'
+Sample 207 (dataset index 206) processed successfully with 3 rephrasings.
+Processing sample 208/400 (dataset index: 207)
+Processing sample 208 (dataset index 207) with language 'fr'
+Sample 208 (dataset index 207) processed successfully with 3 rephrasings.
+Processing sample 209/400 (dataset index: 208)
+Processing sample 209 (dataset index 208) with language 'fr'
+Sample 209 (dataset index 208) processed successfully with 3 rephrasings.
+Processing sample 210/400 (dataset index: 209)
+Processing sample 210 (dataset index 209) with language 'fr'
+Sample 210 (dataset index 209) processed successfully with 10 rephrasings.
+Processing sample 211/400 (dataset index: 210)
+Processing sample 211 (dataset index 210) with language 'fr'
+Sample 211 (dataset index 210) processed successfully with 3 rephrasings.
+Processing sample 212/400 (dataset index: 211)
+Processing sample 212 (dataset index 211) with language 'fr'
+Sample 212 (dataset index 211) processed successfully with 3 rephrasings.
+Processing sample 213/400 (dataset index: 212)
+Processing sample 213 (dataset index 212) with language 'fr'
+Sample 213 (dataset index 212) processed successfully with 5 rephrasings.
+Processing sample 214/400 (dataset index: 213)
+Processing sample 214 (dataset index 213) with language 'fr'
+Sample 214 (dataset index 213) processed successfully with 3 rephrasings.
+Processing sample 215/400 (dataset index: 214)
+Processing sample 215 (dataset index 214) with language 'fr'
+Error in completion_gradient: cannot reshape tensor of 0 elements into shape [-1, 0] because the unspecified dimension size -1 can be any value and is ambiguous
+Error calculating gradient for rephrasing 6 in sample 215 (dataset index 214): cannot reshape tensor of 0 elements into shape [-1, 0] because the unspecified dimension size -1 can be any value and is ambiguous
+Processing sample 216/400 (dataset index: 215)
+Processing sample 216 (dataset index 215) with language 'fr'
+Sample 216 (dataset index 215) processed successfully with 2 rephrasings.
+Processing sample 217/400 (dataset index: 216)
+Processing sample 217 (dataset index 216) with language 'fr'
+Sample 217 (dataset index 216) processed successfully with 3 rephrasings.
+Processing sample 218/400 (dataset index: 217)
+Processing sample 218 (dataset index 217) with language 'fr'
+Sample 218 (dataset index 217) processed successfully with 23 rephrasings.
+Processing sample 219/400 (dataset index: 218)
+Processing sample 219 (dataset index 218) with language 'fr'
+Sample 219 (dataset index 218) processed successfully with 3 rephrasings.
+Processing sample 220/400 (dataset index: 219)
+Processing sample 220 (dataset index 219) with language 'fr'
+Sample 220 (dataset index 219) processed successfully with 1 rephrasings.
+Processing sample 221/400 (dataset index: 220)
+Processing sample 221 (dataset index 220) with language 'fr'
+Sample 221 (dataset index 220) processed successfully with 9 rephrasings.
+Processing sample 222/400 (dataset index: 221)
+Processing sample 222 (dataset index 221) with language 'fr'
+Sample 222 (dataset index 221) processed successfully with 3 rephrasings.
+Processing sample 223/400 (dataset index: 222)
+Processing sample 223 (dataset index 222) with language 'fr'
+Sample 223 (dataset index 222) processed successfully with 3 rephrasings.
+Processing sample 224/400 (dataset index: 223)
+Processing sample 224 (dataset index 223) with language 'fr'
+Sample 224 (dataset index 223) processed successfully with 3 rephrasings.
+Processing sample 225/400 (dataset index: 224)
+Processing sample 225 (dataset index 224) with language 'fr'
+Sample 225 (dataset index 224) processed successfully with 3 rephrasings.
+Processing sample 226/400 (dataset index: 225)
+Processing sample 226 (dataset index 225) with language 'fr'
+Sample 226 (dataset index 225) processed successfully with 3 rephrasings.
+Processing sample 227/400 (dataset index: 226)
+Processing sample 227 (dataset index 226) with language 'fr'
+Sample 227 (dataset index 226) processed successfully with 1 rephrasings.
+Processing sample 228/400 (dataset index: 227)
+Processing sample 228 (dataset index 227) with language 'fr'
+Sample 228 (dataset index 227) processed successfully with 18 rephrasings.
+Processing sample 229/400 (dataset index: 228)
+Processing sample 229 (dataset index 228) with language 'fr'
+Sample 229 (dataset index 228) processed successfully with 3 rephrasings.
+Processing sample 230/400 (dataset index: 229)
+Processing sample 230 (dataset index 229) with language 'fr'
+Sample 230 (dataset index 229) processed successfully with 3 rephrasings.
+Processing sample 231/400 (dataset index: 230)
+Processing sample 231 (dataset index 230) with language 'fr'
+Sample 231 (dataset index 230) processed successfully with 1 rephrasings.
+Processing sample 232/400 (dataset index: 231)
+Processing sample 232 (dataset index 231) with language 'fr'
+Sample 232 (dataset index 231) processed successfully with 7 rephrasings.
+Processing sample 233/400 (dataset index: 232)
+Processing sample 233 (dataset index 232) with language 'fr'
+Sample 233 (dataset index 232) processed successfully with 39 rephrasings.
+Processing sample 234/400 (dataset index: 233)
+Processing sample 234 (dataset index 233) with language 'fr'
+Sample 234 (dataset index 233) processed successfully with 3 rephrasings.
+Processing sample 235/400 (dataset index: 234)
+Processing sample 235 (dataset index 234) with language 'fr'
+Sample 235 (dataset index 234) processed successfully with 3 rephrasings.
+Processing sample 236/400 (dataset index: 235)
+Processing sample 236 (dataset index 235) with language 'fr'
+Sample 236 (dataset index 235) processed successfully with 3 rephrasings.
+Processing sample 237/400 (dataset index: 236)
+Processing sample 237 (dataset index 236) with language 'fr'
+Sample 237 (dataset index 236) processed successfully with 3 rephrasings.
+Processing sample 238/400 (dataset index: 237)
+Processing sample 238 (dataset index 237) with language 'fr'
+Sample 238 (dataset index 237) processed successfully with 3 rephrasings.
+Processing sample 239/400 (dataset index: 238)
+Processing sample 239 (dataset index 238) with language 'fr'
+Sample 239 (dataset index 238) processed successfully with 4 rephrasings.
+Processing sample 240/400 (dataset index: 239)
+Processing sample 240 (dataset index 239) with language 'fr'
+JSONDecodeError: Expecting ',' delimiter: line 5304 column 4 (char 44358)
+Error getting rephrasings for sample 240 (dataset index 239): Invalid JSON response from API
+Processing sample 241/400 (dataset index: 240)
+Processing sample 241 (dataset index 240) with language 'fr'
+Sample 241 (dataset index 240) processed successfully with 3 rephrasings.
+Processing sample 242/400 (dataset index: 241)
+Processing sample 242 (dataset index 241) with language 'fr'
+Sample 242 (dataset index 241) processed successfully with 3 rephrasings.
+Processing sample 243/400 (dataset index: 242)
+Processing sample 243 (dataset index 242) with language 'fr'
+Sample 243 (dataset index 242) processed successfully with 5 rephrasings.
+Processing sample 244/400 (dataset index: 243)
+Processing sample 244 (dataset index 243) with language 'fr'
+Sample 244 (dataset index 243) processed successfully with 3 rephrasings.
+Processing sample 245/400 (dataset index: 244)
+Processing sample 245 (dataset index 244) with language 'fr'
+Sample 245 (dataset index 244) processed successfully with 3 rephrasings.
+Processing sample 246/400 (dataset index: 245)
+Processing sample 246 (dataset index 245) with language 'fr'
+Sample 246 (dataset index 245) processed successfully with 3 rephrasings.
+Processing sample 247/400 (dataset index: 246)
+Processing sample 247 (dataset index 246) with language 'fr'
+Sample 247 (dataset index 246) processed successfully with 3 rephrasings.
+Processing sample 248/400 (dataset index: 247)
+Processing sample 248 (dataset index 247) with language 'fr'
+Sample 248 (dataset index 247) processed successfully with 3 rephrasings.
+Processing sample 249/400 (dataset index: 248)
+Processing sample 249 (dataset index 248) with language 'fr'
+Sample 249 (dataset index 248) processed successfully with 3 rephrasings.
+Processing sample 250/400 (dataset index: 249)
+Processing sample 250 (dataset index 249) with language 'fr'
+Sample 250 (dataset index 249) processed successfully with 1 rephrasings.
+Processing sample 251/400 (dataset index: 250)
+Processing sample 251 (dataset index 250) with language 'fr'
+Sample 251 (dataset index 250) processed successfully with 3 rephrasings.
+Processing sample 252/400 (dataset index: 251)
+Processing sample 252 (dataset index 251) with language 'fr'
+Sample 252 (dataset index 251) processed successfully with 7 rephrasings.
+Processing sample 253/400 (dataset index: 252)
+Processing sample 253 (dataset index 252) with language 'fr'
+Sample 253 (dataset index 252) processed successfully with 3 rephrasings.
+Processing sample 254/400 (dataset index: 253)
+Processing sample 254 (dataset index 253) with language 'fr'
+Sample 254 (dataset index 253) processed successfully with 3 rephrasings.
+Processing sample 255/400 (dataset index: 254)
+Processing sample 255 (dataset index 254) with language 'fr'
+Sample 255 (dataset index 254) processed successfully with 3 rephrasings.
+Processing sample 256/400 (dataset index: 255)
+Processing sample 256 (dataset index 255) with language 'fr'
+Sample 256 (dataset index 255) processed successfully with 3 rephrasings.
+Processing sample 257/400 (dataset index: 256)
+Processing sample 257 (dataset index 256) with language 'fr'
+Sample 257 (dataset index 256) processed successfully with 3 rephrasings.
+Processing sample 258/400 (dataset index: 257)
+Processing sample 258 (dataset index 257) with language 'fr'
+Sample 258 (dataset index 257) processed successfully with 3 rephrasings.
+Processing sample 259/400 (dataset index: 258)
+Processing sample 259 (dataset index 258) with language 'fr'
+Sample 259 (dataset index 258) processed successfully with 3 rephrasings.
+Processing sample 260/400 (dataset index: 259)
+Processing sample 260 (dataset index 259) with language 'fr'
+Sample 260 (dataset index 259) processed successfully with 3 rephrasings.
+Processing sample 261/400 (dataset index: 260)
+Processing sample 261 (dataset index 260) with language 'fr'
+Sample 261 (dataset index 260) processed successfully with 3 rephrasings.
+Processing sample 262/400 (dataset index: 261)
+Processing sample 262 (dataset index 261) with language 'fr'
+Sample 262 (dataset index 261) processed successfully with 3 rephrasings.
+Processing sample 263/400 (dataset index: 262)
+Processing sample 263 (dataset index 262) with language 'fr'
+Sample 263 (dataset index 262) processed successfully with 3 rephrasings.
+Processing sample 264/400 (dataset index: 263)
+Processing sample 264 (dataset index 263) with language 'fr'
+Sample 264 (dataset index 263) processed successfully with 3 rephrasings.
+Processing sample 265/400 (dataset index: 264)
+Processing sample 265 (dataset index 264) with language 'fr'
+Sample 265 (dataset index 264) processed successfully with 3 rephrasings.
+Processing sample 266/400 (dataset index: 265)
+Processing sample 266 (dataset index 265) with language 'fr'
+Sample 266 (dataset index 265) processed successfully with 3 rephrasings.
+Processing sample 267/400 (dataset index: 266)
+Processing sample 267 (dataset index 266) with language 'fr'
+Sample 267 (dataset index 266) processed successfully with 3 rephrasings.
+Processing sample 268/400 (dataset index: 267)
+Processing sample 268 (dataset index 267) with language 'fr'
+Sample 268 (dataset index 267) processed successfully with 3 rephrasings.
+Processing sample 269/400 (dataset index: 268)
+Processing sample 269 (dataset index 268) with language 'fr'
+Sample 269 (dataset index 268) processed successfully with 6 rephrasings.
+Processing sample 270/400 (dataset index: 269)
+Processing sample 270 (dataset index 269) with language 'fr'
+Sample 270 (dataset index 269) processed successfully with 3 rephrasings.
+Processing sample 271/400 (dataset index: 270)
+Processing sample 271 (dataset index 270) with language 'fr'
+Sample 271 (dataset index 270) processed successfully with 3 rephrasings.
+Processing sample 272/400 (dataset index: 271)
+Processing sample 272 (dataset index 271) with language 'fr'
+Sample 272 (dataset index 271) processed successfully with 4 rephrasings.
+Processing sample 273/400 (dataset index: 272)
+Processing sample 273 (dataset index 272) with language 'fr'
+Sample 273 (dataset index 272) processed successfully with 3 rephrasings.
+Processing sample 274/400 (dataset index: 273)
+Processing sample 274 (dataset index 273) with language 'fr'
+Sample 274 (dataset index 273) processed successfully with 3 rephrasings.
+Processing sample 275/400 (dataset index: 274)
+Processing sample 275 (dataset index 274) with language 'fr'
+Sample 275 (dataset index 274) processed successfully with 3 rephrasings.
+Processing sample 276/400 (dataset index: 275)
+Processing sample 276 (dataset index 275) with language 'fr'
+Sample 276 (dataset index 275) processed successfully with 2 rephrasings.
+Processing sample 277/400 (dataset index: 276)
+Processing sample 277 (dataset index 276) with language 'fr'
+Sample 277 (dataset index 276) processed successfully with 3 rephrasings.
+Processing sample 278/400 (dataset index: 277)
+Processing sample 278 (dataset index 277) with language 'fr'
+Sample 278 (dataset index 277) processed successfully with 6 rephrasings.
+Processing sample 279/400 (dataset index: 278)
+Processing sample 279 (dataset index 278) with language 'fr'
+Sample 279 (dataset index 278) processed successfully with 37 rephrasings.
+Processing sample 280/400 (dataset index: 279)
+Processing sample 280 (dataset index 279) with language 'fr'
+Error in completion_gradient: cannot reshape tensor of 0 elements into shape [-1, 0] because the unspecified dimension size -1 can be any value and is ambiguous
+Error calculating gradient for rephrasing 17 in sample 280 (dataset index 279): cannot reshape tensor of 0 elements into shape [-1, 0] because the unspecified dimension size -1 can be any value and is ambiguous
+Processing sample 281/400 (dataset index: 280)
+Processing sample 281 (dataset index 280) with language 'fr'
+Sample 281 (dataset index 280) processed successfully with 3 rephrasings.
+Processing sample 282/400 (dataset index: 281)
+Processing sample 282 (dataset index 281) with language 'fr'
+Sample 282 (dataset index 281) processed successfully with 3 rephrasings.
+Processing sample 283/400 (dataset index: 282)
+Processing sample 283 (dataset index 282) with language 'fr'
+Sample 283 (dataset index 282) processed successfully with 3 rephrasings.
+Processing sample 284/400 (dataset index: 283)
+Processing sample 284 (dataset index 283) with language 'fr'
+Sample 284 (dataset index 283) processed successfully with 8 rephrasings.
+Processing sample 285/400 (dataset index: 284)
+Processing sample 285 (dataset index 284) with language 'fr'
+Error in completion_gradient: cannot reshape tensor of 0 elements into shape [-1, 0] because the unspecified dimension size -1 can be any value and is ambiguous
+Error calculating gradient for rephrasing 7 in sample 285 (dataset index 284): cannot reshape tensor of 0 elements into shape [-1, 0] because the unspecified dimension size -1 can be any value and is ambiguous
+Processing sample 286/400 (dataset index: 285)
+Processing sample 286 (dataset index 285) with language 'fr'
+Sample 286 (dataset index 285) processed successfully with 3 rephrasings.
+Processing sample 287/400 (dataset index: 286)
+Processing sample 287 (dataset index 286) with language 'fr'
+Sample 287 (dataset index 286) processed successfully with 3 rephrasings.
+Processing sample 288/400 (dataset index: 287)
+Processing sample 288 (dataset index 287) with language 'fr'
+Sample 288 (dataset index 287) processed successfully with 3 rephrasings.
+Processing sample 289/400 (dataset index: 288)
+Processing sample 289 (dataset index 288) with language 'fr'
+Sample 289 (dataset index 288) processed successfully with 3 rephrasings.
+Processing sample 290/400 (dataset index: 289)
+Processing sample 290 (dataset index 289) with language 'fr'
+Sample 290 (dataset index 289) processed successfully with 3 rephrasings.
+Processing sample 291/400 (dataset index: 290)
+Processing sample 291 (dataset index 290) with language 'fr'
+Sample 291 (dataset index 290) processed successfully with 3 rephrasings.
+Processing sample 292/400 (dataset index: 291)
+Processing sample 292 (dataset index 291) with language 'fr'
+Sample 292 (dataset index 291) processed successfully with 3 rephrasings.
+Processing sample 293/400 (dataset index: 292)
+Processing sample 293 (dataset index 292) with language 'fr'
+Sample 293 (dataset index 292) processed successfully with 3 rephrasings.
+Processing sample 294/400 (dataset index: 293)
+Processing sample 294 (dataset index 293) with language 'fr'
+Sample 294 (dataset index 293) processed successfully with 3 rephrasings.
+Processing sample 295/400 (dataset index: 294)
+Processing sample 295 (dataset index 294) with language 'fr'
+Sample 295 (dataset index 294) processed successfully with 3 rephrasings.
+Processing sample 296/400 (dataset index: 295)
+Processing sample 296 (dataset index 295) with language 'fr'
+Sample 296 (dataset index 295) processed successfully with 3 rephrasings.
+Processing sample 297/400 (dataset index: 296)
+Processing sample 297 (dataset index 296) with language 'fr'
+Sample 297 (dataset index 296) processed successfully with 3 rephrasings.
+Processing sample 298/400 (dataset index: 297)
+Processing sample 298 (dataset index 297) with language 'fr'
