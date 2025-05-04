@@ -7,3 +7,6 @@ autoawq
 bitsandbytes
 pillow
 nltk
+tiktoken
+protobuf
+blobfile

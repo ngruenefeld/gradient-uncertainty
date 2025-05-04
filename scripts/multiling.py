@@ -127,6 +127,10 @@ def main(args):
 
     tokenizer_params = {"token": hf_token}
 
+    if model_name == "polylm-1.7b":
+        print("Using slow tokenizer implementation for polylm-1.7b")
+        tokenizer_params["use_fast"] = False
+
     tokenizer = AutoTokenizer.from_pretrained(model_path, **tokenizer_params)
 
     data = load_multilingual_datasets(dataset_name)
