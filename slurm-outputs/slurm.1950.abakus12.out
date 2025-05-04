@@ -21941,3 +21941,12 @@ Article: 【明報專訊】鄭保瑞執導、古天樂、洪金寶、林峯和�
 娛樂組
 Sample 900 (dataset index 899) processed successfully with 3 rephrasings.
 Processing complete. Saved 815 successful results. Failed: 85
+[main dd337ae] Multilingual Script Results for Run 1950 (Commit: 85d1e51)
+ 8 files changed, 6383 insertions(+)
+ create mode 100644 data/full/multiling_results_1950_llama-awq_rephrase_finenews.pkl
+ create mode 100644 slurm-outputs/slurm.2018.abakus11.out
+ create mode 100644 slurm-outputs/slurm.2019.abakus21.out
+ create mode 100644 slurm-outputs/slurm.2020.abakus11.out
+ create mode 100644 slurm-outputs/slurm.2021.abakus21.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   157b138..dd337ae  main -> main
