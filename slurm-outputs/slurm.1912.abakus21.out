@@ -2032,3 +2032,8 @@ Processing sample 500 (dataset index 499) with language 'tu'
 Article: Adalet Bakanı Sadullah Ergin'in AK Parti Hatay İl Divan Toplantısı'na katılmak geldiği Hatay'ın Erzin ilçesinde polisin suikast silahı ele geçirmesi üzerine güvenlik önlemleri arıttırıldı. İlçe Emniyet Müdürlüğüne bağlı polisler, özel harekat timleri ve jandarma ekiplerinin ilçede aldıkları geniş güvenlik tedbirleri dikkatleri çekti. Toplantıya katılan Bakan Ergin geniş güvenlik önlemleri altında toplantıdan ayrılırken basın mensuplarının suikast silahı olayıyla ilgili sorularına, "Yoğun çalışmalarımız var bu konuyla ilgili daha sonra açıklama yapacağım" yanıtını verdi. İlçe Emniyet Müdürlüğü, ilçeye silah satmak amacıyla birkaç şahsın geleceği ihbarını aldı. Bunun üzerine denetimlerini sıklaştıran ekipler, Bahçeli Evler Mahallesi'nde yaptığı kontrol sırasında şüphe üzerine içerisinde İ.A. ve M.Ç.'nin bulunduğu 63 YT 415 plakalı aracı durdurdu. Yapılan aramalarda araç içerisinde ruhsatsız oldukları öğrenilen Glock marka suikast silahı ile bir adet 14'lü diye tabir edilen tabanca ele geçirildi. Gözaltına alınan şahısların, tabancaları ilçeye satmak için getirdikleri öğrenildi. Olayla ilgili başlatılan geniş soruşturma devam ediyor.
 Error processing sample 500 (dataset index 499): Language 'tu' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
 Processing complete. Saved 391 successful results. Failed: 109
+[main 6dfdd10] Multilingual Script Results for Run 1912 (Commit: 7032f16)
+ 4 files changed, 1126 insertions(+)
+ create mode 100644 data/full/multiling_results_1912_llama-2-7b_4bit_rephrase_mlsum.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   79abcd9..6dfdd10  main -> main
