@@ -130,7 +130,7 @@ def main(args):
 
     tokenizer_params = {"token": hf_token}
 
-    if model_name == "polylm-1.7b":
+    if model_name in ["polylm-1.7b", "llama-awq"]:
         print("Using slow tokenizer implementation for polylm-1.7b")
         tokenizer_params["use_fast"] = False
 
