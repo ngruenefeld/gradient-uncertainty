@@ -482,7 +482,6 @@ def load_multilingual_datasets(choice="finenews"):
             "es",
             "fr",
             "ru",
-            "tu",
         ]
 
         sample_size = 100
