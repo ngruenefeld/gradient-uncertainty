@@ -3394,3 +3394,10 @@ Processing sample 842 (dataset index 841) with language 'zh'
 Article: 视频看似拍摄自一辆汽车内部，聚焦于车门与车辆中控之间的区域。没有明显出现的人物，也无法分辨出车外的环境。由于画面模糊，无法清晰看到具体的细节，但可以看出有车门把手和一些车内的塑料装饰件。中控台上似乎有空调出风口。整体视频光线明亮但过曝，暗示可能是在户外白天拍摄。视频标题提到坡道定点停车和起步这是科目二考试的一部分，暗示视频可能在展示驾驶考试中的某个环节或者与此相关的教学内容。背景声音中提到的'两位的情况'可能是在描述车内人员的某些行为或状态，但由于缺少可视化信息，无法准确描述。视频风格看起来更像是非专业或即兴拍摄，并非商业或剧情片段。
 Sample 842 (dataset index 841) processed successfully with 3 rephrasings.
 Processing complete. Saved 839 successful results. Failed: 3
+[main 0718308] Multilingual Script Results for Run 1819 (Commit: b55f7e4)
+ 4 files changed, 21922 insertions(+)
+ create mode 100644 data/full/multiling_results_1819_llama-2-7b_4bit_rephrase_vript.pkl
+ create mode 100644 slurm-outputs/slurm.1819.abakus11.out
+ create mode 100644 slurm-outputs/slurm.1820.abakus12.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   d2fbf63..0718308  main -> main
