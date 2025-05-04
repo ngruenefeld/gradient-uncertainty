@@ -1,0 +1,57 @@
+slurmstepd-abakus22: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus22: error: Setting TMPDIR to /tmp
+Running job with commit: 7869e038028988d2ff259451d1874171d9a80a82
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1979
+Dataset: commoncorpus
+Model: polylm-1.7b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 10
+Mode: test
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Loading model in 4-bit precision to reduce memory usage
+Using slow tokenizer implementation for polylm-1.7b
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message
+Repo card metadata block was not found. Setting CardData to empty.
+Processing sample 1/10 (dataset index: 579)
+Processing sample 1 (dataset index 579) with language 'pl'
+Error processing sample 1 (dataset index 579): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 2/10 (dataset index: 503)
+Processing sample 2 (dataset index 503) with language 'pl'
+Error processing sample 2 (dataset index 503): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 3/10 (dataset index: 333)
+Processing sample 3 (dataset index 333) with language 'fr'
+Sample 3 (dataset index 333) processed successfully with 3 rephrasings.
+Processing sample 4/10 (dataset index: 106)
+Processing sample 4 (dataset index 106) with language 'de'
+Sample 4 (dataset index 106) processed successfully with 3 rephrasings.
+Processing sample 5/10 (dataset index: 364)
+Processing sample 5 (dataset index 364) with language 'fr'
+Sample 5 (dataset index 364) processed successfully with 3 rephrasings.
+Processing sample 6/10 (dataset index: 432)
+Processing sample 6 (dataset index 432) with language 'it'
+Sample 6 (dataset index 432) processed successfully with 3 rephrasings.
+Processing sample 7/10 (dataset index: 373)
+Processing sample 7 (dataset index 373) with language 'fr'
+Sample 7 (dataset index 373) processed successfully with 3 rephrasings.
+Processing sample 8/10 (dataset index: 330)
+Processing sample 8 (dataset index 330) with language 'fr'
+Sample 8 (dataset index 330) processed successfully with 5 rephrasings.
+Processing sample 9/10 (dataset index: 584)
+Processing sample 9 (dataset index 584) with language 'pl'
+Error processing sample 9 (dataset index 584): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
+Processing sample 10/10 (dataset index: 226)
+Processing sample 10 (dataset index 226) with language 'es'
+Sample 10 (dataset index 226) processed successfully with 3 rephrasings.
+Processing complete. Saved 7 successful results. Failed: 3
