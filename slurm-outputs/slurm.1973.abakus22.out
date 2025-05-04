@@ -1,13 +1,13 @@
 slurmstepd-abakus22: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus22: error: Setting TMPDIR to /tmp
-Running job with commit: 15cb67f855ede2a0c80c24dd9e05420d8ba3060a
+Running job with commit: d776bdd1cb82f1b31e2407587f533962e721e6d9
 [nltk_data] Downloading package stopwords to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package stopwords is already up-to-date!
 [nltk_data] Downloading package wordnet to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package wordnet is already up-to-date!
-Job number: 1972
+Job number: 1973
 Dataset: commoncorpus
 Model: polylm-1.7b
 GPT Model: gpt-4o-mini-2024-07-18
@@ -22,9 +22,10 @@ Perturbation mode: rephrase
 Number of perturbations: 3
 You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
 Traceback (most recent call last):
-  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/tiktoken/load.py", line 11, in read_file
-    import blobfile
-ModuleNotFoundError: No module named 'blobfile'
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/tiktoken/load.py", line 154, in load_tiktoken_bpe
+    token, rank = line.split()
+    ^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
 
 The above exception was the direct cause of the following exception:
 
@@ -41,15 +42,9 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/convert_slow_tokenizer.py", line 1502, in extract_vocab_merges_from_model
     bpe_ranks = load_tiktoken_bpe(tiktoken_url)
                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/tiktoken/load.py", line 148, in load_tiktoken_bpe
-    contents = read_file_cached(tiktoken_bpe_file, expected_hash)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/tiktoken/load.py", line 63, in read_file_cached
-    contents = read_file(blobpath)
-               ^^^^^^^^^^^^^^^^^^^
-  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/tiktoken/load.py", line 13, in read_file
-    raise ImportError(
-ImportError: blobfile is not installed. Please install it by running `pip install blobfile`.
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/tiktoken/load.py", line 157, in load_tiktoken_bpe
+    raise ValueError(f"Error parsing line {line!r} in {tiktoken_bpe_file}") from e
+ValueError: Error parsing line b'\x0e' in /home/g/gruenefeld/.cache/huggingface/hub/models--DAMO-NLP-MT--polylm-1.7b/snapshots/2c7c26c6f4aee2115e6ef1397172317a037ab94b/tokenizer.model
 
 During handling of the above exception, another exception occurred:
 
@@ -78,8 +73,3 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/convert_slow_tokenizer.py", line 1638, in convert_slow_tokenizer
     raise ValueError(
 ValueError: Converting from Tiktoken failed, if a converter for SentencePiece is available, provide a model path with a SentencePiece tokenizer.model file.Currently available slow->fast convertors: ['AlbertTokenizer', 'BartTokenizer', 'BarthezTokenizer', 'BertTokenizer', 'BigBirdTokenizer', 'BlenderbotTokenizer', 'CamembertTokenizer', 'CLIPTokenizer', 'CodeGenTokenizer', 'ConvBertTokenizer', 'DebertaTokenizer', 'DebertaV2Tokenizer', 'DistilBertTokenizer', 'DPRReaderTokenizer', 'DPRQuestionEncoderTokenizer', 'DPRContextEncoderTokenizer', 'ElectraTokenizer', 'FNetTokenizer', 'FunnelTokenizer', 'GPT2Tokenizer', 'HerbertTokenizer', 'LayoutLMTokenizer', 'LayoutLMv2Tokenizer', 'LayoutLMv3Tokenizer', 'LayoutXLMTokenizer', 'LongformerTokenizer', 'LEDTokenizer', 'LxmertTokenizer', 'MarkupLMTokenizer', 'MBartTokenizer', 'MBart50Tokenizer', 'MPNetTokenizer', 'MobileBertTokenizer', 'MvpTokenizer', 'NllbTokenizer', 'OpenAIGPTTokenizer', 'PegasusTokenizer', 'Qwen2Tokenizer', 'RealmTokenizer', 'ReformerTokenizer', 'RemBertTokenizer', 'RetriBertTokenizer', 'RobertaTokenizer', 'RoFormerTokenizer', 'SeamlessM4TTokenizer', 'SqueezeBertTokenizer', 'T5Tokenizer', 'UdopTokenizer', 'WhisperTokenizer', 'XLMRobertaTokenizer', 'XLNetTokenizer', 'SplinterTokenizer', 'XGLMTokenizer', 'LlamaTokenizer', 'CodeLlamaTokenizer', 'GemmaTokenizer', 'Phi3Tokenizer']
-[main d776bdd] Multilingual Script Results for Run 1972 (Commit: 15cb67f)
- 5 files changed, 1149 insertions(+)
- create mode 100644 slurm-outputs/slurm.1972.abakus22.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   15cb67f..d776bdd  main -> main
