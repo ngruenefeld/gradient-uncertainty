@@ -55,3 +55,10 @@ Processing sample 10/10 (dataset index: 226)
 Processing sample 10 (dataset index 226) with language 'es'
 Sample 10 (dataset index 226) processed successfully with 3 rephrasings.
 Processing complete. Saved 7 successful results. Failed: 3
+[main 7afb56c] Multilingual Script Results for Run 1979 (Commit: 7869e03)
+ 7 files changed, 19237 insertions(+)
+ create mode 100644 data/test/multiling_results_1979_polylm-1.7b_4bit_rephrase_commoncorpus.pkl
+ create mode 100644 slurm-outputs/slurm.1978.abakus22.out
+ create mode 100644 slurm-outputs/slurm.1979.abakus22.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   7869e03..7afb56c  main -> main

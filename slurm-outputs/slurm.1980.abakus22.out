@@ -1,0 +1,30 @@
+slurmstepd-abakus22: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus22: error: Setting TMPDIR to /tmp
+Running job with commit: 2625a2ee74b4373b6941f34dd3921af71b97d94c
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 1980
+Dataset: commoncorpus
+Model: polylm-13b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 10
+Mode: test
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [04:31<13:35, 271.89s/it]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 8927.40 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--DAMO-NLP-MT--polylm-13b/blobs only has 8803.83 MB free disk space.
+  warnings.warn(
+Error while downloading from https://cdn-lfs.hf.co/repos/cb/62/cb62863cd6a91d24cf543eb0f2b3d6d7c9441bf1859ee3dfcd93bae08ec0dfec/350657500c0b18c5b3c6e2defcabd74aa5b2024915951ffe8d54a2bac927bda9?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model-00002-of-00004.bin%3B+filename%3D%22pytorch_model-00002-of-00004.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1746365023&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0NjM2NTAyM319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9yZXBvcy9jYi82Mi9jYjYyODYzY2Q2YTkxZDI0Y2Y1NDNlYjBmMmIzZDZkN2M5NDQxYmYxODU5ZWUzZGZjZDkzYmFlMDhlYzBkZmVjLzM1MDY1NzUwMGMwYjE4YzViM2M2ZTJkZWZjYWJkNzRhYTViMjAyNDkxNTk1MWZmZThkNTRhMmJhYzkyN2JkYTk%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qJnJlc3BvbnNlLWNvbnRlbnQtdHlwZT0qIn1dfQ__&Signature=jNXuRF9MVr-HzDEgz9a0eKCP8-UF3ZAqaCcz308NBlvQWKJrUeyTpyDXVajP7fvKYQtmO7RkrdbErV1sXLVLEgsfyRo2y0dExXUHGl8PH1i6aj5FwqpPQ1kenHP7pCe6Kq%7EdUG02Bbs1Z-YqfNnPycq-s3zEDocYswGKGGOFp41MOFWcdxUHYnLeSbSWnflwC7dRSAuFFs7ZfJJzqtPfHUJV9Y0UEF5rDINR5ffvRXq2KgokhzfSuY9YscVg6FZHtpBKdj-tLuxomU9L9mG3xl5NUw4dBwdNfySr5JEFA7AMQ8%7EiQftSStHP-XpVELK6D5d9SJpatcjW6N%7EjWdr%7Eew__&Key-Pair-Id=K3RPWS32NSSJCE: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Read timed out.
+Trying to resume download...
+Downloading shards:  50%|█████     | 2/4 [09:46<09:54, 297.14s/it]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 8927.40 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--DAMO-NLP-MT--polylm-13b/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+Downloading shards:  75%|███████▌  | 3/4 [14:34<04:52, 292.65s/it]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 4106.53 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--DAMO-NLP-MT--polylm-13b/blobs only has 0.00 MB free disk space.
+  warnings.warn(
