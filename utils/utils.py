@@ -476,6 +476,40 @@ def load_multilingual_datasets(choice="finenews"):
 
         return Dataset.from_dict(data)
 
+    elif choice == "mlsum":
+        languages = [
+            "de",
+            "es",
+            "fr",
+            "ru",
+            "tu",
+        ]
+
+        sample_size = 100
+
+        data = {
+            "text": [],
+            "language": [],
+        }
+
+        for lang in languages:
+            lang_dataset = load_dataset("reciTAL/mlsum", name=lang, streaming=True)[
+                "train"
+            ]
+            content_samples = []
+            count = 0
+
+            for example in lang_dataset:
+                if count >= sample_size:
+                    break
+                content_samples.append(example["text"])
+                count += 1
+
+            data["text"].extend(content_samples)
+            data["language"].extend([lang] * len(content_samples))
+
+        return Dataset.from_dict(data)
+
     elif choice == "vript":
         languages = {
             "english": "en",
@@ -514,6 +548,54 @@ def load_multilingual_datasets(choice="finenews"):
             cur_lang = languages[example["lang"]]
             if len(data[cur_lang]["text"]) < sample_size:
                 data[cur_lang]["text"].append(example["caption"]["content"])
+                data[cur_lang]["language"].append(cur_lang)
+                count += 1
+
+        full_data = {
+            "text": [],
+            "language": [],
+        }
+        for lang in data:
+            full_data["text"].extend(data[lang]["text"])
+            full_data["language"].extend(data[lang]["language"])
+
+        return Dataset.from_dict(full_data)
+
+    elif choice == "commoncorpus":
+        languages = {
+            "English": "en",
+            "German": "de",
+            "Spanish": "es",
+            "French": "fr",
+            "Italian": "it",
+            "Polish": "pl",
+        }
+
+        sample_size = 100
+        total_sample_size = len(languages) * sample_size
+
+        count = 0
+
+        dataset = load_dataset(
+            "PleIAs/common_corpus", split="train", streaming=True
+        )
+
+        data = {
+            languages[lang]: {
+                "text": [],
+                "language": [],
+            }
+            for lang in languages
+        }
+
+        for example in dataset:
+            if example["language"] not in languages:
+                continue
+            if count >= total_sample_size:
+                break
+            cur_lang = languages[example["language"]]
+            if len(data[cur_lang]["text"]) < sample_size:
+                data[cur_lang]["text"].append(example["text"])
                 data[cur_lang]["language"].append(cur_lang)
                 count += 1
 
