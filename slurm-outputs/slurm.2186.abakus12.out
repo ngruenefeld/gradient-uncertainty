@@ -2728,3 +2728,8 @@ Processing sample 900/900 (dataset index: 899)
 Processing sample 900 (dataset index 899) with language 'zh'
 Sample 900 (dataset index 899) processed successfully with 3 rephrasings.
 Processing complete. Saved 896 successful results. Failed: 4
+[main abfed98] Multilingual Script Results for Run 2186 (Commit: 186102e)
+ 4 files changed, 110 insertions(+)
+ create mode 100644 data/full/multiling_results_2186_polylm-1.7b_4bit_rephrase_finenews.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   ea81fa0..abfed98  main -> main
