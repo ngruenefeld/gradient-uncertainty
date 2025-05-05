@@ -1,0 +1,26 @@
+slurmstepd-abakus22: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus22: error: Setting TMPDIR to /tmp
+Running job with commit: e890f1a1408704d6662254557ed029f1a8f03129
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2204
+Dataset: commoncorpus
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Mode: full
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 1024
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Repo card metadata block was not found. Setting CardData to empty.
