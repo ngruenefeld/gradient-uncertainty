@@ -1020,3 +1020,19 @@ Processing sample 329 (dataset index 328) with language 'ru'
 Sample 329 (dataset index 328) processed successfully with 3 rephrasings.
 Processing sample 330/400 (dataset index: 329)
 Processing sample 330 (dataset index 329) with language 'ru'
+Sample 330 (dataset index 329) processed successfully with 3 rephrasings.
+Processing sample 331/400 (dataset index: 330)
+Processing sample 331 (dataset index 330) with language 'ru'
+Sample 331 (dataset index 330) processed successfully with 3 rephrasings.
+Processing sample 332/400 (dataset index: 331)
+Processing sample 332 (dataset index 331) with language 'ru'
+Sample 332 (dataset index 331) processed successfully with 3 rephrasings.
+Processing sample 333/400 (dataset index: 332)
+Processing sample 333 (dataset index 332) with language 'ru'
+Sample 333 (dataset index 332) processed successfully with 3 rephrasings.
+Processing sample 334/400 (dataset index: 333)
+Processing sample 334 (dataset index 333) with language 'ru'
+Sample 334 (dataset index 333) processed successfully with 3 rephrasings.
+Processing sample 335/400 (dataset index: 334)
+Processing sample 335 (dataset index 334) with language 'ru'
+slurmstepd-abakus22: error: *** JOB 2188 ON abakus22 CANCELLED AT 2025-05-05T09:23:07 ***
