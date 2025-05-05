@@ -1828,3 +1828,8 @@ Processing sample 600/600 (dataset index: 599)
 Processing sample 600 (dataset index 599) with language 'pl'
 Error processing sample 600 (dataset index 599): Language 'pl' is not supported. Supported languages are: ['en', 'de', 'es', 'fr', 'it', 'ko', 'pt', 'ru', 'zh']
 Processing complete. Saved 497 successful results. Failed: 103
+[main 670ec77] Multilingual Script Results for Run 2204 (Commit: e890f1a)
+ 2 files changed, 683 insertions(+)
+ create mode 100644 data/full/multiling_results_2204_llama-awq_rephrase_commoncorpus.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   1bfd080..670ec77  main -> main
