@@ -267,7 +267,12 @@ def main(args):
 
             if perturbation_mode == "rephrase":
                 # Get rephrasings
-                rephrasings_result = rephrase_text(completion, oai_client, gpt_model)
+                rephrasings_result = rephrase_text(
+                    completion,
+                    oai_client,
+                    gpt_model,
+                    number_of_rephrasings=number_of_perturbations,
+                )
                 if "error" in rephrasings_result:
                     print(
                         f"Error getting rephrasings for sample {current_sample} (dataset index {dataset_idx}): {rephrasings_result['error']}"

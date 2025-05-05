@@ -196,7 +196,11 @@ def main(args):
             if perturbation_mode == "rephrase":
                 # Get rephrasings
                 rephrasings_result = rephrase_text(
-                    article, oai_client, gpt_model, language=language
+                    article,
+                    oai_client,
+                    gpt_model,
+                    language=language,
+                    number_of_rephrasings=number_of_perturbations,
                 )
                 if "error" in rephrasings_result:
                     print(
