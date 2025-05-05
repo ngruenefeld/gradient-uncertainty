@@ -1224,3 +1224,8 @@ Processing sample 400/400 (dataset index: 399)
 Processing sample 400 (dataset index 399) with language 'ru'
 Error processing sample 400 (dataset index 399): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
 Processing complete, but no successful results to save. All 400 samples failed.
+[main 0263153] Multilingual Script Results for Run 2092 (Commit: efb96a8)
+ 5 files changed, 4808 insertions(+)
+ create mode 100644 slurm-outputs/slurm.2092.abakus22.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   efb96a8..0263153  main -> main
