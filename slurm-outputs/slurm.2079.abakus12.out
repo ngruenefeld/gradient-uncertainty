@@ -2551,3 +2551,8 @@ Processing sample 842/842 (dataset index: 841)
 Processing sample 842 (dataset index 841) with language 'zh'
 Error processing sample 842 (dataset index 841): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
 Processing complete. Saved 43 successful results. Failed: 799
+[main c4fbfd4] Multilingual Script Results for Run 2079 (Commit: 7d4622f)
+ 5 files changed, 1102 insertions(+)
+ create mode 100644 data/full/multiling_results_2079_polylm-1.7b_4bit_rephrase_vript.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   0263153..c4fbfd4  main -> main
