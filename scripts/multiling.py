@@ -30,6 +30,7 @@ def main(args):
     normalize = args.normalize
     perturbation_mode = args.perturbation_mode
     number_of_perturbations = args.number_of_perturbations
+    max_tokens = args.max_tokens
 
     mode = "full" if sample_size == 0 else "test" if sample_size < 100 else "sampled"
 
@@ -48,17 +49,14 @@ def main(args):
     print(f"Normalize: {normalize}")
     print(f"Perturbation mode: {perturbation_mode}")
     print(f"Number of perturbations: {number_of_perturbations}")
+    print(f"Max tokens: {max_tokens}")
 
     if model_name == "gpt2":
         model_path = "gpt2"
     elif model_name == "llama-awq":
         model_path = "TheBloke/Llama-2-7B-Chat-AWQ"
-    elif model_name == "llama-2-7b":
-        model_path = "meta-llama/Llama-2-7b-hf"
     elif model_name == "polylm-1.7b":
         model_path = "DAMO-NLP-MT/polylm-1.7b"
-    elif model_name == "polylm-13b":
-        model_path = "DAMO-NLP-MT/polylm-13b"
     else:
         raise ValueError(
             f"Model {model_name} not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b, phi4, deepseek-v3."
@@ -151,7 +149,7 @@ def main(args):
 
     total_samples = sample_size if sample_size > 0 else len(data_samples)
 
-    max_length = 1024 if model_name in ["polylm-1.7b", "llama-awq"] else None
+    max_length = max_tokens if max_tokens > 0 else None
 
     for dataset_idx, item in data_samples:
         current_sample = processed_count + failed_count + 1
@@ -424,6 +422,12 @@ if __name__ == "__main__":
         type=int,
         default=3,
         help="Number of perturbations to generate for each sample",
+    )
+    parser.add_argument(
+        "--max_tokens",
+        type=int,
+        default=0,
+        help="Maximum number of tokens for each sample",
     )
 
     args = parser.parse_args()

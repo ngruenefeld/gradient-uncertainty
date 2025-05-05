@@ -4,3 +4,5 @@ seaborn
 scipy
 numpy
 scikit-learn
+deep-translator
+nltk
