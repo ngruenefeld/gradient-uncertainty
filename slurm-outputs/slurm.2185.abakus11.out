@@ -1822,3 +1822,317 @@ Processing sample 598 (dataset index 597) with language 'pt'
 Sample 598 (dataset index 597) processed successfully with 3 rephrasings.
 Processing sample 599/842 (dataset index: 598)
 Processing sample 599 (dataset index 598) with language 'pt'
+Sample 599 (dataset index 598) processed successfully with 3 rephrasings.
+Processing sample 600/842 (dataset index: 599)
+Processing sample 600 (dataset index 599) with language 'pt'
+Sample 600 (dataset index 599) processed successfully with 3 rephrasings.
+Processing sample 601/842 (dataset index: 600)
+Processing sample 601 (dataset index 600) with language 'pt'
+Sample 601 (dataset index 600) processed successfully with 3 rephrasings.
+Processing sample 602/842 (dataset index: 601)
+Processing sample 602 (dataset index 601) with language 'pt'
+Sample 602 (dataset index 601) processed successfully with 3 rephrasings.
+Processing sample 603/842 (dataset index: 602)
+Processing sample 603 (dataset index 602) with language 'pt'
+Sample 603 (dataset index 602) processed successfully with 3 rephrasings.
+Processing sample 604/842 (dataset index: 603)
+Processing sample 604 (dataset index 603) with language 'pt'
+Sample 604 (dataset index 603) processed successfully with 3 rephrasings.
+Processing sample 605/842 (dataset index: 604)
+Processing sample 605 (dataset index 604) with language 'pt'
+Sample 605 (dataset index 604) processed successfully with 3 rephrasings.
+Processing sample 606/842 (dataset index: 605)
+Processing sample 606 (dataset index 605) with language 'pt'
+Sample 606 (dataset index 605) processed successfully with 3 rephrasings.
+Processing sample 607/842 (dataset index: 606)
+Processing sample 607 (dataset index 606) with language 'pt'
+Sample 607 (dataset index 606) processed successfully with 3 rephrasings.
+Processing sample 608/842 (dataset index: 607)
+Processing sample 608 (dataset index 607) with language 'pt'
+Sample 608 (dataset index 607) processed successfully with 3 rephrasings.
+Processing sample 609/842 (dataset index: 608)
+Processing sample 609 (dataset index 608) with language 'pt'
+Sample 609 (dataset index 608) processed successfully with 3 rephrasings.
+Processing sample 610/842 (dataset index: 609)
+Processing sample 610 (dataset index 609) with language 'pt'
+Sample 610 (dataset index 609) processed successfully with 3 rephrasings.
+Processing sample 611/842 (dataset index: 610)
+Processing sample 611 (dataset index 610) with language 'pt'
+Sample 611 (dataset index 610) processed successfully with 3 rephrasings.
+Processing sample 612/842 (dataset index: 611)
+Processing sample 612 (dataset index 611) with language 'pt'
+Sample 612 (dataset index 611) processed successfully with 3 rephrasings.
+Processing sample 613/842 (dataset index: 612)
+Processing sample 613 (dataset index 612) with language 'pt'
+Sample 613 (dataset index 612) processed successfully with 3 rephrasings.
+Processing sample 614/842 (dataset index: 613)
+Processing sample 614 (dataset index 613) with language 'pt'
+Sample 614 (dataset index 613) processed successfully with 3 rephrasings.
+Processing sample 615/842 (dataset index: 614)
+Processing sample 615 (dataset index 614) with language 'pt'
+Error in completion_gradient: cannot reshape tensor of 0 elements into shape [-1, 0] because the unspecified dimension size -1 can be any value and is ambiguous
+Error calculating gradient for rephrasing 1 in sample 615 (dataset index 614): cannot reshape tensor of 0 elements into shape [-1, 0] because the unspecified dimension size -1 can be any value and is ambiguous
+Processing sample 616/842 (dataset index: 615)
+Processing sample 616 (dataset index 615) with language 'pt'
+Sample 616 (dataset index 615) processed successfully with 3 rephrasings.
+Processing sample 617/842 (dataset index: 616)
+Processing sample 617 (dataset index 616) with language 'pt'
+Sample 617 (dataset index 616) processed successfully with 3 rephrasings.
+Processing sample 618/842 (dataset index: 617)
+Processing sample 618 (dataset index 617) with language 'pt'
+Sample 618 (dataset index 617) processed successfully with 3 rephrasings.
+Processing sample 619/842 (dataset index: 618)
+Processing sample 619 (dataset index 618) with language 'pt'
+Sample 619 (dataset index 618) processed successfully with 3 rephrasings.
+Processing sample 620/842 (dataset index: 619)
+Processing sample 620 (dataset index 619) with language 'pt'
+Sample 620 (dataset index 619) processed successfully with 3 rephrasings.
+Processing sample 621/842 (dataset index: 620)
+Processing sample 621 (dataset index 620) with language 'pt'
+Sample 621 (dataset index 620) processed successfully with 3 rephrasings.
+Processing sample 622/842 (dataset index: 621)
+Processing sample 622 (dataset index 621) with language 'pt'
+Sample 622 (dataset index 621) processed successfully with 3 rephrasings.
+Processing sample 623/842 (dataset index: 622)
+Processing sample 623 (dataset index 622) with language 'pt'
+Sample 623 (dataset index 622) processed successfully with 3 rephrasings.
+Processing sample 624/842 (dataset index: 623)
+Processing sample 624 (dataset index 623) with language 'pt'
+Sample 624 (dataset index 623) processed successfully with 3 rephrasings.
+Processing sample 625/842 (dataset index: 624)
+Processing sample 625 (dataset index 624) with language 'pt'
+Sample 625 (dataset index 624) processed successfully with 3 rephrasings.
+Processing sample 626/842 (dataset index: 625)
+Processing sample 626 (dataset index 625) with language 'pt'
+Error in completion_gradient: cannot reshape tensor of 0 elements into shape [-1, 0] because the unspecified dimension size -1 can be any value and is ambiguous
+Error calculating gradient for rephrasing 1 in sample 626 (dataset index 625): cannot reshape tensor of 0 elements into shape [-1, 0] because the unspecified dimension size -1 can be any value and is ambiguous
+Processing sample 627/842 (dataset index: 626)
+Processing sample 627 (dataset index 626) with language 'pt'
+Sample 627 (dataset index 626) processed successfully with 3 rephrasings.
+Processing sample 628/842 (dataset index: 627)
+Processing sample 628 (dataset index 627) with language 'pt'
+Sample 628 (dataset index 627) processed successfully with 3 rephrasings.
+Processing sample 629/842 (dataset index: 628)
+Processing sample 629 (dataset index 628) with language 'pt'
+Sample 629 (dataset index 628) processed successfully with 3 rephrasings.
+Processing sample 630/842 (dataset index: 629)
+Processing sample 630 (dataset index 629) with language 'pt'
+Sample 630 (dataset index 629) processed successfully with 3 rephrasings.
+Processing sample 631/842 (dataset index: 630)
+Processing sample 631 (dataset index 630) with language 'pt'
+Sample 631 (dataset index 630) processed successfully with 3 rephrasings.
+Processing sample 632/842 (dataset index: 631)
+Processing sample 632 (dataset index 631) with language 'pt'
+Sample 632 (dataset index 631) processed successfully with 3 rephrasings.
+Processing sample 633/842 (dataset index: 632)
+Processing sample 633 (dataset index 632) with language 'pt'
+Sample 633 (dataset index 632) processed successfully with 3 rephrasings.
+Processing sample 634/842 (dataset index: 633)
+Processing sample 634 (dataset index 633) with language 'pt'
+Sample 634 (dataset index 633) processed successfully with 3 rephrasings.
+Processing sample 635/842 (dataset index: 634)
+Processing sample 635 (dataset index 634) with language 'pt'
+Sample 635 (dataset index 634) processed successfully with 3 rephrasings.
+Processing sample 636/842 (dataset index: 635)
+Processing sample 636 (dataset index 635) with language 'pt'
+Sample 636 (dataset index 635) processed successfully with 3 rephrasings.
+Processing sample 637/842 (dataset index: 636)
+Processing sample 637 (dataset index 636) with language 'pt'
+Sample 637 (dataset index 636) processed successfully with 3 rephrasings.
+Processing sample 638/842 (dataset index: 637)
+Processing sample 638 (dataset index 637) with language 'pt'
+Sample 638 (dataset index 637) processed successfully with 3 rephrasings.
+Processing sample 639/842 (dataset index: 638)
+Processing sample 639 (dataset index 638) with language 'pt'
+Sample 639 (dataset index 638) processed successfully with 3 rephrasings.
+Processing sample 640/842 (dataset index: 639)
+Processing sample 640 (dataset index 639) with language 'pt'
+Sample 640 (dataset index 639) processed successfully with 3 rephrasings.
+Processing sample 641/842 (dataset index: 640)
+Processing sample 641 (dataset index 640) with language 'pt'
+Sample 641 (dataset index 640) processed successfully with 3 rephrasings.
+Processing sample 642/842 (dataset index: 641)
+Processing sample 642 (dataset index 641) with language 'pt'
+Sample 642 (dataset index 641) processed successfully with 3 rephrasings.
+Processing sample 643/842 (dataset index: 642)
+Processing sample 643 (dataset index 642) with language 'ru'
+Sample 643 (dataset index 642) processed successfully with 3 rephrasings.
+Processing sample 644/842 (dataset index: 643)
+Processing sample 644 (dataset index 643) with language 'ru'
+Sample 644 (dataset index 643) processed successfully with 3 rephrasings.
+Processing sample 645/842 (dataset index: 644)
+Processing sample 645 (dataset index 644) with language 'ru'
+Sample 645 (dataset index 644) processed successfully with 3 rephrasings.
+Processing sample 646/842 (dataset index: 645)
+Processing sample 646 (dataset index 645) with language 'ru'
+Sample 646 (dataset index 645) processed successfully with 3 rephrasings.
+Processing sample 647/842 (dataset index: 646)
+Processing sample 647 (dataset index 646) with language 'ru'
+Sample 647 (dataset index 646) processed successfully with 3 rephrasings.
+Processing sample 648/842 (dataset index: 647)
+Processing sample 648 (dataset index 647) with language 'ru'
+Sample 648 (dataset index 647) processed successfully with 3 rephrasings.
+Processing sample 649/842 (dataset index: 648)
+Processing sample 649 (dataset index 648) with language 'ru'
+Sample 649 (dataset index 648) processed successfully with 3 rephrasings.
+Processing sample 650/842 (dataset index: 649)
+Processing sample 650 (dataset index 649) with language 'ru'
+Sample 650 (dataset index 649) processed successfully with 3 rephrasings.
+Processing sample 651/842 (dataset index: 650)
+Processing sample 651 (dataset index 650) with language 'ru'
+Sample 651 (dataset index 650) processed successfully with 3 rephrasings.
+Processing sample 652/842 (dataset index: 651)
+Processing sample 652 (dataset index 651) with language 'ru'
+Sample 652 (dataset index 651) processed successfully with 3 rephrasings.
+Processing sample 653/842 (dataset index: 652)
+Processing sample 653 (dataset index 652) with language 'ru'
+Sample 653 (dataset index 652) processed successfully with 3 rephrasings.
+Processing sample 654/842 (dataset index: 653)
+Processing sample 654 (dataset index 653) with language 'ru'
+Sample 654 (dataset index 653) processed successfully with 3 rephrasings.
+Processing sample 655/842 (dataset index: 654)
+Processing sample 655 (dataset index 654) with language 'ru'
+Sample 655 (dataset index 654) processed successfully with 3 rephrasings.
+Processing sample 656/842 (dataset index: 655)
+Processing sample 656 (dataset index 655) with language 'ru'
+Sample 656 (dataset index 655) processed successfully with 3 rephrasings.
+Processing sample 657/842 (dataset index: 656)
+Processing sample 657 (dataset index 656) with language 'ru'
+Sample 657 (dataset index 656) processed successfully with 3 rephrasings.
+Processing sample 658/842 (dataset index: 657)
+Processing sample 658 (dataset index 657) with language 'ru'
+Sample 658 (dataset index 657) processed successfully with 3 rephrasings.
+Processing sample 659/842 (dataset index: 658)
+Processing sample 659 (dataset index 658) with language 'ru'
+Sample 659 (dataset index 658) processed successfully with 3 rephrasings.
+Processing sample 660/842 (dataset index: 659)
+Processing sample 660 (dataset index 659) with language 'ru'
+Sample 660 (dataset index 659) processed successfully with 3 rephrasings.
+Processing sample 661/842 (dataset index: 660)
+Processing sample 661 (dataset index 660) with language 'ru'
+Sample 661 (dataset index 660) processed successfully with 3 rephrasings.
+Processing sample 662/842 (dataset index: 661)
+Processing sample 662 (dataset index 661) with language 'ru'
+Sample 662 (dataset index 661) processed successfully with 3 rephrasings.
+Processing sample 663/842 (dataset index: 662)
+Processing sample 663 (dataset index 662) with language 'ru'
+Sample 663 (dataset index 662) processed successfully with 3 rephrasings.
+Processing sample 664/842 (dataset index: 663)
+Processing sample 664 (dataset index 663) with language 'ru'
+Sample 664 (dataset index 663) processed successfully with 3 rephrasings.
+Processing sample 665/842 (dataset index: 664)
+Processing sample 665 (dataset index 664) with language 'ru'
+Sample 665 (dataset index 664) processed successfully with 3 rephrasings.
+Processing sample 666/842 (dataset index: 665)
+Processing sample 666 (dataset index 665) with language 'ru'
+Sample 666 (dataset index 665) processed successfully with 3 rephrasings.
+Processing sample 667/842 (dataset index: 666)
+Processing sample 667 (dataset index 666) with language 'ru'
+Sample 667 (dataset index 666) processed successfully with 3 rephrasings.
+Processing sample 668/842 (dataset index: 667)
+Processing sample 668 (dataset index 667) with language 'ru'
+Sample 668 (dataset index 667) processed successfully with 3 rephrasings.
+Processing sample 669/842 (dataset index: 668)
+Processing sample 669 (dataset index 668) with language 'ru'
+Sample 669 (dataset index 668) processed successfully with 3 rephrasings.
+Processing sample 670/842 (dataset index: 669)
+Processing sample 670 (dataset index 669) with language 'ru'
+Sample 670 (dataset index 669) processed successfully with 3 rephrasings.
+Processing sample 671/842 (dataset index: 670)
+Processing sample 671 (dataset index 670) with language 'ru'
+Sample 671 (dataset index 670) processed successfully with 3 rephrasings.
+Processing sample 672/842 (dataset index: 671)
+Processing sample 672 (dataset index 671) with language 'ru'
+Sample 672 (dataset index 671) processed successfully with 3 rephrasings.
+Processing sample 673/842 (dataset index: 672)
+Processing sample 673 (dataset index 672) with language 'ru'
+Sample 673 (dataset index 672) processed successfully with 3 rephrasings.
+Processing sample 674/842 (dataset index: 673)
+Processing sample 674 (dataset index 673) with language 'ru'
+Sample 674 (dataset index 673) processed successfully with 3 rephrasings.
+Processing sample 675/842 (dataset index: 674)
+Processing sample 675 (dataset index 674) with language 'ru'
+Sample 675 (dataset index 674) processed successfully with 3 rephrasings.
+Processing sample 676/842 (dataset index: 675)
+Processing sample 676 (dataset index 675) with language 'ru'
+Sample 676 (dataset index 675) processed successfully with 3 rephrasings.
+Processing sample 677/842 (dataset index: 676)
+Processing sample 677 (dataset index 676) with language 'ru'
+Sample 677 (dataset index 676) processed successfully with 3 rephrasings.
+Processing sample 678/842 (dataset index: 677)
+Processing sample 678 (dataset index 677) with language 'ru'
+Sample 678 (dataset index 677) processed successfully with 3 rephrasings.
+Processing sample 679/842 (dataset index: 678)
+Processing sample 679 (dataset index 678) with language 'ru'
+Sample 679 (dataset index 678) processed successfully with 3 rephrasings.
+Processing sample 680/842 (dataset index: 679)
+Processing sample 680 (dataset index 679) with language 'ru'
+Sample 680 (dataset index 679) processed successfully with 3 rephrasings.
+Processing sample 681/842 (dataset index: 680)
+Processing sample 681 (dataset index 680) with language 'ru'
+Sample 681 (dataset index 680) processed successfully with 3 rephrasings.
+Processing sample 682/842 (dataset index: 681)
+Processing sample 682 (dataset index 681) with language 'ru'
+Sample 682 (dataset index 681) processed successfully with 3 rephrasings.
+Processing sample 683/842 (dataset index: 682)
+Processing sample 683 (dataset index 682) with language 'ru'
+Sample 683 (dataset index 682) processed successfully with 3 rephrasings.
+Processing sample 684/842 (dataset index: 683)
+Processing sample 684 (dataset index 683) with language 'ru'
+Sample 684 (dataset index 683) processed successfully with 3 rephrasings.
+Processing sample 685/842 (dataset index: 684)
+Processing sample 685 (dataset index 684) with language 'ru'
+Sample 685 (dataset index 684) processed successfully with 3 rephrasings.
+Processing sample 686/842 (dataset index: 685)
+Processing sample 686 (dataset index 685) with language 'ru'
+Sample 686 (dataset index 685) processed successfully with 3 rephrasings.
+Processing sample 687/842 (dataset index: 686)
+Processing sample 687 (dataset index 686) with language 'ru'
+Sample 687 (dataset index 686) processed successfully with 3 rephrasings.
+Processing sample 688/842 (dataset index: 687)
+Processing sample 688 (dataset index 687) with language 'ru'
+Sample 688 (dataset index 687) processed successfully with 3 rephrasings.
+Processing sample 689/842 (dataset index: 688)
+Processing sample 689 (dataset index 688) with language 'ru'
+Sample 689 (dataset index 688) processed successfully with 3 rephrasings.
+Processing sample 690/842 (dataset index: 689)
+Processing sample 690 (dataset index 689) with language 'ru'
+Sample 690 (dataset index 689) processed successfully with 3 rephrasings.
+Processing sample 691/842 (dataset index: 690)
+Processing sample 691 (dataset index 690) with language 'ru'
+Sample 691 (dataset index 690) processed successfully with 3 rephrasings.
+Processing sample 692/842 (dataset index: 691)
+Processing sample 692 (dataset index 691) with language 'ru'
+Sample 692 (dataset index 691) processed successfully with 3 rephrasings.
+Processing sample 693/842 (dataset index: 692)
+Processing sample 693 (dataset index 692) with language 'ru'
+Sample 693 (dataset index 692) processed successfully with 3 rephrasings.
+Processing sample 694/842 (dataset index: 693)
+Processing sample 694 (dataset index 693) with language 'ru'
+Sample 694 (dataset index 693) processed successfully with 3 rephrasings.
+Processing sample 695/842 (dataset index: 694)
+Processing sample 695 (dataset index 694) with language 'ru'
+Sample 695 (dataset index 694) processed successfully with 3 rephrasings.
+Processing sample 696/842 (dataset index: 695)
+Processing sample 696 (dataset index 695) with language 'ru'
+Sample 696 (dataset index 695) processed successfully with 3 rephrasings.
+Processing sample 697/842 (dataset index: 696)
+Processing sample 697 (dataset index 696) with language 'ru'
+Sample 697 (dataset index 696) processed successfully with 3 rephrasings.
+Processing sample 698/842 (dataset index: 697)
+Processing sample 698 (dataset index 697) with language 'ru'
+Sample 698 (dataset index 697) processed successfully with 3 rephrasings.
+Processing sample 699/842 (dataset index: 698)
+Processing sample 699 (dataset index 698) with language 'ru'
+Sample 699 (dataset index 698) processed successfully with 3 rephrasings.
+Processing sample 700/842 (dataset index: 699)
+Processing sample 700 (dataset index 699) with language 'ru'
+Sample 700 (dataset index 699) processed successfully with 3 rephrasings.
+Processing sample 701/842 (dataset index: 700)
+Processing sample 701 (dataset index 700) with language 'ru'
+Sample 701 (dataset index 700) processed successfully with 3 rephrasings.
+Processing sample 702/842 (dataset index: 701)
+Processing sample 702 (dataset index 701) with language 'ru'
+Sample 702 (dataset index 701) processed successfully with 3 rephrasings.
+Processing sample 703/842 (dataset index: 702)
+Processing sample 703 (dataset index 702) with language 'ru'
