@@ -2724,3 +2724,7 @@ Processing sample 900/900 (dataset index: 899)
 Processing sample 900 (dataset index 899) with language 'zh'
 Error processing sample 900 (dataset index 899): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
 Processing complete, but no successful results to save. All 900 samples failed.
+[main d77a0fb] Multilingual Script Results for Run 2080 (Commit: 1ef21c6)
+ 3 files changed, 952 insertions(+)
+To github.com:ngruenefeld/gradient-uncertainty.git
+   c4fbfd4..d77a0fb  main -> main
