@@ -3,11 +3,27 @@ import torch
 import gc
 import nltk
 import random
+import requests
 from nltk.corpus import stopwords, wordnet
+from deep_translator import GoogleTranslator
+from functools import lru_cache
 
 
 nltk.download("stopwords")
 nltk.download("wordnet")
+
+
+ISO_639_1_TO_3 = {
+    "en": "eng",
+    "de": None,
+    "es": "spa",
+    "fr": "fra",
+    "it": "ita",
+    "ko": None,
+    "pt": "por",
+    "ru": None,
+    "zh": "cmn",
+}
 
 
 def get_response(prompt, model, tokenizer, device):
@@ -376,23 +392,118 @@ def load_bert_datasets(choice="ag_news"):
         raise ValueError(f"Dataset {choice} not supported.")
 
 
-def get_synonym(word):
-    synonyms = []
-    for syn in wordnet.synsets(word):
-        for lemma in syn.lemmas():
-            if lemma.name() != word and "_" not in lemma.name():
-                synonyms.append(lemma.name())
+@lru_cache(maxsize=10000)
+def cached_translate(text, source, target):
+    if source == "zh":
+        source = "zh-CN"
+    if target == "zh":
+        target = "zh-CN"
+    return GoogleTranslator(source=source, target=target).translate(text)
 
-    if not synonyms:
-        return word
-    return random.choice(synonyms)
+
+def get_german_synonyms(word):
+    try:
+        url = "https://www.openthesaurus.de/synonyme/search"
+        params = {"q": word, "format": "application/json"}
+        response = requests.get(url, params=params)
+        data = response.json()
+        synonyms = set()
+        for synset in data.get("synsets", []):
+            for term in synset.get("terms", []):
+                if term["term"].lower() != word.lower():
+                    synonyms.add(term["term"])
+        return list(synonyms) if synonyms else None
+    except Exception as e:
+        print(f"Error fetching German synonyms: {e}")
+        return None
+
+
+def get_omw_synonyms(word, lang):
+    omw_lang = ISO_639_1_TO_3.get(lang)
+    if not omw_lang:
+        return None
+    try:
+        synsets = wordnet.synsets(word, lang=omw_lang)
+        synonyms = set()
+        for syn in synsets:
+            for lemma in syn.lemmas(lang=omw_lang):
+                synonym = lemma.name().replace("_", " ")
+                if synonym.lower() != word.lower():
+                    synonyms.add(synonym)
+        return list(synonyms) if synonyms else None
+    except:
+        return None
+
+
+def get_synonym(word, lang="en", tokenizer=None):
+    supported_languages = ["en", "de", "es", "fr", "it", "ko", "pt", "ru", "zh"]
+
+    if lang not in supported_languages:
+        raise ValueError(f"Unsupported language: {lang}")
+
+    try:
+        # Step 1: Try native synonym lookup
+        if lang == "de":
+            synonyms = get_german_synonyms(word)
+        else:
+            synonyms = get_omw_synonyms(word, lang)
+
+        # Step 2: If no native synonyms, fall back to English-based method
+        if not synonyms:
+            word_en = word if lang == "en" else cached_translate(word, lang, "en")
+            synsets = wordnet.synsets(word_en)
+            synonym_candidates = set()
+            for syn in synsets:
+                for lemma in syn.lemmas():
+                    synonym = lemma.name().replace("_", " ")
+                    if synonym.lower() != word_en.lower():
+                        synonym_candidates.add(synonym)
+
+            if not synonym_candidates:
+                return None
+
+            if tokenizer:
+                valid_synonyms = []
+                random.shuffle(list(synonym_candidates))
+                for syn in synonym_candidates:
+                    if lang == "en":
+                        if len(tokenizer.tokenize(syn)) == 1:
+                            valid_synonyms.append(syn)
+                    else:
+                        translated = cached_translate(syn, "en", lang)
+                        if len(tokenizer.tokenize(translated)) == 1:
+                            valid_synonyms.append(syn)
+                if not valid_synonyms:
+                    return None
+                chosen_syn = random.choice(valid_synonyms)
+            else:
+                chosen_syn = random.choice(list(synonym_candidates))
+
+            return (
+                chosen_syn if lang == "en" else cached_translate(chosen_syn, "en", lang)
+            )
+
+        # Step 3: If we do have native synonyms, filter if tokenizer provided
+        if tokenizer:
+            filtered = [s for s in synonyms if len(tokenizer.tokenize(s)) == 1]
+            if not filtered:
+                return None
+            return random.choice(filtered)
+
+        return random.choice(synonyms)
+
+    except Exception as e:
+        print(f"Error: {e}")
+        return None
 
 
 def token_to_word(token, tokenizer):
     return tokenizer.decode([token]).strip()
 
 
-def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=1):
+def replace_tokens_with_synonyms(
+    inputs, tokenizer, device, lang="en", replacement_prob=0.15
+):
     stop_words = set(stopwords.words("english"))
 
     input_ids = inputs["input_ids"].clone()
@@ -410,14 +521,17 @@ def replace_tokens_with_synonyms(inputs, tokenizer, device, replacement_prob=1):
                 ):
                     continue
 
-                synonym = get_synonym(word)
+                synonym = get_synonym(word, lang=lang, tokenizer=tokenizer)
+                if not synonym:
+                    synonym = word
 
                 synonym_tokens = tokenizer(
                     synonym, return_tensors="pt", add_special_tokens=False
                 ).to(device)
 
                 if synonym_tokens["input_ids"].shape[1] == 1:
-                    input_ids[i, j] = synonym_tokens["input_ids"][0, 0]
+                    if synonym_tokens["input_ids"][0, 0] != token_id:
+                        input_ids[i, j] = synonym_tokens["input_ids"][0, 0]
 
     return input_ids
 

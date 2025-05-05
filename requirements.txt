@@ -11,3 +11,5 @@ tiktoken
 protobuf
 blobfile
 sentencepiece
+deep-translator
+nltk
