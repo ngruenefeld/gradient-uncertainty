@@ -1,3 +1,789 @@
 slurmstepd-abakus21: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus21: error: Setting TMPDIR to /tmp
 Running job with commit: fee5e942ffe1b5ba87f7276e32c50d1c1725b75a
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2474
+Dataset: ag-pubmed
+Model: medical-llama
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 1000
+Mode: sampled
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.37s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.83s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.91s/it]
+Processing sample 1/1000 (dataset index: 7043)
+Processing sample 1 (dataset index 7043)
+Sample 1 (dataset index 7043) processed successfully with 3 rephrasings.
+Processing sample 2/1000 (dataset index: 13098)
+Processing sample 2 (dataset index 13098)
+Sample 2 (dataset index 13098) processed successfully with 3 rephrasings.
+Processing sample 3/1000 (dataset index: 624)
+Processing sample 3 (dataset index 624)
+Sample 3 (dataset index 624) processed successfully with 3 rephrasings.
+Processing sample 4/1000 (dataset index: 11457)
+Processing sample 4 (dataset index 11457)
+Sample 4 (dataset index 11457) processed successfully with 3 rephrasings.
+Processing sample 5/1000 (dataset index: 16509)
+Processing sample 5 (dataset index 16509)
+Sample 5 (dataset index 16509) processed successfully with 3 rephrasings.
+Processing sample 6/1000 (dataset index: 11352)
+Processing sample 6 (dataset index 11352)
+Sample 6 (dataset index 11352) processed successfully with 3 rephrasings.
+Processing sample 7/1000 (dataset index: 8993)
+Processing sample 7 (dataset index 8993)
+Sample 7 (dataset index 8993) processed successfully with 3 rephrasings.
+Processing sample 8/1000 (dataset index: 9356)
+Processing sample 8 (dataset index 9356)
+Sample 8 (dataset index 9356) processed successfully with 3 rephrasings.
+Processing sample 9/1000 (dataset index: 10077)
+Processing sample 9 (dataset index 10077)
+Sample 9 (dataset index 10077) processed successfully with 3 rephrasings.
+Processing sample 10/1000 (dataset index: 10001)
+Processing sample 10 (dataset index 10001)
+Sample 10 (dataset index 10001) processed successfully with 3 rephrasings.
+Processing sample 11/1000 (dataset index: 15353)
+Processing sample 11 (dataset index 15353)
+Sample 11 (dataset index 15353) processed successfully with 3 rephrasings.
+Processing sample 12/1000 (dataset index: 5690)
+Processing sample 12 (dataset index 5690)
+Sample 12 (dataset index 5690) processed successfully with 3 rephrasings.
+Processing sample 13/1000 (dataset index: 4176)
+Processing sample 13 (dataset index 4176)
+Sample 13 (dataset index 4176) processed successfully with 3 rephrasings.
+Processing sample 14/1000 (dataset index: 2851)
+Processing sample 14 (dataset index 2851)
+Sample 14 (dataset index 2851) processed successfully with 3 rephrasings.
+Processing sample 15/1000 (dataset index: 7022)
+Processing sample 15 (dataset index 7022)
+Sample 15 (dataset index 7022) processed successfully with 3 rephrasings.
+Processing sample 16/1000 (dataset index: 12670)
+Processing sample 16 (dataset index 12670)
+Sample 16 (dataset index 12670) processed successfully with 3 rephrasings.
+Processing sample 17/1000 (dataset index: 8688)
+Processing sample 17 (dataset index 8688)
+Sample 17 (dataset index 8688) processed successfully with 3 rephrasings.
+Processing sample 18/1000 (dataset index: 2919)
+Processing sample 18 (dataset index 2919)
+Sample 18 (dataset index 2919) processed successfully with 3 rephrasings.
+Processing sample 19/1000 (dataset index: 177)
+Processing sample 19 (dataset index 177)
+Sample 19 (dataset index 177) processed successfully with 3 rephrasings.
+Processing sample 20/1000 (dataset index: 3897)
+Processing sample 20 (dataset index 3897)
+Sample 20 (dataset index 3897) processed successfully with 3 rephrasings.
+Processing sample 21/1000 (dataset index: 14024)
+Processing sample 21 (dataset index 14024)
+Sample 21 (dataset index 14024) processed successfully with 3 rephrasings.
+Processing sample 22/1000 (dataset index: 9668)
+Processing sample 22 (dataset index 9668)
+Sample 22 (dataset index 9668) processed successfully with 3 rephrasings.
+Processing sample 23/1000 (dataset index: 5889)
+Processing sample 23 (dataset index 5889)
+Sample 23 (dataset index 5889) processed successfully with 3 rephrasings.
+Processing sample 24/1000 (dataset index: 13929)
+Processing sample 24 (dataset index 13929)
+Sample 24 (dataset index 13929) processed successfully with 3 rephrasings.
+Processing sample 25/1000 (dataset index: 1386)
+Processing sample 25 (dataset index 1386)
+Sample 25 (dataset index 1386) processed successfully with 3 rephrasings.
+Processing sample 26/1000 (dataset index: 8224)
+Processing sample 26 (dataset index 8224)
+Sample 26 (dataset index 8224) processed successfully with 3 rephrasings.
+Processing sample 27/1000 (dataset index: 8226)
+Processing sample 27 (dataset index 8226)
+Sample 27 (dataset index 8226) processed successfully with 3 rephrasings.
+Processing sample 28/1000 (dataset index: 14899)
+Processing sample 28 (dataset index 14899)
+Sample 28 (dataset index 14899) processed successfully with 3 rephrasings.
+Processing sample 29/1000 (dataset index: 8587)
+Processing sample 29 (dataset index 8587)
+Sample 29 (dataset index 8587) processed successfully with 3 rephrasings.
+Processing sample 30/1000 (dataset index: 2399)
+Processing sample 30 (dataset index 2399)
+Sample 30 (dataset index 2399) processed successfully with 3 rephrasings.
+Processing sample 31/1000 (dataset index: 9274)
+Processing sample 31 (dataset index 9274)
+Sample 31 (dataset index 9274) processed successfully with 3 rephrasings.
+Processing sample 32/1000 (dataset index: 9678)
+Processing sample 32 (dataset index 9678)
+Sample 32 (dataset index 9678) processed successfully with 3 rephrasings.
+Processing sample 33/1000 (dataset index: 3093)
+Processing sample 33 (dataset index 3093)
+Sample 33 (dataset index 3093) processed successfully with 3 rephrasings.
+Processing sample 34/1000 (dataset index: 9535)
+Processing sample 34 (dataset index 9535)
+Sample 34 (dataset index 9535) processed successfully with 3 rephrasings.
+Processing sample 35/1000 (dataset index: 12864)
+Processing sample 35 (dataset index 12864)
+Sample 35 (dataset index 12864) processed successfully with 3 rephrasings.
+Processing sample 36/1000 (dataset index: 15820)
+Processing sample 36 (dataset index 15820)
+Sample 36 (dataset index 15820) processed successfully with 3 rephrasings.
+Processing sample 37/1000 (dataset index: 4736)
+Processing sample 37 (dataset index 4736)
+Sample 37 (dataset index 4736) processed successfully with 3 rephrasings.
+Processing sample 38/1000 (dataset index: 7534)
+Processing sample 38 (dataset index 7534)
+Sample 38 (dataset index 7534) processed successfully with 3 rephrasings.
+Processing sample 39/1000 (dataset index: 9860)
+Processing sample 39 (dataset index 9860)
+Sample 39 (dataset index 9860) processed successfully with 3 rephrasings.
+Processing sample 40/1000 (dataset index: 604)
+Processing sample 40 (dataset index 604)
+Sample 40 (dataset index 604) processed successfully with 3 rephrasings.
+Processing sample 41/1000 (dataset index: 10074)
+Processing sample 41 (dataset index 10074)
+Sample 41 (dataset index 10074) processed successfully with 3 rephrasings.
+Processing sample 42/1000 (dataset index: 5768)
+Processing sample 42 (dataset index 5768)
+Sample 42 (dataset index 5768) processed successfully with 3 rephrasings.
+Processing sample 43/1000 (dataset index: 645)
+Processing sample 43 (dataset index 645)
+Sample 43 (dataset index 645) processed successfully with 3 rephrasings.
+Processing sample 44/1000 (dataset index: 4072)
+Processing sample 44 (dataset index 4072)
+Sample 44 (dataset index 4072) processed successfully with 3 rephrasings.
+Processing sample 45/1000 (dataset index: 7647)
+Processing sample 45 (dataset index 7647)
+Sample 45 (dataset index 7647) processed successfully with 3 rephrasings.
+Processing sample 46/1000 (dataset index: 7478)
+Processing sample 46 (dataset index 7478)
+Sample 46 (dataset index 7478) processed successfully with 3 rephrasings.
+Processing sample 47/1000 (dataset index: 12692)
+Processing sample 47 (dataset index 12692)
+Sample 47 (dataset index 12692) processed successfully with 3 rephrasings.
+Processing sample 48/1000 (dataset index: 16554)
+Processing sample 48 (dataset index 16554)
+Sample 48 (dataset index 16554) processed successfully with 3 rephrasings.
+Processing sample 49/1000 (dataset index: 2138)
+Processing sample 49 (dataset index 2138)
+Sample 49 (dataset index 2138) processed successfully with 3 rephrasings.
+Processing sample 50/1000 (dataset index: 15311)
+Processing sample 50 (dataset index 15311)
+Sample 50 (dataset index 15311) processed successfully with 3 rephrasings.
+Processing sample 51/1000 (dataset index: 14487)
+Processing sample 51 (dataset index 14487)
+Sample 51 (dataset index 14487) processed successfully with 3 rephrasings.
+Processing sample 52/1000 (dataset index: 4576)
+Processing sample 52 (dataset index 4576)
+Sample 52 (dataset index 4576) processed successfully with 3 rephrasings.
+Processing sample 53/1000 (dataset index: 1966)
+Processing sample 53 (dataset index 1966)
+Sample 53 (dataset index 1966) processed successfully with 3 rephrasings.
+Processing sample 54/1000 (dataset index: 6432)
+Processing sample 54 (dataset index 6432)
+Sample 54 (dataset index 6432) processed successfully with 3 rephrasings.
+Processing sample 55/1000 (dataset index: 15219)
+Processing sample 55 (dataset index 15219)
+Sample 55 (dataset index 15219) processed successfully with 3 rephrasings.
+Processing sample 56/1000 (dataset index: 8388)
+Processing sample 56 (dataset index 8388)
+Sample 56 (dataset index 8388) processed successfully with 3 rephrasings.
+Processing sample 57/1000 (dataset index: 7816)
+Processing sample 57 (dataset index 7816)
+Sample 57 (dataset index 7816) processed successfully with 11 rephrasings.
+Processing sample 58/1000 (dataset index: 2479)
+Processing sample 58 (dataset index 2479)
+Sample 58 (dataset index 2479) processed successfully with 3 rephrasings.
+Processing sample 59/1000 (dataset index: 3911)
+Processing sample 59 (dataset index 3911)
+Sample 59 (dataset index 3911) processed successfully with 3 rephrasings.
+Processing sample 60/1000 (dataset index: 10861)
+Processing sample 60 (dataset index 10861)
+Sample 60 (dataset index 10861) processed successfully with 1 rephrasings.
+Processing sample 61/1000 (dataset index: 11507)
+Processing sample 61 (dataset index 11507)
+Sample 61 (dataset index 11507) processed successfully with 3 rephrasings.
+Processing sample 62/1000 (dataset index: 10655)
+Processing sample 62 (dataset index 10655)
+Sample 62 (dataset index 10655) processed successfully with 3 rephrasings.
+Processing sample 63/1000 (dataset index: 14697)
+Processing sample 63 (dataset index 14697)
+Sample 63 (dataset index 14697) processed successfully with 6 rephrasings.
+Processing sample 64/1000 (dataset index: 9231)
+Processing sample 64 (dataset index 9231)
+Sample 64 (dataset index 9231) processed successfully with 3 rephrasings.
+Processing sample 65/1000 (dataset index: 7321)
+Processing sample 65 (dataset index 7321)
+Sample 65 (dataset index 7321) processed successfully with 3 rephrasings.
+Processing sample 66/1000 (dataset index: 14926)
+Processing sample 66 (dataset index 14926)
+Sample 66 (dataset index 14926) processed successfully with 3 rephrasings.
+Processing sample 67/1000 (dataset index: 369)
+Processing sample 67 (dataset index 369)
+Sample 67 (dataset index 369) processed successfully with 3 rephrasings.
+Processing sample 68/1000 (dataset index: 4493)
+Processing sample 68 (dataset index 4493)
+Sample 68 (dataset index 4493) processed successfully with 3 rephrasings.
+Processing sample 69/1000 (dataset index: 14364)
+Processing sample 69 (dataset index 14364)
+Sample 69 (dataset index 14364) processed successfully with 3 rephrasings.
+Processing sample 70/1000 (dataset index: 7620)
+Processing sample 70 (dataset index 7620)
+Sample 70 (dataset index 7620) processed successfully with 3 rephrasings.
+Processing sample 71/1000 (dataset index: 13683)
+Processing sample 71 (dataset index 13683)
+JSONDecodeError: Expecting ',' delimiter: line 23332 column 1 (char 51026)
+Error getting rephrasings for sample 71 (dataset index 13683): Invalid JSON response from API
+Processing sample 72/1000 (dataset index: 12712)
+Processing sample 72 (dataset index 12712)
+Sample 72 (dataset index 12712) processed successfully with 3 rephrasings.
+Processing sample 73/1000 (dataset index: 15011)
+Processing sample 73 (dataset index 15011)
+Sample 73 (dataset index 15011) processed successfully with 3 rephrasings.
+Processing sample 74/1000 (dataset index: 14269)
+Processing sample 74 (dataset index 14269)
+Sample 74 (dataset index 14269) processed successfully with 3 rephrasings.
+Processing sample 75/1000 (dataset index: 17249)
+Processing sample 75 (dataset index 17249)
+Sample 75 (dataset index 17249) processed successfully with 3 rephrasings.
+Processing sample 76/1000 (dataset index: 13421)
+Processing sample 76 (dataset index 13421)
+Sample 76 (dataset index 13421) processed successfully with 3 rephrasings.
+Processing sample 77/1000 (dataset index: 7076)
+Processing sample 77 (dataset index 7076)
+Sample 77 (dataset index 7076) processed successfully with 3 rephrasings.
+Processing sample 78/1000 (dataset index: 6251)
+Processing sample 78 (dataset index 6251)
+Sample 78 (dataset index 6251) processed successfully with 3 rephrasings.
+Processing sample 79/1000 (dataset index: 1066)
+Processing sample 79 (dataset index 1066)
+Sample 79 (dataset index 1066) processed successfully with 3 rephrasings.
+Processing sample 80/1000 (dataset index: 6386)
+Processing sample 80 (dataset index 6386)
+Sample 80 (dataset index 6386) processed successfully with 3 rephrasings.
+Processing sample 81/1000 (dataset index: 3719)
+Processing sample 81 (dataset index 3719)
+Sample 81 (dataset index 3719) processed successfully with 3 rephrasings.
+Processing sample 82/1000 (dataset index: 6394)
+Processing sample 82 (dataset index 6394)
+Sample 82 (dataset index 6394) processed successfully with 3 rephrasings.
+Processing sample 83/1000 (dataset index: 2533)
+Processing sample 83 (dataset index 2533)
+Sample 83 (dataset index 2533) processed successfully with 3 rephrasings.
+Processing sample 84/1000 (dataset index: 6986)
+Processing sample 84 (dataset index 6986)
+Sample 84 (dataset index 6986) processed successfully with 3 rephrasings.
+Processing sample 85/1000 (dataset index: 10840)
+Processing sample 85 (dataset index 10840)
+Sample 85 (dataset index 10840) processed successfully with 3 rephrasings.
+Processing sample 86/1000 (dataset index: 4804)
+Processing sample 86 (dataset index 4804)
+Sample 86 (dataset index 4804) processed successfully with 3 rephrasings.
+Processing sample 87/1000 (dataset index: 11667)
+Processing sample 87 (dataset index 11667)
+Sample 87 (dataset index 11667) processed successfully with 3 rephrasings.
+Processing sample 88/1000 (dataset index: 5920)
+Processing sample 88 (dataset index 5920)
+Sample 88 (dataset index 5920) processed successfully with 3 rephrasings.
+Processing sample 89/1000 (dataset index: 8253)
+Processing sample 89 (dataset index 8253)
+Sample 89 (dataset index 8253) processed successfully with 3 rephrasings.
+Processing sample 90/1000 (dataset index: 14391)
+Processing sample 90 (dataset index 14391)
+Sample 90 (dataset index 14391) processed successfully with 3 rephrasings.
+Processing sample 91/1000 (dataset index: 11198)
+Processing sample 91 (dataset index 11198)
+Sample 91 (dataset index 11198) processed successfully with 3 rephrasings.
+Processing sample 92/1000 (dataset index: 15716)
+Processing sample 92 (dataset index 15716)
+Sample 92 (dataset index 15716) processed successfully with 3 rephrasings.
+Processing sample 93/1000 (dataset index: 2722)
+Processing sample 93 (dataset index 2722)
+Sample 93 (dataset index 2722) processed successfully with 3 rephrasings.
+Processing sample 94/1000 (dataset index: 12845)
+Processing sample 94 (dataset index 12845)
+Sample 94 (dataset index 12845) processed successfully with 3 rephrasings.
+Processing sample 95/1000 (dataset index: 2329)
+Processing sample 95 (dataset index 2329)
+Sample 95 (dataset index 2329) processed successfully with 3 rephrasings.
+Processing sample 96/1000 (dataset index: 15492)
+Processing sample 96 (dataset index 15492)
+Sample 96 (dataset index 15492) processed successfully with 3 rephrasings.
+Processing sample 97/1000 (dataset index: 8833)
+Processing sample 97 (dataset index 8833)
+Sample 97 (dataset index 8833) processed successfully with 3 rephrasings.
+Processing sample 98/1000 (dataset index: 15916)
+Processing sample 98 (dataset index 15916)
+Sample 98 (dataset index 15916) processed successfully with 3 rephrasings.
+Processing sample 99/1000 (dataset index: 17)
+Processing sample 99 (dataset index 17)
+Sample 99 (dataset index 17) processed successfully with 3 rephrasings.
+Processing sample 100/1000 (dataset index: 13909)
+Processing sample 100 (dataset index 13909)
+Sample 100 (dataset index 13909) processed successfully with 3 rephrasings.
+Processing sample 101/1000 (dataset index: 17488)
+Processing sample 101 (dataset index 17488)
+Sample 101 (dataset index 17488) processed successfully with 3 rephrasings.
+Processing sample 102/1000 (dataset index: 1039)
+Processing sample 102 (dataset index 1039)
+Sample 102 (dataset index 1039) processed successfully with 3 rephrasings.
+Processing sample 103/1000 (dataset index: 6647)
+Processing sample 103 (dataset index 6647)
+Sample 103 (dataset index 6647) processed successfully with 3 rephrasings.
+Processing sample 104/1000 (dataset index: 2705)
+Processing sample 104 (dataset index 2705)
+Sample 104 (dataset index 2705) processed successfully with 3 rephrasings.
+Processing sample 105/1000 (dataset index: 10381)
+Processing sample 105 (dataset index 10381)
+Sample 105 (dataset index 10381) processed successfully with 3 rephrasings.
+Processing sample 106/1000 (dataset index: 14227)
+Processing sample 106 (dataset index 14227)
+Sample 106 (dataset index 14227) processed successfully with 3 rephrasings.
+Processing sample 107/1000 (dataset index: 7610)
+Processing sample 107 (dataset index 7610)
+Sample 107 (dataset index 7610) processed successfully with 3 rephrasings.
+Processing sample 108/1000 (dataset index: 11449)
+Processing sample 108 (dataset index 11449)
+Sample 108 (dataset index 11449) processed successfully with 3 rephrasings.
+Processing sample 109/1000 (dataset index: 13224)
+Processing sample 109 (dataset index 13224)
+Sample 109 (dataset index 13224) processed successfully with 3 rephrasings.
+Processing sample 110/1000 (dataset index: 4245)
+Processing sample 110 (dataset index 4245)
+Sample 110 (dataset index 4245) processed successfully with 3 rephrasings.
+Processing sample 111/1000 (dataset index: 13884)
+Processing sample 111 (dataset index 13884)
+Sample 111 (dataset index 13884) processed successfully with 3 rephrasings.
+Processing sample 112/1000 (dataset index: 8751)
+Processing sample 112 (dataset index 8751)
+Sample 112 (dataset index 8751) processed successfully with 3 rephrasings.
+Processing sample 113/1000 (dataset index: 2395)
+Processing sample 113 (dataset index 2395)
+Sample 113 (dataset index 2395) processed successfully with 3 rephrasings.
+Processing sample 114/1000 (dataset index: 2567)
+Processing sample 114 (dataset index 2567)
+JSONDecodeError: Expecting ',' delimiter: line 23410 column 1 (char 52258)
+Error getting rephrasings for sample 114 (dataset index 2567): Invalid JSON response from API
+Processing sample 115/1000 (dataset index: 16242)
+Processing sample 115 (dataset index 16242)
+Sample 115 (dataset index 16242) processed successfully with 3 rephrasings.
+Processing sample 116/1000 (dataset index: 15322)
+Processing sample 116 (dataset index 15322)
+Sample 116 (dataset index 15322) processed successfully with 3 rephrasings.
+Processing sample 117/1000 (dataset index: 15591)
+Processing sample 117 (dataset index 15591)
+Sample 117 (dataset index 15591) processed successfully with 3 rephrasings.
+Processing sample 118/1000 (dataset index: 1858)
+Processing sample 118 (dataset index 1858)
+Sample 118 (dataset index 1858) processed successfully with 3 rephrasings.
+Processing sample 119/1000 (dataset index: 13064)
+Processing sample 119 (dataset index 13064)
+Sample 119 (dataset index 13064) processed successfully with 3 rephrasings.
+Processing sample 120/1000 (dataset index: 3493)
+Processing sample 120 (dataset index 3493)
+Sample 120 (dataset index 3493) processed successfully with 3 rephrasings.
+Processing sample 121/1000 (dataset index: 6655)
+Processing sample 121 (dataset index 6655)
+Sample 121 (dataset index 6655) processed successfully with 3 rephrasings.
+Processing sample 122/1000 (dataset index: 9932)
+Processing sample 122 (dataset index 9932)
+Sample 122 (dataset index 9932) processed successfully with 3 rephrasings.
+Processing sample 123/1000 (dataset index: 9055)
+Processing sample 123 (dataset index 9055)
+Sample 123 (dataset index 9055) processed successfully with 3 rephrasings.
+Processing sample 124/1000 (dataset index: 10543)
+Processing sample 124 (dataset index 10543)
+Sample 124 (dataset index 10543) processed successfully with 3 rephrasings.
+Processing sample 125/1000 (dataset index: 17261)
+Processing sample 125 (dataset index 17261)
+Sample 125 (dataset index 17261) processed successfully with 3 rephrasings.
+Processing sample 126/1000 (dataset index: 10913)
+Processing sample 126 (dataset index 10913)
+Sample 126 (dataset index 10913) processed successfully with 3 rephrasings.
+Processing sample 127/1000 (dataset index: 16308)
+Processing sample 127 (dataset index 16308)
+Sample 127 (dataset index 16308) processed successfully with 3 rephrasings.
+Processing sample 128/1000 (dataset index: 5275)
+Processing sample 128 (dataset index 5275)
+Sample 128 (dataset index 5275) processed successfully with 3 rephrasings.
+Processing sample 129/1000 (dataset index: 4000)
+Processing sample 129 (dataset index 4000)
+Sample 129 (dataset index 4000) processed successfully with 3 rephrasings.
+Processing sample 130/1000 (dataset index: 13406)
+Processing sample 130 (dataset index 13406)
+Sample 130 (dataset index 13406) processed successfully with 3 rephrasings.
+Processing sample 131/1000 (dataset index: 1933)
+Processing sample 131 (dataset index 1933)
+Sample 131 (dataset index 1933) processed successfully with 3 rephrasings.
+Processing sample 132/1000 (dataset index: 16876)
+Processing sample 132 (dataset index 16876)
+Sample 132 (dataset index 16876) processed successfully with 3 rephrasings.
+Processing sample 133/1000 (dataset index: 14957)
+Processing sample 133 (dataset index 14957)
+Sample 133 (dataset index 14957) processed successfully with 3 rephrasings.
+Processing sample 134/1000 (dataset index: 1162)
+Processing sample 134 (dataset index 1162)
+Sample 134 (dataset index 1162) processed successfully with 3 rephrasings.
+Processing sample 135/1000 (dataset index: 4945)
+Processing sample 135 (dataset index 4945)
+Sample 135 (dataset index 4945) processed successfully with 3 rephrasings.
+Processing sample 136/1000 (dataset index: 3247)
+Processing sample 136 (dataset index 3247)
+Sample 136 (dataset index 3247) processed successfully with 3 rephrasings.
+Processing sample 137/1000 (dataset index: 10311)
+Processing sample 137 (dataset index 10311)
+Sample 137 (dataset index 10311) processed successfully with 3 rephrasings.
+Processing sample 138/1000 (dataset index: 12818)
+Processing sample 138 (dataset index 12818)
+Sample 138 (dataset index 12818) processed successfully with 3 rephrasings.
+Processing sample 139/1000 (dataset index: 3970)
+Processing sample 139 (dataset index 3970)
+Sample 139 (dataset index 3970) processed successfully with 3 rephrasings.
+Processing sample 140/1000 (dataset index: 7991)
+Processing sample 140 (dataset index 7991)
+Sample 140 (dataset index 7991) processed successfully with 3 rephrasings.
+Processing sample 141/1000 (dataset index: 16879)
+Processing sample 141 (dataset index 16879)
+Sample 141 (dataset index 16879) processed successfully with 3 rephrasings.
+Processing sample 142/1000 (dataset index: 2326)
+Processing sample 142 (dataset index 2326)
+Sample 142 (dataset index 2326) processed successfully with 3 rephrasings.
+Processing sample 143/1000 (dataset index: 733)
+Processing sample 143 (dataset index 733)
+Sample 143 (dataset index 733) processed successfully with 3 rephrasings.
+Processing sample 144/1000 (dataset index: 6349)
+Processing sample 144 (dataset index 6349)
+Sample 144 (dataset index 6349) processed successfully with 3 rephrasings.
+Processing sample 145/1000 (dataset index: 9705)
+Processing sample 145 (dataset index 9705)
+Sample 145 (dataset index 9705) processed successfully with 3 rephrasings.
+Processing sample 146/1000 (dataset index: 17362)
+Processing sample 146 (dataset index 17362)
+Sample 146 (dataset index 17362) processed successfully with 3 rephrasings.
+Processing sample 147/1000 (dataset index: 9733)
+Processing sample 147 (dataset index 9733)
+Sample 147 (dataset index 9733) processed successfully with 3 rephrasings.
+Processing sample 148/1000 (dataset index: 2093)
+Processing sample 148 (dataset index 2093)
+Sample 148 (dataset index 2093) processed successfully with 3 rephrasings.
+Processing sample 149/1000 (dataset index: 7810)
+Processing sample 149 (dataset index 7810)
+Sample 149 (dataset index 7810) processed successfully with 3 rephrasings.
+Processing sample 150/1000 (dataset index: 769)
+Processing sample 150 (dataset index 769)
+Sample 150 (dataset index 769) processed successfully with 3 rephrasings.
+Processing sample 151/1000 (dataset index: 16470)
+Processing sample 151 (dataset index 16470)
+Sample 151 (dataset index 16470) processed successfully with 3 rephrasings.
+Processing sample 152/1000 (dataset index: 9392)
+Processing sample 152 (dataset index 9392)
+Sample 152 (dataset index 9392) processed successfully with 3 rephrasings.
+Processing sample 153/1000 (dataset index: 9781)
+Processing sample 153 (dataset index 9781)
+Sample 153 (dataset index 9781) processed successfully with 2 rephrasings.
+Processing sample 154/1000 (dataset index: 3508)
+Processing sample 154 (dataset index 3508)
+Sample 154 (dataset index 3508) processed successfully with 3 rephrasings.
+Processing sample 155/1000 (dataset index: 11256)
+Processing sample 155 (dataset index 11256)
+Sample 155 (dataset index 11256) processed successfully with 3 rephrasings.
+Processing sample 156/1000 (dataset index: 3291)
+Processing sample 156 (dataset index 3291)
+Sample 156 (dataset index 3291) processed successfully with 3 rephrasings.
+Processing sample 157/1000 (dataset index: 11506)
+Processing sample 157 (dataset index 11506)
+Sample 157 (dataset index 11506) processed successfully with 3 rephrasings.
+Processing sample 158/1000 (dataset index: 16935)
+Processing sample 158 (dataset index 16935)
+Sample 158 (dataset index 16935) processed successfully with 3 rephrasings.
+Processing sample 159/1000 (dataset index: 7243)
+Processing sample 159 (dataset index 7243)
+Sample 159 (dataset index 7243) processed successfully with 3 rephrasings.
+Processing sample 160/1000 (dataset index: 10032)
+Processing sample 160 (dataset index 10032)
+Sample 160 (dataset index 10032) processed successfully with 3 rephrasings.
+Processing sample 161/1000 (dataset index: 13164)
+Processing sample 161 (dataset index 13164)
+Sample 161 (dataset index 13164) processed successfully with 3 rephrasings.
+Processing sample 162/1000 (dataset index: 2759)
+Processing sample 162 (dataset index 2759)
+Sample 162 (dataset index 2759) processed successfully with 3 rephrasings.
+Processing sample 163/1000 (dataset index: 15593)
+Processing sample 163 (dataset index 15593)
+Sample 163 (dataset index 15593) processed successfully with 1 rephrasings.
+Processing sample 164/1000 (dataset index: 8357)
+Processing sample 164 (dataset index 8357)
+Sample 164 (dataset index 8357) processed successfully with 3 rephrasings.
+Processing sample 165/1000 (dataset index: 15884)
+Processing sample 165 (dataset index 15884)
+Sample 165 (dataset index 15884) processed successfully with 3 rephrasings.
+Processing sample 166/1000 (dataset index: 1655)
+Processing sample 166 (dataset index 1655)
+Sample 166 (dataset index 1655) processed successfully with 3 rephrasings.
+Processing sample 167/1000 (dataset index: 16838)
+Processing sample 167 (dataset index 16838)
+Sample 167 (dataset index 16838) processed successfully with 3 rephrasings.
+Processing sample 168/1000 (dataset index: 5016)
+Processing sample 168 (dataset index 5016)
+Sample 168 (dataset index 5016) processed successfully with 3 rephrasings.
+Processing sample 169/1000 (dataset index: 686)
+Processing sample 169 (dataset index 686)
+Sample 169 (dataset index 686) processed successfully with 12 rephrasings.
+Processing sample 170/1000 (dataset index: 3251)
+Processing sample 170 (dataset index 3251)
+Sample 170 (dataset index 3251) processed successfully with 3 rephrasings.
+Processing sample 171/1000 (dataset index: 15330)
+Processing sample 171 (dataset index 15330)
+Sample 171 (dataset index 15330) processed successfully with 3 rephrasings.
+Processing sample 172/1000 (dataset index: 10540)
+Processing sample 172 (dataset index 10540)
+Sample 172 (dataset index 10540) processed successfully with 3 rephrasings.
+Processing sample 173/1000 (dataset index: 6231)
+Processing sample 173 (dataset index 6231)
+Sample 173 (dataset index 6231) processed successfully with 3 rephrasings.
+Processing sample 174/1000 (dataset index: 5809)
+Processing sample 174 (dataset index 5809)
+Sample 174 (dataset index 5809) processed successfully with 3 rephrasings.
+Processing sample 175/1000 (dataset index: 8260)
+Processing sample 175 (dataset index 8260)
+JSONDecodeError: Expecting ',' delimiter: line 24076 column 1 (char 54820)
+Error getting rephrasings for sample 175 (dataset index 8260): Invalid JSON response from API
+Processing sample 176/1000 (dataset index: 12963)
+Processing sample 176 (dataset index 12963)
+Sample 176 (dataset index 12963) processed successfully with 3 rephrasings.
+Processing sample 177/1000 (dataset index: 8977)
+Processing sample 177 (dataset index 8977)
+Sample 177 (dataset index 8977) processed successfully with 3 rephrasings.
+Processing sample 178/1000 (dataset index: 13422)
+Processing sample 178 (dataset index 13422)
+Sample 178 (dataset index 13422) processed successfully with 3 rephrasings.
+Processing sample 179/1000 (dataset index: 5527)
+Processing sample 179 (dataset index 5527)
+Sample 179 (dataset index 5527) processed successfully with 3 rephrasings.
+Processing sample 180/1000 (dataset index: 17070)
+Processing sample 180 (dataset index 17070)
+Sample 180 (dataset index 17070) processed successfully with 3 rephrasings.
+Processing sample 181/1000 (dataset index: 15253)
+Processing sample 181 (dataset index 15253)
+Sample 181 (dataset index 15253) processed successfully with 3 rephrasings.
+Processing sample 182/1000 (dataset index: 17579)
+Processing sample 182 (dataset index 17579)
+Sample 182 (dataset index 17579) processed successfully with 3 rephrasings.
+Processing sample 183/1000 (dataset index: 12072)
+Processing sample 183 (dataset index 12072)
+Sample 183 (dataset index 12072) processed successfully with 3 rephrasings.
+Processing sample 184/1000 (dataset index: 12038)
+Processing sample 184 (dataset index 12038)
+Sample 184 (dataset index 12038) processed successfully with 3 rephrasings.
+Processing sample 185/1000 (dataset index: 11057)
+Processing sample 185 (dataset index 11057)
+Sample 185 (dataset index 11057) processed successfully with 3 rephrasings.
+Processing sample 186/1000 (dataset index: 4943)
+Processing sample 186 (dataset index 4943)
+Sample 186 (dataset index 4943) processed successfully with 3 rephrasings.
+Processing sample 187/1000 (dataset index: 13771)
+Processing sample 187 (dataset index 13771)
+Sample 187 (dataset index 13771) processed successfully with 3 rephrasings.
+Processing sample 188/1000 (dataset index: 7192)
+Processing sample 188 (dataset index 7192)
+Sample 188 (dataset index 7192) processed successfully with 3 rephrasings.
+Processing sample 189/1000 (dataset index: 11872)
+Processing sample 189 (dataset index 11872)
+Sample 189 (dataset index 11872) processed successfully with 3 rephrasings.
+Processing sample 190/1000 (dataset index: 9182)
+Processing sample 190 (dataset index 9182)
+Sample 190 (dataset index 9182) processed successfully with 3 rephrasings.
+Processing sample 191/1000 (dataset index: 9211)
+Processing sample 191 (dataset index 9211)
+Sample 191 (dataset index 9211) processed successfully with 3 rephrasings.
+Processing sample 192/1000 (dataset index: 316)
+Processing sample 192 (dataset index 316)
+Sample 192 (dataset index 316) processed successfully with 3 rephrasings.
+Processing sample 193/1000 (dataset index: 8592)
+Processing sample 193 (dataset index 8592)
+Sample 193 (dataset index 8592) processed successfully with 3 rephrasings.
+Processing sample 194/1000 (dataset index: 10138)
+Processing sample 194 (dataset index 10138)
+Sample 194 (dataset index 10138) processed successfully with 5 rephrasings.
+Processing sample 195/1000 (dataset index: 1925)
+Processing sample 195 (dataset index 1925)
+Sample 195 (dataset index 1925) processed successfully with 3 rephrasings.
+Processing sample 196/1000 (dataset index: 15880)
+Processing sample 196 (dataset index 15880)
+Sample 196 (dataset index 15880) processed successfully with 3 rephrasings.
+Processing sample 197/1000 (dataset index: 5328)
+Processing sample 197 (dataset index 5328)
+Sample 197 (dataset index 5328) processed successfully with 3 rephrasings.
+Processing sample 198/1000 (dataset index: 11188)
+Processing sample 198 (dataset index 11188)
+Sample 198 (dataset index 11188) processed successfully with 3 rephrasings.
+Processing sample 199/1000 (dataset index: 3122)
+Processing sample 199 (dataset index 3122)
+Sample 199 (dataset index 3122) processed successfully with 3 rephrasings.
+Processing sample 200/1000 (dataset index: 777)
+Processing sample 200 (dataset index 777)
+Sample 200 (dataset index 777) processed successfully with 3 rephrasings.
+Processing sample 201/1000 (dataset index: 5720)
+Processing sample 201 (dataset index 5720)
+Sample 201 (dataset index 5720) processed successfully with 3 rephrasings.
+Processing sample 202/1000 (dataset index: 9788)
+Processing sample 202 (dataset index 9788)
+Sample 202 (dataset index 9788) processed successfully with 3 rephrasings.
+Processing sample 203/1000 (dataset index: 15890)
+Processing sample 203 (dataset index 15890)
+Sample 203 (dataset index 15890) processed successfully with 3 rephrasings.
+Processing sample 204/1000 (dataset index: 4350)
+Processing sample 204 (dataset index 4350)
+Sample 204 (dataset index 4350) processed successfully with 3 rephrasings.
+Processing sample 205/1000 (dataset index: 1442)
+Processing sample 205 (dataset index 1442)
+Sample 205 (dataset index 1442) processed successfully with 3 rephrasings.
+Processing sample 206/1000 (dataset index: 416)
+Processing sample 206 (dataset index 416)
+Sample 206 (dataset index 416) processed successfully with 3 rephrasings.
+Processing sample 207/1000 (dataset index: 14641)
+Processing sample 207 (dataset index 14641)
+Sample 207 (dataset index 14641) processed successfully with 3 rephrasings.
+Processing sample 208/1000 (dataset index: 3320)
+Processing sample 208 (dataset index 3320)
+Sample 208 (dataset index 3320) processed successfully with 3 rephrasings.
+Processing sample 209/1000 (dataset index: 6202)
+Processing sample 209 (dataset index 6202)
+Sample 209 (dataset index 6202) processed successfully with 3 rephrasings.
+Processing sample 210/1000 (dataset index: 1860)
+Processing sample 210 (dataset index 1860)
+Sample 210 (dataset index 1860) processed successfully with 3 rephrasings.
+Processing sample 211/1000 (dataset index: 2150)
+Processing sample 211 (dataset index 2150)
+Sample 211 (dataset index 2150) processed successfully with 3 rephrasings.
+Processing sample 212/1000 (dataset index: 16757)
+Processing sample 212 (dataset index 16757)
+Sample 212 (dataset index 16757) processed successfully with 3 rephrasings.
+Processing sample 213/1000 (dataset index: 9431)
+Processing sample 213 (dataset index 9431)
+Sample 213 (dataset index 9431) processed successfully with 3 rephrasings.
+Processing sample 214/1000 (dataset index: 9204)
+Processing sample 214 (dataset index 9204)
+Sample 214 (dataset index 9204) processed successfully with 3 rephrasings.
+Processing sample 215/1000 (dataset index: 227)
+Processing sample 215 (dataset index 227)
+Sample 215 (dataset index 227) processed successfully with 3 rephrasings.
+Processing sample 216/1000 (dataset index: 9593)
+Processing sample 216 (dataset index 9593)
+Sample 216 (dataset index 9593) processed successfully with 3 rephrasings.
+Processing sample 217/1000 (dataset index: 15541)
+Processing sample 217 (dataset index 15541)
+Sample 217 (dataset index 15541) processed successfully with 3 rephrasings.
+Processing sample 218/1000 (dataset index: 12463)
+Processing sample 218 (dataset index 12463)
+Sample 218 (dataset index 12463) processed successfully with 3 rephrasings.
+Processing sample 219/1000 (dataset index: 13978)
+Processing sample 219 (dataset index 13978)
+Sample 219 (dataset index 13978) processed successfully with 3 rephrasings.
+Processing sample 220/1000 (dataset index: 12295)
+Processing sample 220 (dataset index 12295)
+Sample 220 (dataset index 12295) processed successfully with 3 rephrasings.
+Processing sample 221/1000 (dataset index: 768)
+Processing sample 221 (dataset index 768)
+Sample 221 (dataset index 768) processed successfully with 3 rephrasings.
+Processing sample 222/1000 (dataset index: 16921)
+Processing sample 222 (dataset index 16921)
+Sample 222 (dataset index 16921) processed successfully with 1 rephrasings.
+Processing sample 223/1000 (dataset index: 13550)
+Processing sample 223 (dataset index 13550)
+Sample 223 (dataset index 13550) processed successfully with 3 rephrasings.
+Processing sample 224/1000 (dataset index: 15584)
+Processing sample 224 (dataset index 15584)
+Sample 224 (dataset index 15584) processed successfully with 3 rephrasings.
+Processing sample 225/1000 (dataset index: 5758)
+Processing sample 225 (dataset index 5758)
+Sample 225 (dataset index 5758) processed successfully with 3 rephrasings.
+Processing sample 226/1000 (dataset index: 8278)
+Processing sample 226 (dataset index 8278)
+Sample 226 (dataset index 8278) processed successfully with 3 rephrasings.
+Processing sample 227/1000 (dataset index: 12541)
+Processing sample 227 (dataset index 12541)
+Sample 227 (dataset index 12541) processed successfully with 3 rephrasings.
+Processing sample 228/1000 (dataset index: 5794)
+Processing sample 228 (dataset index 5794)
+Sample 228 (dataset index 5794) processed successfully with 3 rephrasings.
+Processing sample 229/1000 (dataset index: 15420)
+Processing sample 229 (dataset index 15420)
+Sample 229 (dataset index 15420) processed successfully with 3 rephrasings.
+Processing sample 230/1000 (dataset index: 2116)
+Processing sample 230 (dataset index 2116)
+Sample 230 (dataset index 2116) processed successfully with 3 rephrasings.
+Processing sample 231/1000 (dataset index: 13051)
+Processing sample 231 (dataset index 13051)
+Sample 231 (dataset index 13051) processed successfully with 3 rephrasings.
+Processing sample 232/1000 (dataset index: 14756)
+Processing sample 232 (dataset index 14756)
+Sample 232 (dataset index 14756) processed successfully with 3 rephrasings.
+Processing sample 233/1000 (dataset index: 4063)
+Processing sample 233 (dataset index 4063)
+Sample 233 (dataset index 4063) processed successfully with 3 rephrasings.
+Processing sample 234/1000 (dataset index: 12722)
+Processing sample 234 (dataset index 12722)
+Sample 234 (dataset index 12722) processed successfully with 3 rephrasings.
+Processing sample 235/1000 (dataset index: 5914)
+Processing sample 235 (dataset index 5914)
+Sample 235 (dataset index 5914) processed successfully with 3 rephrasings.
+Processing sample 236/1000 (dataset index: 3136)
+Processing sample 236 (dataset index 3136)
+Sample 236 (dataset index 3136) processed successfully with 3 rephrasings.
+Processing sample 237/1000 (dataset index: 15927)
+Processing sample 237 (dataset index 15927)
+Sample 237 (dataset index 15927) processed successfully with 3 rephrasings.
+Processing sample 238/1000 (dataset index: 4515)
+Processing sample 238 (dataset index 4515)
+Sample 238 (dataset index 4515) processed successfully with 3 rephrasings.
+Processing sample 239/1000 (dataset index: 1826)
+Processing sample 239 (dataset index 1826)
+Sample 239 (dataset index 1826) processed successfully with 3 rephrasings.
+Processing sample 240/1000 (dataset index: 13818)
+Processing sample 240 (dataset index 13818)
+Sample 240 (dataset index 13818) processed successfully with 3 rephrasings.
+Processing sample 241/1000 (dataset index: 6321)
+Processing sample 241 (dataset index 6321)
+Sample 241 (dataset index 6321) processed successfully with 3 rephrasings.
+Processing sample 242/1000 (dataset index: 9623)
+Processing sample 242 (dataset index 9623)
+Sample 242 (dataset index 9623) processed successfully with 3 rephrasings.
+Processing sample 243/1000 (dataset index: 8405)
+Processing sample 243 (dataset index 8405)
+Sample 243 (dataset index 8405) processed successfully with 3 rephrasings.
+Processing sample 244/1000 (dataset index: 15910)
+Processing sample 244 (dataset index 15910)
+Sample 244 (dataset index 15910) processed successfully with 3 rephrasings.
+Processing sample 245/1000 (dataset index: 2697)
+Processing sample 245 (dataset index 2697)
+Sample 245 (dataset index 2697) processed successfully with 3 rephrasings.
+Processing sample 246/1000 (dataset index: 7539)
+Processing sample 246 (dataset index 7539)
+Sample 246 (dataset index 7539) processed successfully with 3 rephrasings.
+Processing sample 247/1000 (dataset index: 15535)
+Processing sample 247 (dataset index 15535)
+Sample 247 (dataset index 15535) processed successfully with 3 rephrasings.
+Processing sample 248/1000 (dataset index: 17111)
+Processing sample 248 (dataset index 17111)
+Sample 248 (dataset index 17111) processed successfully with 3 rephrasings.
+Processing sample 249/1000 (dataset index: 10702)
+Processing sample 249 (dataset index 10702)
+Sample 249 (dataset index 10702) processed successfully with 3 rephrasings.
+Processing sample 250/1000 (dataset index: 12681)
+Processing sample 250 (dataset index 12681)
+Sample 250 (dataset index 12681) processed successfully with 3 rephrasings.
+Processing sample 251/1000 (dataset index: 10618)
+Processing sample 251 (dataset index 10618)
+Sample 251 (dataset index 10618) processed successfully with 3 rephrasings.
+Processing sample 252/1000 (dataset index: 214)
+Processing sample 252 (dataset index 214)
+Sample 252 (dataset index 214) processed successfully with 3 rephrasings.
+Processing sample 253/1000 (dataset index: 10664)
+Processing sample 253 (dataset index 10664)
+Sample 253 (dataset index 10664) processed successfully with 3 rephrasings.
+Processing sample 254/1000 (dataset index: 7678)
+Processing sample 254 (dataset index 7678)
