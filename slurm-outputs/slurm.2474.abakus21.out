@@ -2963,3 +2963,69 @@ Processing sample 978 (dataset index 1259)
 Sample 978 (dataset index 1259) processed successfully with 3 rephrasings.
 Processing sample 979/1000 (dataset index: 10044)
 Processing sample 979 (dataset index 10044)
+Sample 979 (dataset index 10044) processed successfully with 3 rephrasings.
+Processing sample 980/1000 (dataset index: 12288)
+Processing sample 980 (dataset index 12288)
+Sample 980 (dataset index 12288) processed successfully with 3 rephrasings.
+Processing sample 981/1000 (dataset index: 17246)
+Processing sample 981 (dataset index 17246)
+Sample 981 (dataset index 17246) processed successfully with 3 rephrasings.
+Processing sample 982/1000 (dataset index: 17358)
+Processing sample 982 (dataset index 17358)
+Sample 982 (dataset index 17358) processed successfully with 3 rephrasings.
+Processing sample 983/1000 (dataset index: 15563)
+Processing sample 983 (dataset index 15563)
+Sample 983 (dataset index 15563) processed successfully with 3 rephrasings.
+Processing sample 984/1000 (dataset index: 8148)
+Processing sample 984 (dataset index 8148)
+Sample 984 (dataset index 8148) processed successfully with 3 rephrasings.
+Processing sample 985/1000 (dataset index: 6718)
+Processing sample 985 (dataset index 6718)
+Sample 985 (dataset index 6718) processed successfully with 3 rephrasings.
+Processing sample 986/1000 (dataset index: 2421)
+Processing sample 986 (dataset index 2421)
+Sample 986 (dataset index 2421) processed successfully with 3 rephrasings.
+Processing sample 987/1000 (dataset index: 12446)
+Processing sample 987 (dataset index 12446)
+Sample 987 (dataset index 12446) processed successfully with 3 rephrasings.
+Processing sample 988/1000 (dataset index: 3528)
+Processing sample 988 (dataset index 3528)
+Sample 988 (dataset index 3528) processed successfully with 3 rephrasings.
+Processing sample 989/1000 (dataset index: 4593)
+Processing sample 989 (dataset index 4593)
+Sample 989 (dataset index 4593) processed successfully with 3 rephrasings.
+Processing sample 990/1000 (dataset index: 13159)
+Processing sample 990 (dataset index 13159)
+Sample 990 (dataset index 13159) processed successfully with 3 rephrasings.
+Processing sample 991/1000 (dataset index: 2265)
+Processing sample 991 (dataset index 2265)
+Sample 991 (dataset index 2265) processed successfully with 3 rephrasings.
+Processing sample 992/1000 (dataset index: 2770)
+Processing sample 992 (dataset index 2770)
+Sample 992 (dataset index 2770) processed successfully with 3 rephrasings.
+Processing sample 993/1000 (dataset index: 16363)
+Processing sample 993 (dataset index 16363)
+Sample 993 (dataset index 16363) processed successfully with 3 rephrasings.
+Processing sample 994/1000 (dataset index: 12202)
+Processing sample 994 (dataset index 12202)
+Sample 994 (dataset index 12202) processed successfully with 3 rephrasings.
+Processing sample 995/1000 (dataset index: 11034)
+Processing sample 995 (dataset index 11034)
+Sample 995 (dataset index 11034) processed successfully with 3 rephrasings.
+Processing sample 996/1000 (dataset index: 11892)
+Processing sample 996 (dataset index 11892)
+Sample 996 (dataset index 11892) processed successfully with 3 rephrasings.
+Processing sample 997/1000 (dataset index: 12407)
+Processing sample 997 (dataset index 12407)
+Sample 997 (dataset index 12407) processed successfully with 3 rephrasings.
+Processing sample 998/1000 (dataset index: 319)
+Processing sample 998 (dataset index 319)
+Sample 998 (dataset index 319) processed successfully with 3 rephrasings.
+Processing sample 999/1000 (dataset index: 8256)
+Processing sample 999 (dataset index 8256)
+Sample 999 (dataset index 8256) processed successfully with 5 rephrasings.
+Processing sample 1000/1000 (dataset index: 15544)
+Processing sample 1000 (dataset index 15544)
+JSONDecodeError: Expecting value: line 20226 column 1 (char 55129)
+Error getting rephrasings for sample 1000 (dataset index 15544): Invalid JSON response from API
+Processing complete. Saved 995 successful results. Failed: 5
