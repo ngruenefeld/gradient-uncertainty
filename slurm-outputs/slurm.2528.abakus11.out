@@ -2024,3 +2024,8 @@ Error processing sample 999 (dataset index 998): 'origin'
 Processing sample 1000/1000 (dataset index: 999)
 Error processing sample 1000 (dataset index 999): 'origin'
 Processing complete, but no successful results to save. All 1000 samples failed.
+[main a4b33ec] Domain Specific LLM Script Results for Run 2528 (Commit: c51ded6)
+ 2 files changed, 2027 insertions(+), 1 deletion(-)
+ create mode 100644 slurm-outputs/slurm.2528.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   c51ded6..a4b33ec  main -> main
