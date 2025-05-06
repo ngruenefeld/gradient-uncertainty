@@ -37027,3 +37027,8 @@ Processing test sample 17600/17600 (after training)
 Error processing test sample 17600 after training: list index out of range
 
 Processing complete. Saved 17287 results. Failed: 938
+[main 45dafc8] BERT Script Results for Run 2508 (Model: bert, Dataset: ag-pubmed, Commit: 74d3217)
+ 5 files changed, 3213 insertions(+)
+ create mode 100644 data/full/bert_results_2508_cf-random_ds-ag-pubmed.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   e27a8c9..45dafc8  main -> main
