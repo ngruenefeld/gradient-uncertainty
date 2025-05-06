@@ -1,0 +1,54 @@
+slurmstepd-abakus21: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus21: error: Setting TMPDIR to /tmp
+Running job with commit: e827b4b97006cbbcb0a8bd7ce6366798c80723fd
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2469
+Dataset: ag-pubmed
+Model: medical-llama
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 10
+Mode: test
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Error while downloading from https://cdn-lfs-us-1.hf.co/repos/20/54/2054948b0cd647f811f746f27b397841b45fea53a1edee913ec9c31865bd807b/056d8e7c14cbabee71f075ce2f59981f7a379c960e56b1897fc44ad2b429b3e8?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00002.safetensors%3B+filename%3D%22model-00001-of-00002.safetensors%22%3B&Expires=1746537734&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0NjUzNzczNH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzIwLzU0LzIwNTQ5NDhiMGNkNjQ3ZjgxMWY3NDZmMjdiMzk3ODQxYjQ1ZmVhNTNhMWVkZWU5MTNlYzljMzE4NjViZDgwN2IvMDU2ZDhlN2MxNGNiYWJlZTcxZjA3NWNlMmY1OTk4MWY3YTM3OWM5NjBlNTZiMTg5N2ZjNDRhZDJiNDI5YjNlOD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=vdLwzmv4wL3BS1C9SfiWCINcx7yfvXG8Z56PGIrI3OjJ5Px%7EEvspTApPml-vU5cf9ixgEvw475RkGtTJB8SOx%7EOxC%7EHlRZT2nIq00cyWqPz0q4124V3-djhcEgYjUSdFIbXc6dCBki0-pNMFzVvwrKQmDuw-n%7EoATIpJ18yCPxu1TxrCTrgv3OmVoYSQCBxsOiBEx7ASFTiZ918USKfKVJgNiJ4KfmwAcgNH-Bgn2MYRWsE-gOkYvOjZDXRjahNG1XEBhTdQTHBbbU-jFRQ4coidYyCgt851iPSFJSiFBhwL77EAFOBu5sSXwlxX9omBCaj-4vd78Y4P6OD0lI%7ELow__&Key-Pair-Id=K24J24Z295AEI9: HTTPSConnectionPool(host='cdn-lfs-us-1.hf.co', port=443): Read timed out.
+Trying to resume download...
+Downloading shards:  50%|█████     | 1/2 [03:32<03:32, 212.41s/it]Downloading shards: 100%|██████████| 2/2 [05:43<00:00, 164.42s/it]Downloading shards: 100%|██████████| 2/2 [05:43<00:00, 171.62s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [01:27<01:27, 87.15s/it]Loading checkpoint shards: 100%|██████████| 2/2 [02:20<00:00, 67.19s/it]Loading checkpoint shards: 100%|██████████| 2/2 [02:20<00:00, 70.18s/it]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/domain_specific.py", line 436, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/domain_specific.py", line 125, in main
+    model.to(device)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/modeling_utils.py", line 3164, in to
+    return super().to(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1355, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 915, in _apply
+    module._apply(fn)
+  [Previous line repeated 2 more times]
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 942, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1341, in convert
+    return t.to(
+           ^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 224.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 101.00 MiB is free. Including non-PyTorch memory, this process has 23.44 GiB memory in use. Of the allocated memory 23.24 GiB is allocated by PyTorch, and 1.17 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
