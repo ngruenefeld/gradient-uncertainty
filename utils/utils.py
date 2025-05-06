@@ -780,6 +780,7 @@ def load_domain_specific_datasets(choice="ag-pubmed"):
             label: {
                 "text": [],
                 "label": [],
+                "origin": [],
             }
             for label in ag_labels + ["Medicine"]
         }
@@ -791,9 +792,9 @@ def load_domain_specific_datasets(choice="ag-pubmed"):
             if len(data[cur_label]["text"]) < sample_size:
                 data[cur_label]["text"].append(example["text"])
                 data[cur_label]["label"].append(cur_label)
+                data[cur_label]["origin"].append("ag_news")
                 count += 1
 
-        pubmed_samples = []
         count = 0
 
         for example in pubmed_dataset:
@@ -801,17 +802,13 @@ def load_domain_specific_datasets(choice="ag-pubmed"):
                 break
             data["Medicine"]["text"].append(example["content"])
             data["Medicine"]["label"].append("Medicine")
+            data["Medicine"]["origin"].append("pubmed")
             count += 1
 
-        full_data = {
-            "text": [],
-            "label": [],
-        }
+        full_data = {"text": [], "label": [], "origin": []}
         for label in data:
             full_data["text"].extend(data[label]["text"])
             full_data["label"].extend(data[label]["label"])
+            full_data["origin"].extend(data[label]["origin"])
 
         return Dataset.from_dict(full_data)
-
-    else:
-        raise ValueError(f"Dataset {choice} not supported.")
