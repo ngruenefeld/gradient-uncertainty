@@ -23,7 +23,6 @@ def main(args):
     model_name = args.model
     gpt_model = args.gpt_model
     key_mode = args.key_mode
-    sample_size = args.sample_size
     quant_bits = args.quantization
     full_gradient = args.full_gradient
     response_only = not full_gradient  # Inverse of full_gradient
@@ -33,14 +32,13 @@ def main(args):
     max_tokens = args.max_tokens
     per_label_sample_size = args.per_label_sample_size
 
-    mode = "full" if sample_size == 0 else "test" if sample_size < 100 else "sampled"
+    mode = "full" if per_label_sample_size >= 100 else "test"
 
     print(f"Job number: {job_number}")
     print(f"Dataset: {dataset_name}")
     print(f"Model: {model_name}")
     print(f"GPT Model: {gpt_model}")
     print(f"Key mode: {key_mode}")
-    print(f"Sample size: {sample_size}")
     print(f"Mode: {mode}")
     print(
         f"Quantization bits: {quant_bits if quant_bits > 0 else 'None (full precision)'}"
@@ -55,8 +53,8 @@ def main(args):
 
     if model_name == "medical-llama":
         model_path = "ContactDoctor/Bio-Medical-Llama-3-8B"
-    elif model_name == "llama-3-8b":
-        model_path = "meta-llama/Meta-Llama-3-8B"
+    elif model_name == "llama-3-8b-instruct":
+        model_path = "meta-llama/Meta-Llama-3-8B-Instruct"
     elif model_name == "ii-medical":
         model_path = "Intelligent-Internet/II-Medical-7B-Preview"
     elif model_name == "qwen2.5-7b-instruct":
@@ -144,18 +142,13 @@ def main(args):
         dataset_name, per_label_sample_size=per_label_sample_size
     )
 
-    if sample_size > 0:
-        data_list = list(data)
-        indices = random.sample(range(len(data_list)), sample_size)
-        data_samples = [(i, data_list[i]) for i in indices]
-    else:
-        data_samples = list(enumerate(data))
+    data_samples = list(enumerate(data))
 
     results = []
     processed_count = 0
     failed_count = 0
 
-    total_samples = sample_size if sample_size > 0 else len(data_samples)
+    total_samples = len(data_samples)
 
     max_length = max_tokens if max_tokens > 0 else None
 
@@ -396,12 +389,6 @@ if __name__ == "__main__":
         type=str,
         default="keyfile",
         help="Whether to read the OpenAI API key from a file or use an environment variable",
-    )
-    parser.add_argument(
-        "--sample_size",
-        type=int,
-        default=0,
-        help="Set if you want to sample a specific number of examples from the dataset",
     )
     parser.add_argument(
         "--quantization",
