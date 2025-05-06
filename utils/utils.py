@@ -764,15 +764,14 @@ def get_summarization_instruction(language="en"):
         raise ValueError(f"Language {language} not supported.")
 
 
-def load_domain_specific_datasets(choice="ag-pubmed"):
+def load_domain_specific_datasets(choice="ag-pubmed", per_label_sample_size=200):
     if choice == "ag-pubmed":
         ag_dataset = load_dataset("fancyzhx/ag_news", split="test")
         pubmed_dataset = load_dataset("MedRAG/pubmed", streaming=True)["train"]
 
         ag_labels = ag_dataset.features["label"].names
 
-        sample_size = 200
-        ag_sample_size = len(ag_labels) * sample_size
+        ag_sample_size = len(ag_labels) * per_label_sample_size
 
         count = 0
 
@@ -789,7 +788,7 @@ def load_domain_specific_datasets(choice="ag-pubmed"):
             if count >= ag_sample_size:
                 break
             cur_label = ag_labels[example["label"]]
-            if len(data[cur_label]["text"]) < sample_size:
+            if len(data[cur_label]["text"]) < per_label_sample_size:
                 data[cur_label]["text"].append(example["text"])
                 data[cur_label]["label"].append(cur_label)
                 data[cur_label]["origin"].append("ag_news")
@@ -798,7 +797,7 @@ def load_domain_specific_datasets(choice="ag-pubmed"):
         count = 0
 
         for example in pubmed_dataset:
-            if count >= sample_size:
+            if count >= per_label_sample_size:
                 break
             data["Medicine"]["text"].append(example["content"])
             data["Medicine"]["label"].append("Medicine")

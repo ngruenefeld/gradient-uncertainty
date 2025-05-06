@@ -31,6 +31,7 @@ def main(args):
     perturbation_mode = args.perturbation_mode
     number_of_perturbations = args.number_of_perturbations
     max_tokens = args.max_tokens
+    per_label_sample_size = args.per_label_sample_size
 
     mode = "full" if sample_size == 0 else "test" if sample_size < 100 else "sampled"
 
@@ -50,6 +51,7 @@ def main(args):
     print(f"Perturbation mode: {perturbation_mode}")
     print(f"Number of perturbations: {number_of_perturbations}")
     print(f"Max tokens: {max_tokens}")
+    print(f"Sample Size Per Label: {per_label_sample_size}")
 
     if model_name == "medical-llama":
         model_path = "ContactDoctor/Bio-Medical-Llama-3-8B"
@@ -138,7 +140,9 @@ def main(args):
 
     tokenizer = AutoTokenizer.from_pretrained(model_path, **tokenizer_params)
 
-    data = load_domain_specific_datasets(dataset_name)
+    data = load_domain_specific_datasets(
+        dataset_name, per_label_sample_size=per_label_sample_size
+    )
 
     if sample_size > 0:
         data_list = list(data)
@@ -435,6 +439,12 @@ if __name__ == "__main__":
         type=int,
         default=0,
         help="Maximum number of tokens for each sample",
+    )
+    parser.add_argument(
+        "--per_label_sample_size",
+        type=int,
+        default=200,
+        help="Number of samples to process per label",
     )
 
     args = parser.parse_args()

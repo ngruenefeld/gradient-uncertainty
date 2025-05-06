@@ -20,6 +20,7 @@ NORMALIZE=false  # Default to false
 PERTURBATION_MODE="rephrase"
 NUMBER_OF_PERTURBATIONS=3
 MAX_TOKENS=0
+PER_LABEL_SAMPLE_SIZE=200
 
 # Parse named arguments
 while [[ "$#" -gt 0 ]]; do
@@ -35,6 +36,7 @@ while [[ "$#" -gt 0 ]]; do
         --perturbation_mode=*) PERTURBATION_MODE="${1#*=}";;
         --number_of_perturbations=*) NUMBER_OF_PERTURBATIONS="${1#*=}";;
         --max_tokens=*) MAX_TOKENS="${1#*=}";;
+        --per_label_sample_size=*) PER_LABEL_SAMPLE_SIZE="${1#*=}";;
         *) echo "Unknown option: $1" ;;
     esac
     shift
@@ -48,7 +50,7 @@ echo "Running job with commit: $COMMIT_ID"
 source env/bin/activate
 
 # Build the command with all required parameters
-CMD="CUDA_LAUNCH_BLOCKING=1 python -um scripts.domain_specific \"$SLURM_JOB_ID\" --dataset \"$DATASET\" --model \"$MODEL\" --gpt_model \"$GPT_MODEL\" --key_mode \"$KEY_MODE\" --sample_size \"$SAMPLE_SIZE\" --perturbation_mode \"$PERTURBATION_MODE\" --number_of_perturbations \"$NUMBER_OF_PERTURBATIONS\" --max_tokens \"$MAX_TOKENS\""
+CMD="CUDA_LAUNCH_BLOCKING=1 python -um scripts.domain_specific \"$SLURM_JOB_ID\" --dataset \"$DATASET\" --model \"$MODEL\" --gpt_model \"$GPT_MODEL\" --key_mode \"$KEY_MODE\" --sample_size \"$SAMPLE_SIZE\" --perturbation_mode \"$PERTURBATION_MODE\" --number_of_perturbations \"$NUMBER_OF_PERTURBATIONS\" --max_tokens \"$MAX_TOKENS\" --max_tokens \"$PER_LABEL_SAMPLE_SIZE\""
 
 
 # Add quantization parameter
