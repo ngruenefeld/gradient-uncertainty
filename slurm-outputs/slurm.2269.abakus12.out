@@ -1825,3 +1825,11 @@ Processing sample 600/600 (dataset index: 599)
 Processing sample 600 (dataset index 599) with language 'pl'
 Sample 600 (dataset index 599) processed successfully with 3 rephrasings.
 Processing complete. Saved 600 successful results. Failed: 0
+[main 2b4ab68] Multilingual Script Results for Run 2269 (Commit: 33e81ae)
+ 2 files changed, 1445 insertions(+)
+ create mode 100644 data/full/multiling_results_2269_llama-awq_synonym_commoncorpus.pkl
+remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File data/full/multiling_results_2269_llama-awq_synonym_commoncorpus.pkl is 65.36 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To github.com:ngruenefeld/gradient-uncertainty.git
+   5b01e9e..2b4ab68  main -> main
