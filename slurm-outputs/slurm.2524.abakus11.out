@@ -681,3 +681,8 @@ Processing test sample 321/322 (after training)
 Processing test sample 322/322 (after training)
 
 Processing complete. Saved 322 results. Failed: 0
+[main 5e338aa] BERT Script Results for Run 2524 (Model: bert, Dataset: mmlu, Commit: 4ce2a51)
+ 3 files changed, 259 insertions(+)
+ create mode 100644 data/full/bert_results_2524_cf-synonym_ds-mmlu.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   40058fc..5e338aa  main -> main
