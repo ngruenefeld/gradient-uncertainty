@@ -1,6 +1,6 @@
 slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Running job with commit: 69171d1ef23f578ca85f53e041643a77d5e13c4b
+Running job with commit: 1c235256ac7fad563cf20fede4519bb13df09460
 [nltk_data] Downloading package stopwords to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package stopwords is already up-to-date!
@@ -17,10 +17,3 @@ usage: domain_specific.py [-h] [--dataset DATASET] [--model MODEL]
                           [--per_label_sample_size PER_LABEL_SAMPLE_SIZE]
                           job_number
 domain_specific.py: error: unrecognized arguments: --sample_size 0
-[main 1c23525] Domain Specific LLM Script Results for Run 2541 (Commit: 69171d1)
- 6 files changed, 1192 insertions(+), 1 deletion(-)
- create mode 100644 slurm-outputs/slurm.2539.abakus22.out
- create mode 100644 slurm-outputs/slurm.2540.abakus11.out
- create mode 100644 slurm-outputs/slurm.2541.abakus11.out
-To github.com:ngruenefeld/gradient-uncertainty.git
-   69171d1..1c23525  main -> main
