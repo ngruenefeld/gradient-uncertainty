@@ -34,3 +34,7 @@ Traceback (most recent call last):
     data_samples = [(i, data_list[i]) for i in indices]
                         ^^^^^^^^^^^^^^^
 TypeError: 'NoneType' object is not iterable
+[main e4b8897] Domain Specific LLM Script Results for Run 2527 (Commit: f8d6632)
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+To github.com:ngruenefeld/gradient-uncertainty.git
+   4f600b6..e4b8897  main -> main

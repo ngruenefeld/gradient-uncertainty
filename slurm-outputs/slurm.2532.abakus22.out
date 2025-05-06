@@ -1,0 +1,31 @@
+slurmstepd-abakus22: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus22: error: Setting TMPDIR to /tmp
+Running job with commit: e4b889758b4055bf675bbfb24ef2eb4ad209ad10
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2532
+Dataset: ag-pubmed
+Model: qwen2.5-7b-instruct
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Loading model in 4-bit precision to reduce memory usage
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [01:30<04:30, 90.01s/it]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 3864.73 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/blobs only has 685.92 MB free disk space.
+  warnings.warn(
+Downloading shards:  50%|█████     | 2/4 [03:04<03:05, 92.51s/it]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 3864.73 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+Downloading shards:  75%|███████▌  | 3/4 [04:34<01:31, 91.34s/it]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 3556.38 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+slurmstepd-abakus22: error: *** JOB 2532 ON abakus22 CANCELLED AT 2025-05-06T22:44:13 ***
