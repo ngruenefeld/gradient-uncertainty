@@ -32,3 +32,10 @@ Traceback (most recent call last):
     data_samples = list(enumerate(data))
                         ^^^^^^^^^^^^^^^
 TypeError: 'NoneType' object is not iterable
+[main f8d6632] Domain Specific LLM Script Results for Run 2526 (Commit: ef8b5a9)
+ 3 files changed, 720 insertions(+)
+ create mode 100644 slurm-outputs/slurm.2524.abakus11.out
+ create mode 100644 slurm-outputs/slurm.2525.abakus12.out
+ create mode 100644 slurm-outputs/slurm.2526.abakus21.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   ef8b5a9..f8d6632  main -> main
