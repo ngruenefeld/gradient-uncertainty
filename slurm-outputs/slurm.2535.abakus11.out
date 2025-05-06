@@ -40,3 +40,9 @@ Processing sample 5/5 (dataset index: 4)
 Processing sample 5 (dataset index 4)
 Sample 5 (dataset index 4) processed successfully with 3 rephrasings.
 Processing complete. Saved 5 successful results. Failed: 0
+[main 1069d48] Domain Specific LLM Script Results for Run 2535 (Commit: 1be4033)
+ 2 files changed, 42 insertions(+)
+ create mode 100644 data/full/domainspecific_results_2535_qwen2.5-7b-instruct_4bit_rephrase_ag-pubmed.pkl
+ create mode 100644 slurm-outputs/slurm.2535.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   1be4033..1069d48  main -> main
