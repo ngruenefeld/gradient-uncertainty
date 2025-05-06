@@ -91,7 +91,9 @@ def main(args):
     # Load model with quantization if requested
     quantizable_models = [
         "medical-llama",
+        "llama-3-8b",
         "ii-medical",
+        "qwen2.5-7b-instruct",
     ]
 
     # Prepare common model loading parameters
