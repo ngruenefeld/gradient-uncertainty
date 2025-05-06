@@ -115,3 +115,10 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/requests/adapters.py", line 713, in send
     raise ReadTimeout(e, request=request)
 requests.exceptions.ReadTimeout: (ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: baf36e0e-255a-4ef7-92c1-e5da11426f05)')
+[main 1a17a60] Domain Specific LLM Script Results for Run 2536 (Commit: d73fec9)
+ 3 files changed, 146 insertions(+)
+ create mode 100644 slurm-outputs/slurm.2536.abakus11.out
+ create mode 100644 slurm-outputs/slurm.2537.abakus12.out
+ create mode 100644 slurm-outputs/slurm.2538.abakus21.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   d73fec9..1a17a60  main -> main
