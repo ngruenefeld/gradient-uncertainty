@@ -1,0 +1,19 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 1c235256ac7fad563cf20fede4519bb13df09460
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+usage: domain_specific.py [-h] [--dataset DATASET] [--model MODEL]
+                          [--gpt_model GPT_MODEL] [--key_mode KEY_MODE]
+                          [--quantization {0,4,8}] [--full_gradient]
+                          [--normalize]
+                          [--perturbation_mode PERTURBATION_MODE]
+                          [--number_of_perturbations NUMBER_OF_PERTURBATIONS]
+                          [--max_tokens MAX_TOKENS]
+                          [--per_label_sample_size PER_LABEL_SAMPLE_SIZE]
+                          job_number
+domain_specific.py: error: unrecognized arguments: --sample_size 0
