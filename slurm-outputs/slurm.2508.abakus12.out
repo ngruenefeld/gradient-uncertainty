@@ -35614,3 +35614,1416 @@ Processing test sample 16518/17600 (after training)
 Processing test sample 16519/17600 (after training)
 Processing test sample 16520/17600 (after training)
 Processing test sample 16521/17600 (after training)
+Processing test sample 16522/17600 (after training)
+Processing test sample 16523/17600 (after training)
+Processing test sample 16524/17600 (after training)
+Processing test sample 16525/17600 (after training)
+Processing test sample 16526/17600 (after training)
+Processing test sample 16527/17600 (after training)
+Error in bert_gradient: The size of tensor a (526) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 16527 after training: 'dict' object has no attribute 'item'
+Processing test sample 16528/17600 (after training)
+Processing test sample 16529/17600 (after training)
+Processing test sample 16530/17600 (after training)
+Processing test sample 16531/17600 (after training)
+Processing test sample 16532/17600 (after training)
+Processing test sample 16533/17600 (after training)
+Processing test sample 16534/17600 (after training)
+Processing test sample 16535/17600 (after training)
+Error in bert_gradient: The size of tensor a (566) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 16535 after training: 'dict' object has no attribute 'item'
+Processing test sample 16536/17600 (after training)
+Processing test sample 16537/17600 (after training)
+Processing test sample 16538/17600 (after training)
+Processing test sample 16539/17600 (after training)
+Processing test sample 16540/17600 (after training)
+Processing test sample 16541/17600 (after training)
+Processing test sample 16542/17600 (after training)
+Processing test sample 16543/17600 (after training)
+Processing test sample 16544/17600 (after training)
+Processing test sample 16545/17600 (after training)
+Processing test sample 16546/17600 (after training)
+Processing test sample 16547/17600 (after training)
+Processing test sample 16548/17600 (after training)
+Processing test sample 16549/17600 (after training)
+Processing test sample 16550/17600 (after training)
+Processing test sample 16551/17600 (after training)
+Processing test sample 16552/17600 (after training)
+Processing test sample 16553/17600 (after training)
+Processing test sample 16554/17600 (after training)
+Processing test sample 16555/17600 (after training)
+Processing test sample 16556/17600 (after training)
+Processing test sample 16557/17600 (after training)
+Processing test sample 16558/17600 (after training)
+Processing test sample 16559/17600 (after training)
+Processing test sample 16560/17600 (after training)
+Processing test sample 16561/17600 (after training)
+Processing test sample 16562/17600 (after training)
+Processing test sample 16563/17600 (after training)
+Processing test sample 16564/17600 (after training)
+Processing test sample 16565/17600 (after training)
+Processing test sample 16566/17600 (after training)
+Processing test sample 16567/17600 (after training)
+Processing test sample 16568/17600 (after training)
+Processing test sample 16569/17600 (after training)
+Processing test sample 16570/17600 (after training)
+Processing test sample 16571/17600 (after training)
+Processing test sample 16572/17600 (after training)
+Processing test sample 16573/17600 (after training)
+Processing test sample 16574/17600 (after training)
+Processing test sample 16575/17600 (after training)
+Processing test sample 16576/17600 (after training)
+Processing test sample 16577/17600 (after training)
+Processing test sample 16578/17600 (after training)
+Processing test sample 16579/17600 (after training)
+Processing test sample 16580/17600 (after training)
+Processing test sample 16581/17600 (after training)
+Processing test sample 16582/17600 (after training)
+Processing test sample 16583/17600 (after training)
+Processing test sample 16584/17600 (after training)
+Processing test sample 16585/17600 (after training)
+Processing test sample 16586/17600 (after training)
+Processing test sample 16587/17600 (after training)
+Processing test sample 16588/17600 (after training)
+Processing test sample 16589/17600 (after training)
+Processing test sample 16590/17600 (after training)
+Processing test sample 16591/17600 (after training)
+Processing test sample 16592/17600 (after training)
+Processing test sample 16593/17600 (after training)
+Processing test sample 16594/17600 (after training)
+Processing test sample 16595/17600 (after training)
+Processing test sample 16596/17600 (after training)
+Processing test sample 16597/17600 (after training)
+Processing test sample 16598/17600 (after training)
+Processing test sample 16599/17600 (after training)
+Processing test sample 16600/17600 (after training)
+Processing test sample 16601/17600 (after training)
+Processing test sample 16602/17600 (after training)
+Processing test sample 16603/17600 (after training)
+Processing test sample 16604/17600 (after training)
+Processing test sample 16605/17600 (after training)
+Processing test sample 16606/17600 (after training)
+Processing test sample 16607/17600 (after training)
+Processing test sample 16608/17600 (after training)
+Processing test sample 16609/17600 (after training)
+Processing test sample 16610/17600 (after training)
+Processing test sample 16611/17600 (after training)
+Processing test sample 16612/17600 (after training)
+Processing test sample 16613/17600 (after training)
+Processing test sample 16614/17600 (after training)
+Processing test sample 16615/17600 (after training)
+Processing test sample 16616/17600 (after training)
+Processing test sample 16617/17600 (after training)
+Processing test sample 16618/17600 (after training)
+Processing test sample 16619/17600 (after training)
+Processing test sample 16620/17600 (after training)
+Processing test sample 16621/17600 (after training)
+Processing test sample 16622/17600 (after training)
+Processing test sample 16623/17600 (after training)
+Processing test sample 16624/17600 (after training)
+Processing test sample 16625/17600 (after training)
+Processing test sample 16626/17600 (after training)
+Processing test sample 16627/17600 (after training)
+Processing test sample 16628/17600 (after training)
+Processing test sample 16629/17600 (after training)
+Processing test sample 16630/17600 (after training)
+Processing test sample 16631/17600 (after training)
+Processing test sample 16632/17600 (after training)
+Processing test sample 16633/17600 (after training)
+Processing test sample 16634/17600 (after training)
+Processing test sample 16635/17600 (after training)
+Processing test sample 16636/17600 (after training)
+Processing test sample 16637/17600 (after training)
+Processing test sample 16638/17600 (after training)
+Processing test sample 16639/17600 (after training)
+Processing test sample 16640/17600 (after training)
+Processing test sample 16641/17600 (after training)
+Processing test sample 16642/17600 (after training)
+Processing test sample 16643/17600 (after training)
+Processing test sample 16644/17600 (after training)
+Processing test sample 16645/17600 (after training)
+Processing test sample 16646/17600 (after training)
+Processing test sample 16647/17600 (after training)
+Processing test sample 16648/17600 (after training)
+Processing test sample 16649/17600 (after training)
+Processing test sample 16650/17600 (after training)
+Processing test sample 16651/17600 (after training)
+Processing test sample 16652/17600 (after training)
+Processing test sample 16653/17600 (after training)
+Processing test sample 16654/17600 (after training)
+Processing test sample 16655/17600 (after training)
+Processing test sample 16656/17600 (after training)
+Processing test sample 16657/17600 (after training)
+Processing test sample 16658/17600 (after training)
+Processing test sample 16659/17600 (after training)
+Processing test sample 16660/17600 (after training)
+Processing test sample 16661/17600 (after training)
+Processing test sample 16662/17600 (after training)
+Processing test sample 16663/17600 (after training)
+Processing test sample 16664/17600 (after training)
+Processing test sample 16665/17600 (after training)
+Processing test sample 16666/17600 (after training)
+Processing test sample 16667/17600 (after training)
+Processing test sample 16668/17600 (after training)
+Processing test sample 16669/17600 (after training)
+Processing test sample 16670/17600 (after training)
+Processing test sample 16671/17600 (after training)
+Processing test sample 16672/17600 (after training)
+Processing test sample 16673/17600 (after training)
+Processing test sample 16674/17600 (after training)
+Processing test sample 16675/17600 (after training)
+Processing test sample 16676/17600 (after training)
+Processing test sample 16677/17600 (after training)
+Processing test sample 16678/17600 (after training)
+Processing test sample 16679/17600 (after training)
+Processing test sample 16680/17600 (after training)
+Processing test sample 16681/17600 (after training)
+Processing test sample 16682/17600 (after training)
+Processing test sample 16683/17600 (after training)
+Processing test sample 16684/17600 (after training)
+Processing test sample 16685/17600 (after training)
+Processing test sample 16686/17600 (after training)
+Processing test sample 16687/17600 (after training)
+Processing test sample 16688/17600 (after training)
+Processing test sample 16689/17600 (after training)
+Processing test sample 16690/17600 (after training)
+Processing test sample 16691/17600 (after training)
+Processing test sample 16692/17600 (after training)
+Processing test sample 16693/17600 (after training)
+Processing test sample 16694/17600 (after training)
+Processing test sample 16695/17600 (after training)
+Processing test sample 16696/17600 (after training)
+Processing test sample 16697/17600 (after training)
+Processing test sample 16698/17600 (after training)
+Processing test sample 16699/17600 (after training)
+Processing test sample 16700/17600 (after training)
+Processing test sample 16701/17600 (after training)
+Processing test sample 16702/17600 (after training)
+Processing test sample 16703/17600 (after training)
+Processing test sample 16704/17600 (after training)
+Processing test sample 16705/17600 (after training)
+Processing test sample 16706/17600 (after training)
+Processing test sample 16707/17600 (after training)
+Processing test sample 16708/17600 (after training)
+Processing test sample 16709/17600 (after training)
+Processing test sample 16710/17600 (after training)
+Processing test sample 16711/17600 (after training)
+Processing test sample 16712/17600 (after training)
+Processing test sample 16713/17600 (after training)
+Processing test sample 16714/17600 (after training)
+Processing test sample 16715/17600 (after training)
+Processing test sample 16716/17600 (after training)
+Processing test sample 16717/17600 (after training)
+Processing test sample 16718/17600 (after training)
+Processing test sample 16719/17600 (after training)
+Processing test sample 16720/17600 (after training)
+Processing test sample 16721/17600 (after training)
+Processing test sample 16722/17600 (after training)
+Processing test sample 16723/17600 (after training)
+Processing test sample 16724/17600 (after training)
+Processing test sample 16725/17600 (after training)
+Processing test sample 16726/17600 (after training)
+Processing test sample 16727/17600 (after training)
+Processing test sample 16728/17600 (after training)
+Processing test sample 16729/17600 (after training)
+Processing test sample 16730/17600 (after training)
+Processing test sample 16731/17600 (after training)
+Processing test sample 16732/17600 (after training)
+Processing test sample 16733/17600 (after training)
+Processing test sample 16734/17600 (after training)
+Processing test sample 16735/17600 (after training)
+Processing test sample 16736/17600 (after training)
+Processing test sample 16737/17600 (after training)
+Processing test sample 16738/17600 (after training)
+Processing test sample 16739/17600 (after training)
+Processing test sample 16740/17600 (after training)
+Processing test sample 16741/17600 (after training)
+Processing test sample 16742/17600 (after training)
+Processing test sample 16743/17600 (after training)
+Processing test sample 16744/17600 (after training)
+Processing test sample 16745/17600 (after training)
+Processing test sample 16746/17600 (after training)
+Processing test sample 16747/17600 (after training)
+Processing test sample 16748/17600 (after training)
+Processing test sample 16749/17600 (after training)
+Processing test sample 16750/17600 (after training)
+Processing test sample 16751/17600 (after training)
+Processing test sample 16752/17600 (after training)
+Processing test sample 16753/17600 (after training)
+Processing test sample 16754/17600 (after training)
+Processing test sample 16755/17600 (after training)
+Processing test sample 16756/17600 (after training)
+Processing test sample 16757/17600 (after training)
+Processing test sample 16758/17600 (after training)
+Processing test sample 16759/17600 (after training)
+Processing test sample 16760/17600 (after training)
+Processing test sample 16761/17600 (after training)
+Processing test sample 16762/17600 (after training)
+Processing test sample 16763/17600 (after training)
+Processing test sample 16764/17600 (after training)
+Processing test sample 16765/17600 (after training)
+Processing test sample 16766/17600 (after training)
+Processing test sample 16767/17600 (after training)
+Processing test sample 16768/17600 (after training)
+Processing test sample 16769/17600 (after training)
+Processing test sample 16770/17600 (after training)
+Processing test sample 16771/17600 (after training)
+Processing test sample 16772/17600 (after training)
+Processing test sample 16773/17600 (after training)
+Processing test sample 16774/17600 (after training)
+Processing test sample 16775/17600 (after training)
+Processing test sample 16776/17600 (after training)
+Processing test sample 16777/17600 (after training)
+Processing test sample 16778/17600 (after training)
+Processing test sample 16779/17600 (after training)
+Processing test sample 16780/17600 (after training)
+Processing test sample 16781/17600 (after training)
+Processing test sample 16782/17600 (after training)
+Processing test sample 16783/17600 (after training)
+Processing test sample 16784/17600 (after training)
+Processing test sample 16785/17600 (after training)
+Processing test sample 16786/17600 (after training)
+Processing test sample 16787/17600 (after training)
+Processing test sample 16788/17600 (after training)
+Processing test sample 16789/17600 (after training)
+Processing test sample 16790/17600 (after training)
+Processing test sample 16791/17600 (after training)
+Processing test sample 16792/17600 (after training)
+Processing test sample 16793/17600 (after training)
+Processing test sample 16794/17600 (after training)
+Processing test sample 16795/17600 (after training)
+Processing test sample 16796/17600 (after training)
+Processing test sample 16797/17600 (after training)
+Processing test sample 16798/17600 (after training)
+Processing test sample 16799/17600 (after training)
+Processing test sample 16800/17600 (after training)
+Processing test sample 16801/17600 (after training)
+Processing test sample 16802/17600 (after training)
+Processing test sample 16803/17600 (after training)
+Processing test sample 16804/17600 (after training)
+Processing test sample 16805/17600 (after training)
+Processing test sample 16806/17600 (after training)
+Processing test sample 16807/17600 (after training)
+Processing test sample 16808/17600 (after training)
+Processing test sample 16809/17600 (after training)
+Processing test sample 16810/17600 (after training)
+Processing test sample 16811/17600 (after training)
+Processing test sample 16812/17600 (after training)
+Processing test sample 16813/17600 (after training)
+Processing test sample 16814/17600 (after training)
+Processing test sample 16815/17600 (after training)
+Processing test sample 16816/17600 (after training)
+Processing test sample 16817/17600 (after training)
+Processing test sample 16818/17600 (after training)
+Processing test sample 16819/17600 (after training)
+Processing test sample 16820/17600 (after training)
+Processing test sample 16821/17600 (after training)
+Processing test sample 16822/17600 (after training)
+Processing test sample 16823/17600 (after training)
+Processing test sample 16824/17600 (after training)
+Processing test sample 16825/17600 (after training)
+Processing test sample 16826/17600 (after training)
+Processing test sample 16827/17600 (after training)
+Processing test sample 16828/17600 (after training)
+Processing test sample 16829/17600 (after training)
+Processing test sample 16830/17600 (after training)
+Processing test sample 16831/17600 (after training)
+Processing test sample 16832/17600 (after training)
+Processing test sample 16833/17600 (after training)
+Processing test sample 16834/17600 (after training)
+Processing test sample 16835/17600 (after training)
+Processing test sample 16836/17600 (after training)
+Processing test sample 16837/17600 (after training)
+Processing test sample 16838/17600 (after training)
+Processing test sample 16839/17600 (after training)
+Processing test sample 16840/17600 (after training)
+Processing test sample 16841/17600 (after training)
+Processing test sample 16842/17600 (after training)
+Processing test sample 16843/17600 (after training)
+Processing test sample 16844/17600 (after training)
+Processing test sample 16845/17600 (after training)
+Processing test sample 16846/17600 (after training)
+Processing test sample 16847/17600 (after training)
+Processing test sample 16848/17600 (after training)
+Processing test sample 16849/17600 (after training)
+Processing test sample 16850/17600 (after training)
+Processing test sample 16851/17600 (after training)
+Processing test sample 16852/17600 (after training)
+Processing test sample 16853/17600 (after training)
+Processing test sample 16854/17600 (after training)
+Processing test sample 16855/17600 (after training)
+Processing test sample 16856/17600 (after training)
+Processing test sample 16857/17600 (after training)
+Processing test sample 16858/17600 (after training)
+Processing test sample 16859/17600 (after training)
+Processing test sample 16860/17600 (after training)
+Processing test sample 16861/17600 (after training)
+Processing test sample 16862/17600 (after training)
+Processing test sample 16863/17600 (after training)
+Processing test sample 16864/17600 (after training)
+Processing test sample 16865/17600 (after training)
+Processing test sample 16866/17600 (after training)
+Processing test sample 16867/17600 (after training)
+Processing test sample 16868/17600 (after training)
+Processing test sample 16869/17600 (after training)
+Processing test sample 16870/17600 (after training)
+Processing test sample 16871/17600 (after training)
+Processing test sample 16872/17600 (after training)
+Processing test sample 16873/17600 (after training)
+Processing test sample 16874/17600 (after training)
+Processing test sample 16875/17600 (after training)
+Processing test sample 16876/17600 (after training)
+Processing test sample 16877/17600 (after training)
+Processing test sample 16878/17600 (after training)
+Processing test sample 16879/17600 (after training)
+Processing test sample 16880/17600 (after training)
+Processing test sample 16881/17600 (after training)
+Processing test sample 16882/17600 (after training)
+Processing test sample 16883/17600 (after training)
+Processing test sample 16884/17600 (after training)
+Processing test sample 16885/17600 (after training)
+Processing test sample 16886/17600 (after training)
+Processing test sample 16887/17600 (after training)
+Processing test sample 16888/17600 (after training)
+Processing test sample 16889/17600 (after training)
+Processing test sample 16890/17600 (after training)
+Processing test sample 16891/17600 (after training)
+Processing test sample 16892/17600 (after training)
+Processing test sample 16893/17600 (after training)
+Processing test sample 16894/17600 (after training)
+Processing test sample 16895/17600 (after training)
+Processing test sample 16896/17600 (after training)
+Processing test sample 16897/17600 (after training)
+Processing test sample 16898/17600 (after training)
+Processing test sample 16899/17600 (after training)
+Processing test sample 16900/17600 (after training)
+Processing test sample 16901/17600 (after training)
+Processing test sample 16902/17600 (after training)
+Processing test sample 16903/17600 (after training)
+Processing test sample 16904/17600 (after training)
+Processing test sample 16905/17600 (after training)
+Processing test sample 16906/17600 (after training)
+Processing test sample 16907/17600 (after training)
+Processing test sample 16908/17600 (after training)
+Processing test sample 16909/17600 (after training)
+Processing test sample 16910/17600 (after training)
+Processing test sample 16911/17600 (after training)
+Processing test sample 16912/17600 (after training)
+Processing test sample 16913/17600 (after training)
+Error in bert_gradient: The size of tensor a (1095) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 16913 after training: 'dict' object has no attribute 'item'
+Processing test sample 16914/17600 (after training)
+Processing test sample 16915/17600 (after training)
+Processing test sample 16916/17600 (after training)
+Processing test sample 16917/17600 (after training)
+Error in bert_gradient: The size of tensor a (601) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 16917 after training: 'dict' object has no attribute 'item'
+Processing test sample 16918/17600 (after training)
+Error in bert_gradient: The size of tensor a (669) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 16918 after training: 'dict' object has no attribute 'item'
+Processing test sample 16919/17600 (after training)
+Error in bert_gradient: The size of tensor a (532) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 16919 after training: 'dict' object has no attribute 'item'
+Processing test sample 16920/17600 (after training)
+Processing test sample 16921/17600 (after training)
+Processing test sample 16922/17600 (after training)
+Processing test sample 16923/17600 (after training)
+Error in bert_gradient: The size of tensor a (532) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 16923 after training: 'dict' object has no attribute 'item'
+Processing test sample 16924/17600 (after training)
+Processing test sample 16925/17600 (after training)
+Processing test sample 16926/17600 (after training)
+Processing test sample 16927/17600 (after training)
+Processing test sample 16928/17600 (after training)
+Processing test sample 16929/17600 (after training)
+Processing test sample 16930/17600 (after training)
+Processing test sample 16931/17600 (after training)
+Processing test sample 16932/17600 (after training)
+Processing test sample 16933/17600 (after training)
+Processing test sample 16934/17600 (after training)
+Processing test sample 16935/17600 (after training)
+Processing test sample 16936/17600 (after training)
+Processing test sample 16937/17600 (after training)
+Processing test sample 16938/17600 (after training)
+Processing test sample 16939/17600 (after training)
+Processing test sample 16940/17600 (after training)
+Processing test sample 16941/17600 (after training)
+Processing test sample 16942/17600 (after training)
+Processing test sample 16943/17600 (after training)
+Processing test sample 16944/17600 (after training)
+Processing test sample 16945/17600 (after training)
+Processing test sample 16946/17600 (after training)
+Processing test sample 16947/17600 (after training)
+Processing test sample 16948/17600 (after training)
+Processing test sample 16949/17600 (after training)
+Processing test sample 16950/17600 (after training)
+Processing test sample 16951/17600 (after training)
+Processing test sample 16952/17600 (after training)
+Processing test sample 16953/17600 (after training)
+Processing test sample 16954/17600 (after training)
+Processing test sample 16955/17600 (after training)
+Processing test sample 16956/17600 (after training)
+Processing test sample 16957/17600 (after training)
+Processing test sample 16958/17600 (after training)
+Processing test sample 16959/17600 (after training)
+Processing test sample 16960/17600 (after training)
+Processing test sample 16961/17600 (after training)
+Processing test sample 16962/17600 (after training)
+Processing test sample 16963/17600 (after training)
+Processing test sample 16964/17600 (after training)
+Processing test sample 16965/17600 (after training)
+Processing test sample 16966/17600 (after training)
+Processing test sample 16967/17600 (after training)
+Error in bert_gradient: The size of tensor a (638) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 16967 after training: 'dict' object has no attribute 'item'
+Processing test sample 16968/17600 (after training)
+Processing test sample 16969/17600 (after training)
+Processing test sample 16970/17600 (after training)
+Processing test sample 16971/17600 (after training)
+Processing test sample 16972/17600 (after training)
+Processing test sample 16973/17600 (after training)
+Processing test sample 16974/17600 (after training)
+Processing test sample 16975/17600 (after training)
+Processing test sample 16976/17600 (after training)
+Processing test sample 16977/17600 (after training)
+Processing test sample 16978/17600 (after training)
+Processing test sample 16979/17600 (after training)
+Processing test sample 16980/17600 (after training)
+Processing test sample 16981/17600 (after training)
+Processing test sample 16982/17600 (after training)
+Processing test sample 16983/17600 (after training)
+Processing test sample 16984/17600 (after training)
+Processing test sample 16985/17600 (after training)
+Processing test sample 16986/17600 (after training)
+Processing test sample 16987/17600 (after training)
+Processing test sample 16988/17600 (after training)
+Processing test sample 16989/17600 (after training)
+Processing test sample 16990/17600 (after training)
+Processing test sample 16991/17600 (after training)
+Processing test sample 16992/17600 (after training)
+Processing test sample 16993/17600 (after training)
+Processing test sample 16994/17600 (after training)
+Processing test sample 16995/17600 (after training)
+Processing test sample 16996/17600 (after training)
+Error in bert_gradient: The size of tensor a (541) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 16996 after training: 'dict' object has no attribute 'item'
+Processing test sample 16997/17600 (after training)
+Processing test sample 16998/17600 (after training)
+Processing test sample 16999/17600 (after training)
+Processing test sample 17000/17600 (after training)
+Processing test sample 17001/17600 (after training)
+Processing test sample 17002/17600 (after training)
+Processing test sample 17003/17600 (after training)
+Processing test sample 17004/17600 (after training)
+Processing test sample 17005/17600 (after training)
+Processing test sample 17006/17600 (after training)
+Processing test sample 17007/17600 (after training)
+Processing test sample 17008/17600 (after training)
+Processing test sample 17009/17600 (after training)
+Processing test sample 17010/17600 (after training)
+Processing test sample 17011/17600 (after training)
+Processing test sample 17012/17600 (after training)
+Processing test sample 17013/17600 (after training)
+Processing test sample 17014/17600 (after training)
+Processing test sample 17015/17600 (after training)
+Processing test sample 17016/17600 (after training)
+Processing test sample 17017/17600 (after training)
+Processing test sample 17018/17600 (after training)
+Processing test sample 17019/17600 (after training)
+Processing test sample 17020/17600 (after training)
+Processing test sample 17021/17600 (after training)
+Processing test sample 17022/17600 (after training)
+Processing test sample 17023/17600 (after training)
+Processing test sample 17024/17600 (after training)
+Processing test sample 17025/17600 (after training)
+Processing test sample 17026/17600 (after training)
+Processing test sample 17027/17600 (after training)
+Processing test sample 17028/17600 (after training)
+Processing test sample 17029/17600 (after training)
+Processing test sample 17030/17600 (after training)
+Processing test sample 17031/17600 (after training)
+Processing test sample 17032/17600 (after training)
+Processing test sample 17033/17600 (after training)
+Processing test sample 17034/17600 (after training)
+Processing test sample 17035/17600 (after training)
+Processing test sample 17036/17600 (after training)
+Processing test sample 17037/17600 (after training)
+Processing test sample 17038/17600 (after training)
+Processing test sample 17039/17600 (after training)
+Processing test sample 17040/17600 (after training)
+Processing test sample 17041/17600 (after training)
+Processing test sample 17042/17600 (after training)
+Processing test sample 17043/17600 (after training)
+Processing test sample 17044/17600 (after training)
+Processing test sample 17045/17600 (after training)
+Processing test sample 17046/17600 (after training)
+Processing test sample 17047/17600 (after training)
+Processing test sample 17048/17600 (after training)
+Processing test sample 17049/17600 (after training)
+Processing test sample 17050/17600 (after training)
+Processing test sample 17051/17600 (after training)
+Processing test sample 17052/17600 (after training)
+Processing test sample 17053/17600 (after training)
+Processing test sample 17054/17600 (after training)
+Processing test sample 17055/17600 (after training)
+Processing test sample 17056/17600 (after training)
+Processing test sample 17057/17600 (after training)
+Processing test sample 17058/17600 (after training)
+Processing test sample 17059/17600 (after training)
+Processing test sample 17060/17600 (after training)
+Processing test sample 17061/17600 (after training)
+Processing test sample 17062/17600 (after training)
+Processing test sample 17063/17600 (after training)
+Processing test sample 17064/17600 (after training)
+Processing test sample 17065/17600 (after training)
+Processing test sample 17066/17600 (after training)
+Processing test sample 17067/17600 (after training)
+Processing test sample 17068/17600 (after training)
+Processing test sample 17069/17600 (after training)
+Processing test sample 17070/17600 (after training)
+Processing test sample 17071/17600 (after training)
+Processing test sample 17072/17600 (after training)
+Processing test sample 17073/17600 (after training)
+Processing test sample 17074/17600 (after training)
+Processing test sample 17075/17600 (after training)
+Processing test sample 17076/17600 (after training)
+Processing test sample 17077/17600 (after training)
+Processing test sample 17078/17600 (after training)
+Processing test sample 17079/17600 (after training)
+Processing test sample 17080/17600 (after training)
+Processing test sample 17081/17600 (after training)
+Processing test sample 17082/17600 (after training)
+Processing test sample 17083/17600 (after training)
+Processing test sample 17084/17600 (after training)
+Processing test sample 17085/17600 (after training)
+Processing test sample 17086/17600 (after training)
+Processing test sample 17087/17600 (after training)
+Processing test sample 17088/17600 (after training)
+Processing test sample 17089/17600 (after training)
+Processing test sample 17090/17600 (after training)
+Processing test sample 17091/17600 (after training)
+Processing test sample 17092/17600 (after training)
+Processing test sample 17093/17600 (after training)
+Processing test sample 17094/17600 (after training)
+Processing test sample 17095/17600 (after training)
+Processing test sample 17096/17600 (after training)
+Processing test sample 17097/17600 (after training)
+Processing test sample 17098/17600 (after training)
+Processing test sample 17099/17600 (after training)
+Processing test sample 17100/17600 (after training)
+Processing test sample 17101/17600 (after training)
+Processing test sample 17102/17600 (after training)
+Processing test sample 17103/17600 (after training)
+Processing test sample 17104/17600 (after training)
+Processing test sample 17105/17600 (after training)
+Processing test sample 17106/17600 (after training)
+Processing test sample 17107/17600 (after training)
+Processing test sample 17108/17600 (after training)
+Processing test sample 17109/17600 (after training)
+Processing test sample 17110/17600 (after training)
+Processing test sample 17111/17600 (after training)
+Processing test sample 17112/17600 (after training)
+Processing test sample 17113/17600 (after training)
+Processing test sample 17114/17600 (after training)
+Processing test sample 17115/17600 (after training)
+Processing test sample 17116/17600 (after training)
+Processing test sample 17117/17600 (after training)
+Processing test sample 17118/17600 (after training)
+Processing test sample 17119/17600 (after training)
+Processing test sample 17120/17600 (after training)
+Processing test sample 17121/17600 (after training)
+Processing test sample 17122/17600 (after training)
+Processing test sample 17123/17600 (after training)
+Processing test sample 17124/17600 (after training)
+Processing test sample 17125/17600 (after training)
+Processing test sample 17126/17600 (after training)
+Processing test sample 17127/17600 (after training)
+Processing test sample 17128/17600 (after training)
+Processing test sample 17129/17600 (after training)
+Processing test sample 17130/17600 (after training)
+Processing test sample 17131/17600 (after training)
+Processing test sample 17132/17600 (after training)
+Processing test sample 17133/17600 (after training)
+Processing test sample 17134/17600 (after training)
+Processing test sample 17135/17600 (after training)
+Processing test sample 17136/17600 (after training)
+Processing test sample 17137/17600 (after training)
+Processing test sample 17138/17600 (after training)
+Processing test sample 17139/17600 (after training)
+Processing test sample 17140/17600 (after training)
+Processing test sample 17141/17600 (after training)
+Processing test sample 17142/17600 (after training)
+Processing test sample 17143/17600 (after training)
+Processing test sample 17144/17600 (after training)
+Processing test sample 17145/17600 (after training)
+Processing test sample 17146/17600 (after training)
+Processing test sample 17147/17600 (after training)
+Processing test sample 17148/17600 (after training)
+Processing test sample 17149/17600 (after training)
+Processing test sample 17150/17600 (after training)
+Processing test sample 17151/17600 (after training)
+Processing test sample 17152/17600 (after training)
+Processing test sample 17153/17600 (after training)
+Processing test sample 17154/17600 (after training)
+Processing test sample 17155/17600 (after training)
+Processing test sample 17156/17600 (after training)
+Processing test sample 17157/17600 (after training)
+Processing test sample 17158/17600 (after training)
+Processing test sample 17159/17600 (after training)
+Processing test sample 17160/17600 (after training)
+Processing test sample 17161/17600 (after training)
+Processing test sample 17162/17600 (after training)
+Processing test sample 17163/17600 (after training)
+Processing test sample 17164/17600 (after training)
+Processing test sample 17165/17600 (after training)
+Processing test sample 17166/17600 (after training)
+Processing test sample 17167/17600 (after training)
+Processing test sample 17168/17600 (after training)
+Processing test sample 17169/17600 (after training)
+Processing test sample 17170/17600 (after training)
+Processing test sample 17171/17600 (after training)
+Processing test sample 17172/17600 (after training)
+Processing test sample 17173/17600 (after training)
+Processing test sample 17174/17600 (after training)
+Processing test sample 17175/17600 (after training)
+Processing test sample 17176/17600 (after training)
+Processing test sample 17177/17600 (after training)
+Processing test sample 17178/17600 (after training)
+Processing test sample 17179/17600 (after training)
+Processing test sample 17180/17600 (after training)
+Processing test sample 17181/17600 (after training)
+Processing test sample 17182/17600 (after training)
+Processing test sample 17183/17600 (after training)
+Processing test sample 17184/17600 (after training)
+Processing test sample 17185/17600 (after training)
+Processing test sample 17186/17600 (after training)
+Processing test sample 17187/17600 (after training)
+Processing test sample 17188/17600 (after training)
+Processing test sample 17189/17600 (after training)
+Processing test sample 17190/17600 (after training)
+Processing test sample 17191/17600 (after training)
+Processing test sample 17192/17600 (after training)
+Processing test sample 17193/17600 (after training)
+Processing test sample 17194/17600 (after training)
+Processing test sample 17195/17600 (after training)
+Processing test sample 17196/17600 (after training)
+Processing test sample 17197/17600 (after training)
+Processing test sample 17198/17600 (after training)
+Processing test sample 17199/17600 (after training)
+Processing test sample 17200/17600 (after training)
+Processing test sample 17201/17600 (after training)
+Processing test sample 17202/17600 (after training)
+Processing test sample 17203/17600 (after training)
+Processing test sample 17204/17600 (after training)
+Processing test sample 17205/17600 (after training)
+Processing test sample 17206/17600 (after training)
+Processing test sample 17207/17600 (after training)
+Processing test sample 17208/17600 (after training)
+Processing test sample 17209/17600 (after training)
+Processing test sample 17210/17600 (after training)
+Processing test sample 17211/17600 (after training)
+Processing test sample 17212/17600 (after training)
+Processing test sample 17213/17600 (after training)
+Processing test sample 17214/17600 (after training)
+Processing test sample 17215/17600 (after training)
+Processing test sample 17216/17600 (after training)
+Processing test sample 17217/17600 (after training)
+Processing test sample 17218/17600 (after training)
+Processing test sample 17219/17600 (after training)
+Processing test sample 17220/17600 (after training)
+Processing test sample 17221/17600 (after training)
+Processing test sample 17222/17600 (after training)
+Processing test sample 17223/17600 (after training)
+Processing test sample 17224/17600 (after training)
+Processing test sample 17225/17600 (after training)
+Processing test sample 17226/17600 (after training)
+Processing test sample 17227/17600 (after training)
+Processing test sample 17228/17600 (after training)
+Processing test sample 17229/17600 (after training)
+Processing test sample 17230/17600 (after training)
+Processing test sample 17231/17600 (after training)
+Processing test sample 17232/17600 (after training)
+Processing test sample 17233/17600 (after training)
+Processing test sample 17234/17600 (after training)
+Processing test sample 17235/17600 (after training)
+Processing test sample 17236/17600 (after training)
+Processing test sample 17237/17600 (after training)
+Processing test sample 17238/17600 (after training)
+Processing test sample 17239/17600 (after training)
+Processing test sample 17240/17600 (after training)
+Processing test sample 17241/17600 (after training)
+Processing test sample 17242/17600 (after training)
+Processing test sample 17243/17600 (after training)
+Processing test sample 17244/17600 (after training)
+Processing test sample 17245/17600 (after training)
+Processing test sample 17246/17600 (after training)
+Processing test sample 17247/17600 (after training)
+Processing test sample 17248/17600 (after training)
+Processing test sample 17249/17600 (after training)
+Processing test sample 17250/17600 (after training)
+Processing test sample 17251/17600 (after training)
+Processing test sample 17252/17600 (after training)
+Processing test sample 17253/17600 (after training)
+Processing test sample 17254/17600 (after training)
+Processing test sample 17255/17600 (after training)
+Processing test sample 17256/17600 (after training)
+Processing test sample 17257/17600 (after training)
+Processing test sample 17258/17600 (after training)
+Processing test sample 17259/17600 (after training)
+Processing test sample 17260/17600 (after training)
+Processing test sample 17261/17600 (after training)
+Processing test sample 17262/17600 (after training)
+Processing test sample 17263/17600 (after training)
+Processing test sample 17264/17600 (after training)
+Processing test sample 17265/17600 (after training)
+Processing test sample 17266/17600 (after training)
+Processing test sample 17267/17600 (after training)
+Processing test sample 17268/17600 (after training)
+Processing test sample 17269/17600 (after training)
+Processing test sample 17270/17600 (after training)
+Processing test sample 17271/17600 (after training)
+Processing test sample 17272/17600 (after training)
+Processing test sample 17273/17600 (after training)
+Processing test sample 17274/17600 (after training)
+Processing test sample 17275/17600 (after training)
+Processing test sample 17276/17600 (after training)
+Processing test sample 17277/17600 (after training)
+Processing test sample 17278/17600 (after training)
+Processing test sample 17279/17600 (after training)
+Processing test sample 17280/17600 (after training)
+Processing test sample 17281/17600 (after training)
+Processing test sample 17282/17600 (after training)
+Processing test sample 17283/17600 (after training)
+Processing test sample 17284/17600 (after training)
+Processing test sample 17285/17600 (after training)
+Processing test sample 17286/17600 (after training)
+Processing test sample 17287/17600 (after training)
+Processing test sample 17288/17600 (after training)
+Error processing test sample 17288 after training: list index out of range
+Processing test sample 17289/17600 (after training)
+Error processing test sample 17289 after training: list index out of range
+Processing test sample 17290/17600 (after training)
+Error processing test sample 17290 after training: list index out of range
+Processing test sample 17291/17600 (after training)
+Error processing test sample 17291 after training: list index out of range
+Processing test sample 17292/17600 (after training)
+Error processing test sample 17292 after training: list index out of range
+Processing test sample 17293/17600 (after training)
+Error processing test sample 17293 after training: list index out of range
+Processing test sample 17294/17600 (after training)
+Error processing test sample 17294 after training: list index out of range
+Processing test sample 17295/17600 (after training)
+Error processing test sample 17295 after training: list index out of range
+Processing test sample 17296/17600 (after training)
+Error processing test sample 17296 after training: list index out of range
+Processing test sample 17297/17600 (after training)
+Error processing test sample 17297 after training: list index out of range
+Processing test sample 17298/17600 (after training)
+Error processing test sample 17298 after training: list index out of range
+Processing test sample 17299/17600 (after training)
+Error processing test sample 17299 after training: list index out of range
+Processing test sample 17300/17600 (after training)
+Error processing test sample 17300 after training: list index out of range
+Processing test sample 17301/17600 (after training)
+Error processing test sample 17301 after training: list index out of range
+Processing test sample 17302/17600 (after training)
+Error processing test sample 17302 after training: list index out of range
+Processing test sample 17303/17600 (after training)
+Error processing test sample 17303 after training: list index out of range
+Processing test sample 17304/17600 (after training)
+Error processing test sample 17304 after training: list index out of range
+Processing test sample 17305/17600 (after training)
+Error processing test sample 17305 after training: list index out of range
+Processing test sample 17306/17600 (after training)
+Error processing test sample 17306 after training: list index out of range
+Processing test sample 17307/17600 (after training)
+Error processing test sample 17307 after training: list index out of range
+Processing test sample 17308/17600 (after training)
+Error processing test sample 17308 after training: list index out of range
+Processing test sample 17309/17600 (after training)
+Error processing test sample 17309 after training: list index out of range
+Processing test sample 17310/17600 (after training)
+Error processing test sample 17310 after training: list index out of range
+Processing test sample 17311/17600 (after training)
+Error processing test sample 17311 after training: list index out of range
+Processing test sample 17312/17600 (after training)
+Error processing test sample 17312 after training: list index out of range
+Processing test sample 17313/17600 (after training)
+Error processing test sample 17313 after training: list index out of range
+Processing test sample 17314/17600 (after training)
+Error processing test sample 17314 after training: list index out of range
+Processing test sample 17315/17600 (after training)
+Error processing test sample 17315 after training: list index out of range
+Processing test sample 17316/17600 (after training)
+Error processing test sample 17316 after training: list index out of range
+Processing test sample 17317/17600 (after training)
+Error processing test sample 17317 after training: list index out of range
+Processing test sample 17318/17600 (after training)
+Error processing test sample 17318 after training: list index out of range
+Processing test sample 17319/17600 (after training)
+Error processing test sample 17319 after training: list index out of range
+Processing test sample 17320/17600 (after training)
+Error processing test sample 17320 after training: list index out of range
+Processing test sample 17321/17600 (after training)
+Error processing test sample 17321 after training: list index out of range
+Processing test sample 17322/17600 (after training)
+Error processing test sample 17322 after training: list index out of range
+Processing test sample 17323/17600 (after training)
+Error processing test sample 17323 after training: list index out of range
+Processing test sample 17324/17600 (after training)
+Error processing test sample 17324 after training: list index out of range
+Processing test sample 17325/17600 (after training)
+Error processing test sample 17325 after training: list index out of range
+Processing test sample 17326/17600 (after training)
+Error processing test sample 17326 after training: list index out of range
+Processing test sample 17327/17600 (after training)
+Error processing test sample 17327 after training: list index out of range
+Processing test sample 17328/17600 (after training)
+Error processing test sample 17328 after training: list index out of range
+Processing test sample 17329/17600 (after training)
+Error processing test sample 17329 after training: list index out of range
+Processing test sample 17330/17600 (after training)
+Error processing test sample 17330 after training: list index out of range
+Processing test sample 17331/17600 (after training)
+Error processing test sample 17331 after training: list index out of range
+Processing test sample 17332/17600 (after training)
+Error processing test sample 17332 after training: list index out of range
+Processing test sample 17333/17600 (after training)
+Error processing test sample 17333 after training: list index out of range
+Processing test sample 17334/17600 (after training)
+Error processing test sample 17334 after training: list index out of range
+Processing test sample 17335/17600 (after training)
+Error processing test sample 17335 after training: list index out of range
+Processing test sample 17336/17600 (after training)
+Error processing test sample 17336 after training: list index out of range
+Processing test sample 17337/17600 (after training)
+Error processing test sample 17337 after training: list index out of range
+Processing test sample 17338/17600 (after training)
+Error processing test sample 17338 after training: list index out of range
+Processing test sample 17339/17600 (after training)
+Error processing test sample 17339 after training: list index out of range
+Processing test sample 17340/17600 (after training)
+Error processing test sample 17340 after training: list index out of range
+Processing test sample 17341/17600 (after training)
+Error processing test sample 17341 after training: list index out of range
+Processing test sample 17342/17600 (after training)
+Error processing test sample 17342 after training: list index out of range
+Processing test sample 17343/17600 (after training)
+Error processing test sample 17343 after training: list index out of range
+Processing test sample 17344/17600 (after training)
+Error processing test sample 17344 after training: list index out of range
+Processing test sample 17345/17600 (after training)
+Error processing test sample 17345 after training: list index out of range
+Processing test sample 17346/17600 (after training)
+Error processing test sample 17346 after training: list index out of range
+Processing test sample 17347/17600 (after training)
+Error processing test sample 17347 after training: list index out of range
+Processing test sample 17348/17600 (after training)
+Error processing test sample 17348 after training: list index out of range
+Processing test sample 17349/17600 (after training)
+Error processing test sample 17349 after training: list index out of range
+Processing test sample 17350/17600 (after training)
+Error processing test sample 17350 after training: list index out of range
+Processing test sample 17351/17600 (after training)
+Error processing test sample 17351 after training: list index out of range
+Processing test sample 17352/17600 (after training)
+Error processing test sample 17352 after training: list index out of range
+Processing test sample 17353/17600 (after training)
+Error processing test sample 17353 after training: list index out of range
+Processing test sample 17354/17600 (after training)
+Error processing test sample 17354 after training: list index out of range
+Processing test sample 17355/17600 (after training)
+Error processing test sample 17355 after training: list index out of range
+Processing test sample 17356/17600 (after training)
+Error processing test sample 17356 after training: list index out of range
+Processing test sample 17357/17600 (after training)
+Error processing test sample 17357 after training: list index out of range
+Processing test sample 17358/17600 (after training)
+Error processing test sample 17358 after training: list index out of range
+Processing test sample 17359/17600 (after training)
+Error processing test sample 17359 after training: list index out of range
+Processing test sample 17360/17600 (after training)
+Error processing test sample 17360 after training: list index out of range
+Processing test sample 17361/17600 (after training)
+Error processing test sample 17361 after training: list index out of range
+Processing test sample 17362/17600 (after training)
+Error processing test sample 17362 after training: list index out of range
+Processing test sample 17363/17600 (after training)
+Error processing test sample 17363 after training: list index out of range
+Processing test sample 17364/17600 (after training)
+Error processing test sample 17364 after training: list index out of range
+Processing test sample 17365/17600 (after training)
+Error processing test sample 17365 after training: list index out of range
+Processing test sample 17366/17600 (after training)
+Error processing test sample 17366 after training: list index out of range
+Processing test sample 17367/17600 (after training)
+Error processing test sample 17367 after training: list index out of range
+Processing test sample 17368/17600 (after training)
+Error processing test sample 17368 after training: list index out of range
+Processing test sample 17369/17600 (after training)
+Error processing test sample 17369 after training: list index out of range
+Processing test sample 17370/17600 (after training)
+Error processing test sample 17370 after training: list index out of range
+Processing test sample 17371/17600 (after training)
+Error processing test sample 17371 after training: list index out of range
+Processing test sample 17372/17600 (after training)
+Error processing test sample 17372 after training: list index out of range
+Processing test sample 17373/17600 (after training)
+Error processing test sample 17373 after training: list index out of range
+Processing test sample 17374/17600 (after training)
+Error processing test sample 17374 after training: list index out of range
+Processing test sample 17375/17600 (after training)
+Error processing test sample 17375 after training: list index out of range
+Processing test sample 17376/17600 (after training)
+Error processing test sample 17376 after training: list index out of range
+Processing test sample 17377/17600 (after training)
+Error processing test sample 17377 after training: list index out of range
+Processing test sample 17378/17600 (after training)
+Error processing test sample 17378 after training: list index out of range
+Processing test sample 17379/17600 (after training)
+Error processing test sample 17379 after training: list index out of range
+Processing test sample 17380/17600 (after training)
+Error processing test sample 17380 after training: list index out of range
+Processing test sample 17381/17600 (after training)
+Error processing test sample 17381 after training: list index out of range
+Processing test sample 17382/17600 (after training)
+Error processing test sample 17382 after training: list index out of range
+Processing test sample 17383/17600 (after training)
+Error processing test sample 17383 after training: list index out of range
+Processing test sample 17384/17600 (after training)
+Error processing test sample 17384 after training: list index out of range
+Processing test sample 17385/17600 (after training)
+Error processing test sample 17385 after training: list index out of range
+Processing test sample 17386/17600 (after training)
+Error processing test sample 17386 after training: list index out of range
+Processing test sample 17387/17600 (after training)
+Error processing test sample 17387 after training: list index out of range
+Processing test sample 17388/17600 (after training)
+Error processing test sample 17388 after training: list index out of range
+Processing test sample 17389/17600 (after training)
+Error processing test sample 17389 after training: list index out of range
+Processing test sample 17390/17600 (after training)
+Error processing test sample 17390 after training: list index out of range
+Processing test sample 17391/17600 (after training)
+Error processing test sample 17391 after training: list index out of range
+Processing test sample 17392/17600 (after training)
+Error processing test sample 17392 after training: list index out of range
+Processing test sample 17393/17600 (after training)
+Error processing test sample 17393 after training: list index out of range
+Processing test sample 17394/17600 (after training)
+Error processing test sample 17394 after training: list index out of range
+Processing test sample 17395/17600 (after training)
+Error processing test sample 17395 after training: list index out of range
+Processing test sample 17396/17600 (after training)
+Error processing test sample 17396 after training: list index out of range
+Processing test sample 17397/17600 (after training)
+Error processing test sample 17397 after training: list index out of range
+Processing test sample 17398/17600 (after training)
+Error processing test sample 17398 after training: list index out of range
+Processing test sample 17399/17600 (after training)
+Error processing test sample 17399 after training: list index out of range
+Processing test sample 17400/17600 (after training)
+Error processing test sample 17400 after training: list index out of range
+Processing test sample 17401/17600 (after training)
+Error processing test sample 17401 after training: list index out of range
+Processing test sample 17402/17600 (after training)
+Error processing test sample 17402 after training: list index out of range
+Processing test sample 17403/17600 (after training)
+Error processing test sample 17403 after training: list index out of range
+Processing test sample 17404/17600 (after training)
+Error processing test sample 17404 after training: list index out of range
+Processing test sample 17405/17600 (after training)
+Error processing test sample 17405 after training: list index out of range
+Processing test sample 17406/17600 (after training)
+Error processing test sample 17406 after training: list index out of range
+Processing test sample 17407/17600 (after training)
+Error processing test sample 17407 after training: list index out of range
+Processing test sample 17408/17600 (after training)
+Error processing test sample 17408 after training: list index out of range
+Processing test sample 17409/17600 (after training)
+Error processing test sample 17409 after training: list index out of range
+Processing test sample 17410/17600 (after training)
+Error processing test sample 17410 after training: list index out of range
+Processing test sample 17411/17600 (after training)
+Error processing test sample 17411 after training: list index out of range
+Processing test sample 17412/17600 (after training)
+Error processing test sample 17412 after training: list index out of range
+Processing test sample 17413/17600 (after training)
+Error processing test sample 17413 after training: list index out of range
+Processing test sample 17414/17600 (after training)
+Error processing test sample 17414 after training: list index out of range
+Processing test sample 17415/17600 (after training)
+Error processing test sample 17415 after training: list index out of range
+Processing test sample 17416/17600 (after training)
+Error processing test sample 17416 after training: list index out of range
+Processing test sample 17417/17600 (after training)
+Error processing test sample 17417 after training: list index out of range
+Processing test sample 17418/17600 (after training)
+Error processing test sample 17418 after training: list index out of range
+Processing test sample 17419/17600 (after training)
+Error processing test sample 17419 after training: list index out of range
+Processing test sample 17420/17600 (after training)
+Error processing test sample 17420 after training: list index out of range
+Processing test sample 17421/17600 (after training)
+Error processing test sample 17421 after training: list index out of range
+Processing test sample 17422/17600 (after training)
+Error processing test sample 17422 after training: list index out of range
+Processing test sample 17423/17600 (after training)
+Error processing test sample 17423 after training: list index out of range
+Processing test sample 17424/17600 (after training)
+Error processing test sample 17424 after training: list index out of range
+Processing test sample 17425/17600 (after training)
+Error processing test sample 17425 after training: list index out of range
+Processing test sample 17426/17600 (after training)
+Error processing test sample 17426 after training: list index out of range
+Processing test sample 17427/17600 (after training)
+Error processing test sample 17427 after training: list index out of range
+Processing test sample 17428/17600 (after training)
+Error processing test sample 17428 after training: list index out of range
+Processing test sample 17429/17600 (after training)
+Error processing test sample 17429 after training: list index out of range
+Processing test sample 17430/17600 (after training)
+Error processing test sample 17430 after training: list index out of range
+Processing test sample 17431/17600 (after training)
+Error processing test sample 17431 after training: list index out of range
+Processing test sample 17432/17600 (after training)
+Error processing test sample 17432 after training: list index out of range
+Processing test sample 17433/17600 (after training)
+Error processing test sample 17433 after training: list index out of range
+Processing test sample 17434/17600 (after training)
+Error processing test sample 17434 after training: list index out of range
+Processing test sample 17435/17600 (after training)
+Error processing test sample 17435 after training: list index out of range
+Processing test sample 17436/17600 (after training)
+Error processing test sample 17436 after training: list index out of range
+Processing test sample 17437/17600 (after training)
+Error processing test sample 17437 after training: list index out of range
+Processing test sample 17438/17600 (after training)
+Error processing test sample 17438 after training: list index out of range
+Processing test sample 17439/17600 (after training)
+Error processing test sample 17439 after training: list index out of range
+Processing test sample 17440/17600 (after training)
+Error processing test sample 17440 after training: list index out of range
+Processing test sample 17441/17600 (after training)
+Error processing test sample 17441 after training: list index out of range
+Processing test sample 17442/17600 (after training)
+Error processing test sample 17442 after training: list index out of range
+Processing test sample 17443/17600 (after training)
+Error processing test sample 17443 after training: list index out of range
+Processing test sample 17444/17600 (after training)
+Error processing test sample 17444 after training: list index out of range
+Processing test sample 17445/17600 (after training)
+Error processing test sample 17445 after training: list index out of range
+Processing test sample 17446/17600 (after training)
+Error processing test sample 17446 after training: list index out of range
+Processing test sample 17447/17600 (after training)
+Error processing test sample 17447 after training: list index out of range
+Processing test sample 17448/17600 (after training)
+Error processing test sample 17448 after training: list index out of range
+Processing test sample 17449/17600 (after training)
+Error processing test sample 17449 after training: list index out of range
+Processing test sample 17450/17600 (after training)
+Error processing test sample 17450 after training: list index out of range
+Processing test sample 17451/17600 (after training)
+Error processing test sample 17451 after training: list index out of range
+Processing test sample 17452/17600 (after training)
+Error processing test sample 17452 after training: list index out of range
+Processing test sample 17453/17600 (after training)
+Error processing test sample 17453 after training: list index out of range
+Processing test sample 17454/17600 (after training)
+Error processing test sample 17454 after training: list index out of range
+Processing test sample 17455/17600 (after training)
+Error processing test sample 17455 after training: list index out of range
+Processing test sample 17456/17600 (after training)
+Error processing test sample 17456 after training: list index out of range
+Processing test sample 17457/17600 (after training)
+Error processing test sample 17457 after training: list index out of range
+Processing test sample 17458/17600 (after training)
+Error processing test sample 17458 after training: list index out of range
+Processing test sample 17459/17600 (after training)
+Error processing test sample 17459 after training: list index out of range
+Processing test sample 17460/17600 (after training)
+Error processing test sample 17460 after training: list index out of range
+Processing test sample 17461/17600 (after training)
+Error processing test sample 17461 after training: list index out of range
+Processing test sample 17462/17600 (after training)
+Error processing test sample 17462 after training: list index out of range
+Processing test sample 17463/17600 (after training)
+Error processing test sample 17463 after training: list index out of range
+Processing test sample 17464/17600 (after training)
+Error processing test sample 17464 after training: list index out of range
+Processing test sample 17465/17600 (after training)
+Error processing test sample 17465 after training: list index out of range
+Processing test sample 17466/17600 (after training)
+Error processing test sample 17466 after training: list index out of range
+Processing test sample 17467/17600 (after training)
+Error processing test sample 17467 after training: list index out of range
+Processing test sample 17468/17600 (after training)
+Error processing test sample 17468 after training: list index out of range
+Processing test sample 17469/17600 (after training)
+Error processing test sample 17469 after training: list index out of range
+Processing test sample 17470/17600 (after training)
+Error processing test sample 17470 after training: list index out of range
+Processing test sample 17471/17600 (after training)
+Error processing test sample 17471 after training: list index out of range
+Processing test sample 17472/17600 (after training)
+Error processing test sample 17472 after training: list index out of range
+Processing test sample 17473/17600 (after training)
+Error processing test sample 17473 after training: list index out of range
+Processing test sample 17474/17600 (after training)
+Error processing test sample 17474 after training: list index out of range
+Processing test sample 17475/17600 (after training)
+Error processing test sample 17475 after training: list index out of range
+Processing test sample 17476/17600 (after training)
+Error processing test sample 17476 after training: list index out of range
+Processing test sample 17477/17600 (after training)
+Error processing test sample 17477 after training: list index out of range
+Processing test sample 17478/17600 (after training)
+Error processing test sample 17478 after training: list index out of range
+Processing test sample 17479/17600 (after training)
+Error processing test sample 17479 after training: list index out of range
+Processing test sample 17480/17600 (after training)
+Error processing test sample 17480 after training: list index out of range
+Processing test sample 17481/17600 (after training)
+Error processing test sample 17481 after training: list index out of range
+Processing test sample 17482/17600 (after training)
+Error processing test sample 17482 after training: list index out of range
+Processing test sample 17483/17600 (after training)
+Error processing test sample 17483 after training: list index out of range
+Processing test sample 17484/17600 (after training)
+Error processing test sample 17484 after training: list index out of range
+Processing test sample 17485/17600 (after training)
+Error processing test sample 17485 after training: list index out of range
+Processing test sample 17486/17600 (after training)
+Error processing test sample 17486 after training: list index out of range
+Processing test sample 17487/17600 (after training)
+Error processing test sample 17487 after training: list index out of range
+Processing test sample 17488/17600 (after training)
+Error processing test sample 17488 after training: list index out of range
+Processing test sample 17489/17600 (after training)
+Error processing test sample 17489 after training: list index out of range
+Processing test sample 17490/17600 (after training)
+Error processing test sample 17490 after training: list index out of range
+Processing test sample 17491/17600 (after training)
+Error processing test sample 17491 after training: list index out of range
+Processing test sample 17492/17600 (after training)
+Error processing test sample 17492 after training: list index out of range
+Processing test sample 17493/17600 (after training)
+Error processing test sample 17493 after training: list index out of range
+Processing test sample 17494/17600 (after training)
+Error processing test sample 17494 after training: list index out of range
+Processing test sample 17495/17600 (after training)
+Error processing test sample 17495 after training: list index out of range
+Processing test sample 17496/17600 (after training)
+Error processing test sample 17496 after training: list index out of range
+Processing test sample 17497/17600 (after training)
+Error processing test sample 17497 after training: list index out of range
+Processing test sample 17498/17600 (after training)
+Error processing test sample 17498 after training: list index out of range
+Processing test sample 17499/17600 (after training)
+Error processing test sample 17499 after training: list index out of range
+Processing test sample 17500/17600 (after training)
+Error processing test sample 17500 after training: list index out of range
+Processing test sample 17501/17600 (after training)
+Error processing test sample 17501 after training: list index out of range
+Processing test sample 17502/17600 (after training)
+Error processing test sample 17502 after training: list index out of range
+Processing test sample 17503/17600 (after training)
+Error processing test sample 17503 after training: list index out of range
+Processing test sample 17504/17600 (after training)
+Error processing test sample 17504 after training: list index out of range
+Processing test sample 17505/17600 (after training)
+Error processing test sample 17505 after training: list index out of range
+Processing test sample 17506/17600 (after training)
+Error processing test sample 17506 after training: list index out of range
+Processing test sample 17507/17600 (after training)
+Error processing test sample 17507 after training: list index out of range
+Processing test sample 17508/17600 (after training)
+Error processing test sample 17508 after training: list index out of range
+Processing test sample 17509/17600 (after training)
+Error processing test sample 17509 after training: list index out of range
+Processing test sample 17510/17600 (after training)
+Error processing test sample 17510 after training: list index out of range
+Processing test sample 17511/17600 (after training)
+Error processing test sample 17511 after training: list index out of range
+Processing test sample 17512/17600 (after training)
+Error processing test sample 17512 after training: list index out of range
+Processing test sample 17513/17600 (after training)
+Error processing test sample 17513 after training: list index out of range
+Processing test sample 17514/17600 (after training)
+Error processing test sample 17514 after training: list index out of range
+Processing test sample 17515/17600 (after training)
+Error processing test sample 17515 after training: list index out of range
+Processing test sample 17516/17600 (after training)
+Error processing test sample 17516 after training: list index out of range
+Processing test sample 17517/17600 (after training)
+Error processing test sample 17517 after training: list index out of range
+Processing test sample 17518/17600 (after training)
+Error processing test sample 17518 after training: list index out of range
+Processing test sample 17519/17600 (after training)
+Error processing test sample 17519 after training: list index out of range
+Processing test sample 17520/17600 (after training)
+Error processing test sample 17520 after training: list index out of range
+Processing test sample 17521/17600 (after training)
+Error processing test sample 17521 after training: list index out of range
+Processing test sample 17522/17600 (after training)
+Error processing test sample 17522 after training: list index out of range
+Processing test sample 17523/17600 (after training)
+Error processing test sample 17523 after training: list index out of range
+Processing test sample 17524/17600 (after training)
+Error processing test sample 17524 after training: list index out of range
+Processing test sample 17525/17600 (after training)
+Error processing test sample 17525 after training: list index out of range
+Processing test sample 17526/17600 (after training)
+Error processing test sample 17526 after training: list index out of range
+Processing test sample 17527/17600 (after training)
+Error processing test sample 17527 after training: list index out of range
+Processing test sample 17528/17600 (after training)
+Error processing test sample 17528 after training: list index out of range
+Processing test sample 17529/17600 (after training)
+Error processing test sample 17529 after training: list index out of range
+Processing test sample 17530/17600 (after training)
+Error processing test sample 17530 after training: list index out of range
+Processing test sample 17531/17600 (after training)
+Error processing test sample 17531 after training: list index out of range
+Processing test sample 17532/17600 (after training)
+Error processing test sample 17532 after training: list index out of range
+Processing test sample 17533/17600 (after training)
+Error processing test sample 17533 after training: list index out of range
+Processing test sample 17534/17600 (after training)
+Error processing test sample 17534 after training: list index out of range
+Processing test sample 17535/17600 (after training)
+Error processing test sample 17535 after training: list index out of range
+Processing test sample 17536/17600 (after training)
+Error processing test sample 17536 after training: list index out of range
+Processing test sample 17537/17600 (after training)
+Error processing test sample 17537 after training: list index out of range
+Processing test sample 17538/17600 (after training)
+Error processing test sample 17538 after training: list index out of range
+Processing test sample 17539/17600 (after training)
+Error processing test sample 17539 after training: list index out of range
+Processing test sample 17540/17600 (after training)
+Error processing test sample 17540 after training: list index out of range
+Processing test sample 17541/17600 (after training)
+Error processing test sample 17541 after training: list index out of range
+Processing test sample 17542/17600 (after training)
+Error processing test sample 17542 after training: list index out of range
+Processing test sample 17543/17600 (after training)
+Error processing test sample 17543 after training: list index out of range
+Processing test sample 17544/17600 (after training)
+Error processing test sample 17544 after training: list index out of range
+Processing test sample 17545/17600 (after training)
+Error processing test sample 17545 after training: list index out of range
+Processing test sample 17546/17600 (after training)
+Error processing test sample 17546 after training: list index out of range
+Processing test sample 17547/17600 (after training)
+Error processing test sample 17547 after training: list index out of range
+Processing test sample 17548/17600 (after training)
+Error processing test sample 17548 after training: list index out of range
+Processing test sample 17549/17600 (after training)
+Error processing test sample 17549 after training: list index out of range
+Processing test sample 17550/17600 (after training)
+Error processing test sample 17550 after training: list index out of range
+Processing test sample 17551/17600 (after training)
+Error processing test sample 17551 after training: list index out of range
+Processing test sample 17552/17600 (after training)
+Error processing test sample 17552 after training: list index out of range
+Processing test sample 17553/17600 (after training)
+Error processing test sample 17553 after training: list index out of range
+Processing test sample 17554/17600 (after training)
+Error processing test sample 17554 after training: list index out of range
+Processing test sample 17555/17600 (after training)
+Error processing test sample 17555 after training: list index out of range
+Processing test sample 17556/17600 (after training)
+Error processing test sample 17556 after training: list index out of range
+Processing test sample 17557/17600 (after training)
+Error processing test sample 17557 after training: list index out of range
+Processing test sample 17558/17600 (after training)
+Error processing test sample 17558 after training: list index out of range
+Processing test sample 17559/17600 (after training)
+Error processing test sample 17559 after training: list index out of range
+Processing test sample 17560/17600 (after training)
+Error processing test sample 17560 after training: list index out of range
+Processing test sample 17561/17600 (after training)
+Error processing test sample 17561 after training: list index out of range
+Processing test sample 17562/17600 (after training)
+Error processing test sample 17562 after training: list index out of range
+Processing test sample 17563/17600 (after training)
+Error processing test sample 17563 after training: list index out of range
+Processing test sample 17564/17600 (after training)
+Error processing test sample 17564 after training: list index out of range
+Processing test sample 17565/17600 (after training)
+Error processing test sample 17565 after training: list index out of range
+Processing test sample 17566/17600 (after training)
+Error processing test sample 17566 after training: list index out of range
+Processing test sample 17567/17600 (after training)
+Error processing test sample 17567 after training: list index out of range
+Processing test sample 17568/17600 (after training)
+Error processing test sample 17568 after training: list index out of range
+Processing test sample 17569/17600 (after training)
+Error processing test sample 17569 after training: list index out of range
+Processing test sample 17570/17600 (after training)
+Error processing test sample 17570 after training: list index out of range
+Processing test sample 17571/17600 (after training)
+Error processing test sample 17571 after training: list index out of range
+Processing test sample 17572/17600 (after training)
+Error processing test sample 17572 after training: list index out of range
+Processing test sample 17573/17600 (after training)
+Error processing test sample 17573 after training: list index out of range
+Processing test sample 17574/17600 (after training)
+Error processing test sample 17574 after training: list index out of range
+Processing test sample 17575/17600 (after training)
+Error in bert_gradient: The size of tensor a (575) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 17575 after training: 'dict' object has no attribute 'item'
+Processing test sample 17576/17600 (after training)
+Error processing test sample 17576 after training: list index out of range
+Processing test sample 17577/17600 (after training)
+Error processing test sample 17577 after training: list index out of range
+Processing test sample 17578/17600 (after training)
+Error processing test sample 17578 after training: list index out of range
+Processing test sample 17579/17600 (after training)
+Error processing test sample 17579 after training: list index out of range
+Processing test sample 17580/17600 (after training)
+Error processing test sample 17580 after training: list index out of range
+Processing test sample 17581/17600 (after training)
+Error processing test sample 17581 after training: list index out of range
+Processing test sample 17582/17600 (after training)
+Error processing test sample 17582 after training: list index out of range
+Processing test sample 17583/17600 (after training)
+Error processing test sample 17583 after training: list index out of range
+Processing test sample 17584/17600 (after training)
+Error processing test sample 17584 after training: list index out of range
+Processing test sample 17585/17600 (after training)
+Error processing test sample 17585 after training: list index out of range
+Processing test sample 17586/17600 (after training)
+Error processing test sample 17586 after training: list index out of range
+Processing test sample 17587/17600 (after training)
+Error processing test sample 17587 after training: list index out of range
+Processing test sample 17588/17600 (after training)
+Error processing test sample 17588 after training: list index out of range
+Processing test sample 17589/17600 (after training)
+Error processing test sample 17589 after training: list index out of range
+Processing test sample 17590/17600 (after training)
+Error processing test sample 17590 after training: list index out of range
+Processing test sample 17591/17600 (after training)
+Error processing test sample 17591 after training: list index out of range
+Processing test sample 17592/17600 (after training)
+Error processing test sample 17592 after training: list index out of range
+Processing test sample 17593/17600 (after training)
+Error processing test sample 17593 after training: list index out of range
+Processing test sample 17594/17600 (after training)
+Error processing test sample 17594 after training: list index out of range
+Processing test sample 17595/17600 (after training)
+Error processing test sample 17595 after training: list index out of range
+Processing test sample 17596/17600 (after training)
+Error processing test sample 17596 after training: list index out of range
+Processing test sample 17597/17600 (after training)
+Error processing test sample 17597 after training: list index out of range
+Processing test sample 17598/17600 (after training)
+Error processing test sample 17598 after training: list index out of range
+Processing test sample 17599/17600 (after training)
+Error processing test sample 17599 after training: list index out of range
+Processing test sample 17600/17600 (after training)
+Error processing test sample 17600 after training: list index out of range
+
+Processing complete. Saved 17287 results. Failed: 938

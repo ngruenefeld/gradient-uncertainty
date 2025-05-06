@@ -3029,3 +3029,9 @@ Processing sample 1000 (dataset index 15544)
 JSONDecodeError: Expecting value: line 20226 column 1 (char 55129)
 Error getting rephrasings for sample 1000 (dataset index 15544): Invalid JSON response from API
 Processing complete. Saved 995 successful results. Failed: 5
+[main e27a8c9] Domain Specific LLM Script Results for Run 2474 (Commit: fee5e94)
+ 6 files changed, 7025 insertions(+)
+ create mode 100644 data/sampled/domainspecific_results_2474_medical-llama_4bit_rephrase_ag-pubmed.pkl
+ create mode 100644 slurm-outputs/slurm.2510.abakus22.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   840a538..e27a8c9  main -> main
