@@ -54,3 +54,9 @@ Processing sample 10/10 (dataset index: 2279)
 Processing sample 10 (dataset index 2279)
 Sample 10 (dataset index 2279) processed successfully with 3 rephrasings.
 Processing complete. Saved 10 successful results. Failed: 0
+[main 24c6950] Domain Specific LLM Script Results for Run 2472 (Commit: f91c08c)
+ 5 files changed, 774 insertions(+)
+ create mode 100644 data/test/multiling_results_2472_medical-llama_4bit_rephrase_ag-pubmed.pkl
+ create mode 100644 slurm-outputs/slurm.2472.abakus21.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   f91c08c..24c6950  main -> main
