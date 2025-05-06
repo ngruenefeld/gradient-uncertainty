@@ -1,0 +1,30 @@
+slurmstepd-abakus21: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus21: error: Setting TMPDIR to /tmp
+Running job with commit: 8306d6018f6c3a95526fab2b4e31e8671ce87dbb
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2453
+Dataset: ag-pubmed
+Model: medical-llama
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 10
+Mode: test
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 0.00 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--ContactDoctor--Bio-Medical-Llama-3-8B/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 0.02 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--ContactDoctor--Bio-Medical-Llama-3-8B/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 9976.50 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--ContactDoctor--Bio-Medical-Llama-3-8B/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+slurmstepd-abakus21: error: *** JOB 2453 ON abakus21 CANCELLED AT 2025-05-06T14:03:22 ***
