@@ -811,5 +811,7 @@ def load_domain_specific_datasets(choice="ag-pubmed"):
             full_data["text"].extend(data[label]["text"])
             full_data["label"].extend(data[label]["label"])
 
+        return Dataset.from_dict(full_data)
+
     else:
         raise ValueError(f"Dataset {choice} not supported.")
