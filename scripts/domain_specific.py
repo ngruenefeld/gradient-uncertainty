@@ -91,7 +91,7 @@ def main(args):
     # Load model with quantization if requested
     quantizable_models = [
         "medical-llama",
-        "llama-3-8b",
+        "llama-3-8b-instruct",
         "ii-medical",
         "qwen2.5-7b-instruct",
     ]
