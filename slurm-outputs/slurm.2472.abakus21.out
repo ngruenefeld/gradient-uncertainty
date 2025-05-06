@@ -1,0 +1,56 @@
+slurmstepd-abakus21: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus21: error: Setting TMPDIR to /tmp
+Running job with commit: f91c08c2a8085146d533ef942447fdac59a8388c
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2472
+Dataset: ag-pubmed
+Model: medical-llama
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 10
+Mode: test
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.39s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.85s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.93s/it]
+Processing sample 1/10 (dataset index: 15477)
+Processing sample 1 (dataset index 15477)
+Sample 1 (dataset index 15477) processed successfully with 3 rephrasings.
+Processing sample 2/10 (dataset index: 12662)
+Processing sample 2 (dataset index 12662)
+Sample 2 (dataset index 12662) processed successfully with 3 rephrasings.
+Processing sample 3/10 (dataset index: 3091)
+Processing sample 3 (dataset index 3091)
+Sample 3 (dataset index 3091) processed successfully with 3 rephrasings.
+Processing sample 4/10 (dataset index: 15991)
+Processing sample 4 (dataset index 15991)
+Sample 4 (dataset index 15991) processed successfully with 3 rephrasings.
+Processing sample 5/10 (dataset index: 5239)
+Processing sample 5 (dataset index 5239)
+Sample 5 (dataset index 5239) processed successfully with 3 rephrasings.
+Processing sample 6/10 (dataset index: 6663)
+Processing sample 6 (dataset index 6663)
+Sample 6 (dataset index 6663) processed successfully with 3 rephrasings.
+Processing sample 7/10 (dataset index: 5797)
+Processing sample 7 (dataset index 5797)
+Sample 7 (dataset index 5797) processed successfully with 3 rephrasings.
+Processing sample 8/10 (dataset index: 7097)
+Processing sample 8 (dataset index 7097)
+Sample 8 (dataset index 7097) processed successfully with 3 rephrasings.
+Processing sample 9/10 (dataset index: 11860)
+Processing sample 9 (dataset index 11860)
+Sample 9 (dataset index 11860) processed successfully with 3 rephrasings.
+Processing sample 10/10 (dataset index: 2279)
+Processing sample 10 (dataset index 2279)
+Sample 10 (dataset index 2279) processed successfully with 3 rephrasings.
+Processing complete. Saved 10 successful results. Failed: 0

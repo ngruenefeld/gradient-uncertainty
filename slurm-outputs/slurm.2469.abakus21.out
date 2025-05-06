@@ -52,3 +52,8 @@ Traceback (most recent call last):
     return t.to(
            ^^^^^
 torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 224.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 101.00 MiB is free. Including non-PyTorch memory, this process has 23.44 GiB memory in use. Of the allocated memory 23.24 GiB is allocated by PyTorch, and 1.17 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[main f91c08c] Domain Specific LLM Script Results for Run 2469 (Commit: e827b4b)
+ 3 files changed, 4068 insertions(+)
+ create mode 100644 slurm-outputs/slurm.2469.abakus21.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   e827b4b..f91c08c  main -> main
