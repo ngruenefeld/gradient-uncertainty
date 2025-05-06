@@ -13,7 +13,6 @@ DATASET="ag-pubmed"
 MODEL="medical-llama"
 GPT_MODEL="gpt-4o-mini-2024-07-18"
 KEY_MODE="keyfile"
-SAMPLE_SIZE=0
 QUANTIZATION=0  # 0 = no quantization (default)
 FULL_GRADIENT=false  # Default to false (which means response_only is true)
 NORMALIZE=false  # Default to false
@@ -29,7 +28,6 @@ while [[ "$#" -gt 0 ]]; do
         --model=*) MODEL="${1#*=}";;
         --gpt_model=*) GPT_MODEL="${1#*=}";;
         --key_mode=*) KEY_MODE="${1#*=}";;
-        --sample_size=*) SAMPLE_SIZE="${1#*=}";;
         --quantization=*) QUANTIZATION="${1#*=}";;
         --full_gradient) FULL_GRADIENT=true;;
         --normalize) NORMALIZE=true;;
@@ -50,7 +48,7 @@ echo "Running job with commit: $COMMIT_ID"
 source env/bin/activate
 
 # Build the command with all required parameters
-CMD="CUDA_LAUNCH_BLOCKING=1 python -um scripts.domain_specific \"$SLURM_JOB_ID\" --dataset \"$DATASET\" --model \"$MODEL\" --gpt_model \"$GPT_MODEL\" --key_mode \"$KEY_MODE\" --sample_size \"$SAMPLE_SIZE\" --perturbation_mode \"$PERTURBATION_MODE\" --number_of_perturbations \"$NUMBER_OF_PERTURBATIONS\" --max_tokens \"$MAX_TOKENS\" --per_label_sample_size \"$PER_LABEL_SAMPLE_SIZE\""
+CMD="CUDA_LAUNCH_BLOCKING=1 python -um scripts.domain_specific \"$SLURM_JOB_ID\" --dataset \"$DATASET\" --model \"$MODEL\" --gpt_model \"$GPT_MODEL\" --key_mode \"$KEY_MODE\" --perturbation_mode \"$PERTURBATION_MODE\" --number_of_perturbations \"$NUMBER_OF_PERTURBATIONS\" --max_tokens \"$MAX_TOKENS\" --per_label_sample_size \"$PER_LABEL_SAMPLE_SIZE\""
 
 
 # Add quantization parameter
