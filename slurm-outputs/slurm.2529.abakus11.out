@@ -2967,3 +2967,22 @@ Processing sample 980 (dataset index 979)
 Sample 980 (dataset index 979) processed successfully with 3 rephrasings.
 Processing sample 981/1000 (dataset index: 980)
 Processing sample 981 (dataset index 980)
+Sample 981 (dataset index 980) processed successfully with 3 rephrasings.
+Processing sample 982/1000 (dataset index: 981)
+Processing sample 982 (dataset index 981)
+Sample 982 (dataset index 981) processed successfully with 3 rephrasings.
+Processing sample 983/1000 (dataset index: 982)
+Processing sample 983 (dataset index 982)
+Sample 983 (dataset index 982) processed successfully with 3 rephrasings.
+Processing sample 984/1000 (dataset index: 983)
+Processing sample 984 (dataset index 983)
+Sample 984 (dataset index 983) processed successfully with 3 rephrasings.
+Processing sample 985/1000 (dataset index: 984)
+Processing sample 985 (dataset index 984)
+JSONDecodeError: Expecting ',' delimiter: line 18553 column 1 (char 52145)
+Error getting rephrasings for sample 985 (dataset index 984): Invalid JSON response from API
+Processing sample 986/1000 (dataset index: 985)
+Processing sample 986 (dataset index 985)
+Sample 986 (dataset index 985) processed successfully with 3 rephrasings.
+Processing sample 987/1000 (dataset index: 986)
+Processing sample 987 (dataset index 986)
