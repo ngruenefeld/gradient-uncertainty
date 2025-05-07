@@ -1,0 +1,101 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 413bb080adc37ed1b62e2cf2edcde3ea0ab35906
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2580
+Dataset: ag-pubmed
+Model: llama-2-medical
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: test
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 5
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.20s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.41s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.53s/it]
+Processing sample 1/25 (dataset index: 0)
+Processing sample 1 (dataset index 0)
+Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
+Processing sample 2/25 (dataset index: 1)
+Processing sample 2 (dataset index 1)
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/25 (dataset index: 2)
+Processing sample 3 (dataset index 2)
+Sample 3 (dataset index 2) processed successfully with 3 rephrasings.
+Processing sample 4/25 (dataset index: 3)
+Processing sample 4 (dataset index 3)
+Sample 4 (dataset index 3) processed successfully with 3 rephrasings.
+Processing sample 5/25 (dataset index: 4)
+Processing sample 5 (dataset index 4)
+Sample 5 (dataset index 4) processed successfully with 3 rephrasings.
+Processing sample 6/25 (dataset index: 5)
+Processing sample 6 (dataset index 5)
+Sample 6 (dataset index 5) processed successfully with 3 rephrasings.
+Processing sample 7/25 (dataset index: 6)
+Processing sample 7 (dataset index 6)
+Sample 7 (dataset index 6) processed successfully with 3 rephrasings.
+Processing sample 8/25 (dataset index: 7)
+Processing sample 8 (dataset index 7)
+Sample 8 (dataset index 7) processed successfully with 3 rephrasings.
+Processing sample 9/25 (dataset index: 8)
+Processing sample 9 (dataset index 8)
+Sample 9 (dataset index 8) processed successfully with 3 rephrasings.
+Processing sample 10/25 (dataset index: 9)
+Processing sample 10 (dataset index 9)
+Sample 10 (dataset index 9) processed successfully with 3 rephrasings.
+Processing sample 11/25 (dataset index: 10)
+Processing sample 11 (dataset index 10)
+Sample 11 (dataset index 10) processed successfully with 3 rephrasings.
+Processing sample 12/25 (dataset index: 11)
+Processing sample 12 (dataset index 11)
+Sample 12 (dataset index 11) processed successfully with 3 rephrasings.
+Processing sample 13/25 (dataset index: 12)
+Processing sample 13 (dataset index 12)
+Sample 13 (dataset index 12) processed successfully with 3 rephrasings.
+Processing sample 14/25 (dataset index: 13)
+Processing sample 14 (dataset index 13)
+Sample 14 (dataset index 13) processed successfully with 3 rephrasings.
+Processing sample 15/25 (dataset index: 14)
+Processing sample 15 (dataset index 14)
+Sample 15 (dataset index 14) processed successfully with 3 rephrasings.
+Processing sample 16/25 (dataset index: 15)
+Processing sample 16 (dataset index 15)
+Sample 16 (dataset index 15) processed successfully with 3 rephrasings.
+Processing sample 17/25 (dataset index: 16)
+Processing sample 17 (dataset index 16)
+Sample 17 (dataset index 16) processed successfully with 3 rephrasings.
+Processing sample 18/25 (dataset index: 17)
+Processing sample 18 (dataset index 17)
+Sample 18 (dataset index 17) processed successfully with 3 rephrasings.
+Processing sample 19/25 (dataset index: 18)
+Processing sample 19 (dataset index 18)
+Sample 19 (dataset index 18) processed successfully with 3 rephrasings.
+Processing sample 20/25 (dataset index: 19)
+Processing sample 20 (dataset index 19)
+Sample 20 (dataset index 19) processed successfully with 3 rephrasings.
+Processing sample 21/25 (dataset index: 20)
+Processing sample 21 (dataset index 20)
+Sample 21 (dataset index 20) processed successfully with 3 rephrasings.
+Processing sample 22/25 (dataset index: 21)
+Processing sample 22 (dataset index 21)
+Sample 22 (dataset index 21) processed successfully with 3 rephrasings.
+Processing sample 23/25 (dataset index: 22)
+Processing sample 23 (dataset index 22)
+Sample 23 (dataset index 22) processed successfully with 3 rephrasings.
+Processing sample 24/25 (dataset index: 23)
+Processing sample 24 (dataset index 23)
+Sample 24 (dataset index 23) processed successfully with 3 rephrasings.
+Processing sample 25/25 (dataset index: 24)
+Processing sample 25 (dataset index 24)
+Sample 25 (dataset index 24) processed successfully with 3 rephrasings.
+Processing complete. Saved 25 successful results. Failed: 0

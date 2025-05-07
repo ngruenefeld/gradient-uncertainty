@@ -319,3 +319,8 @@ Processing sample 25 (dataset index 24)
 Error in completion_gradient: element 0 of tensors does not require grad and does not have a grad_fn
 Error calculating gradient for sample 25 (dataset index 24): element 0 of tensors does not require grad and does not have a grad_fn
 Processing complete, but no successful results to save. All 25 samples failed.
+[main 0bf296f] Domain Specific LLM Script Results for Run 2579 (Commit: 345bd21)
+ 2 files changed, 327 insertions(+)
+ create mode 100644 slurm-outputs/slurm.2579.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   345bd21..0bf296f  main -> main

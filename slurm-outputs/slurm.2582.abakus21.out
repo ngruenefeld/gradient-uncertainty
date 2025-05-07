@@ -1,0 +1,45 @@
+slurmstepd-abakus21: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus21: error: Setting TMPDIR to /tmp
+Running job with commit: 413bb080adc37ed1b62e2cf2edcde3ea0ab35906
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2582
+Dataset: ag-pubmed
+Model: llama-2
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 200
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [01:27<01:27, 87.33s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:58<00:00, 54.00s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:58<00:00, 59.00s/it]
+Processing sample 1/1000 (dataset index: 0)
+Processing sample 1 (dataset index 0)
+Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
+Processing sample 2/1000 (dataset index: 1)
+Processing sample 2 (dataset index 1)
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/1000 (dataset index: 2)
+Processing sample 3 (dataset index 2)
+Sample 3 (dataset index 2) processed successfully with 3 rephrasings.
+Processing sample 4/1000 (dataset index: 3)
+Processing sample 4 (dataset index 3)
+Sample 4 (dataset index 3) processed successfully with 3 rephrasings.
+Processing sample 5/1000 (dataset index: 4)
+Processing sample 5 (dataset index 4)
+Sample 5 (dataset index 4) processed successfully with 3 rephrasings.
+Processing sample 6/1000 (dataset index: 5)
+Processing sample 6 (dataset index 5)
+Sample 6 (dataset index 5) processed successfully with 3 rephrasings.
+Processing sample 7/1000 (dataset index: 6)
+Processing sample 7 (dataset index 6)
