@@ -13193,3 +13193,19 @@ Processing sample 4386 (dataset index 4385)
 Sample 4386 (dataset index 4385) processed successfully with 3 rephrasings.
 Processing sample 4387/5000 (dataset index: 4386)
 Processing sample 4387 (dataset index 4386)
+Sample 4387 (dataset index 4386) processed successfully with 3 rephrasings.
+Processing sample 4388/5000 (dataset index: 4387)
+Processing sample 4388 (dataset index 4387)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 216.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 83.88 MiB is free. Including non-PyTorch memory, this process has 10.20 GiB memory in use. Process 1781491 has 13.25 GiB memory in use. Of the allocated memory 9.87 GiB is allocated by PyTorch, and 71.57 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 4388 (dataset index 4387): CUDA out of memory. Tried to allocate 216.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 83.88 MiB is free. Including non-PyTorch memory, this process has 10.20 GiB memory in use. Process 1781491 has 13.25 GiB memory in use. Of the allocated memory 9.87 GiB is allocated by PyTorch, and 71.57 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 4389/5000 (dataset index: 4388)
+Processing sample 4389 (dataset index 4388)
+Sample 4389 (dataset index 4388) processed successfully with 3 rephrasings.
+Processing sample 4390/5000 (dataset index: 4389)
+Processing sample 4390 (dataset index 4389)
+Sample 4390 (dataset index 4389) processed successfully with 3 rephrasings.
+Processing sample 4391/5000 (dataset index: 4390)
+Processing sample 4391 (dataset index 4390)
+Sample 4391 (dataset index 4390) processed successfully with 3 rephrasings.
+Processing sample 4392/5000 (dataset index: 4391)
+Processing sample 4392 (dataset index 4391)
