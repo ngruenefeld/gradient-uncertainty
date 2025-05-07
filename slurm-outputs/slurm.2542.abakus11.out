@@ -17,3 +17,8 @@ usage: domain_specific.py [-h] [--dataset DATASET] [--model MODEL]
                           [--per_label_sample_size PER_LABEL_SAMPLE_SIZE]
                           job_number
 domain_specific.py: error: unrecognized arguments: --sample_size 0
+[main bc8e566] Domain Specific LLM Script Results for Run 2542 (Commit: 1c23525)
+ 4 files changed, 36 insertions(+)
+ create mode 100644 slurm-outputs/slurm.2542.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   1c23525..bc8e566  main -> main

@@ -1,0 +1,30 @@
+slurmstepd-abakus21: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus21: error: Setting TMPDIR to /tmp
+Running job with commit: f2f059ba05f498225c0eaf2363636365b96564ff
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2545
+Dataset: ag-pubmed
+Model: llama-3-8b-instruct
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 200
+Loading model in 4-bit precision to reduce memory usage
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [00:16<00:48, 16.13s/it]Downloading shards:  50%|█████     | 2/4 [02:06<02:23, 71.68s/it]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 4915.92 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--meta-llama--Meta-Llama-3-8B-Instruct/blobs only has 1904.85 MB free disk space.
+  warnings.warn(
+Downloading shards:  75%|███████▌  | 3/4 [03:51<01:26, 86.93s/it]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 1168.14 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--meta-llama--Meta-Llama-3-8B-Instruct/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+Downloading shards: 100%|██████████| 4/4 [04:14<00:00, 61.53s/it]Downloading shards: 100%|██████████| 4/4 [04:14<00:00, 63.59s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]slurmstepd-abakus21: error: *** JOB 2545 ON abakus21 CANCELLED AT 2025-05-07T01:37:02 ***
