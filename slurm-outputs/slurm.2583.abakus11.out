@@ -29,3 +29,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/domain_specific.py", line 65, in main
     raise ValueError(
 ValueError: Model medical_chatbot not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b, phi4, deepseek-v3.
+[main 32a60e0] Domain Specific LLM Script Results for Run 2583 (Commit: 369fe63)
+ 2 files changed, 36 insertions(+)
+ create mode 100644 slurm-outputs/slurm.2583.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   369fe63..32a60e0  main -> main
