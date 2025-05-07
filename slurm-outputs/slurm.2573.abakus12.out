@@ -1,3 +1,24 @@
 slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus12: error: Setting TMPDIR to /tmp
 Running job with commit: b5f285e46d37f46fac6daedfb42a63a6dfe4b55e
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2573
+Dataset: ag-pubmed
+Model: llama-2
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 200
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]slurmstepd-abakus12: error: *** JOB 2573 ON abakus12 CANCELLED AT 2025-05-07T16:52:13 ***

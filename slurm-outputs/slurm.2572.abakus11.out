@@ -35,3 +35,9 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/modeling_utils.py", line 3929, in from_pretrained
     raise EnvironmentError(
 OSError: Ashishkr/llama-2-medical-consultation does not appear to have a file named pytorch_model.bin, model.safetensors, tf_model.h5, model.ckpt or flax_model.msgpack.
+[main 903f9a2] Domain Specific LLM Script Results for Run 2572 (Commit: b5f285e)
+ 3 files changed, 45 insertions(+)
+ create mode 100644 slurm-outputs/slurm.2572.abakus11.out
+ create mode 100644 slurm-outputs/slurm.2573.abakus12.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   b5f285e..903f9a2  main -> main
