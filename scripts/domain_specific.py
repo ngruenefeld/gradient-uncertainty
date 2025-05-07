@@ -144,7 +144,15 @@ def main(args):
             model, "Ashishkr/llama-2-medical-consultation"
         ).to(device)
         for param in model.parameters():
-            param.requires_grad = True
+            if param.dtype in [
+                torch.float,
+                torch.float16,
+                torch.double,
+                torch.complex64,
+                torch.complex128,
+            ]:
+                print("asd")
+            # param.requires_grad = True
 
     tokenizer_params = {"token": hf_token}
 
