@@ -143,6 +143,8 @@ def main(args):
         model = PeftModel.from_pretrained(
             model, "Ashishkr/llama-2-medical-consultation"
         ).to(device)
+        for param in model.parameters():
+            param.requires_grad = True
 
     tokenizer_params = {"token": hf_token}
 
