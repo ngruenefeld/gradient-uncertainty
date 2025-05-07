@@ -8,6 +8,8 @@ from openai import OpenAI
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import BitsAndBytesConfig
 
+from peft import PeftModel, PeftConfig
+
 from utils.gpt import rephrase_text
 from utils.utils import (
     completion_gradient,
@@ -55,10 +57,10 @@ def main(args):
         model_path = "ContactDoctor/Bio-Medical-Llama-3-8B"
     elif model_name == "llama-3-8b-instruct":
         model_path = "meta-llama/Meta-Llama-3-8B-Instruct"
-    elif model_name == "mistral-7b-instruct-medical":
-        model_path = "Laurent1/Mistral-7B-Instruct-v0.1-QLoRa-medical-QA"
-    elif model_name == "mistral-7b-instruct":
-        model_path = "mistralai/Mistral-7B-Instruct-v0.1"
+    elif model_name == "llama-2-medical":
+        model_path = "meta-llama/Llama-2-7b-chat-hf"
+    elif model_name == "llama-2":
+        model_path = "meta-llama/Llama-2-7b-chat-hf"
     elif model_name == "ii-medical":
         model_path = "Intelligent-Internet/II-Medical-7B-Preview"
     elif model_name == "qwen2.5-7b-instruct":
@@ -133,6 +135,12 @@ def main(args):
         model = AutoModelForCausalLM.from_pretrained(model_path, **model_load_params)
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         model.to(device)
+
+    if model_name == "llama-2-medical":
+        config = PeftConfig.from_pretrained("Ashishkr/llama-2-medical-consultation")
+        model = PeftModel.from_pretrained(
+            model, "Ashishkr/llama-2-medical-consultation"
+        ).to(device)
 
     tokenizer_params = {"token": hf_token}
 
