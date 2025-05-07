@@ -57,7 +57,7 @@ def main(args):
         model_path = "Intelligent-Internet/II-Medical-7B-Preview"
     elif model_name == "qwen2.5-7b-instruct":
         model_path = "Qwen/Qwen2.5-7B-Instruct"
-    elif model_name == "medical chatbot":
+    elif model_name == "medical-chatbot":
         model_path = "jianghc/medical_chatbot"
     elif model_name == "gpt2":
         model_path = "gpt2"
