@@ -57,10 +57,10 @@ def main(args):
         model_path = "Intelligent-Internet/II-Medical-7B-Preview"
     elif model_name == "qwen2.5-7b-instruct":
         model_path = "Qwen/Qwen2.5-7B-Instruct"
-    elif model_name == "medical-chatbot":
-        model_path = "jianghc/medical_chatbot"
-    elif model_name == "gpt2":
-        model_path = "gpt2"
+    elif model_name == "medical-llama-3-8b":
+        model_path = "ruslanmv/Medical-Llama3-8B"
+    elif model_name == "llama-3-8b":
+        model_path = "meta-llama/Meta-Llama-3-8B"
     else:
         raise ValueError(
             f"Model {model_name} not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b, phi4, deepseek-v3."
@@ -92,12 +92,10 @@ def main(args):
 
     # Load model with quantization if requested
     quantizable_models = [
-        "medical-llama",
-        "llama-3-8b-instruct",
-        "llama-2-medical",
-        "llama-2",
         "ii-medical",
         "qwen2.5-7b-instruct",
+        "medical-llama-3-8b",
+        "llama-3-8b",
     ]
 
     # Prepare common model loading parameters
