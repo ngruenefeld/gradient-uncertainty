@@ -98,6 +98,8 @@ def main(args):
     quantizable_models = [
         "medical-llama",
         "llama-3-8b-instruct",
+        "llama-2-medical",
+        "llama-2",
         "ii-medical",
         "qwen2.5-7b-instruct",
     ]
