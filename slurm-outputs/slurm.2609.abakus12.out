@@ -1,0 +1,75 @@
+slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus12: error: Setting TMPDIR to /tmp
+Running job with commit: 93a3db9098563134ad60df59c807752b1d6634fd
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2609
+Dataset: scienceqa-legalqa
+Model: llama-3.2-3b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 100
+Loading model in 4-bit precision to reduce memory usage
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Downloading shards:  50%|█████     | 1/2 [01:33<01:33, 93.85s/it]Downloading shards: 100%|██████████| 2/2 [02:04<00:00, 56.90s/it]Downloading shards: 100%|██████████| 2/2 [02:04<00:00, 62.44s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:45<00:45, 45.24s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:58<00:00, 26.54s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:58<00:00, 29.34s/it]
+Filter:   0%|          | 0/12726 [00:00<?, ? examples/s]Filter:   8%|▊         | 1000/12726 [00:01<00:16, 700.10 examples/s]Filter:  16%|█▌        | 2000/12726 [00:02<00:13, 784.99 examples/s]Filter:  24%|██▎       | 3000/12726 [00:03<00:12, 805.39 examples/s]Filter:  31%|███▏      | 4000/12726 [00:05<00:10, 810.83 examples/s]Filter:  39%|███▉      | 5000/12726 [00:06<00:09, 847.24 examples/s]Filter:  47%|████▋     | 6000/12726 [00:07<00:07, 868.52 examples/s]Filter:  55%|█████▌    | 7000/12726 [00:08<00:06, 836.05 examples/s]Filter:  63%|██████▎   | 8000/12726 [00:09<00:05, 850.54 examples/s]Filter:  71%|███████   | 9000/12726 [00:10<00:04, 867.81 examples/s]Filter:  79%|███████▊  | 10000/12726 [00:11<00:03, 859.31 examples/s]Filter:  86%|████████▋ | 11000/12726 [00:13<00:02, 836.37 examples/s]Filter:  94%|█████████▍| 12000/12726 [00:14<00:00, 813.73 examples/s]Filter: 100%|██████████| 12726/12726 [00:15<00:00, 823.79 examples/s]Filter: 100%|██████████| 12726/12726 [00:15<00:00, 829.89 examples/s]
+Filter:   0%|          | 0/10692 [00:00<?, ? examples/s]Filter:   9%|▉         | 1000/10692 [00:00<00:06, 1438.62 examples/s]Filter:  19%|█▊        | 2000/10692 [00:01<00:05, 1573.90 examples/s]Filter:  28%|██▊       | 3000/10692 [00:01<00:04, 1638.44 examples/s]Filter:  37%|███▋      | 4000/10692 [00:02<00:04, 1670.65 examples/s]Filter:  47%|████▋     | 5000/10692 [00:03<00:03, 1652.09 examples/s]Filter:  56%|█████▌    | 6000/10692 [00:03<00:02, 1580.05 examples/s]Filter:  65%|██████▌   | 7000/10692 [00:04<00:02, 1593.72 examples/s]Filter:  75%|███████▍  | 8000/10692 [00:04<00:01, 1605.46 examples/s]Filter:  84%|████████▍ | 9000/10692 [00:05<00:01, 1562.63 examples/s]Filter:  94%|█████████▎| 10000/10692 [00:06<00:00, 1557.86 examples/s]Filter: 100%|██████████| 10692/10692 [00:06<00:00, 1566.12 examples/s]Filter: 100%|██████████| 10692/10692 [00:06<00:00, 1583.83 examples/s]
+Processing sample 1/600 (dataset index: 0)
+Processing sample 1 (dataset index 0)
+Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
+Processing sample 2/600 (dataset index: 1)
+Processing sample 2 (dataset index 1)
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/600 (dataset index: 2)
+Processing sample 3 (dataset index 2)
+Sample 3 (dataset index 2) processed successfully with 3 rephrasings.
+Processing sample 4/600 (dataset index: 3)
+Processing sample 4 (dataset index 3)
+Sample 4 (dataset index 3) processed successfully with 3 rephrasings.
+Processing sample 5/600 (dataset index: 4)
+Processing sample 5 (dataset index 4)
+Sample 5 (dataset index 4) processed successfully with 3 rephrasings.
+Processing sample 6/600 (dataset index: 5)
+Processing sample 6 (dataset index 5)
+Sample 6 (dataset index 5) processed successfully with 3 rephrasings.
+Processing sample 7/600 (dataset index: 6)
+Processing sample 7 (dataset index 6)
+Sample 7 (dataset index 6) processed successfully with 3 rephrasings.
+Processing sample 8/600 (dataset index: 7)
+Processing sample 8 (dataset index 7)
+Sample 8 (dataset index 7) processed successfully with 3 rephrasings.
+Processing sample 9/600 (dataset index: 8)
+Processing sample 9 (dataset index 8)
+Sample 9 (dataset index 8) processed successfully with 3 rephrasings.
+Processing sample 10/600 (dataset index: 9)
+Processing sample 10 (dataset index 9)
+Sample 10 (dataset index 9) processed successfully with 3 rephrasings.
+Processing sample 11/600 (dataset index: 10)
+Processing sample 11 (dataset index 10)
+Sample 11 (dataset index 10) processed successfully with 3 rephrasings.
+Processing sample 12/600 (dataset index: 11)
+Processing sample 12 (dataset index 11)
+Sample 12 (dataset index 11) processed successfully with 3 rephrasings.
+Processing sample 13/600 (dataset index: 12)
+Processing sample 13 (dataset index 12)
+Sample 13 (dataset index 12) processed successfully with 3 rephrasings.
+Processing sample 14/600 (dataset index: 13)
+Processing sample 14 (dataset index 13)
+Sample 14 (dataset index 13) processed successfully with 3 rephrasings.
+Processing sample 15/600 (dataset index: 14)
+Processing sample 15 (dataset index 14)
+Sample 15 (dataset index 14) processed successfully with 3 rephrasings.
+Processing sample 16/600 (dataset index: 15)
+Processing sample 16 (dataset index 15)
