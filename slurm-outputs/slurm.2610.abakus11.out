@@ -33,3 +33,8 @@ Traceback (most recent call last):
     param.requires_grad = True
     ^^^^^^^^^^^^^^^^^^^
 RuntimeError: only Tensors of floating point and complex dtype can require gradients
+[main a38fe5a] Domain Specific LLM Script Results for Run 2610 (Commit: 38d4f5f)
+ 3 files changed, 77 insertions(+)
+ create mode 100644 slurm-outputs/slurm.2610.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   38d4f5f..a38fe5a  main -> main
