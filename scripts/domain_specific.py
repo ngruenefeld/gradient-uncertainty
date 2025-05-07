@@ -151,8 +151,7 @@ def main(args):
                 torch.complex64,
                 torch.complex128,
             ]:
-                print("asd")
-            # param.requires_grad = True
+                param.requires_grad = True
 
     tokenizer_params = {"token": hf_token}
 
