@@ -1,0 +1,35 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 38d4f5fbdf6c51e7b4ad752ff78709f35c960546
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2610
+Dataset: scienceqa-legalqa
+Model: llama-3.2-3b-legal
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 100
+Loading model in 4-bit precision to reduce memory usage
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Downloading shards:  50%|█████     | 1/2 [00:00<00:00,  8.01it/s]Downloading shards: 100%|██████████| 2/2 [00:00<00:00,  7.61it/s]Downloading shards: 100%|██████████| 2/2 [00:00<00:00,  7.67it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.39s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.60s/it]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/domain_specific.py", line 445, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/domain_specific.py", line 137, in main
+    param.requires_grad = True
+    ^^^^^^^^^^^^^^^^^^^
+RuntimeError: only Tensors of floating point and complex dtype can require gradients
