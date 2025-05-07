@@ -53,18 +53,14 @@ def main(args):
     print(f"Max tokens: {max_tokens}")
     print(f"Sample Size Per Label: {per_label_sample_size}")
 
-    if model_name == "medical-llama":
-        model_path = "ContactDoctor/Bio-Medical-Llama-3-8B"
-    elif model_name == "llama-3-8b-instruct":
-        model_path = "meta-llama/Meta-Llama-3-8B-Instruct"
-    elif model_name == "llama-2-medical":
-        model_path = "meta-llama/Llama-2-7b-chat-hf"
-    elif model_name == "llama-2":
-        model_path = "meta-llama/Llama-2-7b-chat-hf"
-    elif model_name == "ii-medical":
+    if model_name == "ii-medical":
         model_path = "Intelligent-Internet/II-Medical-7B-Preview"
     elif model_name == "qwen2.5-7b-instruct":
         model_path = "Qwen/Qwen2.5-7B-Instruct"
+    elif model_name == "medical chatbot":
+        model_path = "jianghc/medical_chatbot"
+    elif model_name == "gpt2":
+        model_path = "gpt2"
     else:
         raise ValueError(
             f"Model {model_name} not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b, phi4, deepseek-v3."
@@ -137,21 +133,6 @@ def main(args):
         model = AutoModelForCausalLM.from_pretrained(model_path, **model_load_params)
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         model.to(device)
-
-    if model_name == "llama-2-medical":
-        config = PeftConfig.from_pretrained("Ashishkr/llama-2-medical-consultation")
-        model = PeftModel.from_pretrained(
-            model, "Ashishkr/llama-2-medical-consultation"
-        ).to(device)
-        for param in model.parameters():
-            if param.dtype in [
-                torch.float,
-                torch.float16,
-                torch.double,
-                torch.complex64,
-                torch.complex128,
-            ]:
-                param.requires_grad = True
 
     tokenizer_params = {"token": hf_token}
 
