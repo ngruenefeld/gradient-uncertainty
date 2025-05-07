@@ -132,6 +132,10 @@ def main(args):
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         model.to(device)
 
+    if model_name == "llama-3.2-3b-legal":
+        for param in model.parameters():
+            param.requires_grad = True
+
     tokenizer_params = {"token": hf_token}
 
     if model_name == "polylm-1.7b":
@@ -372,7 +376,7 @@ if __name__ == "__main__":
         "--dataset",
         type=str,
         default="ag-pubmed",
-        help="Dataset to use: ag-pubmed",
+        help="Dataset to use: ag-pubmed, scienceqa-legalqa",
     )
     parser.add_argument(
         "--model",
