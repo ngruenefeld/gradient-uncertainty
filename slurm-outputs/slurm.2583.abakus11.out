@@ -1,0 +1,31 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 369fe63eda3a1e3c3f4c25d2c6fc57c664c51683
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2583
+Dataset: ag-pubmed
+Model: medical_chatbot
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 200
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/domain_specific.py", line 443, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/domain_specific.py", line 65, in main
+    raise ValueError(
+ValueError: Model medical_chatbot not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b, phi4, deepseek-v3.
