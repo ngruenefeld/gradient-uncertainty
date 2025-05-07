@@ -55,6 +55,10 @@ def main(args):
         model_path = "ContactDoctor/Bio-Medical-Llama-3-8B"
     elif model_name == "llama-3-8b-instruct":
         model_path = "meta-llama/Meta-Llama-3-8B-Instruct"
+    elif model_name == "llama-2-medical":
+        model_path = "Ashishkr/llama-2-medical-consultation"
+    elif model_name == "llama-2":
+        model_path = "meta-llama/Llama-2-7b-hf"
     elif model_name == "ii-medical":
         model_path = "Intelligent-Internet/II-Medical-7B-Preview"
     elif model_name == "qwen2.5-7b-instruct":
