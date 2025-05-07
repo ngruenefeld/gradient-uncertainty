@@ -99,3 +99,11 @@ Processing sample 25/25 (dataset index: 24)
 Processing sample 25 (dataset index 24)
 Sample 25 (dataset index 24) processed successfully with 3 rephrasings.
 Processing complete. Saved 25 successful results. Failed: 0
+[main 7d0aa5a] Domain Specific LLM Script Results for Run 2580 (Commit: 413bb08)
+ 5 files changed, 199 insertions(+)
+ create mode 100644 data/test/domainspecific_results_2580_llama-2-medical_4bit_rephrase_ag-pubmed.pkl
+ create mode 100644 slurm-outputs/slurm.2580.abakus11.out
+ create mode 100644 slurm-outputs/slurm.2581.abakus12.out
+ create mode 100644 slurm-outputs/slurm.2582.abakus21.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   413bb08..7d0aa5a  main -> main
