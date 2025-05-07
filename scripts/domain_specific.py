@@ -134,7 +134,14 @@ def main(args):
 
     if model_name == "llama-3.2-3b-legal":
         for param in model.parameters():
-            param.requires_grad = True
+            if param.dtype in [
+                torch.float,
+                torch.float16,
+                torch.double,
+                torch.complex64,
+                torch.complex128,
+            ]:
+                param.requires_grad = True
 
     tokenizer_params = {"token": hf_token}
 
