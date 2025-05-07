@@ -811,3 +811,56 @@ def load_domain_specific_datasets(choice="ag-pubmed", per_label_sample_size=200)
             full_data["origin"].extend(data[label]["origin"])
 
         return Dataset.from_dict(full_data)
+
+    elif choice == "scienceqa-legalqa":
+        scienceqa_dataset = load_dataset("derek-thomas/ScienceQA", split="train")
+        legalqa_dataset = load_dataset(
+            "isaacus/open-australian-legal-qa", split="train"
+        )
+
+        scienceqa_dataset = scienceqa_dataset.filter(
+            lambda example: example["lecture"] and example["lecture"] != ""
+        )
+
+        scienceqa_labels = ["biology", "physics", "chemistry", "geography", "economics"]
+        scienceqa_dataset = scienceqa_dataset.filter(
+            lambda example: example["topic"] in scienceqa_labels
+        )
+
+        scienceqa_sample_size = len(scienceqa_labels) * per_label_sample_size
+
+        count = 0
+
+        scienceqa_data = {
+            label: {
+                "text": [],
+                "label": [],
+                "origin": [],
+            }
+            for label in scienceqa_labels
+        }
+
+        for example in scienceqa_dataset:
+            if count >= scienceqa_sample_size:
+                break
+            cur_label = example["topic"]
+            if len(scienceqa_data[cur_label]["text"]) < per_label_sample_size:
+                scienceqa_data[cur_label]["text"].append(example["lecture"])
+                scienceqa_data[cur_label]["label"].append(cur_label)
+                scienceqa_data[cur_label]["origin"].append("ScienceQA")
+                count += 1
+
+        full_data = {"text": [], "label": [], "origin": []}
+        for label in scienceqa_data:
+            full_data["text"].extend(scienceqa_data[label]["text"])
+            full_data["label"].extend(scienceqa_data[label]["label"])
+            full_data["origin"].extend(scienceqa_data[label]["origin"])
+
+        full_data["text"].extend(legalqa_dataset["text"][:per_label_sample_size])
+        full_data["label"].extend(["legal"] * per_label_sample_size)
+        full_data["origin"].extend(["LegalQA"] * per_label_sample_size)
+
+        return Dataset.from_dict(full_data)
+
+    else:
+        raise ValueError(f"Dataset {choice} not supported.")
