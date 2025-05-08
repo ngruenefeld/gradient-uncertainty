@@ -58,6 +58,10 @@ def main(args):
         model_path = "instruction-pretrain/medicine-Llama3-8B"
     elif model_name == "llama-3-8b":
         model_path = "meta-llama/Meta-Llama-3-8B"
+    elif model_name == "medreason":
+        model_path = "UCSC-VLAA/MedReason-8B"
+    elif model_name == "huatougpt":
+        model_path = "FreedomIntelligence/HuatuoGPT-o1-8B"
     else:
         raise ValueError(
             f"Model {model_name} not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b, phi4, deepseek-v3."
@@ -93,6 +97,8 @@ def main(args):
         "qwen2.5-7b-instruct",
         "medicine-llama-3-8b",
         "llama-3-8b",
+        "medreason",
+        "huatougpt",
     ]
 
     # Prepare common model loading parameters
