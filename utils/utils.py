@@ -862,5 +862,35 @@ def load_domain_specific_datasets(choice="ag-pubmed", per_label_sample_size=200)
 
         return Dataset.from_dict(full_data)
 
+    if choice == "legalqa-pubmed":
+        legalqa_dataset = load_dataset(
+            "isaacus/open-australian-legal-qa", split="train"
+        )
+        pubmed_dataset = load_dataset("MedRAG/pubmed", streaming=True)["train"]
+
+        count = 0
+
+        data = {
+            "text": [],
+            "label": [],
+            "origin": [],
+        }
+
+        count = 0
+
+        for example in pubmed_dataset:
+            if count >= per_label_sample_size:
+                break
+            data["text"].append(example["content"])
+            data["label"].append("Medicine")
+            data["origin"].append("pubmed")
+            count += 1
+
+        data["text"].extend(legalqa_dataset["text"][:per_label_sample_size])
+        data["label"].extend(["Legal"] * per_label_sample_size)
+        data["origin"].extend(["LegalQA"] * per_label_sample_size)
+
+        return Dataset.from_dict(data)
+
     else:
         raise ValueError(f"Dataset {choice} not supported.")

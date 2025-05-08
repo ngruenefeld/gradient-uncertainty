@@ -1,14 +1,11 @@
 import argparse
 import os
-import random
 
 import pandas as pd
 import torch
 from openai import OpenAI
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import BitsAndBytesConfig
-
-from peft import PeftModel, PeftConfig
 
 from utils.gpt import rephrase_text
 from utils.utils import (
