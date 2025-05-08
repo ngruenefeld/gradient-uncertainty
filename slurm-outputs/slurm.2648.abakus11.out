@@ -1,0 +1,25 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: e80fc297617cec4e56e87a93f12c052995ea5572
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2648
+Dataset: legalqa-pubmed
+Model: medicine-llama-3-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 100
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:56<04:44, 56.94s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [01:52<03:45, 56.33s/it]Loading checkpoint shards:  50%|█████     | 3/6 [02:47<02:46, 55.42s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [03:39<01:48, 54.21s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [04:31<00:53, 53.54s/it]slurmstepd-abakus11: error: *** JOB 2648 ON abakus11 CANCELLED AT 2025-05-08T15:47:38 ***

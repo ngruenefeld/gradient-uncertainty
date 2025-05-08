@@ -1528,3 +1528,8 @@ Processing sample 500/500 (dataset index: 499)
 Processing sample 500 (dataset index 499)
 Sample 500 (dataset index 499) processed successfully with 3 rephrasings.
 Processing complete. Saved 497 successful results. Failed: 3
+[main e80fc29] Domain Specific LLM Script Results for Run 2644 (Commit: 860914c)
+ 3 files changed, 463 insertions(+)
+ create mode 100644 data/full/domainspecific_results_2644_medicine-llama-3-8b_4bit_rephrase_ag-pubmed.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   c79c36a..e80fc29  main -> main
