@@ -265,3 +265,9 @@ RuntimeError: Error(s) in loading state_dict for MistralForCausalLM:
 	size mismatch for model.layers.31.mlp.down_proj.weight: copying a param with shape torch.Size([0]) from checkpoint, the shape in current model is torch.Size([4096, 14336]).
 	size mismatch for lm_head.weight: copying a param with shape torch.Size([0]) from checkpoint, the shape in current model is torch.Size([32000, 4096]).
 	You may consider adding `ignore_mismatched_sizes=True` in the model `from_pretrained` method.
+[main ef78b00] Domain Specific LLM Script Results for Run 2664 (Commit: 597a421)
+ 3 files changed, 275 insertions(+)
+ create mode 100644 slurm-outputs/slurm.2664.abakus11.out
+ create mode 100644 slurm-outputs/slurm.2665.abakus12.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   597a421..ef78b00  main -> main
