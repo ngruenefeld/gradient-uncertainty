@@ -1167,3 +1167,28 @@ Processing sample 380 (dataset index 379)
 Sample 380 (dataset index 379) processed successfully with 3 rephrasings.
 Processing sample 381/500 (dataset index: 380)
 Processing sample 381 (dataset index 380)
+JSONDecodeError: Expecting ',' delimiter: line 15987 column 23 (char 185312)
+Error getting rephrasings for sample 381 (dataset index 380): Invalid JSON response from API
+Processing sample 382/500 (dataset index: 381)
+Processing sample 382 (dataset index 381)
+Sample 382 (dataset index 381) processed successfully with 3 rephrasings.
+Processing sample 383/500 (dataset index: 382)
+Processing sample 383 (dataset index 382)
+Sample 383 (dataset index 382) processed successfully with 3 rephrasings.
+Processing sample 384/500 (dataset index: 383)
+Processing sample 384 (dataset index 383)
+Sample 384 (dataset index 383) processed successfully with 3 rephrasings.
+Processing sample 385/500 (dataset index: 384)
+Processing sample 385 (dataset index 384)
+Sample 385 (dataset index 384) processed successfully with 3 rephrasings.
+Processing sample 386/500 (dataset index: 385)
+Processing sample 386 (dataset index 385)
+Sample 386 (dataset index 385) processed successfully with 3 rephrasings.
+Processing sample 387/500 (dataset index: 386)
+Processing sample 387 (dataset index 386)
+Sample 387 (dataset index 386) processed successfully with 3 rephrasings.
+Processing sample 388/500 (dataset index: 387)
+Processing sample 388 (dataset index 387)
+Sample 388 (dataset index 387) processed successfully with 3 rephrasings.
+Processing sample 389/500 (dataset index: 388)
+Processing sample 389 (dataset index 388)
