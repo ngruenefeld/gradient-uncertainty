@@ -103,6 +103,8 @@ def main(args):
         "llama-3-8b",
         "medreason",
         "huatougpt",
+        "medreason-mistral",
+        "mistral-7b-instruct",
     ]
 
     # Prepare common model loading parameters
