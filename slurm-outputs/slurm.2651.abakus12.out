@@ -480,3 +480,7 @@ Processing sample 151 (dataset index 150)
 Sample 151 (dataset index 150) processed successfully with 3 rephrasings.
 Processing sample 152/200 (dataset index: 151)
 Processing sample 152 (dataset index 151)
+JSONDecodeError: Expecting ',' delimiter: line 24476 column 1 (char 60305)
+Error getting rephrasings for sample 152 (dataset index 151): Invalid JSON response from API
+Processing sample 153/200 (dataset index: 152)
+Processing sample 153 (dataset index 152)
