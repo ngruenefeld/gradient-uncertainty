@@ -1827,3 +1827,8 @@ Processing sample 600/600 (dataset index: 599)
 Processing sample 600 (dataset index 599)
 Sample 600 (dataset index 599) processed successfully with 3 rephrasings.
 Processing complete. Saved 598 successful results. Failed: 2
+[main 1c11dc5] Domain Specific LLM Script Results for Run 2611 (Commit: 4c86077)
+ 3 files changed, 342 insertions(+)
+ create mode 100644 data/full/domainspecific_results_2611_llama-3.2-3b-legal_4bit_rephrase_scienceqa-legalqa.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   13d939a..1c11dc5  main -> main
