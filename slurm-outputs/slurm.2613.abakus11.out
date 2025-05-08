@@ -29,3 +29,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/domain_specific.py", line 65, in main
     raise ValueError(
 ValueError: Model medical-llama not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b, phi4, deepseek-v3.
+[main c4908d0] Domain Specific LLM Script Results for Run 2613 (Commit: ea6a2f9)
+ 2 files changed, 36 insertions(+)
+ create mode 100644 slurm-outputs/slurm.2613.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   ea6a2f9..c4908d0  main -> main
