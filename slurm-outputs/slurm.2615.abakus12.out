@@ -1528,3 +1528,10 @@ Processing sample 500 (dataset index 499)
 Error in completion_gradient: CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 71.12 MiB is free. Including non-PyTorch memory, this process has 19.44 GiB memory in use. Of the allocated memory 18.00 GiB is allocated by PyTorch, and 1.21 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Error calculating gradient for rephrasing 2 in sample 500 (dataset index 499): CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 71.12 MiB is free. Including non-PyTorch memory, this process has 19.44 GiB memory in use. Of the allocated memory 18.00 GiB is allocated by PyTorch, and 1.21 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
 Processing complete. Saved 497 successful results. Failed: 3
+[main 23cbb79] Domain Specific LLM Script Results for Run 2615 (Commit: c4908d0)
+ 4 files changed, 2949 insertions(+)
+ create mode 100644 data/full/domainspecific_results_2615_llama-2-chat_4bit_rephrase_ag-pubmed.pkl
+ create mode 100644 slurm-outputs/slurm.2614.abakus11.out
+ create mode 100644 slurm-outputs/slurm.2615.abakus12.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   c4908d0..23cbb79  main -> main
