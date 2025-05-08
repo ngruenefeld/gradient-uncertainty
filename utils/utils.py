@@ -862,7 +862,7 @@ def load_domain_specific_datasets(choice="ag-pubmed", per_label_sample_size=200)
 
         return Dataset.from_dict(full_data)
 
-    if choice == "legalqa-pubmed":
+    elif choice == "legalqa-pubmed":
         legalqa_dataset = load_dataset(
             "isaacus/open-australian-legal-qa", split="train"
         )
