@@ -634,3 +634,8 @@ Processing sample 200/200 (dataset index: 199)
 Processing sample 200 (dataset index 199)
 Sample 200 (dataset index 199) processed successfully with 3 rephrasings.
 Processing complete. Saved 198 successful results. Failed: 2
+[main 147eb88] Domain Specific LLM Script Results for Run 2629 (Commit: fa9d1b1)
+ 2 files changed, 53 insertions(+)
+ create mode 100644 data/full/domainspecific_results_2629_medicine-chat_4bit_rephrase_legalqa-pubmed.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   44199c7..147eb88  main -> main
