@@ -23,4 +23,15 @@ Max tokens: 0
 Sample Size Per Label: 100
 Loading model in 4-bit precision to reduce memory usage
 Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [02:21<07:04, 141.49s/it]Downloading shards:  50%|█████     | 2/4 [04:26<04:23, 131.89s/it]Downloading shards:  75%|███████▌  | 3/4 [07:08<02:25, 145.69s/it]Downloading shards: 100%|██████████| 4/4 [07:55<00:00, 106.48s/it]Downloading shards: 100%|██████████| 4/4 [07:55<00:00, 118.79s/it]
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:52<02:37, 52.50s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:40<01:39, 49.92s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:52<02:37, 52.50s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:40<01:39, 49.92s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [02:24<00:47, 47.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:34<00:00, 32.66s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:34<00:00, 38.73s/it]
+Processing sample 1/500 (dataset index: 0)
+Processing sample 1 (dataset index 0)
+Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
+Processing sample 2/500 (dataset index: 1)
+Processing sample 2 (dataset index 1)
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/500 (dataset index: 2)
+Processing sample 3 (dataset index 2)
+Sample 3 (dataset index 2) processed successfully with 3 rephrasings.
+Processing sample 4/500 (dataset index: 3)
+Processing sample 4 (dataset index 3)
