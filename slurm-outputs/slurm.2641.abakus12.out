@@ -22,4 +22,8 @@ Number of perturbations: 3
 Max tokens: 0
 Sample Size Per Label: 100
 Loading model in 4-bit precision to reduce memory usage
-Downloading shards:   0%|          | 0/6 [00:00<?, ?it/s]Downloading shards:  17%|█▋        | 1/6 [03:56<19:44, 236.97s/it]Downloading shards:  33%|███▎      | 2/6 [09:02<18:28, 277.21s/it]Downloading shards:  50%|█████     | 3/6 [11:17<10:37, 212.38s/it]
+Downloading shards:   0%|          | 0/6 [00:00<?, ?it/s]Downloading shards:  17%|█▋        | 1/6 [03:56<19:44, 236.97s/it]Downloading shards:  33%|███▎      | 2/6 [09:02<18:28, 277.21s/it]Downloading shards:  50%|█████     | 3/6 [11:17<10:37, 212.38s/it]Downloading shards:  67%|██████▋   | 4/6 [16:55<08:43, 261.86s/it]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 5872.26 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--instruction-pretrain--medicine-Llama3-8B/blobs only has 4196.83 MB free disk space.
+  warnings.warn(
+Downloading shards:  83%|████████▎ | 5/6 [19:10<03:36, 216.06s/it]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 2571.16 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--instruction-pretrain--medicine-Llama3-8B/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+slurmstepd-abakus12: error: *** JOB 2641 ON abakus12 CANCELLED AT 2025-05-08T13:36:42 ***
