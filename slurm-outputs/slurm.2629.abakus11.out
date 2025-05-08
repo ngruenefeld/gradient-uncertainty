@@ -425,3 +425,18 @@ JSONDecodeError: Expecting ',' delimiter: line 32372 column 1 (char 49681)
 Error getting rephrasings for sample 130 (dataset index 129): Invalid JSON response from API
 Processing sample 131/200 (dataset index: 130)
 Processing sample 131 (dataset index 130)
+Sample 131 (dataset index 130) processed successfully with 3 rephrasings.
+Processing sample 132/200 (dataset index: 131)
+Processing sample 132 (dataset index 131)
+Sample 132 (dataset index 131) processed successfully with 3 rephrasings.
+Processing sample 133/200 (dataset index: 132)
+Processing sample 133 (dataset index 132)
+Sample 133 (dataset index 132) processed successfully with 3 rephrasings.
+Processing sample 134/200 (dataset index: 133)
+Processing sample 134 (dataset index 133)
+Sample 134 (dataset index 133) processed successfully with 3 rephrasings.
+Processing sample 135/200 (dataset index: 134)
+Processing sample 135 (dataset index 134)
+Sample 135 (dataset index 134) processed successfully with 3 rephrasings.
+Processing sample 136/200 (dataset index: 135)
+Processing sample 136 (dataset index 135)
