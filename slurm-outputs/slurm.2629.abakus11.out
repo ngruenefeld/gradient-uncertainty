@@ -144,3 +144,55 @@ Processing sample 37 (dataset index 36)
 Sample 37 (dataset index 36) processed successfully with 3 rephrasings.
 Processing sample 38/200 (dataset index: 37)
 Processing sample 38 (dataset index 37)
+Sample 38 (dataset index 37) processed successfully with 3 rephrasings.
+Processing sample 39/200 (dataset index: 38)
+Processing sample 39 (dataset index 38)
+Sample 39 (dataset index 38) processed successfully with 3 rephrasings.
+Processing sample 40/200 (dataset index: 39)
+Processing sample 40 (dataset index 39)
+Sample 40 (dataset index 39) processed successfully with 3 rephrasings.
+Processing sample 41/200 (dataset index: 40)
+Processing sample 41 (dataset index 40)
+Sample 41 (dataset index 40) processed successfully with 3 rephrasings.
+Processing sample 42/200 (dataset index: 41)
+Processing sample 42 (dataset index 41)
+Sample 42 (dataset index 41) processed successfully with 3 rephrasings.
+Processing sample 43/200 (dataset index: 42)
+Processing sample 43 (dataset index 42)
+Sample 43 (dataset index 42) processed successfully with 3 rephrasings.
+Processing sample 44/200 (dataset index: 43)
+Processing sample 44 (dataset index 43)
+Sample 44 (dataset index 43) processed successfully with 3 rephrasings.
+Processing sample 45/200 (dataset index: 44)
+Processing sample 45 (dataset index 44)
+Sample 45 (dataset index 44) processed successfully with 3 rephrasings.
+Processing sample 46/200 (dataset index: 45)
+Processing sample 46 (dataset index 45)
+Sample 46 (dataset index 45) processed successfully with 3 rephrasings.
+Processing sample 47/200 (dataset index: 46)
+Processing sample 47 (dataset index 46)
+JSONDecodeError: Expecting value: line 14769 column 1 (char 47660)
+Error getting rephrasings for sample 47 (dataset index 46): Invalid JSON response from API
+Processing sample 48/200 (dataset index: 47)
+Processing sample 48 (dataset index 47)
+Sample 48 (dataset index 47) processed successfully with 3 rephrasings.
+Processing sample 49/200 (dataset index: 48)
+Processing sample 49 (dataset index 48)
+Sample 49 (dataset index 48) processed successfully with 1 rephrasings.
+Processing sample 50/200 (dataset index: 49)
+Processing sample 50 (dataset index 49)
+Sample 50 (dataset index 49) processed successfully with 3 rephrasings.
+Processing sample 51/200 (dataset index: 50)
+Processing sample 51 (dataset index 50)
+Sample 51 (dataset index 50) processed successfully with 3 rephrasings.
+Processing sample 52/200 (dataset index: 51)
+Processing sample 52 (dataset index 51)
+Sample 52 (dataset index 51) processed successfully with 3 rephrasings.
+Processing sample 53/200 (dataset index: 52)
+Processing sample 53 (dataset index 52)
+Sample 53 (dataset index 52) processed successfully with 3 rephrasings.
+Processing sample 54/200 (dataset index: 53)
+Processing sample 54 (dataset index 53)
+Sample 54 (dataset index 53) processed successfully with 3 rephrasings.
+Processing sample 55/200 (dataset index: 54)
+Processing sample 55 (dataset index 54)
