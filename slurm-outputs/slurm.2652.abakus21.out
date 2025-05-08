@@ -1192,3 +1192,61 @@ Processing sample 388 (dataset index 387)
 Sample 388 (dataset index 387) processed successfully with 3 rephrasings.
 Processing sample 389/500 (dataset index: 388)
 Processing sample 389 (dataset index 388)
+Sample 389 (dataset index 388) processed successfully with 3 rephrasings.
+Processing sample 390/500 (dataset index: 389)
+Processing sample 390 (dataset index 389)
+Sample 390 (dataset index 389) processed successfully with 3 rephrasings.
+Processing sample 391/500 (dataset index: 390)
+Processing sample 391 (dataset index 390)
+Sample 391 (dataset index 390) processed successfully with 3 rephrasings.
+Processing sample 392/500 (dataset index: 391)
+Processing sample 392 (dataset index 391)
+Sample 392 (dataset index 391) processed successfully with 3 rephrasings.
+Processing sample 393/500 (dataset index: 392)
+Processing sample 393 (dataset index 392)
+Sample 393 (dataset index 392) processed successfully with 3 rephrasings.
+Processing sample 394/500 (dataset index: 393)
+Processing sample 394 (dataset index 393)
+Sample 394 (dataset index 393) processed successfully with 3 rephrasings.
+Processing sample 395/500 (dataset index: 394)
+Processing sample 395 (dataset index 394)
+Sample 395 (dataset index 394) processed successfully with 3 rephrasings.
+Processing sample 396/500 (dataset index: 395)
+Processing sample 396 (dataset index 395)
+Sample 396 (dataset index 395) processed successfully with 3 rephrasings.
+Processing sample 397/500 (dataset index: 396)
+Processing sample 397 (dataset index 396)
+Sample 397 (dataset index 396) processed successfully with 3 rephrasings.
+Processing sample 398/500 (dataset index: 397)
+Processing sample 398 (dataset index 397)
+Sample 398 (dataset index 397) processed successfully with 3 rephrasings.
+Processing sample 399/500 (dataset index: 398)
+Processing sample 399 (dataset index 398)
+Sample 399 (dataset index 398) processed successfully with 3 rephrasings.
+Processing sample 400/500 (dataset index: 399)
+Processing sample 400 (dataset index 399)
+Sample 400 (dataset index 399) processed successfully with 3 rephrasings.
+Processing sample 401/500 (dataset index: 400)
+Processing sample 401 (dataset index 400)
+Sample 401 (dataset index 400) processed successfully with 1 rephrasings.
+Processing sample 402/500 (dataset index: 401)
+Processing sample 402 (dataset index 401)
+JSONDecodeError: Expecting value: line 22677 column 1 (char 57489)
+Error getting rephrasings for sample 402 (dataset index 401): Invalid JSON response from API
+Processing sample 403/500 (dataset index: 402)
+Processing sample 403 (dataset index 402)
+Sample 403 (dataset index 402) processed successfully with 3 rephrasings.
+Processing sample 404/500 (dataset index: 403)
+Processing sample 404 (dataset index 403)
+Sample 404 (dataset index 403) processed successfully with 3 rephrasings.
+Processing sample 405/500 (dataset index: 404)
+Processing sample 405 (dataset index 404)
+Sample 405 (dataset index 404) processed successfully with 3 rephrasings.
+Processing sample 406/500 (dataset index: 405)
+Processing sample 406 (dataset index 405)
+Sample 406 (dataset index 405) processed successfully with 3 rephrasings.
+Processing sample 407/500 (dataset index: 406)
+Processing sample 407 (dataset index 406)
+Sample 407 (dataset index 406) processed successfully with 3 rephrasings.
+Processing sample 408/500 (dataset index: 407)
+Processing sample 408 (dataset index 407)
