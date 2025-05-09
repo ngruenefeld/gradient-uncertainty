@@ -2004,3 +2004,265 @@ Processing sample 644 (dataset index 643)
 Sample 644 (dataset index 643) processed successfully with 3 rephrasings.
 Processing sample 645/1000 (dataset index: 644)
 Processing sample 645 (dataset index 644)
+Sample 645 (dataset index 644) processed successfully with 3 rephrasings.
+Processing sample 646/1000 (dataset index: 645)
+Processing sample 646 (dataset index 645)
+Sample 646 (dataset index 645) processed successfully with 3 rephrasings.
+Processing sample 647/1000 (dataset index: 646)
+Processing sample 647 (dataset index 646)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 1.21 GiB. GPU 0 has a total capacity of 23.56 GiB of which 541.00 MiB is free. Including non-PyTorch memory, this process has 23.01 GiB memory in use. Of the allocated memory 21.94 GiB is allocated by PyTorch, and 827.42 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 647 (dataset index 646): CUDA out of memory. Tried to allocate 1.21 GiB. GPU 0 has a total capacity of 23.56 GiB of which 541.00 MiB is free. Including non-PyTorch memory, this process has 23.01 GiB memory in use. Of the allocated memory 21.94 GiB is allocated by PyTorch, and 827.42 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 648/1000 (dataset index: 647)
+Processing sample 648 (dataset index 647)
+Sample 648 (dataset index 647) processed successfully with 3 rephrasings.
+Processing sample 649/1000 (dataset index: 648)
+Processing sample 649 (dataset index 648)
+JSONDecodeError: Expecting ',' delimiter: line 24377 column 5654 (char 69004)
+Error getting rephrasings for sample 649 (dataset index 648): Invalid JSON response from API
+Processing sample 650/1000 (dataset index: 649)
+Processing sample 650 (dataset index 649)
+Sample 650 (dataset index 649) processed successfully with 3 rephrasings.
+Processing sample 651/1000 (dataset index: 650)
+Processing sample 651 (dataset index 650)
+Sample 651 (dataset index 650) processed successfully with 3 rephrasings.
+Processing sample 652/1000 (dataset index: 651)
+Processing sample 652 (dataset index 651)
+Sample 652 (dataset index 651) processed successfully with 3 rephrasings.
+Processing sample 653/1000 (dataset index: 652)
+Processing sample 653 (dataset index 652)
+Sample 653 (dataset index 652) processed successfully with 3 rephrasings.
+Processing sample 654/1000 (dataset index: 653)
+Processing sample 654 (dataset index 653)
+Sample 654 (dataset index 653) processed successfully with 3 rephrasings.
+Processing sample 655/1000 (dataset index: 654)
+Processing sample 655 (dataset index 654)
+Sample 655 (dataset index 654) processed successfully with 3 rephrasings.
+Processing sample 656/1000 (dataset index: 655)
+Processing sample 656 (dataset index 655)
+Sample 656 (dataset index 655) processed successfully with 3 rephrasings.
+Processing sample 657/1000 (dataset index: 656)
+Processing sample 657 (dataset index 656)
+Sample 657 (dataset index 656) processed successfully with 3 rephrasings.
+Processing sample 658/1000 (dataset index: 657)
+Processing sample 658 (dataset index 657)
+Sample 658 (dataset index 657) processed successfully with 3 rephrasings.
+Processing sample 659/1000 (dataset index: 658)
+Processing sample 659 (dataset index 658)
+Sample 659 (dataset index 658) processed successfully with 3 rephrasings.
+Processing sample 660/1000 (dataset index: 659)
+Processing sample 660 (dataset index 659)
+Sample 660 (dataset index 659) processed successfully with 3 rephrasings.
+Processing sample 661/1000 (dataset index: 660)
+Processing sample 661 (dataset index 660)
+Sample 661 (dataset index 660) processed successfully with 3 rephrasings.
+Processing sample 662/1000 (dataset index: 661)
+Processing sample 662 (dataset index 661)
+Sample 662 (dataset index 661) processed successfully with 3 rephrasings.
+Processing sample 663/1000 (dataset index: 662)
+Processing sample 663 (dataset index 662)
+Sample 663 (dataset index 662) processed successfully with 3 rephrasings.
+Processing sample 664/1000 (dataset index: 663)
+Processing sample 664 (dataset index 663)
+Sample 664 (dataset index 663) processed successfully with 3 rephrasings.
+Processing sample 665/1000 (dataset index: 664)
+Processing sample 665 (dataset index 664)
+Sample 665 (dataset index 664) processed successfully with 5 rephrasings.
+Processing sample 666/1000 (dataset index: 665)
+Processing sample 666 (dataset index 665)
+Sample 666 (dataset index 665) processed successfully with 3 rephrasings.
+Processing sample 667/1000 (dataset index: 666)
+Processing sample 667 (dataset index 666)
+Sample 667 (dataset index 666) processed successfully with 3 rephrasings.
+Processing sample 668/1000 (dataset index: 667)
+Processing sample 668 (dataset index 667)
+Sample 668 (dataset index 667) processed successfully with 3 rephrasings.
+Processing sample 669/1000 (dataset index: 668)
+Processing sample 669 (dataset index 668)
+Sample 669 (dataset index 668) processed successfully with 3 rephrasings.
+Processing sample 670/1000 (dataset index: 669)
+Processing sample 670 (dataset index 669)
+Sample 670 (dataset index 669) processed successfully with 3 rephrasings.
+Processing sample 671/1000 (dataset index: 670)
+Processing sample 671 (dataset index 670)
+Sample 671 (dataset index 670) processed successfully with 3 rephrasings.
+Processing sample 672/1000 (dataset index: 671)
+Processing sample 672 (dataset index 671)
+Sample 672 (dataset index 671) processed successfully with 3 rephrasings.
+Processing sample 673/1000 (dataset index: 672)
+Processing sample 673 (dataset index 672)
+Sample 673 (dataset index 672) processed successfully with 3 rephrasings.
+Processing sample 674/1000 (dataset index: 673)
+Processing sample 674 (dataset index 673)
+Sample 674 (dataset index 673) processed successfully with 3 rephrasings.
+Processing sample 675/1000 (dataset index: 674)
+Processing sample 675 (dataset index 674)
+Sample 675 (dataset index 674) processed successfully with 3 rephrasings.
+Processing sample 676/1000 (dataset index: 675)
+Processing sample 676 (dataset index 675)
+Sample 676 (dataset index 675) processed successfully with 3 rephrasings.
+Processing sample 677/1000 (dataset index: 676)
+Processing sample 677 (dataset index 676)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 138.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 117.00 MiB is free. Including non-PyTorch memory, this process has 23.42 GiB memory in use. Of the allocated memory 21.99 GiB is allocated by PyTorch, and 1.18 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 677 (dataset index 676): CUDA out of memory. Tried to allocate 138.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 117.00 MiB is free. Including non-PyTorch memory, this process has 23.42 GiB memory in use. Of the allocated memory 21.99 GiB is allocated by PyTorch, and 1.18 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 678/1000 (dataset index: 677)
+Processing sample 678 (dataset index 677)
+Sample 678 (dataset index 677) processed successfully with 3 rephrasings.
+Processing sample 679/1000 (dataset index: 678)
+Processing sample 679 (dataset index 678)
+Sample 679 (dataset index 678) processed successfully with 5 rephrasings.
+Processing sample 680/1000 (dataset index: 679)
+Processing sample 680 (dataset index 679)
+Sample 680 (dataset index 679) processed successfully with 3 rephrasings.
+Processing sample 681/1000 (dataset index: 680)
+Processing sample 681 (dataset index 680)
+Sample 681 (dataset index 680) processed successfully with 3 rephrasings.
+Processing sample 682/1000 (dataset index: 681)
+Processing sample 682 (dataset index 681)
+Sample 682 (dataset index 681) processed successfully with 1 rephrasings.
+Processing sample 683/1000 (dataset index: 682)
+Processing sample 683 (dataset index 682)
+Sample 683 (dataset index 682) processed successfully with 3 rephrasings.
+Processing sample 684/1000 (dataset index: 683)
+Processing sample 684 (dataset index 683)
+Sample 684 (dataset index 683) processed successfully with 3 rephrasings.
+Processing sample 685/1000 (dataset index: 684)
+Processing sample 685 (dataset index 684)
+Sample 685 (dataset index 684) processed successfully with 3 rephrasings.
+Processing sample 686/1000 (dataset index: 685)
+Processing sample 686 (dataset index 685)
+Sample 686 (dataset index 685) processed successfully with 3 rephrasings.
+Processing sample 687/1000 (dataset index: 686)
+Processing sample 687 (dataset index 686)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 30.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 21.00 MiB is free. Including non-PyTorch memory, this process has 23.52 GiB memory in use. Of the allocated memory 21.89 GiB is allocated by PyTorch, and 1.37 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 687 (dataset index 686): CUDA out of memory. Tried to allocate 30.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 21.00 MiB is free. Including non-PyTorch memory, this process has 23.52 GiB memory in use. Of the allocated memory 21.89 GiB is allocated by PyTorch, and 1.37 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 688/1000 (dataset index: 687)
+Processing sample 688 (dataset index 687)
+Sample 688 (dataset index 687) processed successfully with 3 rephrasings.
+Processing sample 689/1000 (dataset index: 688)
+Processing sample 689 (dataset index 688)
+Sample 689 (dataset index 688) processed successfully with 3 rephrasings.
+Processing sample 690/1000 (dataset index: 689)
+Processing sample 690 (dataset index 689)
+Sample 690 (dataset index 689) processed successfully with 3 rephrasings.
+Processing sample 691/1000 (dataset index: 690)
+Processing sample 691 (dataset index 690)
+Sample 691 (dataset index 690) processed successfully with 1 rephrasings.
+Processing sample 692/1000 (dataset index: 691)
+Processing sample 692 (dataset index 691)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 1.33 GiB. GPU 0 has a total capacity of 23.56 GiB of which 305.00 MiB is free. Including non-PyTorch memory, this process has 23.24 GiB memory in use. Of the allocated memory 21.99 GiB is allocated by PyTorch, and 1017.50 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 692 (dataset index 691): CUDA out of memory. Tried to allocate 1.33 GiB. GPU 0 has a total capacity of 23.56 GiB of which 305.00 MiB is free. Including non-PyTorch memory, this process has 23.24 GiB memory in use. Of the allocated memory 21.99 GiB is allocated by PyTorch, and 1017.50 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 693/1000 (dataset index: 692)
+Processing sample 693 (dataset index 692)
+Sample 693 (dataset index 692) processed successfully with 3 rephrasings.
+Processing sample 694/1000 (dataset index: 693)
+Processing sample 694 (dataset index 693)
+Sample 694 (dataset index 693) processed successfully with 3 rephrasings.
+Processing sample 695/1000 (dataset index: 694)
+Processing sample 695 (dataset index 694)
+Sample 695 (dataset index 694) processed successfully with 3 rephrasings.
+Processing sample 696/1000 (dataset index: 695)
+Processing sample 696 (dataset index 695)
+Sample 696 (dataset index 695) processed successfully with 3 rephrasings.
+Processing sample 697/1000 (dataset index: 696)
+Processing sample 697 (dataset index 696)
+Sample 697 (dataset index 696) processed successfully with 3 rephrasings.
+Processing sample 698/1000 (dataset index: 697)
+Processing sample 698 (dataset index 697)
+Sample 698 (dataset index 697) processed successfully with 3 rephrasings.
+Processing sample 699/1000 (dataset index: 698)
+Processing sample 699 (dataset index 698)
+Sample 699 (dataset index 698) processed successfully with 3 rephrasings.
+Processing sample 700/1000 (dataset index: 699)
+Processing sample 700 (dataset index 699)
+Sample 700 (dataset index 699) processed successfully with 3 rephrasings.
+Processing sample 701/1000 (dataset index: 700)
+Processing sample 701 (dataset index 700)
+Sample 701 (dataset index 700) processed successfully with 3 rephrasings.
+Processing sample 702/1000 (dataset index: 701)
+Processing sample 702 (dataset index 701)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 30.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 27.00 MiB is free. Including non-PyTorch memory, this process has 23.51 GiB memory in use. Of the allocated memory 21.70 GiB is allocated by PyTorch, and 1.55 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 702 (dataset index 701): CUDA out of memory. Tried to allocate 30.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 27.00 MiB is free. Including non-PyTorch memory, this process has 23.51 GiB memory in use. Of the allocated memory 21.70 GiB is allocated by PyTorch, and 1.55 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 703/1000 (dataset index: 702)
+Processing sample 703 (dataset index 702)
+Sample 703 (dataset index 702) processed successfully with 6 rephrasings.
+Processing sample 704/1000 (dataset index: 703)
+Processing sample 704 (dataset index 703)
+Sample 704 (dataset index 703) processed successfully with 7 rephrasings.
+Processing sample 705/1000 (dataset index: 704)
+Processing sample 705 (dataset index 704)
+Sample 705 (dataset index 704) processed successfully with 3 rephrasings.
+Processing sample 706/1000 (dataset index: 705)
+Processing sample 706 (dataset index 705)
+Sample 706 (dataset index 705) processed successfully with 3 rephrasings.
+Processing sample 707/1000 (dataset index: 706)
+Processing sample 707 (dataset index 706)
+Sample 707 (dataset index 706) processed successfully with 3 rephrasings.
+Processing sample 708/1000 (dataset index: 707)
+Processing sample 708 (dataset index 707)
+Sample 708 (dataset index 707) processed successfully with 3 rephrasings.
+Processing sample 709/1000 (dataset index: 708)
+Processing sample 709 (dataset index 708)
+Sample 709 (dataset index 708) processed successfully with 3 rephrasings.
+Processing sample 710/1000 (dataset index: 709)
+Processing sample 710 (dataset index 709)
+Sample 710 (dataset index 709) processed successfully with 3 rephrasings.
+Processing sample 711/1000 (dataset index: 710)
+Processing sample 711 (dataset index 710)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 1.14 GiB. GPU 0 has a total capacity of 23.56 GiB of which 803.00 MiB is free. Including non-PyTorch memory, this process has 22.75 GiB memory in use. Of the allocated memory 21.08 GiB is allocated by PyTorch, and 1.42 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 711 (dataset index 710): CUDA out of memory. Tried to allocate 1.14 GiB. GPU 0 has a total capacity of 23.56 GiB of which 803.00 MiB is free. Including non-PyTorch memory, this process has 22.75 GiB memory in use. Of the allocated memory 21.08 GiB is allocated by PyTorch, and 1.42 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 712/1000 (dataset index: 711)
+Processing sample 712 (dataset index 711)
+Sample 712 (dataset index 711) processed successfully with 3 rephrasings.
+Processing sample 713/1000 (dataset index: 712)
+Processing sample 713 (dataset index 712)
+Sample 713 (dataset index 712) processed successfully with 3 rephrasings.
+Processing sample 714/1000 (dataset index: 713)
+Processing sample 714 (dataset index 713)
+Sample 714 (dataset index 713) processed successfully with 3 rephrasings.
+Processing sample 715/1000 (dataset index: 714)
+Processing sample 715 (dataset index 714)
+Sample 715 (dataset index 714) processed successfully with 3 rephrasings.
+Processing sample 716/1000 (dataset index: 715)
+Processing sample 716 (dataset index 715)
+Sample 716 (dataset index 715) processed successfully with 3 rephrasings.
+Processing sample 717/1000 (dataset index: 716)
+Processing sample 717 (dataset index 716)
+Sample 717 (dataset index 716) processed successfully with 3 rephrasings.
+Processing sample 718/1000 (dataset index: 717)
+Processing sample 718 (dataset index 717)
+Sample 718 (dataset index 717) processed successfully with 3 rephrasings.
+Processing sample 719/1000 (dataset index: 718)
+Processing sample 719 (dataset index 718)
+Sample 719 (dataset index 718) processed successfully with 3 rephrasings.
+Processing sample 720/1000 (dataset index: 719)
+Processing sample 720 (dataset index 719)
+Sample 720 (dataset index 719) processed successfully with 3 rephrasings.
+Processing sample 721/1000 (dataset index: 720)
+Processing sample 721 (dataset index 720)
+Sample 721 (dataset index 720) processed successfully with 3 rephrasings.
+Processing sample 722/1000 (dataset index: 721)
+Processing sample 722 (dataset index 721)
+Sample 722 (dataset index 721) processed successfully with 3 rephrasings.
+Processing sample 723/1000 (dataset index: 722)
+Processing sample 723 (dataset index 722)
+Sample 723 (dataset index 722) processed successfully with 3 rephrasings.
+Processing sample 724/1000 (dataset index: 723)
+Processing sample 724 (dataset index 723)
+Sample 724 (dataset index 723) processed successfully with 3 rephrasings.
+Processing sample 725/1000 (dataset index: 724)
+Processing sample 725 (dataset index 724)
+Sample 725 (dataset index 724) processed successfully with 3 rephrasings.
+Processing sample 726/1000 (dataset index: 725)
+Processing sample 726 (dataset index 725)
+Sample 726 (dataset index 725) processed successfully with 3 rephrasings.
+Processing sample 727/1000 (dataset index: 726)
+Processing sample 727 (dataset index 726)
+Sample 727 (dataset index 726) processed successfully with 3 rephrasings.
+Processing sample 728/1000 (dataset index: 727)
+Processing sample 728 (dataset index 727)
+Sample 728 (dataset index 727) processed successfully with 3 rephrasings.
+Processing sample 729/1000 (dataset index: 728)
+Processing sample 729 (dataset index 728)
+Sample 729 (dataset index 728) processed successfully with 3 rephrasings.
+Processing sample 730/1000 (dataset index: 729)
+Processing sample 730 (dataset index 729)
