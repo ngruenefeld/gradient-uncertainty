@@ -892,5 +892,58 @@ def load_domain_specific_datasets(choice="ag-pubmed", per_label_sample_size=200)
 
         return Dataset.from_dict(data)
 
+    if choice == "finefineweb":
+        dataset = load_dataset(
+            "m-a-p/FineFineWeb-validation", streaming=True, split="train"
+        )
+
+        labels = [
+            "medical",
+            "aerospace",
+            "biology",
+            "celebrity",
+            "finance",
+            "law",
+            "mathematics",
+            "news",
+            "sports",
+            "psychology",
+        ]
+
+        count = 0
+
+        data = {
+            label: {
+                "text": [],
+                "label": [],
+                "origin": [],
+            }
+            for label in labels
+        }
+
+        full_sample_size = len(labels) * per_label_sample_size
+
+        count = 0
+
+        for example in dataset:
+            if count >= full_sample_size:
+                break
+            cur_label = example["domain"]
+            if cur_label not in labels:
+                continue
+            if len(data[cur_label]["text"]) < per_label_sample_size:
+                data[cur_label]["text"].append(example["text"])
+                data[cur_label]["label"].append(cur_label)
+                data[cur_label]["origin"].append("FineFineWeb")
+                count += 1
+
+        full_data = {"text": [], "label": [], "origin": []}
+        for label in data:
+            full_data["text"].extend(data[label]["text"])
+            full_data["label"].extend(data[label]["label"])
+            full_data["origin"].extend(data[label]["origin"])
+
+        return Dataset.from_dict(full_data)
+
     else:
         raise ValueError(f"Dataset {choice} not supported.")
