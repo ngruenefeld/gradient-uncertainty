@@ -22,4 +22,80 @@ Number of perturbations: 3
 Max tokens: 0
 Sample Size Per Label: 100
 Loading model in 4-bit precision to reduce memory usage
-Downloading shards:   0%|          | 0/3 [00:00<?, ?it/s]Downloading shards:  33%|███▎      | 1/3 [05:59<11:58, 359.34s/it]
+Downloading shards:   0%|          | 0/3 [00:00<?, ?it/s]Downloading shards:  33%|███▎      | 1/3 [05:59<11:58, 359.34s/it]Downloading shards:  67%|██████▋   | 2/3 [11:16<05:34, 334.54s/it]Downloading shards: 100%|██████████| 3/3 [14:25<00:00, 268.09s/it]Downloading shards: 100%|██████████| 3/3 [14:25<00:00, 288.51s/it]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [02:12<04:24, 132.22s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [03:48<01:50, 110.82s/it]Loading checkpoint shards: 100%|██████████| 3/3 [04:53<00:00, 90.29s/it] Loading checkpoint shards: 100%|██████████| 3/3 [04:53<00:00, 97.97s/it]
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Processing sample 1/1000 (dataset index: 0)
+Processing sample 1 (dataset index 0)
+Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
+Processing sample 2/1000 (dataset index: 1)
+Processing sample 2 (dataset index 1)
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/1000 (dataset index: 2)
+Processing sample 3 (dataset index 2)
+Sample 3 (dataset index 2) processed successfully with 3 rephrasings.
+Processing sample 4/1000 (dataset index: 3)
+Processing sample 4 (dataset index 3)
+Sample 4 (dataset index 3) processed successfully with 3 rephrasings.
+Processing sample 5/1000 (dataset index: 4)
+Processing sample 5 (dataset index 4)
+Sample 5 (dataset index 4) processed successfully with 3 rephrasings.
+Processing sample 6/1000 (dataset index: 5)
+Processing sample 6 (dataset index 5)
+Sample 6 (dataset index 5) processed successfully with 1 rephrasings.
+Processing sample 7/1000 (dataset index: 6)
+Processing sample 7 (dataset index 6)
+Sample 7 (dataset index 6) processed successfully with 3 rephrasings.
+Processing sample 8/1000 (dataset index: 7)
+Processing sample 8 (dataset index 7)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 110.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 23.00 MiB is free. Including non-PyTorch memory, this process has 23.51 GiB memory in use. Of the allocated memory 21.82 GiB is allocated by PyTorch, and 1.44 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 8 (dataset index 7): CUDA out of memory. Tried to allocate 110.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 23.00 MiB is free. Including non-PyTorch memory, this process has 23.51 GiB memory in use. Of the allocated memory 21.82 GiB is allocated by PyTorch, and 1.44 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 9/1000 (dataset index: 8)
+Processing sample 9 (dataset index 8)
+Sample 9 (dataset index 8) processed successfully with 3 rephrasings.
+Processing sample 10/1000 (dataset index: 9)
+Processing sample 10 (dataset index 9)
+Sample 10 (dataset index 9) processed successfully with 3 rephrasings.
+Processing sample 11/1000 (dataset index: 10)
+Processing sample 11 (dataset index 10)
+Sample 11 (dataset index 10) processed successfully with 3 rephrasings.
+Processing sample 12/1000 (dataset index: 11)
+Processing sample 12 (dataset index 11)
+Sample 12 (dataset index 11) processed successfully with 3 rephrasings.
+Processing sample 13/1000 (dataset index: 12)
+Processing sample 13 (dataset index 12)
+Sample 13 (dataset index 12) processed successfully with 3 rephrasings.
+Processing sample 14/1000 (dataset index: 13)
+Processing sample 14 (dataset index 13)
+Sample 14 (dataset index 13) processed successfully with 3 rephrasings.
+Processing sample 15/1000 (dataset index: 14)
+Processing sample 15 (dataset index 14)
+Sample 15 (dataset index 14) processed successfully with 3 rephrasings.
+Processing sample 16/1000 (dataset index: 15)
+Processing sample 16 (dataset index 15)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 100.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 3.00 MiB is free. Including non-PyTorch memory, this process has 23.53 GiB memory in use. Of the allocated memory 21.94 GiB is allocated by PyTorch, and 1.34 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 16 (dataset index 15): CUDA out of memory. Tried to allocate 100.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 3.00 MiB is free. Including non-PyTorch memory, this process has 23.53 GiB memory in use. Of the allocated memory 21.94 GiB is allocated by PyTorch, and 1.34 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 17/1000 (dataset index: 16)
+Processing sample 17 (dataset index 16)
+Sample 17 (dataset index 16) processed successfully with 3 rephrasings.
+Processing sample 18/1000 (dataset index: 17)
+Processing sample 18 (dataset index 17)
+Sample 18 (dataset index 17) processed successfully with 3 rephrasings.
+Processing sample 19/1000 (dataset index: 18)
+Processing sample 19 (dataset index 18)
+Sample 19 (dataset index 18) processed successfully with 3 rephrasings.
+Processing sample 20/1000 (dataset index: 19)
+Processing sample 20 (dataset index 19)
+Sample 20 (dataset index 19) processed successfully with 3 rephrasings.
+Processing sample 21/1000 (dataset index: 20)
+Processing sample 21 (dataset index 20)
+Sample 21 (dataset index 20) processed successfully with 3 rephrasings.
+Processing sample 22/1000 (dataset index: 21)
+Processing sample 22 (dataset index 21)
