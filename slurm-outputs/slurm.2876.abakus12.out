@@ -1,0 +1,27 @@
+slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus12: error: Setting TMPDIR to /tmp
+Running job with commit: 882f92f9ea3ec01e4d9647402932c2771610b2bf
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2876
+Dataset: finefineweb
+Model: qwen2.5-7b-instruct
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 100
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:39<01:57, 39.14s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:17<01:17, 38.83s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [02:18<00:48, 48.64s/it]Loading checkpoint shards: 100%|██████████| 4/4 [03:15<00:00, 52.14s/it]Loading checkpoint shards: 100%|██████████| 4/4 [03:15<00:00, 48.90s/it]
+Processing sample 1/1000 (dataset index: 0)
+Processing sample 1 (dataset index 0)

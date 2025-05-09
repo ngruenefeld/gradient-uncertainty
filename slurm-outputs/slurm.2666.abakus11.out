@@ -44,3 +44,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/accelerate/utils/modeling.py", line 292, in set_module_tensor_to_device
     raise ValueError(
 ValueError: Trying to set a tensor of shape torch.Size([0]) in "weight" (which has shape torch.Size([32000, 4096])), this looks incorrect.
+[main fd5c9da] Domain Specific LLM Script Results for Run 2666 (Commit: aca1632)
+ 1 file changed, 46 insertions(+)
+ create mode 100644 slurm-outputs/slurm.2666.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   aca1632..fd5c9da  main -> main
