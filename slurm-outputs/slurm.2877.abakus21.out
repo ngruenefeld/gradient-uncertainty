@@ -22,4 +22,7 @@ Number of perturbations: 3
 Max tokens: 0
 Sample Size Per Label: 100
 Loading model in 4-bit precision to reduce memory usage
-Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [02:12<06:38, 132.84s/it]Downloading shards:  50%|█████     | 2/4 [05:16<05:25, 162.59s/it]
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [02:12<06:38, 132.84s/it]Downloading shards:  50%|█████     | 2/4 [05:16<05:25, 162.59s/it]Downloading shards:  75%|███████▌  | 3/4 [07:35<02:32, 152.02s/it]Downloading shards: 100%|██████████| 4/4 [08:09<00:00, 105.39s/it]Downloading shards: 100%|██████████| 4/4 [08:09<00:00, 122.40s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:50<02:31, 50.44s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:34<01:33, 46.98s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [02:18<00:45, 45.57s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:29<00:00, 31.70s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:29<00:00, 37.34s/it]
+Processing sample 1/1000 (dataset index: 0)
+Processing sample 1 (dataset index 0)
