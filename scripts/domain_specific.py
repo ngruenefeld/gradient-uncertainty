@@ -62,10 +62,10 @@ def main(args):
         model_path = "UCSC-VLAA/MedReason-8B"
     elif model_name == "huatougpt":
         model_path = "FreedomIntelligence/HuatuoGPT-o1-8B"
-    elif model_name == "medreason-mistral":
-        model_path = "UCSC-VLAA/MedReason-Mistral"
-    elif model_name == "mistral-7b-instruct":
-        model_path = "mistralai/Mistral-7B-Instruct-v0.2"
+    elif model_name == "medicine-chat":
+        model_path = "AdaptLLM/medicine-chat"
+    elif model_name == "llama-2-chat":
+        model_path = "meta-llama/Llama-2-7b-chat-hf"
     else:
         raise ValueError(
             f"Model {model_name} not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b, phi4, deepseek-v3."
@@ -103,8 +103,8 @@ def main(args):
         "llama-3-8b",
         "medreason",
         "huatougpt",
-        "medreason-mistral",
-        "mistral-7b-instruct",
+        "medicine-chat",
+        "llama-2-chat",
     ]
 
     # Prepare common model loading parameters
