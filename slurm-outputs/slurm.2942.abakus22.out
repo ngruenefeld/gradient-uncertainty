@@ -1,0 +1,27 @@
+slurmstepd-abakus22: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus22: error: Setting TMPDIR to /tmp
+Running job with commit: 3dd16ad858e7dafb3fc70b71db771f9a83986dda
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 2942
+Dataset: finefineweb
+Model: llama-2-chat
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 100
+Loading model in 4-bit precision to reduce memory usage
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Error while downloading from https://cdn-lfs.hf.co/repos/34/fa/34fa0aabe98acb3ff4f32374017550dedfae6db05863872cb0cdda960f59a928/66dec18c9f1705b9387d62f8485f4e7d871ca388718786737ed3c72dbfaac9fb?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model-00001-of-00002.safetensors%3B+filename%3D%22model-00001-of-00002.safetensors%22%3B&Expires=1746829400&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0NjgyOTQwMH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9yZXBvcy8zNC9mYS8zNGZhMGFhYmU5OGFjYjNmZjRmMzIzNzQwMTc1NTBkZWRmYWU2ZGIwNTg2Mzg3MmNiMGNkZGE5NjBmNTlhOTI4LzY2ZGVjMThjOWYxNzA1YjkzODdkNjJmODQ4NWY0ZTdkODcxY2EzODg3MTg3ODY3MzdlZDNjNzJkYmZhYWM5ZmI%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=TLFQ27C4MegAZQbkzq%7E5GUI2bbkg92OWtY9gknag99CN%7EbcnHdwPPeMJUZdW-0oW7PMnzwnZyu8dDFOsSoYk1d9-t8IjPTxt3CLUjWNHJ2zjCQBWwL6imgppGzsAEhwc6tUNQI0z%7EgtwRs8X0D0IEaCWrvmK6%7E9usWMkmvhW72a7kSHVNxquXF0Q%7EsR5PAaT%7E5EF8b5Sk8KxzQOe4wTfsMKLqaARNlJb%7ECkJnHgdieq%7Emjb%7EO9u1Z7V9rH7Beq8e78QritY%7EDitM9MTZPtQ0CTwyAyDKhWKfoL79BynAFkggciv9r72FIh1NjnFGeU1KrjaFEZOuNiXFCzyrdE0htg__&Key-Pair-Id=K3RPWS32NSSJCE: HTTPSConnectionPool(host='cdn-lfs.hf.co', port=443): Read timed out.
+Trying to resume download...
+Downloading shards:  50%|█████     | 1/2 [06:15<06:15, 375.65s/it]
