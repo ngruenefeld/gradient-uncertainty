@@ -1,0 +1,25 @@
+slurmstepd-abakus22: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus22: error: Setting TMPDIR to /tmp
+Running job with commit: 9e6ee9c13104a1b774e84a5947e274470462ce42
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 3022
+Dataset: finefineweb
+Model: medicine-chat
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: random
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 100
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
