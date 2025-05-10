@@ -3125,3 +3125,8 @@ Processing sample 1000/1000 (dataset index: 999)
 Processing sample 1000 (dataset index 999)
 Sample 1000 (dataset index 999) processed successfully with 3 rephrasings.
 Processing complete. Saved 904 successful results. Failed: 96
+[main ffeb681] Domain Specific LLM Script Results for Run 3065 (Commit: b2da574)
+ 4 files changed, 236 insertions(+)
+ create mode 100644 data/full/domainspecific_results_3065_qwen2.5-7b-instruct_4bit_synonym_finefineweb.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   6677e27..ffeb681  main -> main
