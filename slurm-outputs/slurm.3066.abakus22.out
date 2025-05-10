@@ -1,15 +1,15 @@
 slurmstepd-abakus22: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus22: error: Setting TMPDIR to /tmp
-Running job with commit: 8a2cec71ee20095cadd0dac866e336f347c321fd
+Running job with commit: b2da574248e92a872e24536dada22933c2d7164d
 [nltk_data] Downloading package stopwords to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package stopwords is already up-to-date!
 [nltk_data] Downloading package wordnet to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package wordnet is already up-to-date!
-Job number: 3059
+Job number: 3066
 Dataset: finefineweb
-Model: huatougpt
+Model: medreason
 GPT Model: gpt-4o-mini-2024-07-18
 Key mode: keyfile
 Mode: full
@@ -22,4 +22,4 @@ Number of perturbations: 3
 Max tokens: 0
 Sample Size Per Label: 100
 Loading model in 4-bit precision to reduce memory usage
-Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [02:59<08:57, 179.25s/it]slurmstepd-abakus22: error: *** JOB 3059 ON abakus22 CANCELLED AT 2025-05-10T15:14:34 ***
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]

@@ -1,15 +1,15 @@
 slurmstepd-abakus21: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus21: error: Setting TMPDIR to /tmp
-Running job with commit: 8a2cec71ee20095cadd0dac866e336f347c321fd
+Running job with commit: b2da574248e92a872e24536dada22933c2d7164d
 [nltk_data] Downloading package stopwords to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package stopwords is already up-to-date!
 [nltk_data] Downloading package wordnet to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package wordnet is already up-to-date!
-Job number: 3058
+Job number: 3067
 Dataset: finefineweb
-Model: medreason
+Model: huatougpt
 GPT Model: gpt-4o-mini-2024-07-18
 Key mode: keyfile
 Mode: full
@@ -22,6 +22,4 @@ Number of perturbations: 3
 Max tokens: 0
 Sample Size Per Label: 100
 Loading model in 4-bit precision to reduce memory usage
-Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [02:57<08:53, 177.83s/it]slurmstepd-abakus21: error: *** JOB 3058 ON abakus21 CANCELLED AT 2025-05-10T15:14:34 ***
-slurmstepd-abakus21: error: *** JOB 3058 STEPD TERMINATED ON abakus21 AT 2025-05-10T15:15:34 DUE TO JOB NOT ENDING WITH SIGNALS ***
-slurmstepd-abakus21: error: Container 3477992 in cgroup plugin has 2 processes, giving up after 63 sec
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]

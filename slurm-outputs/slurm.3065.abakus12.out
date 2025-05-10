@@ -1,13 +1,13 @@
 slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus12: error: Setting TMPDIR to /tmp
-Running job with commit: 8a2cec71ee20095cadd0dac866e336f347c321fd
+Running job with commit: b2da574248e92a872e24536dada22933c2d7164d
 [nltk_data] Downloading package stopwords to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package stopwords is already up-to-date!
 [nltk_data] Downloading package wordnet to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package wordnet is already up-to-date!
-Job number: 3057
+Job number: 3065
 Dataset: finefineweb
 Model: qwen2.5-7b-instruct
 GPT Model: gpt-4o-mini-2024-07-18
@@ -23,6 +23,3 @@ Max tokens: 0
 Sample Size Per Label: 100
 Loading model in 4-bit precision to reduce memory usage
 Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-Downloading shards:  25%|██▌       | 1/4 [02:15<06:47, 135.99s/it]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-Downloading shards:  50%|█████     | 2/4 [04:11<04:07, 123.87s/it]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
-slurmstepd-abakus12: error: *** JOB 3057 ON abakus12 CANCELLED AT 2025-05-10T15:14:36 ***
