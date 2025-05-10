@@ -32,3 +32,5 @@ Loading model in 4-bit precision to reduce memory usage
 Downloading shards: 100%|██████████| 7/7 [16:38<00:00, 117.24s/it]Downloading shards: 100%|██████████| 7/7 [16:38<00:00, 142.71s/it]
 Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:44<04:29, 44.89s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [01:27<03:37, 43.52s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [02:11<02:54, 43.70s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [02:55<02:11, 43.78s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [03:39<01:28, 44.04s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [04:12<00:40, 40.17s/it]Loading checkpoint shards: 100%|██████████| 7/7 [04:31<00:00, 33.38s/it]Loading checkpoint shards: 100%|██████████| 7/7 [04:31<00:00, 38.83s/it]
 Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Processing sample 1/1000 (dataset index: 0)
+Processing sample 1 (dataset index 0)
