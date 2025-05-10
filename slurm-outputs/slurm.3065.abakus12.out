@@ -28,3 +28,34 @@ Loading model in 4-bit precision to reduce memory usage
 Downloading shards:  75%|███████▌  | 3/4 [06:42<02:11, 131.76s/it]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
 Downloading shards: 100%|██████████| 4/4 [09:02<00:00, 135.01s/it]Downloading shards: 100%|██████████| 4/4 [09:02<00:00, 135.67s/it]
 Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [01:05<03:17, 65.98s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:52<01:48, 54.29s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [02:27<00:45, 45.56s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:59<00:00, 40.27s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:59<00:00, 44.85s/it]
+Processing sample 1/1000 (dataset index: 0)
+Processing sample 1 (dataset index 0)
+Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
+Processing sample 2/1000 (dataset index: 1)
+Processing sample 2 (dataset index 1)
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/1000 (dataset index: 2)
+Processing sample 3 (dataset index 2)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 1.13 GiB. GPU 0 has a total capacity of 19.58 GiB of which 161.12 MiB is free. Including non-PyTorch memory, this process has 19.35 GiB memory in use. Of the allocated memory 18.79 GiB is allocated by PyTorch, and 339.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 3 (dataset index 2): CUDA out of memory. Tried to allocate 1.13 GiB. GPU 0 has a total capacity of 19.58 GiB of which 161.12 MiB is free. Including non-PyTorch memory, this process has 19.35 GiB memory in use. Of the allocated memory 18.79 GiB is allocated by PyTorch, and 339.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 4/1000 (dataset index: 3)
+Processing sample 4 (dataset index 3)
+Sample 4 (dataset index 3) processed successfully with 3 rephrasings.
+Processing sample 5/1000 (dataset index: 4)
+Processing sample 5 (dataset index 4)
+Sample 5 (dataset index 4) processed successfully with 3 rephrasings.
+Processing sample 6/1000 (dataset index: 5)
+Processing sample 6 (dataset index 5)
+Sample 6 (dataset index 5) processed successfully with 3 rephrasings.
+Processing sample 7/1000 (dataset index: 6)
+Processing sample 7 (dataset index 6)
+Sample 7 (dataset index 6) processed successfully with 3 rephrasings.
+Processing sample 8/1000 (dataset index: 7)
+Processing sample 8 (dataset index 7)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 160.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 43.12 MiB is free. Including non-PyTorch memory, this process has 19.46 GiB memory in use. Of the allocated memory 18.82 GiB is allocated by PyTorch, and 425.74 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 8 (dataset index 7): CUDA out of memory. Tried to allocate 160.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 43.12 MiB is free. Including non-PyTorch memory, this process has 19.46 GiB memory in use. Of the allocated memory 18.82 GiB is allocated by PyTorch, and 425.74 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 9/1000 (dataset index: 8)
+Processing sample 9 (dataset index 8)
+Sample 9 (dataset index 8) processed successfully with 3 rephrasings.
+Processing sample 10/1000 (dataset index: 9)
+Processing sample 10 (dataset index 9)
