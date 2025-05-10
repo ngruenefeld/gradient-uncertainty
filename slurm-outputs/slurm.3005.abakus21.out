@@ -3064,3 +3064,23 @@ Processing sample 998 (dataset index 997)
 Sample 998 (dataset index 997) processed successfully with 3 rephrasings.
 Processing sample 999/1000 (dataset index: 998)
 Processing sample 999 (dataset index 998)
+Sample 999 (dataset index 998) processed successfully with 3 rephrasings.
+Processing sample 1000/1000 (dataset index: 999)
+Processing sample 1000 (dataset index 999)
+Sample 1000 (dataset index 999) processed successfully with 3 rephrasings.
+Processing complete. Saved 963 successful results. Failed: 37
+fatal: Unable to create '/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Everything up-to-date
