@@ -1754,3 +1754,22 @@ Processing sample 556 (dataset index 555)
 Sample 556 (dataset index 555) processed successfully with 3 rephrasings.
 Processing sample 557/1000 (dataset index: 556)
 Processing sample 557 (dataset index 556)
+Sample 557 (dataset index 556) processed successfully with 3 rephrasings.
+Processing sample 558/1000 (dataset index: 557)
+Processing sample 558 (dataset index 557)
+Sample 558 (dataset index 557) processed successfully with 3 rephrasings.
+Processing sample 559/1000 (dataset index: 558)
+Processing sample 559 (dataset index 558)
+Sample 559 (dataset index 558) processed successfully with 3 rephrasings.
+Processing sample 560/1000 (dataset index: 559)
+Processing sample 560 (dataset index 559)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 136.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 137.12 MiB is free. Including non-PyTorch memory, this process has 19.37 GiB memory in use. Of the allocated memory 18.85 GiB is allocated by PyTorch, and 296.54 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 560 (dataset index 559): CUDA out of memory. Tried to allocate 136.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 137.12 MiB is free. Including non-PyTorch memory, this process has 19.37 GiB memory in use. Of the allocated memory 18.85 GiB is allocated by PyTorch, and 296.54 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 561/1000 (dataset index: 560)
+Processing sample 561 (dataset index 560)
+Sample 561 (dataset index 560) processed successfully with 3 rephrasings.
+Processing sample 562/1000 (dataset index: 561)
+Processing sample 562 (dataset index 561)
+Sample 562 (dataset index 561) processed successfully with 3 rephrasings.
+Processing sample 563/1000 (dataset index: 562)
+Processing sample 563 (dataset index 562)
