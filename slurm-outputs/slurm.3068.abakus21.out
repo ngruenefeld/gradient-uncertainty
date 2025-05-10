@@ -1,0 +1,25 @@
+slurmstepd-abakus21: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus21: error: Setting TMPDIR to /tmp
+Running job with commit: a7593c58d5a39d0cc60304f45328f24183000c3d
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 3068
+Dataset: finefineweb
+Model: ii-medical
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: random
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 100
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:43<04:23, 43.89s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [01:25<03:34, 42.84s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [02:09<02:52, 43.17s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [02:53<02:09, 43.29s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [03:37<01:27, 43.56s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [04:09<00:39, 39.74s/it]Loading checkpoint shards: 100%|██████████| 7/7 [04:28<00:00, 33.05s/it]Loading checkpoint shards: 100%|██████████| 7/7 [04:28<00:00, 38.38s/it]

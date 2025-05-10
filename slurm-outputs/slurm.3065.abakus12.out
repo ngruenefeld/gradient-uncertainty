@@ -1773,3 +1773,55 @@ Processing sample 562 (dataset index 561)
 Sample 562 (dataset index 561) processed successfully with 3 rephrasings.
 Processing sample 563/1000 (dataset index: 562)
 Processing sample 563 (dataset index 562)
+Sample 563 (dataset index 562) processed successfully with 3 rephrasings.
+Processing sample 564/1000 (dataset index: 563)
+Processing sample 564 (dataset index 563)
+Sample 564 (dataset index 563) processed successfully with 3 rephrasings.
+Processing sample 565/1000 (dataset index: 564)
+Processing sample 565 (dataset index 564)
+Sample 565 (dataset index 564) processed successfully with 3 rephrasings.
+Processing sample 566/1000 (dataset index: 565)
+Processing sample 566 (dataset index 565)
+Sample 566 (dataset index 565) processed successfully with 3 rephrasings.
+Processing sample 567/1000 (dataset index: 566)
+Processing sample 567 (dataset index 566)
+Sample 567 (dataset index 566) processed successfully with 3 rephrasings.
+Processing sample 568/1000 (dataset index: 567)
+Processing sample 568 (dataset index 567)
+Sample 568 (dataset index 567) processed successfully with 3 rephrasings.
+Processing sample 569/1000 (dataset index: 568)
+Processing sample 569 (dataset index 568)
+Sample 569 (dataset index 568) processed successfully with 3 rephrasings.
+Processing sample 570/1000 (dataset index: 569)
+Processing sample 570 (dataset index 569)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 130.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 43.12 MiB is free. Including non-PyTorch memory, this process has 19.46 GiB memory in use. Of the allocated memory 18.36 GiB is allocated by PyTorch, and 898.74 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 570 (dataset index 569): CUDA out of memory. Tried to allocate 130.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 43.12 MiB is free. Including non-PyTorch memory, this process has 19.46 GiB memory in use. Of the allocated memory 18.36 GiB is allocated by PyTorch, and 898.74 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 571/1000 (dataset index: 570)
+Processing sample 571 (dataset index 570)
+Sample 571 (dataset index 570) processed successfully with 3 rephrasings.
+Processing sample 572/1000 (dataset index: 571)
+Processing sample 572 (dataset index 571)
+Sample 572 (dataset index 571) processed successfully with 3 rephrasings.
+Processing sample 573/1000 (dataset index: 572)
+Processing sample 573 (dataset index 572)
+Sample 573 (dataset index 572) processed successfully with 3 rephrasings.
+Processing sample 574/1000 (dataset index: 573)
+Processing sample 574 (dataset index 573)
+Sample 574 (dataset index 573) processed successfully with 3 rephrasings.
+Processing sample 575/1000 (dataset index: 574)
+Processing sample 575 (dataset index 574)
+Sample 575 (dataset index 574) processed successfully with 3 rephrasings.
+Processing sample 576/1000 (dataset index: 575)
+Processing sample 576 (dataset index 575)
+Sample 576 (dataset index 575) processed successfully with 3 rephrasings.
+Processing sample 577/1000 (dataset index: 576)
+Processing sample 577 (dataset index 576)
+Sample 577 (dataset index 576) processed successfully with 3 rephrasings.
+Processing sample 578/1000 (dataset index: 577)
+Processing sample 578 (dataset index 577)
+Sample 578 (dataset index 577) processed successfully with 3 rephrasings.
+Processing sample 579/1000 (dataset index: 578)
+Processing sample 579 (dataset index 578)
+Sample 579 (dataset index 578) processed successfully with 3 rephrasings.
+Processing sample 580/1000 (dataset index: 579)
+Processing sample 580 (dataset index 579)
