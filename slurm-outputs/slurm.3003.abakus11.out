@@ -1935,3 +1935,29 @@ Processing sample 615 (dataset index 614)
 Sample 615 (dataset index 614) processed successfully with 3 rephrasings.
 Processing sample 616/1000 (dataset index: 615)
 Processing sample 616 (dataset index 615)
+Sample 616 (dataset index 615) processed successfully with 3 rephrasings.
+Processing sample 617/1000 (dataset index: 616)
+Processing sample 617 (dataset index 616)
+Sample 617 (dataset index 616) processed successfully with 3 rephrasings.
+Processing sample 618/1000 (dataset index: 617)
+Processing sample 618 (dataset index 617)
+Sample 618 (dataset index 617) processed successfully with 3 rephrasings.
+Processing sample 619/1000 (dataset index: 618)
+Processing sample 619 (dataset index 618)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 68.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 65.06 MiB is free. Including non-PyTorch memory, this process has 19.48 GiB memory in use. Of the allocated memory 18.37 GiB is allocated by PyTorch, and 898.09 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 619 (dataset index 618): CUDA out of memory. Tried to allocate 68.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 65.06 MiB is free. Including non-PyTorch memory, this process has 19.48 GiB memory in use. Of the allocated memory 18.37 GiB is allocated by PyTorch, and 898.09 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 620/1000 (dataset index: 619)
+Processing sample 620 (dataset index 619)
+Sample 620 (dataset index 619) processed successfully with 3 rephrasings.
+Processing sample 621/1000 (dataset index: 620)
+Processing sample 621 (dataset index 620)
+Sample 621 (dataset index 620) processed successfully with 3 rephrasings.
+Processing sample 622/1000 (dataset index: 621)
+Processing sample 622 (dataset index 621)
+Sample 622 (dataset index 621) processed successfully with 3 rephrasings.
+Processing sample 623/1000 (dataset index: 622)
+Processing sample 623 (dataset index 622)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 81.06 MiB is free. Including non-PyTorch memory, this process has 19.46 GiB memory in use. Of the allocated memory 18.05 GiB is allocated by PyTorch, and 1.19 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 623 (dataset index 622): CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 81.06 MiB is free. Including non-PyTorch memory, this process has 19.46 GiB memory in use. Of the allocated memory 18.05 GiB is allocated by PyTorch, and 1.19 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 624/1000 (dataset index: 623)
+Processing sample 624 (dataset index 623)

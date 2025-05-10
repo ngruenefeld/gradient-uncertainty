@@ -1929,3 +1929,22 @@ Processing sample 613 (dataset index 612)
 Sample 613 (dataset index 612) processed successfully with 3 rephrasings.
 Processing sample 614/1000 (dataset index: 613)
 Processing sample 614 (dataset index 613)
+Sample 614 (dataset index 613) processed successfully with 3 rephrasings.
+Processing sample 615/1000 (dataset index: 614)
+Processing sample 615 (dataset index 614)
+Sample 615 (dataset index 614) processed successfully with 3 rephrasings.
+Processing sample 616/1000 (dataset index: 615)
+Processing sample 616 (dataset index 615)
+Sample 616 (dataset index 615) processed successfully with 3 rephrasings.
+Processing sample 617/1000 (dataset index: 616)
+Processing sample 617 (dataset index 616)
+Sample 617 (dataset index 616) processed successfully with 3 rephrasings.
+Processing sample 618/1000 (dataset index: 617)
+Processing sample 618 (dataset index 617)
+Sample 618 (dataset index 617) processed successfully with 3 rephrasings.
+Processing sample 619/1000 (dataset index: 618)
+Processing sample 619 (dataset index 618)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 68.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 33.12 MiB is free. Including non-PyTorch memory, this process has 19.47 GiB memory in use. Of the allocated memory 18.37 GiB is allocated by PyTorch, and 893.78 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 619 (dataset index 618): CUDA out of memory. Tried to allocate 68.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 33.12 MiB is free. Including non-PyTorch memory, this process has 19.47 GiB memory in use. Of the allocated memory 18.37 GiB is allocated by PyTorch, and 893.78 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 620/1000 (dataset index: 619)
+Processing sample 620 (dataset index 619)
