@@ -2659,3 +2659,405 @@ Processing sample 867 (dataset index 866)
 Sample 867 (dataset index 866) processed successfully with 3 rephrasings.
 Processing sample 868/1000 (dataset index: 867)
 Processing sample 868 (dataset index 867)
+Sample 868 (dataset index 867) processed successfully with 3 rephrasings.
+Processing sample 869/1000 (dataset index: 868)
+Processing sample 869 (dataset index 868)
+Sample 869 (dataset index 868) processed successfully with 3 rephrasings.
+Processing sample 870/1000 (dataset index: 869)
+Processing sample 870 (dataset index 869)
+Sample 870 (dataset index 869) processed successfully with 3 rephrasings.
+Processing sample 871/1000 (dataset index: 870)
+Processing sample 871 (dataset index 870)
+Sample 871 (dataset index 870) processed successfully with 3 rephrasings.
+Processing sample 872/1000 (dataset index: 871)
+Processing sample 872 (dataset index 871)
+Sample 872 (dataset index 871) processed successfully with 3 rephrasings.
+Processing sample 873/1000 (dataset index: 872)
+Processing sample 873 (dataset index 872)
+Sample 873 (dataset index 872) processed successfully with 3 rephrasings.
+Processing sample 874/1000 (dataset index: 873)
+Processing sample 874 (dataset index 873)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 130.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 117.00 MiB is free. Including non-PyTorch memory, this process has 23.42 GiB memory in use. Of the allocated memory 21.97 GiB is allocated by PyTorch, and 1.19 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 874 (dataset index 873): CUDA out of memory. Tried to allocate 130.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 117.00 MiB is free. Including non-PyTorch memory, this process has 23.42 GiB memory in use. Of the allocated memory 21.97 GiB is allocated by PyTorch, and 1.19 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 875/1000 (dataset index: 874)
+Processing sample 875 (dataset index 874)
+Sample 875 (dataset index 874) processed successfully with 3 rephrasings.
+Processing sample 876/1000 (dataset index: 875)
+Processing sample 876 (dataset index 875)
+Sample 876 (dataset index 875) processed successfully with 3 rephrasings.
+Processing sample 877/1000 (dataset index: 876)
+Processing sample 877 (dataset index 876)
+Sample 877 (dataset index 876) processed successfully with 3 rephrasings.
+Processing sample 878/1000 (dataset index: 877)
+Processing sample 878 (dataset index 877)
+Sample 878 (dataset index 877) processed successfully with 3 rephrasings.
+Processing sample 879/1000 (dataset index: 878)
+Processing sample 879 (dataset index 878)
+Sample 879 (dataset index 878) processed successfully with 3 rephrasings.
+Processing sample 880/1000 (dataset index: 879)
+Processing sample 880 (dataset index 879)
+Sample 880 (dataset index 879) processed successfully with 3 rephrasings.
+Processing sample 881/1000 (dataset index: 880)
+Processing sample 881 (dataset index 880)
+Sample 881 (dataset index 880) processed successfully with 3 rephrasings.
+Processing sample 882/1000 (dataset index: 881)
+Processing sample 882 (dataset index 881)
+Sample 882 (dataset index 881) processed successfully with 3 rephrasings.
+Processing sample 883/1000 (dataset index: 882)
+Processing sample 883 (dataset index 882)
+Sample 883 (dataset index 882) processed successfully with 3 rephrasings.
+Processing sample 884/1000 (dataset index: 883)
+Processing sample 884 (dataset index 883)
+Sample 884 (dataset index 883) processed successfully with 3 rephrasings.
+Processing sample 885/1000 (dataset index: 884)
+Processing sample 885 (dataset index 884)
+Sample 885 (dataset index 884) processed successfully with 3 rephrasings.
+Processing sample 886/1000 (dataset index: 885)
+Processing sample 886 (dataset index 885)
+Sample 886 (dataset index 885) processed successfully with 3 rephrasings.
+Processing sample 887/1000 (dataset index: 886)
+Processing sample 887 (dataset index 886)
+Sample 887 (dataset index 886) processed successfully with 3 rephrasings.
+Processing sample 888/1000 (dataset index: 887)
+Processing sample 888 (dataset index 887)
+Sample 888 (dataset index 887) processed successfully with 3 rephrasings.
+Processing sample 889/1000 (dataset index: 888)
+Processing sample 889 (dataset index 888)
+Sample 889 (dataset index 888) processed successfully with 3 rephrasings.
+Processing sample 890/1000 (dataset index: 889)
+Processing sample 890 (dataset index 889)
+Sample 890 (dataset index 889) processed successfully with 3 rephrasings.
+Processing sample 891/1000 (dataset index: 890)
+Processing sample 891 (dataset index 890)
+Sample 891 (dataset index 890) processed successfully with 3 rephrasings.
+Processing sample 892/1000 (dataset index: 891)
+Processing sample 892 (dataset index 891)
+Sample 892 (dataset index 891) processed successfully with 3 rephrasings.
+Processing sample 893/1000 (dataset index: 892)
+Processing sample 893 (dataset index 892)
+Sample 893 (dataset index 892) processed successfully with 3 rephrasings.
+Processing sample 894/1000 (dataset index: 893)
+Processing sample 894 (dataset index 893)
+Sample 894 (dataset index 893) processed successfully with 3 rephrasings.
+Processing sample 895/1000 (dataset index: 894)
+Processing sample 895 (dataset index 894)
+Sample 895 (dataset index 894) processed successfully with 3 rephrasings.
+Processing sample 896/1000 (dataset index: 895)
+Processing sample 896 (dataset index 895)
+Sample 896 (dataset index 895) processed successfully with 3 rephrasings.
+Processing sample 897/1000 (dataset index: 896)
+Processing sample 897 (dataset index 896)
+Sample 897 (dataset index 896) processed successfully with 3 rephrasings.
+Processing sample 898/1000 (dataset index: 897)
+Processing sample 898 (dataset index 897)
+Sample 898 (dataset index 897) processed successfully with 3 rephrasings.
+Processing sample 899/1000 (dataset index: 898)
+Processing sample 899 (dataset index 898)
+Sample 899 (dataset index 898) processed successfully with 3 rephrasings.
+Processing sample 900/1000 (dataset index: 899)
+Processing sample 900 (dataset index 899)
+Sample 900 (dataset index 899) processed successfully with 3 rephrasings.
+Processing sample 901/1000 (dataset index: 900)
+Processing sample 901 (dataset index 900)
+Sample 901 (dataset index 900) processed successfully with 3 rephrasings.
+Processing sample 902/1000 (dataset index: 901)
+Processing sample 902 (dataset index 901)
+Sample 902 (dataset index 901) processed successfully with 3 rephrasings.
+Processing sample 903/1000 (dataset index: 902)
+Processing sample 903 (dataset index 902)
+Sample 903 (dataset index 902) processed successfully with 3 rephrasings.
+Processing sample 904/1000 (dataset index: 903)
+Processing sample 904 (dataset index 903)
+Sample 904 (dataset index 903) processed successfully with 3 rephrasings.
+Processing sample 905/1000 (dataset index: 904)
+Processing sample 905 (dataset index 904)
+Sample 905 (dataset index 904) processed successfully with 3 rephrasings.
+Processing sample 906/1000 (dataset index: 905)
+Processing sample 906 (dataset index 905)
+Sample 906 (dataset index 905) processed successfully with 3 rephrasings.
+Processing sample 907/1000 (dataset index: 906)
+Processing sample 907 (dataset index 906)
+Sample 907 (dataset index 906) processed successfully with 3 rephrasings.
+Processing sample 908/1000 (dataset index: 907)
+Processing sample 908 (dataset index 907)
+Sample 908 (dataset index 907) processed successfully with 3 rephrasings.
+Processing sample 909/1000 (dataset index: 908)
+Processing sample 909 (dataset index 908)
+Sample 909 (dataset index 908) processed successfully with 3 rephrasings.
+Processing sample 910/1000 (dataset index: 909)
+Processing sample 910 (dataset index 909)
+Sample 910 (dataset index 909) processed successfully with 3 rephrasings.
+Processing sample 911/1000 (dataset index: 910)
+Processing sample 911 (dataset index 910)
+Sample 911 (dataset index 910) processed successfully with 3 rephrasings.
+Processing sample 912/1000 (dataset index: 911)
+Processing sample 912 (dataset index 911)
+Sample 912 (dataset index 911) processed successfully with 3 rephrasings.
+Processing sample 913/1000 (dataset index: 912)
+Processing sample 913 (dataset index 912)
+Sample 913 (dataset index 912) processed successfully with 3 rephrasings.
+Processing sample 914/1000 (dataset index: 913)
+Processing sample 914 (dataset index 913)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 138.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 125.00 MiB is free. Including non-PyTorch memory, this process has 23.41 GiB memory in use. Of the allocated memory 21.96 GiB is allocated by PyTorch, and 1.20 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 914 (dataset index 913): CUDA out of memory. Tried to allocate 138.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 125.00 MiB is free. Including non-PyTorch memory, this process has 23.41 GiB memory in use. Of the allocated memory 21.96 GiB is allocated by PyTorch, and 1.20 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 915/1000 (dataset index: 914)
+Processing sample 915 (dataset index 914)
+Sample 915 (dataset index 914) processed successfully with 3 rephrasings.
+Processing sample 916/1000 (dataset index: 915)
+Processing sample 916 (dataset index 915)
+Sample 916 (dataset index 915) processed successfully with 3 rephrasings.
+Processing sample 917/1000 (dataset index: 916)
+Processing sample 917 (dataset index 916)
+Sample 917 (dataset index 916) processed successfully with 3 rephrasings.
+Processing sample 918/1000 (dataset index: 917)
+Processing sample 918 (dataset index 917)
+Sample 918 (dataset index 917) processed successfully with 3 rephrasings.
+Processing sample 919/1000 (dataset index: 918)
+Processing sample 919 (dataset index 918)
+Sample 919 (dataset index 918) processed successfully with 3 rephrasings.
+Processing sample 920/1000 (dataset index: 919)
+Processing sample 920 (dataset index 919)
+Sample 920 (dataset index 919) processed successfully with 3 rephrasings.
+Processing sample 921/1000 (dataset index: 920)
+Processing sample 921 (dataset index 920)
+Sample 921 (dataset index 920) processed successfully with 3 rephrasings.
+Processing sample 922/1000 (dataset index: 921)
+Processing sample 922 (dataset index 921)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 38.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 29.00 MiB is free. Including non-PyTorch memory, this process has 23.51 GiB memory in use. Of the allocated memory 22.02 GiB is allocated by PyTorch, and 1.23 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 922 (dataset index 921): CUDA out of memory. Tried to allocate 38.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 29.00 MiB is free. Including non-PyTorch memory, this process has 23.51 GiB memory in use. Of the allocated memory 22.02 GiB is allocated by PyTorch, and 1.23 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 923/1000 (dataset index: 922)
+Processing sample 923 (dataset index 922)
+Sample 923 (dataset index 922) processed successfully with 3 rephrasings.
+Processing sample 924/1000 (dataset index: 923)
+Processing sample 924 (dataset index 923)
+Sample 924 (dataset index 923) processed successfully with 3 rephrasings.
+Processing sample 925/1000 (dataset index: 924)
+Processing sample 925 (dataset index 924)
+Sample 925 (dataset index 924) processed successfully with 3 rephrasings.
+Processing sample 926/1000 (dataset index: 925)
+Processing sample 926 (dataset index 925)
+Sample 926 (dataset index 925) processed successfully with 3 rephrasings.
+Processing sample 927/1000 (dataset index: 926)
+Processing sample 927 (dataset index 926)
+Sample 927 (dataset index 926) processed successfully with 3 rephrasings.
+Processing sample 928/1000 (dataset index: 927)
+Processing sample 928 (dataset index 927)
+Sample 928 (dataset index 927) processed successfully with 3 rephrasings.
+Processing sample 929/1000 (dataset index: 928)
+Processing sample 929 (dataset index 928)
+Sample 929 (dataset index 928) processed successfully with 3 rephrasings.
+Processing sample 930/1000 (dataset index: 929)
+Processing sample 930 (dataset index 929)
+Sample 930 (dataset index 929) processed successfully with 3 rephrasings.
+Processing sample 931/1000 (dataset index: 930)
+Processing sample 931 (dataset index 930)
+Sample 931 (dataset index 930) processed successfully with 3 rephrasings.
+Processing sample 932/1000 (dataset index: 931)
+Processing sample 932 (dataset index 931)
+Sample 932 (dataset index 931) processed successfully with 3 rephrasings.
+Processing sample 933/1000 (dataset index: 932)
+Processing sample 933 (dataset index 932)
+Sample 933 (dataset index 932) processed successfully with 3 rephrasings.
+Processing sample 934/1000 (dataset index: 933)
+Processing sample 934 (dataset index 933)
+Sample 934 (dataset index 933) processed successfully with 3 rephrasings.
+Processing sample 935/1000 (dataset index: 934)
+Processing sample 935 (dataset index 934)
+Sample 935 (dataset index 934) processed successfully with 3 rephrasings.
+Processing sample 936/1000 (dataset index: 935)
+Processing sample 936 (dataset index 935)
+Sample 936 (dataset index 935) processed successfully with 3 rephrasings.
+Processing sample 937/1000 (dataset index: 936)
+Processing sample 937 (dataset index 936)
+Sample 937 (dataset index 936) processed successfully with 3 rephrasings.
+Processing sample 938/1000 (dataset index: 937)
+Processing sample 938 (dataset index 937)
+Sample 938 (dataset index 937) processed successfully with 3 rephrasings.
+Processing sample 939/1000 (dataset index: 938)
+Processing sample 939 (dataset index 938)
+Sample 939 (dataset index 938) processed successfully with 3 rephrasings.
+Processing sample 940/1000 (dataset index: 939)
+Processing sample 940 (dataset index 939)
+Sample 940 (dataset index 939) processed successfully with 3 rephrasings.
+Processing sample 941/1000 (dataset index: 940)
+Processing sample 941 (dataset index 940)
+Sample 941 (dataset index 940) processed successfully with 3 rephrasings.
+Processing sample 942/1000 (dataset index: 941)
+Processing sample 942 (dataset index 941)
+Sample 942 (dataset index 941) processed successfully with 3 rephrasings.
+Processing sample 943/1000 (dataset index: 942)
+Processing sample 943 (dataset index 942)
+Sample 943 (dataset index 942) processed successfully with 3 rephrasings.
+Processing sample 944/1000 (dataset index: 943)
+Processing sample 944 (dataset index 943)
+Sample 944 (dataset index 943) processed successfully with 3 rephrasings.
+Processing sample 945/1000 (dataset index: 944)
+Processing sample 945 (dataset index 944)
+Sample 945 (dataset index 944) processed successfully with 3 rephrasings.
+Processing sample 946/1000 (dataset index: 945)
+Processing sample 946 (dataset index 945)
+Sample 946 (dataset index 945) processed successfully with 3 rephrasings.
+Processing sample 947/1000 (dataset index: 946)
+Processing sample 947 (dataset index 946)
+Sample 947 (dataset index 946) processed successfully with 3 rephrasings.
+Processing sample 948/1000 (dataset index: 947)
+Processing sample 948 (dataset index 947)
+Sample 948 (dataset index 947) processed successfully with 3 rephrasings.
+Processing sample 949/1000 (dataset index: 948)
+Processing sample 949 (dataset index 948)
+Sample 949 (dataset index 948) processed successfully with 3 rephrasings.
+Processing sample 950/1000 (dataset index: 949)
+Processing sample 950 (dataset index 949)
+Sample 950 (dataset index 949) processed successfully with 3 rephrasings.
+Processing sample 951/1000 (dataset index: 950)
+Processing sample 951 (dataset index 950)
+Sample 951 (dataset index 950) processed successfully with 3 rephrasings.
+Processing sample 952/1000 (dataset index: 951)
+Processing sample 952 (dataset index 951)
+Sample 952 (dataset index 951) processed successfully with 3 rephrasings.
+Processing sample 953/1000 (dataset index: 952)
+Processing sample 953 (dataset index 952)
+Sample 953 (dataset index 952) processed successfully with 3 rephrasings.
+Processing sample 954/1000 (dataset index: 953)
+Processing sample 954 (dataset index 953)
+Sample 954 (dataset index 953) processed successfully with 3 rephrasings.
+Processing sample 955/1000 (dataset index: 954)
+Processing sample 955 (dataset index 954)
+Sample 955 (dataset index 954) processed successfully with 3 rephrasings.
+Processing sample 956/1000 (dataset index: 955)
+Processing sample 956 (dataset index 955)
+Sample 956 (dataset index 955) processed successfully with 3 rephrasings.
+Processing sample 957/1000 (dataset index: 956)
+Processing sample 957 (dataset index 956)
+Sample 957 (dataset index 956) processed successfully with 3 rephrasings.
+Processing sample 958/1000 (dataset index: 957)
+Processing sample 958 (dataset index 957)
+Sample 958 (dataset index 957) processed successfully with 3 rephrasings.
+Processing sample 959/1000 (dataset index: 958)
+Processing sample 959 (dataset index 958)
+Sample 959 (dataset index 958) processed successfully with 3 rephrasings.
+Processing sample 960/1000 (dataset index: 959)
+Processing sample 960 (dataset index 959)
+Sample 960 (dataset index 959) processed successfully with 3 rephrasings.
+Processing sample 961/1000 (dataset index: 960)
+Processing sample 961 (dataset index 960)
+Sample 961 (dataset index 960) processed successfully with 3 rephrasings.
+Processing sample 962/1000 (dataset index: 961)
+Processing sample 962 (dataset index 961)
+Sample 962 (dataset index 961) processed successfully with 3 rephrasings.
+Processing sample 963/1000 (dataset index: 962)
+Processing sample 963 (dataset index 962)
+Sample 963 (dataset index 962) processed successfully with 3 rephrasings.
+Processing sample 964/1000 (dataset index: 963)
+Processing sample 964 (dataset index 963)
+Sample 964 (dataset index 963) processed successfully with 3 rephrasings.
+Processing sample 965/1000 (dataset index: 964)
+Processing sample 965 (dataset index 964)
+Sample 965 (dataset index 964) processed successfully with 3 rephrasings.
+Processing sample 966/1000 (dataset index: 965)
+Processing sample 966 (dataset index 965)
+Sample 966 (dataset index 965) processed successfully with 3 rephrasings.
+Processing sample 967/1000 (dataset index: 966)
+Processing sample 967 (dataset index 966)
+Sample 967 (dataset index 966) processed successfully with 3 rephrasings.
+Processing sample 968/1000 (dataset index: 967)
+Processing sample 968 (dataset index 967)
+Sample 968 (dataset index 967) processed successfully with 3 rephrasings.
+Processing sample 969/1000 (dataset index: 968)
+Processing sample 969 (dataset index 968)
+Sample 969 (dataset index 968) processed successfully with 3 rephrasings.
+Processing sample 970/1000 (dataset index: 969)
+Processing sample 970 (dataset index 969)
+Sample 970 (dataset index 969) processed successfully with 3 rephrasings.
+Processing sample 971/1000 (dataset index: 970)
+Processing sample 971 (dataset index 970)
+Sample 971 (dataset index 970) processed successfully with 3 rephrasings.
+Processing sample 972/1000 (dataset index: 971)
+Processing sample 972 (dataset index 971)
+Sample 972 (dataset index 971) processed successfully with 3 rephrasings.
+Processing sample 973/1000 (dataset index: 972)
+Processing sample 973 (dataset index 972)
+Sample 973 (dataset index 972) processed successfully with 3 rephrasings.
+Processing sample 974/1000 (dataset index: 973)
+Processing sample 974 (dataset index 973)
+Sample 974 (dataset index 973) processed successfully with 3 rephrasings.
+Processing sample 975/1000 (dataset index: 974)
+Processing sample 975 (dataset index 974)
+Sample 975 (dataset index 974) processed successfully with 3 rephrasings.
+Processing sample 976/1000 (dataset index: 975)
+Processing sample 976 (dataset index 975)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 80.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 35.00 MiB is free. Including non-PyTorch memory, this process has 23.50 GiB memory in use. Of the allocated memory 21.11 GiB is allocated by PyTorch, and 2.14 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 976 (dataset index 975): CUDA out of memory. Tried to allocate 80.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 35.00 MiB is free. Including non-PyTorch memory, this process has 23.50 GiB memory in use. Of the allocated memory 21.11 GiB is allocated by PyTorch, and 2.14 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 977/1000 (dataset index: 976)
+Processing sample 977 (dataset index 976)
+Sample 977 (dataset index 976) processed successfully with 3 rephrasings.
+Processing sample 978/1000 (dataset index: 977)
+Processing sample 978 (dataset index 977)
+Sample 978 (dataset index 977) processed successfully with 3 rephrasings.
+Processing sample 979/1000 (dataset index: 978)
+Processing sample 979 (dataset index 978)
+Sample 979 (dataset index 978) processed successfully with 3 rephrasings.
+Processing sample 980/1000 (dataset index: 979)
+Processing sample 980 (dataset index 979)
+Sample 980 (dataset index 979) processed successfully with 3 rephrasings.
+Processing sample 981/1000 (dataset index: 980)
+Processing sample 981 (dataset index 980)
+Sample 981 (dataset index 980) processed successfully with 3 rephrasings.
+Processing sample 982/1000 (dataset index: 981)
+Processing sample 982 (dataset index 981)
+Sample 982 (dataset index 981) processed successfully with 3 rephrasings.
+Processing sample 983/1000 (dataset index: 982)
+Processing sample 983 (dataset index 982)
+Sample 983 (dataset index 982) processed successfully with 3 rephrasings.
+Processing sample 984/1000 (dataset index: 983)
+Processing sample 984 (dataset index 983)
+Sample 984 (dataset index 983) processed successfully with 3 rephrasings.
+Processing sample 985/1000 (dataset index: 984)
+Processing sample 985 (dataset index 984)
+Sample 985 (dataset index 984) processed successfully with 3 rephrasings.
+Processing sample 986/1000 (dataset index: 985)
+Processing sample 986 (dataset index 985)
+Sample 986 (dataset index 985) processed successfully with 3 rephrasings.
+Processing sample 987/1000 (dataset index: 986)
+Processing sample 987 (dataset index 986)
+Sample 987 (dataset index 986) processed successfully with 3 rephrasings.
+Processing sample 988/1000 (dataset index: 987)
+Processing sample 988 (dataset index 987)
+Sample 988 (dataset index 987) processed successfully with 3 rephrasings.
+Processing sample 989/1000 (dataset index: 988)
+Processing sample 989 (dataset index 988)
+Sample 989 (dataset index 988) processed successfully with 3 rephrasings.
+Processing sample 990/1000 (dataset index: 989)
+Processing sample 990 (dataset index 989)
+Sample 990 (dataset index 989) processed successfully with 3 rephrasings.
+Processing sample 991/1000 (dataset index: 990)
+Processing sample 991 (dataset index 990)
+Sample 991 (dataset index 990) processed successfully with 3 rephrasings.
+Processing sample 992/1000 (dataset index: 991)
+Processing sample 992 (dataset index 991)
+Sample 992 (dataset index 991) processed successfully with 3 rephrasings.
+Processing sample 993/1000 (dataset index: 992)
+Processing sample 993 (dataset index 992)
+Sample 993 (dataset index 992) processed successfully with 3 rephrasings.
+Processing sample 994/1000 (dataset index: 993)
+Processing sample 994 (dataset index 993)
+Sample 994 (dataset index 993) processed successfully with 3 rephrasings.
+Processing sample 995/1000 (dataset index: 994)
+Processing sample 995 (dataset index 994)
+Sample 995 (dataset index 994) processed successfully with 3 rephrasings.
+Processing sample 996/1000 (dataset index: 995)
+Processing sample 996 (dataset index 995)
+Sample 996 (dataset index 995) processed successfully with 3 rephrasings.
+Processing sample 997/1000 (dataset index: 996)
+Processing sample 997 (dataset index 996)
+Sample 997 (dataset index 996) processed successfully with 3 rephrasings.
+Processing sample 998/1000 (dataset index: 997)
+Processing sample 998 (dataset index 997)
+Sample 998 (dataset index 997) processed successfully with 3 rephrasings.
+Processing sample 999/1000 (dataset index: 998)
+Processing sample 999 (dataset index 998)
+Sample 999 (dataset index 998) processed successfully with 3 rephrasings.
+Processing sample 1000/1000 (dataset index: 999)
+Processing sample 1000 (dataset index 999)
+Sample 1000 (dataset index 999) processed successfully with 3 rephrasings.
+Processing complete. Saved 963 successful results. Failed: 37
