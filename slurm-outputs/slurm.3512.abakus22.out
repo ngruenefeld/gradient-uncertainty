@@ -638,3 +638,128 @@ Sample 305 (dataset index 304) processed successfully with 19 rephrasings.
 Processing sample 306/817 (dataset index: 305)
 Sample 306 (dataset index 305) processed successfully with 20 rephrasings.
 Processing sample 307/817 (dataset index: 306)
+Sample 307 (dataset index 306) processed successfully with 20 rephrasings.
+Processing sample 308/817 (dataset index: 307)
+Sample 308 (dataset index 307) processed successfully with 17 rephrasings.
+Processing sample 309/817 (dataset index: 308)
+Sample 309 (dataset index 308) processed successfully with 18 rephrasings.
+Processing sample 310/817 (dataset index: 309)
+Sample 310 (dataset index 309) processed successfully with 17 rephrasings.
+Processing sample 311/817 (dataset index: 310)
+Sample 311 (dataset index 310) processed successfully with 17 rephrasings.
+Processing sample 312/817 (dataset index: 311)
+Sample 312 (dataset index 311) processed successfully with 18 rephrasings.
+Processing sample 313/817 (dataset index: 312)
+Sample 313 (dataset index 312) processed successfully with 20 rephrasings.
+Processing sample 314/817 (dataset index: 313)
+Sample 314 (dataset index 313) processed successfully with 20 rephrasings.
+Processing sample 315/817 (dataset index: 314)
+Sample 315 (dataset index 314) processed successfully with 18 rephrasings.
+Processing sample 316/817 (dataset index: 315)
+Sample 316 (dataset index 315) processed successfully with 17 rephrasings.
+Processing sample 317/817 (dataset index: 316)
+Sample 317 (dataset index 316) processed successfully with 18 rephrasings.
+Processing sample 318/817 (dataset index: 317)
+Sample 318 (dataset index 317) processed successfully with 19 rephrasings.
+Processing sample 319/817 (dataset index: 318)
+Sample 319 (dataset index 318) processed successfully with 18 rephrasings.
+Processing sample 320/817 (dataset index: 319)
+Sample 320 (dataset index 319) processed successfully with 17 rephrasings.
+Processing sample 321/817 (dataset index: 320)
+Sample 321 (dataset index 320) processed successfully with 17 rephrasings.
+Processing sample 322/817 (dataset index: 321)
+Sample 322 (dataset index 321) processed successfully with 20 rephrasings.
+Processing sample 323/817 (dataset index: 322)
+Sample 323 (dataset index 322) processed successfully with 20 rephrasings.
+Processing sample 324/817 (dataset index: 323)
+Sample 324 (dataset index 323) processed successfully with 18 rephrasings.
+Processing sample 325/817 (dataset index: 324)
+Sample 325 (dataset index 324) processed successfully with 19 rephrasings.
+Processing sample 326/817 (dataset index: 325)
+Sample 326 (dataset index 325) processed successfully with 20 rephrasings.
+Processing sample 327/817 (dataset index: 326)
+Sample 327 (dataset index 326) processed successfully with 19 rephrasings.
+Processing sample 328/817 (dataset index: 327)
+Sample 328 (dataset index 327) processed successfully with 18 rephrasings.
+Processing sample 329/817 (dataset index: 328)
+Sample 329 (dataset index 328) processed successfully with 20 rephrasings.
+Processing sample 330/817 (dataset index: 329)
+Sample 330 (dataset index 329) processed successfully with 16 rephrasings.
+Processing sample 331/817 (dataset index: 330)
+Sample 331 (dataset index 330) processed successfully with 18 rephrasings.
+Processing sample 332/817 (dataset index: 331)
+Sample 332 (dataset index 331) processed successfully with 18 rephrasings.
+Processing sample 333/817 (dataset index: 332)
+JSONDecodeError: Expecting ',' delimiter: line 5 column 16359 (char 16473)
+Error getting rephrasings for sample 333 (dataset index 332): Invalid JSON response from API
+Processing sample 334/817 (dataset index: 333)
+Sample 334 (dataset index 333) processed successfully with 19 rephrasings.
+Processing sample 335/817 (dataset index: 334)
+Sample 335 (dataset index 334) processed successfully with 20 rephrasings.
+Processing sample 336/817 (dataset index: 335)
+Sample 336 (dataset index 335) processed successfully with 19 rephrasings.
+Processing sample 337/817 (dataset index: 336)
+Sample 337 (dataset index 336) processed successfully with 19 rephrasings.
+Processing sample 338/817 (dataset index: 337)
+Sample 338 (dataset index 337) processed successfully with 20 rephrasings.
+Processing sample 339/817 (dataset index: 338)
+Sample 339 (dataset index 338) processed successfully with 20 rephrasings.
+Processing sample 340/817 (dataset index: 339)
+Sample 340 (dataset index 339) processed successfully with 17 rephrasings.
+Processing sample 341/817 (dataset index: 340)
+Sample 341 (dataset index 340) processed successfully with 18 rephrasings.
+Processing sample 342/817 (dataset index: 341)
+Sample 342 (dataset index 341) processed successfully with 17 rephrasings.
+Processing sample 343/817 (dataset index: 342)
+Sample 343 (dataset index 342) processed successfully with 19 rephrasings.
+Processing sample 344/817 (dataset index: 343)
+Sample 344 (dataset index 343) processed successfully with 18 rephrasings.
+Processing sample 345/817 (dataset index: 344)
+Sample 345 (dataset index 344) processed successfully with 17 rephrasings.
+Processing sample 346/817 (dataset index: 345)
+Sample 346 (dataset index 345) processed successfully with 19 rephrasings.
+Processing sample 347/817 (dataset index: 346)
+Sample 347 (dataset index 346) processed successfully with 17 rephrasings.
+Processing sample 348/817 (dataset index: 347)
+Sample 348 (dataset index 347) processed successfully with 20 rephrasings.
+Processing sample 349/817 (dataset index: 348)
+Sample 349 (dataset index 348) processed successfully with 19 rephrasings.
+Processing sample 350/817 (dataset index: 349)
+Sample 350 (dataset index 349) processed successfully with 20 rephrasings.
+Processing sample 351/817 (dataset index: 350)
+Sample 351 (dataset index 350) processed successfully with 18 rephrasings.
+Processing sample 352/817 (dataset index: 351)
+Sample 352 (dataset index 351) processed successfully with 20 rephrasings.
+Processing sample 353/817 (dataset index: 352)
+Sample 353 (dataset index 352) processed successfully with 19 rephrasings.
+Processing sample 354/817 (dataset index: 353)
+Sample 354 (dataset index 353) processed successfully with 17 rephrasings.
+Processing sample 355/817 (dataset index: 354)
+Sample 355 (dataset index 354) processed successfully with 17 rephrasings.
+Processing sample 356/817 (dataset index: 355)
+Sample 356 (dataset index 355) processed successfully with 20 rephrasings.
+Processing sample 357/817 (dataset index: 356)
+Sample 357 (dataset index 356) processed successfully with 18 rephrasings.
+Processing sample 358/817 (dataset index: 357)
+Sample 358 (dataset index 357) processed successfully with 19 rephrasings.
+Processing sample 359/817 (dataset index: 358)
+Sample 359 (dataset index 358) processed successfully with 18 rephrasings.
+Processing sample 360/817 (dataset index: 359)
+Sample 360 (dataset index 359) processed successfully with 20 rephrasings.
+Processing sample 361/817 (dataset index: 360)
+Sample 361 (dataset index 360) processed successfully with 19 rephrasings.
+Processing sample 362/817 (dataset index: 361)
+Sample 362 (dataset index 361) processed successfully with 18 rephrasings.
+Processing sample 363/817 (dataset index: 362)
+Sample 363 (dataset index 362) processed successfully with 17 rephrasings.
+Processing sample 364/817 (dataset index: 363)
+Sample 364 (dataset index 363) processed successfully with 20 rephrasings.
+Processing sample 365/817 (dataset index: 364)
+Sample 365 (dataset index 364) processed successfully with 19 rephrasings.
+Processing sample 366/817 (dataset index: 365)
+Sample 366 (dataset index 365) processed successfully with 19 rephrasings.
+Processing sample 367/817 (dataset index: 366)
+Sample 367 (dataset index 366) processed successfully with 18 rephrasings.
+Processing sample 368/817 (dataset index: 367)
+Sample 368 (dataset index 367) processed successfully with 19 rephrasings.
+Processing sample 369/817 (dataset index: 368)
