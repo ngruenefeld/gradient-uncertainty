@@ -2,3 +2,22 @@ slurmstepd-andesit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission
 slurmstepd-andesit: error: Setting TMPDIR to /tmp
 Running job with commit: 3c678c3a19bddeb73c8ba02227c29fb02bf22488
 Running command: python -um scripts.llama "5032" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --quantization 0 --dataset "mmlu"
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 5032
+Key mode: keyfile
+Sample size: 0
+Normalize: False
+Counterfactual: identity
+Dataset: mmlu
+Model: gpt2
+Replacement probability: 1.0
+Quantization bits: None (full precision)
+Using full train dataset with 11 samples.
+Using full test dataset with 322 samples.
+Loading model: gpt2
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
