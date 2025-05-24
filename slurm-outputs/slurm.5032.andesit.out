@@ -1,0 +1,4 @@
+slurmstepd-andesit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-andesit: error: Setting TMPDIR to /tmp
+Running job with commit: 3c678c3a19bddeb73c8ba02227c29fb02bf22488
+Running command: python -um scripts.llama "5032" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --quantization 0 --dataset "mmlu"
