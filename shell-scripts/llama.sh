@@ -7,8 +7,6 @@
 #SBATCH --chdir=/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty
 #SBATCH --output=/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/slurm-outputs/slurm.%j.%N.out
 #SBATCH --ntasks=1
-#SBATCH --mem=32G
-#SBATCH --gres=gpu:1
 
 # Default values
 KEY_MODE="keyfile"
