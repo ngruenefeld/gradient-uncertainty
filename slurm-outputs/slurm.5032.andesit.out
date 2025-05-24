@@ -21,3 +21,5 @@ Using full train dataset with 11 samples.
 Using full test dataset with 322 samples.
 Loading model: gpt2
 Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Using device: cuda
+Map:   0%|          | 0/11 [00:00<?, ? examples/s]Map: 100%|██████████| 11/11 [00:00<00:00, 624.69 examples/s]
