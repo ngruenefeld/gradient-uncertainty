@@ -323,13 +323,24 @@ def load_bert_datasets(choice="ag_news"):
         ag_train_data, ag_test_data = load_bert_dataset_dicts("ag_news")
         pubmed_data = load_bert_dataset_dicts("pubmed")
 
+        indices_to_remove = {
+            i for i, v in enumerate(ag_train_data["label"]) if v != "Sports"
+        }
+
+        filtered_ag_train_data = {
+            key: [v for i, v in enumerate(vals) if i not in indices_to_remove]
+            for key, vals in ag_train_data.items()
+        }
+
         combined_test = {
             "text": ag_test_data["text"] + pubmed_data["text"],
             "origin": ag_test_data["origin"] + pubmed_data["origin"],
             "label": ag_test_data["label"] + pubmed_data["label"],
         }
 
-        return Dataset.from_dict(ag_train_data), Dataset.from_dict(combined_test)
+        return Dataset.from_dict(filtered_ag_train_data), Dataset.from_dict(
+            combined_test
+        )
 
     elif choice == "mmlu":
         cs_data_val, cs_data_test, phil_data = load_bert_dataset_dicts("mmlu")
