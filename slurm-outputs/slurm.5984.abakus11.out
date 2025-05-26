@@ -15405,3 +15405,1622 @@ Processing test sample 3521/4200 (after training)
 Error in bert_gradient: The size of tensor a (544) must match the size of tensor b (512) at non-singleton dimension 1
 Error processing test sample 3521 after training: 'dict' object has no attribute 'item'
 Processing test sample 3522/4200 (after training)
+Error processing test sample 3522 after training: list index out of range
+Processing test sample 3523/4200 (after training)
+Error processing test sample 3523 after training: list index out of range
+Processing test sample 3524/4200 (after training)
+Error in bert_gradient: The size of tensor a (848) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3524 after training: 'dict' object has no attribute 'item'
+Processing test sample 3525/4200 (after training)
+Error processing test sample 3525 after training: list index out of range
+Processing test sample 3526/4200 (after training)
+Error processing test sample 3526 after training: list index out of range
+Processing test sample 3527/4200 (after training)
+Error in bert_gradient: The size of tensor a (1823) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3527 after training: 'dict' object has no attribute 'item'
+Processing test sample 3528/4200 (after training)
+Error processing test sample 3528 after training: list index out of range
+Processing test sample 3529/4200 (after training)
+Error processing test sample 3529 after training: list index out of range
+Processing test sample 3530/4200 (after training)
+Error processing test sample 3530 after training: list index out of range
+Processing test sample 3531/4200 (after training)
+Error in bert_gradient: The size of tensor a (3055) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3531 after training: 'dict' object has no attribute 'item'
+Processing test sample 3532/4200 (after training)
+Error in bert_gradient: The size of tensor a (540) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3532 after training: 'dict' object has no attribute 'item'
+Processing test sample 3533/4200 (after training)
+Error processing test sample 3533 after training: list index out of range
+Processing test sample 3534/4200 (after training)
+Error in bert_gradient: The size of tensor a (901) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3534 after training: 'dict' object has no attribute 'item'
+Processing test sample 3535/4200 (after training)
+Error processing test sample 3535 after training: list index out of range
+Processing test sample 3536/4200 (after training)
+Error processing test sample 3536 after training: list index out of range
+Processing test sample 3537/4200 (after training)
+Error processing test sample 3537 after training: list index out of range
+Processing test sample 3538/4200 (after training)
+Error processing test sample 3538 after training: list index out of range
+Processing test sample 3539/4200 (after training)
+Error processing test sample 3539 after training: list index out of range
+Processing test sample 3540/4200 (after training)
+Error processing test sample 3540 after training: list index out of range
+Processing test sample 3541/4200 (after training)
+Error in bert_gradient: The size of tensor a (870) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3541 after training: 'dict' object has no attribute 'item'
+Processing test sample 3542/4200 (after training)
+Error in bert_gradient: The size of tensor a (685) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3542 after training: 'dict' object has no attribute 'item'
+Processing test sample 3543/4200 (after training)
+Error in bert_gradient: The size of tensor a (2466) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3543 after training: 'dict' object has no attribute 'item'
+Processing test sample 3544/4200 (after training)
+Error processing test sample 3544 after training: list index out of range
+Processing test sample 3545/4200 (after training)
+Error in bert_gradient: The size of tensor a (535) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3545 after training: 'dict' object has no attribute 'item'
+Processing test sample 3546/4200 (after training)
+Error in bert_gradient: The size of tensor a (1197) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3546 after training: 'dict' object has no attribute 'item'
+Processing test sample 3547/4200 (after training)
+Error processing test sample 3547 after training: list index out of range
+Processing test sample 3548/4200 (after training)
+Error processing test sample 3548 after training: list index out of range
+Processing test sample 3549/4200 (after training)
+Error processing test sample 3549 after training: list index out of range
+Processing test sample 3550/4200 (after training)
+Error in bert_gradient: The size of tensor a (1966) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3550 after training: 'dict' object has no attribute 'item'
+Processing test sample 3551/4200 (after training)
+Error processing test sample 3551 after training: list index out of range
+Processing test sample 3552/4200 (after training)
+Error in bert_gradient: The size of tensor a (2136) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3552 after training: 'dict' object has no attribute 'item'
+Processing test sample 3553/4200 (after training)
+Error processing test sample 3553 after training: list index out of range
+Processing test sample 3554/4200 (after training)
+Error in bert_gradient: The size of tensor a (607) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3554 after training: 'dict' object has no attribute 'item'
+Processing test sample 3555/4200 (after training)
+Error processing test sample 3555 after training: list index out of range
+Processing test sample 3556/4200 (after training)
+Error in bert_gradient: The size of tensor a (713) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3556 after training: 'dict' object has no attribute 'item'
+Processing test sample 3557/4200 (after training)
+Error in bert_gradient: The size of tensor a (699) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3557 after training: 'dict' object has no attribute 'item'
+Processing test sample 3558/4200 (after training)
+Error in bert_gradient: The size of tensor a (1629) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3558 after training: 'dict' object has no attribute 'item'
+Processing test sample 3559/4200 (after training)
+Error processing test sample 3559 after training: list index out of range
+Processing test sample 3560/4200 (after training)
+Error in bert_gradient: The size of tensor a (1288) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3560 after training: 'dict' object has no attribute 'item'
+Processing test sample 3561/4200 (after training)
+Error processing test sample 3561 after training: list index out of range
+Processing test sample 3562/4200 (after training)
+Error processing test sample 3562 after training: list index out of range
+Processing test sample 3563/4200 (after training)
+Error in bert_gradient: The size of tensor a (741) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3563 after training: 'dict' object has no attribute 'item'
+Processing test sample 3564/4200 (after training)
+Error processing test sample 3564 after training: list index out of range
+Processing test sample 3565/4200 (after training)
+Error in bert_gradient: The size of tensor a (806) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3565 after training: 'dict' object has no attribute 'item'
+Processing test sample 3566/4200 (after training)
+Error processing test sample 3566 after training: list index out of range
+Processing test sample 3567/4200 (after training)
+Error processing test sample 3567 after training: list index out of range
+Processing test sample 3568/4200 (after training)
+Error processing test sample 3568 after training: list index out of range
+Processing test sample 3569/4200 (after training)
+Error processing test sample 3569 after training: list index out of range
+Processing test sample 3570/4200 (after training)
+Error processing test sample 3570 after training: list index out of range
+Processing test sample 3571/4200 (after training)
+Error in bert_gradient: The size of tensor a (1314) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3571 after training: 'dict' object has no attribute 'item'
+Processing test sample 3572/4200 (after training)
+Error in bert_gradient: The size of tensor a (1376) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3572 after training: 'dict' object has no attribute 'item'
+Processing test sample 3573/4200 (after training)
+Error in bert_gradient: The size of tensor a (1022) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3573 after training: 'dict' object has no attribute 'item'
+Processing test sample 3574/4200 (after training)
+Error in bert_gradient: The size of tensor a (964) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3574 after training: 'dict' object has no attribute 'item'
+Processing test sample 3575/4200 (after training)
+Error in bert_gradient: The size of tensor a (846) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3575 after training: 'dict' object has no attribute 'item'
+Processing test sample 3576/4200 (after training)
+Error processing test sample 3576 after training: list index out of range
+Processing test sample 3577/4200 (after training)
+Error processing test sample 3577 after training: list index out of range
+Processing test sample 3578/4200 (after training)
+Error processing test sample 3578 after training: list index out of range
+Processing test sample 3579/4200 (after training)
+Error processing test sample 3579 after training: list index out of range
+Processing test sample 3580/4200 (after training)
+Error processing test sample 3580 after training: list index out of range
+Processing test sample 3581/4200 (after training)
+Error processing test sample 3581 after training: list index out of range
+Processing test sample 3582/4200 (after training)
+Error in bert_gradient: The size of tensor a (581) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3582 after training: 'dict' object has no attribute 'item'
+Processing test sample 3583/4200 (after training)
+Error processing test sample 3583 after training: list index out of range
+Processing test sample 3584/4200 (after training)
+Error processing test sample 3584 after training: list index out of range
+Processing test sample 3585/4200 (after training)
+Error in bert_gradient: The size of tensor a (1632) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3585 after training: 'dict' object has no attribute 'item'
+Processing test sample 3586/4200 (after training)
+Error in bert_gradient: The size of tensor a (598) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3586 after training: 'dict' object has no attribute 'item'
+Processing test sample 3587/4200 (after training)
+Error in bert_gradient: The size of tensor a (957) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3587 after training: 'dict' object has no attribute 'item'
+Processing test sample 3588/4200 (after training)
+Error processing test sample 3588 after training: list index out of range
+Processing test sample 3589/4200 (after training)
+Error in bert_gradient: The size of tensor a (732) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3589 after training: 'dict' object has no attribute 'item'
+Processing test sample 3590/4200 (after training)
+Error processing test sample 3590 after training: list index out of range
+Processing test sample 3591/4200 (after training)
+Error in bert_gradient: The size of tensor a (3017) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3591 after training: 'dict' object has no attribute 'item'
+Processing test sample 3592/4200 (after training)
+Error processing test sample 3592 after training: list index out of range
+Processing test sample 3593/4200 (after training)
+Error processing test sample 3593 after training: list index out of range
+Processing test sample 3594/4200 (after training)
+Error processing test sample 3594 after training: list index out of range
+Processing test sample 3595/4200 (after training)
+Error in bert_gradient: The size of tensor a (734) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3595 after training: 'dict' object has no attribute 'item'
+Processing test sample 3596/4200 (after training)
+Error processing test sample 3596 after training: list index out of range
+Processing test sample 3597/4200 (after training)
+Error processing test sample 3597 after training: list index out of range
+Processing test sample 3598/4200 (after training)
+Error processing test sample 3598 after training: list index out of range
+Processing test sample 3599/4200 (after training)
+Error in bert_gradient: The size of tensor a (706) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3599 after training: 'dict' object has no attribute 'item'
+Processing test sample 3600/4200 (after training)
+Error processing test sample 3600 after training: list index out of range
+Processing test sample 3601/4200 (after training)
+Error processing test sample 3601 after training: list index out of range
+Processing test sample 3602/4200 (after training)
+Error in bert_gradient: The size of tensor a (525) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3602 after training: 'dict' object has no attribute 'item'
+Processing test sample 3603/4200 (after training)
+Error processing test sample 3603 after training: list index out of range
+Processing test sample 3604/4200 (after training)
+Error in bert_gradient: The size of tensor a (1620) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3604 after training: 'dict' object has no attribute 'item'
+Processing test sample 3605/4200 (after training)
+Error in bert_gradient: The size of tensor a (1073) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3605 after training: 'dict' object has no attribute 'item'
+Processing test sample 3606/4200 (after training)
+Error in bert_gradient: The size of tensor a (1573) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3606 after training: 'dict' object has no attribute 'item'
+Processing test sample 3607/4200 (after training)
+Error in bert_gradient: The size of tensor a (602) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3607 after training: 'dict' object has no attribute 'item'
+Processing test sample 3608/4200 (after training)
+Error in bert_gradient: The size of tensor a (807) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3608 after training: 'dict' object has no attribute 'item'
+Processing test sample 3609/4200 (after training)
+Error processing test sample 3609 after training: list index out of range
+Processing test sample 3610/4200 (after training)
+Error processing test sample 3610 after training: list index out of range
+Processing test sample 3611/4200 (after training)
+Error in bert_gradient: The size of tensor a (988) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3611 after training: 'dict' object has no attribute 'item'
+Processing test sample 3612/4200 (after training)
+Error processing test sample 3612 after training: list index out of range
+Processing test sample 3613/4200 (after training)
+Error processing test sample 3613 after training: list index out of range
+Processing test sample 3614/4200 (after training)
+Error in bert_gradient: The size of tensor a (648) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3614 after training: 'dict' object has no attribute 'item'
+Processing test sample 3615/4200 (after training)
+Error processing test sample 3615 after training: list index out of range
+Processing test sample 3616/4200 (after training)
+Error in bert_gradient: The size of tensor a (793) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3616 after training: 'dict' object has no attribute 'item'
+Processing test sample 3617/4200 (after training)
+Error processing test sample 3617 after training: list index out of range
+Processing test sample 3618/4200 (after training)
+Error in bert_gradient: The size of tensor a (542) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3618 after training: 'dict' object has no attribute 'item'
+Processing test sample 3619/4200 (after training)
+Error processing test sample 3619 after training: list index out of range
+Processing test sample 3620/4200 (after training)
+Error processing test sample 3620 after training: list index out of range
+Processing test sample 3621/4200 (after training)
+Error processing test sample 3621 after training: list index out of range
+Processing test sample 3622/4200 (after training)
+Error processing test sample 3622 after training: list index out of range
+Processing test sample 3623/4200 (after training)
+Error in bert_gradient: The size of tensor a (561) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3623 after training: 'dict' object has no attribute 'item'
+Processing test sample 3624/4200 (after training)
+Error processing test sample 3624 after training: list index out of range
+Processing test sample 3625/4200 (after training)
+Error processing test sample 3625 after training: list index out of range
+Processing test sample 3626/4200 (after training)
+Error processing test sample 3626 after training: list index out of range
+Processing test sample 3627/4200 (after training)
+Error processing test sample 3627 after training: list index out of range
+Processing test sample 3628/4200 (after training)
+Error processing test sample 3628 after training: list index out of range
+Processing test sample 3629/4200 (after training)
+Error processing test sample 3629 after training: list index out of range
+Processing test sample 3630/4200 (after training)
+Error processing test sample 3630 after training: list index out of range
+Processing test sample 3631/4200 (after training)
+Error in bert_gradient: The size of tensor a (526) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3631 after training: 'dict' object has no attribute 'item'
+Processing test sample 3632/4200 (after training)
+Error processing test sample 3632 after training: list index out of range
+Processing test sample 3633/4200 (after training)
+Error processing test sample 3633 after training: list index out of range
+Processing test sample 3634/4200 (after training)
+Error processing test sample 3634 after training: list index out of range
+Processing test sample 3635/4200 (after training)
+Error processing test sample 3635 after training: list index out of range
+Processing test sample 3636/4200 (after training)
+Error processing test sample 3636 after training: list index out of range
+Processing test sample 3637/4200 (after training)
+Error in bert_gradient: The size of tensor a (551) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3637 after training: 'dict' object has no attribute 'item'
+Processing test sample 3638/4200 (after training)
+Error in bert_gradient: The size of tensor a (3131) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3638 after training: 'dict' object has no attribute 'item'
+Processing test sample 3639/4200 (after training)
+Error processing test sample 3639 after training: list index out of range
+Processing test sample 3640/4200 (after training)
+Error in bert_gradient: The size of tensor a (543) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3640 after training: 'dict' object has no attribute 'item'
+Processing test sample 3641/4200 (after training)
+Error processing test sample 3641 after training: list index out of range
+Processing test sample 3642/4200 (after training)
+Error processing test sample 3642 after training: list index out of range
+Processing test sample 3643/4200 (after training)
+Error processing test sample 3643 after training: list index out of range
+Processing test sample 3644/4200 (after training)
+Error in bert_gradient: The size of tensor a (1201) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3644 after training: 'dict' object has no attribute 'item'
+Processing test sample 3645/4200 (after training)
+Error processing test sample 3645 after training: list index out of range
+Processing test sample 3646/4200 (after training)
+Error in bert_gradient: The size of tensor a (727) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3646 after training: 'dict' object has no attribute 'item'
+Processing test sample 3647/4200 (after training)
+Error processing test sample 3647 after training: list index out of range
+Processing test sample 3648/4200 (after training)
+Error in bert_gradient: The size of tensor a (565) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3648 after training: 'dict' object has no attribute 'item'
+Processing test sample 3649/4200 (after training)
+Error processing test sample 3649 after training: list index out of range
+Processing test sample 3650/4200 (after training)
+Error in bert_gradient: The size of tensor a (574) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3650 after training: 'dict' object has no attribute 'item'
+Processing test sample 3651/4200 (after training)
+Error in bert_gradient: The size of tensor a (571) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3651 after training: 'dict' object has no attribute 'item'
+Processing test sample 3652/4200 (after training)
+Error processing test sample 3652 after training: list index out of range
+Processing test sample 3653/4200 (after training)
+Error processing test sample 3653 after training: list index out of range
+Processing test sample 3654/4200 (after training)
+Error in bert_gradient: The size of tensor a (887) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3654 after training: 'dict' object has no attribute 'item'
+Processing test sample 3655/4200 (after training)
+Error processing test sample 3655 after training: list index out of range
+Processing test sample 3656/4200 (after training)
+Error processing test sample 3656 after training: list index out of range
+Processing test sample 3657/4200 (after training)
+Error processing test sample 3657 after training: list index out of range
+Processing test sample 3658/4200 (after training)
+Error in bert_gradient: The size of tensor a (575) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3658 after training: 'dict' object has no attribute 'item'
+Processing test sample 3659/4200 (after training)
+Error in bert_gradient: The size of tensor a (2757) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3659 after training: 'dict' object has no attribute 'item'
+Processing test sample 3660/4200 (after training)
+Error processing test sample 3660 after training: list index out of range
+Processing test sample 3661/4200 (after training)
+Error processing test sample 3661 after training: list index out of range
+Processing test sample 3662/4200 (after training)
+Error in bert_gradient: The size of tensor a (855) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3662 after training: 'dict' object has no attribute 'item'
+Processing test sample 3663/4200 (after training)
+Error in bert_gradient: The size of tensor a (1092) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3663 after training: 'dict' object has no attribute 'item'
+Processing test sample 3664/4200 (after training)
+Error processing test sample 3664 after training: list index out of range
+Processing test sample 3665/4200 (after training)
+Error in bert_gradient: The size of tensor a (916) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3665 after training: 'dict' object has no attribute 'item'
+Processing test sample 3666/4200 (after training)
+Error processing test sample 3666 after training: list index out of range
+Processing test sample 3667/4200 (after training)
+Error processing test sample 3667 after training: list index out of range
+Processing test sample 3668/4200 (after training)
+Error processing test sample 3668 after training: list index out of range
+Processing test sample 3669/4200 (after training)
+Error processing test sample 3669 after training: list index out of range
+Processing test sample 3670/4200 (after training)
+Error in bert_gradient: The size of tensor a (603) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3670 after training: 'dict' object has no attribute 'item'
+Processing test sample 3671/4200 (after training)
+Error in bert_gradient: The size of tensor a (4629) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3671 after training: 'dict' object has no attribute 'item'
+Processing test sample 3672/4200 (after training)
+Error processing test sample 3672 after training: list index out of range
+Processing test sample 3673/4200 (after training)
+Error in bert_gradient: The size of tensor a (2634) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3673 after training: 'dict' object has no attribute 'item'
+Processing test sample 3674/4200 (after training)
+Error processing test sample 3674 after training: list index out of range
+Processing test sample 3675/4200 (after training)
+Error processing test sample 3675 after training: list index out of range
+Processing test sample 3676/4200 (after training)
+Error processing test sample 3676 after training: list index out of range
+Processing test sample 3677/4200 (after training)
+Error processing test sample 3677 after training: list index out of range
+Processing test sample 3678/4200 (after training)
+Error processing test sample 3678 after training: list index out of range
+Processing test sample 3679/4200 (after training)
+Error processing test sample 3679 after training: list index out of range
+Processing test sample 3680/4200 (after training)
+Error processing test sample 3680 after training: list index out of range
+Processing test sample 3681/4200 (after training)
+Error processing test sample 3681 after training: list index out of range
+Processing test sample 3682/4200 (after training)
+Error in bert_gradient: The size of tensor a (685) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3682 after training: 'dict' object has no attribute 'item'
+Processing test sample 3683/4200 (after training)
+Error in bert_gradient: The size of tensor a (1261) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3683 after training: 'dict' object has no attribute 'item'
+Processing test sample 3684/4200 (after training)
+Error in bert_gradient: The size of tensor a (870) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3684 after training: 'dict' object has no attribute 'item'
+Processing test sample 3685/4200 (after training)
+Error processing test sample 3685 after training: list index out of range
+Processing test sample 3686/4200 (after training)
+Error processing test sample 3686 after training: list index out of range
+Processing test sample 3687/4200 (after training)
+Error processing test sample 3687 after training: list index out of range
+Processing test sample 3688/4200 (after training)
+Error processing test sample 3688 after training: list index out of range
+Processing test sample 3689/4200 (after training)
+Error processing test sample 3689 after training: list index out of range
+Processing test sample 3690/4200 (after training)
+Error processing test sample 3690 after training: list index out of range
+Processing test sample 3691/4200 (after training)
+Error processing test sample 3691 after training: list index out of range
+Processing test sample 3692/4200 (after training)
+Error processing test sample 3692 after training: list index out of range
+Processing test sample 3693/4200 (after training)
+Error processing test sample 3693 after training: list index out of range
+Processing test sample 3694/4200 (after training)
+Error processing test sample 3694 after training: list index out of range
+Processing test sample 3695/4200 (after training)
+Error processing test sample 3695 after training: list index out of range
+Processing test sample 3696/4200 (after training)
+Error processing test sample 3696 after training: list index out of range
+Processing test sample 3697/4200 (after training)
+Error processing test sample 3697 after training: list index out of range
+Processing test sample 3698/4200 (after training)
+Error processing test sample 3698 after training: list index out of range
+Processing test sample 3699/4200 (after training)
+Error processing test sample 3699 after training: list index out of range
+Processing test sample 3700/4200 (after training)
+Error processing test sample 3700 after training: list index out of range
+Processing test sample 3701/4200 (after training)
+Error processing test sample 3701 after training: list index out of range
+Processing test sample 3702/4200 (after training)
+Error processing test sample 3702 after training: list index out of range
+Processing test sample 3703/4200 (after training)
+Error in bert_gradient: The size of tensor a (3001) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3703 after training: 'dict' object has no attribute 'item'
+Processing test sample 3704/4200 (after training)
+Error processing test sample 3704 after training: list index out of range
+Processing test sample 3705/4200 (after training)
+Error in bert_gradient: The size of tensor a (738) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3705 after training: 'dict' object has no attribute 'item'
+Processing test sample 3706/4200 (after training)
+Error in bert_gradient: The size of tensor a (1096) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3706 after training: 'dict' object has no attribute 'item'
+Processing test sample 3707/4200 (after training)
+Error processing test sample 3707 after training: list index out of range
+Processing test sample 3708/4200 (after training)
+Error in bert_gradient: The size of tensor a (851) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3708 after training: 'dict' object has no attribute 'item'
+Processing test sample 3709/4200 (after training)
+Error processing test sample 3709 after training: list index out of range
+Processing test sample 3710/4200 (after training)
+Error in bert_gradient: The size of tensor a (586) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3710 after training: 'dict' object has no attribute 'item'
+Processing test sample 3711/4200 (after training)
+Error processing test sample 3711 after training: list index out of range
+Processing test sample 3712/4200 (after training)
+Error processing test sample 3712 after training: list index out of range
+Processing test sample 3713/4200 (after training)
+Error processing test sample 3713 after training: list index out of range
+Processing test sample 3714/4200 (after training)
+Error processing test sample 3714 after training: list index out of range
+Processing test sample 3715/4200 (after training)
+Error in bert_gradient: The size of tensor a (1037) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3715 after training: 'dict' object has no attribute 'item'
+Processing test sample 3716/4200 (after training)
+Error processing test sample 3716 after training: list index out of range
+Processing test sample 3717/4200 (after training)
+Error in bert_gradient: The size of tensor a (767) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3717 after training: 'dict' object has no attribute 'item'
+Processing test sample 3718/4200 (after training)
+Error processing test sample 3718 after training: list index out of range
+Processing test sample 3719/4200 (after training)
+Error processing test sample 3719 after training: list index out of range
+Processing test sample 3720/4200 (after training)
+Error processing test sample 3720 after training: list index out of range
+Processing test sample 3721/4200 (after training)
+Error processing test sample 3721 after training: list index out of range
+Processing test sample 3722/4200 (after training)
+Error processing test sample 3722 after training: list index out of range
+Processing test sample 3723/4200 (after training)
+Error processing test sample 3723 after training: list index out of range
+Processing test sample 3724/4200 (after training)
+Error processing test sample 3724 after training: list index out of range
+Processing test sample 3725/4200 (after training)
+Error processing test sample 3725 after training: list index out of range
+Processing test sample 3726/4200 (after training)
+Error processing test sample 3726 after training: list index out of range
+Processing test sample 3727/4200 (after training)
+Error in bert_gradient: The size of tensor a (794) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3727 after training: 'dict' object has no attribute 'item'
+Processing test sample 3728/4200 (after training)
+Error processing test sample 3728 after training: list index out of range
+Processing test sample 3729/4200 (after training)
+Error in bert_gradient: The size of tensor a (1130) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3729 after training: 'dict' object has no attribute 'item'
+Processing test sample 3730/4200 (after training)
+Error processing test sample 3730 after training: list index out of range
+Processing test sample 3731/4200 (after training)
+Error in bert_gradient: The size of tensor a (857) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3731 after training: 'dict' object has no attribute 'item'
+Processing test sample 3732/4200 (after training)
+Error processing test sample 3732 after training: list index out of range
+Processing test sample 3733/4200 (after training)
+Error in bert_gradient: The size of tensor a (1046) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3733 after training: 'dict' object has no attribute 'item'
+Processing test sample 3734/4200 (after training)
+Error in bert_gradient: The size of tensor a (573) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3734 after training: 'dict' object has no attribute 'item'
+Processing test sample 3735/4200 (after training)
+Error in bert_gradient: The size of tensor a (624) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3735 after training: 'dict' object has no attribute 'item'
+Processing test sample 3736/4200 (after training)
+Error in bert_gradient: The size of tensor a (1365) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3736 after training: 'dict' object has no attribute 'item'
+Processing test sample 3737/4200 (after training)
+Error in bert_gradient: The size of tensor a (727) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3737 after training: 'dict' object has no attribute 'item'
+Processing test sample 3738/4200 (after training)
+Error processing test sample 3738 after training: list index out of range
+Processing test sample 3739/4200 (after training)
+Error processing test sample 3739 after training: list index out of range
+Processing test sample 3740/4200 (after training)
+Error in bert_gradient: The size of tensor a (622) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3740 after training: 'dict' object has no attribute 'item'
+Processing test sample 3741/4200 (after training)
+Error in bert_gradient: The size of tensor a (796) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3741 after training: 'dict' object has no attribute 'item'
+Processing test sample 3742/4200 (after training)
+Error processing test sample 3742 after training: list index out of range
+Processing test sample 3743/4200 (after training)
+Error in bert_gradient: The size of tensor a (649) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3743 after training: 'dict' object has no attribute 'item'
+Processing test sample 3744/4200 (after training)
+Error in bert_gradient: The size of tensor a (1564) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3744 after training: 'dict' object has no attribute 'item'
+Processing test sample 3745/4200 (after training)
+Error in bert_gradient: The size of tensor a (1142) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3745 after training: 'dict' object has no attribute 'item'
+Processing test sample 3746/4200 (after training)
+Error in bert_gradient: The size of tensor a (547) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3746 after training: 'dict' object has no attribute 'item'
+Processing test sample 3747/4200 (after training)
+Error in bert_gradient: The size of tensor a (670) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3747 after training: 'dict' object has no attribute 'item'
+Processing test sample 3748/4200 (after training)
+Error processing test sample 3748 after training: list index out of range
+Processing test sample 3749/4200 (after training)
+Error in bert_gradient: The size of tensor a (556) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3749 after training: 'dict' object has no attribute 'item'
+Processing test sample 3750/4200 (after training)
+Error processing test sample 3750 after training: list index out of range
+Processing test sample 3751/4200 (after training)
+Error in bert_gradient: The size of tensor a (611) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3751 after training: 'dict' object has no attribute 'item'
+Processing test sample 3752/4200 (after training)
+Error processing test sample 3752 after training: list index out of range
+Processing test sample 3753/4200 (after training)
+Error in bert_gradient: The size of tensor a (710) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3753 after training: 'dict' object has no attribute 'item'
+Processing test sample 3754/4200 (after training)
+Error processing test sample 3754 after training: list index out of range
+Processing test sample 3755/4200 (after training)
+Error processing test sample 3755 after training: list index out of range
+Processing test sample 3756/4200 (after training)
+Error in bert_gradient: The size of tensor a (549) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3756 after training: 'dict' object has no attribute 'item'
+Processing test sample 3757/4200 (after training)
+Error in bert_gradient: The size of tensor a (1049) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3757 after training: 'dict' object has no attribute 'item'
+Processing test sample 3758/4200 (after training)
+Error processing test sample 3758 after training: list index out of range
+Processing test sample 3759/4200 (after training)
+Error processing test sample 3759 after training: list index out of range
+Processing test sample 3760/4200 (after training)
+Error processing test sample 3760 after training: list index out of range
+Processing test sample 3761/4200 (after training)
+Error in bert_gradient: The size of tensor a (673) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3761 after training: 'dict' object has no attribute 'item'
+Processing test sample 3762/4200 (after training)
+Error processing test sample 3762 after training: list index out of range
+Processing test sample 3763/4200 (after training)
+Error processing test sample 3763 after training: list index out of range
+Processing test sample 3764/4200 (after training)
+Error processing test sample 3764 after training: list index out of range
+Processing test sample 3765/4200 (after training)
+Error in bert_gradient: The size of tensor a (1501) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3765 after training: 'dict' object has no attribute 'item'
+Processing test sample 3766/4200 (after training)
+Error in bert_gradient: The size of tensor a (721) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3766 after training: 'dict' object has no attribute 'item'
+Processing test sample 3767/4200 (after training)
+Error in bert_gradient: The size of tensor a (513) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3767 after training: 'dict' object has no attribute 'item'
+Processing test sample 3768/4200 (after training)
+Error processing test sample 3768 after training: list index out of range
+Processing test sample 3769/4200 (after training)
+Error in bert_gradient: The size of tensor a (562) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3769 after training: 'dict' object has no attribute 'item'
+Processing test sample 3770/4200 (after training)
+Error in bert_gradient: The size of tensor a (1337) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3770 after training: 'dict' object has no attribute 'item'
+Processing test sample 3771/4200 (after training)
+Error in bert_gradient: The size of tensor a (571) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3771 after training: 'dict' object has no attribute 'item'
+Processing test sample 3772/4200 (after training)
+Error processing test sample 3772 after training: list index out of range
+Processing test sample 3773/4200 (after training)
+Error in bert_gradient: The size of tensor a (579) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3773 after training: 'dict' object has no attribute 'item'
+Processing test sample 3774/4200 (after training)
+Error in bert_gradient: The size of tensor a (817) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3774 after training: 'dict' object has no attribute 'item'
+Processing test sample 3775/4200 (after training)
+Error processing test sample 3775 after training: list index out of range
+Processing test sample 3776/4200 (after training)
+Error in bert_gradient: The size of tensor a (626) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3776 after training: 'dict' object has no attribute 'item'
+Processing test sample 3777/4200 (after training)
+Error processing test sample 3777 after training: list index out of range
+Processing test sample 3778/4200 (after training)
+Error in bert_gradient: The size of tensor a (603) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3778 after training: 'dict' object has no attribute 'item'
+Processing test sample 3779/4200 (after training)
+Error in bert_gradient: The size of tensor a (854) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3779 after training: 'dict' object has no attribute 'item'
+Processing test sample 3780/4200 (after training)
+Error processing test sample 3780 after training: list index out of range
+Processing test sample 3781/4200 (after training)
+Error in bert_gradient: The size of tensor a (633) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3781 after training: 'dict' object has no attribute 'item'
+Processing test sample 3782/4200 (after training)
+Error processing test sample 3782 after training: list index out of range
+Processing test sample 3783/4200 (after training)
+Error processing test sample 3783 after training: list index out of range
+Processing test sample 3784/4200 (after training)
+Error in bert_gradient: The size of tensor a (1859) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3784 after training: 'dict' object has no attribute 'item'
+Processing test sample 3785/4200 (after training)
+Error processing test sample 3785 after training: list index out of range
+Processing test sample 3786/4200 (after training)
+Error in bert_gradient: The size of tensor a (1070) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3786 after training: 'dict' object has no attribute 'item'
+Processing test sample 3787/4200 (after training)
+Error processing test sample 3787 after training: list index out of range
+Processing test sample 3788/4200 (after training)
+Error processing test sample 3788 after training: list index out of range
+Processing test sample 3789/4200 (after training)
+Error in bert_gradient: The size of tensor a (1022) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3789 after training: 'dict' object has no attribute 'item'
+Processing test sample 3790/4200 (after training)
+Error in bert_gradient: The size of tensor a (605) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3790 after training: 'dict' object has no attribute 'item'
+Processing test sample 3791/4200 (after training)
+Error processing test sample 3791 after training: list index out of range
+Processing test sample 3792/4200 (after training)
+Error processing test sample 3792 after training: list index out of range
+Processing test sample 3793/4200 (after training)
+Error processing test sample 3793 after training: list index out of range
+Processing test sample 3794/4200 (after training)
+Error in bert_gradient: The size of tensor a (668) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3794 after training: 'dict' object has no attribute 'item'
+Processing test sample 3795/4200 (after training)
+Error in bert_gradient: The size of tensor a (1331) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3795 after training: 'dict' object has no attribute 'item'
+Processing test sample 3796/4200 (after training)
+Error in bert_gradient: The size of tensor a (1712) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3796 after training: 'dict' object has no attribute 'item'
+Processing test sample 3797/4200 (after training)
+Error processing test sample 3797 after training: list index out of range
+Processing test sample 3798/4200 (after training)
+Error in bert_gradient: The size of tensor a (830) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3798 after training: 'dict' object has no attribute 'item'
+Processing test sample 3799/4200 (after training)
+Error processing test sample 3799 after training: list index out of range
+Processing test sample 3800/4200 (after training)
+Error processing test sample 3800 after training: list index out of range
+Processing test sample 3801/4200 (after training)
+Error in bert_gradient: The size of tensor a (851) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3801 after training: 'dict' object has no attribute 'item'
+Processing test sample 3802/4200 (after training)
+Error processing test sample 3802 after training: list index out of range
+Processing test sample 3803/4200 (after training)
+Error processing test sample 3803 after training: list index out of range
+Processing test sample 3804/4200 (after training)
+Error processing test sample 3804 after training: list index out of range
+Processing test sample 3805/4200 (after training)
+Error in bert_gradient: The size of tensor a (655) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3805 after training: 'dict' object has no attribute 'item'
+Processing test sample 3806/4200 (after training)
+Error processing test sample 3806 after training: list index out of range
+Processing test sample 3807/4200 (after training)
+Error processing test sample 3807 after training: list index out of range
+Processing test sample 3808/4200 (after training)
+Error in bert_gradient: The size of tensor a (788) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3808 after training: 'dict' object has no attribute 'item'
+Processing test sample 3809/4200 (after training)
+Error processing test sample 3809 after training: list index out of range
+Processing test sample 3810/4200 (after training)
+Error processing test sample 3810 after training: list index out of range
+Processing test sample 3811/4200 (after training)
+Error processing test sample 3811 after training: list index out of range
+Processing test sample 3812/4200 (after training)
+Error processing test sample 3812 after training: list index out of range
+Processing test sample 3813/4200 (after training)
+Error in bert_gradient: The size of tensor a (557) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3813 after training: 'dict' object has no attribute 'item'
+Processing test sample 3814/4200 (after training)
+Error in bert_gradient: The size of tensor a (3461) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3814 after training: 'dict' object has no attribute 'item'
+Processing test sample 3815/4200 (after training)
+Error processing test sample 3815 after training: list index out of range
+Processing test sample 3816/4200 (after training)
+Error in bert_gradient: The size of tensor a (901) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3816 after training: 'dict' object has no attribute 'item'
+Processing test sample 3817/4200 (after training)
+Error processing test sample 3817 after training: list index out of range
+Processing test sample 3818/4200 (after training)
+Error in bert_gradient: The size of tensor a (631) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3818 after training: 'dict' object has no attribute 'item'
+Processing test sample 3819/4200 (after training)
+Error processing test sample 3819 after training: list index out of range
+Processing test sample 3820/4200 (after training)
+Error processing test sample 3820 after training: list index out of range
+Processing test sample 3821/4200 (after training)
+Error in bert_gradient: The size of tensor a (533) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3821 after training: 'dict' object has no attribute 'item'
+Processing test sample 3822/4200 (after training)
+Error processing test sample 3822 after training: list index out of range
+Processing test sample 3823/4200 (after training)
+Error in bert_gradient: The size of tensor a (681) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3823 after training: 'dict' object has no attribute 'item'
+Processing test sample 3824/4200 (after training)
+Error in bert_gradient: The size of tensor a (517) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3824 after training: 'dict' object has no attribute 'item'
+Processing test sample 3825/4200 (after training)
+Error processing test sample 3825 after training: list index out of range
+Processing test sample 3826/4200 (after training)
+Error in bert_gradient: The size of tensor a (523) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3826 after training: 'dict' object has no attribute 'item'
+Processing test sample 3827/4200 (after training)
+Error in bert_gradient: The size of tensor a (1070) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3827 after training: 'dict' object has no attribute 'item'
+Processing test sample 3828/4200 (after training)
+Error processing test sample 3828 after training: list index out of range
+Processing test sample 3829/4200 (after training)
+Error processing test sample 3829 after training: list index out of range
+Processing test sample 3830/4200 (after training)
+Error processing test sample 3830 after training: list index out of range
+Processing test sample 3831/4200 (after training)
+Error processing test sample 3831 after training: list index out of range
+Processing test sample 3832/4200 (after training)
+Error processing test sample 3832 after training: list index out of range
+Processing test sample 3833/4200 (after training)
+Error in bert_gradient: The size of tensor a (711) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3833 after training: 'dict' object has no attribute 'item'
+Processing test sample 3834/4200 (after training)
+Error processing test sample 3834 after training: list index out of range
+Processing test sample 3835/4200 (after training)
+Error in bert_gradient: The size of tensor a (609) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3835 after training: 'dict' object has no attribute 'item'
+Processing test sample 3836/4200 (after training)
+Error processing test sample 3836 after training: list index out of range
+Processing test sample 3837/4200 (after training)
+Error processing test sample 3837 after training: list index out of range
+Processing test sample 3838/4200 (after training)
+Error processing test sample 3838 after training: list index out of range
+Processing test sample 3839/4200 (after training)
+Error processing test sample 3839 after training: list index out of range
+Processing test sample 3840/4200 (after training)
+Error in bert_gradient: The size of tensor a (558) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3840 after training: 'dict' object has no attribute 'item'
+Processing test sample 3841/4200 (after training)
+Error in bert_gradient: The size of tensor a (1308) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3841 after training: 'dict' object has no attribute 'item'
+Processing test sample 3842/4200 (after training)
+Error processing test sample 3842 after training: list index out of range
+Processing test sample 3843/4200 (after training)
+Error in bert_gradient: The size of tensor a (1017) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3843 after training: 'dict' object has no attribute 'item'
+Processing test sample 3844/4200 (after training)
+Error processing test sample 3844 after training: list index out of range
+Processing test sample 3845/4200 (after training)
+Error in bert_gradient: The size of tensor a (2319) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3845 after training: 'dict' object has no attribute 'item'
+Processing test sample 3846/4200 (after training)
+Error in bert_gradient: The size of tensor a (567) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3846 after training: 'dict' object has no attribute 'item'
+Processing test sample 3847/4200 (after training)
+Error in bert_gradient: The size of tensor a (994) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3847 after training: 'dict' object has no attribute 'item'
+Processing test sample 3848/4200 (after training)
+Error processing test sample 3848 after training: list index out of range
+Processing test sample 3849/4200 (after training)
+Error processing test sample 3849 after training: list index out of range
+Processing test sample 3850/4200 (after training)
+Error in bert_gradient: The size of tensor a (519) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3850 after training: 'dict' object has no attribute 'item'
+Processing test sample 3851/4200 (after training)
+Error processing test sample 3851 after training: list index out of range
+Processing test sample 3852/4200 (after training)
+Error in bert_gradient: The size of tensor a (589) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3852 after training: 'dict' object has no attribute 'item'
+Processing test sample 3853/4200 (after training)
+Error in bert_gradient: The size of tensor a (523) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3853 after training: 'dict' object has no attribute 'item'
+Processing test sample 3854/4200 (after training)
+Error processing test sample 3854 after training: list index out of range
+Processing test sample 3855/4200 (after training)
+Error processing test sample 3855 after training: list index out of range
+Processing test sample 3856/4200 (after training)
+Error in bert_gradient: The size of tensor a (541) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3856 after training: 'dict' object has no attribute 'item'
+Processing test sample 3857/4200 (after training)
+Error processing test sample 3857 after training: list index out of range
+Processing test sample 3858/4200 (after training)
+Error processing test sample 3858 after training: list index out of range
+Processing test sample 3859/4200 (after training)
+Error in bert_gradient: The size of tensor a (871) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3859 after training: 'dict' object has no attribute 'item'
+Processing test sample 3860/4200 (after training)
+Error processing test sample 3860 after training: list index out of range
+Processing test sample 3861/4200 (after training)
+Error in bert_gradient: The size of tensor a (1426) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3861 after training: 'dict' object has no attribute 'item'
+Processing test sample 3862/4200 (after training)
+Error processing test sample 3862 after training: list index out of range
+Processing test sample 3863/4200 (after training)
+Error processing test sample 3863 after training: list index out of range
+Processing test sample 3864/4200 (after training)
+Error in bert_gradient: The size of tensor a (1981) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3864 after training: 'dict' object has no attribute 'item'
+Processing test sample 3865/4200 (after training)
+Error processing test sample 3865 after training: list index out of range
+Processing test sample 3866/4200 (after training)
+Error in bert_gradient: The size of tensor a (959) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3866 after training: 'dict' object has no attribute 'item'
+Processing test sample 3867/4200 (after training)
+Error processing test sample 3867 after training: list index out of range
+Processing test sample 3868/4200 (after training)
+Error in bert_gradient: The size of tensor a (1225) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3868 after training: 'dict' object has no attribute 'item'
+Processing test sample 3869/4200 (after training)
+Error in bert_gradient: The size of tensor a (1620) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3869 after training: 'dict' object has no attribute 'item'
+Processing test sample 3870/4200 (after training)
+Error processing test sample 3870 after training: list index out of range
+Processing test sample 3871/4200 (after training)
+Error processing test sample 3871 after training: list index out of range
+Processing test sample 3872/4200 (after training)
+Error processing test sample 3872 after training: list index out of range
+Processing test sample 3873/4200 (after training)
+Error processing test sample 3873 after training: list index out of range
+Processing test sample 3874/4200 (after training)
+Error in bert_gradient: The size of tensor a (692) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3874 after training: 'dict' object has no attribute 'item'
+Processing test sample 3875/4200 (after training)
+Error in bert_gradient: The size of tensor a (586) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3875 after training: 'dict' object has no attribute 'item'
+Processing test sample 3876/4200 (after training)
+Error processing test sample 3876 after training: list index out of range
+Processing test sample 3877/4200 (after training)
+Error processing test sample 3877 after training: list index out of range
+Processing test sample 3878/4200 (after training)
+Error in bert_gradient: The size of tensor a (2657) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3878 after training: 'dict' object has no attribute 'item'
+Processing test sample 3879/4200 (after training)
+Error processing test sample 3879 after training: list index out of range
+Processing test sample 3880/4200 (after training)
+Error processing test sample 3880 after training: list index out of range
+Processing test sample 3881/4200 (after training)
+Error processing test sample 3881 after training: list index out of range
+Processing test sample 3882/4200 (after training)
+Error processing test sample 3882 after training: list index out of range
+Processing test sample 3883/4200 (after training)
+Error processing test sample 3883 after training: list index out of range
+Processing test sample 3884/4200 (after training)
+Error in bert_gradient: The size of tensor a (894) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3884 after training: 'dict' object has no attribute 'item'
+Processing test sample 3885/4200 (after training)
+Error processing test sample 3885 after training: list index out of range
+Processing test sample 3886/4200 (after training)
+Error processing test sample 3886 after training: list index out of range
+Processing test sample 3887/4200 (after training)
+Error processing test sample 3887 after training: list index out of range
+Processing test sample 3888/4200 (after training)
+Error in bert_gradient: The size of tensor a (534) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3888 after training: 'dict' object has no attribute 'item'
+Processing test sample 3889/4200 (after training)
+Error in bert_gradient: The size of tensor a (682) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3889 after training: 'dict' object has no attribute 'item'
+Processing test sample 3890/4200 (after training)
+Error processing test sample 3890 after training: list index out of range
+Processing test sample 3891/4200 (after training)
+Error processing test sample 3891 after training: list index out of range
+Processing test sample 3892/4200 (after training)
+Error in bert_gradient: The size of tensor a (625) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3892 after training: 'dict' object has no attribute 'item'
+Processing test sample 3893/4200 (after training)
+Error processing test sample 3893 after training: list index out of range
+Processing test sample 3894/4200 (after training)
+Error in bert_gradient: The size of tensor a (579) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3894 after training: 'dict' object has no attribute 'item'
+Processing test sample 3895/4200 (after training)
+Error in bert_gradient: The size of tensor a (1864) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3895 after training: 'dict' object has no attribute 'item'
+Processing test sample 3896/4200 (after training)
+Error processing test sample 3896 after training: list index out of range
+Processing test sample 3897/4200 (after training)
+Error processing test sample 3897 after training: list index out of range
+Processing test sample 3898/4200 (after training)
+Error processing test sample 3898 after training: list index out of range
+Processing test sample 3899/4200 (after training)
+Error in bert_gradient: The size of tensor a (539) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3899 after training: 'dict' object has no attribute 'item'
+Processing test sample 3900/4200 (after training)
+Error processing test sample 3900 after training: list index out of range
+Processing test sample 3901/4200 (after training)
+Error in bert_gradient: The size of tensor a (2022) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3901 after training: 'dict' object has no attribute 'item'
+Processing test sample 3902/4200 (after training)
+Error in bert_gradient: The size of tensor a (772) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3902 after training: 'dict' object has no attribute 'item'
+Processing test sample 3903/4200 (after training)
+Error in bert_gradient: The size of tensor a (750) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3903 after training: 'dict' object has no attribute 'item'
+Processing test sample 3904/4200 (after training)
+Error in bert_gradient: The size of tensor a (610) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3904 after training: 'dict' object has no attribute 'item'
+Processing test sample 3905/4200 (after training)
+Error in bert_gradient: The size of tensor a (1441) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3905 after training: 'dict' object has no attribute 'item'
+Processing test sample 3906/4200 (after training)
+Error processing test sample 3906 after training: list index out of range
+Processing test sample 3907/4200 (after training)
+Error in bert_gradient: The size of tensor a (1347) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3907 after training: 'dict' object has no attribute 'item'
+Processing test sample 3908/4200 (after training)
+Error processing test sample 3908 after training: list index out of range
+Processing test sample 3909/4200 (after training)
+Error processing test sample 3909 after training: list index out of range
+Processing test sample 3910/4200 (after training)
+Error processing test sample 3910 after training: list index out of range
+Processing test sample 3911/4200 (after training)
+Error processing test sample 3911 after training: list index out of range
+Processing test sample 3912/4200 (after training)
+Error in bert_gradient: The size of tensor a (710) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3912 after training: 'dict' object has no attribute 'item'
+Processing test sample 3913/4200 (after training)
+Error processing test sample 3913 after training: list index out of range
+Processing test sample 3914/4200 (after training)
+Error processing test sample 3914 after training: list index out of range
+Processing test sample 3915/4200 (after training)
+Error processing test sample 3915 after training: list index out of range
+Processing test sample 3916/4200 (after training)
+Error processing test sample 3916 after training: list index out of range
+Processing test sample 3917/4200 (after training)
+Error processing test sample 3917 after training: list index out of range
+Processing test sample 3918/4200 (after training)
+Error in bert_gradient: The size of tensor a (1572) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3918 after training: 'dict' object has no attribute 'item'
+Processing test sample 3919/4200 (after training)
+Error in bert_gradient: The size of tensor a (587) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3919 after training: 'dict' object has no attribute 'item'
+Processing test sample 3920/4200 (after training)
+Error processing test sample 3920 after training: list index out of range
+Processing test sample 3921/4200 (after training)
+Error processing test sample 3921 after training: list index out of range
+Processing test sample 3922/4200 (after training)
+Error in bert_gradient: The size of tensor a (1181) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3922 after training: 'dict' object has no attribute 'item'
+Processing test sample 3923/4200 (after training)
+Error in bert_gradient: The size of tensor a (559) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3923 after training: 'dict' object has no attribute 'item'
+Processing test sample 3924/4200 (after training)
+Error processing test sample 3924 after training: list index out of range
+Processing test sample 3925/4200 (after training)
+Error processing test sample 3925 after training: list index out of range
+Processing test sample 3926/4200 (after training)
+Error processing test sample 3926 after training: list index out of range
+Processing test sample 3927/4200 (after training)
+Error in bert_gradient: The size of tensor a (735) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3927 after training: 'dict' object has no attribute 'item'
+Processing test sample 3928/4200 (after training)
+Error processing test sample 3928 after training: list index out of range
+Processing test sample 3929/4200 (after training)
+Error in bert_gradient: The size of tensor a (746) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3929 after training: 'dict' object has no attribute 'item'
+Processing test sample 3930/4200 (after training)
+Error processing test sample 3930 after training: list index out of range
+Processing test sample 3931/4200 (after training)
+Error in bert_gradient: The size of tensor a (3179) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3931 after training: 'dict' object has no attribute 'item'
+Processing test sample 3932/4200 (after training)
+Error in bert_gradient: The size of tensor a (2588) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3932 after training: 'dict' object has no attribute 'item'
+Processing test sample 3933/4200 (after training)
+Error processing test sample 3933 after training: list index out of range
+Processing test sample 3934/4200 (after training)
+Error processing test sample 3934 after training: list index out of range
+Processing test sample 3935/4200 (after training)
+Error processing test sample 3935 after training: list index out of range
+Processing test sample 3936/4200 (after training)
+Error processing test sample 3936 after training: list index out of range
+Processing test sample 3937/4200 (after training)
+Error processing test sample 3937 after training: list index out of range
+Processing test sample 3938/4200 (after training)
+Error in bert_gradient: The size of tensor a (1887) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3938 after training: 'dict' object has no attribute 'item'
+Processing test sample 3939/4200 (after training)
+Error processing test sample 3939 after training: list index out of range
+Processing test sample 3940/4200 (after training)
+Error processing test sample 3940 after training: list index out of range
+Processing test sample 3941/4200 (after training)
+Error in bert_gradient: The size of tensor a (782) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3941 after training: 'dict' object has no attribute 'item'
+Processing test sample 3942/4200 (after training)
+Error processing test sample 3942 after training: list index out of range
+Processing test sample 3943/4200 (after training)
+Error processing test sample 3943 after training: list index out of range
+Processing test sample 3944/4200 (after training)
+Error in bert_gradient: The size of tensor a (1009) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3944 after training: 'dict' object has no attribute 'item'
+Processing test sample 3945/4200 (after training)
+Error processing test sample 3945 after training: list index out of range
+Processing test sample 3946/4200 (after training)
+Error processing test sample 3946 after training: list index out of range
+Processing test sample 3947/4200 (after training)
+Error in bert_gradient: The size of tensor a (1885) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3947 after training: 'dict' object has no attribute 'item'
+Processing test sample 3948/4200 (after training)
+Error in bert_gradient: The size of tensor a (768) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3948 after training: 'dict' object has no attribute 'item'
+Processing test sample 3949/4200 (after training)
+Error in bert_gradient: The size of tensor a (535) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3949 after training: 'dict' object has no attribute 'item'
+Processing test sample 3950/4200 (after training)
+Error in bert_gradient: The size of tensor a (816) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3950 after training: 'dict' object has no attribute 'item'
+Processing test sample 3951/4200 (after training)
+Error in bert_gradient: The size of tensor a (585) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3951 after training: 'dict' object has no attribute 'item'
+Processing test sample 3952/4200 (after training)
+Error processing test sample 3952 after training: list index out of range
+Processing test sample 3953/4200 (after training)
+Error in bert_gradient: The size of tensor a (547) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3953 after training: 'dict' object has no attribute 'item'
+Processing test sample 3954/4200 (after training)
+Error processing test sample 3954 after training: list index out of range
+Processing test sample 3955/4200 (after training)
+Error in bert_gradient: The size of tensor a (849) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3955 after training: 'dict' object has no attribute 'item'
+Processing test sample 3956/4200 (after training)
+Error processing test sample 3956 after training: list index out of range
+Processing test sample 3957/4200 (after training)
+Error processing test sample 3957 after training: list index out of range
+Processing test sample 3958/4200 (after training)
+Error in bert_gradient: The size of tensor a (879) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3958 after training: 'dict' object has no attribute 'item'
+Processing test sample 3959/4200 (after training)
+Error processing test sample 3959 after training: list index out of range
+Processing test sample 3960/4200 (after training)
+Error processing test sample 3960 after training: list index out of range
+Processing test sample 3961/4200 (after training)
+Error in bert_gradient: The size of tensor a (774) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3961 after training: 'dict' object has no attribute 'item'
+Processing test sample 3962/4200 (after training)
+Error processing test sample 3962 after training: list index out of range
+Processing test sample 3963/4200 (after training)
+Error processing test sample 3963 after training: list index out of range
+Processing test sample 3964/4200 (after training)
+Error processing test sample 3964 after training: list index out of range
+Processing test sample 3965/4200 (after training)
+Error processing test sample 3965 after training: list index out of range
+Processing test sample 3966/4200 (after training)
+Error in bert_gradient: The size of tensor a (903) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3966 after training: 'dict' object has no attribute 'item'
+Processing test sample 3967/4200 (after training)
+Error processing test sample 3967 after training: list index out of range
+Processing test sample 3968/4200 (after training)
+Error processing test sample 3968 after training: list index out of range
+Processing test sample 3969/4200 (after training)
+Error processing test sample 3969 after training: list index out of range
+Processing test sample 3970/4200 (after training)
+Error processing test sample 3970 after training: list index out of range
+Processing test sample 3971/4200 (after training)
+Error processing test sample 3971 after training: list index out of range
+Processing test sample 3972/4200 (after training)
+Error in bert_gradient: The size of tensor a (858) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3972 after training: 'dict' object has no attribute 'item'
+Processing test sample 3973/4200 (after training)
+Error processing test sample 3973 after training: list index out of range
+Processing test sample 3974/4200 (after training)
+Error processing test sample 3974 after training: list index out of range
+Processing test sample 3975/4200 (after training)
+Error in bert_gradient: The size of tensor a (1334) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3975 after training: 'dict' object has no attribute 'item'
+Processing test sample 3976/4200 (after training)
+Error in bert_gradient: The size of tensor a (681) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3976 after training: 'dict' object has no attribute 'item'
+Processing test sample 3977/4200 (after training)
+Error processing test sample 3977 after training: list index out of range
+Processing test sample 3978/4200 (after training)
+Error in bert_gradient: The size of tensor a (856) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3978 after training: 'dict' object has no attribute 'item'
+Processing test sample 3979/4200 (after training)
+Error processing test sample 3979 after training: list index out of range
+Processing test sample 3980/4200 (after training)
+Error processing test sample 3980 after training: list index out of range
+Processing test sample 3981/4200 (after training)
+Error in bert_gradient: The size of tensor a (3705) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3981 after training: 'dict' object has no attribute 'item'
+Processing test sample 3982/4200 (after training)
+Error processing test sample 3982 after training: list index out of range
+Processing test sample 3983/4200 (after training)
+Error processing test sample 3983 after training: list index out of range
+Processing test sample 3984/4200 (after training)
+Error in bert_gradient: The size of tensor a (571) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3984 after training: 'dict' object has no attribute 'item'
+Processing test sample 3985/4200 (after training)
+Error processing test sample 3985 after training: list index out of range
+Processing test sample 3986/4200 (after training)
+Error processing test sample 3986 after training: list index out of range
+Processing test sample 3987/4200 (after training)
+Error in bert_gradient: The size of tensor a (1730) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3987 after training: 'dict' object has no attribute 'item'
+Processing test sample 3988/4200 (after training)
+Error in bert_gradient: The size of tensor a (3397) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3988 after training: 'dict' object has no attribute 'item'
+Processing test sample 3989/4200 (after training)
+Error in bert_gradient: The size of tensor a (845) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3989 after training: 'dict' object has no attribute 'item'
+Processing test sample 3990/4200 (after training)
+Error processing test sample 3990 after training: list index out of range
+Processing test sample 3991/4200 (after training)
+Error in bert_gradient: The size of tensor a (918) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3991 after training: 'dict' object has no attribute 'item'
+Processing test sample 3992/4200 (after training)
+Error in bert_gradient: The size of tensor a (933) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3992 after training: 'dict' object has no attribute 'item'
+Processing test sample 3993/4200 (after training)
+Error processing test sample 3993 after training: list index out of range
+Processing test sample 3994/4200 (after training)
+Error processing test sample 3994 after training: list index out of range
+Processing test sample 3995/4200 (after training)
+Error processing test sample 3995 after training: list index out of range
+Processing test sample 3996/4200 (after training)
+Error processing test sample 3996 after training: list index out of range
+Processing test sample 3997/4200 (after training)
+Error processing test sample 3997 after training: list index out of range
+Processing test sample 3998/4200 (after training)
+Error processing test sample 3998 after training: list index out of range
+Processing test sample 3999/4200 (after training)
+Error processing test sample 3999 after training: list index out of range
+Processing test sample 4000/4200 (after training)
+Error in bert_gradient: The size of tensor a (952) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4000 after training: 'dict' object has no attribute 'item'
+Processing test sample 4001/4200 (after training)
+Error in bert_gradient: The size of tensor a (1065) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4001 after training: 'dict' object has no attribute 'item'
+Processing test sample 4002/4200 (after training)
+Error in bert_gradient: The size of tensor a (660) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4002 after training: 'dict' object has no attribute 'item'
+Processing test sample 4003/4200 (after training)
+Error processing test sample 4003 after training: list index out of range
+Processing test sample 4004/4200 (after training)
+Error processing test sample 4004 after training: list index out of range
+Processing test sample 4005/4200 (after training)
+Error processing test sample 4005 after training: list index out of range
+Processing test sample 4006/4200 (after training)
+Error processing test sample 4006 after training: list index out of range
+Processing test sample 4007/4200 (after training)
+Error processing test sample 4007 after training: list index out of range
+Processing test sample 4008/4200 (after training)
+Error in bert_gradient: The size of tensor a (1187) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4008 after training: 'dict' object has no attribute 'item'
+Processing test sample 4009/4200 (after training)
+Error processing test sample 4009 after training: list index out of range
+Processing test sample 4010/4200 (after training)
+Error processing test sample 4010 after training: list index out of range
+Processing test sample 4011/4200 (after training)
+Error in bert_gradient: The size of tensor a (678) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4011 after training: 'dict' object has no attribute 'item'
+Processing test sample 4012/4200 (after training)
+Error processing test sample 4012 after training: list index out of range
+Processing test sample 4013/4200 (after training)
+Error processing test sample 4013 after training: list index out of range
+Processing test sample 4014/4200 (after training)
+Error processing test sample 4014 after training: list index out of range
+Processing test sample 4015/4200 (after training)
+Error processing test sample 4015 after training: list index out of range
+Processing test sample 4016/4200 (after training)
+Error processing test sample 4016 after training: list index out of range
+Processing test sample 4017/4200 (after training)
+Error in bert_gradient: The size of tensor a (614) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4017 after training: 'dict' object has no attribute 'item'
+Processing test sample 4018/4200 (after training)
+Error in bert_gradient: The size of tensor a (2081) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4018 after training: 'dict' object has no attribute 'item'
+Processing test sample 4019/4200 (after training)
+Error processing test sample 4019 after training: list index out of range
+Processing test sample 4020/4200 (after training)
+Error in bert_gradient: The size of tensor a (1046) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4020 after training: 'dict' object has no attribute 'item'
+Processing test sample 4021/4200 (after training)
+Error processing test sample 4021 after training: list index out of range
+Processing test sample 4022/4200 (after training)
+Error in bert_gradient: The size of tensor a (583) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4022 after training: 'dict' object has no attribute 'item'
+Processing test sample 4023/4200 (after training)
+Error processing test sample 4023 after training: list index out of range
+Processing test sample 4024/4200 (after training)
+Error in bert_gradient: The size of tensor a (755) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4024 after training: 'dict' object has no attribute 'item'
+Processing test sample 4025/4200 (after training)
+Error processing test sample 4025 after training: list index out of range
+Processing test sample 4026/4200 (after training)
+Error processing test sample 4026 after training: list index out of range
+Processing test sample 4027/4200 (after training)
+Error processing test sample 4027 after training: list index out of range
+Processing test sample 4028/4200 (after training)
+Error in bert_gradient: The size of tensor a (1305) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4028 after training: 'dict' object has no attribute 'item'
+Processing test sample 4029/4200 (after training)
+Error in bert_gradient: The size of tensor a (6657) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4029 after training: 'dict' object has no attribute 'item'
+Processing test sample 4030/4200 (after training)
+Error processing test sample 4030 after training: list index out of range
+Processing test sample 4031/4200 (after training)
+Error processing test sample 4031 after training: list index out of range
+Processing test sample 4032/4200 (after training)
+Error processing test sample 4032 after training: list index out of range
+Processing test sample 4033/4200 (after training)
+Error in bert_gradient: The size of tensor a (1181) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4033 after training: 'dict' object has no attribute 'item'
+Processing test sample 4034/4200 (after training)
+Error processing test sample 4034 after training: list index out of range
+Processing test sample 4035/4200 (after training)
+Error in bert_gradient: The size of tensor a (897) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4035 after training: 'dict' object has no attribute 'item'
+Processing test sample 4036/4200 (after training)
+Error processing test sample 4036 after training: list index out of range
+Processing test sample 4037/4200 (after training)
+Error processing test sample 4037 after training: list index out of range
+Processing test sample 4038/4200 (after training)
+Error processing test sample 4038 after training: list index out of range
+Processing test sample 4039/4200 (after training)
+Error processing test sample 4039 after training: list index out of range
+Processing test sample 4040/4200 (after training)
+Error processing test sample 4040 after training: list index out of range
+Processing test sample 4041/4200 (after training)
+Error in bert_gradient: The size of tensor a (1009) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4041 after training: 'dict' object has no attribute 'item'
+Processing test sample 4042/4200 (after training)
+Error processing test sample 4042 after training: list index out of range
+Processing test sample 4043/4200 (after training)
+Error processing test sample 4043 after training: list index out of range
+Processing test sample 4044/4200 (after training)
+Error processing test sample 4044 after training: list index out of range
+Processing test sample 4045/4200 (after training)
+Error in bert_gradient: The size of tensor a (949) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4045 after training: 'dict' object has no attribute 'item'
+Processing test sample 4046/4200 (after training)
+Error processing test sample 4046 after training: list index out of range
+Processing test sample 4047/4200 (after training)
+Error in bert_gradient: The size of tensor a (1142) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4047 after training: 'dict' object has no attribute 'item'
+Processing test sample 4048/4200 (after training)
+Error processing test sample 4048 after training: list index out of range
+Processing test sample 4049/4200 (after training)
+Error processing test sample 4049 after training: list index out of range
+Processing test sample 4050/4200 (after training)
+Error processing test sample 4050 after training: list index out of range
+Processing test sample 4051/4200 (after training)
+Error processing test sample 4051 after training: list index out of range
+Processing test sample 4052/4200 (after training)
+Error processing test sample 4052 after training: list index out of range
+Processing test sample 4053/4200 (after training)
+Error processing test sample 4053 after training: list index out of range
+Processing test sample 4054/4200 (after training)
+Error in bert_gradient: The size of tensor a (1656) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4054 after training: 'dict' object has no attribute 'item'
+Processing test sample 4055/4200 (after training)
+Error processing test sample 4055 after training: list index out of range
+Processing test sample 4056/4200 (after training)
+Error processing test sample 4056 after training: list index out of range
+Processing test sample 4057/4200 (after training)
+Error processing test sample 4057 after training: list index out of range
+Processing test sample 4058/4200 (after training)
+Error in bert_gradient: The size of tensor a (821) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4058 after training: 'dict' object has no attribute 'item'
+Processing test sample 4059/4200 (after training)
+Error in bert_gradient: The size of tensor a (1026) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4059 after training: 'dict' object has no attribute 'item'
+Processing test sample 4060/4200 (after training)
+Error processing test sample 4060 after training: list index out of range
+Processing test sample 4061/4200 (after training)
+Error in bert_gradient: The size of tensor a (516) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4061 after training: 'dict' object has no attribute 'item'
+Processing test sample 4062/4200 (after training)
+Error processing test sample 4062 after training: list index out of range
+Processing test sample 4063/4200 (after training)
+Error processing test sample 4063 after training: list index out of range
+Processing test sample 4064/4200 (after training)
+Error processing test sample 4064 after training: list index out of range
+Processing test sample 4065/4200 (after training)
+Error in bert_gradient: The size of tensor a (550) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4065 after training: 'dict' object has no attribute 'item'
+Processing test sample 4066/4200 (after training)
+Error processing test sample 4066 after training: list index out of range
+Processing test sample 4067/4200 (after training)
+Error in bert_gradient: The size of tensor a (803) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4067 after training: 'dict' object has no attribute 'item'
+Processing test sample 4068/4200 (after training)
+Error in bert_gradient: The size of tensor a (1051) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4068 after training: 'dict' object has no attribute 'item'
+Processing test sample 4069/4200 (after training)
+Error processing test sample 4069 after training: list index out of range
+Processing test sample 4070/4200 (after training)
+Error processing test sample 4070 after training: list index out of range
+Processing test sample 4071/4200 (after training)
+Error processing test sample 4071 after training: list index out of range
+Processing test sample 4072/4200 (after training)
+Error in bert_gradient: The size of tensor a (754) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4072 after training: 'dict' object has no attribute 'item'
+Processing test sample 4073/4200 (after training)
+Error in bert_gradient: The size of tensor a (605) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4073 after training: 'dict' object has no attribute 'item'
+Processing test sample 4074/4200 (after training)
+Error processing test sample 4074 after training: list index out of range
+Processing test sample 4075/4200 (after training)
+Error processing test sample 4075 after training: list index out of range
+Processing test sample 4076/4200 (after training)
+Error processing test sample 4076 after training: list index out of range
+Processing test sample 4077/4200 (after training)
+Error in bert_gradient: The size of tensor a (1031) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4077 after training: 'dict' object has no attribute 'item'
+Processing test sample 4078/4200 (after training)
+Error processing test sample 4078 after training: list index out of range
+Processing test sample 4079/4200 (after training)
+Error processing test sample 4079 after training: list index out of range
+Processing test sample 4080/4200 (after training)
+Error processing test sample 4080 after training: list index out of range
+Processing test sample 4081/4200 (after training)
+Error in bert_gradient: The size of tensor a (824) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4081 after training: 'dict' object has no attribute 'item'
+Processing test sample 4082/4200 (after training)
+Error processing test sample 4082 after training: list index out of range
+Processing test sample 4083/4200 (after training)
+Error processing test sample 4083 after training: list index out of range
+Processing test sample 4084/4200 (after training)
+Error processing test sample 4084 after training: list index out of range
+Processing test sample 4085/4200 (after training)
+Error processing test sample 4085 after training: list index out of range
+Processing test sample 4086/4200 (after training)
+Error in bert_gradient: The size of tensor a (514) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4086 after training: 'dict' object has no attribute 'item'
+Processing test sample 4087/4200 (after training)
+Error processing test sample 4087 after training: list index out of range
+Processing test sample 4088/4200 (after training)
+Error processing test sample 4088 after training: list index out of range
+Processing test sample 4089/4200 (after training)
+Error processing test sample 4089 after training: list index out of range
+Processing test sample 4090/4200 (after training)
+Error in bert_gradient: The size of tensor a (977) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4090 after training: 'dict' object has no attribute 'item'
+Processing test sample 4091/4200 (after training)
+Error processing test sample 4091 after training: list index out of range
+Processing test sample 4092/4200 (after training)
+Error in bert_gradient: The size of tensor a (1198) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4092 after training: 'dict' object has no attribute 'item'
+Processing test sample 4093/4200 (after training)
+Error in bert_gradient: The size of tensor a (1529) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4093 after training: 'dict' object has no attribute 'item'
+Processing test sample 4094/4200 (after training)
+Error processing test sample 4094 after training: list index out of range
+Processing test sample 4095/4200 (after training)
+Error processing test sample 4095 after training: list index out of range
+Processing test sample 4096/4200 (after training)
+Error processing test sample 4096 after training: list index out of range
+Processing test sample 4097/4200 (after training)
+Error in bert_gradient: The size of tensor a (751) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4097 after training: 'dict' object has no attribute 'item'
+Processing test sample 4098/4200 (after training)
+Error processing test sample 4098 after training: list index out of range
+Processing test sample 4099/4200 (after training)
+Error processing test sample 4099 after training: list index out of range
+Processing test sample 4100/4200 (after training)
+Error in bert_gradient: The size of tensor a (603) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4100 after training: 'dict' object has no attribute 'item'
+Processing test sample 4101/4200 (after training)
+Error processing test sample 4101 after training: list index out of range
+Processing test sample 4102/4200 (after training)
+Error processing test sample 4102 after training: list index out of range
+Processing test sample 4103/4200 (after training)
+Error processing test sample 4103 after training: list index out of range
+Processing test sample 4104/4200 (after training)
+Error processing test sample 4104 after training: list index out of range
+Processing test sample 4105/4200 (after training)
+Error in bert_gradient: The size of tensor a (633) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4105 after training: 'dict' object has no attribute 'item'
+Processing test sample 4106/4200 (after training)
+Error processing test sample 4106 after training: list index out of range
+Processing test sample 4107/4200 (after training)
+Error in bert_gradient: The size of tensor a (1794) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4107 after training: 'dict' object has no attribute 'item'
+Processing test sample 4108/4200 (after training)
+Error processing test sample 4108 after training: list index out of range
+Processing test sample 4109/4200 (after training)
+Error processing test sample 4109 after training: list index out of range
+Processing test sample 4110/4200 (after training)
+Error processing test sample 4110 after training: list index out of range
+Processing test sample 4111/4200 (after training)
+Error processing test sample 4111 after training: list index out of range
+Processing test sample 4112/4200 (after training)
+Error processing test sample 4112 after training: list index out of range
+Processing test sample 4113/4200 (after training)
+Error in bert_gradient: The size of tensor a (2029) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4113 after training: 'dict' object has no attribute 'item'
+Processing test sample 4114/4200 (after training)
+Error in bert_gradient: The size of tensor a (1112) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4114 after training: 'dict' object has no attribute 'item'
+Processing test sample 4115/4200 (after training)
+Error processing test sample 4115 after training: list index out of range
+Processing test sample 4116/4200 (after training)
+Error processing test sample 4116 after training: list index out of range
+Processing test sample 4117/4200 (after training)
+Error processing test sample 4117 after training: list index out of range
+Processing test sample 4118/4200 (after training)
+Error in bert_gradient: The size of tensor a (625) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4118 after training: 'dict' object has no attribute 'item'
+Processing test sample 4119/4200 (after training)
+Error in bert_gradient: The size of tensor a (1697) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4119 after training: 'dict' object has no attribute 'item'
+Processing test sample 4120/4200 (after training)
+Error processing test sample 4120 after training: list index out of range
+Processing test sample 4121/4200 (after training)
+Error processing test sample 4121 after training: list index out of range
+Processing test sample 4122/4200 (after training)
+Error in bert_gradient: The size of tensor a (601) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4122 after training: 'dict' object has no attribute 'item'
+Processing test sample 4123/4200 (after training)
+Error in bert_gradient: The size of tensor a (1728) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4123 after training: 'dict' object has no attribute 'item'
+Processing test sample 4124/4200 (after training)
+Error processing test sample 4124 after training: list index out of range
+Processing test sample 4125/4200 (after training)
+Error processing test sample 4125 after training: list index out of range
+Processing test sample 4126/4200 (after training)
+Error in bert_gradient: The size of tensor a (636) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4126 after training: 'dict' object has no attribute 'item'
+Processing test sample 4127/4200 (after training)
+Error processing test sample 4127 after training: list index out of range
+Processing test sample 4128/4200 (after training)
+Error processing test sample 4128 after training: list index out of range
+Processing test sample 4129/4200 (after training)
+Error processing test sample 4129 after training: list index out of range
+Processing test sample 4130/4200 (after training)
+Error processing test sample 4130 after training: list index out of range
+Processing test sample 4131/4200 (after training)
+Error in bert_gradient: The size of tensor a (551) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4131 after training: 'dict' object has no attribute 'item'
+Processing test sample 4132/4200 (after training)
+Error processing test sample 4132 after training: list index out of range
+Processing test sample 4133/4200 (after training)
+Error processing test sample 4133 after training: list index out of range
+Processing test sample 4134/4200 (after training)
+Error processing test sample 4134 after training: list index out of range
+Processing test sample 4135/4200 (after training)
+Error in bert_gradient: The size of tensor a (888) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4135 after training: 'dict' object has no attribute 'item'
+Processing test sample 4136/4200 (after training)
+Error processing test sample 4136 after training: list index out of range
+Processing test sample 4137/4200 (after training)
+Error in bert_gradient: The size of tensor a (1107) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4137 after training: 'dict' object has no attribute 'item'
+Processing test sample 4138/4200 (after training)
+Error in bert_gradient: The size of tensor a (782) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4138 after training: 'dict' object has no attribute 'item'
+Processing test sample 4139/4200 (after training)
+Error processing test sample 4139 after training: list index out of range
+Processing test sample 4140/4200 (after training)
+Error processing test sample 4140 after training: list index out of range
+Processing test sample 4141/4200 (after training)
+Error in bert_gradient: The size of tensor a (545) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4141 after training: 'dict' object has no attribute 'item'
+Processing test sample 4142/4200 (after training)
+Error processing test sample 4142 after training: list index out of range
+Processing test sample 4143/4200 (after training)
+Error processing test sample 4143 after training: list index out of range
+Processing test sample 4144/4200 (after training)
+Error in bert_gradient: The size of tensor a (669) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4144 after training: 'dict' object has no attribute 'item'
+Processing test sample 4145/4200 (after training)
+Error in bert_gradient: The size of tensor a (968) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4145 after training: 'dict' object has no attribute 'item'
+Processing test sample 4146/4200 (after training)
+Error processing test sample 4146 after training: list index out of range
+Processing test sample 4147/4200 (after training)
+Error processing test sample 4147 after training: list index out of range
+Processing test sample 4148/4200 (after training)
+Error processing test sample 4148 after training: list index out of range
+Processing test sample 4149/4200 (after training)
+Error in bert_gradient: The size of tensor a (2979) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4149 after training: 'dict' object has no attribute 'item'
+Processing test sample 4150/4200 (after training)
+Error processing test sample 4150 after training: list index out of range
+Processing test sample 4151/4200 (after training)
+Error in bert_gradient: The size of tensor a (711) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4151 after training: 'dict' object has no attribute 'item'
+Processing test sample 4152/4200 (after training)
+Error processing test sample 4152 after training: list index out of range
+Processing test sample 4153/4200 (after training)
+Error processing test sample 4153 after training: list index out of range
+Processing test sample 4154/4200 (after training)
+Error in bert_gradient: The size of tensor a (1435) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4154 after training: 'dict' object has no attribute 'item'
+Processing test sample 4155/4200 (after training)
+Error in bert_gradient: The size of tensor a (1307) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4155 after training: 'dict' object has no attribute 'item'
+Processing test sample 4156/4200 (after training)
+Error in bert_gradient: The size of tensor a (931) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4156 after training: 'dict' object has no attribute 'item'
+Processing test sample 4157/4200 (after training)
+Error processing test sample 4157 after training: list index out of range
+Processing test sample 4158/4200 (after training)
+Error in bert_gradient: The size of tensor a (584) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4158 after training: 'dict' object has no attribute 'item'
+Processing test sample 4159/4200 (after training)
+Error in bert_gradient: The size of tensor a (546) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4159 after training: 'dict' object has no attribute 'item'
+Processing test sample 4160/4200 (after training)
+Error processing test sample 4160 after training: list index out of range
+Processing test sample 4161/4200 (after training)
+Error processing test sample 4161 after training: list index out of range
+Processing test sample 4162/4200 (after training)
+Error processing test sample 4162 after training: list index out of range
+Processing test sample 4163/4200 (after training)
+Error processing test sample 4163 after training: list index out of range
+Processing test sample 4164/4200 (after training)
+Error processing test sample 4164 after training: list index out of range
+Processing test sample 4165/4200 (after training)
+Error processing test sample 4165 after training: list index out of range
+Processing test sample 4166/4200 (after training)
+Error in bert_gradient: The size of tensor a (641) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4166 after training: 'dict' object has no attribute 'item'
+Processing test sample 4167/4200 (after training)
+Error processing test sample 4167 after training: list index out of range
+Processing test sample 4168/4200 (after training)
+Error processing test sample 4168 after training: list index out of range
+Processing test sample 4169/4200 (after training)
+Error in bert_gradient: The size of tensor a (677) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4169 after training: 'dict' object has no attribute 'item'
+Processing test sample 4170/4200 (after training)
+Error processing test sample 4170 after training: list index out of range
+Processing test sample 4171/4200 (after training)
+Error processing test sample 4171 after training: list index out of range
+Processing test sample 4172/4200 (after training)
+Error in bert_gradient: The size of tensor a (616) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4172 after training: 'dict' object has no attribute 'item'
+Processing test sample 4173/4200 (after training)
+Error processing test sample 4173 after training: list index out of range
+Processing test sample 4174/4200 (after training)
+Error in bert_gradient: The size of tensor a (738) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4174 after training: 'dict' object has no attribute 'item'
+Processing test sample 4175/4200 (after training)
+Error processing test sample 4175 after training: list index out of range
+Processing test sample 4176/4200 (after training)
+Error processing test sample 4176 after training: list index out of range
+Processing test sample 4177/4200 (after training)
+Error processing test sample 4177 after training: list index out of range
+Processing test sample 4178/4200 (after training)
+Error in bert_gradient: The size of tensor a (696) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4178 after training: 'dict' object has no attribute 'item'
+Processing test sample 4179/4200 (after training)
+Error processing test sample 4179 after training: list index out of range
+Processing test sample 4180/4200 (after training)
+Error in bert_gradient: The size of tensor a (985) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4180 after training: 'dict' object has no attribute 'item'
+Processing test sample 4181/4200 (after training)
+Error processing test sample 4181 after training: list index out of range
+Processing test sample 4182/4200 (after training)
+Error processing test sample 4182 after training: list index out of range
+Processing test sample 4183/4200 (after training)
+Error processing test sample 4183 after training: list index out of range
+Processing test sample 4184/4200 (after training)
+Error processing test sample 4184 after training: list index out of range
+Processing test sample 4185/4200 (after training)
+Error in bert_gradient: The size of tensor a (553) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4185 after training: 'dict' object has no attribute 'item'
+Processing test sample 4186/4200 (after training)
+Error processing test sample 4186 after training: list index out of range
+Processing test sample 4187/4200 (after training)
+Error processing test sample 4187 after training: list index out of range
+Processing test sample 4188/4200 (after training)
+Error processing test sample 4188 after training: list index out of range
+Processing test sample 4189/4200 (after training)
+Error processing test sample 4189 after training: list index out of range
+Processing test sample 4190/4200 (after training)
+Error processing test sample 4190 after training: list index out of range
+Processing test sample 4191/4200 (after training)
+Error in bert_gradient: The size of tensor a (518) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4191 after training: 'dict' object has no attribute 'item'
+Processing test sample 4192/4200 (after training)
+Error in bert_gradient: The size of tensor a (1284) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4192 after training: 'dict' object has no attribute 'item'
+Processing test sample 4193/4200 (after training)
+Error processing test sample 4193 after training: list index out of range
+Processing test sample 4194/4200 (after training)
+Error processing test sample 4194 after training: list index out of range
+Processing test sample 4195/4200 (after training)
+Error in bert_gradient: The size of tensor a (892) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4195 after training: 'dict' object has no attribute 'item'
+Processing test sample 4196/4200 (after training)
+Error processing test sample 4196 after training: list index out of range
+Processing test sample 4197/4200 (after training)
+Error in bert_gradient: The size of tensor a (523) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4197 after training: 'dict' object has no attribute 'item'
+Processing test sample 4198/4200 (after training)
+Error in bert_gradient: The size of tensor a (1429) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 4198 after training: 'dict' object has no attribute 'item'
+Processing test sample 4199/4200 (after training)
+Error processing test sample 4199 after training: list index out of range
+Processing test sample 4200/4200 (after training)
+Error processing test sample 4200 after training: list index out of range
+
+Processing complete. Saved 2343 results. Failed: 4868
