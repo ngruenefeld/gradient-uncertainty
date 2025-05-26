@@ -1,0 +1,181 @@
+slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus12: error: Setting TMPDIR to /tmp
+Running job with commit: be23ac519b5ab1ea53d585ee7fe2235a558f94e5
+Running command: python -um scripts.bert "5978" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --dataset "finefineweb" --model "roberta" --epochs "10"
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 5978
+Key mode: keyfile
+Sample size: 0
+Normalize: False
+Counterfactual: identity
+Dataset: finefineweb
+Model: roberta
+Replacement probability: 1.0
+Epochs: 10
+Using full train dataset with 500 samples.
+Using full test dataset with 4200 samples.
+Loading model: roberta-base
+Using device: cuda
+Map:   0%|          | 0/500 [00:00<?, ? examples/s]Map: 100%|██████████| 500/500 [00:00<00:00, 2317.48 examples/s]Map: 100%|██████████| 500/500 [00:00<00:00, 2301.07 examples/s]
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:236: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Calculating uncertainties for 4200 test samples before training (counterfactual mode: identity)...
+Processing test sample 1/4200 (before training)
+Token indices sequence length is longer than the specified maximum sequence length for this model (621 > 512). Running this sequence through the model will result in indexing errors
+Error in bert_gradient: The expanded size of the tensor (621) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 621].  Tensor sizes: [1, 514]
+Error processing test sample 1 before training: 'dict' object has no attribute 'item'
+Processing test sample 2/4200 (before training)
+Processing test sample 3/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (2032) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 2032].  Tensor sizes: [1, 514]
+Error processing test sample 3 before training: 'dict' object has no attribute 'item'
+Processing test sample 4/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1552) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1552].  Tensor sizes: [1, 514]
+Error processing test sample 4 before training: 'dict' object has no attribute 'item'
+Processing test sample 5/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (721) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 721].  Tensor sizes: [1, 514]
+Error processing test sample 5 before training: 'dict' object has no attribute 'item'
+Processing test sample 6/4200 (before training)
+Processing test sample 7/4200 (before training)
+Processing test sample 8/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (4414) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 4414].  Tensor sizes: [1, 514]
+Error processing test sample 8 before training: 'dict' object has no attribute 'item'
+Processing test sample 9/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1139) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1139].  Tensor sizes: [1, 514]
+Error processing test sample 9 before training: 'dict' object has no attribute 'item'
+Processing test sample 10/4200 (before training)
+Processing test sample 11/4200 (before training)
+Processing test sample 12/4200 (before training)
+Processing test sample 13/4200 (before training)
+Processing test sample 14/4200 (before training)
+Processing test sample 15/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (532) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 532].  Tensor sizes: [1, 514]
+Error processing test sample 15 before training: 'dict' object has no attribute 'item'
+Processing test sample 16/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (4188) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 4188].  Tensor sizes: [1, 514]
+Error processing test sample 16 before training: 'dict' object has no attribute 'item'
+Processing test sample 17/4200 (before training)
+Processing test sample 18/4200 (before training)
+Processing test sample 19/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (536) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 536].  Tensor sizes: [1, 514]
+Error processing test sample 19 before training: 'dict' object has no attribute 'item'
+Processing test sample 20/4200 (before training)
+Processing test sample 21/4200 (before training)
+Processing test sample 22/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (894) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 894].  Tensor sizes: [1, 514]
+Error processing test sample 22 before training: 'dict' object has no attribute 'item'
+Processing test sample 23/4200 (before training)
+Processing test sample 24/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (2144) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 2144].  Tensor sizes: [1, 514]
+Error processing test sample 24 before training: 'dict' object has no attribute 'item'
+Processing test sample 25/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1170) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1170].  Tensor sizes: [1, 514]
+Error processing test sample 25 before training: 'dict' object has no attribute 'item'
+Processing test sample 26/4200 (before training)
+Processing test sample 27/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1329) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1329].  Tensor sizes: [1, 514]
+Error processing test sample 27 before training: 'dict' object has no attribute 'item'
+Processing test sample 28/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (903) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 903].  Tensor sizes: [1, 514]
+Error processing test sample 28 before training: 'dict' object has no attribute 'item'
+Processing test sample 29/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (2308) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 2308].  Tensor sizes: [1, 514]
+Error processing test sample 29 before training: 'dict' object has no attribute 'item'
+Processing test sample 30/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1426) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1426].  Tensor sizes: [1, 514]
+Error processing test sample 30 before training: 'dict' object has no attribute 'item'
+Processing test sample 31/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (994) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 994].  Tensor sizes: [1, 514]
+Error processing test sample 31 before training: 'dict' object has no attribute 'item'
+Processing test sample 32/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (557) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 557].  Tensor sizes: [1, 514]
+Error processing test sample 32 before training: 'dict' object has no attribute 'item'
+Processing test sample 33/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1380) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1380].  Tensor sizes: [1, 514]
+Error processing test sample 33 before training: 'dict' object has no attribute 'item'
+Processing test sample 34/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1163) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1163].  Tensor sizes: [1, 514]
+Error processing test sample 34 before training: 'dict' object has no attribute 'item'
+Processing test sample 35/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (649) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 649].  Tensor sizes: [1, 514]
+Error processing test sample 35 before training: 'dict' object has no attribute 'item'
+Processing test sample 36/4200 (before training)
+Processing test sample 37/4200 (before training)
+Processing test sample 38/4200 (before training)
+Processing test sample 39/4200 (before training)
+Processing test sample 40/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (730) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 730].  Tensor sizes: [1, 514]
+Error processing test sample 40 before training: 'dict' object has no attribute 'item'
+Processing test sample 41/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (778) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 778].  Tensor sizes: [1, 514]
+Error processing test sample 41 before training: 'dict' object has no attribute 'item'
+Processing test sample 42/4200 (before training)
+Processing test sample 43/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1676) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1676].  Tensor sizes: [1, 514]
+Error processing test sample 43 before training: 'dict' object has no attribute 'item'
+Processing test sample 44/4200 (before training)
+Processing test sample 45/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (866) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 866].  Tensor sizes: [1, 514]
+Error processing test sample 45 before training: 'dict' object has no attribute 'item'
+Processing test sample 46/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (842) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 842].  Tensor sizes: [1, 514]
+Error processing test sample 46 before training: 'dict' object has no attribute 'item'
+Processing test sample 47/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (631) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 631].  Tensor sizes: [1, 514]
+Error processing test sample 47 before training: 'dict' object has no attribute 'item'
+Processing test sample 48/4200 (before training)
+Processing test sample 49/4200 (before training)
+Processing test sample 50/4200 (before training)
+Processing test sample 51/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (556) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 556].  Tensor sizes: [1, 514]
+Error processing test sample 51 before training: 'dict' object has no attribute 'item'
+Processing test sample 52/4200 (before training)
+Processing test sample 53/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (3850) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 3850].  Tensor sizes: [1, 514]
+Error processing test sample 53 before training: 'dict' object has no attribute 'item'
+Processing test sample 54/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1449) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1449].  Tensor sizes: [1, 514]
+Error processing test sample 54 before training: 'dict' object has no attribute 'item'
+Processing test sample 55/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (5704) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 5704].  Tensor sizes: [1, 514]
+Error processing test sample 55 before training: 'dict' object has no attribute 'item'
+Processing test sample 56/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (665) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 665].  Tensor sizes: [1, 514]
+Error processing test sample 56 before training: 'dict' object has no attribute 'item'
+Processing test sample 57/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (11671) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 11671].  Tensor sizes: [1, 514]
+Error processing test sample 57 before training: 'dict' object has no attribute 'item'
+Processing test sample 58/4200 (before training)
+Processing test sample 59/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1092) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1092].  Tensor sizes: [1, 514]
+Error processing test sample 59 before training: 'dict' object has no attribute 'item'
+Processing test sample 60/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (728) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 728].  Tensor sizes: [1, 514]
+Error processing test sample 60 before training: 'dict' object has no attribute 'item'
+Processing test sample 61/4200 (before training)
+Processing test sample 62/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1962) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1962].  Tensor sizes: [1, 514]
+Error processing test sample 62 before training: 'dict' object has no attribute 'item'
+Processing test sample 63/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (774) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 774].  Tensor sizes: [1, 514]
+Error processing test sample 63 before training: 'dict' object has no attribute 'item'
+Processing test sample 64/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1307) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1307].  Tensor sizes: [1, 514]
+Error processing test sample 64 before training: 'dict' object has no attribute 'item'
+Processing test sample 65/4200 (before training)
+Processing test sample 66/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1254) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1254].  Tensor sizes: [1, 514]
+Error processing test sample 66 before training: 'dict' object has no attribute 'item'
+Processing test sample 67/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1504) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1504].  Tensor sizes: [1, 514]
+Error processing test sample 67 before training: 'dict' object has no attribute 'item'
+Processing test sample 68/4200 (before training)
+Processing test sample 69/4200 (before training)
+Processing test sample 70/4200 (before training)
+Processing test sample 71/4200 (before training)
+Processing test sample 72/4200 (before training)
+Error in bert_gradient: The expanded size of the tensor (1279) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1279].  Tensor sizes: [1, 514]

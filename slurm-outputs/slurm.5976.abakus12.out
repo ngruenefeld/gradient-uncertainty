@@ -71,3 +71,5 @@ huggingface_hub.errors.HfHubHTTPError: 429 Client Error: Too Many Requests for u
  7 files changed, 804 insertions(+)
  create mode 100644 slurm-outputs/slurm.5975.abakus11.out
  create mode 100644 slurm-outputs/slurm.5976.abakus12.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   3ee20ba..d0f0e67  main -> main
