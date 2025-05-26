@@ -67,3 +67,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/utils/_http.py", line 482, in hf_raise_for_status
     raise _format(HfHubHTTPError, str(e), response) from e
 huggingface_hub.errors.HfHubHTTPError: 429 Client Error: Too Many Requests for url: https://huggingface.co/api/datasets/m-a-p/FineFineWeb-validation/revision/81d5073ae6d2ea0694918f785aae5b5105733da1
+[main efb55b6] BERT Script Results for Run 5970 (Model: bert, Dataset: finefineweb, Epochs: 10, Commit: 7d28a77)
+ 2 files changed, 136 insertions(+)
+ create mode 100644 slurm-outputs/slurm.5970.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   7d28a77..efb55b6  main -> main
