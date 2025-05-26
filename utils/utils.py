@@ -300,6 +300,79 @@ def load_bert_dataset_dicts(choice="ag_news"):
 
         return data
 
+    elif choice == "finefineweb":
+        dataset = load_dataset(
+            "m-a-p/FineFineWeb-validation", streaming=True, split="train"
+        )
+
+        per_label_sample_size = 1000
+        train_label = "psychology"
+
+        labels = [
+            "medical",
+            "aerospace",
+            "biology",
+            "celebrity",
+            "finance",
+            "law",
+            "mathematics",
+            "news",
+            "sports",
+            "psychology",
+        ]
+
+        count = 0
+
+        test_data = {
+            label: {
+                "text": [],
+                "label": [],
+                "origin": [],
+            }
+            for label in labels
+        }
+
+        train_data = {
+            "text": [],
+            "label": [],
+            "origin": [],
+        }
+
+        full_sample_size = len(labels) * (per_label_sample_size + 1)
+
+        count = 0
+
+        for example in dataset:
+            if count >= full_sample_size:
+                break
+            cur_label = example["domain"]
+            if cur_label not in labels:
+                continue
+            if cur_label == train_label:
+                if len(train_data["text"]) < per_label_sample_size:
+                    train_data["text"].append(example["text"])
+                    train_data["label"].append(cur_label)
+                    train_data["origin"].append("FineFineWeb")
+                    count += 1
+                elif len(test_data[cur_label]["text"]) < per_label_sample_size:
+                    test_data[cur_label]["text"].append(example["text"])
+                    test_data[cur_label]["label"].append(cur_label)
+                    test_data[cur_label]["origin"].append("FineFineWeb")
+                    count += 1
+            elif len(test_data[cur_label]["text"]) < per_label_sample_size:
+                test_data[cur_label]["text"].append(example["text"])
+                test_data[cur_label]["label"].append(cur_label)
+                test_data[cur_label]["origin"].append("FineFineWeb")
+                count += 1
+
+        full_test_data = {"text": [], "label": [], "origin": []}
+        for label in test_data:
+            full_test_data["text"].extend(test_data[label]["text"])
+            full_test_data["label"].extend(test_data[label]["label"])
+            full_test_data["origin"].extend(test_data[label]["origin"])
+
+        return train_data, full_test_data
+
     else:
         raise ValueError(f"Dataset {choice} not supported.")
 
@@ -398,6 +471,11 @@ def load_bert_datasets(choice="ag_news"):
         return Dataset.from_dict(filtered_train_data), Dataset.from_dict(
             scienceqa_test_data
         )
+
+    elif choice == "finefineweb":
+        train_data, test_data = load_bert_dataset_dicts("finefineweb")
+
+        return Dataset.from_dict(train_data), Dataset.from_dict(test_data)
 
     else:
         raise ValueError(f"Dataset {choice} not supported.")
