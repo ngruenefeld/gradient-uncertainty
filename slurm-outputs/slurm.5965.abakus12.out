@@ -1,0 +1,4 @@
+slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus12: error: Setting TMPDIR to /tmp
+Running job with commit: 382f9b382922638f82766e11fe3bec4a5e3c237d
+Running command: python -um scripts.bert "5965" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --counterfactual "random" --dataset "finefineweb" --epochs "10"

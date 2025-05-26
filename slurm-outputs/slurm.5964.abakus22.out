@@ -1,0 +1,19 @@
+slurmstepd-abakus22: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus22: error: Setting TMPDIR to /tmp
+Running job with commit: 382f9b382922638f82766e11fe3bec4a5e3c237d
+Running command: python -um scripts.bert "5964" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --counterfactual "synonym" --dataset "finefineweb" --epochs "10"
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 5964
+Key mode: keyfile
+Sample size: 0
+Normalize: False
+Counterfactual: synonym
+Dataset: finefineweb
+Model: bert
+Replacement probability: 1.0
+Epochs: 10
