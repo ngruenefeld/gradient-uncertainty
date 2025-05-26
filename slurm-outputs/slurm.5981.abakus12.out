@@ -17019,3 +17019,8 @@ Processing test sample 4200/4200 (after training)
 Error processing test sample 4200 after training: list index out of range
 
 Processing complete. Saved 2343 results. Failed: 4868
+[main 84f4276] BERT Script Results for Run 5981 (Model: electra, Dataset: finefineweb, Epochs: 10, Commit: 2dec237)
+ 5 files changed, 5426 insertions(+)
+ create mode 100644 data/full/electra_results_5981_ds-finefineweb.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   b760444..84f4276  main -> main
