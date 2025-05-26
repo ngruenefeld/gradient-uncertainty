@@ -35406,3 +35406,10 @@ CUDA kernel errors might be asynchronously reported at some other API call, so t
 For debugging consider passing CUDA_LAUNCH_BLOCKING=1
 Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 
+[main 32627d4] BERT Script Results for Run 5931 (Model: roberta, Dataset: finefineweb, Epochs: 10, Commit: 387ea42)
+ 8 files changed, 44514 insertions(+), 3 deletions(-)
+ create mode 100644 slurm-outputs/slurm.5931.abakus12.out
+ create mode 100644 slurm-outputs/slurm.5932.abakus21.out
+ create mode 100644 slurm-outputs/slurm.5933.abakus22.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   387ea42..32627d4  main -> main
