@@ -677,3 +677,7 @@ Processing test sample 321/322 (after training)
 Processing test sample 322/322 (after training)
 
 Processing complete. Saved 322 results. Failed: 0
+[main 85a3780] LLM Script Results for Run 5032 (Model: gpt2, Dataset: mmlu, Quantization: 0bit, Commit: 3c678c3)
+ 1 file changed, 133 insertions(+)
+To github.com:ngruenefeld/gradient-uncertainty.git
+   26c264d..85a3780  main -> main
