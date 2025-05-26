@@ -18421,3 +18421,7 @@ CUDA kernel errors might be asynchronously reported at some other API call, so t
 For debugging consider passing CUDA_LAUNCH_BLOCKING=1
 Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 
+[main 2dec237] BERT Script Results for Run 5978 (Model: roberta, Dataset: finefineweb, Epochs: 10, Commit: be23ac5)
+ 3 files changed, 14587 insertions(+)
+To github.com:ngruenefeld/gradient-uncertainty.git
+   099fab6..2dec237  main -> main
