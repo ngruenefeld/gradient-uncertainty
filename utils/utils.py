@@ -305,7 +305,7 @@ def load_bert_dataset_dicts(choice="ag_news"):
             "m-a-p/FineFineWeb-validation", streaming=True, split="train"
         )
 
-        per_label_sample_size = 1000
+        per_label_sample_size = 500
         train_label = "psychology"
 
         labels = [
