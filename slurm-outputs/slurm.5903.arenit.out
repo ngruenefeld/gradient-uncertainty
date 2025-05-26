@@ -15420,3 +15420,8 @@ Processing test sample 7599/7600 (after training)
 Processing test sample 7600/7600 (after training)
 
 Processing complete. Saved 7600 results. Failed: 0
+[main 265e224] BERT Script Results for Run 5903 (Model: electra, Dataset: ag_news, Epochs: 10, Commit: 4f38b32)
+ 4 files changed, 2824 insertions(+), 1 deletion(-)
+ create mode 100644 data/full/electra_results_5903_ds-ag_news.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   71954f7..265e224  main -> main
