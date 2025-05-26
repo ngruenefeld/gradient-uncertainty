@@ -15425,3 +15425,8 @@ Processing test sample 7599/7600 (after training)
 Processing test sample 7600/7600 (after training)
 
 Processing complete. Saved 7600 results. Failed: 0
+[main 9282108] BERT Script Results for Run 5919 (Model: bert, Dataset: ag_news, Epochs: 10, Commit: 265e224)
+ 5 files changed, 521 insertions(+), 2 deletions(-)
+ create mode 100644 data/full/bert_results_5919_cf-random_ds-ag_news.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   7f724dd..9282108  main -> main
