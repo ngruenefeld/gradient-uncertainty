@@ -301,11 +301,14 @@ def load_bert_dataset_dicts(choice="ag_news"):
         return data
 
     elif choice == "finefineweb":
-        dataset = load_dataset(
+        val_dataset = load_dataset(
             "m-a-p/FineFineWeb-validation", streaming=True, split="train"
         )
+        test_dataset = load_dataset(
+            "m-a-p/FineFineWeb-test", streaming=True, split="train"
+        )
 
-        per_label_sample_size = 500
+        per_label_sample_size = 1000
         train_label = "psychology"
 
         labels = [
@@ -338,28 +341,17 @@ def load_bert_dataset_dicts(choice="ag_news"):
             "origin": [],
         }
 
-        full_sample_size = len(labels) * (per_label_sample_size + 1)
+        full_test_sample_size = len(labels) * (per_label_sample_size)
 
         count = 0
 
-        for example in dataset:
-            if count >= full_sample_size:
+        for example in val_dataset:
+            if count >= full_test_sample_size:
                 break
             cur_label = example["domain"]
             if cur_label not in labels:
                 continue
-            if cur_label == train_label:
-                if len(train_data["text"]) < per_label_sample_size:
-                    train_data["text"].append(example["text"])
-                    train_data["label"].append(cur_label)
-                    train_data["origin"].append("FineFineWeb")
-                    count += 1
-                elif len(test_data[cur_label]["text"]) < per_label_sample_size:
-                    test_data[cur_label]["text"].append(example["text"])
-                    test_data[cur_label]["label"].append(cur_label)
-                    test_data[cur_label]["origin"].append("FineFineWeb")
-                    count += 1
-            elif len(test_data[cur_label]["text"]) < per_label_sample_size:
+            if len(test_data[cur_label]["text"]) < per_label_sample_size:
                 test_data[cur_label]["text"].append(example["text"])
                 test_data[cur_label]["label"].append(cur_label)
                 test_data[cur_label]["origin"].append("FineFineWeb")
@@ -370,6 +362,16 @@ def load_bert_dataset_dicts(choice="ag_news"):
             full_test_data["text"].extend(test_data[label]["text"])
             full_test_data["label"].extend(test_data[label]["label"])
             full_test_data["origin"].extend(test_data[label]["origin"])
+
+        for example in test_dataset:
+            if len(train_data["text"]) >= per_label_sample_size:
+                break
+            cur_label = example["domain"]
+            if cur_label != train_label:
+                continue
+            train_data["text"].append(example["text"])
+            train_data["label"].append(cur_label)
+            train_data["origin"].append("FineFineWeb")
 
         return train_data, full_test_data
 
