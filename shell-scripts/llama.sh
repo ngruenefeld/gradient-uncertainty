@@ -18,6 +18,7 @@ DATASET="ag_news"  # Default dataset choice
 MODEL="gpt2"  # Default model choice
 REPLACEMENT_PROB=1.0  # Default replacement probability
 QUANTIZATION=0  # 0 = no quantization (default)
+EPOCHS=100  # Default epochs
 
 # Parse named arguments
 while [[ "$#" -gt 0 ]]; do
@@ -31,6 +32,7 @@ while [[ "$#" -gt 0 ]]; do
         --model=*) MODEL="${1#*=}";;
         --replacement_prob=*) REPLACEMENT_PROB="${1#*=}";;
         --quantization=*) QUANTIZATION="${1#*=}";;
+        --epochs=*) EPOCHS="${1#*=}";;
         *) echo "Unknown option: $1" ;;
     esac
     shift
@@ -70,6 +72,11 @@ if [ "$REPLACEMENT_PROB" != "1.0" ] && { [ "$COUNTERFACTUAL" = "synonym" ] || [ 
     CMD="$CMD --replacement_prob \"$REPLACEMENT_PROB\""
 fi
 
+# Add epochs parameter (only add if not default)
+if [ "$EPOCHS" != "100" ]; then
+    CMD="$CMD --epochs \"$EPOCHS\""
+fi
+
 # Run the command
 echo "Running command: $CMD"
 eval $CMD
@@ -77,5 +84,5 @@ eval $CMD
 # Deactivate and commit results
 deactivate
 git add .
-git commit -m "LLM Script Results for Run $SLURM_JOB_ID (Model: $MODEL, Dataset: $DATASET, Quantization: ${QUANTIZATION}bit, Commit: ${COMMIT_ID:0:7})"
+git commit -m "LLM Script Results for Run $SLURM_JOB_ID (Model: $MODEL, Dataset: $DATASET, Epochs: $EPOCHS, Quantization: ${QUANTIZATION}bit, Commit: ${COMMIT_ID:0:7})"
 git push

@@ -118,6 +118,7 @@ def main(args):
     dataset_choice = args.dataset
     model_name = args.model
     replacement_prob = args.replacement_prob
+    epochs = args.epochs
 
     print(f"Job number: {job_number}")
     print(f"Key mode: {key_mode}")
@@ -127,6 +128,7 @@ def main(args):
     print(f"Dataset: {dataset_choice}")
     print(f"Model: {model_name}")
     print(f"Replacement probability: {replacement_prob}")
+    print(f"Epochs: {epochs}")
 
     if key_mode == "keyfile":
         with open(os.path.expanduser(".hf_api_key"), "r") as f:
@@ -219,7 +221,7 @@ def main(args):
 
     training_args = TrainingArguments(
         output_dir=f"/tmp/bert_run_{job_number}",
-        num_train_epochs=3,
+        num_train_epochs=epochs,
         per_device_train_batch_size=16,
         per_device_eval_batch_size=16,
         eval_strategy="no",
@@ -355,6 +357,12 @@ if __name__ == "__main__":
         type=float,
         default=1.0,
         help="Probability of replacing tokens when using 'synonym' or 'random' counterfactual modes (default: 1.0)",
+    )
+    parser.add_argument(
+        "--epochs",
+        type=int,
+        default=100,
+        help="Number of training epochs (default: 100)",
     )
 
     args = parser.parse_args()

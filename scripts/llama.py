@@ -126,6 +126,7 @@ def main(args):
     model_name = args.model
     replacement_prob = args.replacement_prob
     quant_bits = args.quantization
+    epochs = args.epochs
 
     print(f"Job number: {job_number}")
     print(f"Key mode: {key_mode}")
@@ -138,6 +139,7 @@ def main(args):
     print(
         f"Quantization bits: {quant_bits if quant_bits > 0 else 'None (full precision)'}"
     )
+    print(f"Epochs: {epochs}")
 
     if key_mode == "keyfile":
         with open(os.path.expanduser(".hf_api_key"), "r") as f:
@@ -284,7 +286,7 @@ def main(args):
 
     training_args = TrainingArguments(
         output_dir=f"/tmp/llama_run_{job_number}",
-        num_train_epochs=1,  # Reduced for LLMs
+        num_train_epochs=epochs,
         per_device_train_batch_size=4,  # Smaller batch size for LLMs
         per_device_eval_batch_size=4,
         gradient_accumulation_steps=4,  # To maintain effective batch size
@@ -447,6 +449,12 @@ if __name__ == "__main__":
         default=0,
         choices=[0, 4, 8],
         help="Quantization precision: 0 (none/default), 4 (4-bit), or 8 (8-bit)",
+    )
+    parser.add_argument(
+        "--epochs",
+        type=int,
+        default=100,
+        help="Number of training epochs (default: 100)",
     )
 
     args = parser.parse_args()
