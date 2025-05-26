@@ -1,0 +1,20 @@
+slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus12: error: Setting TMPDIR to /tmp
+Running job with commit: 08accbc5ca52bed5d6922bc7a861663dcd067a17
+Running command: python -um scripts.bert "5949" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --dataset "finefineweb" --model "roberta" --epochs "10"
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 5949
+Key mode: keyfile
+Sample size: 0
+Normalize: False
+Counterfactual: identity
+Dataset: finefineweb
+Model: roberta
+Replacement probability: 1.0
+Epochs: 10
+slurmstepd-abakus12: error: *** JOB 5949 ON abakus12 CANCELLED AT 2025-05-26T23:11:08 ***
