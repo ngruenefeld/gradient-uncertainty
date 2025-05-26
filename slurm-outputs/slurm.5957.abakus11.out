@@ -1,0 +1,5 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 4740569ca123573b2f939cf5d3daa6b3b4fed55d
+Running command: python -um scripts.bert "5957" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --counterfactual "random" --dataset "finefineweb" --epochs "10"
+slurmstepd-abakus11: error: *** JOB 5957 ON abakus11 CANCELLED AT 2025-05-26T23:24:26 ***
