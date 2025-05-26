@@ -1227,3 +1227,254 @@ Processing test sample 591/4200 (before training)
 Error in bert_gradient: The size of tensor a (1048) must match the size of tensor b (512) at non-singleton dimension 1
 Error processing test sample 591 before training: 'dict' object has no attribute 'item'
 Processing test sample 592/4200 (before training)
+Processing test sample 593/4200 (before training)
+Processing test sample 594/4200 (before training)
+Processing test sample 595/4200 (before training)
+Processing test sample 596/4200 (before training)
+Error in bert_gradient: The size of tensor a (700) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 596 before training: 'dict' object has no attribute 'item'
+Processing test sample 597/4200 (before training)
+Processing test sample 598/4200 (before training)
+Processing test sample 599/4200 (before training)
+Processing test sample 600/4200 (before training)
+Processing test sample 601/4200 (before training)
+Error in bert_gradient: The size of tensor a (697) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 601 before training: 'dict' object has no attribute 'item'
+Processing test sample 602/4200 (before training)
+Error in bert_gradient: The size of tensor a (1332) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 602 before training: 'dict' object has no attribute 'item'
+Processing test sample 603/4200 (before training)
+Error in bert_gradient: The size of tensor a (809) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 603 before training: 'dict' object has no attribute 'item'
+Processing test sample 604/4200 (before training)
+Processing test sample 605/4200 (before training)
+Processing test sample 606/4200 (before training)
+Processing test sample 607/4200 (before training)
+Error in bert_gradient: The size of tensor a (549) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 607 before training: 'dict' object has no attribute 'item'
+Processing test sample 608/4200 (before training)
+Error in bert_gradient: The size of tensor a (1900) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 608 before training: 'dict' object has no attribute 'item'
+Processing test sample 609/4200 (before training)
+Error in bert_gradient: The size of tensor a (1142) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 609 before training: 'dict' object has no attribute 'item'
+Processing test sample 610/4200 (before training)
+Error in bert_gradient: The size of tensor a (1416) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 610 before training: 'dict' object has no attribute 'item'
+Processing test sample 611/4200 (before training)
+Processing test sample 612/4200 (before training)
+Processing test sample 613/4200 (before training)
+Error in bert_gradient: The size of tensor a (5122) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 613 before training: 'dict' object has no attribute 'item'
+Processing test sample 614/4200 (before training)
+Processing test sample 615/4200 (before training)
+Processing test sample 616/4200 (before training)
+Processing test sample 617/4200 (before training)
+Error in bert_gradient: The size of tensor a (535) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 617 before training: 'dict' object has no attribute 'item'
+Processing test sample 618/4200 (before training)
+Error in bert_gradient: The size of tensor a (1028) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 618 before training: 'dict' object has no attribute 'item'
+Processing test sample 619/4200 (before training)
+Processing test sample 620/4200 (before training)
+Error in bert_gradient: The size of tensor a (1507) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 620 before training: 'dict' object has no attribute 'item'
+Processing test sample 621/4200 (before training)
+Error in bert_gradient: The size of tensor a (553) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 621 before training: 'dict' object has no attribute 'item'
+Processing test sample 622/4200 (before training)
+Processing test sample 623/4200 (before training)
+Processing test sample 624/4200 (before training)
+Processing test sample 625/4200 (before training)
+Error in bert_gradient: The size of tensor a (8847) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 625 before training: 'dict' object has no attribute 'item'
+Processing test sample 626/4200 (before training)
+Error in bert_gradient: The size of tensor a (1688) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 626 before training: 'dict' object has no attribute 'item'
+Processing test sample 627/4200 (before training)
+Error in bert_gradient: The size of tensor a (981) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 627 before training: 'dict' object has no attribute 'item'
+Processing test sample 628/4200 (before training)
+Error in bert_gradient: The size of tensor a (609) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 628 before training: 'dict' object has no attribute 'item'
+Processing test sample 629/4200 (before training)
+Processing test sample 630/4200 (before training)
+Error in bert_gradient: The size of tensor a (3629) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 630 before training: 'dict' object has no attribute 'item'
+Processing test sample 631/4200 (before training)
+Error in bert_gradient: The size of tensor a (550) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 631 before training: 'dict' object has no attribute 'item'
+Processing test sample 632/4200 (before training)
+Error in bert_gradient: The size of tensor a (628) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 632 before training: 'dict' object has no attribute 'item'
+Processing test sample 633/4200 (before training)
+Processing test sample 634/4200 (before training)
+Processing test sample 635/4200 (before training)
+Error in bert_gradient: The size of tensor a (3384) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 635 before training: 'dict' object has no attribute 'item'
+Processing test sample 636/4200 (before training)
+Processing test sample 637/4200 (before training)
+Processing test sample 638/4200 (before training)
+Error in bert_gradient: The size of tensor a (4360) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 638 before training: 'dict' object has no attribute 'item'
+Processing test sample 639/4200 (before training)
+Processing test sample 640/4200 (before training)
+Processing test sample 641/4200 (before training)
+Processing test sample 642/4200 (before training)
+Error in bert_gradient: The size of tensor a (1383) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 642 before training: 'dict' object has no attribute 'item'
+Processing test sample 643/4200 (before training)
+Error in bert_gradient: The size of tensor a (1902) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 643 before training: 'dict' object has no attribute 'item'
+Processing test sample 644/4200 (before training)
+Error in bert_gradient: The size of tensor a (1337) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 644 before training: 'dict' object has no attribute 'item'
+Processing test sample 645/4200 (before training)
+Error in bert_gradient: The size of tensor a (741) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 645 before training: 'dict' object has no attribute 'item'
+Processing test sample 646/4200 (before training)
+Processing test sample 647/4200 (before training)
+Processing test sample 648/4200 (before training)
+Error in bert_gradient: The size of tensor a (1440) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 648 before training: 'dict' object has no attribute 'item'
+Processing test sample 649/4200 (before training)
+Processing test sample 650/4200 (before training)
+Processing test sample 651/4200 (before training)
+Error in bert_gradient: The size of tensor a (516) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 651 before training: 'dict' object has no attribute 'item'
+Processing test sample 652/4200 (before training)
+Error in bert_gradient: The size of tensor a (1200) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 652 before training: 'dict' object has no attribute 'item'
+Processing test sample 653/4200 (before training)
+Processing test sample 654/4200 (before training)
+Processing test sample 655/4200 (before training)
+Error in bert_gradient: The size of tensor a (1804) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 655 before training: 'dict' object has no attribute 'item'
+Processing test sample 656/4200 (before training)
+Error in bert_gradient: The size of tensor a (807) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 656 before training: 'dict' object has no attribute 'item'
+Processing test sample 657/4200 (before training)
+Processing test sample 658/4200 (before training)
+Processing test sample 659/4200 (before training)
+Processing test sample 660/4200 (before training)
+Error in bert_gradient: The size of tensor a (969) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 660 before training: 'dict' object has no attribute 'item'
+Processing test sample 661/4200 (before training)
+Error in bert_gradient: The size of tensor a (549) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 661 before training: 'dict' object has no attribute 'item'
+Processing test sample 662/4200 (before training)
+Processing test sample 663/4200 (before training)
+Processing test sample 664/4200 (before training)
+Processing test sample 665/4200 (before training)
+Error in bert_gradient: The size of tensor a (2116) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 665 before training: 'dict' object has no attribute 'item'
+Processing test sample 666/4200 (before training)
+Error in bert_gradient: The size of tensor a (1712) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 666 before training: 'dict' object has no attribute 'item'
+Processing test sample 667/4200 (before training)
+Error in bert_gradient: The size of tensor a (2059) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 667 before training: 'dict' object has no attribute 'item'
+Processing test sample 668/4200 (before training)
+Error in bert_gradient: The size of tensor a (657) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 668 before training: 'dict' object has no attribute 'item'
+Processing test sample 669/4200 (before training)
+Error in bert_gradient: The size of tensor a (822) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 669 before training: 'dict' object has no attribute 'item'
+Processing test sample 670/4200 (before training)
+Processing test sample 671/4200 (before training)
+Processing test sample 672/4200 (before training)
+Processing test sample 673/4200 (before training)
+Processing test sample 674/4200 (before training)
+Error in bert_gradient: The size of tensor a (959) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 674 before training: 'dict' object has no attribute 'item'
+Processing test sample 675/4200 (before training)
+Error in bert_gradient: The size of tensor a (933) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 675 before training: 'dict' object has no attribute 'item'
+Processing test sample 676/4200 (before training)
+Error in bert_gradient: The size of tensor a (588) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 676 before training: 'dict' object has no attribute 'item'
+Processing test sample 677/4200 (before training)
+Processing test sample 678/4200 (before training)
+Processing test sample 679/4200 (before training)
+Error in bert_gradient: The size of tensor a (540) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 679 before training: 'dict' object has no attribute 'item'
+Processing test sample 680/4200 (before training)
+Error in bert_gradient: The size of tensor a (2177) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 680 before training: 'dict' object has no attribute 'item'
+Processing test sample 681/4200 (before training)
+Processing test sample 682/4200 (before training)
+Error in bert_gradient: The size of tensor a (1654) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 682 before training: 'dict' object has no attribute 'item'
+Processing test sample 683/4200 (before training)
+Processing test sample 684/4200 (before training)
+Processing test sample 685/4200 (before training)
+Processing test sample 686/4200 (before training)
+Processing test sample 687/4200 (before training)
+Processing test sample 688/4200 (before training)
+Processing test sample 689/4200 (before training)
+Processing test sample 690/4200 (before training)
+Processing test sample 691/4200 (before training)
+Error in bert_gradient: The size of tensor a (625) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 691 before training: 'dict' object has no attribute 'item'
+Processing test sample 692/4200 (before training)
+Processing test sample 693/4200 (before training)
+Error in bert_gradient: The size of tensor a (994) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 693 before training: 'dict' object has no attribute 'item'
+Processing test sample 694/4200 (before training)
+Processing test sample 695/4200 (before training)
+Processing test sample 696/4200 (before training)
+Processing test sample 697/4200 (before training)
+Error in bert_gradient: The size of tensor a (1308) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 697 before training: 'dict' object has no attribute 'item'
+Processing test sample 698/4200 (before training)
+Error in bert_gradient: The size of tensor a (2640) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 698 before training: 'dict' object has no attribute 'item'
+Processing test sample 699/4200 (before training)
+Error in bert_gradient: The size of tensor a (893) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 699 before training: 'dict' object has no attribute 'item'
+Processing test sample 700/4200 (before training)
+Error in bert_gradient: The size of tensor a (1344) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 700 before training: 'dict' object has no attribute 'item'
+Processing test sample 701/4200 (before training)
+Error in bert_gradient: The size of tensor a (1863) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 701 before training: 'dict' object has no attribute 'item'
+Processing test sample 702/4200 (before training)
+Processing test sample 703/4200 (before training)
+Processing test sample 704/4200 (before training)
+Error in bert_gradient: The size of tensor a (772) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 704 before training: 'dict' object has no attribute 'item'
+Processing test sample 705/4200 (before training)
+Error in bert_gradient: The size of tensor a (2851) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 705 before training: 'dict' object has no attribute 'item'
+Processing test sample 706/4200 (before training)
+Error in bert_gradient: The size of tensor a (1154) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 706 before training: 'dict' object has no attribute 'item'
+Processing test sample 707/4200 (before training)
+Error in bert_gradient: The size of tensor a (4180) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 707 before training: 'dict' object has no attribute 'item'
+Processing test sample 708/4200 (before training)
+Processing test sample 709/4200 (before training)
+Error in bert_gradient: The size of tensor a (593) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 709 before training: 'dict' object has no attribute 'item'
+Processing test sample 710/4200 (before training)
+Error in bert_gradient: The size of tensor a (3238) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 710 before training: 'dict' object has no attribute 'item'
+Processing test sample 711/4200 (before training)
+Processing test sample 712/4200 (before training)
+Processing test sample 713/4200 (before training)
+Processing test sample 714/4200 (before training)
+Processing test sample 715/4200 (before training)
+Error in bert_gradient: The size of tensor a (979) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 715 before training: 'dict' object has no attribute 'item'
+Processing test sample 716/4200 (before training)
+Error in bert_gradient: The size of tensor a (1073) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 716 before training: 'dict' object has no attribute 'item'
+Processing test sample 717/4200 (before training)
+Error in bert_gradient: The size of tensor a (578) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 717 before training: 'dict' object has no attribute 'item'
+Processing test sample 718/4200 (before training)
+Processing test sample 719/4200 (before training)
+Processing test sample 720/4200 (before training)
+Error in bert_gradient: The size of tensor a (1065) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 720 before training: 'dict' object has no attribute 'item'
+Processing test sample 721/4200 (before training)
