@@ -17017,3 +17017,14 @@ Processing test sample 4200/4200 (after training)
 Error processing test sample 4200 after training: list index out of range
 
 Processing complete. Saved 2343 results. Failed: 4868
+[main 4f6315b] BERT Script Results for Run 5980 (Model: distilbert, Dataset: finefineweb, Epochs: 10, Commit: be23ac5)
+ 6 files changed, 26677 insertions(+), 1 deletion(-)
+ create mode 100644 data/full/distilbert_results_5980_ds-finefineweb.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:ngruenefeld/gradient-uncertainty.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
