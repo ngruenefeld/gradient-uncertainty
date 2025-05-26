@@ -46,3 +46,8 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/trainer.py", line 554, in __init__
     raise ValueError(
 ValueError: You cannot perform fine-tuning on purely quantized models. Please attach trainable adapters on top of the quantized model to correctly perform fine-tuning. Please see: https://huggingface.co/docs/transformers/peft for more details
+[main 935877a] LLM Script Results for Run 5026 (Model: llama-3-8b, Dataset: mmlu, Quantization: 4bit, Commit: f5cb3c2)
+ 6 files changed, 16067 insertions(+), 1 deletion(-)
+ create mode 100644 slurm-outputs/slurm.5026.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   f5cb3c2..935877a  main -> main
