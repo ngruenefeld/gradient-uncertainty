@@ -1,0 +1,48 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: f5cb3c204a844cd7d63ebca9a5b49d63bbfc7d38
+Running command: python -um scripts.llama "5026" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --quantization 4 --dataset "mmlu" --model "llama-3-8b"
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 5026
+Key mode: keyfile
+Sample size: 0
+Normalize: False
+Counterfactual: identity
+Dataset: mmlu
+Model: llama-3-8b
+Replacement probability: 1.0
+Quantization bits: 4
+Epochs: 100
+Using full train dataset with 11 samples.
+Using full test dataset with 322 samples.
+Loading model: meta-llama/Meta-Llama-3-8B
+Loading model in 4-bit precision to reduce memory usage
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Downloading shards:  25%|██▌       | 1/4 [01:50<05:30, 110.17s/it]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Downloading shards:  50%|█████     | 2/4 [03:38<03:38, 109.34s/it]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Downloading shards:  75%|███████▌  | 3/4 [05:37<01:53, 113.56s/it]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Downloading shards: 100%|██████████| 4/4 [06:04<00:00, 79.22s/it] Downloading shards: 100%|██████████| 4/4 [06:04<00:00, 91.02s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:45<02:15, 45.32s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:30<01:30, 45.32s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [02:15<00:44, 44.97s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:25<00:00, 31.40s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:25<00:00, 36.45s/it]
+Using device: cuda
+Map:   0%|          | 0/11 [00:00<?, ? examples/s]Map: 100%|██████████| 11/11 [00:00<00:00, 832.97 examples/s]
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/llama.py:306: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/llama.py", line 462, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/llama.py", line 306, in main
+    trainer = Trainer(
+              ^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/utils/deprecation.py", line 165, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/trainer.py", line 554, in __init__
+    raise ValueError(
+ValueError: You cannot perform fine-tuning on purely quantized models. Please attach trainable adapters on top of the quantized model to correctly perform fine-tuning. Please see: https://huggingface.co/docs/transformers/peft for more details
