@@ -237,34 +237,6 @@ def load_bert_dataset_dicts(choice="ag_news"):
 
         return data
 
-    elif choice == "mmlu":
-        cs_dataset = load_dataset("tasksource/mmlu", "computer_security")
-        phil_dataset = load_dataset("tasksource/mmlu", "philosophy")
-
-        cs_dataset_val = cs_dataset["validation"]
-        cs_dataset_test = cs_dataset["validation"]
-        phil_dataset = phil_dataset["test"]
-
-        cs_data_val = {
-            "text": cs_dataset_val["question"],
-            "origin": ["mmlu"] * len(cs_dataset_val["question"]),
-            "label": ["Computer Security"] * len(cs_dataset_val["question"]),
-        }
-
-        cs_data_test = {
-            "text": cs_dataset_test["question"],
-            "origin": ["mmlu"] * len(cs_dataset_test["question"]),
-            "label": ["Computer Security"] * len(cs_dataset_test["question"]),
-        }
-
-        phil_data = {
-            "text": phil_dataset["question"],
-            "origin": ["mmlu"] * len(phil_dataset["question"]),
-            "label": ["Philosophy"] * len(phil_dataset["question"]),
-        }
-
-        return cs_data_val, cs_data_test, phil_data
-
     elif choice == "scienceqa":
         dataset = load_dataset("derek-thomas/ScienceQA")
 
@@ -373,6 +345,57 @@ def load_bert_dataset_dicts(choice="ag_news"):
 
         return train_data, full_test_data
 
+    elif choice == "mmlu":
+        labels = [
+            "professional_law",
+            "moral_scenarios",
+            "professional_psychology",
+            "high_school_macroeconomics",
+            "elementary_mathematics",
+            "prehistory",
+            "philosophy",
+            "high_school_biology",
+            "nutrition",
+            "professional_accounting",
+        ]
+
+        train_label = "professional_law"
+        train_sample_size = 1000
+
+        test_data = {
+            "text": [],
+            "label": [],
+            "origin": [],
+        }
+
+        train_data = {
+            "text": [],
+            "label": [],
+            "origin": [],
+        }
+
+        for label in labels:
+            dataset = load_dataset(
+                "tasksource/mmlu", label, split="test", streaming=True
+            )
+
+            for example in dataset:
+                if label == train_label:
+                    if len(train_data["text"]) < train_sample_size:
+                        train_data["text"].append(example["question"])
+                        train_data["label"].append(label)
+                        train_data["origin"].append("MMLU")
+                    else:
+                        test_data["text"].append(example["question"])
+                        test_data["label"].append(label)
+                        test_data["origin"].append("MMLU")
+                else:
+                    test_data["text"].append(example["question"])
+                    test_data["label"].append(label)
+                    test_data["origin"].append("MMLU")
+
+        return train_data, test_data
+
     else:
         raise ValueError(f"Dataset {choice} not supported.")
 
@@ -414,17 +437,6 @@ def load_bert_datasets(choice="ag_news"):
         return Dataset.from_dict(filtered_ag_train_data), Dataset.from_dict(
             combined_test
         )
-
-    elif choice == "mmlu":
-        cs_data_val, cs_data_test, phil_data = load_bert_dataset_dicts("mmlu")
-
-        combined_test = {
-            "text": cs_data_test["text"] + phil_data["text"],
-            "origin": cs_data_test["origin"] + phil_data["origin"],
-            "label": cs_data_test["label"] + phil_data["label"],
-        }
-
-        return Dataset.from_dict(cs_data_val), Dataset.from_dict(combined_test)
 
     elif choice == "scienceqa-legalqa":
         scienceqa_train_data, scienceqa_test_data = load_bert_dataset_dicts("scienceqa")
@@ -474,6 +486,11 @@ def load_bert_datasets(choice="ag_news"):
 
     elif choice == "finefineweb":
         train_data, test_data = load_bert_dataset_dicts("finefineweb")
+
+        return Dataset.from_dict(train_data), Dataset.from_dict(test_data)
+
+    elif choice == "mmlu":
+        train_data, test_data = load_bert_dataset_dicts("mmlu")
 
         return Dataset.from_dict(train_data), Dataset.from_dict(test_data)
 
