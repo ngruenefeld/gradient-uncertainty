@@ -3494,3 +3494,199 @@ Processing test sample 3345/3532 (before training)
 Processing test sample 3346/3532 (before training)
 Processing test sample 3347/3532 (before training)
 Processing test sample 3348/3532 (before training)
+Processing test sample 3349/3532 (before training)
+Processing test sample 3350/3532 (before training)
+Processing test sample 3351/3532 (before training)
+Processing test sample 3352/3532 (before training)
+Processing test sample 3353/3532 (before training)
+Processing test sample 3354/3532 (before training)
+Processing test sample 3355/3532 (before training)
+Processing test sample 3356/3532 (before training)
+Processing test sample 3357/3532 (before training)
+Processing test sample 3358/3532 (before training)
+Processing test sample 3359/3532 (before training)
+Processing test sample 3360/3532 (before training)
+Processing test sample 3361/3532 (before training)
+Processing test sample 3362/3532 (before training)
+Processing test sample 3363/3532 (before training)
+Processing test sample 3364/3532 (before training)
+Processing test sample 3365/3532 (before training)
+Processing test sample 3366/3532 (before training)
+Processing test sample 3367/3532 (before training)
+Processing test sample 3368/3532 (before training)
+Processing test sample 3369/3532 (before training)
+Processing test sample 3370/3532 (before training)
+Processing test sample 3371/3532 (before training)
+Processing test sample 3372/3532 (before training)
+Processing test sample 3373/3532 (before training)
+Processing test sample 3374/3532 (before training)
+Processing test sample 3375/3532 (before training)
+Processing test sample 3376/3532 (before training)
+Processing test sample 3377/3532 (before training)
+Processing test sample 3378/3532 (before training)
+Processing test sample 3379/3532 (before training)
+Processing test sample 3380/3532 (before training)
+Processing test sample 3381/3532 (before training)
+Processing test sample 3382/3532 (before training)
+Processing test sample 3383/3532 (before training)
+Processing test sample 3384/3532 (before training)
+Processing test sample 3385/3532 (before training)
+Processing test sample 3386/3532 (before training)
+Processing test sample 3387/3532 (before training)
+Processing test sample 3388/3532 (before training)
+Processing test sample 3389/3532 (before training)
+Processing test sample 3390/3532 (before training)
+Processing test sample 3391/3532 (before training)
+Processing test sample 3392/3532 (before training)
+Processing test sample 3393/3532 (before training)
+Processing test sample 3394/3532 (before training)
+Processing test sample 3395/3532 (before training)
+Processing test sample 3396/3532 (before training)
+Processing test sample 3397/3532 (before training)
+Processing test sample 3398/3532 (before training)
+Processing test sample 3399/3532 (before training)
+Processing test sample 3400/3532 (before training)
+Processing test sample 3401/3532 (before training)
+Processing test sample 3402/3532 (before training)
+Processing test sample 3403/3532 (before training)
+Processing test sample 3404/3532 (before training)
+Processing test sample 3405/3532 (before training)
+Processing test sample 3406/3532 (before training)
+Processing test sample 3407/3532 (before training)
+Processing test sample 3408/3532 (before training)
+Processing test sample 3409/3532 (before training)
+Processing test sample 3410/3532 (before training)
+Processing test sample 3411/3532 (before training)
+Processing test sample 3412/3532 (before training)
+Processing test sample 3413/3532 (before training)
+Processing test sample 3414/3532 (before training)
+Processing test sample 3415/3532 (before training)
+Processing test sample 3416/3532 (before training)
+Processing test sample 3417/3532 (before training)
+Processing test sample 3418/3532 (before training)
+Processing test sample 3419/3532 (before training)
+Processing test sample 3420/3532 (before training)
+Processing test sample 3421/3532 (before training)
+Processing test sample 3422/3532 (before training)
+Processing test sample 3423/3532 (before training)
+Processing test sample 3424/3532 (before training)
+Processing test sample 3425/3532 (before training)
+Processing test sample 3426/3532 (before training)
+Processing test sample 3427/3532 (before training)
+Processing test sample 3428/3532 (before training)
+Processing test sample 3429/3532 (before training)
+Processing test sample 3430/3532 (before training)
+Processing test sample 3431/3532 (before training)
+Processing test sample 3432/3532 (before training)
+Processing test sample 3433/3532 (before training)
+Processing test sample 3434/3532 (before training)
+Processing test sample 3435/3532 (before training)
+Processing test sample 3436/3532 (before training)
+Processing test sample 3437/3532 (before training)
+Processing test sample 3438/3532 (before training)
+Processing test sample 3439/3532 (before training)
+Processing test sample 3440/3532 (before training)
+Processing test sample 3441/3532 (before training)
+Processing test sample 3442/3532 (before training)
+Processing test sample 3443/3532 (before training)
+Processing test sample 3444/3532 (before training)
+Processing test sample 3445/3532 (before training)
+Processing test sample 3446/3532 (before training)
+Processing test sample 3447/3532 (before training)
+Error in bert_gradient: The size of tensor a (531) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3447 before training: 'dict' object has no attribute 'item'
+Processing test sample 3448/3532 (before training)
+Processing test sample 3449/3532 (before training)
+Processing test sample 3450/3532 (before training)
+Processing test sample 3451/3532 (before training)
+Processing test sample 3452/3532 (before training)
+Processing test sample 3453/3532 (before training)
+Processing test sample 3454/3532 (before training)
+Processing test sample 3455/3532 (before training)
+Processing test sample 3456/3532 (before training)
+Processing test sample 3457/3532 (before training)
+Processing test sample 3458/3532 (before training)
+Processing test sample 3459/3532 (before training)
+Error in bert_gradient: The size of tensor a (615) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 3459 before training: 'dict' object has no attribute 'item'
+Processing test sample 3460/3532 (before training)
+Processing test sample 3461/3532 (before training)
+Processing test sample 3462/3532 (before training)
+Processing test sample 3463/3532 (before training)
+Processing test sample 3464/3532 (before training)
+Processing test sample 3465/3532 (before training)
+Processing test sample 3466/3532 (before training)
+Processing test sample 3467/3532 (before training)
+Processing test sample 3468/3532 (before training)
+Processing test sample 3469/3532 (before training)
+Processing test sample 3470/3532 (before training)
+Processing test sample 3471/3532 (before training)
+Processing test sample 3472/3532 (before training)
+Processing test sample 3473/3532 (before training)
+Processing test sample 3474/3532 (before training)
+Processing test sample 3475/3532 (before training)
+Processing test sample 3476/3532 (before training)
+Processing test sample 3477/3532 (before training)
+Processing test sample 3478/3532 (before training)
+Processing test sample 3479/3532 (before training)
+Processing test sample 3480/3532 (before training)
+Processing test sample 3481/3532 (before training)
+Processing test sample 3482/3532 (before training)
+Processing test sample 3483/3532 (before training)
+Processing test sample 3484/3532 (before training)
+Processing test sample 3485/3532 (before training)
+Processing test sample 3486/3532 (before training)
+Processing test sample 3487/3532 (before training)
+Processing test sample 3488/3532 (before training)
+Processing test sample 3489/3532 (before training)
+Processing test sample 3490/3532 (before training)
+Processing test sample 3491/3532 (before training)
+Processing test sample 3492/3532 (before training)
+Processing test sample 3493/3532 (before training)
+Processing test sample 3494/3532 (before training)
+Processing test sample 3495/3532 (before training)
+Processing test sample 3496/3532 (before training)
+Processing test sample 3497/3532 (before training)
+Processing test sample 3498/3532 (before training)
+Processing test sample 3499/3532 (before training)
+Processing test sample 3500/3532 (before training)
+Processing test sample 3501/3532 (before training)
+Processing test sample 3502/3532 (before training)
+Processing test sample 3503/3532 (before training)
+Processing test sample 3504/3532 (before training)
+Processing test sample 3505/3532 (before training)
+Processing test sample 3506/3532 (before training)
+Processing test sample 3507/3532 (before training)
+Processing test sample 3508/3532 (before training)
+Processing test sample 3509/3532 (before training)
+Processing test sample 3510/3532 (before training)
+Processing test sample 3511/3532 (before training)
+Processing test sample 3512/3532 (before training)
+Processing test sample 3513/3532 (before training)
+Processing test sample 3514/3532 (before training)
+Processing test sample 3515/3532 (before training)
+Processing test sample 3516/3532 (before training)
+Processing test sample 3517/3532 (before training)
+Processing test sample 3518/3532 (before training)
+Processing test sample 3519/3532 (before training)
+Processing test sample 3520/3532 (before training)
+Processing test sample 3521/3532 (before training)
+Processing test sample 3522/3532 (before training)
+Processing test sample 3523/3532 (before training)
+Processing test sample 3524/3532 (before training)
+Processing test sample 3525/3532 (before training)
+Processing test sample 3526/3532 (before training)
+Processing test sample 3527/3532 (before training)
+Processing test sample 3528/3532 (before training)
+Processing test sample 3529/3532 (before training)
+Processing test sample 3530/3532 (before training)
+Processing test sample 3531/3532 (before training)
+Processing test sample 3532/3532 (before training)
+Training model...
+  0%|          | 0/3500 [00:00<?, ?it/s]  0%|          | 1/3500 [00:00<12:34,  4.63it/s]  0%|          | 3/3500 [00:00<05:38, 10.34it/s]  0%|          | 5/3500 [00:00<04:48, 12.13it/s]  0%|          | 7/3500 [00:00<04:14, 13.74it/s]  0%|          | 9/3500 [00:00<03:55, 14.81it/s]  0%|          | 11/3500 [00:00<03:50, 15.11it/s]  0%|          | 13/3500 [00:00<03:48, 15.28it/s]  0%|          | 15/3500 [00:01<03:46, 15.40it/s]  0%|          | 17/3500 [00:01<03:44, 15.48it/s]  1%|          | 19/3500 [00:01<03:44, 15.51it/s]  1%|          | 21/3500 [00:01<03:43, 15.56it/s]  1%|          | 23/3500 [00:01<03:43, 15.58it/s]  1%|          | 25/3500 [00:01<03:42, 15.60it/s]  1%|          | 27/3500 [00:01<03:42, 15.61it/s]  1%|          | 29/3500 [00:01<03:42, 15.61it/s]  1%|          | 31/3500 [00:02<03:41, 15.63it/s]  1%|          | 33/3500 [00:02<03:41, 15.63it/s]  1%|          | 35/3500 [00:02<03:30, 16.44it/s]  1%|          | 37/3500 [00:02<03:32, 16.26it/s]  1%|          | 39/3500 [00:02<03:35, 16.07it/s]  1%|          | 41/3500 [00:02<03:37, 15.93it/s]  1%|          | 43/3500 [00:02<03:38, 15.84it/s]  1%|▏         | 45/3500 [00:02<03:39, 15.77it/s]  1%|▏         | 47/3500 [00:03<03:39, 15.73it/s]  1%|▏         | 49/3500 [00:03<03:39, 15.69it/s]  1%|▏         | 51/3500 [00:03<03:40, 15.67it/s]  2%|▏         | 53/3500 [00:03<03:40, 15.66it/s]  2%|▏         | 55/3500 [00:03<03:40, 15.64it/s]  2%|▏         | 57/3500 [00:03<03:40, 15.64it/s]  2%|▏         | 59/3500 [00:03<03:40, 15.63it/s]  2%|▏         | 61/3500 [00:04<03:40, 15.63it/s]  2%|▏         | 63/3500 [00:04<03:39, 15.63it/s]  2%|▏         | 65/3500 [00:04<03:39, 15.62it/s]  2%|▏         | 67/3500 [00:04<03:39, 15.63it/s]  2%|▏         | 69/3500 [00:04<03:38, 15.71it/s]  2%|▏         | 71/3500 [00:04<03:26, 16.59it/s]  2%|▏         | 73/3500 [00:04<03:30, 16.29it/s]  2%|▏         | 75/3500 [00:04<03:32, 16.08it/s]  2%|▏         | 77/3500 [00:05<03:34, 15.95it/s]  2%|▏         | 79/3500 [00:05<03:35, 15.85it/s]  2%|▏         | 81/3500 [00:05<03:36, 15.77it/s]  2%|▏         | 83/3500 [00:05<03:37, 15.73it/s]  2%|▏         | 85/3500 [00:05<03:37, 15.69it/s]  2%|▏         | 87/3500 [00:05<03:37, 15.68it/s]  3%|▎         | 89/3500 [00:05<03:37, 15.66it/s]  3%|▎         | 91/3500 [00:05<03:37, 15.64it/s]  3%|▎         | 93/3500 [00:06<03:37, 15.64it/s]  3%|▎         | 95/3500 [00:06<03:37, 15.62it/s]  3%|▎         | 97/3500 [00:06<03:37, 15.62it/s]  3%|▎         | 99/3500 [00:06<03:37, 15.63it/s]                                                 {'loss': 3.4218, 'grad_norm': 4.930785179138184, 'learning_rate': 4.8642857142857145e-05, 'epoch': 2.86}
+  3%|▎         | 100/3500 [00:06<03:37, 15.63it/s]  3%|▎         | 101/3500 [00:06<03:38, 15.57it/s]  3%|▎         | 103/3500 [00:06<03:38, 15.58it/s]  3%|▎         | 105/3500 [00:06<03:25, 16.53it/s]  3%|▎         | 107/3500 [00:06<03:28, 16.31it/s]  3%|▎         | 109/3500 [00:07<03:30, 16.10it/s]  3%|▎         | 111/3500 [00:07<03:32, 15.94it/s]  3%|▎         | 113/3500 [00:07<03:33, 15.85it/s]  3%|▎         | 115/3500 [00:07<03:34, 15.77it/s]  3%|▎         | 117/3500 [00:07<03:35, 15.72it/s]  3%|▎         | 119/3500 [00:07<03:36, 15.63it/s]  3%|▎         | 121/3500 [00:07<03:36, 15.61it/s]  4%|▎         | 123/3500 [00:07<03:36, 15.62it/s]  4%|▎         | 125/3500 [00:08<03:36, 15.60it/s]  4%|▎         | 127/3500 [00:08<03:36, 15.61it/s]  4%|▎         | 129/3500 [00:08<03:35, 15.62it/s]  4%|▎         | 131/3500 [00:08<03:35, 15.61it/s]  4%|▍         | 133/3500 [00:08<03:35, 15.61it/s]  4%|▍         | 135/3500 [00:08<03:35, 15.61it/s]  4%|▍         | 137/3500 [00:08<03:35, 15.61it/s]  4%|▍         | 139/3500 [00:08<03:34, 15.69it/s]  4%|▍         | 141/3500 [00:09<03:22, 16.56it/s]  4%|▍         | 143/3500 [00:09<03:26, 16.26it/s]  4%|▍         | 145/3500 [00:09<03:29, 16.05it/s]  4%|▍         | 147/3500 [00:09<03:30, 15.91it/s]  4%|▍         | 149/3500 [00:09<03:31, 15.81it/s]  4%|▍         | 151/3500 [00:09<03:32, 15.74it/s]  4%|▍         | 153/3500 [00:09<03:33, 15.70it/s]  4%|▍         | 155/3500 [00:09<03:33, 15.66it/s]  4%|▍         | 157/3500 [00:10<03:33, 15.65it/s]  5%|▍         | 159/3500 [00:10<03:33, 15.64it/s]  5%|▍         | 161/3500 [00:10<03:33, 15.61it/s]  5%|▍         | 163/3500 [00:10<03:33, 15.61it/s]  5%|▍         | 165/3500 [00:10<03:33, 15.59it/s]  5%|▍         | 167/3500 [00:10<03:33, 15.59it/s]  5%|▍         | 169/3500 [00:10<03:33, 15.59it/s]  5%|▍         | 171/3500 [00:10<03:33, 15.59it/s]  5%|▍         | 173/3500 [00:11<03:33, 15.59it/s]  5%|▌         | 175/3500 [00:11<03:21, 16.53it/s]  5%|▌         | 177/3500 [00:11<03:23, 16.29it/s]  5%|▌         | 179/3500 [00:11<03:26, 16.08it/s]  5%|▌         | 181/3500 [00:11<03:28, 15.92it/s]  5%|▌         | 183/3500 [00:11<03:29, 15.82it/s]  5%|▌         | 185/3500 [00:11<03:30, 15.75it/s]  5%|▌         | 187/3500 [00:11<03:30, 15.70it/s]  5%|▌         | 189/3500 [00:12<03:31, 15.66it/s]  5%|▌         | 191/3500 [00:12<03:31, 15.62it/s]  6%|▌         | 193/3500 [00:12<03:31, 15.60it/s]  6%|▌         | 195/3500 [00:12<03:32, 15.59it/s]  6%|▌         | 197/3500 [00:12<03:31, 15.59it/s]  6%|▌         | 199/3500 [00:12<03:31, 15.58it/s]                                                  {'loss': 0.2109, 'grad_norm': 23.54444694519043, 'learning_rate': 4.721428571428572e-05, 'epoch': 5.71}
+  6%|▌         | 200/3500 [00:12<03:31, 15.58it/s]  6%|▌         | 201/3500 [00:12<03:31, 15.58it/s]  6%|▌         | 203/3500 [00:13<03:31, 15.58it/s]  6%|▌         | 205/3500 [00:13<03:31, 15.58it/s]  6%|▌         | 207/3500 [00:13<03:31, 15.60it/s]  6%|▌         | 209/3500 [00:13<03:29, 15.68it/s]  6%|▌         | 211/3500 [00:13<03:18, 16.56it/s]  6%|▌         | 213/3500 [00:13<03:22, 16.27it/s]  6%|▌         | 215/3500 [00:13<03:24, 16.05it/s]  6%|▌         | 217/3500 [00:13<03:26, 15.91it/s]  6%|▋         | 219/3500 [00:14<03:27, 15.81it/s]  6%|▋         | 221/3500 [00:14<03:28, 15.75it/s]  6%|▋         | 223/3500 [00:14<03:28, 15.70it/s]  6%|▋         | 225/3500 [00:14<03:29, 15.65it/s]  6%|▋         | 227/3500 [00:14<03:29, 15.64it/s]  7%|▋         | 229/3500 [00:14<03:29, 15.62it/s]  7%|▋         | 231/3500 [00:14<03:29, 15.61it/s]  7%|▋         | 233/3500 [00:14<03:29, 15.59it/s]  7%|▋         | 235/3500 [00:15<03:29, 15.58it/s]  7%|▋         | 237/3500 [00:15<03:29, 15.59it/s]  7%|▋         | 239/3500 [00:15<03:29, 15.58it/s]  7%|▋         | 241/3500 [00:15<03:29, 15.57it/s]  7%|▋         | 243/3500 [00:15<03:29, 15.56it/s]  7%|▋         | 245/3500 [00:15<03:17, 16.49it/s]  7%|▋         | 247/3500 [00:15<03:19, 16.28it/s]  7%|▋         | 249/3500 [00:15<03:22, 16.07it/s]  7%|▋         | 251/3500 [00:16<03:24, 15.91it/s]  7%|▋         | 253/3500 [00:16<03:25, 15.81it/s]  7%|▋         | 255/3500 [00:16<03:26, 15.73it/s]  7%|▋         | 257/3500 [00:16<03:26, 15.68it/s]  7%|▋         | 259/3500 [00:16<03:27, 15.64it/s]  7%|▋         | 261/3500 [00:16<03:27, 15.62it/s]  8%|▊         | 263/3500 [00:16<03:27, 15.61it/s]  8%|▊         | 265/3500 [00:16<03:27, 15.59it/s]  8%|▊         | 267/3500 [00:17<03:27, 15.59it/s]  8%|▊         | 269/3500 [00:17<03:27, 15.58it/s]  8%|▊         | 271/3500 [00:17<03:27, 15.59it/s]  8%|▊         | 273/3500 [00:17<03:27, 15.57it/s]  8%|▊         | 275/3500 [00:17<03:27, 15.58it/s]  8%|▊         | 277/3500 [00:17<03:26, 15.57it/s]  8%|▊         | 279/3500 [00:17<03:25, 15.65it/s]  8%|▊         | 281/3500 [00:17<03:14, 16.52it/s]  8%|▊         | 283/3500 [00:18<03:18, 16.22it/s]  8%|▊         | 285/3500 [00:18<03:20, 16.02it/s]  8%|▊         | 287/3500 [00:18<03:22, 15.87it/s]  8%|▊         | 289/3500 [00:18<03:23, 15.78it/s]  8%|▊         | 291/3500 [00:18<03:24, 15.72it/s]  8%|▊         | 293/3500 [00:18<03:24, 15.67it/s]  8%|▊         | 295/3500 [00:18<03:24, 15.64it/s]  8%|▊         | 297/3500 [00:18<03:25, 15.62it/s]  9%|▊         | 299/3500 [00:19<03:25, 15.60it/s]                                                  {'loss': 0.0579, 'grad_norm': 2.882227659225464, 'learning_rate': 4.5785714285714285e-05, 'epoch': 8.57}
+  9%|▊         | 300/3500 [00:19<03:25, 15.60it/s]  9%|▊         | 301/3500 [00:19<03:25, 15.58it/s]  9%|▊         | 303/3500 [00:19<03:25, 15.57it/s]  9%|▊         | 305/3500 [00:19<03:25, 15.58it/s]  9%|▉         | 307/3500 [00:19<03:25, 15.57it/s]  9%|▉         | 309/3500 [00:19<03:24, 15.58it/s]  9%|▉         | 311/3500 [00:19<03:24, 15.58it/s]  9%|▉         | 313/3500 [00:19<03:24, 15.56it/s]  9%|▉         | 316/3500 [00:20<03:12, 16.56it/s]  9%|▉         | 318/3500 [00:20<03:15, 16.28it/s]  9%|▉         | 320/3500 [00:20<03:17, 16.06it/s]  9%|▉         | 322/3500 [00:20<03:19, 15.92it/s]  9%|▉         | 324/3500 [00:20<03:20, 15.81it/s]  9%|▉         | 326/3500 [00:20<03:21, 15.75it/s]  9%|▉         | 328/3500 [00:20<03:22, 15.69it/s]  9%|▉         | 330/3500 [00:21<03:22, 15.66it/s]  9%|▉         | 332/3500 [00:21<03:22, 15.63it/s] 10%|▉         | 334/3500 [00:21<03:22, 15.60it/s] 10%|▉         | 336/3500 [00:21<03:22, 15.60it/s] 10%|▉         | 338/3500 [00:21<03:22, 15.58it/s] 10%|▉         | 340/3500 [00:21<03:22, 15.58it/s] 10%|▉         | 342/3500 [00:21<03:22, 15.57it/s] 10%|▉         | 344/3500 [00:21<03:22, 15.57it/s] 10%|▉         | 346/3500 [00:22<03:22, 15.57it/s] 10%|▉         | 348/3500 [00:22<03:22, 15.55it/s] 10%|█         | 351/3500 [00:22<03:10, 16.54it/s] 10%|█         | 353/3500 [00:22<03:13, 16.27it/s] 10%|█         | 355/3500 [00:22<03:15, 16.06it/s] 10%|█         | 357/3500 [00:22<03:17, 15.91it/s] 10%|█         | 359/3500 [00:22<03:18, 15.81it/s] 10%|█         | 361/3500 [00:23<03:19, 15.75it/s] 10%|█         | 363/3500 [00:23<03:19, 15.69it/s] 10%|█         | 365/3500 [00:23<03:20, 15.66it/s] 10%|█         | 367/3500 [00:23<03:20, 15.63it/s] 11%|█         | 369/3500 [00:23<03:20, 15.61it/s] 11%|█         | 371/3500 [00:23<03:20, 15.60it/s] 11%|█         | 373/3500 [00:23<03:20, 15.58it/s] 11%|█         | 375/3500 [00:23<03:20, 15.58it/s] 11%|█         | 377/3500 [00:24<03:20, 15.57it/s] 11%|█         | 379/3500 [00:24<03:20, 15.57it/s] 11%|█         | 381/3500 [00:24<03:20, 15.56it/s] 11%|█         | 383/3500 [00:24<03:20, 15.56it/s] 11%|█         | 385/3500 [00:24<03:10, 16.39it/s] 11%|█         | 387/3500 [00:24<03:12, 16.17it/s] 11%|█         | 389/3500 [00:24<03:14, 15.99it/s] 11%|█         | 391/3500 [00:24<03:16, 15.86it/s] 11%|█         | 393/3500 [00:25<03:17, 15.76it/s] 11%|█▏        | 395/3500 [00:25<03:17, 15.71it/s] 11%|█▏        | 397/3500 [00:25<03:18, 15.66it/s] 11%|█▏        | 399/3500 [00:25<03:18, 15.63it/s]                                                  {'loss': 0.0291, 'grad_norm': 2.704455852508545, 'learning_rate': 4.435714285714286e-05, 'epoch': 11.43}
+ 11%|█▏        | 400/3500 [00:25<03:18, 15.63it/s] 11%|█▏        | 401/3500 [00:25<03:18, 15.59it/s] 12%|█▏        | 403/3500 [00:25<03:18, 15.58it/s] 12%|█▏        | 405/3500 [00:25<03:18, 15.57it/s] 12%|█▏        | 407/3500 [00:25<03:18, 15.57it/s] 12%|█▏        | 409/3500 [00:26<03:18, 15.57it/s] 12%|█▏        | 411/3500 [00:26<03:18, 15.56it/s] 12%|█▏        | 413/3500 [00:26<03:18, 15.57it/s] 12%|█▏        | 415/3500 [00:26<03:18, 15.56it/s] 12%|█▏        | 417/3500 [00:26<03:18, 15.56it/s] 12%|█▏        | 419/3500 [00:26<03:16, 15.66it/s] 12%|█▏        | 421/3500 [00:26<03:06, 16.52it/s] 12%|█▏        | 423/3500 [00:26<03:09, 16.24it/s] 12%|█▏        | 425/3500 [00:27<03:11, 16.03it/s] 12%|█▏        | 427/3500 [00:27<03:13, 15.88it/s] 12%|█▏        | 429/3500 [00:27<03:14, 15.78it/s] 12%|█▏        | 431/3500 [00:27<03:15, 15.71it/s] 12%|█▏        | 433/3500 [00:27<03:15, 15.67it/s] 12%|█▏        | 435/3500 [00:27<03:16, 15.63it/s] 12%|█▏        | 437/3500 [00:27<03:16, 15.61it/s] 13%|█▎        | 439/3500 [00:27<03:16, 15.59it/s] 13%|█▎        | 441/3500 [00:28<03:16, 15.58it/s] 13%|█▎        | 443/3500 [00:28<03:16, 15.57it/s] 13%|█▎        | 445/3500 [00:28<03:16, 15.55it/s] 13%|█▎        | 447/3500 [00:28<03:16, 15.54it/s] 13%|█▎        | 449/3500 [00:28<03:16, 15.54it/s] 13%|█▎        | 451/3500 [00:28<03:16, 15.55it/s] 13%|█▎        | 453/3500 [00:28<03:16, 15.53it/s] 13%|█▎        | 455/3500 [00:28<03:05, 16.46it/s] 13%|█▎        | 457/3500 [00:29<03:07, 16.24it/s] 13%|█▎        | 459/3500 [00:29<03:09, 16.01it/s] 13%|█▎        | 461/3500 [00:29<03:11, 15.86it/s] 13%|█▎        | 463/3500 [00:29<03:12, 15.76it/s] 13%|█▎        | 465/3500 [00:29<03:13, 15.69it/s] 13%|█▎        | 467/3500 [00:29<03:13, 15.64it/s] 13%|█▎        | 469/3500 [00:29<03:14, 15.59it/s] 13%|█▎        | 471/3500 [00:30<03:14, 15.58it/s] 14%|█▎        | 473/3500 [00:30<03:14, 15.57it/s] 14%|█▎        | 475/3500 [00:30<03:14, 15.56it/s] 14%|█▎        | 477/3500 [00:30<03:14, 15.54it/s] 14%|█▎        | 479/3500 [00:30<03:14, 15.55it/s] 14%|█▎        | 481/3500 [00:30<03:14, 15.54it/s] 14%|█▍        | 483/3500 [00:30<03:14, 15.53it/s] 14%|█▍        | 485/3500 [00:30<03:14, 15.53it/s] 14%|█▍        | 487/3500 [00:31<03:14, 15.51it/s] 14%|█▍        | 489/3500 [00:31<03:12, 15.62it/s] 14%|█▍        | 491/3500 [00:31<03:02, 16.47it/s] 14%|█▍        | 493/3500 [00:31<03:05, 16.18it/s] 14%|█▍        | 495/3500 [00:31<03:07, 16.00it/s] 14%|█▍        | 497/3500 [00:31<03:09, 15.85it/s] 14%|█▍        | 499/3500 [00:31<03:10, 15.75it/s]                                                  {'loss': 0.0244, 'grad_norm': 0.14001262187957764, 'learning_rate': 4.292857142857143e-05, 'epoch': 14.29}
+ 14%|█▍        | 500/3500 [00:31<03:10, 15.75it/s] 14%|█▍        | 501/3500 [00:31<03:11, 15.67it/s] 14%|█▍        | 503/3500 [00:32<03:11, 15.61it/s] 14%|█▍        | 505/3500 [00:32<03:12, 15.57it/s] 14%|█▍        | 507/3500 [00:32<03:12, 15.56it/s] 15%|█▍        | 509/3500 [00:32<03:12, 15.55it/s] 15%|█▍        | 511/3500 [00:32<03:12, 15.55it/s] 15%|█▍        | 513/3500 [00:32<03:12, 15.55it/s] 15%|█▍        | 515/3500 [00:32<03:12, 15.53it/s] 15%|█▍        | 517/3500 [00:32<03:12, 15.53it/s] 15%|█▍        | 519/3500 [00:33<03:12, 15.51it/s] 15%|█▍        | 521/3500 [00:33<03:11, 15.52it/s] 15%|█▍        | 523/3500 [00:33<03:11, 15.51it/s] 15%|█▌        | 525/3500 [00:33<03:01, 16.44it/s] 15%|█▌        | 527/3500 [00:33<03:03, 16.23it/s] 15%|█▌        | 529/3500 [00:33<03:05, 16.00it/s] 15%|█▌        | 531/3500 [00:33<03:07, 15.85it/s] 15%|█▌        | 533/3500 [00:33<03:08, 15.74it/s] 15%|█▌        | 535/3500 [00:34<03:09, 15.68it/s] 15%|█▌        | 537/3500 [00:34<03:09, 15.63it/s] 15%|█▌        | 539/3500 [00:34<03:09, 15.59it/s] 15%|█▌        | 541/3500 [00:34<03:10, 15.56it/s] 16%|█▌        | 543/3500 [00:34<03:10, 15.53it/s] 16%|█▌        | 545/3500 [00:34<03:10, 15.53it/s] 16%|█▌        | 547/3500 [00:34<03:10, 15.52it/s] 16%|█▌        | 549/3500 [00:34<03:10, 15.52it/s] 16%|█▌        | 551/3500 [00:35<03:10, 15.51it/s] 16%|█▌        | 553/3500 [00:35<03:10, 15.51it/s] 16%|█▌        | 555/3500 [00:35<03:09, 15.51it/s] 16%|█▌        | 557/3500 [00:35<03:09, 15.52it/s] 16%|█▌        | 559/3500 [00:35<03:08, 15.62it/s] 16%|█▌        | 561/3500 [00:35<02:58, 16.49it/s] 16%|█▌        | 563/3500 [00:35<03:01, 16.19it/s] 16%|█▌        | 565/3500 [00:36<03:03, 15.98it/s] 16%|█▌        | 567/3500 [00:36<03:05, 15.82it/s] 16%|█▋        | 569/3500 [00:36<03:06, 15.73it/s] 16%|█▋        | 571/3500 [00:36<03:07, 15.65it/s] 16%|█▋        | 573/3500 [00:36<03:07, 15.61it/s] 16%|█▋        | 575/3500 [00:36<03:07, 15.57it/s] 16%|█▋        | 577/3500 [00:36<03:07, 15.56it/s] 17%|█▋        | 579/3500 [00:36<03:07, 15.54it/s] 17%|█▋        | 581/3500 [00:37<03:07, 15.53it/s] 17%|█▋        | 583/3500 [00:37<03:07, 15.53it/s] 17%|█▋        | 585/3500 [00:37<03:07, 15.53it/s] 17%|█▋        | 587/3500 [00:37<03:07, 15.53it/s] 17%|█▋        | 589/3500 [00:37<03:07, 15.52it/s] 17%|█▋        | 591/3500 [00:37<03:07, 15.52it/s] 17%|█▋        | 593/3500 [00:37<03:07, 15.52it/s] 17%|█▋        | 595/3500 [00:37<02:56, 16.46it/s] 17%|█▋        | 597/3500 [00:38<02:58, 16.24it/s] 17%|█▋        | 599/3500 [00:38<03:01, 16.01it/s]                                                  {'loss': 0.0448, 'grad_norm': 1.3511580228805542, 'learning_rate': 4.15e-05, 'epoch': 17.14}
+ 17%|█▋        | 600/3500 [00:38<03:01, 16.01it/s] 17%|█▋        | 601/3500 [00:38<03:02, 15.86it/s] 17%|█▋        | 603/3500 [00:38<03:03, 15.75it/s] 17%|█▋        | 605/3500 [00:38<03:04, 15.68it/s] 17%|█▋        | 607/3500 [00:38<03:05, 15.62it/s] 17%|█▋        | 609/3500 [00:38<03:05, 15.59it/s] 17%|█▋        | 611/3500 [00:38<03:05, 15.55it/s] 18%|█▊        | 613/3500 [00:39<03:05, 15.55it/s] 18%|█▊        | 615/3500 [00:39<03:05, 15.54it/s] 18%|█▊        | 617/3500 [00:39<03:05, 15.52it/s] 18%|█▊        | 619/3500 [00:39<03:05, 15.52it/s] 18%|█▊        | 621/3500 [00:39<03:05, 15.52it/s] 18%|█▊        | 623/3500 [00:39<03:05, 15.52it/s] 18%|█▊        | 625/3500 [00:39<03:05, 15.51it/s] 18%|█▊        | 627/3500 [00:39<03:05, 15.51it/s] 18%|█▊        | 629/3500 [00:40<03:04, 15.60it/s] 18%|█▊        | 631/3500 [00:40<02:54, 16.47it/s] 18%|█▊        | 633/3500 [00:40<02:57, 16.19it/s] 18%|█▊        | 635/3500 [00:40<02:59, 15.98it/s] 18%|█▊        | 637/3500 [00:40<03:00, 15.83it/s] 18%|█▊        | 639/3500 [00:40<03:01, 15.74it/s] 18%|█▊        | 641/3500 [00:40<03:02, 15.67it/s] 18%|█▊        | 643/3500 [00:40<03:02, 15.63it/s] 18%|█▊        | 645/3500 [00:41<03:03, 15.59it/s] 18%|█▊        | 647/3500 [00:41<03:03, 15.57it/s] 19%|█▊        | 649/3500 [00:41<03:03, 15.55it/s] 19%|█▊        | 651/3500 [00:41<03:03, 15.54it/s] 19%|█▊        | 653/3500 [00:41<03:03, 15.52it/s] 19%|█▊        | 655/3500 [00:41<03:03, 15.52it/s] 19%|█▉        | 657/3500 [00:41<03:03, 15.51it/s] 19%|█▉        | 659/3500 [00:42<03:03, 15.52it/s] 19%|█▉        | 661/3500 [00:42<03:02, 15.52it/s] 19%|█▉        | 663/3500 [00:42<03:03, 15.50it/s] 19%|█▉        | 665/3500 [00:42<02:52, 16.46it/s]

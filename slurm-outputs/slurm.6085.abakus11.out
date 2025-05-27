@@ -1,0 +1,148 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: b3d2fb9250e385c6bf6d19d82a4effbebfa6e2fe
+Running command: python -um scripts.bert "6085" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --counterfactual "synonym" --dataset "scienceqa"
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 6085
+Key mode: keyfile
+Sample size: 0
+Normalize: False
+Counterfactual: synonym
+Dataset: scienceqa
+Model: bert
+Replacement probability: 1.0
+Epochs: 100
+Using full train dataset with 547 samples.
+Using full test dataset with 3532 samples.
+Loading model: bert-base-uncased
+BertForMaskedLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForMaskedLM: ['bert.pooler.dense.bias', 'bert.pooler.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device: cuda
+Map:   0%|          | 0/547 [00:00<?, ? examples/s]Map: 100%|██████████| 547/547 [00:00<00:00, 9200.17 examples/s]
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:236: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Calculating uncertainties for 3532 test samples before training (counterfactual mode: synonym)...
+Processing test sample 1/3532 (before training)
+Processing test sample 2/3532 (before training)
+Processing test sample 3/3532 (before training)
+Processing test sample 4/3532 (before training)
+Processing test sample 5/3532 (before training)
+Processing test sample 6/3532 (before training)
+Processing test sample 7/3532 (before training)
+Processing test sample 8/3532 (before training)
+Processing test sample 9/3532 (before training)
+Processing test sample 10/3532 (before training)
+Processing test sample 11/3532 (before training)
+Processing test sample 12/3532 (before training)
+Processing test sample 13/3532 (before training)
+Processing test sample 14/3532 (before training)
+Processing test sample 15/3532 (before training)
+Processing test sample 16/3532 (before training)
+Processing test sample 17/3532 (before training)
+Processing test sample 18/3532 (before training)
+Processing test sample 19/3532 (before training)
+Processing test sample 20/3532 (before training)
+Processing test sample 21/3532 (before training)
+Processing test sample 22/3532 (before training)
+Processing test sample 23/3532 (before training)
+Processing test sample 24/3532 (before training)
+Processing test sample 25/3532 (before training)
+Processing test sample 26/3532 (before training)
+Processing test sample 27/3532 (before training)
+Processing test sample 28/3532 (before training)
+Processing test sample 29/3532 (before training)
+Processing test sample 30/3532 (before training)
+Processing test sample 31/3532 (before training)
+Processing test sample 32/3532 (before training)
+Processing test sample 33/3532 (before training)
+Processing test sample 34/3532 (before training)
+Processing test sample 35/3532 (before training)
+Processing test sample 36/3532 (before training)
+Processing test sample 37/3532 (before training)
+Processing test sample 38/3532 (before training)
+Processing test sample 39/3532 (before training)
+Processing test sample 40/3532 (before training)
+Processing test sample 41/3532 (before training)
+Processing test sample 42/3532 (before training)
+Processing test sample 43/3532 (before training)
+Processing test sample 44/3532 (before training)
+Processing test sample 45/3532 (before training)
+Processing test sample 46/3532 (before training)
+Processing test sample 47/3532 (before training)
+Processing test sample 48/3532 (before training)
+Processing test sample 49/3532 (before training)
+Processing test sample 50/3532 (before training)
+Processing test sample 51/3532 (before training)
+Processing test sample 52/3532 (before training)
+Processing test sample 53/3532 (before training)
+Processing test sample 54/3532 (before training)
+Processing test sample 55/3532 (before training)
+Processing test sample 56/3532 (before training)
+Processing test sample 57/3532 (before training)
+Processing test sample 58/3532 (before training)
+Processing test sample 59/3532 (before training)
+Processing test sample 60/3532 (before training)
+Processing test sample 61/3532 (before training)
+Processing test sample 62/3532 (before training)
+Processing test sample 63/3532 (before training)
+Processing test sample 64/3532 (before training)
+Processing test sample 65/3532 (before training)
+Processing test sample 66/3532 (before training)
+Processing test sample 67/3532 (before training)
+Processing test sample 68/3532 (before training)
+Processing test sample 69/3532 (before training)
+Processing test sample 70/3532 (before training)
+Processing test sample 71/3532 (before training)
+Processing test sample 72/3532 (before training)
+Processing test sample 73/3532 (before training)
+Processing test sample 74/3532 (before training)
+Processing test sample 75/3532 (before training)
+Processing test sample 76/3532 (before training)
+Processing test sample 77/3532 (before training)
+Processing test sample 78/3532 (before training)
+Processing test sample 79/3532 (before training)
+Processing test sample 80/3532 (before training)
+Processing test sample 81/3532 (before training)
+Processing test sample 82/3532 (before training)
+Processing test sample 83/3532 (before training)
+Processing test sample 84/3532 (before training)
+Processing test sample 85/3532 (before training)
+Processing test sample 86/3532 (before training)
+Processing test sample 87/3532 (before training)
+Processing test sample 88/3532 (before training)
+Processing test sample 89/3532 (before training)
+Processing test sample 90/3532 (before training)
+Processing test sample 91/3532 (before training)
+Processing test sample 92/3532 (before training)
+Processing test sample 93/3532 (before training)
+Processing test sample 94/3532 (before training)
+Processing test sample 95/3532 (before training)
+Processing test sample 96/3532 (before training)
+Processing test sample 97/3532 (before training)
+Processing test sample 98/3532 (before training)
+Processing test sample 99/3532 (before training)
+Processing test sample 100/3532 (before training)
+Processing test sample 101/3532 (before training)
+Processing test sample 102/3532 (before training)
+Processing test sample 103/3532 (before training)
+Processing test sample 104/3532 (before training)
+Processing test sample 105/3532 (before training)
+Processing test sample 106/3532 (before training)
+Token indices sequence length is longer than the specified maximum sequence length for this model (615 > 512). Running this sequence through the model will result in indexing errors
+Error in bert_gradient: The size of tensor a (615) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 106 before training: 'dict' object has no attribute 'item'
+Processing test sample 107/3532 (before training)
+Processing test sample 108/3532 (before training)
+Processing test sample 109/3532 (before training)
+Processing test sample 110/3532 (before training)
+Processing test sample 111/3532 (before training)
