@@ -4345,3 +4345,1034 @@ Processing test sample 4305/4342 (before training)
 Processing test sample 4306/4342 (before training)
 Processing test sample 4307/4342 (before training)
 Processing test sample 4308/4342 (before training)
+Processing test sample 4309/4342 (before training)
+Processing test sample 4310/4342 (before training)
+Processing test sample 4311/4342 (before training)
+Processing test sample 4312/4342 (before training)
+Processing test sample 4313/4342 (before training)
+Processing test sample 4314/4342 (before training)
+Processing test sample 4315/4342 (before training)
+Processing test sample 4316/4342 (before training)
+Processing test sample 4317/4342 (before training)
+Processing test sample 4318/4342 (before training)
+Processing test sample 4319/4342 (before training)
+Processing test sample 4320/4342 (before training)
+Processing test sample 4321/4342 (before training)
+Processing test sample 4322/4342 (before training)
+Processing test sample 4323/4342 (before training)
+Processing test sample 4324/4342 (before training)
+Processing test sample 4325/4342 (before training)
+Processing test sample 4326/4342 (before training)
+Processing test sample 4327/4342 (before training)
+Processing test sample 4328/4342 (before training)
+Processing test sample 4329/4342 (before training)
+Processing test sample 4330/4342 (before training)
+Processing test sample 4331/4342 (before training)
+Processing test sample 4332/4342 (before training)
+Processing test sample 4333/4342 (before training)
+Processing test sample 4334/4342 (before training)
+Processing test sample 4335/4342 (before training)
+Processing test sample 4336/4342 (before training)
+Processing test sample 4337/4342 (before training)
+Processing test sample 4338/4342 (before training)
+Processing test sample 4339/4342 (before training)
+Processing test sample 4340/4342 (before training)
+Processing test sample 4341/4342 (before training)
+Processing test sample 4342/4342 (before training)
+Training model...
+  0%|          | 0/630 [00:00<?, ?it/s]  0%|          | 1/630 [00:00<02:12,  4.75it/s]  0%|          | 3/630 [00:00<01:09,  9.00it/s]  1%|          | 5/630 [00:00<00:56, 11.06it/s]  1%|          | 7/630 [00:00<00:51, 12.18it/s]  1%|▏         | 9/630 [00:00<00:48, 12.89it/s]  2%|▏         | 11/630 [00:00<00:46, 13.34it/s]  2%|▏         | 13/630 [00:01<00:45, 13.63it/s]  2%|▏         | 15/630 [00:01<00:44, 13.82it/s]  3%|▎         | 17/630 [00:01<00:43, 13.95it/s]  3%|▎         | 19/630 [00:01<00:43, 14.05it/s]  3%|▎         | 21/630 [00:01<00:43, 14.10it/s]  4%|▎         | 23/630 [00:01<00:42, 14.15it/s]  4%|▍         | 25/630 [00:01<00:42, 14.18it/s]  4%|▍         | 27/630 [00:02<00:42, 14.21it/s]  5%|▍         | 29/630 [00:02<00:42, 14.21it/s]  5%|▍         | 31/630 [00:02<00:41, 14.28it/s]  5%|▌         | 33/630 [00:02<00:40, 14.62it/s]  6%|▌         | 35/630 [00:02<00:41, 14.50it/s]  6%|▌         | 37/630 [00:02<00:41, 14.42it/s]  6%|▌         | 39/630 [00:02<00:41, 14.36it/s]  7%|▋         | 41/630 [00:03<00:41, 14.32it/s]  7%|▋         | 43/630 [00:03<00:41, 14.29it/s]  7%|▋         | 45/630 [00:03<00:41, 14.26it/s]  7%|▋         | 47/630 [00:03<00:40, 14.24it/s]  8%|▊         | 49/630 [00:03<00:40, 14.22it/s]  8%|▊         | 51/630 [00:03<00:40, 14.21it/s]  8%|▊         | 53/630 [00:03<00:40, 14.18it/s]  9%|▊         | 55/630 [00:04<00:40, 14.20it/s]  9%|▉         | 57/630 [00:04<00:40, 14.21it/s]  9%|▉         | 59/630 [00:04<00:40, 14.22it/s] 10%|▉         | 61/630 [00:04<00:40, 14.22it/s] 10%|█         | 63/630 [00:04<00:37, 15.02it/s] 10%|█         | 65/630 [00:04<00:38, 14.79it/s] 11%|█         | 67/630 [00:04<00:38, 14.61it/s] 11%|█         | 69/630 [00:04<00:38, 14.48it/s] 11%|█▏        | 71/630 [00:05<00:38, 14.41it/s] 12%|█▏        | 73/630 [00:05<00:38, 14.35it/s] 12%|█▏        | 75/630 [00:05<00:38, 14.31it/s] 12%|█▏        | 77/630 [00:05<00:38, 14.28it/s] 13%|█▎        | 79/630 [00:05<00:38, 14.26it/s] 13%|█▎        | 81/630 [00:05<00:38, 14.24it/s] 13%|█▎        | 83/630 [00:05<00:38, 14.23it/s] 13%|█▎        | 85/630 [00:06<00:38, 14.21it/s] 14%|█▍        | 87/630 [00:06<00:38, 14.19it/s] 14%|█▍        | 89/630 [00:06<00:38, 14.19it/s] 14%|█▍        | 91/630 [00:06<00:38, 14.18it/s] 15%|█▍        | 93/630 [00:06<00:37, 14.19it/s] 15%|█▌        | 95/630 [00:06<00:37, 14.20it/s] 15%|█▌        | 97/630 [00:06<00:37, 14.20it/s] 16%|█▌        | 99/630 [00:07<00:37, 14.20it/s]                                                {'loss': 1.7005, 'grad_norm': 7.616517543792725, 'learning_rate': 4.222222222222222e-05, 'epoch': 1.59}
+ 16%|█▌        | 100/630 [00:07<00:37, 14.20it/s] 16%|█▌        | 101/630 [00:07<00:37, 14.15it/s] 16%|█▋        | 103/630 [00:07<00:37, 14.15it/s] 17%|█▋        | 105/630 [00:07<00:37, 14.15it/s] 17%|█▋        | 107/630 [00:07<00:36, 14.16it/s] 17%|█▋        | 109/630 [00:07<00:36, 14.17it/s] 18%|█▊        | 111/630 [00:07<00:35, 14.58it/s] 18%|█▊        | 113/630 [00:08<00:35, 14.45it/s] 18%|█▊        | 115/630 [00:08<00:35, 14.38it/s] 19%|█▊        | 117/630 [00:08<00:35, 14.32it/s] 19%|█▉        | 119/630 [00:08<00:35, 14.29it/s] 19%|█▉        | 121/630 [00:08<00:35, 14.26it/s] 20%|█▉        | 123/630 [00:08<00:35, 14.24it/s] 20%|█▉        | 125/630 [00:08<00:35, 14.27it/s] 20%|██        | 127/630 [00:09<00:33, 15.06it/s] 20%|██        | 129/630 [00:09<00:33, 14.79it/s] 21%|██        | 131/630 [00:09<00:34, 14.60it/s] 21%|██        | 133/630 [00:09<00:34, 14.49it/s] 21%|██▏       | 135/630 [00:09<00:34, 14.40it/s] 22%|██▏       | 137/630 [00:09<00:34, 14.27it/s] 22%|██▏       | 139/630 [00:09<00:34, 14.23it/s] 22%|██▏       | 141/630 [00:10<00:34, 14.20it/s] 23%|██▎       | 143/630 [00:10<00:34, 14.19it/s] 23%|██▎       | 145/630 [00:10<00:34, 14.19it/s] 23%|██▎       | 147/630 [00:10<00:34, 14.18it/s] 24%|██▎       | 149/630 [00:10<00:33, 14.18it/s] 24%|██▍       | 151/630 [00:10<00:33, 14.17it/s] 24%|██▍       | 153/630 [00:10<00:33, 14.16it/s] 25%|██▍       | 155/630 [00:10<00:33, 14.14it/s] 25%|██▍       | 157/630 [00:11<00:33, 14.15it/s] 25%|██▌       | 159/630 [00:11<00:33, 14.15it/s] 26%|██▌       | 161/630 [00:11<00:33, 14.15it/s] 26%|██▌       | 163/630 [00:11<00:33, 14.15it/s] 26%|██▌       | 165/630 [00:11<00:32, 14.14it/s] 27%|██▋       | 167/630 [00:11<00:32, 14.13it/s] 27%|██▋       | 169/630 [00:11<00:32, 14.13it/s] 27%|██▋       | 171/630 [00:12<00:32, 14.14it/s] 27%|██▋       | 173/630 [00:12<00:32, 14.15it/s] 28%|██▊       | 175/630 [00:12<00:32, 14.15it/s] 28%|██▊       | 177/630 [00:12<00:32, 14.15it/s] 28%|██▊       | 179/630 [00:12<00:31, 14.15it/s] 29%|██▊       | 181/630 [00:12<00:31, 14.14it/s] 29%|██▉       | 183/630 [00:12<00:31, 14.13it/s] 29%|██▉       | 185/630 [00:13<00:31, 14.13it/s] 30%|██▉       | 187/630 [00:13<00:31, 14.14it/s] 30%|███       | 189/630 [00:13<00:29, 14.95it/s] 30%|███       | 191/630 [00:13<00:29, 14.70it/s] 31%|███       | 193/630 [00:13<00:30, 14.53it/s] 31%|███       | 195/630 [00:13<00:30, 14.41it/s] 31%|███▏      | 197/630 [00:13<00:30, 14.33it/s] 32%|███▏      | 199/630 [00:14<00:30, 14.28it/s]                                                 {'loss': 1.4571, 'grad_norm': 8.278727531433105, 'learning_rate': 3.436507936507937e-05, 'epoch': 3.17}
+ 32%|███▏      | 200/630 [00:14<00:30, 14.28it/s] 32%|███▏      | 201/630 [00:14<00:30, 14.22it/s] 32%|███▏      | 203/630 [00:14<00:30, 14.18it/s] 33%|███▎      | 205/630 [00:14<00:29, 14.17it/s] 33%|███▎      | 207/630 [00:14<00:29, 14.16it/s] 33%|███▎      | 209/630 [00:14<00:29, 14.15it/s] 33%|███▎      | 211/630 [00:14<00:29, 14.15it/s] 34%|███▍      | 213/630 [00:15<00:29, 14.13it/s] 34%|███▍      | 215/630 [00:15<00:29, 14.12it/s] 34%|███▍      | 217/630 [00:15<00:29, 14.12it/s] 35%|███▍      | 219/630 [00:15<00:29, 14.13it/s] 35%|███▌      | 221/630 [00:15<00:28, 14.14it/s] 35%|███▌      | 223/630 [00:15<00:28, 14.12it/s] 36%|███▌      | 225/630 [00:15<00:28, 14.11it/s] 36%|███▌      | 227/630 [00:16<00:28, 14.11it/s] 36%|███▋      | 229/630 [00:16<00:28, 14.12it/s] 37%|███▋      | 231/630 [00:16<00:28, 14.13it/s] 37%|███▋      | 233/630 [00:16<00:28, 14.13it/s] 37%|███▋      | 235/630 [00:16<00:27, 14.14it/s] 38%|███▊      | 237/630 [00:16<00:27, 14.13it/s] 38%|███▊      | 239/630 [00:16<00:27, 14.12it/s] 38%|███▊      | 241/630 [00:17<00:27, 14.12it/s] 39%|███▊      | 243/630 [00:17<00:27, 14.13it/s] 39%|███▉      | 245/630 [00:17<00:27, 14.13it/s] 39%|███▉      | 247/630 [00:17<00:27, 14.13it/s] 40%|███▉      | 249/630 [00:17<00:27, 14.07it/s] 40%|███▉      | 251/630 [00:17<00:26, 14.13it/s] 40%|████      | 253/630 [00:17<00:25, 14.93it/s] 40%|████      | 255/630 [00:18<00:25, 14.68it/s] 41%|████      | 257/630 [00:18<00:25, 14.49it/s] 41%|████      | 259/630 [00:18<00:25, 14.38it/s] 41%|████▏     | 261/630 [00:18<00:25, 14.31it/s] 42%|████▏     | 263/630 [00:18<00:25, 14.25it/s] 42%|████▏     | 265/630 [00:18<00:25, 14.21it/s] 42%|████▏     | 267/630 [00:18<00:25, 14.18it/s] 43%|████▎     | 269/630 [00:19<00:25, 14.15it/s] 43%|████▎     | 271/630 [00:19<00:25, 14.15it/s] 43%|████▎     | 273/630 [00:19<00:25, 14.13it/s] 44%|████▎     | 275/630 [00:19<00:25, 14.13it/s] 44%|████▍     | 277/630 [00:19<00:24, 14.13it/s] 44%|████▍     | 279/630 [00:19<00:24, 14.11it/s] 45%|████▍     | 281/630 [00:19<00:24, 14.11it/s] 45%|████▍     | 283/630 [00:20<00:24, 14.11it/s] 45%|████▌     | 285/630 [00:20<00:24, 14.11it/s] 46%|████▌     | 287/630 [00:20<00:24, 14.11it/s] 46%|████▌     | 289/630 [00:20<00:24, 14.11it/s] 46%|████▌     | 291/630 [00:20<00:24, 14.08it/s] 47%|████▋     | 293/630 [00:20<00:23, 14.09it/s] 47%|████▋     | 295/630 [00:20<00:23, 14.10it/s] 47%|████▋     | 297/630 [00:20<00:23, 14.11it/s] 47%|████▋     | 299/630 [00:21<00:23, 14.11it/s]                                                 {'loss': 1.3103, 'grad_norm': 7.8832831382751465, 'learning_rate': 2.642857142857143e-05, 'epoch': 4.76}
+ 48%|████▊     | 300/630 [00:21<00:23, 14.11it/s] 48%|████▊     | 301/630 [00:21<00:23, 14.08it/s] 48%|████▊     | 303/630 [00:21<00:23, 14.09it/s] 48%|████▊     | 305/630 [00:21<00:23, 14.10it/s] 49%|████▊     | 307/630 [00:21<00:22, 14.11it/s] 49%|████▉     | 309/630 [00:21<00:22, 14.11it/s] 49%|████▉     | 311/630 [00:21<00:22, 14.08it/s] 50%|████▉     | 313/630 [00:22<00:22, 14.08it/s] 50%|█████     | 315/630 [00:22<00:21, 14.91it/s] 50%|█████     | 317/630 [00:22<00:21, 14.67it/s] 51%|█████     | 319/630 [00:22<00:21, 14.49it/s] 51%|█████     | 321/630 [00:22<00:21, 14.37it/s] 51%|█████▏    | 323/630 [00:22<00:21, 14.29it/s] 52%|█████▏    | 325/630 [00:22<00:21, 14.23it/s] 52%|█████▏    | 327/630 [00:23<00:21, 14.18it/s] 52%|█████▏    | 329/630 [00:23<00:21, 14.15it/s] 53%|█████▎    | 331/630 [00:23<00:21, 14.14it/s] 53%|█████▎    | 333/630 [00:23<00:21, 14.13it/s] 53%|█████▎    | 335/630 [00:23<00:20, 14.12it/s] 53%|█████▎    | 337/630 [00:23<00:20, 14.11it/s] 54%|█████▍    | 339/630 [00:23<00:20, 14.09it/s] 54%|█████▍    | 341/630 [00:24<00:20, 14.09it/s] 54%|█████▍    | 343/630 [00:24<00:20, 14.11it/s] 55%|█████▍    | 345/630 [00:24<00:20, 14.10it/s] 55%|█████▌    | 347/630 [00:24<00:20, 14.09it/s] 55%|█████▌    | 349/630 [00:24<00:19, 14.09it/s] 56%|█████▌    | 351/630 [00:24<00:19, 14.10it/s] 56%|█████▌    | 353/630 [00:24<00:19, 14.09it/s] 56%|█████▋    | 355/630 [00:25<00:19, 14.09it/s] 57%|█████▋    | 357/630 [00:25<00:19, 14.08it/s] 57%|█████▋    | 359/630 [00:25<00:19, 14.08it/s] 57%|█████▋    | 361/630 [00:25<00:19, 14.08it/s] 58%|█████▊    | 363/630 [00:25<00:18, 14.09it/s] 58%|█████▊    | 365/630 [00:25<00:18, 14.10it/s] 58%|█████▊    | 367/630 [00:25<00:18, 14.09it/s] 59%|█████▊    | 369/630 [00:26<00:18, 14.08it/s] 59%|█████▉    | 371/630 [00:26<00:18, 14.09it/s] 59%|█████▉    | 373/630 [00:26<00:18, 14.10it/s] 60%|█████▉    | 375/630 [00:26<00:18, 14.10it/s] 60%|█████▉    | 377/630 [00:26<00:17, 14.15it/s] 60%|██████    | 379/630 [00:26<00:16, 14.96it/s] 60%|██████    | 381/630 [00:26<00:16, 14.69it/s] 61%|██████    | 383/630 [00:27<00:17, 14.51it/s] 61%|██████    | 385/630 [00:27<00:17, 14.38it/s] 61%|██████▏   | 387/630 [00:27<00:17, 14.28it/s] 62%|██████▏   | 389/630 [00:27<00:16, 14.22it/s] 62%|██████▏   | 391/630 [00:27<00:16, 14.18it/s] 62%|██████▏   | 393/630 [00:27<00:16, 14.15it/s] 63%|██████▎   | 395/630 [00:27<00:16, 14.12it/s] 63%|██████▎   | 397/630 [00:28<00:16, 14.11it/s] 63%|██████▎   | 399/630 [00:28<00:16, 14.10it/s]                                                 {'loss': 1.2448, 'grad_norm': 8.13387680053711, 'learning_rate': 1.8492063492063493e-05, 'epoch': 6.35}
+ 63%|██████▎   | 400/630 [00:28<00:16, 14.10it/s] 64%|██████▎   | 401/630 [00:28<00:16, 14.09it/s] 64%|██████▍   | 403/630 [00:28<00:16, 14.05it/s] 64%|██████▍   | 405/630 [00:28<00:16, 14.04it/s] 65%|██████▍   | 407/630 [00:28<00:15, 14.05it/s] 65%|██████▍   | 409/630 [00:28<00:15, 14.06it/s] 65%|██████▌   | 411/630 [00:29<00:15, 14.05it/s] 66%|██████▌   | 413/630 [00:29<00:15, 14.05it/s] 66%|██████▌   | 415/630 [00:29<00:15, 14.07it/s] 66%|██████▌   | 417/630 [00:29<00:15, 14.07it/s] 67%|██████▋   | 419/630 [00:29<00:15, 14.06it/s] 67%|██████▋   | 421/630 [00:29<00:14, 14.05it/s] 67%|██████▋   | 423/630 [00:29<00:14, 14.05it/s] 67%|██████▋   | 425/630 [00:30<00:14, 14.06it/s] 68%|██████▊   | 427/630 [00:30<00:14, 14.07it/s] 68%|██████▊   | 429/630 [00:30<00:14, 14.05it/s] 68%|██████▊   | 431/630 [00:30<00:14, 14.05it/s] 69%|██████▊   | 433/630 [00:30<00:14, 14.07it/s] 69%|██████▉   | 435/630 [00:30<00:13, 14.06it/s] 69%|██████▉   | 437/630 [00:30<00:13, 14.06it/s] 70%|██████▉   | 439/630 [00:31<00:13, 14.05it/s] 70%|███████   | 441/630 [00:31<00:12, 14.88it/s] 70%|███████   | 443/630 [00:31<00:12, 14.64it/s] 71%|███████   | 445/630 [00:31<00:12, 14.45it/s] 71%|███████   | 447/630 [00:31<00:12, 14.32it/s] 71%|███████▏  | 449/630 [00:31<00:12, 14.24it/s] 72%|███████▏  | 451/630 [00:31<00:12, 14.18it/s] 72%|███████▏  | 453/630 [00:31<00:12, 14.13it/s] 72%|███████▏  | 455/630 [00:32<00:12, 14.12it/s] 73%|███████▎  | 457/630 [00:32<00:12, 14.10it/s] 73%|███████▎  | 459/630 [00:32<00:12, 14.08it/s] 73%|███████▎  | 461/630 [00:32<00:12, 14.06it/s] 73%|███████▎  | 463/630 [00:32<00:11, 14.05it/s] 74%|███████▍  | 465/630 [00:32<00:11, 14.05it/s] 74%|███████▍  | 467/630 [00:32<00:11, 14.05it/s] 74%|███████▍  | 469/630 [00:33<00:11, 14.04it/s] 75%|███████▍  | 471/630 [00:33<00:11, 14.05it/s] 75%|███████▌  | 473/630 [00:33<00:11, 14.05it/s] 75%|███████▌  | 475/630 [00:33<00:11, 14.05it/s] 76%|███████▌  | 477/630 [00:33<00:10, 14.03it/s] 76%|███████▌  | 479/630 [00:33<00:10, 14.04it/s] 76%|███████▋  | 481/630 [00:33<00:10, 14.05it/s] 77%|███████▋  | 483/630 [00:34<00:10, 14.05it/s] 77%|███████▋  | 485/630 [00:34<00:10, 14.04it/s] 77%|███████▋  | 487/630 [00:34<00:10, 14.05it/s] 78%|███████▊  | 489/630 [00:34<00:10, 14.06it/s] 78%|███████▊  | 491/630 [00:34<00:09, 14.05it/s] 78%|███████▊  | 493/630 [00:34<00:09, 14.04it/s] 79%|███████▊  | 495/630 [00:34<00:09, 14.04it/s] 79%|███████▉  | 497/630 [00:35<00:09, 14.04it/s] 79%|███████▉  | 499/630 [00:35<00:09, 14.04it/s]                                                 {'loss': 1.229, 'grad_norm': 7.581546783447266, 'learning_rate': 1.0555555555555555e-05, 'epoch': 7.94}
+ 79%|███████▉  | 500/630 [00:35<00:09, 14.04it/s] 80%|███████▉  | 501/630 [00:35<00:09, 14.02it/s] 80%|███████▉  | 503/630 [00:35<00:09, 14.08it/s] 80%|████████  | 505/630 [00:35<00:08, 14.87it/s] 80%|████████  | 507/630 [00:35<00:08, 14.60it/s] 81%|████████  | 509/630 [00:35<00:08, 14.43it/s] 81%|████████  | 511/630 [00:36<00:08, 14.31it/s] 81%|████████▏ | 513/630 [00:36<00:08, 14.22it/s] 82%|████████▏ | 515/630 [00:36<00:08, 14.16it/s] 82%|████████▏ | 517/630 [00:36<00:07, 14.13it/s] 82%|████████▏ | 519/630 [00:36<00:07, 14.11it/s] 83%|████████▎ | 521/630 [00:36<00:07, 14.08it/s] 83%|████████▎ | 523/630 [00:36<00:07, 14.07it/s] 83%|████████▎ | 525/630 [00:37<00:07, 14.07it/s] 84%|████████▎ | 527/630 [00:37<00:07, 14.05it/s] 84%|████████▍ | 529/630 [00:37<00:07, 14.04it/s] 84%|████████▍ | 531/630 [00:37<00:07, 14.03it/s] 85%|████████▍ | 533/630 [00:37<00:06, 14.04it/s] 85%|████████▍ | 535/630 [00:37<00:06, 14.04it/s] 85%|████████▌ | 537/630 [00:37<00:06, 14.03it/s] 86%|████████▌ | 539/630 [00:38<00:06, 14.03it/s] 86%|████████▌ | 541/630 [00:38<00:06, 14.03it/s] 86%|████████▌ | 543/630 [00:38<00:06, 14.03it/s] 87%|████████▋ | 545/630 [00:38<00:06, 14.02it/s] 87%|████████▋ | 547/630 [00:38<00:05, 14.02it/s] 87%|████████▋ | 549/630 [00:38<00:05, 14.03it/s] 87%|████████▋ | 551/630 [00:38<00:05, 14.02it/s] 88%|████████▊ | 553/630 [00:39<00:05, 14.02it/s] 88%|████████▊ | 555/630 [00:39<00:05, 14.04it/s] 88%|████████▊ | 557/630 [00:39<00:05, 14.03it/s] 89%|████████▊ | 559/630 [00:39<00:05, 14.03it/s] 89%|████████▉ | 561/630 [00:39<00:04, 13.99it/s] 89%|████████▉ | 563/630 [00:39<00:04, 14.00it/s] 90%|████████▉ | 565/630 [00:39<00:04, 14.00it/s] 90%|█████████ | 567/630 [00:40<00:04, 14.82it/s] 90%|█████████ | 569/630 [00:40<00:04, 14.61it/s] 91%|█████████ | 571/630 [00:40<00:04, 14.42it/s] 91%|█████████ | 573/630 [00:40<00:03, 14.29it/s] 91%|█████████▏| 575/630 [00:40<00:03, 14.21it/s] 92%|█████████▏| 577/630 [00:40<00:03, 14.15it/s] 92%|█████████▏| 579/630 [00:40<00:03, 14.10it/s] 92%|█████████▏| 581/630 [00:41<00:03, 14.07it/s] 93%|█████████▎| 583/630 [00:41<00:03, 14.06it/s] 93%|█████████▎| 585/630 [00:41<00:03, 14.05it/s] 93%|█████████▎| 587/630 [00:41<00:03, 14.04it/s] 93%|█████████▎| 589/630 [00:41<00:02, 14.05it/s] 94%|█████████▍| 591/630 [00:41<00:02, 14.03it/s] 94%|█████████▍| 593/630 [00:41<00:02, 14.03it/s] 94%|█████████▍| 595/630 [00:42<00:02, 14.01it/s] 95%|█████████▍| 597/630 [00:42<00:02, 14.03it/s] 95%|█████████▌| 599/630 [00:42<00:02, 14.03it/s]                                                 {'loss': 1.1551, 'grad_norm': 7.441709995269775, 'learning_rate': 2.6190476190476192e-06, 'epoch': 9.52}
+ 95%|█████████▌| 600/630 [00:42<00:02, 14.03it/s] 95%|█████████▌| 601/630 [00:42<00:02, 14.01it/s] 96%|█████████▌| 603/630 [00:42<00:01, 14.02it/s] 96%|█████████▌| 605/630 [00:42<00:01, 14.02it/s] 96%|█████████▋| 607/630 [00:42<00:01, 14.02it/s] 97%|█████████▋| 609/630 [00:43<00:01, 14.00it/s] 97%|█████████▋| 611/630 [00:43<00:01, 14.00it/s] 97%|█████████▋| 613/630 [00:43<00:01, 14.01it/s] 98%|█████████▊| 615/630 [00:43<00:01, 13.99it/s] 98%|█████████▊| 617/630 [00:43<00:00, 14.00it/s] 98%|█████████▊| 619/630 [00:43<00:00, 14.01it/s] 99%|█████████▊| 621/630 [00:43<00:00, 14.00it/s] 99%|█████████▉| 623/630 [00:44<00:00, 14.00it/s] 99%|█████████▉| 625/630 [00:44<00:00, 14.01it/s]100%|█████████▉| 627/630 [00:44<00:00, 14.03it/s]100%|█████████▉| 629/630 [00:44<00:00, 14.08it/s]                                                 {'train_runtime': 44.549, 'train_samples_per_second': 224.472, 'train_steps_per_second': 14.142, 'train_loss': 1.3404133690728082, 'epoch': 10.0}
+100%|██████████| 630/630 [00:44<00:00, 14.08it/s]100%|██████████| 630/630 [00:44<00:00, 14.14it/s]
+Calculating uncertainties for 4342 test samples after training (counterfactual mode: identity)...
+Processing test sample 1/4342 (after training)
+Processing test sample 2/4342 (after training)
+Processing test sample 3/4342 (after training)
+Processing test sample 4/4342 (after training)
+Processing test sample 5/4342 (after training)
+Processing test sample 6/4342 (after training)
+Processing test sample 7/4342 (after training)
+Processing test sample 8/4342 (after training)
+Processing test sample 9/4342 (after training)
+Processing test sample 10/4342 (after training)
+Processing test sample 11/4342 (after training)
+Processing test sample 12/4342 (after training)
+Processing test sample 13/4342 (after training)
+Processing test sample 14/4342 (after training)
+Processing test sample 15/4342 (after training)
+Processing test sample 16/4342 (after training)
+Processing test sample 17/4342 (after training)
+Processing test sample 18/4342 (after training)
+Processing test sample 19/4342 (after training)
+Processing test sample 20/4342 (after training)
+Processing test sample 21/4342 (after training)
+Processing test sample 22/4342 (after training)
+Processing test sample 23/4342 (after training)
+Processing test sample 24/4342 (after training)
+Processing test sample 25/4342 (after training)
+Processing test sample 26/4342 (after training)
+Processing test sample 27/4342 (after training)
+Processing test sample 28/4342 (after training)
+Processing test sample 29/4342 (after training)
+Processing test sample 30/4342 (after training)
+Processing test sample 31/4342 (after training)
+Processing test sample 32/4342 (after training)
+Processing test sample 33/4342 (after training)
+Processing test sample 34/4342 (after training)
+Processing test sample 35/4342 (after training)
+Processing test sample 36/4342 (after training)
+Processing test sample 37/4342 (after training)
+Processing test sample 38/4342 (after training)
+Processing test sample 39/4342 (after training)
+Processing test sample 40/4342 (after training)
+Processing test sample 41/4342 (after training)
+Processing test sample 42/4342 (after training)
+Processing test sample 43/4342 (after training)
+Processing test sample 44/4342 (after training)
+Processing test sample 45/4342 (after training)
+Processing test sample 46/4342 (after training)
+Processing test sample 47/4342 (after training)
+Processing test sample 48/4342 (after training)
+Processing test sample 49/4342 (after training)
+Processing test sample 50/4342 (after training)
+Processing test sample 51/4342 (after training)
+Processing test sample 52/4342 (after training)
+Processing test sample 53/4342 (after training)
+Processing test sample 54/4342 (after training)
+Processing test sample 55/4342 (after training)
+Processing test sample 56/4342 (after training)
+Processing test sample 57/4342 (after training)
+Processing test sample 58/4342 (after training)
+Processing test sample 59/4342 (after training)
+Processing test sample 60/4342 (after training)
+Processing test sample 61/4342 (after training)
+Processing test sample 62/4342 (after training)
+Processing test sample 63/4342 (after training)
+Processing test sample 64/4342 (after training)
+Processing test sample 65/4342 (after training)
+Processing test sample 66/4342 (after training)
+Processing test sample 67/4342 (after training)
+Processing test sample 68/4342 (after training)
+Processing test sample 69/4342 (after training)
+Processing test sample 70/4342 (after training)
+Processing test sample 71/4342 (after training)
+Processing test sample 72/4342 (after training)
+Processing test sample 73/4342 (after training)
+Processing test sample 74/4342 (after training)
+Processing test sample 75/4342 (after training)
+Processing test sample 76/4342 (after training)
+Processing test sample 77/4342 (after training)
+Processing test sample 78/4342 (after training)
+Processing test sample 79/4342 (after training)
+Processing test sample 80/4342 (after training)
+Processing test sample 81/4342 (after training)
+Processing test sample 82/4342 (after training)
+Processing test sample 83/4342 (after training)
+Processing test sample 84/4342 (after training)
+Processing test sample 85/4342 (after training)
+Processing test sample 86/4342 (after training)
+Processing test sample 87/4342 (after training)
+Processing test sample 88/4342 (after training)
+Processing test sample 89/4342 (after training)
+Processing test sample 90/4342 (after training)
+Processing test sample 91/4342 (after training)
+Processing test sample 92/4342 (after training)
+Processing test sample 93/4342 (after training)
+Processing test sample 94/4342 (after training)
+Processing test sample 95/4342 (after training)
+Processing test sample 96/4342 (after training)
+Processing test sample 97/4342 (after training)
+Processing test sample 98/4342 (after training)
+Processing test sample 99/4342 (after training)
+Processing test sample 100/4342 (after training)
+Processing test sample 101/4342 (after training)
+Processing test sample 102/4342 (after training)
+Processing test sample 103/4342 (after training)
+Processing test sample 104/4342 (after training)
+Processing test sample 105/4342 (after training)
+Processing test sample 106/4342 (after training)
+Processing test sample 107/4342 (after training)
+Processing test sample 108/4342 (after training)
+Processing test sample 109/4342 (after training)
+Processing test sample 110/4342 (after training)
+Processing test sample 111/4342 (after training)
+Processing test sample 112/4342 (after training)
+Processing test sample 113/4342 (after training)
+Processing test sample 114/4342 (after training)
+Processing test sample 115/4342 (after training)
+Processing test sample 116/4342 (after training)
+Processing test sample 117/4342 (after training)
+Processing test sample 118/4342 (after training)
+Processing test sample 119/4342 (after training)
+Processing test sample 120/4342 (after training)
+Processing test sample 121/4342 (after training)
+Processing test sample 122/4342 (after training)
+Processing test sample 123/4342 (after training)
+Processing test sample 124/4342 (after training)
+Processing test sample 125/4342 (after training)
+Processing test sample 126/4342 (after training)
+Processing test sample 127/4342 (after training)
+Processing test sample 128/4342 (after training)
+Processing test sample 129/4342 (after training)
+Processing test sample 130/4342 (after training)
+Processing test sample 131/4342 (after training)
+Processing test sample 132/4342 (after training)
+Processing test sample 133/4342 (after training)
+Processing test sample 134/4342 (after training)
+Processing test sample 135/4342 (after training)
+Processing test sample 136/4342 (after training)
+Processing test sample 137/4342 (after training)
+Processing test sample 138/4342 (after training)
+Processing test sample 139/4342 (after training)
+Processing test sample 140/4342 (after training)
+Processing test sample 141/4342 (after training)
+Processing test sample 142/4342 (after training)
+Processing test sample 143/4342 (after training)
+Processing test sample 144/4342 (after training)
+Processing test sample 145/4342 (after training)
+Processing test sample 146/4342 (after training)
+Processing test sample 147/4342 (after training)
+Processing test sample 148/4342 (after training)
+Processing test sample 149/4342 (after training)
+Processing test sample 150/4342 (after training)
+Processing test sample 151/4342 (after training)
+Processing test sample 152/4342 (after training)
+Processing test sample 153/4342 (after training)
+Processing test sample 154/4342 (after training)
+Processing test sample 155/4342 (after training)
+Processing test sample 156/4342 (after training)
+Processing test sample 157/4342 (after training)
+Processing test sample 158/4342 (after training)
+Processing test sample 159/4342 (after training)
+Processing test sample 160/4342 (after training)
+Processing test sample 161/4342 (after training)
+Processing test sample 162/4342 (after training)
+Processing test sample 163/4342 (after training)
+Processing test sample 164/4342 (after training)
+Processing test sample 165/4342 (after training)
+Processing test sample 166/4342 (after training)
+Processing test sample 167/4342 (after training)
+Processing test sample 168/4342 (after training)
+Processing test sample 169/4342 (after training)
+Processing test sample 170/4342 (after training)
+Processing test sample 171/4342 (after training)
+Processing test sample 172/4342 (after training)
+Processing test sample 173/4342 (after training)
+Processing test sample 174/4342 (after training)
+Processing test sample 175/4342 (after training)
+Processing test sample 176/4342 (after training)
+Processing test sample 177/4342 (after training)
+Processing test sample 178/4342 (after training)
+Processing test sample 179/4342 (after training)
+Processing test sample 180/4342 (after training)
+Processing test sample 181/4342 (after training)
+Processing test sample 182/4342 (after training)
+Processing test sample 183/4342 (after training)
+Processing test sample 184/4342 (after training)
+Processing test sample 185/4342 (after training)
+Processing test sample 186/4342 (after training)
+Processing test sample 187/4342 (after training)
+Processing test sample 188/4342 (after training)
+Processing test sample 189/4342 (after training)
+Processing test sample 190/4342 (after training)
+Processing test sample 191/4342 (after training)
+Processing test sample 192/4342 (after training)
+Processing test sample 193/4342 (after training)
+Processing test sample 194/4342 (after training)
+Processing test sample 195/4342 (after training)
+Processing test sample 196/4342 (after training)
+Processing test sample 197/4342 (after training)
+Processing test sample 198/4342 (after training)
+Processing test sample 199/4342 (after training)
+Processing test sample 200/4342 (after training)
+Processing test sample 201/4342 (after training)
+Processing test sample 202/4342 (after training)
+Processing test sample 203/4342 (after training)
+Processing test sample 204/4342 (after training)
+Processing test sample 205/4342 (after training)
+Processing test sample 206/4342 (after training)
+Processing test sample 207/4342 (after training)
+Processing test sample 208/4342 (after training)
+Processing test sample 209/4342 (after training)
+Processing test sample 210/4342 (after training)
+Processing test sample 211/4342 (after training)
+Processing test sample 212/4342 (after training)
+Processing test sample 213/4342 (after training)
+Processing test sample 214/4342 (after training)
+Processing test sample 215/4342 (after training)
+Processing test sample 216/4342 (after training)
+Processing test sample 217/4342 (after training)
+Processing test sample 218/4342 (after training)
+Processing test sample 219/4342 (after training)
+Processing test sample 220/4342 (after training)
+Processing test sample 221/4342 (after training)
+Processing test sample 222/4342 (after training)
+Processing test sample 223/4342 (after training)
+Processing test sample 224/4342 (after training)
+Processing test sample 225/4342 (after training)
+Processing test sample 226/4342 (after training)
+Processing test sample 227/4342 (after training)
+Processing test sample 228/4342 (after training)
+Processing test sample 229/4342 (after training)
+Processing test sample 230/4342 (after training)
+Processing test sample 231/4342 (after training)
+Processing test sample 232/4342 (after training)
+Processing test sample 233/4342 (after training)
+Processing test sample 234/4342 (after training)
+Processing test sample 235/4342 (after training)
+Processing test sample 236/4342 (after training)
+Processing test sample 237/4342 (after training)
+Processing test sample 238/4342 (after training)
+Processing test sample 239/4342 (after training)
+Processing test sample 240/4342 (after training)
+Processing test sample 241/4342 (after training)
+Processing test sample 242/4342 (after training)
+Processing test sample 243/4342 (after training)
+Processing test sample 244/4342 (after training)
+Processing test sample 245/4342 (after training)
+Processing test sample 246/4342 (after training)
+Processing test sample 247/4342 (after training)
+Processing test sample 248/4342 (after training)
+Processing test sample 249/4342 (after training)
+Processing test sample 250/4342 (after training)
+Processing test sample 251/4342 (after training)
+Processing test sample 252/4342 (after training)
+Processing test sample 253/4342 (after training)
+Processing test sample 254/4342 (after training)
+Processing test sample 255/4342 (after training)
+Processing test sample 256/4342 (after training)
+Processing test sample 257/4342 (after training)
+Processing test sample 258/4342 (after training)
+Processing test sample 259/4342 (after training)
+Processing test sample 260/4342 (after training)
+Processing test sample 261/4342 (after training)
+Processing test sample 262/4342 (after training)
+Processing test sample 263/4342 (after training)
+Processing test sample 264/4342 (after training)
+Processing test sample 265/4342 (after training)
+Processing test sample 266/4342 (after training)
+Processing test sample 267/4342 (after training)
+Processing test sample 268/4342 (after training)
+Processing test sample 269/4342 (after training)
+Processing test sample 270/4342 (after training)
+Processing test sample 271/4342 (after training)
+Processing test sample 272/4342 (after training)
+Processing test sample 273/4342 (after training)
+Processing test sample 274/4342 (after training)
+Processing test sample 275/4342 (after training)
+Processing test sample 276/4342 (after training)
+Processing test sample 277/4342 (after training)
+Processing test sample 278/4342 (after training)
+Processing test sample 279/4342 (after training)
+Processing test sample 280/4342 (after training)
+Processing test sample 281/4342 (after training)
+Processing test sample 282/4342 (after training)
+Processing test sample 283/4342 (after training)
+Processing test sample 284/4342 (after training)
+Processing test sample 285/4342 (after training)
+Processing test sample 286/4342 (after training)
+Processing test sample 287/4342 (after training)
+Processing test sample 288/4342 (after training)
+Processing test sample 289/4342 (after training)
+Processing test sample 290/4342 (after training)
+Processing test sample 291/4342 (after training)
+Processing test sample 292/4342 (after training)
+Processing test sample 293/4342 (after training)
+Processing test sample 294/4342 (after training)
+Processing test sample 295/4342 (after training)
+Processing test sample 296/4342 (after training)
+Processing test sample 297/4342 (after training)
+Processing test sample 298/4342 (after training)
+Processing test sample 299/4342 (after training)
+Processing test sample 300/4342 (after training)
+Processing test sample 301/4342 (after training)
+Processing test sample 302/4342 (after training)
+Processing test sample 303/4342 (after training)
+Processing test sample 304/4342 (after training)
+Processing test sample 305/4342 (after training)
+Processing test sample 306/4342 (after training)
+Processing test sample 307/4342 (after training)
+Processing test sample 308/4342 (after training)
+Processing test sample 309/4342 (after training)
+Processing test sample 310/4342 (after training)
+Processing test sample 311/4342 (after training)
+Processing test sample 312/4342 (after training)
+Processing test sample 313/4342 (after training)
+Processing test sample 314/4342 (after training)
+Processing test sample 315/4342 (after training)
+Processing test sample 316/4342 (after training)
+Processing test sample 317/4342 (after training)
+Processing test sample 318/4342 (after training)
+Processing test sample 319/4342 (after training)
+Processing test sample 320/4342 (after training)
+Processing test sample 321/4342 (after training)
+Processing test sample 322/4342 (after training)
+Processing test sample 323/4342 (after training)
+Processing test sample 324/4342 (after training)
+Processing test sample 325/4342 (after training)
+Processing test sample 326/4342 (after training)
+Processing test sample 327/4342 (after training)
+Processing test sample 328/4342 (after training)
+Processing test sample 329/4342 (after training)
+Processing test sample 330/4342 (after training)
+Processing test sample 331/4342 (after training)
+Processing test sample 332/4342 (after training)
+Error in bert_gradient: The size of tensor a (524) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 332 after training: 'dict' object has no attribute 'item'
+Processing test sample 333/4342 (after training)
+Processing test sample 334/4342 (after training)
+Processing test sample 335/4342 (after training)
+Processing test sample 336/4342 (after training)
+Processing test sample 337/4342 (after training)
+Processing test sample 338/4342 (after training)
+Processing test sample 339/4342 (after training)
+Processing test sample 340/4342 (after training)
+Processing test sample 341/4342 (after training)
+Processing test sample 342/4342 (after training)
+Processing test sample 343/4342 (after training)
+Processing test sample 344/4342 (after training)
+Processing test sample 345/4342 (after training)
+Processing test sample 346/4342 (after training)
+Processing test sample 347/4342 (after training)
+Processing test sample 348/4342 (after training)
+Processing test sample 349/4342 (after training)
+Processing test sample 350/4342 (after training)
+Processing test sample 351/4342 (after training)
+Processing test sample 352/4342 (after training)
+Processing test sample 353/4342 (after training)
+Processing test sample 354/4342 (after training)
+Processing test sample 355/4342 (after training)
+Processing test sample 356/4342 (after training)
+Processing test sample 357/4342 (after training)
+Processing test sample 358/4342 (after training)
+Processing test sample 359/4342 (after training)
+Processing test sample 360/4342 (after training)
+Processing test sample 361/4342 (after training)
+Processing test sample 362/4342 (after training)
+Processing test sample 363/4342 (after training)
+Processing test sample 364/4342 (after training)
+Processing test sample 365/4342 (after training)
+Processing test sample 366/4342 (after training)
+Processing test sample 367/4342 (after training)
+Processing test sample 368/4342 (after training)
+Processing test sample 369/4342 (after training)
+Processing test sample 370/4342 (after training)
+Processing test sample 371/4342 (after training)
+Processing test sample 372/4342 (after training)
+Processing test sample 373/4342 (after training)
+Processing test sample 374/4342 (after training)
+Processing test sample 375/4342 (after training)
+Processing test sample 376/4342 (after training)
+Processing test sample 377/4342 (after training)
+Processing test sample 378/4342 (after training)
+Processing test sample 379/4342 (after training)
+Processing test sample 380/4342 (after training)
+Processing test sample 381/4342 (after training)
+Processing test sample 382/4342 (after training)
+Processing test sample 383/4342 (after training)
+Processing test sample 384/4342 (after training)
+Processing test sample 385/4342 (after training)
+Processing test sample 386/4342 (after training)
+Processing test sample 387/4342 (after training)
+Processing test sample 388/4342 (after training)
+Processing test sample 389/4342 (after training)
+Processing test sample 390/4342 (after training)
+Processing test sample 391/4342 (after training)
+Processing test sample 392/4342 (after training)
+Processing test sample 393/4342 (after training)
+Processing test sample 394/4342 (after training)
+Processing test sample 395/4342 (after training)
+Processing test sample 396/4342 (after training)
+Processing test sample 397/4342 (after training)
+Processing test sample 398/4342 (after training)
+Processing test sample 399/4342 (after training)
+Processing test sample 400/4342 (after training)
+Processing test sample 401/4342 (after training)
+Processing test sample 402/4342 (after training)
+Processing test sample 403/4342 (after training)
+Processing test sample 404/4342 (after training)
+Processing test sample 405/4342 (after training)
+Processing test sample 406/4342 (after training)
+Processing test sample 407/4342 (after training)
+Processing test sample 408/4342 (after training)
+Processing test sample 409/4342 (after training)
+Processing test sample 410/4342 (after training)
+Processing test sample 411/4342 (after training)
+Processing test sample 412/4342 (after training)
+Processing test sample 413/4342 (after training)
+Processing test sample 414/4342 (after training)
+Processing test sample 415/4342 (after training)
+Processing test sample 416/4342 (after training)
+Processing test sample 417/4342 (after training)
+Processing test sample 418/4342 (after training)
+Processing test sample 419/4342 (after training)
+Processing test sample 420/4342 (after training)
+Processing test sample 421/4342 (after training)
+Processing test sample 422/4342 (after training)
+Processing test sample 423/4342 (after training)
+Processing test sample 424/4342 (after training)
+Processing test sample 425/4342 (after training)
+Processing test sample 426/4342 (after training)
+Processing test sample 427/4342 (after training)
+Processing test sample 428/4342 (after training)
+Processing test sample 429/4342 (after training)
+Processing test sample 430/4342 (after training)
+Processing test sample 431/4342 (after training)
+Processing test sample 432/4342 (after training)
+Processing test sample 433/4342 (after training)
+Processing test sample 434/4342 (after training)
+Processing test sample 435/4342 (after training)
+Processing test sample 436/4342 (after training)
+Processing test sample 437/4342 (after training)
+Processing test sample 438/4342 (after training)
+Processing test sample 439/4342 (after training)
+Processing test sample 440/4342 (after training)
+Processing test sample 441/4342 (after training)
+Processing test sample 442/4342 (after training)
+Processing test sample 443/4342 (after training)
+Processing test sample 444/4342 (after training)
+Processing test sample 445/4342 (after training)
+Processing test sample 446/4342 (after training)
+Processing test sample 447/4342 (after training)
+Processing test sample 448/4342 (after training)
+Processing test sample 449/4342 (after training)
+Processing test sample 450/4342 (after training)
+Processing test sample 451/4342 (after training)
+Processing test sample 452/4342 (after training)
+Processing test sample 453/4342 (after training)
+Processing test sample 454/4342 (after training)
+Processing test sample 455/4342 (after training)
+Processing test sample 456/4342 (after training)
+Processing test sample 457/4342 (after training)
+Processing test sample 458/4342 (after training)
+Processing test sample 459/4342 (after training)
+Processing test sample 460/4342 (after training)
+Processing test sample 461/4342 (after training)
+Processing test sample 462/4342 (after training)
+Processing test sample 463/4342 (after training)
+Processing test sample 464/4342 (after training)
+Processing test sample 465/4342 (after training)
+Processing test sample 466/4342 (after training)
+Processing test sample 467/4342 (after training)
+Processing test sample 468/4342 (after training)
+Processing test sample 469/4342 (after training)
+Processing test sample 470/4342 (after training)
+Processing test sample 471/4342 (after training)
+Processing test sample 472/4342 (after training)
+Processing test sample 473/4342 (after training)
+Processing test sample 474/4342 (after training)
+Processing test sample 475/4342 (after training)
+Processing test sample 476/4342 (after training)
+Processing test sample 477/4342 (after training)
+Processing test sample 478/4342 (after training)
+Processing test sample 479/4342 (after training)
+Processing test sample 480/4342 (after training)
+Processing test sample 481/4342 (after training)
+Processing test sample 482/4342 (after training)
+Processing test sample 483/4342 (after training)
+Processing test sample 484/4342 (after training)
+Processing test sample 485/4342 (after training)
+Error in bert_gradient: The size of tensor a (534) must match the size of tensor b (512) at non-singleton dimension 1
+Error processing test sample 485 after training: 'dict' object has no attribute 'item'
+Processing test sample 486/4342 (after training)
+Processing test sample 487/4342 (after training)
+Processing test sample 488/4342 (after training)
+Processing test sample 489/4342 (after training)
+Processing test sample 490/4342 (after training)
+Processing test sample 491/4342 (after training)
+Processing test sample 492/4342 (after training)
+Processing test sample 493/4342 (after training)
+Processing test sample 494/4342 (after training)
+Processing test sample 495/4342 (after training)
+Processing test sample 496/4342 (after training)
+Processing test sample 497/4342 (after training)
+Processing test sample 498/4342 (after training)
+Processing test sample 499/4342 (after training)
+Processing test sample 500/4342 (after training)
+Processing test sample 501/4342 (after training)
+Processing test sample 502/4342 (after training)
+Processing test sample 503/4342 (after training)
+Processing test sample 504/4342 (after training)
+Processing test sample 505/4342 (after training)
+Processing test sample 506/4342 (after training)
+Processing test sample 507/4342 (after training)
+Processing test sample 508/4342 (after training)
+Processing test sample 509/4342 (after training)
+Processing test sample 510/4342 (after training)
+Processing test sample 511/4342 (after training)
+Processing test sample 512/4342 (after training)
+Processing test sample 513/4342 (after training)
+Processing test sample 514/4342 (after training)
+Processing test sample 515/4342 (after training)
+Processing test sample 516/4342 (after training)
+Processing test sample 517/4342 (after training)
+Processing test sample 518/4342 (after training)
+Processing test sample 519/4342 (after training)
+Processing test sample 520/4342 (after training)
+Processing test sample 521/4342 (after training)
+Processing test sample 522/4342 (after training)
+Processing test sample 523/4342 (after training)
+Processing test sample 524/4342 (after training)
+Processing test sample 525/4342 (after training)
+Processing test sample 526/4342 (after training)
+Processing test sample 527/4342 (after training)
+Processing test sample 528/4342 (after training)
+Processing test sample 529/4342 (after training)
+Processing test sample 530/4342 (after training)
+Processing test sample 531/4342 (after training)
+Processing test sample 532/4342 (after training)
+Processing test sample 533/4342 (after training)
+Processing test sample 534/4342 (after training)
+Processing test sample 535/4342 (after training)
+Processing test sample 536/4342 (after training)
+Processing test sample 537/4342 (after training)
+Processing test sample 538/4342 (after training)
+Processing test sample 539/4342 (after training)
+Processing test sample 540/4342 (after training)
+Processing test sample 541/4342 (after training)
+Processing test sample 542/4342 (after training)
+Processing test sample 543/4342 (after training)
+Processing test sample 544/4342 (after training)
+Processing test sample 545/4342 (after training)
+Processing test sample 546/4342 (after training)
+Processing test sample 547/4342 (after training)
+Processing test sample 548/4342 (after training)
+Processing test sample 549/4342 (after training)
+Processing test sample 550/4342 (after training)
+Processing test sample 551/4342 (after training)
+Processing test sample 552/4342 (after training)
+Processing test sample 553/4342 (after training)
+Processing test sample 554/4342 (after training)
+Processing test sample 555/4342 (after training)
+Processing test sample 556/4342 (after training)
+Processing test sample 557/4342 (after training)
+Processing test sample 558/4342 (after training)
+Processing test sample 559/4342 (after training)
+Processing test sample 560/4342 (after training)
+Processing test sample 561/4342 (after training)
+Processing test sample 562/4342 (after training)
+Processing test sample 563/4342 (after training)
+Processing test sample 564/4342 (after training)
+Processing test sample 565/4342 (after training)
+Processing test sample 566/4342 (after training)
+Processing test sample 567/4342 (after training)
+Processing test sample 568/4342 (after training)
+Processing test sample 569/4342 (after training)
+Processing test sample 570/4342 (after training)
+Processing test sample 571/4342 (after training)
+Processing test sample 572/4342 (after training)
+Processing test sample 573/4342 (after training)
+Processing test sample 574/4342 (after training)
+Processing test sample 575/4342 (after training)
+Processing test sample 576/4342 (after training)
+Processing test sample 577/4342 (after training)
+Processing test sample 578/4342 (after training)
+Processing test sample 579/4342 (after training)
+Processing test sample 580/4342 (after training)
+Processing test sample 581/4342 (after training)
+Processing test sample 582/4342 (after training)
+Processing test sample 583/4342 (after training)
+Processing test sample 584/4342 (after training)
+Processing test sample 585/4342 (after training)
+Processing test sample 586/4342 (after training)
+Processing test sample 587/4342 (after training)
+Processing test sample 588/4342 (after training)
+Processing test sample 589/4342 (after training)
+Processing test sample 590/4342 (after training)
+Processing test sample 591/4342 (after training)
+Processing test sample 592/4342 (after training)
+Processing test sample 593/4342 (after training)
+Processing test sample 594/4342 (after training)
+Processing test sample 595/4342 (after training)
+Processing test sample 596/4342 (after training)
+Processing test sample 597/4342 (after training)
+Processing test sample 598/4342 (after training)
+Processing test sample 599/4342 (after training)
+Processing test sample 600/4342 (after training)
+Processing test sample 601/4342 (after training)
+Processing test sample 602/4342 (after training)
+Processing test sample 603/4342 (after training)
+Processing test sample 604/4342 (after training)
+Processing test sample 605/4342 (after training)
+Processing test sample 606/4342 (after training)
+Processing test sample 607/4342 (after training)
+Processing test sample 608/4342 (after training)
+Processing test sample 609/4342 (after training)
+Processing test sample 610/4342 (after training)
+Processing test sample 611/4342 (after training)
+Processing test sample 612/4342 (after training)
+Processing test sample 613/4342 (after training)
+Processing test sample 614/4342 (after training)
+Processing test sample 615/4342 (after training)
+Processing test sample 616/4342 (after training)
+Processing test sample 617/4342 (after training)
+Processing test sample 618/4342 (after training)
+Processing test sample 619/4342 (after training)
+Processing test sample 620/4342 (after training)
+Processing test sample 621/4342 (after training)
+Processing test sample 622/4342 (after training)
+Processing test sample 623/4342 (after training)
+Processing test sample 624/4342 (after training)
+Processing test sample 625/4342 (after training)
+Processing test sample 626/4342 (after training)
+Processing test sample 627/4342 (after training)
+Processing test sample 628/4342 (after training)
+Processing test sample 629/4342 (after training)
+Processing test sample 630/4342 (after training)
+Processing test sample 631/4342 (after training)
+Processing test sample 632/4342 (after training)
+Processing test sample 633/4342 (after training)
+Processing test sample 634/4342 (after training)
+Processing test sample 635/4342 (after training)
+Processing test sample 636/4342 (after training)
+Processing test sample 637/4342 (after training)
+Processing test sample 638/4342 (after training)
+Processing test sample 639/4342 (after training)
+Processing test sample 640/4342 (after training)
+Processing test sample 641/4342 (after training)
+Processing test sample 642/4342 (after training)
+Processing test sample 643/4342 (after training)
+Processing test sample 644/4342 (after training)
+Processing test sample 645/4342 (after training)
+Processing test sample 646/4342 (after training)
+Processing test sample 647/4342 (after training)
+Processing test sample 648/4342 (after training)
+Processing test sample 649/4342 (after training)
+Processing test sample 650/4342 (after training)
+Processing test sample 651/4342 (after training)
+Processing test sample 652/4342 (after training)
+Processing test sample 653/4342 (after training)
+Processing test sample 654/4342 (after training)
+Processing test sample 655/4342 (after training)
+Processing test sample 656/4342 (after training)
+Processing test sample 657/4342 (after training)
+Processing test sample 658/4342 (after training)
+Processing test sample 659/4342 (after training)
+Processing test sample 660/4342 (after training)
+Processing test sample 661/4342 (after training)
+Processing test sample 662/4342 (after training)
+Processing test sample 663/4342 (after training)
+Processing test sample 664/4342 (after training)
+Processing test sample 665/4342 (after training)
+Processing test sample 666/4342 (after training)
+Processing test sample 667/4342 (after training)
+Processing test sample 668/4342 (after training)
+Processing test sample 669/4342 (after training)
+Processing test sample 670/4342 (after training)
+Processing test sample 671/4342 (after training)
+Processing test sample 672/4342 (after training)
+Processing test sample 673/4342 (after training)
+Processing test sample 674/4342 (after training)
+Processing test sample 675/4342 (after training)
+Processing test sample 676/4342 (after training)
+Processing test sample 677/4342 (after training)
+Processing test sample 678/4342 (after training)
+Processing test sample 679/4342 (after training)
+Processing test sample 680/4342 (after training)
+Processing test sample 681/4342 (after training)
+Processing test sample 682/4342 (after training)
+Processing test sample 683/4342 (after training)
+Processing test sample 684/4342 (after training)
+Processing test sample 685/4342 (after training)
+Processing test sample 686/4342 (after training)
+Processing test sample 687/4342 (after training)
+Processing test sample 688/4342 (after training)
+Processing test sample 689/4342 (after training)
+Processing test sample 690/4342 (after training)
+Processing test sample 691/4342 (after training)
+Processing test sample 692/4342 (after training)
+Processing test sample 693/4342 (after training)
+Processing test sample 694/4342 (after training)
+Processing test sample 695/4342 (after training)
+Processing test sample 696/4342 (after training)
+Processing test sample 697/4342 (after training)
+Processing test sample 698/4342 (after training)
+Processing test sample 699/4342 (after training)
+Processing test sample 700/4342 (after training)
+Processing test sample 701/4342 (after training)
+Processing test sample 702/4342 (after training)
+Processing test sample 703/4342 (after training)
+Processing test sample 704/4342 (after training)
+Processing test sample 705/4342 (after training)
+Processing test sample 706/4342 (after training)
+Processing test sample 707/4342 (after training)
+Processing test sample 708/4342 (after training)
+Processing test sample 709/4342 (after training)
+Processing test sample 710/4342 (after training)
+Processing test sample 711/4342 (after training)
+Processing test sample 712/4342 (after training)
+Processing test sample 713/4342 (after training)
+Processing test sample 714/4342 (after training)
+Processing test sample 715/4342 (after training)
+Processing test sample 716/4342 (after training)
+Processing test sample 717/4342 (after training)
+Processing test sample 718/4342 (after training)
+Processing test sample 719/4342 (after training)
+Processing test sample 720/4342 (after training)
+Processing test sample 721/4342 (after training)
+Processing test sample 722/4342 (after training)
+Processing test sample 723/4342 (after training)
+Processing test sample 724/4342 (after training)
+Processing test sample 725/4342 (after training)
+Processing test sample 726/4342 (after training)
+Processing test sample 727/4342 (after training)
+Processing test sample 728/4342 (after training)
+Processing test sample 729/4342 (after training)
+Processing test sample 730/4342 (after training)
+Processing test sample 731/4342 (after training)
+Processing test sample 732/4342 (after training)
+Processing test sample 733/4342 (after training)
+Processing test sample 734/4342 (after training)
+Processing test sample 735/4342 (after training)
+Processing test sample 736/4342 (after training)
+Processing test sample 737/4342 (after training)
+Processing test sample 738/4342 (after training)
+Processing test sample 739/4342 (after training)
+Processing test sample 740/4342 (after training)
+Processing test sample 741/4342 (after training)
+Processing test sample 742/4342 (after training)
+Processing test sample 743/4342 (after training)
+Processing test sample 744/4342 (after training)
+Processing test sample 745/4342 (after training)
+Processing test sample 746/4342 (after training)
+Processing test sample 747/4342 (after training)
+Processing test sample 748/4342 (after training)
+Processing test sample 749/4342 (after training)
+Processing test sample 750/4342 (after training)
+Processing test sample 751/4342 (after training)
+Processing test sample 752/4342 (after training)
+Processing test sample 753/4342 (after training)
+Processing test sample 754/4342 (after training)
+Processing test sample 755/4342 (after training)
+Processing test sample 756/4342 (after training)
+Processing test sample 757/4342 (after training)
+Processing test sample 758/4342 (after training)
+Processing test sample 759/4342 (after training)
+Processing test sample 760/4342 (after training)
+Processing test sample 761/4342 (after training)
+Processing test sample 762/4342 (after training)
+Processing test sample 763/4342 (after training)
+Processing test sample 764/4342 (after training)
+Processing test sample 765/4342 (after training)
+Processing test sample 766/4342 (after training)
+Processing test sample 767/4342 (after training)
+Processing test sample 768/4342 (after training)
+Processing test sample 769/4342 (after training)
+Processing test sample 770/4342 (after training)
+Processing test sample 771/4342 (after training)
+Processing test sample 772/4342 (after training)
+Processing test sample 773/4342 (after training)
+Processing test sample 774/4342 (after training)
+Processing test sample 775/4342 (after training)
+Processing test sample 776/4342 (after training)
+Processing test sample 777/4342 (after training)
+Processing test sample 778/4342 (after training)
+Processing test sample 779/4342 (after training)
+Processing test sample 780/4342 (after training)
+Processing test sample 781/4342 (after training)
+Processing test sample 782/4342 (after training)
+Processing test sample 783/4342 (after training)
+Processing test sample 784/4342 (after training)
+Processing test sample 785/4342 (after training)
+Processing test sample 786/4342 (after training)
+Processing test sample 787/4342 (after training)
+Processing test sample 788/4342 (after training)
+Processing test sample 789/4342 (after training)
+Processing test sample 790/4342 (after training)
+Processing test sample 791/4342 (after training)
+Processing test sample 792/4342 (after training)
+Processing test sample 793/4342 (after training)
+Processing test sample 794/4342 (after training)
+Processing test sample 795/4342 (after training)
+Processing test sample 796/4342 (after training)
+Processing test sample 797/4342 (after training)
+Processing test sample 798/4342 (after training)
+Processing test sample 799/4342 (after training)
+Processing test sample 800/4342 (after training)
+Processing test sample 801/4342 (after training)
+Processing test sample 802/4342 (after training)
+Processing test sample 803/4342 (after training)
+Processing test sample 804/4342 (after training)
+Processing test sample 805/4342 (after training)
+Processing test sample 806/4342 (after training)
+Processing test sample 807/4342 (after training)
+Processing test sample 808/4342 (after training)
+Processing test sample 809/4342 (after training)
+Processing test sample 810/4342 (after training)
+Processing test sample 811/4342 (after training)
+Processing test sample 812/4342 (after training)
+Processing test sample 813/4342 (after training)
+Processing test sample 814/4342 (after training)
+Processing test sample 815/4342 (after training)
+Processing test sample 816/4342 (after training)
+Processing test sample 817/4342 (after training)
+Processing test sample 818/4342 (after training)
+Processing test sample 819/4342 (after training)
+Processing test sample 820/4342 (after training)
+Processing test sample 821/4342 (after training)
+Processing test sample 822/4342 (after training)
+Processing test sample 823/4342 (after training)
+Processing test sample 824/4342 (after training)
+Processing test sample 825/4342 (after training)
+Processing test sample 826/4342 (after training)
+Processing test sample 827/4342 (after training)
+Processing test sample 828/4342 (after training)
+Processing test sample 829/4342 (after training)
+Processing test sample 830/4342 (after training)
+Processing test sample 831/4342 (after training)
+Processing test sample 832/4342 (after training)
+Processing test sample 833/4342 (after training)
+Processing test sample 834/4342 (after training)
+Processing test sample 835/4342 (after training)
+Processing test sample 836/4342 (after training)
+Processing test sample 837/4342 (after training)
+Processing test sample 838/4342 (after training)
+Processing test sample 839/4342 (after training)
+Processing test sample 840/4342 (after training)
+Processing test sample 841/4342 (after training)
+Processing test sample 842/4342 (after training)
+Processing test sample 843/4342 (after training)
+Processing test sample 844/4342 (after training)
+Processing test sample 845/4342 (after training)
+Processing test sample 846/4342 (after training)
+Processing test sample 847/4342 (after training)
+Processing test sample 848/4342 (after training)
+Processing test sample 849/4342 (after training)
+Processing test sample 850/4342 (after training)
+Processing test sample 851/4342 (after training)
+Processing test sample 852/4342 (after training)
+Processing test sample 853/4342 (after training)
+Processing test sample 854/4342 (after training)
+Processing test sample 855/4342 (after training)
+Processing test sample 856/4342 (after training)
+Processing test sample 857/4342 (after training)
+Processing test sample 858/4342 (after training)
+Processing test sample 859/4342 (after training)
+Processing test sample 860/4342 (after training)
+Processing test sample 861/4342 (after training)
+Processing test sample 862/4342 (after training)
+Processing test sample 863/4342 (after training)
+Processing test sample 864/4342 (after training)
+Processing test sample 865/4342 (after training)
+Processing test sample 866/4342 (after training)
+Processing test sample 867/4342 (after training)
+Processing test sample 868/4342 (after training)
+Processing test sample 869/4342 (after training)
+Processing test sample 870/4342 (after training)
+Processing test sample 871/4342 (after training)
+Processing test sample 872/4342 (after training)
+Processing test sample 873/4342 (after training)
+Processing test sample 874/4342 (after training)
+Processing test sample 875/4342 (after training)
+Processing test sample 876/4342 (after training)
+Processing test sample 877/4342 (after training)
+Processing test sample 878/4342 (after training)
+Processing test sample 879/4342 (after training)
+Processing test sample 880/4342 (after training)
+Processing test sample 881/4342 (after training)
+Processing test sample 882/4342 (after training)
+Processing test sample 883/4342 (after training)
+Processing test sample 884/4342 (after training)
+Processing test sample 885/4342 (after training)
+Processing test sample 886/4342 (after training)
+Processing test sample 887/4342 (after training)
+Processing test sample 888/4342 (after training)
+Processing test sample 889/4342 (after training)
+Processing test sample 890/4342 (after training)
+Processing test sample 891/4342 (after training)
+Processing test sample 892/4342 (after training)
+Processing test sample 893/4342 (after training)
+Processing test sample 894/4342 (after training)
+Processing test sample 895/4342 (after training)
+Processing test sample 896/4342 (after training)
+Processing test sample 897/4342 (after training)
+Processing test sample 898/4342 (after training)
+Processing test sample 899/4342 (after training)
+Processing test sample 900/4342 (after training)
+Processing test sample 901/4342 (after training)
+Processing test sample 902/4342 (after training)
+Processing test sample 903/4342 (after training)
+Processing test sample 904/4342 (after training)
+Processing test sample 905/4342 (after training)
+Processing test sample 906/4342 (after training)
+Processing test sample 907/4342 (after training)
+Processing test sample 908/4342 (after training)
+Processing test sample 909/4342 (after training)
+Processing test sample 910/4342 (after training)
+Processing test sample 911/4342 (after training)
+Processing test sample 912/4342 (after training)
+Processing test sample 913/4342 (after training)
+Processing test sample 914/4342 (after training)
+Processing test sample 915/4342 (after training)
+Processing test sample 916/4342 (after training)
+Processing test sample 917/4342 (after training)
+Processing test sample 918/4342 (after training)
+Processing test sample 919/4342 (after training)
+Processing test sample 920/4342 (after training)
+Processing test sample 921/4342 (after training)
+Processing test sample 922/4342 (after training)
+Processing test sample 923/4342 (after training)
+Processing test sample 924/4342 (after training)
+Processing test sample 925/4342 (after training)
+Processing test sample 926/4342 (after training)
+Processing test sample 927/4342 (after training)
+Processing test sample 928/4342 (after training)
+Processing test sample 929/4342 (after training)
+Processing test sample 930/4342 (after training)
+Processing test sample 931/4342 (after training)
+Processing test sample 932/4342 (after training)
+Processing test sample 933/4342 (after training)
+Processing test sample 934/4342 (after training)
+Processing test sample 935/4342 (after training)
+Processing test sample 936/4342 (after training)
+Processing test sample 937/4342 (after training)
+Processing test sample 938/4342 (after training)
+Processing test sample 939/4342 (after training)
+Processing test sample 940/4342 (after training)
+Processing test sample 941/4342 (after training)
+Processing test sample 942/4342 (after training)
+Processing test sample 943/4342 (after training)
+Processing test sample 944/4342 (after training)
+Processing test sample 945/4342 (after training)
+Processing test sample 946/4342 (after training)
+Processing test sample 947/4342 (after training)
+Processing test sample 948/4342 (after training)
+Processing test sample 949/4342 (after training)
+Processing test sample 950/4342 (after training)
+Processing test sample 951/4342 (after training)
+Processing test sample 952/4342 (after training)
+Processing test sample 953/4342 (after training)
+Processing test sample 954/4342 (after training)
+Processing test sample 955/4342 (after training)
+Processing test sample 956/4342 (after training)
+Processing test sample 957/4342 (after training)
+Processing test sample 958/4342 (after training)
+Processing test sample 959/4342 (after training)
+Processing test sample 960/4342 (after training)
+Processing test sample 961/4342 (after training)
+Processing test sample 962/4342 (after training)
+Processing test sample 963/4342 (after training)
+Processing test sample 964/4342 (after training)
+Processing test sample 965/4342 (after training)
+Processing test sample 966/4342 (after training)
+Processing test sample 967/4342 (after training)
+Processing test sample 968/4342 (after training)
+Processing test sample 969/4342 (after training)
+Processing test sample 970/4342 (after training)
+Processing test sample 971/4342 (after training)
+Processing test sample 972/4342 (after training)
+Processing test sample 973/4342 (after training)
+Processing test sample 974/4342 (after training)
+Processing test sample 975/4342 (after training)
+Processing test sample 976/4342 (after training)
+Processing test sample 977/4342 (after training)
+Processing test sample 978/4342 (after training)
+Processing test sample 979/4342 (after training)
+Processing test sample 980/4342 (after training)
+Processing test sample 981/4342 (after training)
+Processing test sample 982/4342 (after training)
+Processing test sample 983/4342 (after training)
