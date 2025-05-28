@@ -22,3 +22,25 @@ Using full train dataset with 1000 samples.
 Using full test dataset with 4342 samples.
 Loading model: meta-llama/Llama-3.2-3B
 Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Downloading shards:  50%|█████     | 1/2 [01:51<01:51, 111.54s/it]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Downloading shards: 100%|██████████| 2/2 [02:24<00:00, 65.33s/it] Downloading shards: 100%|██████████| 2/2 [02:24<00:00, 72.27s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:43<00:43, 43.57s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:56<00:00, 25.55s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:56<00:00, 28.25s/it]
+Using device: cuda
+Map:   0%|          | 0/1000 [00:00<?, ? examples/s]Map: 100%|██████████| 1000/1000 [00:00<00:00, 8249.85 examples/s]Map: 100%|██████████| 1000/1000 [00:00<00:00, 8096.06 examples/s]
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/llama.py:306: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Calculating uncertainties for 4342 test samples before training (counterfactual mode: identity)...
+Processing test sample 1/4342 (before training)
+Error in bert_gradient: CUDA out of memory. Tried to allocate 36.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 5.06 MiB is free. Including non-PyTorch memory, this process has 19.54 GiB memory in use. Of the allocated memory 19.12 GiB is allocated by PyTorch, and 198.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error processing test sample 1 before training: 'dict' object has no attribute 'item'
+Processing test sample 2/4342 (before training)
+Error in bert_gradient: CUDA out of memory. Tried to allocate 36.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 27.06 MiB is free. Including non-PyTorch memory, this process has 19.52 GiB memory in use. Of the allocated memory 19.15 GiB is allocated by PyTorch, and 149.80 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error processing test sample 2 before training: 'dict' object has no attribute 'item'
+Processing test sample 3/4342 (before training)
+Error in bert_gradient: CUDA out of memory. Tried to allocate 96.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 19.06 MiB is free. Including non-PyTorch memory, this process has 19.53 GiB memory in use. Of the allocated memory 19.06 GiB is allocated by PyTorch, and 250.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error processing test sample 3 before training: 'dict' object has no attribute 'item'
+Processing test sample 4/4342 (before training)
+Error in bert_gradient: CUDA out of memory. Tried to allocate 96.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 67.06 MiB is free. Including non-PyTorch memory, this process has 19.48 GiB memory in use. Of the allocated memory 19.17 GiB is allocated by PyTorch, and 85.96 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error processing test sample 4 before training: 'dict' object has no attribute 'item'
+Processing test sample 5/4342 (before training)
+Error in bert_gradient: CUDA out of memory. Tried to allocate 36.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 19.06 MiB is free. Including non-PyTorch memory, this process has 19.53 GiB memory in use. Of the allocated memory 19.19 GiB is allocated by PyTorch, and 110.43 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
