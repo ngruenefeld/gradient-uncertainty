@@ -1,0 +1,24 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: b86a0e9b3fb69818e86638eb24c4b2157fd73917
+Running command: python -um scripts.llama "6560" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --quantization 0 --dataset "mmlu" --model "llama-3.2-3b"
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 6560
+Key mode: keyfile
+Sample size: 0
+Normalize: False
+Counterfactual: identity
+Dataset: mmlu
+Model: llama-3.2-3b
+Replacement probability: 1.0
+Quantization bits: None (full precision)
+Epochs: 100
+Using full train dataset with 1000 samples.
+Using full test dataset with 4342 samples.
+Loading model: meta-llama/Llama-3.2-3B
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
