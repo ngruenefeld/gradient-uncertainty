@@ -1,0 +1,54 @@
+slurmstepd-charnockit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-charnockit: error: Setting TMPDIR to /tmp
+Running evaluation job with commit: 080f277ae61ae4b6f3258b69d1185b7640f0922a
+Job numbers to process: 6878 6893
+Total jobs: 2
+
+=========================================
+Processing job 1/2: 6878
+=========================================
+Running command: python -um scripts.evaluate_answers "6878" --gpt_model "gpt-4o-mini-2024-07-18" --key_mode "keyfile"
+Job number: 6878
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Overwrite existing evaluations: True
+Found 1 files to process:
+  data/test/results_6878_llama-awq_rephrase_truthful.pkl
+Processing file: data/test/results_6878_llama-awq_rephrase_truthful.pkl
+  Found 10 entries to evaluate out of 10 total
+Evaluating entries:   0%|          | 0/10 [00:00<?, ?it/s]Evaluating entries:  10%|█         | 1/10 [00:00<00:06,  1.29it/s]Evaluating entries:  20%|██        | 2/10 [00:01<00:06,  1.23it/s]Evaluating entries:  30%|███       | 3/10 [00:02<00:05,  1.39it/s]Evaluating entries:  40%|████      | 4/10 [00:02<00:04,  1.48it/s]Evaluating entries:  50%|█████     | 5/10 [00:03<00:03,  1.37it/s]Evaluating entries:  60%|██████    | 6/10 [00:04<00:03,  1.21it/s]Evaluating entries:  70%|███████   | 7/10 [00:05<00:02,  1.33it/s]Evaluating entries:  80%|████████  | 8/10 [00:06<00:01,  1.32it/s]Evaluating entries:  90%|█████████ | 9/10 [00:06<00:00,  1.45it/s]Evaluating entries: 100%|██████████| 10/10 [00:07<00:00,  1.35it/s]Evaluating entries: 100%|██████████| 10/10 [00:07<00:00,  1.35it/s]
+  Completed evaluations: 10 successful, 0 failed
+  Updated results saved to data/test/results_6878_llama-awq_rephrase_truthful.pkl
+
+Evaluation complete:
+  Successfully processed: 1 files
+  Failed to process: 0 files
+✅ Job 6878 completed successfully
+
+=========================================
+Processing job 2/2: 6893
+=========================================
+Running command: python -um scripts.evaluate_answers "6893" --gpt_model "gpt-4o-mini-2024-07-18" --key_mode "keyfile"
+Job number: 6893
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Overwrite existing evaluations: True
+Found 1 files to process:
+  data/test/results_6893_llama-awq_rephrase_high_truthful.pkl
+Processing file: data/test/results_6893_llama-awq_rephrase_high_truthful.pkl
+  Found 10 entries to evaluate out of 10 total
+Evaluating entries:   0%|          | 0/10 [00:00<?, ?it/s]Evaluating entries:  10%|█         | 1/10 [00:00<00:07,  1.23it/s]Evaluating entries:  20%|██        | 2/10 [00:01<00:05,  1.44it/s]Evaluating entries:  30%|███       | 3/10 [00:02<00:04,  1.50it/s]Evaluating entries:  40%|████      | 4/10 [00:02<00:03,  1.58it/s]Evaluating entries:  50%|█████     | 5/10 [00:03<00:03,  1.60it/s]Evaluating entries:  60%|██████    | 6/10 [00:04<00:02,  1.40it/s]Evaluating entries:  70%|███████   | 7/10 [00:04<00:02,  1.44it/s]Evaluating entries:  80%|████████  | 8/10 [00:05<00:01,  1.44it/s]Evaluating entries:  90%|█████████ | 9/10 [00:06<00:00,  1.43it/s]Evaluating entries: 100%|██████████| 10/10 [00:06<00:00,  1.40it/s]Evaluating entries: 100%|██████████| 10/10 [00:06<00:00,  1.44it/s]
+  Completed evaluations: 10 successful, 0 failed
+  Updated results saved to data/test/results_6893_llama-awq_rephrase_high_truthful.pkl
+
+Evaluation complete:
+  Successfully processed: 1 files
+  Failed to process: 0 files
+✅ Job 6893 completed successfully
+
+=========================================
+EVALUATION SUMMARY
+=========================================
+Total jobs processed: 2
+Successful: 2
+Failed: 0
