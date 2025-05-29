@@ -46,3 +46,9 @@ Sample 9 (dataset index 509) processed successfully with 3 rephrasings.
 Processing sample 10/10 (dataset index: 743)
 Sample 10 (dataset index 743) processed successfully with 3 rephrasings.
 Processing complete. Saved 10 successful results. Failed: 0. Skipped: 0
+[main c7e3fc2] QA Script Results for Run 7022 (Commit: f68a575)
+ 5 files changed, 74 insertions(+)
+ create mode 100644 data/test/results_7022_llama-awq_rephrase_low_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.7022.abakus12.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   f68a575..c7e3fc2  main -> main
