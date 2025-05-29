@@ -32,6 +32,7 @@ def main(args):
     normalize = args.normalize
     perturbation_mode = args.perturbation_mode
     number_of_perturbations = args.number_of_perturbations
+    skip_evaluation = args.skip_evaluation
 
     mode = "full" if sample_size == 0 else "test" if sample_size < 100 else "sampled"
 
@@ -51,6 +52,7 @@ def main(args):
     print(f"Normalize: {normalize}")
     print(f"Perturbation mode: {perturbation_mode}")
     print(f"Number of perturbations: {number_of_perturbations}")
+    print(f"Skip evaluation: {skip_evaluation}")
 
     if model_name == "gpt2":
         model_path = "gpt2"
@@ -73,26 +75,35 @@ def main(args):
             f"Model {model_name} not recognized. Please use one of the following: gpt2, llama-awq, llama-3-8b, llama-3.1-8b, llama-3.2-3b, llama-3-chatqa-quantized, deepseek-r1-distill-qwen-1.5b, phi4, deepseek-v3."
         )
 
+    # Initialize OpenAI client if needed (for evaluation or rephrase perturbations)
+    oai_client = None
+    if not skip_evaluation or perturbation_mode == "rephrase":
+        if key_mode == "keyfile":
+            with open(os.path.expanduser(".oai_api_key"), "r") as f:
+                oai_api_key = f.read().strip()
+        elif key_mode == "env":
+            oai_api_key = os.getenv("OPENAI_API_KEY")
+            if oai_api_key is None:
+                raise ValueError(
+                    "API key not found. Please set the OPENAI_API_KEY environment variable."
+                )
+        else:
+            raise ValueError("Invalid key mode. Please use 'keyfile' or 'env'.")
+
+        oai_client = OpenAI(api_key=oai_api_key)
+
+    # Always need HF token for model loading
     if key_mode == "keyfile":
-        with open(os.path.expanduser(".oai_api_key"), "r") as f:
-            oai_api_key = f.read().strip()
         with open(os.path.expanduser(".hf_api_key"), "r") as f:
             hf_token = f.read().strip()
     elif key_mode == "env":
-        oai_api_key = os.getenv("OPENAI_API_KEY")
         hf_token = os.getenv("HF_TOKEN")
-        if oai_api_key is None:
-            raise ValueError(
-                "API key not found. Please set the OPENAI_API_KEY environment variable."
-            )
         if hf_token is None:
             raise ValueError(
                 "API key not found. Please set the HF_TOKEN environment variable."
             )
     else:
         raise ValueError("Invalid key mode. Please use 'keyfile' or 'env'.")
-
-    oai_client = OpenAI(api_key=oai_api_key)
 
     # Set up the device
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -193,6 +204,7 @@ def main(args):
     results = []
     processed_count = 0
     failed_count = 0
+    skipped_count = 0
 
     total_samples = (
         sample_size
@@ -201,7 +213,7 @@ def main(args):
     )
 
     for sample_idx, (dataset_idx, item) in enumerate(data_samples):
-        current_sample = processed_count + failed_count + 1
+        current_sample = processed_count + failed_count + skipped_count + 1
         print(
             f"Processing sample {current_sample}/{total_samples} (dataset index: {dataset_idx})"
         )
@@ -222,6 +234,24 @@ def main(args):
                 prompt = item["question"]
                 answers = item["answer"]["aliases"]
 
+            # Skip samples with empty answers
+            if not answers or (isinstance(answers, list) and len(answers) == 0):
+                print(
+                    f"Skipping sample {current_sample} (dataset index {dataset_idx}): no reference answers found"
+                )
+                skipped_count += 1
+                continue
+
+            # Filter out empty strings from answers
+            if isinstance(answers, list):
+                answers = [a for a in answers if a and str(a).strip()]
+                if not answers:
+                    print(
+                        f"Skipping sample {current_sample} (dataset index {dataset_idx}): all reference answers are empty"
+                    )
+                    skipped_count += 1
+                    continue
+
             # Get response (with built-in error handling)
             completion_result = get_response(prompt, model, tokenizer, device)
             if isinstance(completion_result, dict) and "error" in completion_result:
@@ -233,13 +263,27 @@ def main(args):
                 continue
             completion = completion_result
 
+            # Skip samples with empty completions
+            if not completion or not completion.strip():
+                print(
+                    f"Skipping sample {current_sample} (dataset index {dataset_idx}): empty completion produced"
+                )
+                skipped_count += 1
+                torch.cuda.empty_cache()
+                continue
+
             # Clear memory after getting response
             torch.cuda.empty_cache()
 
-            # Evaluate answers (with built-in error handling)
-            evaluation = evaluate_answers(
-                prompt, completion, answers, oai_client, gpt_model
-            )
+            # Evaluate answers only if not skipped
+            if not skip_evaluation:
+                evaluation = evaluate_answers(
+                    prompt, completion, answers, oai_client, gpt_model
+                )
+                evaluation_result = evaluation["is_correct"]
+            else:
+                # Skip evaluation, will be done separately
+                evaluation_result = None
 
             # Calculate gradient (with built-in error handling)
             gradient_result = completion_gradient(
@@ -383,7 +427,7 @@ def main(args):
                 "completion": completion,
                 "completion_length": completion_length,
                 "correct_answers": answers,
-                "evaluation": evaluation["is_correct"],
+                "evaluation": evaluation_result,  # Will be None if skipped
                 "completion_gradient": gradient_norm,
                 "rephrased_completions": rephrasings,
                 "rephrased_completion_lengths": rephrasing_lengths,
@@ -424,11 +468,11 @@ def main(args):
             f"data/{mode}/results_{job_number}_{model_name}{quant_suffix}{response_suffix}{normalize_suffix}_{perturbation_mode}_{dataset_name}.pkl"
         )
         print(
-            f"Processing complete. Saved {len(results)} successful results. Failed: {failed_count}"
+            f"Processing complete. Saved {len(results)} successful results. Failed: {failed_count}. Skipped: {skipped_count}"
         )
     else:
         print(
-            f"Processing complete, but no successful results to save. All {failed_count} samples failed."
+            f"Processing complete, but no successful results to save. Failed: {failed_count}. Skipped: {skipped_count}"
         )
 
 
@@ -501,6 +545,13 @@ if __name__ == "__main__":
         type=int,
         default=3,
         help="Number of perturbations to generate for each sample",
+    )
+    parser.add_argument(
+        "--no-skip-evaluation",
+        action="store_false",
+        dest="skip_evaluation",
+        default=True,
+        help="Don't skip answer evaluation (default: skip evaluation for separate processing)",
     )
 
     args = parser.parse_args()

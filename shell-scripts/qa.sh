@@ -20,6 +20,7 @@ FULL_GRADIENT=false  # Default to false (which means response_only is true)
 NORMALIZE=false  # Default to false
 PERTURBATION_MODE="rephrase"
 NUMBER_OF_PERTURBATIONS=3
+SKIP_EVALUATION=true  # Default to true
 
 # Parse named arguments
 while [[ "$#" -gt 0 ]]; do
@@ -35,6 +36,7 @@ while [[ "$#" -gt 0 ]]; do
         --normalize) NORMALIZE=true;;
         --perturbation_mode=*) PERTURBATION_MODE="${1#*=}";;
         --number_of_perturbations=*) NUMBER_OF_PERTURBATIONS="${1#*=}";;
+        --no-skip-evaluation) SKIP_EVALUATION=false;;
         *) echo "Unknown option: $1" ;;
     esac
     shift
@@ -66,6 +68,11 @@ fi
 # Add normalize parameter (only add if true)
 if [ "$NORMALIZE" = true ]; then
     CMD="$CMD --normalize"
+fi
+
+# Skip evaluation is default true, so we need --no-skip-evaluation to disable it
+if [ "$SKIP_EVALUATION" = false ]; then
+    CMD="$CMD --no-skip-evaluation"
 fi
 
 # Run the command
