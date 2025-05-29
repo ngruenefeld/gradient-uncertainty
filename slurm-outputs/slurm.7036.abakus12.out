@@ -1433,3 +1433,106 @@ Sample 702 (dataset index 701) processed successfully with 10 rephrasings.
 Processing sample 703/817 (dataset index: 702)
 Sample 703 (dataset index 702) processed successfully with 10 rephrasings.
 Processing sample 704/817 (dataset index: 703)
+JSONDecodeError: Expecting ',' delimiter: line 6 column 16365 (char 16444)
+Error getting rephrasings for sample 704 (dataset index 703): Invalid JSON response from API
+Processing sample 705/817 (dataset index: 704)
+Sample 705 (dataset index 704) processed successfully with 10 rephrasings.
+Processing sample 706/817 (dataset index: 705)
+Sample 706 (dataset index 705) processed successfully with 9 rephrasings.
+Processing sample 707/817 (dataset index: 706)
+Sample 707 (dataset index 706) processed successfully with 10 rephrasings.
+Processing sample 708/817 (dataset index: 707)
+Sample 708 (dataset index 707) processed successfully with 10 rephrasings.
+Processing sample 709/817 (dataset index: 708)
+Sample 709 (dataset index 708) processed successfully with 10 rephrasings.
+Processing sample 710/817 (dataset index: 709)
+Sample 710 (dataset index 709) processed successfully with 10 rephrasings.
+Processing sample 711/817 (dataset index: 710)
+Sample 711 (dataset index 710) processed successfully with 10 rephrasings.
+Processing sample 712/817 (dataset index: 711)
+Sample 712 (dataset index 711) processed successfully with 10 rephrasings.
+Processing sample 713/817 (dataset index: 712)
+Sample 713 (dataset index 712) processed successfully with 10 rephrasings.
+Processing sample 714/817 (dataset index: 713)
+Sample 714 (dataset index 713) processed successfully with 10 rephrasings.
+Processing sample 715/817 (dataset index: 714)
+Sample 715 (dataset index 714) processed successfully with 10 rephrasings.
+Processing sample 716/817 (dataset index: 715)
+Sample 716 (dataset index 715) processed successfully with 10 rephrasings.
+Processing sample 717/817 (dataset index: 716)
+Sample 717 (dataset index 716) processed successfully with 10 rephrasings.
+Processing sample 718/817 (dataset index: 717)
+Sample 718 (dataset index 717) processed successfully with 10 rephrasings.
+Processing sample 719/817 (dataset index: 718)
+Sample 719 (dataset index 718) processed successfully with 10 rephrasings.
+Processing sample 720/817 (dataset index: 719)
+Sample 720 (dataset index 719) processed successfully with 10 rephrasings.
+Processing sample 721/817 (dataset index: 720)
+Sample 721 (dataset index 720) processed successfully with 10 rephrasings.
+Processing sample 722/817 (dataset index: 721)
+Sample 722 (dataset index 721) processed successfully with 10 rephrasings.
+Processing sample 723/817 (dataset index: 722)
+Sample 723 (dataset index 722) processed successfully with 12 rephrasings.
+Processing sample 724/817 (dataset index: 723)
+Sample 724 (dataset index 723) processed successfully with 10 rephrasings.
+Processing sample 725/817 (dataset index: 724)
+Sample 725 (dataset index 724) processed successfully with 10 rephrasings.
+Processing sample 726/817 (dataset index: 725)
+Sample 726 (dataset index 725) processed successfully with 10 rephrasings.
+Processing sample 727/817 (dataset index: 726)
+Sample 727 (dataset index 726) processed successfully with 10 rephrasings.
+Processing sample 728/817 (dataset index: 727)
+Sample 728 (dataset index 727) processed successfully with 10 rephrasings.
+Processing sample 729/817 (dataset index: 728)
+Sample 729 (dataset index 728) processed successfully with 10 rephrasings.
+Processing sample 730/817 (dataset index: 729)
+Sample 730 (dataset index 729) processed successfully with 10 rephrasings.
+Processing sample 731/817 (dataset index: 730)
+Sample 731 (dataset index 730) processed successfully with 10 rephrasings.
+Processing sample 732/817 (dataset index: 731)
+Sample 732 (dataset index 731) processed successfully with 10 rephrasings.
+Processing sample 733/817 (dataset index: 732)
+Sample 733 (dataset index 732) processed successfully with 10 rephrasings.
+Processing sample 734/817 (dataset index: 733)
+Sample 734 (dataset index 733) processed successfully with 9 rephrasings.
+Processing sample 735/817 (dataset index: 734)
+Sample 735 (dataset index 734) processed successfully with 10 rephrasings.
+Processing sample 736/817 (dataset index: 735)
+Sample 736 (dataset index 735) processed successfully with 10 rephrasings.
+Processing sample 737/817 (dataset index: 736)
+Sample 737 (dataset index 736) processed successfully with 10 rephrasings.
+Processing sample 738/817 (dataset index: 737)
+Sample 738 (dataset index 737) processed successfully with 10 rephrasings.
+Processing sample 739/817 (dataset index: 738)
+Sample 739 (dataset index 738) processed successfully with 10 rephrasings.
+Processing sample 740/817 (dataset index: 739)
+Sample 740 (dataset index 739) processed successfully with 10 rephrasings.
+Processing sample 741/817 (dataset index: 740)
+Sample 741 (dataset index 740) processed successfully with 10 rephrasings.
+Processing sample 742/817 (dataset index: 741)
+Sample 742 (dataset index 741) processed successfully with 10 rephrasings.
+Processing sample 743/817 (dataset index: 742)
+Sample 743 (dataset index 742) processed successfully with 10 rephrasings.
+Processing sample 744/817 (dataset index: 743)
+Sample 744 (dataset index 743) processed successfully with 9 rephrasings.
+Processing sample 745/817 (dataset index: 744)
+Sample 745 (dataset index 744) processed successfully with 10 rephrasings.
+Processing sample 746/817 (dataset index: 745)
+Sample 746 (dataset index 745) processed successfully with 10 rephrasings.
+Processing sample 747/817 (dataset index: 746)
+Sample 747 (dataset index 746) processed successfully with 10 rephrasings.
+Processing sample 748/817 (dataset index: 747)
+Sample 748 (dataset index 747) processed successfully with 10 rephrasings.
+Processing sample 749/817 (dataset index: 748)
+Sample 749 (dataset index 748) processed successfully with 10 rephrasings.
+Processing sample 750/817 (dataset index: 749)
+Sample 750 (dataset index 749) processed successfully with 10 rephrasings.
+Processing sample 751/817 (dataset index: 750)
+Sample 751 (dataset index 750) processed successfully with 10 rephrasings.
+Processing sample 752/817 (dataset index: 751)
+Sample 752 (dataset index 751) processed successfully with 10 rephrasings.
+Processing sample 753/817 (dataset index: 752)
+Sample 753 (dataset index 752) processed successfully with 10 rephrasings.
+Processing sample 754/817 (dataset index: 753)
+Sample 754 (dataset index 753) processed successfully with 10 rephrasings.
+Processing sample 755/817 (dataset index: 754)
