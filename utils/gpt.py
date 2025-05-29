@@ -140,11 +140,35 @@ def evaluate_answers(question, answer, reference_answers, client, model):
             input=[
                 {
                     "role": "system",
-                    "content": "You are an assistant that evaluates whether answer candidates contain the correct information based on reference answers.",
+                    "content": (
+                        "You are a fact-checking evaluator. You decide whether an answer contains the same specific factual content "
+                        "as one of a set of reference answers. You focus only on the core factual entity mentioned — such as a number, name, or place."
+                    ),
                 },
                 {
                     "role": "user",
-                    "content": f"Your task is to evaluate whether a generated answer candidate to a given question is correct or not, given a set of correct reference answers.\nThe question is: {question}\nThe generated answer candidate is: {answer}\nThe correct reference answers are:\n{reference_answers_formatted}\nIs the answer candidate correct or not? The answer might be overly verbose, try to extract what is meant.",
+                    "content": f"""
+        You will be given a question, a generated answer, and a list of reference answers.
+
+        Determine whether the answer correctly contains the **same factual answer** (e.g., a number, name, location, etc.) as one of the references.
+
+        ### Accept the answer if:
+        - The correct fact is **clearly present**, even if the answer adds irrelevant or incorrect background.
+        - The answer uses different words or phrasing to convey the same meaning.
+
+        ### Reject the answer if:
+        - It states a different fact or contradicts the correct one.
+        - It introduces confusion or falsehood **that changes the meaning of the core fact**.
+
+        ---
+
+        **Question**: {question}  
+        **Generated Answer**: {answer}  
+        **Reference Answers**: {reference_answers_formatted}
+
+        Respond only in JSON:
+        {{"is_correct": true}} or {{"is_correct": false}}
+        """,
                 },
             ],
             text={
@@ -157,12 +181,10 @@ def evaluate_answers(question, answer, reference_answers, client, model):
                         "properties": {
                             "is_correct": {
                                 "type": "boolean",
-                                "description": "Indicates whether the given answer matches any of the correct answers.",
+                                "description": "True if the core factual answer (e.g., number or name) is included and not contradicted.",
                             },
                         },
-                        "required": [
-                            "is_correct",
-                        ],
+                        "required": ["is_correct"],
                         "additionalProperties": False,
                     },
                 }
