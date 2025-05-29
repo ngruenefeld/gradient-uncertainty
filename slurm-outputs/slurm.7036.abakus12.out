@@ -1662,3 +1662,8 @@ Sample 816 (dataset index 815) processed successfully with 10 rephrasings.
 Processing sample 817/817 (dataset index: 816)
 Sample 817 (dataset index 816) processed successfully with 10 rephrasings.
 Processing complete. Saved 810 successful results. Failed: 2. Skipped: 5
+[main cde9cfa] QA Script Results for Run 7036 (Commit: c7e3fc2)
+ 5 files changed, 66 insertions(+), 1 deletion(-)
+ create mode 100644 data/full/results_7036_llama-awq_rephrase_low_truthful.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   5135e58..cde9cfa  main -> main
