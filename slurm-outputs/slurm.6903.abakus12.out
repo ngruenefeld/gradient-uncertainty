@@ -1,0 +1,44 @@
+slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus12: error: Setting TMPDIR to /tmp
+Running job with commit: 3cd1e167ce1d52ce36809bdaff24f2f3e25a8761
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 6903
+Dataset: truthful
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Mode: full
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Divergence: medium
+Skip evaluation: True
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/817 (dataset index: 0)
+Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
+Processing sample 2/817 (dataset index: 1)
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/817 (dataset index: 2)
+Sample 3 (dataset index 2) processed successfully with 3 rephrasings.
+Processing sample 4/817 (dataset index: 3)
+Sample 4 (dataset index 3) processed successfully with 3 rephrasings.
+Processing sample 5/817 (dataset index: 4)
+Sample 5 (dataset index 4) processed successfully with 3 rephrasings.
+Processing sample 6/817 (dataset index: 5)
+Sample 6 (dataset index 5) processed successfully with 3 rephrasings.
+Processing sample 7/817 (dataset index: 6)
+Sample 7 (dataset index 6) processed successfully with 3 rephrasings.
+Processing sample 8/817 (dataset index: 7)
+Sample 8 (dataset index 7) processed successfully with 3 rephrasings.
+Processing sample 9/817 (dataset index: 8)
