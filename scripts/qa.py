@@ -32,6 +32,7 @@ def main(args):
     normalize = args.normalize
     perturbation_mode = args.perturbation_mode
     number_of_perturbations = args.number_of_perturbations
+    divergence = args.divergence
     skip_evaluation = args.skip_evaluation
 
     mode = "full" if sample_size == 0 else "test" if sample_size < 100 else "sampled"
@@ -52,6 +53,7 @@ def main(args):
     print(f"Normalize: {normalize}")
     print(f"Perturbation mode: {perturbation_mode}")
     print(f"Number of perturbations: {number_of_perturbations}")
+    print(f"Divergence: {divergence}")
     print(f"Skip evaluation: {skip_evaluation}")
 
     if model_name == "gpt2":
@@ -316,6 +318,7 @@ def main(args):
                     oai_client,
                     gpt_model,
                     number_of_rephrasings=number_of_perturbations,
+                    divergence=divergence,
                 )
                 if "error" in rephrasings_result:
                     print(
@@ -454,7 +457,7 @@ def main(args):
 
     # Save final results if we have any
     if results:
-        # Include quantization, response_only, and normalize info in the filename
+        # Include quantization, response_only, normalize, and divergence info in the filename
         quant_suffix = (
             f"_{quant_bits}bit"
             if quant_bits in [4, 8] and model_name in quantizable_models
@@ -462,10 +465,11 @@ def main(args):
         )
         response_suffix = "" if response_only else "_fullgradient"
         normalize_suffix = "_normalized" if normalize else ""
+        divergence_suffix = f"_{divergence}" if perturbation_mode == "rephrase" else ""
 
         df = pd.DataFrame(results)
         df.to_pickle(
-            f"data/{mode}/results_{job_number}_{model_name}{quant_suffix}{response_suffix}{normalize_suffix}_{perturbation_mode}_{dataset_name}.pkl"
+            f"data/{mode}/results_{job_number}_{model_name}{quant_suffix}{response_suffix}{normalize_suffix}_{perturbation_mode}{divergence_suffix}_{dataset_name}.pkl"
         )
         print(
             f"Processing complete. Saved {len(results)} successful results. Failed: {failed_count}. Skipped: {skipped_count}"
@@ -545,6 +549,13 @@ if __name__ == "__main__":
         type=int,
         default=3,
         help="Number of perturbations to generate for each sample",
+    )
+    parser.add_argument(
+        "--divergence",
+        type=str,
+        default="medium",
+        choices=["low", "medium", "high"],
+        help="Divergence level for rephrase perturbations: low, medium, or high (default: medium)",
     )
     parser.add_argument(
         "--no-skip-evaluation",

@@ -1,99 +1,223 @@
 import json
 import openai
 
+REPHRASE_PROMPT_TEMPLATES = {
+    "en": {
+        "system": (
+            "You are an expert in paraphrasing text. Your task is to generate {num} distinct rephrasings "
+            "of the provided text while maintaining the original meaning. Ensure that each rephrasing is "
+            "unique and not a simple repetition of the original."
+        ),
+        "user": {
+            "low": (
+                "Generate {num} paraphrases of the following text:\n\n{text}\n\n"
+                "Make only minor lexical substitutions. Keep sentence structure and phrasing nearly identical."
+            ),
+            "medium": (
+                "Generate {num} paraphrases of the following text:\n\n{text}\n\n"
+                "Change vocabulary and some sentence structures, while keeping the same overall message."
+            ),
+            "high": (
+                "Generate {num} paraphrases of the following text:\n\n{text}\n\n"
+                "Drastically rephrase and restructure the content. Be creative in how the message is conveyed, but ensure the core meaning is preserved."
+            ),
+        },
+    },
+    "de": {
+        "system": (
+            "Du bist ein Experte für das Paraphrasieren von Texten. Deine Aufgabe ist es, {num} verschiedene Umschreibungen "
+            "des bereitgestellten Textes zu erstellen, wobei die ursprüngliche Bedeutung beibehalten werden soll. Jede Umschreibung "
+            "muss einzigartig sein und darf den Originaltext nicht einfach wiederholen."
+        ),
+        "user": {
+            "low": (
+                "Erzeuge {num} Umschreibungen des folgenden Textes:\n\n{text}\n\n"
+                "Nur minimale Wortänderungen. Satzstruktur und Formulierung bleiben fast unverändert."
+            ),
+            "medium": (
+                "Erzeuge {num} Umschreibungen des folgenden Textes:\n\n{text}\n\n"
+                "Verändere Wortwahl und teilweise die Satzstruktur, aber behalte die Hauptaussage bei."
+            ),
+            "high": (
+                "Erzeuge {num} Umschreibungen des folgenden Textes:\n\n{text}\n\n"
+                "Formuliere stark um und strukturiere den Inhalt kreativ um. Die Kernbedeutung muss erhalten bleiben."
+            ),
+        },
+    },
+    "es": {
+        "system": (
+            "Eres un experto en parafrasear textos. Tu tarea es generar {num} reformulaciones distintas del texto proporcionado, "
+            "manteniendo el significado original. Cada reformulación debe ser única y no simplemente repetir el texto original."
+        ),
+        "user": {
+            "low": (
+                "Genera {num} paráfrasis del siguiente texto:\n\n{text}\n\n"
+                "Realiza solo pequeños cambios léxicos. Mantén la estructura de las oraciones casi igual."
+            ),
+            "medium": (
+                "Genera {num} paráfrasis del siguiente texto:\n\n{text}\n\n"
+                "Cambia vocabulario y algunas estructuras de oración, pero conserva el mensaje general."
+            ),
+            "high": (
+                "Genera {num} paráfrasis del siguiente texto:\n\n{text}\n\n"
+                "Reformula y reestructura completamente el contenido. Sé creativo sin alterar el significado esencial."
+            ),
+        },
+    },
+    "fr": {
+        "system": (
+            "Vous êtes un expert en reformulation de texte. Votre tâche est de générer {num} reformulations distinctes "
+            "du texte fourni tout en maintenant le sens original. Chaque reformulation doit être unique et ne pas simplement "
+            "répéter le texte original."
+        ),
+        "user": {
+            "low": (
+                "Générez {num} reformulations du texte suivant :\n\n{text}\n\n"
+                "Effectuez uniquement des substitutions lexicales mineures. Gardez une structure similaire."
+            ),
+            "medium": (
+                "Générez {num} reformulations du texte suivant :\n\n{text}\n\n"
+                "Changez le vocabulaire et certaines structures tout en conservant le message principal."
+            ),
+            "high": (
+                "Générez {num} reformulations du texte suivant :\n\n{text}\n\n"
+                "Reformulez et réorganisez le texte en profondeur, en préservant le sens global."
+            ),
+        },
+    },
+    "it": {
+        "system": (
+            "Sei un esperto nella parafrasi dei testi. Il tuo compito è generare {num} riformulazioni distinte del testo fornito "
+            "mantenendo il significato originale. Ogni riformulazione deve essere unica e non una semplice ripetizione."
+        ),
+        "user": {
+            "low": (
+                "Genera {num} parafrasi del seguente testo:\n\n{text}\n\n"
+                "Modifica solo poche parole. Mantieni struttura e sintassi quasi invariate."
+            ),
+            "medium": (
+                "Genera {num} parafrasi del seguente testo:\n\n{text}\n\n"
+                "Cambia parole e alcune strutture, mantenendo il significato centrale."
+            ),
+            "high": (
+                "Genera {num} parafrasi del seguente testo:\n\n{text}\n\n"
+                "Riformula in modo significativo. Ristruttura il contenuto con creatività senza alterare il significato."
+            ),
+        },
+    },
+    "ko": {
+        "system": (
+            "당신은 텍스트를 바꾸는 전문가입니다. 당신의 임무는 제공된 텍스트의 원래 의미를 유지하면서 {num}가지 독특한 바꾸기를 생성하는 것입니다. 각 바꾸기가 독특하고 원본 텍스트를 단순히 반복하지 않도록 하십시오."
+        ),
+        "user": {
+            "low": (
+                "다음 텍스트의 {num}가지 바꾸기를 생성하십시오:\n\n{text}\n\n"
+                "단어 수준에서 약간의 변경만 하십시오. 문장 구조는 거의 그대로 유지하십시오."
+            ),
+            "medium": (
+                "다음 텍스트의 {num}가지 바꾸기를 생성하십시오:\n\n{text}\n\n"
+                "다양한 단어와 문장 구조를 사용하되 의미는 유지하십시오."
+            ),
+            "high": (
+                "다음 텍스트의 {num}가지 바꾸기를 생성하십시오:\n\n{text}\n\n"
+                "창의적으로 재구성하고 표현을 완전히 바꾸되, 핵심 의미는 그대로 유지하십시오."
+            ),
+        },
+    },
+    "pt": {
+        "system": (
+            "Você é um especialista em parafrasear textos. Sua tarefa é gerar {num} reformulações distintas do texto fornecido, mantendo o significado original. Cada reformulação deve ser única e não apenas repetir o texto original."
+        ),
+        "user": {
+            "low": (
+                "Gere {num} paráfrases do seguinte texto:\n\n{text}\n\n"
+                "Faça apenas substituições leves de palavras. Mantenha a estrutura original."
+            ),
+            "medium": (
+                "Gere {num} paráfrases do seguinte texto:\n\n{text}\n\n"
+                "Altere o vocabulário e parte da estrutura, preservando o sentido."
+            ),
+            "high": (
+                "Gere {num} paráfrases do seguinte texto:\n\n{text}\n\n"
+                "Reestruture e reformule de forma criativa. Preserve o significado essencial."
+            ),
+        },
+    },
+    "ru": {
+        "system": (
+            "Вы являетесь экспертом в перефразировании текста. Ваша задача — создать {num} различных перефразировок предоставленного текста, сохраняя оригинальное значение. Каждая перефразировка должна быть уникальной и не дублировать исходный текст."
+        ),
+        "user": {
+            "low": (
+                "Создайте {num} перефразировок следующего текста:\n\n{text}\n\n"
+                "Измените только отдельные слова. Структура предложений должна остаться почти такой же."
+            ),
+            "medium": (
+                "Создайте {num} перефразировок следующего текста:\n\n{text}\n\n"
+                "Измените лексику и частично структуру, сохранив общий смысл."
+            ),
+            "high": (
+                "Создайте {num} перефразировок следующего текста:\n\n{text}\n\n"
+                "Кардинально переформулируйте и перестройте текст, не изменяя его суть."
+            ),
+        },
+    },
+    "zh": {
+        "system": (
+            "你是一个文本改写的专家。你的任务是生成提供的文本的{num}种不同的改写，同时保持原意。确保每个改写都是独特的，而不是简单地重复原始文本。"
+        ),
+        "user": {
+            "low": (
+                "生成以下文本的{num}种改写：\n\n{text}\n\n"
+                "仅做轻微的词语替换，语序和句式基本保持一致。"
+            ),
+            "medium": (
+                "生成以下文本的{num}种改写：\n\n{text}\n\n"
+                "更换部分词语和语句结构，保留原始含义。"
+            ),
+            "high": (
+                "生成以下文本的{num}种改写：\n\n{text}\n\n"
+                "可大幅度重构和重新表达内容，只要保留主要意思即可。"
+            ),
+        },
+    },
+}
+
 
 def rephrase_text(
-    text_to_rephrase, client, model, language="en", number_of_rephrasings=3
+    text_to_rephrase,
+    client,
+    model,
+    language="en",
+    number_of_rephrasings=3,
+    divergence="medium",
 ):
-    supported_languages = [
-        "en",
-        "de",
-        "es",
-        "fr",
-        "it",
-        "ko",
-        "pt",
-        "ru",
-        "zh",
-    ]
+    supported_languages = REPHRASE_PROMPT_TEMPLATES.keys()
 
     if language not in supported_languages:
         raise ValueError(
-            f"Language '{language}' is not supported. Supported languages are: {supported_languages}"
+            f"Language '{language}' is not supported. Supported languages are: {list(supported_languages)}"
         )
 
     if not isinstance(number_of_rephrasings, int) or number_of_rephrasings < 1:
         raise ValueError("number_of_rephrasings must be a positive integer")
 
-    prompts = {
-        "en": {
-            "system": f"You are an expert in paraphrasing text. Your task is to generate {number_of_rephrasings} distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and does not simply repeat the original text.",
-            "user": f"Generate {number_of_rephrasings} paraphrases of the following text:\n\n{text_to_rephrase}\n\n"
-            f"Do not divert from the original meaning in any way. Use different words and sentence structures to convey the same message.\n"
-            f"Make sure to provide {number_of_rephrasings} distinct rephrasings.",
-        },
-        "de": {
-            "system": f"Du bist ein Experte für das Paraphrasieren von Texten. Deine Aufgabe ist es, {number_of_rephrasings} verschiedene Umschreibungen des bereitgestellten Textes zu erstellen, während die ursprüngliche Bedeutung beibehalten wird. Stelle sicher, dass jede Umschreibung einzigartig ist und den Originaltext nicht einfach wiederholt.",
-            "user": f"Erzeuge {number_of_rephrasings} Umschreibungen des folgenden Textes:\n\n{text_to_rephrase}\n\n"
-            f"Weiche in keiner Weise von der ursprünglichen Bedeutung ab. Verwende andere Wörter und Satzstrukturen, um dieselbe Botschaft zu vermitteln.\n"
-            f"Stelle sicher, dass du {number_of_rephrasings} verschiedene Umschreibungen angibst.",
-        },
-        "es": {
-            "system": f"Eres un experto en parafrasear textos. Tu tarea es generar {number_of_rephrasings} reformulaciones distintas del texto proporcionado, manteniendo el significado original. Asegúrate de que cada reformulación sea única y no repita simplemente el texto original.",
-            "user": f"Genera {number_of_rephrasings} paráfrasis del siguiente texto:\n\n{text_to_rephrase}\n\n"
-            f"No te desvíes del significado original de ninguna manera. Usa diferentes palabras y estructuras de oraciones para transmitir el mismo mensaje.\n"
-            f"Asegúrate de proporcionar {number_of_rephrasings} reformulaciones distintas.",
-        },
-        "fr": {
-            "system": f"Vous êtes un expert en reformulation de texte. Votre tâche consiste à générer {number_of_rephrasings} reformulations distinctes du texte fourni tout en maintenant le sens original. Assurez-vous que chaque reformulation est unique et ne répète pas simplement le texte original.",
-            "user": f"Générez {number_of_rephrasings} reformulations du texte suivant:\n\n{text_to_rephrase}\n\n"
-            f"Ne vous écartez en aucun cas du sens original. Utilisez des mots et des structures de phrases différents pour transmettre le même message.\n"
-            f"Assurez-vous de fournir {number_of_rephrasings} reformulations distinctes.",
-        },
-        "it": {
-            "system": f"Sei un esperto nella parafrasi di testi. Il tuo compito è generare {number_of_rephrasings} riformulazioni distinte del testo fornito mantenendo il significato originale. Assicurati che ogni riformulazione sia unica e non ripeta semplicemente il testo originale.",
-            "user": f"Genera {number_of_rephrasings} parafrasi del seguente testo:\n\n{text_to_rephrase}\n\n"
-            f"Non deviare in alcun modo dal significato originale. Usa parole e strutture di frase diverse per trasmettere lo stesso messaggio.\n"
-            f"Assicurati di fornire {number_of_rephrasings} riformulazioni distinte.",
-        },
-        "ko": {
-            "system": f"당신은 텍스트를 바꾸는 전문가입니다. 당신의 임무는 제공된 텍스트의 원래 의미를 유지하면서 {number_of_rephrasings}가지 독특한 바꾸기를 생성하는 것입니다. 각 바꾸기가 독특하고 원본 텍스트를 단순히 반복하지 않도록 하십시오.",
-            "user": f"다음 텍스트의 {number_of_rephrasings}가지 바꾸기를 생성하십시오:\n\n{text_to_rephrase}\n\n"
-            f"어떤 식으로든 원래 의미에서 벗어나지 마십시오. 동일한 메시지를 전달하기 위해 다른 단어와 문장 구조를 사용하십시오.\n"
-            f"{number_of_rephrasings}가지 독특한 바꾸기를 제공해야 합니다.",
-        },
-        "pt": {
-            "system": f"Você é um especialista em parafrasear textos. Sua tarefa é gerar {number_of_rephrasings} reformulações distintas do texto fornecido, mantendo o significado original. Certifique-se de que cada reformulação seja única e não repita simplesmente o texto original.",
-            "user": f"Gere {number_of_rephrasings} paráfrases do seguinte texto:\n\n{text_to_rephrase}\n\n"
-            f"Não se desvie do significado original de forma alguma. Use palavras e estruturas de frases diferentes para transmitir a mesma mensagem.\n"
-            f"Certifique-se de fornecer {number_of_rephrasings} reformulações distintas.",
-        },
-        "ru": {
-            "system": f"Вы являетесь экспертом в перефразировании текста. Ваша задача - создать {number_of_rephrasings} различных перефразировки предоставленного текста, сохраняя оригинальное значение. Убедитесь, что каждая перефразировка уникальна и не просто повторяет оригинальный текст.",
-            "user": f"Создайте {number_of_rephrasings} перефразировки следующего текста:\n\n{text_to_rephrase}\n\n"
-            f"Ни в коем случае не отклоняйтесь от оригинального смысла. Используйте разные слова и структуры предложений, чтобы передать то же сообщение.\n"
-            f"Убедитесь, что вы предоставили {number_of_rephrasings} различных перефразировки.",
-        },
-        "zh": {
-            "system": f"你是一个文本改写的专家。你的任务是生成提供的文本的{number_of_rephrasings}种不同的改写，同时保持原意。确保每个改写都是独特的，而不是简单地重复原始文本。",
-            "user": f"生成以下文本的{number_of_rephrasings}种改写：\n\n{text_to_rephrase}\n\n"
-            f"无论如何都不要偏离原意。使用不同的单词和句子结构来传达相同的信息。\n"
-            f"确保提供{number_of_rephrasings}种不同的改写。",
-        },
-    }
+    if divergence not in ["low", "medium", "high"]:
+        raise ValueError("divergence must be 'low', 'medium', or 'high'")
+
+    system_prompt = REPHRASE_PROMPT_TEMPLATES[language]["system"].format(
+        num=number_of_rephrasings
+    )
+    user_prompt = REPHRASE_PROMPT_TEMPLATES[language]["user"][divergence].format(
+        text=text_to_rephrase, num=number_of_rephrasings
+    )
 
     try:
         response = client.responses.create(
             model=model,
             input=[
-                {
-                    "role": "system",
-                    "content": prompts[language]["system"],
-                },
-                {
-                    "role": "user",
-                    "content": prompts[language]["user"],
-                },
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
             ],
             text={
                 "format": {
@@ -119,17 +243,13 @@ def rephrase_text(
             },
         )
         try:
-            # Attempt to parse the response as JSON
-            event = json.loads(response.output_text)
-            return event
+            return json.loads(response.output_text)
         except json.JSONDecodeError as json_error:
-            # Handle JSON parsing errors
             print(f"JSONDecodeError: {json_error}")
             return {"error": "Invalid JSON response from API"}
     except openai.BadRequestError as e:
-        error_message = str(e)  # Extract the error message as a string
-        print(f"Error: {error_message}")
-        return {"error": error_message}
+        print(f"Error: {str(e)}")
+        return {"error": str(e)}
 
 
 def evaluate_answers(question, answer, reference_answers, client, model):
