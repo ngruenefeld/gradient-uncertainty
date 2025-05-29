@@ -1,0 +1,21 @@
+slurmstepd-halitit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-halitit: error: Setting TMPDIR to /tmp
+Running evaluation job with commit: a0c430cbc72085acb54f48b8702405c24659d311
+Job number: 6878
+Running command: python -um scripts.evaluate_answers "6878" --gpt_model "gpt-4o-mini-2024-07-18" --key_mode "keyfile"
+Job number: 6878
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Overwrite existing evaluations: True
+Found 1 files to process:
+  data/test/results_6878_llama-awq_rephrase_truthful.pkl
+Processing file: data/test/results_6878_llama-awq_rephrase_truthful.pkl
+  Found 10 entries to evaluate out of 10 total
+Evaluating entries:   0%|          | 0/10 [00:00<?, ?it/s]Evaluating entries:  10%|█         | 1/10 [00:00<00:06,  1.37it/s]Evaluating entries:  20%|██        | 2/10 [00:01<00:05,  1.56it/s]Evaluating entries:  30%|███       | 3/10 [00:01<00:04,  1.55it/s]Evaluating entries:  40%|████      | 4/10 [00:02<00:03,  1.55it/s]Evaluating entries:  50%|█████     | 5/10 [00:03<00:03,  1.51it/s]Evaluating entries:  60%|██████    | 6/10 [00:04<00:02,  1.41it/s]Evaluating entries:  70%|███████   | 7/10 [00:04<00:02,  1.49it/s]Evaluating entries:  80%|████████  | 8/10 [00:05<00:01,  1.53it/s]Evaluating entries:  90%|█████████ | 9/10 [00:06<00:00,  1.37it/s]Evaluating entries: 100%|██████████| 10/10 [00:06<00:00,  1.41it/s]Evaluating entries: 100%|██████████| 10/10 [00:06<00:00,  1.46it/s]
+  Completed evaluations: 10 successful, 0 failed
+  Updated results saved to data/test/results_6878_llama-awq_rephrase_truthful.pkl
+
+Evaluation complete:
+  Successfully processed: 1 files
+  Failed to process: 0 files
+Evaluation completed successfully

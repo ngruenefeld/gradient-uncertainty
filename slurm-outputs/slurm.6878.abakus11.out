@@ -45,3 +45,8 @@ Sample 9 (dataset index 688) processed successfully with 3 rephrasings.
 Processing sample 10/10 (dataset index: 40)
 Sample 10 (dataset index 40) processed successfully with 3 rephrasings.
 Processing complete. Saved 10 successful results. Failed: 0. Skipped: 0
+[main a0c430c] QA Script Results for Run 6878 (Commit: d6541b6)
+ 2 files changed, 20 insertions(+)
+ create mode 100644 data/test/results_6878_llama-awq_rephrase_truthful.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   f5c3a72..a0c430c  main -> main
