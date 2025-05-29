@@ -1,0 +1,48 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 18e93655eddefe1f74effc95704137aacd0f47c1
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 7021
+Dataset: truthful
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 10
+Mode: test
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Divergence: medium
+Skip evaluation: True
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/10 (dataset index: 764)
+Sample 1 (dataset index 764) processed successfully with 3 rephrasings.
+Processing sample 2/10 (dataset index: 659)
+Sample 2 (dataset index 659) processed successfully with 3 rephrasings.
+Processing sample 3/10 (dataset index: 697)
+Sample 3 (dataset index 697) processed successfully with 3 rephrasings.
+Processing sample 4/10 (dataset index: 145)
+Sample 4 (dataset index 145) processed successfully with 3 rephrasings.
+Processing sample 5/10 (dataset index: 188)
+Sample 5 (dataset index 188) processed successfully with 3 rephrasings.
+Processing sample 6/10 (dataset index: 706)
+Sample 6 (dataset index 706) processed successfully with 3 rephrasings.
+Processing sample 7/10 (dataset index: 616)
+Sample 7 (dataset index 616) processed successfully with 3 rephrasings.
+Processing sample 8/10 (dataset index: 720)
+Sample 8 (dataset index 720) processed successfully with 3 rephrasings.
+Processing sample 9/10 (dataset index: 312)
+Sample 9 (dataset index 312) processed successfully with 3 rephrasings.
+Processing sample 10/10 (dataset index: 753)
+Sample 10 (dataset index 753) processed successfully with 3 rephrasings.
+Processing complete. Saved 10 successful results. Failed: 0. Skipped: 0
