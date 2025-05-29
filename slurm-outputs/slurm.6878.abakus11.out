@@ -25,3 +25,23 @@ Skip evaluation: True
 You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
 `low_cpu_mem_usage` was None, now default to True since model is quantized.
 Processing sample 1/10 (dataset index: 176)
+Sample 1 (dataset index 176) processed successfully with 3 rephrasings.
+Processing sample 2/10 (dataset index: 83)
+Sample 2 (dataset index 83) processed successfully with 3 rephrasings.
+Processing sample 3/10 (dataset index: 421)
+Sample 3 (dataset index 421) processed successfully with 3 rephrasings.
+Processing sample 4/10 (dataset index: 26)
+Sample 4 (dataset index 26) processed successfully with 4 rephrasings.
+Processing sample 5/10 (dataset index: 775)
+Sample 5 (dataset index 775) processed successfully with 1 rephrasings.
+Processing sample 6/10 (dataset index: 671)
+Sample 6 (dataset index 671) processed successfully with 3 rephrasings.
+Processing sample 7/10 (dataset index: 95)
+Sample 7 (dataset index 95) processed successfully with 3 rephrasings.
+Processing sample 8/10 (dataset index: 811)
+Sample 8 (dataset index 811) processed successfully with 3 rephrasings.
+Processing sample 9/10 (dataset index: 688)
+Sample 9 (dataset index 688) processed successfully with 3 rephrasings.
+Processing sample 10/10 (dataset index: 40)
+Sample 10 (dataset index 40) processed successfully with 3 rephrasings.
+Processing complete. Saved 10 successful results. Failed: 0. Skipped: 0
