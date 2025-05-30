@@ -1,0 +1,19 @@
+slurmstepd-halitit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-halitit: error: Setting TMPDIR to /tmp
+Running evaluation job with commit: 554104c6e9985637b2872eef3089c1ac4a0d1fd4
+Job numbers to process: 7360
+Total jobs: 1
+
+=========================================
+Processing job 1/1: 7360
+=========================================
+Running command: python -um scripts.evaluate_answers "7360" --gpt_model "gpt-4o-mini-2024-07-18" --key_mode "keyfile"
+Job number: 7360
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Overwrite existing evaluations: True
+Found 1 files to process:
+  data/full/results_7360_llama-3.2-3b_4bit_rephrase_low_truthful.pkl
+Processing file: data/full/results_7360_llama-3.2-3b_4bit_rephrase_low_truthful.pkl
+  Found 798 entries to evaluate out of 798 total
+Evaluating entries:   0%|          | 0/798 [00:00<?, ?it/s]slurmstepd-halitit: error: *** JOB 7401 ON halitit CANCELLED AT 2025-05-30T23:32:39 ***
