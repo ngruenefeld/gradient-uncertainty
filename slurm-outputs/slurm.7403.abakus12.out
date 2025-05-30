@@ -1,0 +1,51 @@
+slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus12: error: Setting TMPDIR to /tmp
+Running job with commit: 18bdf52e5ead7d8409b4aa1f293cfed0c00bb24c
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 7403
+Dataset: truthful
+Model: llama-3.1-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Mode: full
+Streaming dataset: False
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 10
+Divergence: low
+Skip evaluation: True
+Loading model in 4-bit precision to reduce memory usage
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [02:58<08:55, 178.48s/it]Downloading shards:  50%|█████     | 2/4 [06:04<06:05, 182.67s/it]Downloading shards:  75%|███████▌  | 3/4 [09:13<03:05, 185.87s/it]Downloading shards: 100%|██████████| 4/4 [10:01<00:00, 131.30s/it]Downloading shards: 100%|██████████| 4/4 [10:01<00:00, 150.35s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:47<02:23, 47.94s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:33<01:32, 46.45s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [02:17<00:45, 45.60s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:28<00:00, 31.79s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:28<00:00, 37.14s/it]
+Processing sample 1/817 (dataset index: 0)
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Sample 1 (dataset index 0) processed successfully with 9 rephrasings.
+Processing sample 2/817 (dataset index: 1)
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Sample 2 (dataset index 1) processed successfully with 10 rephrasings.
+Processing sample 3/817 (dataset index: 2)
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Sample 3 (dataset index 2) processed successfully with 10 rephrasings.
+Processing sample 4/817 (dataset index: 3)
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Sample 4 (dataset index 3) processed successfully with 10 rephrasings.
+Processing sample 5/817 (dataset index: 4)
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Sample 5 (dataset index 4) processed successfully with 10 rephrasings.
+Processing sample 6/817 (dataset index: 5)
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Sample 6 (dataset index 5) processed successfully with 10 rephrasings.
+Processing sample 7/817 (dataset index: 6)
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Sample 7 (dataset index 6) processed successfully with 9 rephrasings.
+Processing sample 8/817 (dataset index: 7)
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
