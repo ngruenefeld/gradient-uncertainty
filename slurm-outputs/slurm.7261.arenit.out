@@ -1,0 +1,19 @@
+slurmstepd-arenit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-arenit: error: Setting TMPDIR to /tmp
+Running evaluation job with commit: f6229e62885143993f1abfa8e2bde29a6d9f38f5
+Job numbers to process: 719203 719204 719205 1510 1511 3459 3460 3461 3462 3509 3510 3511 3512
+Total jobs: 13
+
+=========================================
+Processing job 1/13: 719203
+=========================================
+Running command: python -um scripts.evaluate_answers "719203" --gpt_model "gpt-4o-mini-2024-07-18" --key_mode "keyfile"
+Job number: 719203
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Overwrite existing evaluations: True
+Found 1 files to process:
+  data/sampled/results_719203_llama-3.1-8b_4bit_normalized_truthful.pkl
+Processing file: data/sampled/results_719203_llama-3.1-8b_4bit_normalized_truthful.pkl
+  Found 99 entries to evaluate out of 99 total
+Evaluating entries:   0%|          | 0/99 [00:00<?, ?it/s]Evaluating entries:   1%|          | 1/99 [00:01<01:50,  1.13s/it]Evaluating entries:   2%|▏         | 2/99 [00:01<01:15,  1.28it/s]Evaluating entries:   3%|▎         | 3/99 [00:02<01:06,  1.44it/s]Evaluating entries:   4%|▍         | 4/99 [00:02<01:03,  1.50it/s]Evaluating entries:   5%|▌         | 5/99 [00:03<01:02,  1.50it/s]Evaluating entries:   6%|▌         | 6/99 [00:04<01:04,  1.44it/s]Evaluating entries:   7%|▋         | 7/99 [00:05<01:04,  1.42it/s]Evaluating entries:   8%|▊         | 8/99 [00:05<01:00,  1.50it/s]Evaluating entries:   9%|▉         | 9/99 [00:06<00:56,  1.58it/s]Evaluating entries:  10%|█         | 10/99 [00:06<00:53,  1.68it/s]Evaluating entries:  11%|█         | 11/99 [00:07<00:58,  1.49it/s]Evaluating entries:  12%|█▏        | 12/99 [00:08<00:58,  1.48it/s]Evaluating entries:  13%|█▎        | 13/99 [00:08<00:58,  1.48it/s]Evaluating entries:  14%|█▍        | 14/99 [00:09<00:54,  1.56it/s]Evaluating entries:  15%|█▌        | 15/99 [00:10<00:58,  1.43it/s]Evaluating entries:  16%|█▌        | 16/99 [00:10<00:58,  1.42it/s]Evaluating entries:  17%|█▋        | 17/99 [00:11<00:57,  1.43it/s]Evaluating entries:  18%|█▊        | 18/99 [00:12<00:57,  1.41it/s]Evaluating entries:  19%|█▉        | 19/99 [00:13<00:54,  1.47it/s]Evaluating entries:  20%|██        | 20/99 [00:13<00:54,  1.44it/s]Evaluating entries:  21%|██        | 21/99 [00:14<00:59,  1.32it/s]Evaluating entries:  22%|██▏       | 22/99 [00:15<00:56,  1.37it/s]Evaluating entries:  23%|██▎       | 23/99 [00:16<01:00,  1.25it/s]Evaluating entries:  24%|██▍       | 24/99 [00:17<00:59,  1.26it/s]Evaluating entries:  25%|██▌       | 25/99 [00:17<00:57,  1.29it/s]Evaluating entries:  26%|██▋       | 26/99 [00:18<00:53,  1.36it/s]Evaluating entries:  27%|██▋       | 27/99 [00:18<00:48,  1.47it/s]Evaluating entries:  28%|██▊       | 28/99 [00:19<00:46,  1.53it/s]Evaluating entries:  29%|██▉       | 29/99 [00:20<00:49,  1.43it/s]Evaluating entries:  30%|███       | 30/99 [00:20<00:46,  1.49it/s]Evaluating entries:  31%|███▏      | 31/99 [00:21<00:46,  1.48it/s]Evaluating entries:  32%|███▏      | 32/99 [00:22<00:44,  1.51it/s]Evaluating entries:  33%|███▎      | 33/99 [00:22<00:42,  1.54it/s]Evaluating entries:  34%|███▍      | 34/99 [00:23<00:47,  1.37it/s]Evaluating entries:  35%|███▌      | 35/99 [00:24<00:45,  1.42it/s]Evaluating entries:  36%|███▋      | 36/99 [00:25<00:45,  1.38it/s]Evaluating entries:  37%|███▋      | 37/99 [00:25<00:43,  1.43it/s]Evaluating entries:  38%|███▊      | 38/99 [00:26<00:42,  1.42it/s]Evaluating entries:  39%|███▉      | 39/99 [00:27<00:40,  1.50it/s]Evaluating entries:  40%|████      | 40/99 [00:27<00:37,  1.55it/s]Evaluating entries:  41%|████▏     | 41/99 [00:29<00:47,  1.21it/s]Evaluating entries:  42%|████▏     | 42/99 [00:29<00:43,  1.31it/s]Evaluating entries:  43%|████▎     | 43/99 [00:30<00:43,  1.28it/s]

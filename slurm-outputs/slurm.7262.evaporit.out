@@ -1,0 +1,19 @@
+slurmstepd-evaporit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-evaporit: error: Setting TMPDIR to /tmp
+Running evaluation job with commit: f6229e62885143993f1abfa8e2bde29a6d9f38f5
+Job numbers to process: 7034 7035 7036
+Total jobs: 3
+
+=========================================
+Processing job 1/3: 7034
+=========================================
+Running command: python -um scripts.evaluate_answers "7034" --gpt_model "gpt-4o-mini-2024-07-18" --key_mode "keyfile"
+Job number: 7034
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Overwrite existing evaluations: True
+Found 1 files to process:
+  data/full/results_7034_llama-awq_rephrase_high_truthful.pkl
+Processing file: data/full/results_7034_llama-awq_rephrase_high_truthful.pkl
+  Found 804 entries to evaluate out of 804 total
+Evaluating entries:   0%|          | 0/804 [00:00<?, ?it/s]Evaluating entries:   0%|          | 1/804 [00:00<08:39,  1.55it/s]Evaluating entries:   0%|          | 2/804 [00:01<08:43,  1.53it/s]Evaluating entries:   0%|          | 3/804 [00:02<09:22,  1.42it/s]slurmstepd-evaporit: error: *** JOB 7262 ON evaporit CANCELLED AT 2025-05-30T10:58:51 ***
