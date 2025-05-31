@@ -1,0 +1,27 @@
+slurmstepd-eklogit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-eklogit: error: Setting TMPDIR to /tmp
+Running job with commit: 72e7de1de3774c00a29c47d1d8e0f7e1559264d8
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 7505
+Dataset: truthful
+Model: llama-3.1-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Mode: full
+Streaming dataset: False
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 10
+Divergence: low
+Skip evaluation: True
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]slurmstepd-eklogit: error: *** JOB 7505 ON eklogit CANCELLED AT 2025-05-31T14:27:51 ***
