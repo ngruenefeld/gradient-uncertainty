@@ -31,3 +31,13 @@ EVALUATION SUMMARY
 Total jobs processed: 1
 Successful: 1
 Failed: 0
+[main 6a6ac71] Answer Evaluation Results for Jobs 8468 - All Successful (Commit: f5d66f8)
+ 7 files changed, 616 insertions(+)
+ create mode 100644 slurm-outputs/slurm.8806.kohle.out
+ create mode 100644 slurm-outputs/slurm.8807.abakus11.out
+ create mode 100644 slurm-outputs/slurm.8808.abakus12.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   f5d66f8..6a6ac71  main -> main
+
+Results committed to git with message: Answer Evaluation Results for Jobs 8468 - All Successful (Commit: f5d66f8)
+All jobs completed successfully
