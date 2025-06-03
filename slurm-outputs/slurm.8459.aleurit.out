@@ -1,0 +1,23 @@
+slurmstepd-aleurit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-aleurit: error: Setting TMPDIR to /tmp
+Running evaluation job with commit: a01065bd78e27acd54f5231a820a835ceeeb5cf3
+Job numbers to process: 8446
+Total jobs: 1
+
+=========================================
+Processing job 1/1: 8446
+=========================================
+Running command: python -um scripts.evaluate_answers "8446" --gpt_model "gpt-4o-mini-2024-07-18" --key_mode "keyfile"
+Job number: 8446
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Overwrite existing evaluations: True
+No files found matching pattern: data/*/results_8446_*.pkl
+✅ Job 8446 completed successfully
+
+=========================================
+EVALUATION SUMMARY
+=========================================
+Total jobs processed: 1
+Successful: 1
+Failed: 0
