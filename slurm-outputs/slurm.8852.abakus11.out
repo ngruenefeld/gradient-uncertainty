@@ -1,13 +1,13 @@
-slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
-slurmstepd-abakus12: error: Setting TMPDIR to /tmp
-Running job with commit: f2678afb390651fc9d721b0371eebbbcb8570dac
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: f2e8e70e1d488b2a94b9d26d1b61569bf37e9218
 [nltk_data] Downloading package stopwords to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package stopwords is already up-to-date!
 [nltk_data] Downloading package wordnet to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package wordnet is already up-to-date!
-Job number: 8809
+Job number: 8852
 Dataset: truthful
 Model: llama-3.2-3b
 GPT Model: gpt-4o-mini-2024-07-18
@@ -19,18 +19,18 @@ Quantization bits: 4
 Full gradient: False
 Response only: True
 Normalize: False
-Perturbation mode: rephrase
+Perturbation mode: synonym
 Number of perturbations: 10
 Divergence: medium
 Skip evaluation: True
 Loading model in 4-bit precision to reduce memory usage
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.40s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.47s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.61s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.13s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  1.90s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.08s/it]
 Processing sample 1/817 (dataset index: 0)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 1 (dataset index 0) processed successfully with 10 rephrasings.
 Processing sample 2/817 (dataset index: 1)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 2 (dataset index 1) processed successfully with 1 rephrasings.
+Sample 2 (dataset index 1) processed successfully with 10 rephrasings.
 Processing sample 3/817 (dataset index: 2)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 3 (dataset index 2) processed successfully with 10 rephrasings.
@@ -48,7 +48,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 7 (dataset index 6) processed successfully with 10 rephrasings.
 Processing sample 8/817 (dataset index: 7)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 8 (dataset index 7) processed successfully with 17 rephrasings.
+Sample 8 (dataset index 7) processed successfully with 10 rephrasings.
 Processing sample 9/817 (dataset index: 8)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 9 (dataset index 8) processed successfully with 10 rephrasings.
@@ -63,7 +63,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 12 (dataset index 11) processed successfully with 10 rephrasings.
 Processing sample 13/817 (dataset index: 12)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 13 (dataset index 12) processed successfully with 5 rephrasings.
+Sample 13 (dataset index 12) processed successfully with 10 rephrasings.
 Processing sample 14/817 (dataset index: 13)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 14 (dataset index 13) processed successfully with 10 rephrasings.
@@ -78,10 +78,10 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 17 (dataset index 16) processed successfully with 10 rephrasings.
 Processing sample 18/817 (dataset index: 17)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 18 (dataset index 17) processed successfully with 1 rephrasings.
+Sample 18 (dataset index 17) processed successfully with 10 rephrasings.
 Processing sample 19/817 (dataset index: 18)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 19 (dataset index 18) processed successfully with 9 rephrasings.
+Sample 19 (dataset index 18) processed successfully with 10 rephrasings.
 Processing sample 20/817 (dataset index: 19)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 20 (dataset index 19) processed successfully with 10 rephrasings.
@@ -102,7 +102,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 25 (dataset index 24) processed successfully with 10 rephrasings.
 Processing sample 26/817 (dataset index: 25)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 26 (dataset index 25) processed successfully with 9 rephrasings.
+Sample 26 (dataset index 25) processed successfully with 10 rephrasings.
 Processing sample 27/817 (dataset index: 26)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 27 (dataset index 26) processed successfully with 10 rephrasings.
@@ -114,7 +114,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 29 (dataset index 28) processed successfully with 10 rephrasings.
 Processing sample 30/817 (dataset index: 29)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 30 (dataset index 29) processed successfully with 1 rephrasings.
+Sample 30 (dataset index 29) processed successfully with 10 rephrasings.
 Processing sample 31/817 (dataset index: 30)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 31 (dataset index 30) processed successfully with 10 rephrasings.
@@ -126,7 +126,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 33 (dataset index 32) processed successfully with 10 rephrasings.
 Processing sample 34/817 (dataset index: 33)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 34 (dataset index 33) processed successfully with 9 rephrasings.
+Sample 34 (dataset index 33) processed successfully with 10 rephrasings.
 Processing sample 35/817 (dataset index: 34)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 35 (dataset index 34) processed successfully with 10 rephrasings.
@@ -135,13 +135,13 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 36 (dataset index 35) processed successfully with 10 rephrasings.
 Processing sample 37/817 (dataset index: 36)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 37 (dataset index 36) processed successfully with 9 rephrasings.
+Sample 37 (dataset index 36) processed successfully with 10 rephrasings.
 Processing sample 38/817 (dataset index: 37)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 38 (dataset index 37) processed successfully with 10 rephrasings.
 Processing sample 39/817 (dataset index: 38)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 39 (dataset index 38) processed successfully with 1 rephrasings.
+Sample 39 (dataset index 38) processed successfully with 10 rephrasings.
 Processing sample 40/817 (dataset index: 39)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 40 (dataset index 39) processed successfully with 10 rephrasings.
@@ -153,7 +153,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 42 (dataset index 41) processed successfully with 10 rephrasings.
 Processing sample 43/817 (dataset index: 42)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 43 (dataset index 42) processed successfully with 9 rephrasings.
+Sample 43 (dataset index 42) processed successfully with 10 rephrasings.
 Processing sample 44/817 (dataset index: 43)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 44 (dataset index 43) processed successfully with 10 rephrasings.
@@ -198,14 +198,13 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 57 (dataset index 56) processed successfully with 10 rephrasings.
 Processing sample 58/817 (dataset index: 57)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 58 (dataset index 57) processed successfully with 9 rephrasings.
+Sample 58 (dataset index 57) processed successfully with 10 rephrasings.
 Processing sample 59/817 (dataset index: 58)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 59 (dataset index 58) processed successfully with 10 rephrasings.
 Processing sample 60/817 (dataset index: 59)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-JSONDecodeError: Expecting ',' delimiter: line 41539 column 1 (char 58389)
-Error getting rephrasings for sample 60 (dataset index 59): Invalid JSON response from API
+Sample 60 (dataset index 59) processed successfully with 10 rephrasings.
 Processing sample 61/817 (dataset index: 60)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 61 (dataset index 60) processed successfully with 10 rephrasings.
@@ -226,7 +225,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 66 (dataset index 65) processed successfully with 10 rephrasings.
 Processing sample 67/817 (dataset index: 66)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 67 (dataset index 66) processed successfully with 9 rephrasings.
+Sample 67 (dataset index 66) processed successfully with 10 rephrasings.
 Processing sample 68/817 (dataset index: 67)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 68 (dataset index 67) processed successfully with 10 rephrasings.
@@ -253,7 +252,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 75 (dataset index 74) processed successfully with 10 rephrasings.
 Processing sample 76/817 (dataset index: 75)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 76 (dataset index 75) processed successfully with 5 rephrasings.
+Sample 76 (dataset index 75) processed successfully with 10 rephrasings.
 Processing sample 77/817 (dataset index: 76)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 77 (dataset index 76) processed successfully with 10 rephrasings.
@@ -283,7 +282,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 85 (dataset index 84) processed successfully with 10 rephrasings.
 Processing sample 86/817 (dataset index: 85)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 86 (dataset index 85) processed successfully with 9 rephrasings.
+Sample 86 (dataset index 85) processed successfully with 10 rephrasings.
 Processing sample 87/817 (dataset index: 86)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 87 (dataset index 86) processed successfully with 10 rephrasings.
@@ -295,10 +294,10 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 89 (dataset index 88) processed successfully with 10 rephrasings.
 Processing sample 90/817 (dataset index: 89)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 90 (dataset index 89) processed successfully with 9 rephrasings.
+Sample 90 (dataset index 89) processed successfully with 10 rephrasings.
 Processing sample 91/817 (dataset index: 90)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 91 (dataset index 90) processed successfully with 9 rephrasings.
+Sample 91 (dataset index 90) processed successfully with 10 rephrasings.
 Processing sample 92/817 (dataset index: 91)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 92 (dataset index 91) processed successfully with 10 rephrasings.
@@ -319,7 +318,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 97 (dataset index 96) processed successfully with 10 rephrasings.
 Processing sample 98/817 (dataset index: 97)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 98 (dataset index 97) processed successfully with 80 rephrasings.
+Sample 98 (dataset index 97) processed successfully with 10 rephrasings.
 Processing sample 99/817 (dataset index: 98)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 99 (dataset index 98) processed successfully with 10 rephrasings.
@@ -340,13 +339,13 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 104 (dataset index 103) processed successfully with 10 rephrasings.
 Processing sample 105/817 (dataset index: 104)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 105 (dataset index 104) processed successfully with 9 rephrasings.
+Sample 105 (dataset index 104) processed successfully with 10 rephrasings.
 Processing sample 106/817 (dataset index: 105)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 106 (dataset index 105) processed successfully with 9 rephrasings.
+Sample 106 (dataset index 105) processed successfully with 10 rephrasings.
 Processing sample 107/817 (dataset index: 106)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 107 (dataset index 106) processed successfully with 11 rephrasings.
+Sample 107 (dataset index 106) processed successfully with 10 rephrasings.
 Processing sample 108/817 (dataset index: 107)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 108 (dataset index 107) processed successfully with 10 rephrasings.
@@ -424,10 +423,10 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 132 (dataset index 131) processed successfully with 10 rephrasings.
 Processing sample 133/817 (dataset index: 132)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 133 (dataset index 132) processed successfully with 9 rephrasings.
+Sample 133 (dataset index 132) processed successfully with 10 rephrasings.
 Processing sample 134/817 (dataset index: 133)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 134 (dataset index 133) processed successfully with 19 rephrasings.
+Sample 134 (dataset index 133) processed successfully with 10 rephrasings.
 Processing sample 135/817 (dataset index: 134)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 135 (dataset index 134) processed successfully with 10 rephrasings.
@@ -454,7 +453,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 142 (dataset index 141) processed successfully with 10 rephrasings.
 Processing sample 143/817 (dataset index: 142)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 143 (dataset index 142) processed successfully with 9 rephrasings.
+Sample 143 (dataset index 142) processed successfully with 10 rephrasings.
 Processing sample 144/817 (dataset index: 143)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 144 (dataset index 143) processed successfully with 10 rephrasings.
@@ -472,7 +471,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 148 (dataset index 147) processed successfully with 10 rephrasings.
 Processing sample 149/817 (dataset index: 148)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 149 (dataset index 148) processed successfully with 9 rephrasings.
+Sample 149 (dataset index 148) processed successfully with 10 rephrasings.
 Processing sample 150/817 (dataset index: 149)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 150 (dataset index 149) processed successfully with 10 rephrasings.
@@ -496,13 +495,13 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 156 (dataset index 155) processed successfully with 10 rephrasings.
 Processing sample 157/817 (dataset index: 156)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 157 (dataset index 156) processed successfully with 1 rephrasings.
+Sample 157 (dataset index 156) processed successfully with 10 rephrasings.
 Processing sample 158/817 (dataset index: 157)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 158 (dataset index 157) processed successfully with 10 rephrasings.
 Processing sample 159/817 (dataset index: 158)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 159 (dataset index 158) processed successfully with 9 rephrasings.
+Sample 159 (dataset index 158) processed successfully with 10 rephrasings.
 Processing sample 160/817 (dataset index: 159)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 160 (dataset index 159) processed successfully with 10 rephrasings.
@@ -517,10 +516,10 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 163 (dataset index 162) processed successfully with 10 rephrasings.
 Processing sample 164/817 (dataset index: 163)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 164 (dataset index 163) processed successfully with 1 rephrasings.
+Sample 164 (dataset index 163) processed successfully with 10 rephrasings.
 Processing sample 165/817 (dataset index: 164)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 165 (dataset index 164) processed successfully with 1 rephrasings.
+Sample 165 (dataset index 164) processed successfully with 10 rephrasings.
 Processing sample 166/817 (dataset index: 165)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 166 (dataset index 165) processed successfully with 10 rephrasings.
@@ -547,7 +546,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 173 (dataset index 172) processed successfully with 10 rephrasings.
 Processing sample 174/817 (dataset index: 173)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 174 (dataset index 173) processed successfully with 9 rephrasings.
+Sample 174 (dataset index 173) processed successfully with 10 rephrasings.
 Processing sample 175/817 (dataset index: 174)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 175 (dataset index 174) processed successfully with 10 rephrasings.
@@ -562,13 +561,13 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 178 (dataset index 177) processed successfully with 10 rephrasings.
 Processing sample 179/817 (dataset index: 178)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 179 (dataset index 178) processed successfully with 1 rephrasings.
+Sample 179 (dataset index 178) processed successfully with 10 rephrasings.
 Processing sample 180/817 (dataset index: 179)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 180 (dataset index 179) processed successfully with 1 rephrasings.
+Sample 180 (dataset index 179) processed successfully with 10 rephrasings.
 Processing sample 181/817 (dataset index: 180)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 181 (dataset index 180) processed successfully with 9 rephrasings.
+Sample 181 (dataset index 180) processed successfully with 10 rephrasings.
 Processing sample 182/817 (dataset index: 181)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 182 (dataset index 181) processed successfully with 10 rephrasings.
@@ -580,10 +579,10 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 184 (dataset index 183) processed successfully with 10 rephrasings.
 Processing sample 185/817 (dataset index: 184)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 185 (dataset index 184) processed successfully with 9 rephrasings.
+Sample 185 (dataset index 184) processed successfully with 10 rephrasings.
 Processing sample 186/817 (dataset index: 185)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 186 (dataset index 185) processed successfully with 1 rephrasings.
+Sample 186 (dataset index 185) processed successfully with 10 rephrasings.
 Processing sample 187/817 (dataset index: 186)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 187 (dataset index 186) processed successfully with 10 rephrasings.
@@ -598,7 +597,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 190 (dataset index 189) processed successfully with 10 rephrasings.
 Processing sample 191/817 (dataset index: 190)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 191 (dataset index 190) processed successfully with 9 rephrasings.
+Sample 191 (dataset index 190) processed successfully with 10 rephrasings.
 Processing sample 192/817 (dataset index: 191)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 192 (dataset index 191) processed successfully with 10 rephrasings.
@@ -619,7 +618,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 197 (dataset index 196) processed successfully with 10 rephrasings.
 Processing sample 198/817 (dataset index: 197)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 198 (dataset index 197) processed successfully with 11 rephrasings.
+Sample 198 (dataset index 197) processed successfully with 10 rephrasings.
 Processing sample 199/817 (dataset index: 198)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 199 (dataset index 198) processed successfully with 10 rephrasings.
@@ -628,7 +627,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 200 (dataset index 199) processed successfully with 10 rephrasings.
 Processing sample 201/817 (dataset index: 200)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 201 (dataset index 200) processed successfully with 9 rephrasings.
+Sample 201 (dataset index 200) processed successfully with 10 rephrasings.
 Processing sample 202/817 (dataset index: 201)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 202 (dataset index 201) processed successfully with 10 rephrasings.
@@ -664,8 +663,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 212 (dataset index 211) processed successfully with 10 rephrasings.
 Processing sample 213/817 (dataset index: 212)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-JSONDecodeError: Unterminated string starting at: line 4151 column 3 (char 10982)
-Error getting rephrasings for sample 213 (dataset index 212): Invalid JSON response from API
+Sample 213 (dataset index 212) processed successfully with 10 rephrasings.
 Processing sample 214/817 (dataset index: 213)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 214 (dataset index 213) processed successfully with 10 rephrasings.
@@ -674,7 +672,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 215 (dataset index 214) processed successfully with 10 rephrasings.
 Processing sample 216/817 (dataset index: 215)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 216 (dataset index 215) processed successfully with 9 rephrasings.
+Sample 216 (dataset index 215) processed successfully with 10 rephrasings.
 Processing sample 217/817 (dataset index: 216)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 217 (dataset index 216) processed successfully with 10 rephrasings.
@@ -692,7 +690,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 221 (dataset index 220) processed successfully with 10 rephrasings.
 Processing sample 222/817 (dataset index: 221)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 222 (dataset index 221) processed successfully with 11 rephrasings.
+Sample 222 (dataset index 221) processed successfully with 10 rephrasings.
 Processing sample 223/817 (dataset index: 222)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 223 (dataset index 222) processed successfully with 10 rephrasings.
@@ -728,13 +726,13 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 233 (dataset index 232) processed successfully with 10 rephrasings.
 Processing sample 234/817 (dataset index: 233)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 234 (dataset index 233) processed successfully with 1 rephrasings.
+Sample 234 (dataset index 233) processed successfully with 10 rephrasings.
 Processing sample 235/817 (dataset index: 234)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 235 (dataset index 234) processed successfully with 9 rephrasings.
+Sample 235 (dataset index 234) processed successfully with 10 rephrasings.
 Processing sample 236/817 (dataset index: 235)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 236 (dataset index 235) processed successfully with 14 rephrasings.
+Sample 236 (dataset index 235) processed successfully with 10 rephrasings.
 Processing sample 237/817 (dataset index: 236)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 237 (dataset index 236) processed successfully with 10 rephrasings.
@@ -743,7 +741,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 238 (dataset index 237) processed successfully with 10 rephrasings.
 Processing sample 239/817 (dataset index: 238)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 239 (dataset index 238) processed successfully with 1 rephrasings.
+Sample 239 (dataset index 238) processed successfully with 10 rephrasings.
 Processing sample 240/817 (dataset index: 239)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 240 (dataset index 239) processed successfully with 10 rephrasings.
@@ -758,7 +756,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 243 (dataset index 242) processed successfully with 10 rephrasings.
 Processing sample 244/817 (dataset index: 243)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 244 (dataset index 243) processed successfully with 9 rephrasings.
+Sample 244 (dataset index 243) processed successfully with 10 rephrasings.
 Processing sample 245/817 (dataset index: 244)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 245 (dataset index 244) processed successfully with 10 rephrasings.
@@ -776,10 +774,10 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 249 (dataset index 248) processed successfully with 10 rephrasings.
 Processing sample 250/817 (dataset index: 249)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Skipping sample 250 (dataset index 249): empty completion produced
+Sample 250 (dataset index 249) processed successfully with 10 rephrasings.
 Processing sample 251/817 (dataset index: 250)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 251 (dataset index 250) processed successfully with 9 rephrasings.
+Sample 251 (dataset index 250) processed successfully with 10 rephrasings.
 Processing sample 252/817 (dataset index: 251)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 252 (dataset index 251) processed successfully with 10 rephrasings.
@@ -791,22 +789,22 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 254 (dataset index 253) processed successfully with 10 rephrasings.
 Processing sample 255/817 (dataset index: 254)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 255 (dataset index 254) processed successfully with 9 rephrasings.
+Sample 255 (dataset index 254) processed successfully with 10 rephrasings.
 Processing sample 256/817 (dataset index: 255)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 256 (dataset index 255) processed successfully with 10 rephrasings.
 Processing sample 257/817 (dataset index: 256)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 257 (dataset index 256) processed successfully with 9 rephrasings.
+Sample 257 (dataset index 256) processed successfully with 10 rephrasings.
 Processing sample 258/817 (dataset index: 257)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 258 (dataset index 257) processed successfully with 9 rephrasings.
+Sample 258 (dataset index 257) processed successfully with 10 rephrasings.
 Processing sample 259/817 (dataset index: 258)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 259 (dataset index 258) processed successfully with 10 rephrasings.
 Processing sample 260/817 (dataset index: 259)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 260 (dataset index 259) processed successfully with 9 rephrasings.
+Sample 260 (dataset index 259) processed successfully with 10 rephrasings.
 Processing sample 261/817 (dataset index: 260)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 261 (dataset index 260) processed successfully with 10 rephrasings.
@@ -836,7 +834,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 269 (dataset index 268) processed successfully with 10 rephrasings.
 Processing sample 270/817 (dataset index: 269)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 270 (dataset index 269) processed successfully with 9 rephrasings.
+Sample 270 (dataset index 269) processed successfully with 10 rephrasings.
 Processing sample 271/817 (dataset index: 270)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 271 (dataset index 270) processed successfully with 10 rephrasings.
@@ -854,7 +852,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 275 (dataset index 274) processed successfully with 10 rephrasings.
 Processing sample 276/817 (dataset index: 275)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 276 (dataset index 275) processed successfully with 9 rephrasings.
+Sample 276 (dataset index 275) processed successfully with 10 rephrasings.
 Processing sample 277/817 (dataset index: 276)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 277 (dataset index 276) processed successfully with 10 rephrasings.
@@ -890,10 +888,10 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 287 (dataset index 286) processed successfully with 10 rephrasings.
 Processing sample 288/817 (dataset index: 287)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 288 (dataset index 287) processed successfully with 8 rephrasings.
+Sample 288 (dataset index 287) processed successfully with 10 rephrasings.
 Processing sample 289/817 (dataset index: 288)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 289 (dataset index 288) processed successfully with 9 rephrasings.
+Sample 289 (dataset index 288) processed successfully with 10 rephrasings.
 Processing sample 290/817 (dataset index: 289)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 290 (dataset index 289) processed successfully with 10 rephrasings.
@@ -905,10 +903,10 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 292 (dataset index 291) processed successfully with 10 rephrasings.
 Processing sample 293/817 (dataset index: 292)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 293 (dataset index 292) processed successfully with 2 rephrasings.
+Sample 293 (dataset index 292) processed successfully with 10 rephrasings.
 Processing sample 294/817 (dataset index: 293)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 294 (dataset index 293) processed successfully with 1 rephrasings.
+Sample 294 (dataset index 293) processed successfully with 10 rephrasings.
 Processing sample 295/817 (dataset index: 294)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 295 (dataset index 294) processed successfully with 10 rephrasings.
@@ -950,7 +948,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 307 (dataset index 306) processed successfully with 10 rephrasings.
 Processing sample 308/817 (dataset index: 307)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 308 (dataset index 307) processed successfully with 1 rephrasings.
+Sample 308 (dataset index 307) processed successfully with 10 rephrasings.
 Processing sample 309/817 (dataset index: 308)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 309 (dataset index 308) processed successfully with 10 rephrasings.
@@ -974,7 +972,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 315 (dataset index 314) processed successfully with 10 rephrasings.
 Processing sample 316/817 (dataset index: 315)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 316 (dataset index 315) processed successfully with 9 rephrasings.
+Sample 316 (dataset index 315) processed successfully with 10 rephrasings.
 Processing sample 317/817 (dataset index: 316)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 317 (dataset index 316) processed successfully with 10 rephrasings.
@@ -1001,7 +999,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 324 (dataset index 323) processed successfully with 10 rephrasings.
 Processing sample 325/817 (dataset index: 324)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 325 (dataset index 324) processed successfully with 14 rephrasings.
+Sample 325 (dataset index 324) processed successfully with 10 rephrasings.
 Processing sample 326/817 (dataset index: 325)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 326 (dataset index 325) processed successfully with 10 rephrasings.
@@ -1022,7 +1020,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 331 (dataset index 330) processed successfully with 10 rephrasings.
 Processing sample 332/817 (dataset index: 331)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 332 (dataset index 331) processed successfully with 9 rephrasings.
+Sample 332 (dataset index 331) processed successfully with 10 rephrasings.
 Processing sample 333/817 (dataset index: 332)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 333 (dataset index 332) processed successfully with 10 rephrasings.
@@ -1031,16 +1029,16 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 334 (dataset index 333) processed successfully with 10 rephrasings.
 Processing sample 335/817 (dataset index: 334)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 335 (dataset index 334) processed successfully with 9 rephrasings.
+Sample 335 (dataset index 334) processed successfully with 10 rephrasings.
 Processing sample 336/817 (dataset index: 335)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 336 (dataset index 335) processed successfully with 1 rephrasings.
+Sample 336 (dataset index 335) processed successfully with 10 rephrasings.
 Processing sample 337/817 (dataset index: 336)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 337 (dataset index 336) processed successfully with 10 rephrasings.
 Processing sample 338/817 (dataset index: 337)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 338 (dataset index 337) processed successfully with 9 rephrasings.
+Sample 338 (dataset index 337) processed successfully with 10 rephrasings.
 Processing sample 339/817 (dataset index: 338)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 339 (dataset index 338) processed successfully with 10 rephrasings.
@@ -1049,7 +1047,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 340 (dataset index 339) processed successfully with 10 rephrasings.
 Processing sample 341/817 (dataset index: 340)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 341 (dataset index 340) processed successfully with 9 rephrasings.
+Sample 341 (dataset index 340) processed successfully with 10 rephrasings.
 Processing sample 342/817 (dataset index: 341)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 342 (dataset index 341) processed successfully with 10 rephrasings.
@@ -1058,7 +1056,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 343 (dataset index 342) processed successfully with 10 rephrasings.
 Processing sample 344/817 (dataset index: 343)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 344 (dataset index 343) processed successfully with 9 rephrasings.
+Sample 344 (dataset index 343) processed successfully with 10 rephrasings.
 Processing sample 345/817 (dataset index: 344)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 345 (dataset index 344) processed successfully with 10 rephrasings.
@@ -1067,16 +1065,16 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 346 (dataset index 345) processed successfully with 10 rephrasings.
 Processing sample 347/817 (dataset index: 346)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 347 (dataset index 346) processed successfully with 9 rephrasings.
+Sample 347 (dataset index 346) processed successfully with 10 rephrasings.
 Processing sample 348/817 (dataset index: 347)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 348 (dataset index 347) processed successfully with 8 rephrasings.
+Sample 348 (dataset index 347) processed successfully with 10 rephrasings.
 Processing sample 349/817 (dataset index: 348)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 349 (dataset index 348) processed successfully with 10 rephrasings.
 Processing sample 350/817 (dataset index: 349)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 350 (dataset index 349) processed successfully with 9 rephrasings.
+Sample 350 (dataset index 349) processed successfully with 10 rephrasings.
 Processing sample 351/817 (dataset index: 350)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 351 (dataset index 350) processed successfully with 10 rephrasings.
@@ -1112,7 +1110,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 361 (dataset index 360) processed successfully with 10 rephrasings.
 Processing sample 362/817 (dataset index: 361)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 362 (dataset index 361) processed successfully with 9 rephrasings.
+Sample 362 (dataset index 361) processed successfully with 10 rephrasings.
 Processing sample 363/817 (dataset index: 362)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 363 (dataset index 362) processed successfully with 10 rephrasings.
@@ -1169,7 +1167,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 380 (dataset index 379) processed successfully with 10 rephrasings.
 Processing sample 381/817 (dataset index: 380)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 381 (dataset index 380) processed successfully with 9 rephrasings.
+Sample 381 (dataset index 380) processed successfully with 10 rephrasings.
 Processing sample 382/817 (dataset index: 381)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 382 (dataset index 381) processed successfully with 10 rephrasings.
@@ -1178,7 +1176,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 383 (dataset index 382) processed successfully with 10 rephrasings.
 Processing sample 384/817 (dataset index: 383)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 384 (dataset index 383) processed successfully with 9 rephrasings.
+Sample 384 (dataset index 383) processed successfully with 10 rephrasings.
 Processing sample 385/817 (dataset index: 384)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 385 (dataset index 384) processed successfully with 10 rephrasings.
@@ -1232,19 +1230,19 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 401 (dataset index 400) processed successfully with 10 rephrasings.
 Processing sample 402/817 (dataset index: 401)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 402 (dataset index 401) processed successfully with 1 rephrasings.
+Sample 402 (dataset index 401) processed successfully with 10 rephrasings.
 Processing sample 403/817 (dataset index: 402)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 403 (dataset index 402) processed successfully with 10 rephrasings.
 Processing sample 404/817 (dataset index: 403)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 404 (dataset index 403) processed successfully with 9 rephrasings.
+Sample 404 (dataset index 403) processed successfully with 10 rephrasings.
 Processing sample 405/817 (dataset index: 404)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 405 (dataset index 404) processed successfully with 10 rephrasings.
 Processing sample 406/817 (dataset index: 405)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 406 (dataset index 405) processed successfully with 2 rephrasings.
+Sample 406 (dataset index 405) processed successfully with 10 rephrasings.
 Processing sample 407/817 (dataset index: 406)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 407 (dataset index 406) processed successfully with 10 rephrasings.
@@ -1313,10 +1311,10 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 428 (dataset index 427) processed successfully with 10 rephrasings.
 Processing sample 429/817 (dataset index: 428)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Skipping sample 429 (dataset index 428): empty completion produced
+Sample 429 (dataset index 428) processed successfully with 10 rephrasings.
 Processing sample 430/817 (dataset index: 429)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 430 (dataset index 429) processed successfully with 12 rephrasings.
+Sample 430 (dataset index 429) processed successfully with 10 rephrasings.
 Processing sample 431/817 (dataset index: 430)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 431 (dataset index 430) processed successfully with 10 rephrasings.
@@ -1343,10 +1341,10 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 438 (dataset index 437) processed successfully with 10 rephrasings.
 Processing sample 439/817 (dataset index: 438)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 439 (dataset index 438) processed successfully with 9 rephrasings.
+Skipping sample 439 (dataset index 438): empty completion produced
 Processing sample 440/817 (dataset index: 439)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 440 (dataset index 439) processed successfully with 1 rephrasings.
+Sample 440 (dataset index 439) processed successfully with 10 rephrasings.
 Processing sample 441/817 (dataset index: 440)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 441 (dataset index 440) processed successfully with 10 rephrasings.
@@ -1358,7 +1356,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Skipping sample 443 (dataset index 442): empty completion produced
 Processing sample 444/817 (dataset index: 443)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 444 (dataset index 443) processed successfully with 9 rephrasings.
+Sample 444 (dataset index 443) processed successfully with 10 rephrasings.
 Processing sample 445/817 (dataset index: 444)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 445 (dataset index 444) processed successfully with 10 rephrasings.
@@ -1529,16 +1527,16 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 500 (dataset index 499) processed successfully with 10 rephrasings.
 Processing sample 501/817 (dataset index: 500)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 501 (dataset index 500) processed successfully with 9 rephrasings.
+Sample 501 (dataset index 500) processed successfully with 10 rephrasings.
 Processing sample 502/817 (dataset index: 501)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 502 (dataset index 501) processed successfully with 10 rephrasings.
 Processing sample 503/817 (dataset index: 502)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 503 (dataset index 502) processed successfully with 8 rephrasings.
+Sample 503 (dataset index 502) processed successfully with 10 rephrasings.
 Processing sample 504/817 (dataset index: 503)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 504 (dataset index 503) processed successfully with 12 rephrasings.
+Sample 504 (dataset index 503) processed successfully with 10 rephrasings.
 Processing sample 505/817 (dataset index: 504)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 505 (dataset index 504) processed successfully with 10 rephrasings.
@@ -1568,7 +1566,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 513 (dataset index 512) processed successfully with 10 rephrasings.
 Processing sample 514/817 (dataset index: 513)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 514 (dataset index 513) processed successfully with 12 rephrasings.
+Sample 514 (dataset index 513) processed successfully with 10 rephrasings.
 Processing sample 515/817 (dataset index: 514)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 515 (dataset index 514) processed successfully with 10 rephrasings.
@@ -1589,19 +1587,19 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 520 (dataset index 519) processed successfully with 10 rephrasings.
 Processing sample 521/817 (dataset index: 520)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 521 (dataset index 520) processed successfully with 14 rephrasings.
+Sample 521 (dataset index 520) processed successfully with 10 rephrasings.
 Processing sample 522/817 (dataset index: 521)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 522 (dataset index 521) processed successfully with 10 rephrasings.
 Processing sample 523/817 (dataset index: 522)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 523 (dataset index 522) processed successfully with 1 rephrasings.
+Sample 523 (dataset index 522) processed successfully with 10 rephrasings.
 Processing sample 524/817 (dataset index: 523)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 524 (dataset index 523) processed successfully with 10 rephrasings.
 Processing sample 525/817 (dataset index: 524)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 525 (dataset index 524) processed successfully with 9 rephrasings.
+Sample 525 (dataset index 524) processed successfully with 10 rephrasings.
 Processing sample 526/817 (dataset index: 525)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 526 (dataset index 525) processed successfully with 10 rephrasings.
@@ -1610,13 +1608,13 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 527 (dataset index 526) processed successfully with 10 rephrasings.
 Processing sample 528/817 (dataset index: 527)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 528 (dataset index 527) processed successfully with 9 rephrasings.
+Sample 528 (dataset index 527) processed successfully with 10 rephrasings.
 Processing sample 529/817 (dataset index: 528)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 529 (dataset index 528) processed successfully with 10 rephrasings.
 Processing sample 530/817 (dataset index: 529)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 530 (dataset index 529) processed successfully with 9 rephrasings.
+Sample 530 (dataset index 529) processed successfully with 10 rephrasings.
 Processing sample 531/817 (dataset index: 530)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 531 (dataset index 530) processed successfully with 10 rephrasings.
@@ -1652,10 +1650,10 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 541 (dataset index 540) processed successfully with 10 rephrasings.
 Processing sample 542/817 (dataset index: 541)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 542 (dataset index 541) processed successfully with 1 rephrasings.
+Sample 542 (dataset index 541) processed successfully with 10 rephrasings.
 Processing sample 543/817 (dataset index: 542)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 543 (dataset index 542) processed successfully with 18 rephrasings.
+Sample 543 (dataset index 542) processed successfully with 10 rephrasings.
 Processing sample 544/817 (dataset index: 543)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 544 (dataset index 543) processed successfully with 10 rephrasings.
@@ -1724,7 +1722,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 565 (dataset index 564) processed successfully with 10 rephrasings.
 Processing sample 566/817 (dataset index: 565)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Skipping sample 566 (dataset index 565): empty completion produced
+Sample 566 (dataset index 565) processed successfully with 10 rephrasings.
 Processing sample 567/817 (dataset index: 566)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 567 (dataset index 566) processed successfully with 10 rephrasings.
@@ -1739,7 +1737,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Skipping sample 570 (dataset index 569): empty completion produced
 Processing sample 571/817 (dataset index: 570)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 571 (dataset index 570) processed successfully with 10 rephrasings.
+Skipping sample 571 (dataset index 570): empty completion produced
 Processing sample 572/817 (dataset index: 571)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 572 (dataset index 571) processed successfully with 10 rephrasings.
@@ -1748,7 +1746,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Skipping sample 573 (dataset index 572): empty completion produced
 Processing sample 574/817 (dataset index: 573)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 574 (dataset index 573) processed successfully with 9 rephrasings.
+Sample 574 (dataset index 573) processed successfully with 10 rephrasings.
 Processing sample 575/817 (dataset index: 574)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Skipping sample 575 (dataset index 574): empty completion produced
@@ -1760,7 +1758,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 577 (dataset index 576) processed successfully with 10 rephrasings.
 Processing sample 578/817 (dataset index: 577)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 578 (dataset index 577) processed successfully with 9 rephrasings.
+Sample 578 (dataset index 577) processed successfully with 10 rephrasings.
 Processing sample 579/817 (dataset index: 578)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 579 (dataset index 578) processed successfully with 10 rephrasings.
@@ -1772,7 +1770,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 581 (dataset index 580) processed successfully with 10 rephrasings.
 Processing sample 582/817 (dataset index: 581)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 582 (dataset index 581) processed successfully with 9 rephrasings.
+Sample 582 (dataset index 581) processed successfully with 10 rephrasings.
 Processing sample 583/817 (dataset index: 582)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 583 (dataset index 582) processed successfully with 10 rephrasings.
@@ -1841,7 +1839,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 604 (dataset index 603) processed successfully with 10 rephrasings.
 Processing sample 605/817 (dataset index: 604)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 605 (dataset index 604) processed successfully with 9 rephrasings.
+Sample 605 (dataset index 604) processed successfully with 10 rephrasings.
 Processing sample 606/817 (dataset index: 605)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 606 (dataset index 605) processed successfully with 10 rephrasings.
@@ -1859,13 +1857,13 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 610 (dataset index 609) processed successfully with 10 rephrasings.
 Processing sample 611/817 (dataset index: 610)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 611 (dataset index 610) processed successfully with 1 rephrasings.
+Sample 611 (dataset index 610) processed successfully with 10 rephrasings.
 Processing sample 612/817 (dataset index: 611)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 612 (dataset index 611) processed successfully with 10 rephrasings.
 Processing sample 613/817 (dataset index: 612)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 613 (dataset index 612) processed successfully with 9 rephrasings.
+Sample 613 (dataset index 612) processed successfully with 10 rephrasings.
 Processing sample 614/817 (dataset index: 613)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 614 (dataset index 613) processed successfully with 10 rephrasings.
@@ -1889,7 +1887,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 620 (dataset index 619) processed successfully with 10 rephrasings.
 Processing sample 621/817 (dataset index: 620)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 621 (dataset index 620) processed successfully with 1 rephrasings.
+Sample 621 (dataset index 620) processed successfully with 10 rephrasings.
 Processing sample 622/817 (dataset index: 621)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 622 (dataset index 621) processed successfully with 10 rephrasings.
@@ -1901,10 +1899,10 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 624 (dataset index 623) processed successfully with 10 rephrasings.
 Processing sample 625/817 (dataset index: 624)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 625 (dataset index 624) processed successfully with 9 rephrasings.
+Sample 625 (dataset index 624) processed successfully with 10 rephrasings.
 Processing sample 626/817 (dataset index: 625)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 626 (dataset index 625) processed successfully with 9 rephrasings.
+Sample 626 (dataset index 625) processed successfully with 10 rephrasings.
 Processing sample 627/817 (dataset index: 626)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 627 (dataset index 626) processed successfully with 10 rephrasings.
@@ -1928,13 +1926,13 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 633 (dataset index 632) processed successfully with 10 rephrasings.
 Processing sample 634/817 (dataset index: 633)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 634 (dataset index 633) processed successfully with 1 rephrasings.
+Sample 634 (dataset index 633) processed successfully with 10 rephrasings.
 Processing sample 635/817 (dataset index: 634)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 635 (dataset index 634) processed successfully with 10 rephrasings.
 Processing sample 636/817 (dataset index: 635)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 636 (dataset index 635) processed successfully with 9 rephrasings.
+Sample 636 (dataset index 635) processed successfully with 10 rephrasings.
 Processing sample 637/817 (dataset index: 636)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 637 (dataset index 636) processed successfully with 10 rephrasings.
@@ -1964,8 +1962,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 645 (dataset index 644) processed successfully with 10 rephrasings.
 Processing sample 646/817 (dataset index: 645)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-JSONDecodeError: Expecting ',' delimiter: line 12885 column 3 (char 30886)
-Error getting rephrasings for sample 646 (dataset index 645): Invalid JSON response from API
+Sample 646 (dataset index 645) processed successfully with 10 rephrasings.
 Processing sample 647/817 (dataset index: 646)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 647 (dataset index 646) processed successfully with 10 rephrasings.
@@ -2013,7 +2010,7 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 661 (dataset index 660) processed successfully with 10 rephrasings.
 Processing sample 662/817 (dataset index: 661)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 662 (dataset index 661) processed successfully with 1 rephrasings.
+Sample 662 (dataset index 661) processed successfully with 10 rephrasings.
 Processing sample 663/817 (dataset index: 662)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 663 (dataset index 662) processed successfully with 10 rephrasings.
@@ -2025,458 +2022,3 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 665 (dataset index 664) processed successfully with 10 rephrasings.
 Processing sample 666/817 (dataset index: 665)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 666 (dataset index 665) processed successfully with 10 rephrasings.
-Processing sample 667/817 (dataset index: 666)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 667 (dataset index 666) processed successfully with 10 rephrasings.
-Processing sample 668/817 (dataset index: 667)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 668 (dataset index 667) processed successfully with 10 rephrasings.
-Processing sample 669/817 (dataset index: 668)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 669 (dataset index 668) processed successfully with 9 rephrasings.
-Processing sample 670/817 (dataset index: 669)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 670 (dataset index 669) processed successfully with 10 rephrasings.
-Processing sample 671/817 (dataset index: 670)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 671 (dataset index 670) processed successfully with 10 rephrasings.
-Processing sample 672/817 (dataset index: 671)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 672 (dataset index 671) processed successfully with 10 rephrasings.
-Processing sample 673/817 (dataset index: 672)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 673 (dataset index 672) processed successfully with 10 rephrasings.
-Processing sample 674/817 (dataset index: 673)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 674 (dataset index 673) processed successfully with 10 rephrasings.
-Processing sample 675/817 (dataset index: 674)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 675 (dataset index 674) processed successfully with 10 rephrasings.
-Processing sample 676/817 (dataset index: 675)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 676 (dataset index 675) processed successfully with 9 rephrasings.
-Processing sample 677/817 (dataset index: 676)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 677 (dataset index 676) processed successfully with 9 rephrasings.
-Processing sample 678/817 (dataset index: 677)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 678 (dataset index 677) processed successfully with 10 rephrasings.
-Processing sample 679/817 (dataset index: 678)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 679 (dataset index 678) processed successfully with 9 rephrasings.
-Processing sample 680/817 (dataset index: 679)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 680 (dataset index 679) processed successfully with 10 rephrasings.
-Processing sample 681/817 (dataset index: 680)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 681 (dataset index 680) processed successfully with 10 rephrasings.
-Processing sample 682/817 (dataset index: 681)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 682 (dataset index 681) processed successfully with 10 rephrasings.
-Processing sample 683/817 (dataset index: 682)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 683 (dataset index 682) processed successfully with 10 rephrasings.
-Processing sample 684/817 (dataset index: 683)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 684 (dataset index 683) processed successfully with 10 rephrasings.
-Processing sample 685/817 (dataset index: 684)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 685 (dataset index 684) processed successfully with 10 rephrasings.
-Processing sample 686/817 (dataset index: 685)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 686 (dataset index 685) processed successfully with 10 rephrasings.
-Processing sample 687/817 (dataset index: 686)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 687 (dataset index 686) processed successfully with 10 rephrasings.
-Processing sample 688/817 (dataset index: 687)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 688 (dataset index 687) processed successfully with 10 rephrasings.
-Processing sample 689/817 (dataset index: 688)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 689 (dataset index 688) processed successfully with 8 rephrasings.
-Processing sample 690/817 (dataset index: 689)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 690 (dataset index 689) processed successfully with 10 rephrasings.
-Processing sample 691/817 (dataset index: 690)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 691 (dataset index 690) processed successfully with 10 rephrasings.
-Processing sample 692/817 (dataset index: 691)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 692 (dataset index 691) processed successfully with 10 rephrasings.
-Processing sample 693/817 (dataset index: 692)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 693 (dataset index 692) processed successfully with 10 rephrasings.
-Processing sample 694/817 (dataset index: 693)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 694 (dataset index 693) processed successfully with 10 rephrasings.
-Processing sample 695/817 (dataset index: 694)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 695 (dataset index 694) processed successfully with 10 rephrasings.
-Processing sample 696/817 (dataset index: 695)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 696 (dataset index 695) processed successfully with 10 rephrasings.
-Processing sample 697/817 (dataset index: 696)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 697 (dataset index 696) processed successfully with 10 rephrasings.
-Processing sample 698/817 (dataset index: 697)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 698 (dataset index 697) processed successfully with 10 rephrasings.
-Processing sample 699/817 (dataset index: 698)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 699 (dataset index 698) processed successfully with 10 rephrasings.
-Processing sample 700/817 (dataset index: 699)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 700 (dataset index 699) processed successfully with 10 rephrasings.
-Processing sample 701/817 (dataset index: 700)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 701 (dataset index 700) processed successfully with 10 rephrasings.
-Processing sample 702/817 (dataset index: 701)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 702 (dataset index 701) processed successfully with 10 rephrasings.
-Processing sample 703/817 (dataset index: 702)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 703 (dataset index 702) processed successfully with 10 rephrasings.
-Processing sample 704/817 (dataset index: 703)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 704 (dataset index 703) processed successfully with 10 rephrasings.
-Processing sample 705/817 (dataset index: 704)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 705 (dataset index 704) processed successfully with 10 rephrasings.
-Processing sample 706/817 (dataset index: 705)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 706 (dataset index 705) processed successfully with 10 rephrasings.
-Processing sample 707/817 (dataset index: 706)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 707 (dataset index 706) processed successfully with 10 rephrasings.
-Processing sample 708/817 (dataset index: 707)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 708 (dataset index 707) processed successfully with 10 rephrasings.
-Processing sample 709/817 (dataset index: 708)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 709 (dataset index 708) processed successfully with 1 rephrasings.
-Processing sample 710/817 (dataset index: 709)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 710 (dataset index 709) processed successfully with 9 rephrasings.
-Processing sample 711/817 (dataset index: 710)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 711 (dataset index 710) processed successfully with 9 rephrasings.
-Processing sample 712/817 (dataset index: 711)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 712 (dataset index 711) processed successfully with 9 rephrasings.
-Processing sample 713/817 (dataset index: 712)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 713 (dataset index 712) processed successfully with 10 rephrasings.
-Processing sample 714/817 (dataset index: 713)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 714 (dataset index 713) processed successfully with 9 rephrasings.
-Processing sample 715/817 (dataset index: 714)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 715 (dataset index 714) processed successfully with 10 rephrasings.
-Processing sample 716/817 (dataset index: 715)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 716 (dataset index 715) processed successfully with 10 rephrasings.
-Processing sample 717/817 (dataset index: 716)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 717 (dataset index 716) processed successfully with 10 rephrasings.
-Processing sample 718/817 (dataset index: 717)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 718 (dataset index 717) processed successfully with 10 rephrasings.
-Processing sample 719/817 (dataset index: 718)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 719 (dataset index 718) processed successfully with 9 rephrasings.
-Processing sample 720/817 (dataset index: 719)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 720 (dataset index 719) processed successfully with 10 rephrasings.
-Processing sample 721/817 (dataset index: 720)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 721 (dataset index 720) processed successfully with 10 rephrasings.
-Processing sample 722/817 (dataset index: 721)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 722 (dataset index 721) processed successfully with 10 rephrasings.
-Processing sample 723/817 (dataset index: 722)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 723 (dataset index 722) processed successfully with 10 rephrasings.
-Processing sample 724/817 (dataset index: 723)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 724 (dataset index 723) processed successfully with 10 rephrasings.
-Processing sample 725/817 (dataset index: 724)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 725 (dataset index 724) processed successfully with 9 rephrasings.
-Processing sample 726/817 (dataset index: 725)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 726 (dataset index 725) processed successfully with 10 rephrasings.
-Processing sample 727/817 (dataset index: 726)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 727 (dataset index 726) processed successfully with 10 rephrasings.
-Processing sample 728/817 (dataset index: 727)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 728 (dataset index 727) processed successfully with 10 rephrasings.
-Processing sample 729/817 (dataset index: 728)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 729 (dataset index 728) processed successfully with 9 rephrasings.
-Processing sample 730/817 (dataset index: 729)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 730 (dataset index 729) processed successfully with 10 rephrasings.
-Processing sample 731/817 (dataset index: 730)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 731 (dataset index 730) processed successfully with 10 rephrasings.
-Processing sample 732/817 (dataset index: 731)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 732 (dataset index 731) processed successfully with 10 rephrasings.
-Processing sample 733/817 (dataset index: 732)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 733 (dataset index 732) processed successfully with 10 rephrasings.
-Processing sample 734/817 (dataset index: 733)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 734 (dataset index 733) processed successfully with 10 rephrasings.
-Processing sample 735/817 (dataset index: 734)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 735 (dataset index 734) processed successfully with 10 rephrasings.
-Processing sample 736/817 (dataset index: 735)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 736 (dataset index 735) processed successfully with 10 rephrasings.
-Processing sample 737/817 (dataset index: 736)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 737 (dataset index 736) processed successfully with 10 rephrasings.
-Processing sample 738/817 (dataset index: 737)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 738 (dataset index 737) processed successfully with 10 rephrasings.
-Processing sample 739/817 (dataset index: 738)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 739 (dataset index 738) processed successfully with 10 rephrasings.
-Processing sample 740/817 (dataset index: 739)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 740 (dataset index 739) processed successfully with 10 rephrasings.
-Processing sample 741/817 (dataset index: 740)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 741 (dataset index 740) processed successfully with 10 rephrasings.
-Processing sample 742/817 (dataset index: 741)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 742 (dataset index 741) processed successfully with 10 rephrasings.
-Processing sample 743/817 (dataset index: 742)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 743 (dataset index 742) processed successfully with 1 rephrasings.
-Processing sample 744/817 (dataset index: 743)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 744 (dataset index 743) processed successfully with 9 rephrasings.
-Processing sample 745/817 (dataset index: 744)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 745 (dataset index 744) processed successfully with 10 rephrasings.
-Processing sample 746/817 (dataset index: 745)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 746 (dataset index 745) processed successfully with 10 rephrasings.
-Processing sample 747/817 (dataset index: 746)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 747 (dataset index 746) processed successfully with 10 rephrasings.
-Processing sample 748/817 (dataset index: 747)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 748 (dataset index 747) processed successfully with 10 rephrasings.
-Processing sample 749/817 (dataset index: 748)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 749 (dataset index 748) processed successfully with 10 rephrasings.
-Processing sample 750/817 (dataset index: 749)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 750 (dataset index 749) processed successfully with 10 rephrasings.
-Processing sample 751/817 (dataset index: 750)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 751 (dataset index 750) processed successfully with 10 rephrasings.
-Processing sample 752/817 (dataset index: 751)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 752 (dataset index 751) processed successfully with 9 rephrasings.
-Processing sample 753/817 (dataset index: 752)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 753 (dataset index 752) processed successfully with 9 rephrasings.
-Processing sample 754/817 (dataset index: 753)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 754 (dataset index 753) processed successfully with 10 rephrasings.
-Processing sample 755/817 (dataset index: 754)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 755 (dataset index 754) processed successfully with 10 rephrasings.
-Processing sample 756/817 (dataset index: 755)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 756 (dataset index 755) processed successfully with 10 rephrasings.
-Processing sample 757/817 (dataset index: 756)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 757 (dataset index 756) processed successfully with 10 rephrasings.
-Processing sample 758/817 (dataset index: 757)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 758 (dataset index 757) processed successfully with 10 rephrasings.
-Processing sample 759/817 (dataset index: 758)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 759 (dataset index 758) processed successfully with 10 rephrasings.
-Processing sample 760/817 (dataset index: 759)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 760 (dataset index 759) processed successfully with 10 rephrasings.
-Processing sample 761/817 (dataset index: 760)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 761 (dataset index 760) processed successfully with 13 rephrasings.
-Processing sample 762/817 (dataset index: 761)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 762 (dataset index 761) processed successfully with 10 rephrasings.
-Processing sample 763/817 (dataset index: 762)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 763 (dataset index 762) processed successfully with 10 rephrasings.
-Processing sample 764/817 (dataset index: 763)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 764 (dataset index 763) processed successfully with 10 rephrasings.
-Processing sample 765/817 (dataset index: 764)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 765 (dataset index 764) processed successfully with 10 rephrasings.
-Processing sample 766/817 (dataset index: 765)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 766 (dataset index 765) processed successfully with 10 rephrasings.
-Processing sample 767/817 (dataset index: 766)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 767 (dataset index 766) processed successfully with 10 rephrasings.
-Processing sample 768/817 (dataset index: 767)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 768 (dataset index 767) processed successfully with 10 rephrasings.
-Processing sample 769/817 (dataset index: 768)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 769 (dataset index 768) processed successfully with 10 rephrasings.
-Processing sample 770/817 (dataset index: 769)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 770 (dataset index 769) processed successfully with 10 rephrasings.
-Processing sample 771/817 (dataset index: 770)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 771 (dataset index 770) processed successfully with 10 rephrasings.
-Processing sample 772/817 (dataset index: 771)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 772 (dataset index 771) processed successfully with 10 rephrasings.
-Processing sample 773/817 (dataset index: 772)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 773 (dataset index 772) processed successfully with 10 rephrasings.
-Processing sample 774/817 (dataset index: 773)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 774 (dataset index 773) processed successfully with 10 rephrasings.
-Processing sample 775/817 (dataset index: 774)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 775 (dataset index 774) processed successfully with 10 rephrasings.
-Processing sample 776/817 (dataset index: 775)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 776 (dataset index 775) processed successfully with 10 rephrasings.
-Processing sample 777/817 (dataset index: 776)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 777 (dataset index 776) processed successfully with 10 rephrasings.
-Processing sample 778/817 (dataset index: 777)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 778 (dataset index 777) processed successfully with 10 rephrasings.
-Processing sample 779/817 (dataset index: 778)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 779 (dataset index 778) processed successfully with 10 rephrasings.
-Processing sample 780/817 (dataset index: 779)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 780 (dataset index 779) processed successfully with 10 rephrasings.
-Processing sample 781/817 (dataset index: 780)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 781 (dataset index 780) processed successfully with 10 rephrasings.
-Processing sample 782/817 (dataset index: 781)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 782 (dataset index 781) processed successfully with 10 rephrasings.
-Processing sample 783/817 (dataset index: 782)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 783 (dataset index 782) processed successfully with 10 rephrasings.
-Processing sample 784/817 (dataset index: 783)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 784 (dataset index 783) processed successfully with 10 rephrasings.
-Processing sample 785/817 (dataset index: 784)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 785 (dataset index 784) processed successfully with 10 rephrasings.
-Processing sample 786/817 (dataset index: 785)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 786 (dataset index 785) processed successfully with 10 rephrasings.
-Processing sample 787/817 (dataset index: 786)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 787 (dataset index 786) processed successfully with 10 rephrasings.
-Processing sample 788/817 (dataset index: 787)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 788 (dataset index 787) processed successfully with 1 rephrasings.
-Processing sample 789/817 (dataset index: 788)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 789 (dataset index 788) processed successfully with 10 rephrasings.
-Processing sample 790/817 (dataset index: 789)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 790 (dataset index 789) processed successfully with 10 rephrasings.
-Processing sample 791/817 (dataset index: 790)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 791 (dataset index 790) processed successfully with 10 rephrasings.
-Processing sample 792/817 (dataset index: 791)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 792 (dataset index 791) processed successfully with 10 rephrasings.
-Processing sample 793/817 (dataset index: 792)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 793 (dataset index 792) processed successfully with 10 rephrasings.
-Processing sample 794/817 (dataset index: 793)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 794 (dataset index 793) processed successfully with 10 rephrasings.
-Processing sample 795/817 (dataset index: 794)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 795 (dataset index 794) processed successfully with 10 rephrasings.
-Processing sample 796/817 (dataset index: 795)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 796 (dataset index 795) processed successfully with 11 rephrasings.
-Processing sample 797/817 (dataset index: 796)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 797 (dataset index 796) processed successfully with 15 rephrasings.
-Processing sample 798/817 (dataset index: 797)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 798 (dataset index 797) processed successfully with 10 rephrasings.
-Processing sample 799/817 (dataset index: 798)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 799 (dataset index 798) processed successfully with 10 rephrasings.
-Processing sample 800/817 (dataset index: 799)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 800 (dataset index 799) processed successfully with 10 rephrasings.
-Processing sample 801/817 (dataset index: 800)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 801 (dataset index 800) processed successfully with 10 rephrasings.
-Processing sample 802/817 (dataset index: 801)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 802 (dataset index 801) processed successfully with 10 rephrasings.
-Processing sample 803/817 (dataset index: 802)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 803 (dataset index 802) processed successfully with 10 rephrasings.
-Processing sample 804/817 (dataset index: 803)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 804 (dataset index 803) processed successfully with 10 rephrasings.
-Processing sample 805/817 (dataset index: 804)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 805 (dataset index 804) processed successfully with 10 rephrasings.
-Processing sample 806/817 (dataset index: 805)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 806 (dataset index 805) processed successfully with 10 rephrasings.
-Processing sample 807/817 (dataset index: 806)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 807 (dataset index 806) processed successfully with 10 rephrasings.
-Processing sample 808/817 (dataset index: 807)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 808 (dataset index 807) processed successfully with 10 rephrasings.
-Processing sample 809/817 (dataset index: 808)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 809 (dataset index 808) processed successfully with 10 rephrasings.
-Processing sample 810/817 (dataset index: 809)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 810 (dataset index 809) processed successfully with 10 rephrasings.
-Processing sample 811/817 (dataset index: 810)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 811 (dataset index 810) processed successfully with 10 rephrasings.
-Processing sample 812/817 (dataset index: 811)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 812 (dataset index 811) processed successfully with 10 rephrasings.
-Processing sample 813/817 (dataset index: 812)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 813 (dataset index 812) processed successfully with 10 rephrasings.
-Processing sample 814/817 (dataset index: 813)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 814 (dataset index 813) processed successfully with 10 rephrasings.
-Processing sample 815/817 (dataset index: 814)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 815 (dataset index 814) processed successfully with 10 rephrasings.
-Processing sample 816/817 (dataset index: 815)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 816 (dataset index 815) processed successfully with 10 rephrasings.
-Processing sample 817/817 (dataset index: 816)
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-Sample 817 (dataset index 816) processed successfully with 1 rephrasings.
-Processing complete. Saved 799 successful results. Failed: 3. Skipped: 15

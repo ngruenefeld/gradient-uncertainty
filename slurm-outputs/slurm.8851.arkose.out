@@ -52,3 +52,11 @@ EVALUATION SUMMARY
 Total jobs processed: 2
 Successful: 2
 Failed: 0
+[main f2e8e70] Answer Evaluation Results for Jobs 8807 8808 - All Successful (Commit: 121eb59)
+ 7 files changed, 948 insertions(+)
+ create mode 100644 slurm-outputs/slurm.8851.arkose.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   121eb59..f2e8e70  main -> main
+
+Results committed to git with message: Answer Evaluation Results for Jobs 8807 8808 - All Successful (Commit: 121eb59)
+All jobs completed successfully
