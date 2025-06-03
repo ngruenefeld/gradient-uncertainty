@@ -21,3 +21,11 @@ EVALUATION SUMMARY
 Total jobs processed: 1
 Successful: 1
 Failed: 0
+[main 9ba87ae] Answer Evaluation Results for Jobs 8446 - All Successful (Commit: a01065b)
+ 5 files changed, 140 insertions(+)
+ create mode 100644 slurm-outputs/slurm.8459.aleurit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   a01065b..9ba87ae  main -> main
+
+Results committed to git with message: Answer Evaluation Results for Jobs 8446 - All Successful (Commit: a01065b)
+All jobs completed successfully
