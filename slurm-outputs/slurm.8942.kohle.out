@@ -1,0 +1,33 @@
+slurmstepd-kohle: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-kohle: error: Setting TMPDIR to /tmp
+Running evaluation job with commit: 26b0c21086103ff9abad5a72662a666978b0766e
+Job numbers to process: 8809
+Total jobs: 1
+
+=========================================
+Processing job 1/1: 8809
+=========================================
+Running command: python -um scripts.evaluate_answers "8809" --gpt_model "gpt-4o-mini-2024-07-18" --key_mode "keyfile" --no-overwrite
+Job number: 8809
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Overwrite existing evaluations: False
+Found 1 files to process:
+  data/full/results_8809_llama-3.2-3b_4bit_rephrase_medium_truthful.pkl
+Processing file: data/full/results_8809_llama-3.2-3b_4bit_rephrase_medium_truthful.pkl
+  Found 4 entries to evaluate out of 799 total
+Evaluating entries:   0%|          | 0/799 [00:00<?, ?it/s]Evaluating entries:  16%|█▌        | 129/799 [00:00<00:04, 152.33it/s]Evaluating entries:  26%|██▌       | 206/799 [00:02<00:06, 91.53it/s] Evaluating entries:  29%|██▊       | 229/799 [00:03<00:09, 58.19it/s]Evaluating entries:  39%|███▉      | 315/799 [00:03<00:05, 85.04it/s]Evaluating entries: 100%|██████████| 799/799 [00:03<00:00, 216.55it/s]
+  Completed evaluations: 4 successful, 0 failed
+  Updated results saved to data/full/results_8809_llama-3.2-3b_4bit_rephrase_medium_truthful.pkl
+
+Evaluation complete:
+  Successfully processed: 1 files
+  Failed to process: 0 files
+✅ Job 8809 completed successfully
+
+=========================================
+EVALUATION SUMMARY
+=========================================
+Total jobs processed: 1
+Successful: 1
+Failed: 0

@@ -56,3 +56,11 @@ EVALUATION SUMMARY
 Total jobs processed: 2
 Successful: 2
 Failed: 0
+[main 26b0c21] Answer Evaluation Results for Jobs 8809 8852 - All Successful (Commit: e3d64a6)
+ 5 files changed, 274 insertions(+)
+ create mode 100644 slurm-outputs/slurm.8933.kohle.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   409a4ef..26b0c21  main -> main
+
+Results committed to git with message: Answer Evaluation Results for Jobs 8809 8852 - All Successful (Commit: e3d64a6)
+All jobs completed successfully
