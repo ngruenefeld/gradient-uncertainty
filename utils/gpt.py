@@ -292,10 +292,6 @@ def rephrase_text(
         raise ValueError(
             f"Divergence level '{divergence}' is not supported for language '{language}'"
         )
-    # Ensure the client is properly initialized
-    print(f"Divergence level: {divergence}")
-    print(f"System prompt: {system_prompt}")
-    print(f"User prompt: {user_prompt}")
 
     try:
         response = client.responses.create(
