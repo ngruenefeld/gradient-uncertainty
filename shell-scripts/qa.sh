@@ -21,7 +21,7 @@ FULL_GRADIENT=false  # Default to false (which means response_only is true)
 NORMALIZE=false  # Default to false
 PERTURBATION_MODE="rephrase"
 NUMBER_OF_PERTURBATIONS=3
-DIVERGENCE="medium"  # Default to medium
+DIVERGENCE="default"  # Default to medium
 SKIP_EVALUATION=true  # Default to true
 
 # Parse named arguments
