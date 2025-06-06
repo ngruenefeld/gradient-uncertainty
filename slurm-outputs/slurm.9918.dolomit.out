@@ -1,0 +1,56 @@
+slurmstepd-dolomit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-dolomit: error: Setting TMPDIR to /tmp
+Running job with commit: c79953f1fa70e76c7b697d04c7d450a941ffd695
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 9918
+Dataset: truthful
+Model: gpt2
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 10
+Mode: test
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Divergence: default
+Skip evaluation: True
+Processing sample 1/10 (dataset index: 679)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Error processing sample 1 (dataset index 679): divergence must be 'low', 'medium', or 'high'
+Processing sample 2/10 (dataset index: 599)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Error processing sample 2 (dataset index 599): divergence must be 'low', 'medium', or 'high'
+Processing sample 3/10 (dataset index: 442)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Error processing sample 3 (dataset index 442): divergence must be 'low', 'medium', or 'high'
+Processing sample 4/10 (dataset index: 561)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Error processing sample 4 (dataset index 561): divergence must be 'low', 'medium', or 'high'
+Processing sample 5/10 (dataset index: 290)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Error processing sample 5 (dataset index 290): divergence must be 'low', 'medium', or 'high'
+Processing sample 6/10 (dataset index: 623)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Error processing sample 6 (dataset index 623): divergence must be 'low', 'medium', or 'high'
+Processing sample 7/10 (dataset index: 122)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Error processing sample 7 (dataset index 122): divergence must be 'low', 'medium', or 'high'
+Processing sample 8/10 (dataset index: 235)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Error processing sample 8 (dataset index 235): divergence must be 'low', 'medium', or 'high'
+Processing sample 9/10 (dataset index: 589)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Error processing sample 9 (dataset index 589): divergence must be 'low', 'medium', or 'high'
+Processing sample 10/10 (dataset index: 54)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Error processing sample 10 (dataset index 54): divergence must be 'low', 'medium', or 'high'
+Processing complete, but no successful results to save. Failed: 10. Skipped: 0
