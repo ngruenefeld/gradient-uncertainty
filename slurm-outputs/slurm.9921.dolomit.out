@@ -198,3 +198,10 @@ Do not divert from the original meaning in any way. Use different words and sent
 Make sure to provide 3 distinct rephrasings.
 Sample 10 (dataset index 217) processed successfully with 3 rephrasings.
 Processing complete. Saved 10 successful results. Failed: 0. Skipped: 0
+[main 1a91e55] QA Script Results for Run 9921 (Commit: b9e7ad9)
+ 4 files changed, 231 insertions(+)
+ create mode 100644 data/test/results_9921_gpt2_rephrase_default_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.9921.dolomit.out
+ create mode 100644 slurm-outputs/slurm.9922.enderbit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   b9e7ad9..1a91e55  main -> main

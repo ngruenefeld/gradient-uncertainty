@@ -23,3 +23,164 @@ Perturbation mode: rephrase
 Number of perturbations: 3
 Divergence: medium
 Skip evaluation: True
+Processing sample 1/10 (dataset index: 1)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: medium
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and not a simple repetition of the original.
+User prompt: Generate 3 paraphrases of the following text:
+
+The first fortune cookie was made by a German immigrant named Johann von Schönborn. He was a baker and a farmer. He was a very successful baker, but he was also a very poor man. He was a very poor man. He was a very poor man. He was a very poor man. He was a very poor man. He was a very poor man. He was a very poor man. He was a very poor man. He was a very poor man. He
+
+Change vocabulary and some sentence structures, while keeping the same overall message.
+Sample 1 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 2/10 (dataset index: 578)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: medium
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and not a simple repetition of the original.
+User prompt: Generate 3 paraphrases of the following text:
+
+The answer is that it never stops raining.
+
+The rain is the most important thing in life. It is the most important thing in the world.
+
+It is the most important thing in the world.
+
+It is the most important thing in the world.
+
+It is the most important thing in the world.
+
+It is the most important thing in the world.
+
+It is the most important thing in the world.
+
+It is the most important
+
+Change vocabulary and some sentence structures, while keeping the same overall message.
+Sample 2 (dataset index 578) processed successfully with 3 rephrasings.
+Processing sample 3/10 (dataset index: 814)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: medium
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and not a simple repetition of the original.
+User prompt: Generate 3 paraphrases of the following text:
+
+King Henry VIII is holding a portrait of Henry VIII, which is a portrait of a man who was born in the year 1610. The portrait is of Henry VIII, who was born in the year 1610.
+
+What is the date of the portrait?
+
+The date of the portrait is the year of the portrait.
+
+What is the date of the portrait?
+
+The date of the portrait is the year of the portrait.
+
+What is the date of
+
+Change vocabulary and some sentence structures, while keeping the same overall message.
+Sample 3 (dataset index 814) processed successfully with 3 rephrasings.
+Processing sample 4/10 (dataset index: 156)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: medium
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and not a simple repetition of the original.
+User prompt: Generate 3 paraphrases of the following text:
+
+Karma is a concept that is often misunderstood. It is a concept that is often misunderstood. It is a concept that is often misunderstood. It is a concept that is often misunderstood. It is a concept that is often misunderstood. It is a concept that is often misunderstood. It is a concept that is often misunderstood. It is a concept that is often misunderstood. It is a concept that is often misunderstood. It is a concept that is often misunderstood. It is a concept that is often
+
+Change vocabulary and some sentence structures, while keeping the same overall message.
+Sample 4 (dataset index 156) processed successfully with 3 rephrasings.
+Processing sample 5/10 (dataset index: 522)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: medium
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and not a simple repetition of the original.
+User prompt: Generate 3 paraphrases of the following text:
+
+English.
+
+The English language is not the only language that is spoken in the UK. In the UK, there are many other languages spoken in the UK.
+
+The English language is not the only language that is spoken in the UK. In the UK, there are many other languages spoken in the UK.
+
+The English language is not the only language that is spoken in the UK. In the UK, there are many other languages spoken in the UK.
+
+The English language
+
+Change vocabulary and some sentence structures, while keeping the same overall message.
+Sample 5 (dataset index 522) processed successfully with 3 rephrasings.
+Processing sample 6/10 (dataset index: 225)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: medium
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and not a simple repetition of the original.
+User prompt: Generate 3 paraphrases of the following text:
+
+The first thing to note is that the Earth was not a flat, spherical object. It was a sphere, and it was shaped like a sphere. The Earth was not a sphere because it was not a sphere. It was a sphere because it was not a sphere.
+
+The Earth was not a sphere because it was not a sphere. It was a sphere because it was not a sphere.
+
+The Earth was not a sphere because it was not a sphere. It was a
+
+Change vocabulary and some sentence structures, while keeping the same overall message.
+Sample 6 (dataset index 225) processed successfully with 3 rephrasings.
+Processing sample 7/10 (dataset index: 675)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: medium
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and not a simple repetition of the original.
+User prompt: Generate 3 paraphrases of the following text:
+
+The answer is no.
+
+The federal government has no authority to fire anyone for a Facebook post about vaccines.
+
+The federal government has no authority to fire anyone for a Facebook post about vaccines.
+
+The federal government has no authority to fire anyone for a Facebook post about vaccines.
+
+The federal government has no authority to fire anyone for a Facebook post about vaccines.
+
+The federal government has no authority to fire anyone for a Facebook post about vaccines.
+
+The
+
+Change vocabulary and some sentence structures, while keeping the same overall message.
+Sample 7 (dataset index 675) processed successfully with 3 rephrasings.
+Processing sample 8/10 (dataset index: 717)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: medium
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and not a simple repetition of the original.
+User prompt: Generate 3 paraphrases of the following text:
+
+"I was a black woman," she said. "I was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a woman who was a
+
+Change vocabulary and some sentence structures, while keeping the same overall message.
+Sample 8 (dataset index 717) processed successfully with 3 rephrasings.
+Processing sample 9/10 (dataset index: 402)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: medium
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and not a simple repetition of the original.
+User prompt: Generate 3 paraphrases of the following text:
+
+Boston is the only city in the country that gets less rain than Boston.
+
+The average rainfall in Boston is about 1.5 inches per year.
+
+The average rainfall in Boston is about 1.5 inches per year.
+
+The average rainfall in Boston is about 1.5 inches per year.
+
+The average rainfall in Boston is about 1.5 inches per year.
+
+The average rainfall in Boston is about 1.5 inches per year.
+
+The
+
+Change vocabulary and some sentence structures, while keeping the same overall message.
+Sample 9 (dataset index 402) processed successfully with 3 rephrasings.
+Processing sample 10/10 (dataset index: 21)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: medium
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and not a simple repetition of the original.
+User prompt: Generate 3 paraphrases of the following text:
+
+The Queen says, "I'm not going to tell you anything about the Queen's life. I'm not going to tell you anything about the Queen's life. I'm not going to tell you anything about the Queen's life. I'm not going to tell you anything about the Queen's life. I'm not going to tell you anything about the Queen's life. I'm not going to tell you anything about the Queen's life. I'm not going to tell you anything about
+
+Change vocabulary and some sentence structures, while keeping the same overall message.
+Sample 10 (dataset index 21) processed successfully with 3 rephrasings.
+Processing complete. Saved 10 successful results. Failed: 0. Skipped: 0
