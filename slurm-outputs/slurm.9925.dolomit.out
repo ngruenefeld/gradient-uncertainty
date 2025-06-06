@@ -1,0 +1,32 @@
+slurmstepd-dolomit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-dolomit: error: Setting TMPDIR to /tmp
+Running job with commit: e3f93d3257dbf2f8caf76c9a5bc79e5ec354ac19
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 9925
+Dataset: truthful
+Model: gpt2
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 2
+Mode: test
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Divergence: default
+Skip evaluation: True
+Processing sample 1/2 (dataset index: 238)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Sample 1 (dataset index 238) processed successfully with 3 rephrasings.
+Processing sample 2/2 (dataset index: 414)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Sample 2 (dataset index 414) processed successfully with 3 rephrasings.
+Processing complete. Saved 2 successful results. Failed: 0. Skipped: 0
