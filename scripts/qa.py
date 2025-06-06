@@ -465,7 +465,11 @@ def main(args):
         )
         response_suffix = "" if response_only else "_fullgradient"
         normalize_suffix = "_normalized" if normalize else ""
-        divergence_suffix = f"_{divergence}" if perturbation_mode == "rephrase" else ""
+        divergence_suffix = (
+            f"_{divergence}"
+            if divergence != "default" and perturbation_mode == "rephrase"
+            else ""
+        )
 
         df = pd.DataFrame(results)
         df.to_pickle(
