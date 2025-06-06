@@ -274,9 +274,6 @@ def rephrase_text(
     if not isinstance(number_of_rephrasings, int) or number_of_rephrasings < 1:
         raise ValueError("number_of_rephrasings must be a positive integer")
 
-    if divergence not in ["low", "medium", "high"]:
-        raise ValueError("divergence must be 'low', 'medium', or 'high'")
-
     if divergence == "default":
         system_prompt = REPHRASE_PROMPT_TEMPLATES[language]["default"]["system"].format(
             num=number_of_rephrasings
