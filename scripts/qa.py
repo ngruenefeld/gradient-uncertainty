@@ -554,7 +554,7 @@ if __name__ == "__main__":
         "--divergence",
         type=str,
         default="medium",
-        choices=["low", "medium", "high"],
+        choices=["default", "low", "medium", "high"],
         help="Divergence level for rephrase perturbations: low, medium, or high (default: medium)",
     )
     parser.add_argument(
