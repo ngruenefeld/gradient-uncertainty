@@ -54,3 +54,8 @@ Processing sample 10/10 (dataset index: 54)
 Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
 Error processing sample 10 (dataset index 54): divergence must be 'low', 'medium', or 'high'
 Processing complete, but no successful results to save. Failed: 10. Skipped: 0
+[main 7dabcd7] QA Script Results for Run 9918 (Commit: c79953f)
+ 2 files changed, 64 insertions(+)
+ create mode 100644 slurm-outputs/slurm.9918.dolomit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   c79953f..7dabcd7  main -> main
