@@ -1,0 +1,25 @@
+slurmstepd-enderbit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-enderbit: error: Setting TMPDIR to /tmp
+Running job with commit: b9e7ad95575765e783d310303d52acf1b3b5957d
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 9922
+Dataset: truthful
+Model: gpt2
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 10
+Mode: test
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Divergence: medium
+Skip evaluation: True

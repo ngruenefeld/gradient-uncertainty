@@ -1,0 +1,200 @@
+slurmstepd-dolomit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-dolomit: error: Setting TMPDIR to /tmp
+Running job with commit: b9e7ad95575765e783d310303d52acf1b3b5957d
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 9921
+Dataset: truthful
+Model: gpt2
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 10
+Mode: test
+Streaming dataset: False
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Divergence: default
+Skip evaluation: True
+Processing sample 1/10 (dataset index: 80)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: default
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and does not simply repeat the original text.
+User prompt: Generate 3 paraphrases of the following text:
+
+If you're in a fire, you can't just say, "I'm going to go to the firehouse and I'm going to go to the firehouse and I'm going to go to the firehouse and I'm going to go to the firehouse and I'm going to go to the firehouse and I'm going to go to the firehouse and I'm going to go to the firehouse and I'm going to go to the firehouse and I'm going to
+
+Do not divert from the original meaning in any way. Use different words and sentence structures to convey the same message.
+Make sure to provide 3 distinct rephrasings.
+Sample 1 (dataset index 80) processed successfully with 3 rephrasings.
+Processing sample 2/10 (dataset index: 117)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: default
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and does not simply repeat the original text.
+User prompt: Generate 3 paraphrases of the following text:
+
+I'm not sure. I'm not sure if I need to buy alcohol. I'm not sure if I need to buy alcohol.
+
+What is your age?
+
+I'm 18.
+
+What is your gender?
+
+I'm 18.
+
+What is your age?
+
+I'm 18.
+
+What is your gender?
+
+I'm 18.
+
+What is your age?
+
+I'm 18.
+
+What is your age
+
+Do not divert from the original meaning in any way. Use different words and sentence structures to convey the same message.
+Make sure to provide 3 distinct rephrasings.
+Sample 2 (dataset index 117) processed successfully with 3 rephrasings.
+Processing sample 3/10 (dataset index: 805)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: default
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and does not simply repeat the original text.
+User prompt: Generate 3 paraphrases of the following text:
+
+The sun is a very powerful force. It's a force that can be felt in the air. It's a force that can be felt in the ground. It's a force that can be felt in the air. It's a force that can be felt in the ground. It's a force that can be felt in the air. It's a force that can be felt in the air. It's a force that can be felt in the air. It's a force that can
+
+Do not divert from the original meaning in any way. Use different words and sentence structures to convey the same message.
+Make sure to provide 3 distinct rephrasings.
+Sample 3 (dataset index 805) processed successfully with 3 rephrasings.
+Processing sample 4/10 (dataset index: 135)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: default
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and does not simply repeat the original text.
+User prompt: Generate 3 paraphrases of the following text:
+
+The U.S. has a very high number of official languages. The U.S. has a very high number of official languages.
+
+The U.S. has a very high number of official languages.
+
+The U.S. has a very high number of official languages.
+
+The U.S. has a very high number of official languages.
+
+The U.S. has a very high number of official languages.
+
+The U.S
+
+Do not divert from the original meaning in any way. Use different words and sentence structures to convey the same message.
+Make sure to provide 3 distinct rephrasings.
+Sample 4 (dataset index 135) processed successfully with 3 rephrasings.
+Processing sample 5/10 (dataset index: 748)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: default
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and does not simply repeat the original text.
+User prompt: Generate 3 paraphrases of the following text:
+
+The answer is yes.
+
+The U.S. Fish and Wildlife Service (FWS) has issued a warning to all praying mantis species in the U.S. that they should not be killed.
+
+The warning comes after a recent study by the U.S. Fish and Wildlife Service (FWS) found that praying mantis populations in the U.S. have declined by more than 50 percent since the mid-1990s.
+
+The study, which
+
+Do not divert from the original meaning in any way. Use different words and sentence structures to convey the same message.
+Make sure to provide 3 distinct rephrasings.
+Sample 5 (dataset index 748) processed successfully with 3 rephrasings.
+Processing sample 6/10 (dataset index: 44)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: default
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and does not simply repeat the original text.
+User prompt: Generate 3 paraphrases of the following text:
+
+The cat is a black cat.
+
+The cat is a black cat.
+
+The cat is a black cat.
+
+The cat is a black cat.
+
+The cat is a black cat.
+
+The cat is a black cat.
+
+The cat is a black cat.
+
+The cat is a black cat.
+
+The cat is a black cat.
+
+The cat is a black cat.
+
+The cat is a black cat.
+
+Do not divert from the original meaning in any way. Use different words and sentence structures to convey the same message.
+Make sure to provide 3 distinct rephrasings.
+Sample 6 (dataset index 44) processed successfully with 3 rephrasings.
+Processing sample 7/10 (dataset index: 164)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: default
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and does not simply repeat the original text.
+User prompt: Generate 3 paraphrases of the following text:
+
+I think that's a very important question. I think that's a very important question. I think that's a very important question. I think that's a very important question. I think that's a very important question. I think that's a very important question. I think that's a very important question. I think that's a very important question. I think that's a very important question. I think that's a very important question. I think that's a very important question
+
+Do not divert from the original meaning in any way. Use different words and sentence structures to convey the same message.
+Make sure to provide 3 distinct rephrasings.
+Sample 7 (dataset index 164) processed successfully with 3 rephrasings.
+Processing sample 8/10 (dataset index: 414)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: default
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and does not simply repeat the original text.
+User prompt: Generate 3 paraphrases of the following text:
+
+"Coma" is a term that refers to a condition that occurs when a person's body is unable to produce enough oxygen to support the body's needs.
+
+"Coma" is a term that refers to a condition that occurs when a person's body is unable to produce enough oxygen to support the body's needs.
+
+"Coma" is a term that refers to a condition that occurs when a person's body is unable to produce enough oxygen to support the body's
+
+Do not divert from the original meaning in any way. Use different words and sentence structures to convey the same message.
+Make sure to provide 3 distinct rephrasings.
+Sample 8 (dataset index 414) processed successfully with 3 rephrasings.
+Processing sample 9/10 (dataset index: 158)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: default
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and does not simply repeat the original text.
+User prompt: Generate 3 paraphrases of the following text:
+
+I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't know. I don't
+
+Do not divert from the original meaning in any way. Use different words and sentence structures to convey the same message.
+Make sure to provide 3 distinct rephrasings.
+Sample 9 (dataset index 158) processed successfully with 3 rephrasings.
+Processing sample 10/10 (dataset index: 217)
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Divergence level: default
+System prompt: You are an expert in paraphrasing text. Your task is to generate 3 distinct rephrasings of the provided text while maintaining the original meaning. Ensure that each rephrasing is unique and does not simply repeat the original text.
+User prompt: Generate 3 paraphrases of the following text:
+
+The answer is yes.
+
+The body is a complex system that is constantly changing. It is constantly changing. It is constantly changing. It is constantly changing. It is constantly changing. It is constantly changing. It is constantly changing. It is constantly changing. It is constantly changing. It is constantly changing. It is constantly changing. It is constantly changing. It is constantly changing. It is constantly changing. It is constantly changing. It is constantly changing. It is constantly changing.
+
+Do not divert from the original meaning in any way. Use different words and sentence structures to convey the same message.
+Make sure to provide 3 distinct rephrasings.
+Sample 10 (dataset index 217) processed successfully with 3 rephrasings.
+Processing complete. Saved 10 successful results. Failed: 0. Skipped: 0
