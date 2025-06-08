@@ -30,3 +30,9 @@ Processing sample 2/2 (dataset index: 414)
 Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
 Sample 2 (dataset index 414) processed successfully with 3 rephrasings.
 Processing complete. Saved 2 successful results. Failed: 0. Skipped: 0
+[main 5a4b651] QA Script Results for Run 9925 (Commit: e3f93d3)
+ 3 files changed, 37 insertions(+)
+ create mode 100644 data/test/results_9925_gpt2_rephrase_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.9925.dolomit.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   e3f93d3..5a4b651  main -> main
