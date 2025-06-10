@@ -1,0 +1,33 @@
+slurmstepd-diamiktit: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-diamiktit: error: Setting TMPDIR to /tmp
+Running evaluation job with commit: 0f4b36239a8481e91c6943825f13ef65d12238f3
+Job numbers to process: 9927
+Total jobs: 1
+
+=========================================
+Processing job 1/1: 9927
+=========================================
+Running command: python -um scripts.evaluate_answers "9927" --gpt_model "gpt-4o-mini-2024-07-18" --key_mode "keyfile" --no-overwrite
+Job number: 9927
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Overwrite existing evaluations: False
+Found 1 files to process:
+  data/full/results_9927_llama-3.2-3b_4bit_rephrase_trivia.pkl
+Processing file: data/full/results_9927_llama-3.2-3b_4bit_rephrase_trivia.pkl
+  Found 1 entries to evaluate out of 7481 total
+Evaluating entries:   0%|          | 0/7481 [00:00<?, ?it/s]Evaluating entries:  60%|█████▉    | 4479/7481 [00:00<00:00, 5310.82it/s]Evaluating entries: 100%|██████████| 7481/7481 [00:00<00:00, 8861.11it/s]
+  Completed evaluations: 1 successful, 0 failed
+  Updated results saved to data/full/results_9927_llama-3.2-3b_4bit_rephrase_trivia.pkl
+
+Evaluation complete:
+  Successfully processed: 1 files
+  Failed to process: 0 files
+✅ Job 9927 completed successfully
+
+=========================================
+EVALUATION SUMMARY
+=========================================
+Total jobs processed: 1
+Successful: 1
+Failed: 0
