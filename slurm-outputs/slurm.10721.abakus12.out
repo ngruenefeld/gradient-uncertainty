@@ -2481,3 +2481,9 @@ Processing sample 817/817 (dataset index: 816)
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Sample 817 (dataset index 816) processed successfully with 3 rephrasings.
 Processing complete. Saved 798 successful results. Failed: 4. Skipped: 15
+[main 391da40] QA Script Results for Run 10721 (Commit: 64b6f9a)
+ 4 files changed, 5921 insertions(+)
+ create mode 100644 data/full/results_10721_llama-3.2-3b_4bit_rephrase_truthful.pkl
+ create mode 100644 slurm-outputs/slurm.10721.abakus12.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   64b6f9a..391da40  main -> main
