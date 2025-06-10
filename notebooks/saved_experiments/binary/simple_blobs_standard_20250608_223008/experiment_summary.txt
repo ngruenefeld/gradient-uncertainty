@@ -10,9 +10,9 @@ Prior Precision: 0.01
 Training Method: adam
 
 Correlations:
-corr_laplace_gradient_uncertainty: 0.9494
-corr_laplace_gradient_uncertainty_flipped: -0.5027
-corr_laplace_grad_avg: -0.2690
-corr_laplace_grad_std: -0.6631
+corr_laplace_gradient_uncertainty: 0.9442
+corr_laplace_gradient_uncertainty_flipped: -0.4974
+corr_laplace_grad_avg: -0.2648
+corr_laplace_grad_std: -0.6572
 
-Generated on: 2025-06-10 23:40:07
+Generated on: 2025-06-11 00:27:00
