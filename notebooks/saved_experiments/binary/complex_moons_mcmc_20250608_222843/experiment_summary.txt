@@ -10,9 +10,9 @@ Prior Precision: 0.001
 MCMC Samples Shape: torch.Size([500, 129])
 
 Correlations:
-corr_mcmc_gradient_uncertainty: 0.7859
-corr_mcmc_gradient_uncertainty_flipped: -0.5087
+corr_mcmc_grad_same: 0.7859
+corr_mcmc_grad_alt: -0.5087
 corr_mcmc_grad_avg: -0.1287
 corr_mcmc_grad_std: -0.6862
 
-Generated on: 2025-06-11 00:40:24
+Generated on: 2025-06-12 20:33:38
