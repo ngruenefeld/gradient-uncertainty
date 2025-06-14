@@ -1,0 +1,18 @@
+Experiment Summary: complex_moons_standard_20250614_144400
+==================================================
+
+Experiment Type: standard
+Model Class: ComplexModel
+Model Args: {'hidden_size': 32}
+Dataset Shape: torch.Size([1000, 2])
+Accuracy: 0.5000
+Prior Precision: 0.001
+Training Method: adam
+
+Correlations:
+corr_laplace_grad_same: -0.0239
+corr_laplace_grad_alt: 0.1586
+corr_laplace_grad_avg: 0.1497
+corr_laplace_grad_std: 0.1637
+
+Generated on: 2025-06-14 18:46:12

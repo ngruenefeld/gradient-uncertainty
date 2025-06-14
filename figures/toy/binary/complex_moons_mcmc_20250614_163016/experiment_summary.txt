@@ -1,0 +1,18 @@
+Experiment Summary: complex_moons_mcmc_20250614_163016
+==================================================
+
+Experiment Type: mcmc
+Model Class: ComplexModel
+Model Args: {'hidden_size': 32}
+Dataset Shape: torch.Size([1000, 2])
+Accuracy: 0.5000
+Prior Precision: 0.001
+MCMC Samples Shape: torch.Size([500, 129])
+
+Correlations:
+corr_mcmc_grad_same: 0.8389
+corr_mcmc_grad_alt: -0.6965
+corr_mcmc_grad_avg: -0.0599
+corr_mcmc_grad_std: -0.8374
+
+Generated on: 2025-06-14 18:45:15

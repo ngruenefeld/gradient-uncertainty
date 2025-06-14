@@ -1,0 +1,18 @@
+Experiment Summary: simple_blobs_mcmc_20250608_230032
+==================================================
+
+Experiment Type: mcmc
+Model Class: SimpleModel
+Model Args: {}
+Dataset Shape: torch.Size([1000, 2])
+Accuracy: 0.5000
+Prior Precision: 0.01
+MCMC Samples Shape: torch.Size([500, 3])
+
+Correlations:
+corr_mcmc_grad_same: 0.9812
+corr_mcmc_grad_alt: -0.0148
+corr_mcmc_grad_avg: 0.1092
+corr_mcmc_grad_std: -0.1374
+
+Generated on: 2025-06-14 18:47:00
