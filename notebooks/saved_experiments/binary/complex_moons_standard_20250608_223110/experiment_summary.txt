@@ -10,9 +10,9 @@ Prior Precision: 0.001
 Training Method: adam
 
 Correlations:
-corr_laplace_grad_same: 0.0127
-corr_laplace_grad_alt: 0.3248
-corr_laplace_grad_avg: 0.3196
-corr_laplace_grad_std: 0.3233
+corr_laplace_grad_same: 0.0075
+corr_laplace_grad_alt: 0.3146
+corr_laplace_grad_avg: 0.3088
+corr_laplace_grad_std: 0.3139
 
-Generated on: 2025-06-12 20:34:00
+Generated on: 2025-06-14 17:23:19
