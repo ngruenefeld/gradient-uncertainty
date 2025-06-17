@@ -1,13 +1,13 @@
-slurmstepd-abakus22: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
-slurmstepd-abakus22: error: Setting TMPDIR to /tmp
-Running job with commit: eb8c2ba0d4eb37e1dffe10c6ab3dabbf4f2183bd
+slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus12: error: Setting TMPDIR to /tmp
+Running job with commit: 8ed033df6c58245d0f3ccfa5a1cab107b0d796fe
 [nltk_data] Downloading package stopwords to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package stopwords is already up-to-date!
 [nltk_data] Downloading package wordnet to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package wordnet is already up-to-date!
-Job number: 12911
+Job number: 12918
 Dataset: ag-pubmed
 Model: huatougpt
 GPT Model: gpt-4o-mini-2024-07-18
@@ -17,13 +17,12 @@ Quantization bits: 4
 Full gradient: False
 Response only: True
 Normalize: False
-Perturbation mode: synonym
+Perturbation mode: random
 Number of perturbations: 3
 Max tokens: 0
 Sample Size Per Label: 100
 Loading model in 4-bit precision to reduce memory usage
-Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [03:05<09:16, 185.36s/it]Downloading shards:  50%|█████     | 2/4 [05:00<04:47, 143.86s/it]Downloading shards:  75%|███████▌  | 3/4 [06:53<02:10, 130.03s/it]Downloading shards: 100%|██████████| 4/4 [07:30<00:00, 93.09s/it] Downloading shards: 100%|██████████| 4/4 [07:30<00:00, 112.55s/it]
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:44<02:12, 44.32s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:28<01:28, 44.46s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [02:12<00:44, 44.14s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:23<00:00, 30.84s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:23<00:00, 35.77s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:45<02:15, 45.19s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:30<01:30, 45.30s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [02:17<00:45, 45.98s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:28<00:00, 32.37s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:28<00:00, 37.21s/it]
 Processing sample 1/500 (dataset index: 0)
 Processing sample 1 (dataset index 0)
 Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
@@ -620,75 +619,3 @@ Processing sample 198 (dataset index 197)
 Sample 198 (dataset index 197) processed successfully with 3 rephrasings.
 Processing sample 199/500 (dataset index: 198)
 Processing sample 199 (dataset index 198)
-Sample 199 (dataset index 198) processed successfully with 3 rephrasings.
-Processing sample 200/500 (dataset index: 199)
-Processing sample 200 (dataset index 199)
-Sample 200 (dataset index 199) processed successfully with 3 rephrasings.
-Processing sample 201/500 (dataset index: 200)
-Processing sample 201 (dataset index 200)
-Sample 201 (dataset index 200) processed successfully with 3 rephrasings.
-Processing sample 202/500 (dataset index: 201)
-Processing sample 202 (dataset index 201)
-Sample 202 (dataset index 201) processed successfully with 3 rephrasings.
-Processing sample 203/500 (dataset index: 202)
-Processing sample 203 (dataset index 202)
-Sample 203 (dataset index 202) processed successfully with 3 rephrasings.
-Processing sample 204/500 (dataset index: 203)
-Processing sample 204 (dataset index 203)
-Sample 204 (dataset index 203) processed successfully with 3 rephrasings.
-Processing sample 205/500 (dataset index: 204)
-Processing sample 205 (dataset index 204)
-Sample 205 (dataset index 204) processed successfully with 3 rephrasings.
-Processing sample 206/500 (dataset index: 205)
-Processing sample 206 (dataset index 205)
-Sample 206 (dataset index 205) processed successfully with 3 rephrasings.
-Processing sample 207/500 (dataset index: 206)
-Processing sample 207 (dataset index 206)
-Sample 207 (dataset index 206) processed successfully with 3 rephrasings.
-Processing sample 208/500 (dataset index: 207)
-Processing sample 208 (dataset index 207)
-Sample 208 (dataset index 207) processed successfully with 3 rephrasings.
-Processing sample 209/500 (dataset index: 208)
-Processing sample 209 (dataset index 208)
-Sample 209 (dataset index 208) processed successfully with 3 rephrasings.
-Processing sample 210/500 (dataset index: 209)
-Processing sample 210 (dataset index 209)
-Sample 210 (dataset index 209) processed successfully with 3 rephrasings.
-Processing sample 211/500 (dataset index: 210)
-Processing sample 211 (dataset index 210)
-Sample 211 (dataset index 210) processed successfully with 3 rephrasings.
-Processing sample 212/500 (dataset index: 211)
-Processing sample 212 (dataset index 211)
-Sample 212 (dataset index 211) processed successfully with 3 rephrasings.
-Processing sample 213/500 (dataset index: 212)
-Processing sample 213 (dataset index 212)
-Sample 213 (dataset index 212) processed successfully with 3 rephrasings.
-Processing sample 214/500 (dataset index: 213)
-Processing sample 214 (dataset index 213)
-Sample 214 (dataset index 213) processed successfully with 3 rephrasings.
-Processing sample 215/500 (dataset index: 214)
-Processing sample 215 (dataset index 214)
-Sample 215 (dataset index 214) processed successfully with 3 rephrasings.
-Processing sample 216/500 (dataset index: 215)
-Processing sample 216 (dataset index 215)
-Sample 216 (dataset index 215) processed successfully with 3 rephrasings.
-Processing sample 217/500 (dataset index: 216)
-Processing sample 217 (dataset index 216)
-Sample 217 (dataset index 216) processed successfully with 3 rephrasings.
-Processing sample 218/500 (dataset index: 217)
-Processing sample 218 (dataset index 217)
-Sample 218 (dataset index 217) processed successfully with 3 rephrasings.
-Processing sample 219/500 (dataset index: 218)
-Processing sample 219 (dataset index 218)
-Sample 219 (dataset index 218) processed successfully with 3 rephrasings.
-Processing sample 220/500 (dataset index: 219)
-Processing sample 220 (dataset index 219)
-Sample 220 (dataset index 219) processed successfully with 3 rephrasings.
-Processing sample 221/500 (dataset index: 220)
-Processing sample 221 (dataset index 220)
-Sample 221 (dataset index 220) processed successfully with 3 rephrasings.
-Processing sample 222/500 (dataset index: 221)
-Processing sample 222 (dataset index 221)
-Sample 222 (dataset index 221) processed successfully with 3 rephrasings.
-Processing sample 223/500 (dataset index: 222)
-Processing sample 223 (dataset index 222)
