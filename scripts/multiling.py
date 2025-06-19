@@ -217,12 +217,15 @@ def main(args):
                 for _ in range(number_of_perturbations):
                     synonym_inputs = tokenizer(
                         article,
-                        lang=language,
                         return_tensors="pt",
                         add_special_tokens=False,
                     ).to(device)
                     modified_input_ids = replace_tokens_with_synonyms(
-                        synonym_inputs, tokenizer, device, replacement_prob=1.0
+                        synonym_inputs,
+                        tokenizer,
+                        device,
+                        lang=language,
+                        replacement_prob=1.0,
                     )
                     modified_sentence = tokenizer.decode(modified_input_ids[0])
                     rephrasings.append(modified_sentence)
