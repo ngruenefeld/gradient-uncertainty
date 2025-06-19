@@ -23,3 +23,36 @@ Number of perturbations: 3
 Max tokens: 1024
 You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
 `low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/900 (dataset index: 0)
+Processing sample 1 (dataset index 0) with language 'en'
+Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
+Processing sample 2/900 (dataset index: 1)
+Processing sample 2 (dataset index 1) with language 'en'
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/900 (dataset index: 2)
+Processing sample 3 (dataset index 2) with language 'en'
+Sample 3 (dataset index 2) processed successfully with 3 rephrasings.
+Processing sample 4/900 (dataset index: 3)
+Processing sample 4 (dataset index 3) with language 'en'
+Sample 4 (dataset index 3) processed successfully with 3 rephrasings.
+Processing sample 5/900 (dataset index: 4)
+Processing sample 5 (dataset index 4) with language 'en'
+Sample 5 (dataset index 4) processed successfully with 3 rephrasings.
+Processing sample 6/900 (dataset index: 5)
+Processing sample 6 (dataset index 5) with language 'en'
+Sample 6 (dataset index 5) processed successfully with 3 rephrasings.
+Processing sample 7/900 (dataset index: 6)
+Processing sample 7 (dataset index 6) with language 'en'
+Sample 7 (dataset index 6) processed successfully with 3 rephrasings.
+Processing sample 8/900 (dataset index: 7)
+Processing sample 8 (dataset index 7) with language 'en'
+Sample 8 (dataset index 7) processed successfully with 3 rephrasings.
+Processing sample 9/900 (dataset index: 8)
+Processing sample 9 (dataset index 8) with language 'en'
+Sample 9 (dataset index 8) processed successfully with 3 rephrasings.
+Processing sample 10/900 (dataset index: 9)
+Processing sample 10 (dataset index 9) with language 'en'
+Sample 10 (dataset index 9) processed successfully with 3 rephrasings.
+Processing sample 11/900 (dataset index: 10)
+Processing sample 11 (dataset index 10) with language 'en'
+slurmstepd-abakus21: error: *** JOB 13530 ON abakus21 CANCELLED AT 2025-06-19T14:01:17 ***
