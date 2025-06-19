@@ -1824,3 +1824,12 @@ Processing sample 600/600 (dataset index: 599)
 Processing sample 600 (dataset index 599) with language 'pl'
 Sample 600 (dataset index 599) processed successfully with 3 rephrasings.
 Processing complete. Saved 600 successful results. Failed: 0
+[main 9dc3a7f] Multilingual Script Results for Run 13503 (Commit: ba4384e)
+ 5 files changed, 2700 insertions(+)
+ create mode 100644 data/full/multiling_results_13503_llama-awq_random_commoncorpus.pkl
+ create mode 100644 slurm-outputs/slurm.13505.abakus11.out
+remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File data/full/multiling_results_13503_llama-awq_random_commoncorpus.pkl is 74.61 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To github.com:ngruenefeld/gradient-uncertainty.git
+   e3f7fad..9dc3a7f  main -> main
