@@ -1,3 +1,60 @@
 slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus12: error: Setting TMPDIR to /tmp
 Running job with commit: 70d751ba30704bc3be750e3bbd8ee30f5d2d75fb
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 13531
+Dataset: commoncorpus
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Mode: full
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: synonym
+Number of perturbations: 3
+Max tokens: 1024
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/600 (dataset index: 0)
+Processing sample 1 (dataset index 0) with language 'en'
+Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
+Processing sample 2/600 (dataset index: 1)
+Processing sample 2 (dataset index 1) with language 'en'
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/600 (dataset index: 2)
+Processing sample 3 (dataset index 2) with language 'en'
+Sample 3 (dataset index 2) processed successfully with 3 rephrasings.
+Processing sample 4/600 (dataset index: 3)
+Processing sample 4 (dataset index 3) with language 'en'
+Sample 4 (dataset index 3) processed successfully with 3 rephrasings.
+Processing sample 5/600 (dataset index: 4)
+Processing sample 5 (dataset index 4) with language 'en'
+Sample 5 (dataset index 4) processed successfully with 3 rephrasings.
+Processing sample 6/600 (dataset index: 5)
+Processing sample 6 (dataset index 5) with language 'en'
+Sample 6 (dataset index 5) processed successfully with 3 rephrasings.
+Processing sample 7/600 (dataset index: 6)
+Processing sample 7 (dataset index 6) with language 'en'
+Sample 7 (dataset index 6) processed successfully with 3 rephrasings.
+Processing sample 8/600 (dataset index: 7)
+Processing sample 8 (dataset index 7) with language 'en'
+Sample 8 (dataset index 7) processed successfully with 3 rephrasings.
+Processing sample 9/600 (dataset index: 8)
+Processing sample 9 (dataset index 8) with language 'en'
+Sample 9 (dataset index 8) processed successfully with 3 rephrasings.
+Processing sample 10/600 (dataset index: 9)
+Processing sample 10 (dataset index 9) with language 'en'
+Sample 10 (dataset index 9) processed successfully with 3 rephrasings.
+Processing sample 11/600 (dataset index: 10)
+Processing sample 11 (dataset index 10) with language 'en'
+Sample 11 (dataset index 10) processed successfully with 3 rephrasings.
+Processing sample 12/600 (dataset index: 11)
+Processing sample 12 (dataset index 11) with language 'en'
