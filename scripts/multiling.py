@@ -217,6 +217,7 @@ def main(args):
                 for _ in range(number_of_perturbations):
                     synonym_inputs = tokenizer(
                         article,
+                        lang=language,
                         return_tensors="pt",
                         add_special_tokens=False,
                     ).to(device)

@@ -48,7 +48,7 @@ echo "Running job with commit: $COMMIT_ID"
 source env/bin/activate
 
 # Build the command with all required parameters
-CMD="CUDA_LAUNCH_BLOCKING=1 python -um scripts.multiling \"$SLURM_JOB_ID\" --dataset \"$DATASET\" --model \"$MODEL\" --gpt_model \"$GPT_MODEL\" --key_mode \"$KEY_MODE\" --sample_size \"$SAMPLE_SIZE\" --perturbation_mode \"$PERTURBATION_MODE\" --number_of_perturbations \"$NUMBER_OF_PERTURBATIONS\" --max_tokens \"$MAX_TOKENS\""
+CMD="python -um scripts.multiling \"$SLURM_JOB_ID\" --dataset \"$DATASET\" --model \"$MODEL\" --gpt_model \"$GPT_MODEL\" --key_mode \"$KEY_MODE\" --sample_size \"$SAMPLE_SIZE\" --perturbation_mode \"$PERTURBATION_MODE\" --number_of_perturbations \"$NUMBER_OF_PERTURBATIONS\" --max_tokens \"$MAX_TOKENS\""
 
 
 # Add quantization parameter
