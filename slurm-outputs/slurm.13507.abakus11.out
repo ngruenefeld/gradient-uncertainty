@@ -2554,3 +2554,9 @@ Processing sample 842/842 (dataset index: 841)
 Processing sample 842 (dataset index 841) with language 'zh'
 Sample 842 (dataset index 841) processed successfully with 3 rephrasings.
 Processing complete. Saved 842 successful results. Failed: 0
+[main f6cc77a] Multilingual Script Results for Run 13507 (Commit: 9aa9d92)
+ 5 files changed, 739 insertions(+)
+ create mode 100644 data/full/multiling_results_13507_llama-awq_random_vript.pkl
+ create mode 100644 slurm-outputs/slurm.13503.abakus21.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   ba4384e..f6cc77a  main -> main
