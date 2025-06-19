@@ -1,13 +1,13 @@
 slurmstepd-abakus12: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
 slurmstepd-abakus12: error: Setting TMPDIR to /tmp
-Running job with commit: bee182c00e283e9527b9ba7f433a2f2d2ed6726d
+Running job with commit: 72b2a45672ff5569b7b32fc3b375ba6fe28783a1
 [nltk_data] Downloading package stopwords to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package stopwords is already up-to-date!
 [nltk_data] Downloading package wordnet to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package wordnet is already up-to-date!
-Job number: 13353
+Job number: 13498
 Dataset: commoncorpus
 Model: polylm-1.7b
 GPT Model: gpt-4o-mini-2024-07-18
@@ -22,7 +22,3 @@ Perturbation mode: synonym
 Number of perturbations: 3
 Max tokens: 0
 Loading model in 4-bit precision to reduce memory usage
-Error during conversion: ChunkedEncodingError(ProtocolError('Response ended prematurely'))
-slurmstepd-abakus12: error: *** JOB 13353 ON abakus12 CANCELLED AT 2025-06-19T10:50:12 ***
-slurmstepd-abakus12: error: *** JOB 13353 STEPD TERMINATED ON abakus12 AT 2025-06-19T10:51:12 DUE TO JOB NOT ENDING WITH SIGNALS ***
-slurmstepd-abakus12: error: Container 1058495 in cgroup plugin has 1 processes, giving up after 63 sec

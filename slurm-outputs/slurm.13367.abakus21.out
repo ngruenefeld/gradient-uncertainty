@@ -1,14 +1,14 @@
-slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
-slurmstepd-abakus11: error: Setting TMPDIR to /tmp
-Running job with commit: bee182c00e283e9527b9ba7f433a2f2d2ed6726d
+slurmstepd-abakus21: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus21: error: Setting TMPDIR to /tmp
+Running job with commit: a256bb8f4739ffd7e0b796968eebd74b1831b379
 [nltk_data] Downloading package stopwords to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package stopwords is already up-to-date!
 [nltk_data] Downloading package wordnet to
 [nltk_data]     /home/g/gruenefeld/nltk_data...
 [nltk_data]   Package wordnet is already up-to-date!
-Job number: 13352
-Dataset: commoncorpus
+Job number: 13367
+Dataset: finenews
 Model: llama-awq
 GPT Model: gpt-4o-mini-2024-07-18
 Key mode: keyfile
@@ -23,6 +23,6 @@ Number of perturbations: 3
 Max tokens: 1024
 You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
 `low_cpu_mem_usage` was None, now default to True since model is quantized.
-slurmstepd-abakus11: error: *** JOB 13352 ON abakus11 CANCELLED AT 2025-06-19T10:50:12 ***
-slurmstepd-abakus11: error: *** JOB 13352 STEPD TERMINATED ON abakus11 AT 2025-06-19T10:51:12 DUE TO JOB NOT ENDING WITH SIGNALS ***
-slurmstepd-abakus11: error: Container 1084915 in cgroup plugin has 1 processes, giving up after 63 sec
+slurmstepd-abakus21: error: *** JOB 13367 ON abakus21 CANCELLED AT 2025-06-19T10:50:12 ***
+slurmstepd-abakus21: error: *** JOB 13367 STEPD TERMINATED ON abakus21 AT 2025-06-19T10:51:12 DUE TO JOB NOT ENDING WITH SIGNALS ***
+slurmstepd-abakus21: error: Container 1077440 in cgroup plugin has 1 processes, giving up after 63 sec
