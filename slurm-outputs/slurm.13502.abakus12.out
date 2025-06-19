@@ -22,3 +22,458 @@ Perturbation mode: synonym
 Number of perturbations: 3
 Max tokens: 0
 Loading model in 4-bit precision to reduce memory usage
+Using slow tokenizer implementation for polylm-1.7b
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message
+Processing sample 1/842 (dataset index: 0)
+Processing sample 1 (dataset index 0) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
+Processing sample 2/842 (dataset index: 1)
+Processing sample 2 (dataset index 1) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/842 (dataset index: 2)
+Processing sample 3 (dataset index 2) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 3 (dataset index 2) processed successfully with 3 rephrasings.
+Processing sample 4/842 (dataset index: 3)
+Processing sample 4 (dataset index 3) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 4 (dataset index 3) processed successfully with 3 rephrasings.
+Processing sample 5/842 (dataset index: 4)
+Processing sample 5 (dataset index 4) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 5 (dataset index 4) processed successfully with 3 rephrasings.
+Processing sample 6/842 (dataset index: 5)
+Processing sample 6 (dataset index 5) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 6 (dataset index 5) processed successfully with 3 rephrasings.
+Processing sample 7/842 (dataset index: 6)
+Processing sample 7 (dataset index 6) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 7 (dataset index 6) processed successfully with 3 rephrasings.
+Processing sample 8/842 (dataset index: 7)
+Processing sample 8 (dataset index 7) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 8 (dataset index 7) processed successfully with 3 rephrasings.
+Processing sample 9/842 (dataset index: 8)
+Processing sample 9 (dataset index 8) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 9 (dataset index 8) processed successfully with 3 rephrasings.
+Processing sample 10/842 (dataset index: 9)
+Processing sample 10 (dataset index 9) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 10 (dataset index 9) processed successfully with 3 rephrasings.
+Processing sample 11/842 (dataset index: 10)
+Processing sample 11 (dataset index 10) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 11 (dataset index 10) processed successfully with 3 rephrasings.
+Processing sample 12/842 (dataset index: 11)
+Processing sample 12 (dataset index 11) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 12 (dataset index 11) processed successfully with 3 rephrasings.
+Processing sample 13/842 (dataset index: 12)
+Processing sample 13 (dataset index 12) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 13 (dataset index 12) processed successfully with 3 rephrasings.
+Processing sample 14/842 (dataset index: 13)
+Processing sample 14 (dataset index 13) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 14 (dataset index 13) processed successfully with 3 rephrasings.
+Processing sample 15/842 (dataset index: 14)
+Processing sample 15 (dataset index 14) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 15 (dataset index 14) processed successfully with 3 rephrasings.
+Processing sample 16/842 (dataset index: 15)
+Processing sample 16 (dataset index 15) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 16 (dataset index 15) processed successfully with 3 rephrasings.
+Processing sample 17/842 (dataset index: 16)
+Processing sample 17 (dataset index 16) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 17 (dataset index 16) processed successfully with 3 rephrasings.
+Processing sample 18/842 (dataset index: 17)
+Processing sample 18 (dataset index 17) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 18 (dataset index 17) processed successfully with 3 rephrasings.
+Processing sample 19/842 (dataset index: 18)
+Processing sample 19 (dataset index 18) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 19 (dataset index 18) processed successfully with 3 rephrasings.
+Processing sample 20/842 (dataset index: 19)
+Processing sample 20 (dataset index 19) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 20 (dataset index 19) processed successfully with 3 rephrasings.
+Processing sample 21/842 (dataset index: 20)
+Processing sample 21 (dataset index 20) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 21 (dataset index 20) processed successfully with 3 rephrasings.
+Processing sample 22/842 (dataset index: 21)
+Processing sample 22 (dataset index 21) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 22 (dataset index 21) processed successfully with 3 rephrasings.
+Processing sample 23/842 (dataset index: 22)
+Processing sample 23 (dataset index 22) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 23 (dataset index 22) processed successfully with 3 rephrasings.
+Processing sample 24/842 (dataset index: 23)
+Processing sample 24 (dataset index 23) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 24 (dataset index 23) processed successfully with 3 rephrasings.
+Processing sample 25/842 (dataset index: 24)
+Processing sample 25 (dataset index 24) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 25 (dataset index 24) processed successfully with 3 rephrasings.
+Processing sample 26/842 (dataset index: 25)
+Processing sample 26 (dataset index 25) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 26 (dataset index 25) processed successfully with 3 rephrasings.
+Processing sample 27/842 (dataset index: 26)
+Processing sample 27 (dataset index 26) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 27 (dataset index 26) processed successfully with 3 rephrasings.
+Processing sample 28/842 (dataset index: 27)
+Processing sample 28 (dataset index 27) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 28 (dataset index 27) processed successfully with 3 rephrasings.
+Processing sample 29/842 (dataset index: 28)
+Processing sample 29 (dataset index 28) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 29 (dataset index 28) processed successfully with 3 rephrasings.
+Processing sample 30/842 (dataset index: 29)
+Processing sample 30 (dataset index 29) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 30 (dataset index 29) processed successfully with 3 rephrasings.
+Processing sample 31/842 (dataset index: 30)
+Processing sample 31 (dataset index 30) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 31 (dataset index 30) processed successfully with 3 rephrasings.
+Processing sample 32/842 (dataset index: 31)
+Processing sample 32 (dataset index 31) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 32 (dataset index 31) processed successfully with 3 rephrasings.
+Processing sample 33/842 (dataset index: 32)
+Processing sample 33 (dataset index 32) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 33 (dataset index 32) processed successfully with 3 rephrasings.
+Processing sample 34/842 (dataset index: 33)
+Processing sample 34 (dataset index 33) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 34 (dataset index 33) processed successfully with 3 rephrasings.
+Processing sample 35/842 (dataset index: 34)
+Processing sample 35 (dataset index 34) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 35 (dataset index 34) processed successfully with 3 rephrasings.
+Processing sample 36/842 (dataset index: 35)
+Processing sample 36 (dataset index 35) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 36 (dataset index 35) processed successfully with 3 rephrasings.
+Processing sample 37/842 (dataset index: 36)
+Processing sample 37 (dataset index 36) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 37 (dataset index 36) processed successfully with 3 rephrasings.
+Processing sample 38/842 (dataset index: 37)
+Processing sample 38 (dataset index 37) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 38 (dataset index 37) processed successfully with 3 rephrasings.
+Processing sample 39/842 (dataset index: 38)
+Processing sample 39 (dataset index 38) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 39 (dataset index 38) processed successfully with 3 rephrasings.
+Processing sample 40/842 (dataset index: 39)
+Processing sample 40 (dataset index 39) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 40 (dataset index 39) processed successfully with 3 rephrasings.
+Processing sample 41/842 (dataset index: 40)
+Processing sample 41 (dataset index 40) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 41 (dataset index 40) processed successfully with 3 rephrasings.
+Processing sample 42/842 (dataset index: 41)
+Processing sample 42 (dataset index 41) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 42 (dataset index 41) processed successfully with 3 rephrasings.
+Processing sample 43/842 (dataset index: 42)
+Processing sample 43 (dataset index 42) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 43 (dataset index 42) processed successfully with 3 rephrasings.
+Processing sample 44/842 (dataset index: 43)
+Processing sample 44 (dataset index 43) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 44 (dataset index 43) processed successfully with 3 rephrasings.
+Processing sample 45/842 (dataset index: 44)
+Processing sample 45 (dataset index 44) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 45 (dataset index 44) processed successfully with 3 rephrasings.
+Processing sample 46/842 (dataset index: 45)
+Processing sample 46 (dataset index 45) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 46 (dataset index 45) processed successfully with 3 rephrasings.
+Processing sample 47/842 (dataset index: 46)
+Processing sample 47 (dataset index 46) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 47 (dataset index 46) processed successfully with 3 rephrasings.
+Processing sample 48/842 (dataset index: 47)
+Processing sample 48 (dataset index 47) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 48 (dataset index 47) processed successfully with 3 rephrasings.
+Processing sample 49/842 (dataset index: 48)
+Processing sample 49 (dataset index 48) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 49 (dataset index 48) processed successfully with 3 rephrasings.
+Processing sample 50/842 (dataset index: 49)
+Processing sample 50 (dataset index 49) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 50 (dataset index 49) processed successfully with 3 rephrasings.
+Processing sample 51/842 (dataset index: 50)
+Processing sample 51 (dataset index 50) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 51 (dataset index 50) processed successfully with 3 rephrasings.
+Processing sample 52/842 (dataset index: 51)
+Processing sample 52 (dataset index 51) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 52 (dataset index 51) processed successfully with 3 rephrasings.
+Processing sample 53/842 (dataset index: 52)
+Processing sample 53 (dataset index 52) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 53 (dataset index 52) processed successfully with 3 rephrasings.
+Processing sample 54/842 (dataset index: 53)
+Processing sample 54 (dataset index 53) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 54 (dataset index 53) processed successfully with 3 rephrasings.
+Processing sample 55/842 (dataset index: 54)
+Processing sample 55 (dataset index 54) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 55 (dataset index 54) processed successfully with 3 rephrasings.
+Processing sample 56/842 (dataset index: 55)
+Processing sample 56 (dataset index 55) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 56 (dataset index 55) processed successfully with 3 rephrasings.
+Processing sample 57/842 (dataset index: 56)
+Processing sample 57 (dataset index 56) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 57 (dataset index 56) processed successfully with 3 rephrasings.
+Processing sample 58/842 (dataset index: 57)
+Processing sample 58 (dataset index 57) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 58 (dataset index 57) processed successfully with 3 rephrasings.
+Processing sample 59/842 (dataset index: 58)
+Processing sample 59 (dataset index 58) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 59 (dataset index 58) processed successfully with 3 rephrasings.
+Processing sample 60/842 (dataset index: 59)
+Processing sample 60 (dataset index 59) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 60 (dataset index 59) processed successfully with 3 rephrasings.
+Processing sample 61/842 (dataset index: 60)
+Processing sample 61 (dataset index 60) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 61 (dataset index 60) processed successfully with 3 rephrasings.
+Processing sample 62/842 (dataset index: 61)
+Processing sample 62 (dataset index 61) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 62 (dataset index 61) processed successfully with 3 rephrasings.
+Processing sample 63/842 (dataset index: 62)
+Processing sample 63 (dataset index 62) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 63 (dataset index 62) processed successfully with 3 rephrasings.
+Processing sample 64/842 (dataset index: 63)
+Processing sample 64 (dataset index 63) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 64 (dataset index 63) processed successfully with 3 rephrasings.
+Processing sample 65/842 (dataset index: 64)
+Processing sample 65 (dataset index 64) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 65 (dataset index 64) processed successfully with 3 rephrasings.
+Processing sample 66/842 (dataset index: 65)
+Processing sample 66 (dataset index 65) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 66 (dataset index 65) processed successfully with 3 rephrasings.
+Processing sample 67/842 (dataset index: 66)
+Processing sample 67 (dataset index 66) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 67 (dataset index 66) processed successfully with 3 rephrasings.
+Processing sample 68/842 (dataset index: 67)
+Processing sample 68 (dataset index 67) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 68 (dataset index 67) processed successfully with 3 rephrasings.
+Processing sample 69/842 (dataset index: 68)
+Processing sample 69 (dataset index 68) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 69 (dataset index 68) processed successfully with 3 rephrasings.
+Processing sample 70/842 (dataset index: 69)
+Processing sample 70 (dataset index 69) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 70 (dataset index 69) processed successfully with 3 rephrasings.
+Processing sample 71/842 (dataset index: 70)
+Processing sample 71 (dataset index 70) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 71 (dataset index 70) processed successfully with 3 rephrasings.
+Processing sample 72/842 (dataset index: 71)
+Processing sample 72 (dataset index 71) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 72 (dataset index 71) processed successfully with 3 rephrasings.
+Processing sample 73/842 (dataset index: 72)
+Processing sample 73 (dataset index 72) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 73 (dataset index 72) processed successfully with 3 rephrasings.
+Processing sample 74/842 (dataset index: 73)
+Processing sample 74 (dataset index 73) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 74 (dataset index 73) processed successfully with 3 rephrasings.
+Processing sample 75/842 (dataset index: 74)
+Processing sample 75 (dataset index 74) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Keyword arguments {'lang': 'en'} not recognized.
+Sample 75 (dataset index 74) processed successfully with 3 rephrasings.
+Processing sample 76/842 (dataset index: 75)
+Processing sample 76 (dataset index 75) with language 'en'
+Keyword arguments {'lang': 'en'} not recognized.

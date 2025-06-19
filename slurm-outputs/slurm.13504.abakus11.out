@@ -7226,3 +7226,8 @@ For debugging consider passing CUDA_LAUNCH_BLOCKING=1
 Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 
 Processing complete, but no successful results to save. All 600 samples failed.
+[main e3f7fad] Multilingual Script Results for Run 13504 (Commit: f6cc77a)
+ 3 files changed, 7672 insertions(+)
+ create mode 100644 slurm-outputs/slurm.13504.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   f6cc77a..e3f7fad  main -> main
