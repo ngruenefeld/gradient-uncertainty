@@ -45,3 +45,14 @@ Traceback (most recent call last):
   File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/datasets/load.py", line 1565, in dataset_module_factory
     raise ConnectionError(f"Couldn't reach '{path}' on the Hub ({e.__class__.__name__})") from e
 ConnectionError: Couldn't reach 'PleIAs/common_corpus' on the Hub (ReadTimeout)
+[main 9aa9d92] Multilingual Script Results for Run 13497 (Commit: 72b2a45)
+ 9 files changed, 143 insertions(+)
+ create mode 100644 slurm-outputs/slurm.13367.abakus21.out
+ create mode 100644 slurm-outputs/slurm.13485.abakus11.out
+ create mode 100644 slurm-outputs/slurm.13486.abakus12.out
+ create mode 100644 slurm-outputs/slurm.13487.abakus21.out
+ create mode 100644 slurm-outputs/slurm.13497.abakus11.out
+ create mode 100644 slurm-outputs/slurm.13498.abakus12.out
+ create mode 100644 slurm-outputs/slurm.13499.abakus21.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   72b2a45..9aa9d92  main -> main
