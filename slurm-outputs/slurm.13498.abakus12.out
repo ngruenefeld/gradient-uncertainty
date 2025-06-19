@@ -22,3 +22,5 @@ Perturbation mode: synonym
 Number of perturbations: 3
 Max tokens: 0
 Loading model in 4-bit precision to reduce memory usage
+Using slow tokenizer implementation for polylm-1.7b
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message

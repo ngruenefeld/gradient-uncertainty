@@ -2724,3 +2724,8 @@ Processing sample 900/900 (dataset index: 899)
 Processing sample 900 (dataset index 899) with language 'zh'
 Error processing sample 900 (dataset index 899): PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'lang'
 Processing complete, but no successful results to save. All 900 samples failed.
+[main 247f6ed] Multilingual Script Results for Run 13499 (Commit: 72b2a45)
+ 3 files changed, 3136 insertions(+)
+ create mode 100644 slurm-outputs/slurm.13507.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   9aa9d92..247f6ed  main -> main
