@@ -1,0 +1,3 @@
+slurmstepd-abakus21: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus21: error: Setting TMPDIR to /tmp
+Running job with commit: b838ce4f1279e982644b9e462142dfc466adb5cf

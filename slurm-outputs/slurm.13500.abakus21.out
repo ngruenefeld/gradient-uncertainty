@@ -130,3 +130,8 @@ CUDA kernel errors might be asynchronously reported at some other API call, so t
 For debugging consider passing CUDA_LAUNCH_BLOCKING=1
 Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 
+[main b838ce4] Multilingual Script Results for Run 13500 (Commit: 247f6ed)
+ 4 files changed, 577 insertions(+)
+ create mode 100644 slurm-outputs/slurm.13500.abakus21.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   247f6ed..b838ce4  main -> main
