@@ -1,0 +1,111 @@
+slurmstepd-abakus21: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus21: error: Setting TMPDIR to /tmp
+Running job with commit: ba4384ec18cc374f8c6e0d039536aa8e5b23502a
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 13503
+Dataset: commoncorpus
+Model: llama-awq
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Sample size: 0
+Mode: full
+Quantization bits: None (full precision)
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: random
+Number of perturbations: 3
+Max tokens: 1024
+You have loaded an AWQ model on CPU and have a CUDA device available, make sure to set your model on a GPU device in order to run your model.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Processing sample 1/600 (dataset index: 0)
+Processing sample 1 (dataset index 0) with language 'en'
+Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
+Processing sample 2/600 (dataset index: 1)
+Processing sample 2 (dataset index 1) with language 'en'
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/600 (dataset index: 2)
+Processing sample 3 (dataset index 2) with language 'en'
+Sample 3 (dataset index 2) processed successfully with 3 rephrasings.
+Processing sample 4/600 (dataset index: 3)
+Processing sample 4 (dataset index 3) with language 'en'
+Sample 4 (dataset index 3) processed successfully with 3 rephrasings.
+Processing sample 5/600 (dataset index: 4)
+Processing sample 5 (dataset index 4) with language 'en'
+Sample 5 (dataset index 4) processed successfully with 3 rephrasings.
+Processing sample 6/600 (dataset index: 5)
+Processing sample 6 (dataset index 5) with language 'en'
+Sample 6 (dataset index 5) processed successfully with 3 rephrasings.
+Processing sample 7/600 (dataset index: 6)
+Processing sample 7 (dataset index 6) with language 'en'
+Sample 7 (dataset index 6) processed successfully with 3 rephrasings.
+Processing sample 8/600 (dataset index: 7)
+Processing sample 8 (dataset index 7) with language 'en'
+Sample 8 (dataset index 7) processed successfully with 3 rephrasings.
+Processing sample 9/600 (dataset index: 8)
+Processing sample 9 (dataset index 8) with language 'en'
+Sample 9 (dataset index 8) processed successfully with 3 rephrasings.
+Processing sample 10/600 (dataset index: 9)
+Processing sample 10 (dataset index 9) with language 'en'
+Sample 10 (dataset index 9) processed successfully with 3 rephrasings.
+Processing sample 11/600 (dataset index: 10)
+Processing sample 11 (dataset index 10) with language 'en'
+Sample 11 (dataset index 10) processed successfully with 3 rephrasings.
+Processing sample 12/600 (dataset index: 11)
+Processing sample 12 (dataset index 11) with language 'en'
+Sample 12 (dataset index 11) processed successfully with 3 rephrasings.
+Processing sample 13/600 (dataset index: 12)
+Processing sample 13 (dataset index 12) with language 'en'
+Sample 13 (dataset index 12) processed successfully with 3 rephrasings.
+Processing sample 14/600 (dataset index: 13)
+Processing sample 14 (dataset index 13) with language 'en'
+Sample 14 (dataset index 13) processed successfully with 3 rephrasings.
+Processing sample 15/600 (dataset index: 14)
+Processing sample 15 (dataset index 14) with language 'en'
+Sample 15 (dataset index 14) processed successfully with 3 rephrasings.
+Processing sample 16/600 (dataset index: 15)
+Processing sample 16 (dataset index 15) with language 'en'
+Sample 16 (dataset index 15) processed successfully with 3 rephrasings.
+Processing sample 17/600 (dataset index: 16)
+Processing sample 17 (dataset index 16) with language 'en'
+Sample 17 (dataset index 16) processed successfully with 3 rephrasings.
+Processing sample 18/600 (dataset index: 17)
+Processing sample 18 (dataset index 17) with language 'en'
+Sample 18 (dataset index 17) processed successfully with 3 rephrasings.
+Processing sample 19/600 (dataset index: 18)
+Processing sample 19 (dataset index 18) with language 'en'
+Sample 19 (dataset index 18) processed successfully with 3 rephrasings.
+Processing sample 20/600 (dataset index: 19)
+Processing sample 20 (dataset index 19) with language 'en'
+Sample 20 (dataset index 19) processed successfully with 3 rephrasings.
+Processing sample 21/600 (dataset index: 20)
+Processing sample 21 (dataset index 20) with language 'en'
+Sample 21 (dataset index 20) processed successfully with 3 rephrasings.
+Processing sample 22/600 (dataset index: 21)
+Processing sample 22 (dataset index 21) with language 'en'
+Sample 22 (dataset index 21) processed successfully with 3 rephrasings.
+Processing sample 23/600 (dataset index: 22)
+Processing sample 23 (dataset index 22) with language 'en'
+Sample 23 (dataset index 22) processed successfully with 3 rephrasings.
+Processing sample 24/600 (dataset index: 23)
+Processing sample 24 (dataset index 23) with language 'en'
+Sample 24 (dataset index 23) processed successfully with 3 rephrasings.
+Processing sample 25/600 (dataset index: 24)
+Processing sample 25 (dataset index 24) with language 'en'
+Sample 25 (dataset index 24) processed successfully with 3 rephrasings.
+Processing sample 26/600 (dataset index: 25)
+Processing sample 26 (dataset index 25) with language 'en'
+Sample 26 (dataset index 25) processed successfully with 3 rephrasings.
+Processing sample 27/600 (dataset index: 26)
+Processing sample 27 (dataset index 26) with language 'en'
+Sample 27 (dataset index 26) processed successfully with 3 rephrasings.
+Processing sample 28/600 (dataset index: 27)
+Processing sample 28 (dataset index 27) with language 'en'
+Sample 28 (dataset index 27) processed successfully with 3 rephrasings.
+Processing sample 29/600 (dataset index: 28)
+Processing sample 29 (dataset index 28) with language 'en'
