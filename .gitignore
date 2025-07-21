@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 
 .api_key
+.hf_api_key
+.oai_api_key
