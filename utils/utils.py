@@ -170,6 +170,7 @@ def bert_gradient(inputs, labels, model, normalize=False):
                 entropy = -torch.sum(probs * log_probs, dim=-1)
                 print(entropy.shape)
                 print(entropy)
+                print(entropy.tolist())
                 entropies.append(entropy.tolist())
         else:
             entropies = []
