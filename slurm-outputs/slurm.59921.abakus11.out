@@ -1,0 +1,163 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 24d295c80cdfd943528cd093c0c8627641eb1055
+Running command: python -um scripts.bert "59921" --key_mode "keyfile" --sample_size "0" --test_sample_size "5" --dataset "scienceqa" --epochs "10"
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 59921
+Key mode: keyfile
+Sample size: 0
+Normalize: False
+Counterfactual: identity
+Dataset: scienceqa
+Model: bert
+Replacement probability: 1.0
+Epochs: 10
+Using full train dataset with 547 samples.
+Using 5 randomly sampled examples from the test dataset.
+Loading model: bert-base-uncased
+BertForMaskedLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForMaskedLM: ['bert.pooler.dense.bias', 'bert.pooler.dense.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertForMaskedLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForMaskedLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Using device: cuda
+Map:   0%|          | 0/547 [00:00<?, ? examples/s]Map: 100%|██████████| 547/547 [00:00<00:00, 9220.81 examples/s]
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:240: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Calculating uncertainties for 5 test samples before training (counterfactual mode: identity)...
+Processing test sample 1/5 (before training)
+MaskedLMOutput(loss=tensor(0.8260, device='cuda:0', grad_fn=<NllLossBackward0>), logits=tensor([[[ -7.5882,  -7.6714,  -7.3915,  ...,  -6.6362,  -6.3015,  -4.7129],
+         [ -6.1820,  -6.5178,  -6.4761,  ...,  -4.8129,  -5.4121,  -4.9589],
+         [ -9.6252,  -9.5893,  -9.6961,  ...,  -7.2183,  -7.4679,  -9.7032],
+         ...,
+         [-15.4841, -15.8432, -15.5394,  ..., -11.9190, -12.6551,  -7.7309],
+         [-10.4729, -10.8442, -10.4174,  ...,  -9.7649,  -7.5364,  -5.8172],
+         [-14.3606, -14.2073, -14.2458,  ..., -13.3553, -12.0202,  -9.6914]]],
+       device='cuda:0', grad_fn=<ViewBackward0>), hidden_states=None, attentions=None)
+True
+Error in bert_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error processing test sample 1 before training: not enough values to unpack (expected 2, got 1)
+Processing test sample 2/5 (before training)
+MaskedLMOutput(loss=tensor(0.2773, device='cuda:0', grad_fn=<NllLossBackward0>), logits=tensor([[[-11.2185, -11.7976, -11.3756,  ..., -12.0388,  -9.7363,  -7.9191],
+         [-11.0250, -11.0030, -11.1754,  ..., -10.2044, -10.1544, -10.1591],
+         [-12.2616, -12.0117, -11.8493,  ..., -10.5145, -10.0534,  -9.2459],
+         ...,
+         [ -4.0024,  -4.4363,  -4.0825,  ...,  -4.2934,  -4.2554,  -5.1006],
+         [ -7.9628,  -8.0863,  -8.2148,  ...,  -6.4156,  -6.3125,  -2.3779],
+         [-16.1060, -16.1396, -16.2002,  ..., -14.5443, -13.1977, -11.7547]]],
+       device='cuda:0', grad_fn=<ViewBackward0>), hidden_states=None, attentions=None)
+True
+Error in bert_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error processing test sample 2 before training: not enough values to unpack (expected 2, got 1)
+Processing test sample 3/5 (before training)
+MaskedLMOutput(loss=tensor(0.8212, device='cuda:0', grad_fn=<NllLossBackward0>), logits=tensor([[[ -7.5851,  -7.9728,  -7.7491,  ...,  -7.7366,  -7.1556,  -4.8106],
+         [-10.7055, -10.3877, -10.6963,  ..., -10.1718,  -8.6866,  -6.4717],
+         [-10.6891, -10.2530, -10.8252,  ..., -10.5763,  -7.8853,  -5.1319],
+         ...,
+         [ -9.2614,  -9.5395,  -9.2414,  ...,  -9.4295,  -7.4882,  -8.2143],
+         [ -5.6002,  -5.7148,  -5.9948,  ...,  -6.3806,  -5.6438,  -6.1576],
+         [-10.6551, -10.5487, -10.5860,  ..., -10.1844,  -8.1690,  -7.5076]]],
+       device='cuda:0', grad_fn=<ViewBackward0>), hidden_states=None, attentions=None)
+True
+Error in bert_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error processing test sample 3 before training: not enough values to unpack (expected 2, got 1)
+Processing test sample 4/5 (before training)
+MaskedLMOutput(loss=tensor(0.4259, device='cuda:0', grad_fn=<NllLossBackward0>), logits=tensor([[[ -7.4142,  -7.4213,  -7.4475,  ...,  -6.9785,  -6.7989,  -4.7297],
+         [ -5.6215,  -5.7956,  -5.8629,  ...,  -6.3383,  -5.9268,  -9.7489],
+         [-11.4993, -11.3889, -11.3190,  ..., -11.4005,  -7.8865, -15.3482],
+         ...,
+         [ -4.6169,  -4.8775,  -4.8617,  ...,  -4.9613,  -3.3348,  -7.7112],
+         [ -8.4119,  -8.3505,  -8.3735,  ...,  -7.9136,  -6.3246,  -6.3847],
+         [-15.1783, -15.4914, -15.6669,  ..., -14.3288, -12.8654,  -9.6022]]],
+       device='cuda:0', grad_fn=<ViewBackward0>), hidden_states=None, attentions=None)
+True
+Error in bert_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error processing test sample 4 before training: not enough values to unpack (expected 2, got 1)
+Processing test sample 5/5 (before training)
+MaskedLMOutput(loss=tensor(0.4296, device='cuda:0', grad_fn=<NllLossBackward0>), logits=tensor([[[-12.3862, -12.6716, -12.2052,  ..., -11.7998, -10.9714,  -8.6985],
+         [ -8.0598,  -8.1759,  -8.2804,  ...,  -7.1578,  -7.2987,  -8.5492],
+         [-15.7612, -15.8093, -15.7968,  ..., -14.2788, -11.9876,  -9.8568],
+         ...,
+         [ -7.6662,  -8.2682,  -7.8347,  ...,  -8.6517,  -6.7242,  -9.2534],
+         [-16.2197, -16.6806, -16.1346,  ..., -15.1641, -12.4860, -10.1350],
+         [-16.0330, -16.3842, -16.1720,  ..., -15.4690, -13.1570, -12.5562]]],
+       device='cuda:0', grad_fn=<ViewBackward0>), hidden_states=None, attentions=None)
+True
+Error in bert_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error processing test sample 5 before training: not enough values to unpack (expected 2, got 1)
+Training model...
+  0%|          | 0/350 [00:00<?, ?it/s]  0%|          | 1/350 [00:00<01:16,  4.55it/s]  1%|          | 3/350 [00:00<00:39,  8.71it/s]  1%|▏         | 5/350 [00:00<00:31, 10.85it/s]  2%|▏         | 7/350 [00:00<00:28, 12.12it/s]  3%|▎         | 9/350 [00:00<00:26, 12.90it/s]  3%|▎         | 11/350 [00:00<00:25, 13.46it/s]  4%|▎         | 13/350 [00:01<00:23, 14.12it/s]  4%|▍         | 15/350 [00:01<00:23, 14.21it/s]  5%|▍         | 17/350 [00:01<00:23, 14.27it/s]  5%|▌         | 19/350 [00:01<00:23, 14.31it/s]  6%|▌         | 21/350 [00:01<00:22, 14.34it/s]  7%|▋         | 23/350 [00:01<00:22, 14.35it/s]  7%|▋         | 25/350 [00:01<00:22, 14.38it/s]  8%|▊         | 27/350 [00:02<00:22, 14.42it/s]  8%|▊         | 29/350 [00:02<00:22, 14.44it/s]  9%|▉         | 31/350 [00:02<00:22, 14.45it/s]  9%|▉         | 33/350 [00:02<00:21, 14.46it/s] 10%|█         | 35/350 [00:02<00:20, 15.26it/s] 11%|█         | 37/350 [00:02<00:20, 15.06it/s] 11%|█         | 39/350 [00:02<00:20, 14.88it/s] 12%|█▏        | 41/350 [00:02<00:20, 14.75it/s] 12%|█▏        | 43/350 [00:03<00:20, 14.66it/s] 13%|█▎        | 45/350 [00:03<00:20, 14.60it/s] 13%|█▎        | 47/350 [00:03<00:20, 14.55it/s] 14%|█▍        | 49/350 [00:03<00:20, 14.51it/s] 15%|█▍        | 51/350 [00:03<00:20, 14.50it/s] 15%|█▌        | 53/350 [00:03<00:20, 14.49it/s] 16%|█▌        | 55/350 [00:03<00:20, 14.49it/s] 16%|█▋        | 57/350 [00:04<00:20, 14.48it/s] 17%|█▋        | 59/350 [00:04<00:20, 14.47it/s] 17%|█▋        | 61/350 [00:04<00:19, 14.46it/s] 18%|█▊        | 63/350 [00:04<00:19, 14.44it/s] 19%|█▊        | 65/350 [00:04<00:19, 14.44it/s] 19%|█▉        | 67/350 [00:04<00:19, 14.45it/s] 20%|█▉        | 69/350 [00:04<00:19, 14.56it/s] 20%|██        | 71/350 [00:05<00:17, 15.56it/s] 21%|██        | 73/350 [00:05<00:18, 15.21it/s] 21%|██▏       | 75/350 [00:05<00:18, 15.00it/s] 22%|██▏       | 77/350 [00:05<00:18, 14.84it/s] 23%|██▎       | 79/350 [00:05<00:18, 14.72it/s] 23%|██▎       | 81/350 [00:05<00:18, 14.63it/s] 24%|██▎       | 83/350 [00:05<00:18, 14.56it/s] 24%|██▍       | 85/350 [00:05<00:18, 14.51it/s] 25%|██▍       | 87/350 [00:06<00:18, 14.50it/s] 25%|██▌       | 89/350 [00:06<00:18, 14.49it/s] 26%|██▌       | 91/350 [00:06<00:17, 14.48it/s] 27%|██▋       | 93/350 [00:06<00:17, 14.46it/s] 27%|██▋       | 95/350 [00:06<00:17, 14.44it/s] 28%|██▊       | 97/350 [00:06<00:17, 14.43it/s] 28%|██▊       | 99/350 [00:06<00:17, 14.44it/s]                                                {'loss': 0.3747, 'grad_norm': 0.828485369682312, 'learning_rate': 3.6e-05, 'epoch': 2.86}
+ 29%|██▊       | 100/350 [00:07<00:17, 14.44it/s] 29%|██▉       | 101/350 [00:07<00:17, 14.41it/s] 29%|██▉       | 103/350 [00:07<00:17, 14.44it/s] 30%|███       | 105/350 [00:07<00:15, 15.41it/s] 31%|███       | 107/350 [00:07<00:16, 15.15it/s] 31%|███       | 109/350 [00:07<00:16, 14.93it/s] 32%|███▏      | 111/350 [00:07<00:16, 14.78it/s] 32%|███▏      | 113/350 [00:07<00:16, 14.68it/s] 33%|███▎      | 115/350 [00:08<00:16, 14.62it/s] 33%|███▎      | 117/350 [00:08<00:15, 14.58it/s] 34%|███▍      | 119/350 [00:08<00:15, 14.54it/s] 35%|███▍      | 121/350 [00:08<00:15, 14.51it/s] 35%|███▌      | 123/350 [00:08<00:15, 14.47it/s] 36%|███▌      | 125/350 [00:08<00:15, 14.45it/s] 36%|███▋      | 127/350 [00:08<00:15, 14.44it/s] 37%|███▋      | 129/350 [00:08<00:15, 14.46it/s] 37%|███▋      | 131/350 [00:09<00:15, 14.45it/s] 38%|███▊      | 133/350 [00:09<00:15, 14.44it/s] 39%|███▊      | 135/350 [00:09<00:14, 14.43it/s] 39%|███▉      | 137/350 [00:09<00:14, 14.43it/s] 40%|███▉      | 139/350 [00:09<00:14, 14.52it/s] 40%|████      | 141/350 [00:09<00:13, 15.44it/s] 41%|████      | 143/350 [00:09<00:13, 15.13it/s] 41%|████▏     | 145/350 [00:10<00:13, 14.92it/s] 42%|████▏     | 147/350 [00:10<00:13, 14.76it/s] 43%|████▎     | 149/350 [00:10<00:13, 14.65it/s] 43%|████▎     | 151/350 [00:10<00:13, 14.58it/s] 44%|████▎     | 153/350 [00:10<00:13, 14.52it/s] 44%|████▍     | 155/350 [00:10<00:13, 14.49it/s] 45%|████▍     | 157/350 [00:10<00:13, 14.48it/s] 45%|████▌     | 159/350 [00:11<00:13, 14.46it/s] 46%|████▌     | 161/350 [00:11<00:13, 14.45it/s] 47%|████▋     | 163/350 [00:11<00:12, 14.45it/s] 47%|████▋     | 165/350 [00:11<00:12, 14.44it/s] 48%|████▊     | 167/350 [00:11<00:12, 14.41it/s] 48%|████▊     | 169/350 [00:11<00:12, 14.39it/s] 49%|████▉     | 171/350 [00:11<00:12, 14.39it/s] 49%|████▉     | 173/350 [00:12<00:12, 14.39it/s] 50%|█████     | 175/350 [00:12<00:11, 15.51it/s] 51%|█████     | 177/350 [00:12<00:11, 15.21it/s] 51%|█████     | 179/350 [00:12<00:11, 14.95it/s] 52%|█████▏    | 181/350 [00:12<00:11, 14.77it/s] 52%|█████▏    | 183/350 [00:12<00:11, 14.65it/s] 53%|█████▎    | 185/350 [00:12<00:11, 14.57it/s] 53%|█████▎    | 187/350 [00:12<00:11, 14.53it/s] 54%|█████▍    | 189/350 [00:13<00:11, 14.49it/s] 55%|█████▍    | 191/350 [00:13<00:10, 14.46it/s] 55%|█████▌    | 193/350 [00:13<00:10, 14.44it/s] 56%|█████▌    | 195/350 [00:13<00:10, 14.43it/s] 56%|█████▋    | 197/350 [00:13<00:10, 14.41it/s] 57%|█████▋    | 199/350 [00:13<00:10, 14.38it/s]                                                 {'loss': 0.0591, 'grad_norm': 1.0094889402389526, 'learning_rate': 2.1714285714285715e-05, 'epoch': 5.71}
+ 57%|█████▋    | 200/350 [00:13<00:10, 14.38it/s] 57%|█████▋    | 201/350 [00:13<00:10, 14.36it/s] 58%|█████▊    | 203/350 [00:14<00:10, 14.35it/s] 59%|█████▊    | 205/350 [00:14<00:10, 14.35it/s] 59%|█████▉    | 207/350 [00:14<00:09, 14.36it/s] 60%|█████▉    | 209/350 [00:14<00:09, 14.47it/s] 60%|██████    | 211/350 [00:14<00:09, 15.35it/s] 61%|██████    | 213/350 [00:14<00:09, 15.05it/s] 61%|██████▏   | 215/350 [00:14<00:09, 14.85it/s] 62%|██████▏   | 217/350 [00:15<00:09, 14.71it/s] 63%|██████▎   | 219/350 [00:15<00:08, 14.62it/s] 63%|██████▎   | 221/350 [00:15<00:08, 14.56it/s] 64%|██████▎   | 223/350 [00:15<00:08, 14.50it/s] 64%|██████▍   | 225/350 [00:15<00:08, 14.40it/s] 65%|██████▍   | 227/350 [00:15<00:08, 14.33it/s] 65%|██████▌   | 229/350 [00:15<00:08, 14.30it/s] 66%|██████▌   | 231/350 [00:15<00:08, 14.31it/s] 67%|██████▋   | 233/350 [00:16<00:08, 14.33it/s] 67%|██████▋   | 235/350 [00:16<00:08, 14.35it/s] 68%|██████▊   | 237/350 [00:16<00:07, 14.35it/s] 68%|██████▊   | 239/350 [00:16<00:07, 14.36it/s] 69%|██████▉   | 241/350 [00:16<00:07, 14.37it/s] 69%|██████▉   | 243/350 [00:16<00:07, 14.37it/s] 70%|███████   | 245/350 [00:16<00:06, 15.48it/s] 71%|███████   | 247/350 [00:17<00:06, 15.18it/s] 71%|███████   | 249/350 [00:17<00:06, 14.92it/s] 72%|███████▏  | 251/350 [00:17<00:06, 14.74it/s] 72%|███████▏  | 253/350 [00:17<00:06, 14.62it/s] 73%|███████▎  | 255/350 [00:17<00:06, 14.54it/s] 73%|███████▎  | 257/350 [00:17<00:06, 14.48it/s] 74%|███████▍  | 259/350 [00:17<00:06, 14.45it/s] 75%|███████▍  | 261/350 [00:18<00:06, 14.43it/s] 75%|███████▌  | 263/350 [00:18<00:06, 14.42it/s] 76%|███████▌  | 265/350 [00:18<00:05, 14.42it/s] 76%|███████▋  | 267/350 [00:18<00:05, 14.42it/s] 77%|███████▋  | 269/350 [00:18<00:05, 14.40it/s] 77%|███████▋  | 271/350 [00:18<00:05, 14.40it/s] 78%|███████▊  | 273/350 [00:18<00:05, 14.39it/s] 79%|███████▊  | 275/350 [00:19<00:05, 14.37it/s] 79%|███████▉  | 277/350 [00:19<00:05, 14.35it/s] 80%|███████▉  | 279/350 [00:19<00:04, 14.44it/s] 80%|████████  | 281/350 [00:19<00:04, 15.29it/s] 81%|████████  | 283/350 [00:19<00:04, 14.99it/s] 81%|████████▏ | 285/350 [00:19<00:04, 14.79it/s] 82%|████████▏ | 287/350 [00:19<00:04, 14.66it/s] 83%|████████▎ | 289/350 [00:19<00:04, 14.57it/s] 83%|████████▎ | 291/350 [00:20<00:04, 14.52it/s] 84%|████████▎ | 293/350 [00:20<00:03, 14.43it/s] 84%|████████▍ | 295/350 [00:20<00:03, 14.40it/s] 85%|████████▍ | 297/350 [00:20<00:03, 14.40it/s] 85%|████████▌ | 299/350 [00:20<00:03, 14.39it/s]                                                 {'loss': 0.034, 'grad_norm': 3.0276150703430176, 'learning_rate': 7.428571428571429e-06, 'epoch': 8.57}
+ 86%|████████▌ | 300/350 [00:20<00:03, 14.39it/s] 86%|████████▌ | 301/350 [00:20<00:03, 14.38it/s] 87%|████████▋ | 303/350 [00:20<00:03, 14.38it/s] 87%|████████▋ | 305/350 [00:21<00:03, 14.38it/s] 88%|████████▊ | 307/350 [00:21<00:02, 14.37it/s] 88%|████████▊ | 309/350 [00:21<00:02, 14.36it/s] 89%|████████▉ | 311/350 [00:21<00:02, 14.36it/s] 89%|████████▉ | 313/350 [00:21<00:02, 14.35it/s] 90%|█████████ | 315/350 [00:21<00:02, 15.44it/s] 91%|█████████ | 317/350 [00:21<00:02, 15.14it/s] 91%|█████████ | 319/350 [00:22<00:02, 14.89it/s] 92%|█████████▏| 321/350 [00:22<00:01, 14.73it/s] 92%|█████████▏| 323/350 [00:22<00:01, 14.62it/s] 93%|█████████▎| 325/350 [00:22<00:01, 14.55it/s] 93%|█████████▎| 327/350 [00:22<00:01, 14.49it/s] 94%|█████████▍| 329/350 [00:22<00:01, 14.45it/s] 95%|█████████▍| 331/350 [00:22<00:01, 14.41it/s] 95%|█████████▌| 333/350 [00:23<00:01, 14.39it/s] 96%|█████████▌| 335/350 [00:23<00:01, 14.36it/s] 96%|█████████▋| 337/350 [00:23<00:00, 14.35it/s] 97%|█████████▋| 339/350 [00:23<00:00, 14.35it/s] 97%|█████████▋| 341/350 [00:23<00:00, 14.33it/s] 98%|█████████▊| 343/350 [00:23<00:00, 14.34it/s] 99%|█████████▊| 345/350 [00:23<00:00, 14.33it/s] 99%|█████████▉| 347/350 [00:23<00:00, 14.33it/s]100%|█████████▉| 349/350 [00:24<00:00, 14.43it/s]                                                 {'train_runtime': 24.1663, 'train_samples_per_second': 226.349, 'train_steps_per_second': 14.483, 'train_loss': 0.13914238929748535, 'epoch': 10.0}
+100%|██████████| 350/350 [00:24<00:00, 14.43it/s]100%|██████████| 350/350 [00:24<00:00, 14.48it/s]
+Calculating uncertainties for 5 test samples after training (counterfactual mode: identity)...
+Processing test sample 1/5 (after training)
+MaskedLMOutput(loss=tensor(0.8099, device='cuda:0', grad_fn=<NllLossBackward0>), logits=tensor([[[-10.2500, -10.6406, -10.0703,  ...,  -9.5391, -10.0000,  -7.5547],
+         [-13.2266, -13.5234, -13.2969,  ..., -13.0312, -12.5000, -12.2656],
+         [ -9.9219, -10.3984,  -9.6797,  ...,  -9.3359,  -8.0859,  -9.0859],
+         ...,
+         [-12.7734, -13.0625, -12.9531,  ..., -11.4609, -11.0625,  -9.2266],
+         [ -7.6562,  -7.8867,  -7.4688,  ...,  -8.0312,  -7.2070,  -5.9609],
+         [-15.0625, -14.9531, -15.2578,  ..., -13.2891, -13.6016, -11.2188]]],
+       device='cuda:0', grad_fn=<ToCopyBackward0>), hidden_states=None, attentions=None)
+True
+Error in bert_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error processing test sample 1 after training: not enough values to unpack (expected 2, got 1)
+Processing test sample 2/5 (after training)
+MaskedLMOutput(loss=tensor(0.5169, device='cuda:0', grad_fn=<NllLossBackward0>), logits=tensor([[[-11.3047, -12.0469, -11.6719,  ..., -12.9062, -11.1719,  -9.2500],
+         [ -8.8672,  -8.9609,  -9.2031,  ..., -10.6953,  -7.3906,  -6.2383],
+         [-10.3047, -10.7578, -10.3281,  ...,  -9.1328,  -7.5586,  -9.4297],
+         ...,
+         [ -5.4609,  -5.4961,  -5.4141,  ...,  -4.0938,  -4.0312,  -5.3438],
+         [ -9.6641,  -9.4922,  -9.4766,  ...,  -9.1562,  -7.4570,  -6.1523],
+         [-13.6406, -14.1797, -14.0703,  ..., -11.8047, -14.4531, -10.5078]]],
+       device='cuda:0', grad_fn=<ToCopyBackward0>), hidden_states=None, attentions=None)
+True
+Error in bert_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error processing test sample 2 after training: not enough values to unpack (expected 2, got 1)
+Processing test sample 3/5 (after training)
+MaskedLMOutput(loss=tensor(0.6546, device='cuda:0', grad_fn=<NllLossBackward0>), logits=tensor([[[-10.0391, -10.7891, -10.3906,  ..., -11.2031, -10.4531,  -6.3906],
+         [-13.3203, -13.2031, -13.0781,  ..., -13.0156, -12.1953, -11.2188],
+         [-13.9922, -13.6797, -13.9375,  ..., -12.7891, -13.1562, -10.0078],
+         ...,
+         [-12.5938, -12.8125, -12.7969,  ..., -11.8359, -10.5859, -11.4688],
+         [ -6.7852,  -6.8711,  -7.1797,  ...,  -7.6992,  -7.8164,  -8.6719],
+         [-14.6797, -14.8750, -15.2422,  ..., -12.9297, -13.3750, -12.5391]]],
+       device='cuda:0', grad_fn=<ToCopyBackward0>), hidden_states=None, attentions=None)
+True
+Error in bert_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error processing test sample 3 after training: not enough values to unpack (expected 2, got 1)
+Processing test sample 4/5 (after training)
+MaskedLMOutput(loss=tensor(0.3570, device='cuda:0', grad_fn=<NllLossBackward0>), logits=tensor([[[-11.2422, -11.6719, -11.4688,  ..., -12.8438, -11.9297, -10.4609],
+         [ -5.1562,  -5.5469,  -5.6992,  ...,  -6.3359,  -5.8477,  -5.7852],
+         [-11.3750, -11.3594, -11.0469,  ..., -11.0312,  -8.9453, -10.2422],
+         ...,
+         [ -7.2578,  -7.7148,  -7.2266,  ...,  -8.3828,  -6.9062, -13.4531],
+         [ -5.9141,  -5.6602,  -5.7539,  ...,  -5.8906,  -5.6992,  -5.4492],
+         [-14.0859, -14.0547, -13.9766,  ..., -14.1797, -13.1406, -12.3203]]],
+       device='cuda:0', grad_fn=<ToCopyBackward0>), hidden_states=None, attentions=None)
+True
+Error in bert_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error processing test sample 4 after training: not enough values to unpack (expected 2, got 1)
+Processing test sample 5/5 (after training)
+MaskedLMOutput(loss=tensor(0.5643, device='cuda:0', grad_fn=<NllLossBackward0>), logits=tensor([[[-12.1172, -13.1562, -12.5703,  ..., -13.0078, -11.4219,  -8.7188],
+         [ -9.3828,  -9.4844,  -9.2500,  ...,  -8.7344,  -9.6250, -10.7031],
+         [-11.1719, -11.4688, -11.3672,  ..., -11.2969,  -7.2773,  -7.8867],
+         ...,
+         [-10.1641, -10.5547, -10.1406,  ...,  -9.7656,  -7.8750, -14.1172],
+         [-13.8125, -14.2578, -13.8516,  ..., -14.3594, -11.9922,  -7.9062],
+         [-13.3516, -13.7188, -13.5859,  ..., -13.0703, -12.3828,  -9.3828]]],
+       device='cuda:0', grad_fn=<ToCopyBackward0>), hidden_states=None, attentions=None)
+True
+Error in bert_gradient: Boolean value of Tensor with more than one value is ambiguous
+Error processing test sample 5 after training: not enough values to unpack (expected 2, got 1)
+
+Processing complete, but no successful results to save. All 10 samples failed.
