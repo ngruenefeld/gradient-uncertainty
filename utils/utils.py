@@ -110,6 +110,19 @@ def completion_gradient(
         outputs = model(input_ids=input_ids, labels=labels)
         loss = outputs.loss
 
+        print(outputs)
+
+        if hasattr(outputs, "logits"):
+            entropies = []
+            for score in outputs.logits:
+                # score shape: (batch_size, vocab_size)
+                probs = torch.softmax(score, dim=-1)
+                log_probs = torch.log(probs + 1e-10)
+                entropy = -torch.sum(probs * log_probs, dim=-1)
+                entropies = entropy.tolist()
+        else:
+            entropies = []
+
         model.zero_grad()
         loss.backward()
 
