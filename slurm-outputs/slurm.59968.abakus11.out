@@ -96,3 +96,8 @@ Make sure to have access to it at https://huggingface.co/meta-llama/Meta-Llama-3
 
 Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
 Access to model meta-llama/Meta-Llama-3-8B is restricted. You must have access to it and be authenticated to access it. Please log in.
+[main 13dbff4] Domain Specific LLM Script Results for Run 59968 (Commit: 59e4ede)
+ 2 files changed, 103 insertions(+)
+ create mode 100644 slurm-outputs/slurm.59968.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   59e4ede..13dbff4  main -> main
