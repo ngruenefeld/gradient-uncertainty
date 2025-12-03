@@ -71,3 +71,8 @@ Error in bert_gradient: Boolean value of Tensor with more than one value is ambi
 Error processing test sample 5 after training: not enough values to unpack (expected 2, got 1)
 
 Processing complete, but no successful results to save. All 10 samples failed.
+[main 22ad312] BERT Script Results for Run 59918 (Model: bert, Dataset: scienceqa, Epochs: 10, Commit: ef352ea)
+ 2 files changed, 79 insertions(+)
+ create mode 100644 slurm-outputs/slurm.59918.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   ef352ea..22ad312  main -> main
