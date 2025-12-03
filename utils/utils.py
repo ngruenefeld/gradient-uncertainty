@@ -170,6 +170,8 @@ def bert_gradient(inputs, labels, model, normalize=False):
             print(outputs.logits.squeeze())
             print(outputs.logits[0].shape)
             print(outputs.logits[0])
+            for test in outputs.logits[0]:
+                print(test)
             entropies = []
             for score in outputs.logits:
                 # score shape: (batch_size, vocab_size)
