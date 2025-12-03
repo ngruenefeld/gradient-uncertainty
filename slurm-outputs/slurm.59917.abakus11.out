@@ -131,3 +131,9 @@ MaskedLMOutput(loss=tensor(0.3756, device='cuda:0', grad_fn=<NllLossBackward0>),
        device='cuda:0', grad_fn=<ToCopyBackward0>), hidden_states=None, attentions=None)
 
 Processing complete. Saved 5 results. Failed: 0
+[main 76569b1] BERT Script Results for Run 59917 (Model: bert, Dataset: scienceqa, Epochs: 10, Commit: daf91d4)
+ 2 files changed, 133 insertions(+)
+ create mode 100644 data/full/bert_results_59917_ds-scienceqa.pkl
+ create mode 100644 slurm-outputs/slurm.59917.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   daf91d4..76569b1  main -> main
