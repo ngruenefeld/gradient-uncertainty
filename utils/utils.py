@@ -166,8 +166,8 @@ def bert_gradient(inputs, labels, model, normalize=False):
         if hasattr(outputs, "logits"):
             print(outputs.logits.shape)
             print(outputs.logits)
-            print(outputs.logits.squeeze.shape)
-            print(outputs.logits.squeeze)
+            print(outputs.logits.squeeze().shape)
+            print(outputs.logits.squeeze())
             print(outputs.logits[0].shape)
             print(outputs.logits[0])
             entropies = []
