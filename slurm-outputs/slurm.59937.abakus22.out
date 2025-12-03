@@ -7438,3 +7438,4 @@ Processing test sample 3532/3532 (after training)
 Error processing test sample 3532 after training: list index out of range
 
 Processing complete. Saved 3471 results. Failed: 183
+slurmstepd-abakus22: error: *** JOB 59937 ON abakus22 CANCELLED AT 2025-12-03T20:34:41 ***
