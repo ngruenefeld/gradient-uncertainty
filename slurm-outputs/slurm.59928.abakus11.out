@@ -3351,3 +3351,9 @@ tensor([-13.8672, -13.9922, -14.3203,  ..., -12.8516, -12.9766, -10.8594],
        device='cuda:0', grad_fn=<UnbindBackward0>)
 
 Processing complete. Saved 5 results. Failed: 0
+[main 0c37ec8] BERT Script Results for Run 59928 (Model: bert, Dataset: scienceqa, Epochs: 10, Commit: 3643c18)
+ 3 files changed, 3359 insertions(+)
+ create mode 100644 data/full/bert_results_59928_ds-scienceqa.pkl
+ create mode 100644 slurm-outputs/slurm.59928.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   3643c18..0c37ec8  main -> main
