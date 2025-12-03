@@ -263,3 +263,8 @@ Error in bert_gradient: 'builtin_function_or_method' object has no attribute 'sh
 Error processing test sample 5 after training: not enough values to unpack (expected 2, got 1)
 
 Processing complete, but no successful results to save. All 10 samples failed.
+[main f93342b] BERT Script Results for Run 59924 (Model: bert, Dataset: scienceqa, Epochs: 10, Commit: 2b9870e)
+ 2 files changed, 270 insertions(+)
+ create mode 100644 slurm-outputs/slurm.59924.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   2b9870e..f93342b  main -> main
