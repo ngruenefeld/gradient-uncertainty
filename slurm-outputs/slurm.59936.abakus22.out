@@ -7436,3 +7436,12 @@ Processing test sample 3532/3532 (after training)
 Error processing test sample 3532 after training: list index out of range
 
 Processing complete. Saved 3471 results. Failed: 183
+[main d2d927d] BERT Script Results for Run 59936 (Model: distilbert, Dataset: scienceqa, Epochs: 100, Commit: fbdd1af)
+ 6 files changed, 22002 insertions(+)
+ create mode 100644 data/full/distilbert_results_59936_ds-scienceqa.pkl
+ create mode 100644 slurm-outputs/slurm.59933.abakus11.out
+ create mode 100644 slurm-outputs/slurm.59934.abakus12.out
+ create mode 100644 slurm-outputs/slurm.59935.abakus21.out
+ create mode 100644 slurm-outputs/slurm.59936.abakus22.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   fbdd1af..d2d927d  main -> main
