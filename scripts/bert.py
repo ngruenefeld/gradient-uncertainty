@@ -80,7 +80,8 @@ def process_test_samples(
 
             uncertainty, entropies = bert_gradient(
                 inputs, labels, model, normalize=normalize
-            ).item()
+            )
+            uncertainty = uncertainty.item()
 
             if phase == "before":
                 result_entry = {
