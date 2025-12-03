@@ -158,6 +158,7 @@ def bert_gradient(inputs, labels, model, normalize=False):
 
         outputs = model(**inputs, labels=labels)
 
+        print(outputs)
         loss = outputs.loss
 
         if hasattr(outputs, "logits") and outputs.logits:
