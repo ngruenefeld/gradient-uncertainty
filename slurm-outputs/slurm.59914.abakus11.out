@@ -1,0 +1,39 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 066cb0e23b61b1eb091e3c92354bd7ddd708292c
+Running command: python -um scripts.bert "59914" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --dataset "scienceqa"
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 59914
+Key mode: keyfile
+Sample size: 0
+Normalize: False
+Counterfactual: identity
+Dataset: scienceqa
+Model: bert
+Replacement probability: 1.0
+Epochs: 100
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 380, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py", line 137, in main
+    with open(os.path.expanduser(".hf_api_key"), "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '.hf_api_key'
+[main 8f0986f] BERT Script Results for Run 59914 (Model: bert, Dataset: scienceqa, Epochs: 100, Commit: 066cb0e)
+ 2 files changed, 2015953 insertions(+)
+ create mode 100644 slurm-outputs/slurm.13679.abakus11.out
+ create mode 100644 slurm-outputs/slurm.59914.abakus11.out
+remote: error: Trace: 94e8ff8235974a3dc2a29372a2b55f07debf4006f35f18023648395ccceed161        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File slurm-outputs/slurm.13679.abakus11.out is 142.29 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To github.com:ngruenefeld/gradient-uncertainty.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'github.com:ngruenefeld/gradient-uncertainty.git'

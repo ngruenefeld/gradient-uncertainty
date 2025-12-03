@@ -159,6 +159,17 @@ def bert_gradient(inputs, labels, model, normalize=False):
         outputs = model(**inputs, labels=labels)
         loss = outputs.loss
 
+        if hasattr(outputs, "scores") and outputs.scores:
+            entropies = []
+            for score in outputs.scores:
+                # score shape: (batch_size, vocab_size)
+                probs = torch.softmax(score, dim=-1)
+                log_probs = torch.log(probs + 1e-10)
+                entropy = -torch.sum(probs * log_probs, dim=-1)
+                entropies.append(entropy[0].item())  # [0] for batch dimension
+        else:
+            entropies = []
+
         loss.backward()
 
         total_norm = 0.0
@@ -181,7 +192,7 @@ def bert_gradient(inputs, labels, model, normalize=False):
         gc.collect()
         torch.cuda.empty_cache()
 
-        return uncertainty
+        return uncertainty, entropies
     except Exception as e:
         print(f"Error in bert_gradient: {str(e)}")
         # Make sure to free memory
