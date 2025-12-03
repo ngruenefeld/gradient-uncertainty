@@ -158,10 +158,10 @@ def bert_gradient(inputs, labels, model, normalize=False):
 
         outputs = model(**inputs, labels=labels)
 
-        # print(outputs)
         loss = outputs.loss
 
         if hasattr(outputs, "logits") and outputs.logits:
+            print(outputs.logits)
             entropies = []
             for score in outputs.logits:
                 # score shape: (batch_size, vocab_size)
