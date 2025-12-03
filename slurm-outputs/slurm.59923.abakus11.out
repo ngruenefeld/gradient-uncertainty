@@ -251,3 +251,8 @@ Error in bert_gradient: invalid index of a 0-dim tensor. Use `tensor.item()` in 
 Error processing test sample 5 after training: not enough values to unpack (expected 2, got 1)
 
 Processing complete, but no successful results to save. All 10 samples failed.
+[main 1f67796] BERT Script Results for Run 59923 (Model: bert, Dataset: scienceqa, Epochs: 10, Commit: fdadad7)
+ 2 files changed, 259 insertions(+)
+ create mode 100644 slurm-outputs/slurm.59923.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   fdadad7..1f67796  main -> main
