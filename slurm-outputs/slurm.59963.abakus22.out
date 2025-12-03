@@ -15418,3 +15418,9 @@ Processing test sample 7599/7600 (after training)
 Processing test sample 7600/7600 (after training)
 
 Processing complete. Saved 7600 results. Failed: 0
+[main 9bb0ea4] BERT Script Results for Run 59963 (Model: distilbert, Dataset: ag_news, Epochs: 10, Commit: ca6746e)
+ 6 files changed, 14213 insertions(+), 1 deletion(-)
+ create mode 100644 data/full/distilbert_results_59963_ds-ag_news.pkl
+ create mode 100644 slurm-outputs/slurm.59964.abakus21.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   8ebd852..9bb0ea4  main -> main
