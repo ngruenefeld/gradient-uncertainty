@@ -1,0 +1,110 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 96e40d64f2fa55e4fe5c3de749fa7d6d11b54138
+Running command: python -um scripts.bert "59961" --key_mode "keyfile" --sample_size "0" --test_sample_size "0" --model "roberta" --epochs "10"
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 59961
+Key mode: keyfile
+Sample size: 0
+Normalize: False
+Counterfactual: identity
+Dataset: ag_news
+Model: roberta
+Replacement probability: 1.0
+Epochs: 10
+Using full train dataset with 30000 samples.
+Using full test dataset with 7600 samples.
+Loading model: roberta-base
+Using device: cuda
+Map:   0%|          | 0/30000 [00:00<?, ? examples/s]Map:   7%|▋         | 2000/30000 [00:00<00:02, 12027.32 examples/s]Map:  13%|█▎        | 4000/30000 [00:00<00:02, 12587.11 examples/s]Map:  20%|██        | 6000/30000 [00:00<00:01, 12733.09 examples/s]Map:  27%|██▋       | 8000/30000 [00:00<00:01, 13088.11 examples/s]Map:  33%|███▎      | 10000/30000 [00:00<00:01, 13463.62 examples/s]Map:  40%|████      | 12000/30000 [00:00<00:01, 13421.35 examples/s]Map:  47%|████▋     | 14000/30000 [00:01<00:01, 13593.70 examples/s]Map:  53%|█████▎    | 16000/30000 [00:01<00:01, 13718.19 examples/s]Map:  60%|██████    | 18000/30000 [00:01<00:00, 13842.88 examples/s]Map:  67%|██████▋   | 20000/30000 [00:01<00:00, 10888.91 examples/s]Map:  73%|███████▎  | 22000/30000 [00:01<00:00, 11366.47 examples/s]Map:  80%|████████  | 24000/30000 [00:01<00:00, 12090.00 examples/s]Map:  87%|████████▋ | 26000/30000 [00:02<00:00, 12588.33 examples/s]Map:  93%|█████████▎| 28000/30000 [00:02<00:00, 13015.27 examples/s]Map: 100%|██████████| 30000/30000 [00:02<00:00, 13347.03 examples/s]Map: 100%|██████████| 30000/30000 [00:02<00:00, 12822.55 examples/s]
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/bert.py:240: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Calculating uncertainties for 7600 test samples before training (counterfactual mode: identity)...
+Processing test sample 1/7600 (before training)
+Processing test sample 2/7600 (before training)
+Processing test sample 3/7600 (before training)
+Processing test sample 4/7600 (before training)
+Processing test sample 5/7600 (before training)
+Processing test sample 6/7600 (before training)
+Processing test sample 7/7600 (before training)
+Processing test sample 8/7600 (before training)
+Processing test sample 9/7600 (before training)
+Processing test sample 10/7600 (before training)
+Processing test sample 11/7600 (before training)
+Processing test sample 12/7600 (before training)
+Processing test sample 13/7600 (before training)
+Processing test sample 14/7600 (before training)
+Processing test sample 15/7600 (before training)
+Processing test sample 16/7600 (before training)
+Processing test sample 17/7600 (before training)
+Processing test sample 18/7600 (before training)
+Processing test sample 19/7600 (before training)
+Processing test sample 20/7600 (before training)
+Processing test sample 21/7600 (before training)
+Processing test sample 22/7600 (before training)
+Processing test sample 23/7600 (before training)
+Processing test sample 24/7600 (before training)
+Processing test sample 25/7600 (before training)
+Processing test sample 26/7600 (before training)
+Processing test sample 27/7600 (before training)
+Processing test sample 28/7600 (before training)
+Processing test sample 29/7600 (before training)
+Processing test sample 30/7600 (before training)
+Processing test sample 31/7600 (before training)
+Processing test sample 32/7600 (before training)
+Processing test sample 33/7600 (before training)
+Processing test sample 34/7600 (before training)
+Processing test sample 35/7600 (before training)
+Processing test sample 36/7600 (before training)
+Processing test sample 37/7600 (before training)
+Processing test sample 38/7600 (before training)
+Processing test sample 39/7600 (before training)
+Processing test sample 40/7600 (before training)
+Processing test sample 41/7600 (before training)
+Processing test sample 42/7600 (before training)
+Processing test sample 43/7600 (before training)
+Processing test sample 44/7600 (before training)
+Processing test sample 45/7600 (before training)
+Processing test sample 46/7600 (before training)
+Processing test sample 47/7600 (before training)
+Processing test sample 48/7600 (before training)
+Processing test sample 49/7600 (before training)
+Processing test sample 50/7600 (before training)
+Processing test sample 51/7600 (before training)
+Processing test sample 52/7600 (before training)
+Processing test sample 53/7600 (before training)
+Processing test sample 54/7600 (before training)
+Processing test sample 55/7600 (before training)
+Processing test sample 56/7600 (before training)
+Processing test sample 57/7600 (before training)
+Processing test sample 58/7600 (before training)
+Processing test sample 59/7600 (before training)
+Processing test sample 60/7600 (before training)
+Processing test sample 61/7600 (before training)
+Processing test sample 62/7600 (before training)
+Processing test sample 63/7600 (before training)
+Processing test sample 64/7600 (before training)
+Processing test sample 65/7600 (before training)
+Processing test sample 66/7600 (before training)
+Processing test sample 67/7600 (before training)
+Processing test sample 68/7600 (before training)
+Processing test sample 69/7600 (before training)
+Processing test sample 70/7600 (before training)
+Processing test sample 71/7600 (before training)
+Processing test sample 72/7600 (before training)
+Processing test sample 73/7600 (before training)
+Processing test sample 74/7600 (before training)
+Processing test sample 75/7600 (before training)
+Processing test sample 76/7600 (before training)
+Processing test sample 77/7600 (before training)
+Processing test sample 78/7600 (before training)
+Processing test sample 79/7600 (before training)
+Processing test sample 80/7600 (before training)
+Processing test sample 81/7600 (before training)
+Processing test sample 82/7600 (before training)
+Processing test sample 83/7600 (before training)
