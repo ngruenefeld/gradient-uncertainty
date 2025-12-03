@@ -157,28 +157,16 @@ def bert_gradient(inputs, labels, model, normalize=False):
         model.zero_grad()
 
         outputs = model(**inputs, labels=labels)
-
-        print(outputs)
         loss = outputs.loss
 
-        print(hasattr(outputs, "logits"))
-
         if hasattr(outputs, "logits"):
-            print(outputs.logits.shape)
-            print(outputs.logits)
-            print(outputs.logits.squeeze().shape)
-            print(outputs.logits.squeeze())
-            print(outputs.logits[0].shape)
-            print(outputs.logits[0])
-            for test in outputs.logits[0]:
-                print(test)
             entropies = []
             for score in outputs.logits:
                 # score shape: (batch_size, vocab_size)
                 probs = torch.softmax(score, dim=-1)
                 log_probs = torch.log(probs + 1e-10)
                 entropy = -torch.sum(probs * log_probs, dim=-1)
-                entropies.append(entropy[0].item())  # [0] for batch dimension
+                entropies.append(entropy.tolist())
         else:
             entropies = []
 
