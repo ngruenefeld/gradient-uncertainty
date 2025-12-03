@@ -157,6 +157,8 @@ def bert_gradient(inputs, labels, model, normalize=False):
         model.zero_grad()
 
         outputs = model(**inputs, labels=labels)
+
+        print(outputs)
         loss = outputs.loss
 
         if hasattr(outputs, "scores") and outputs.scores:
