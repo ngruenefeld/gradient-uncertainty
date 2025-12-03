@@ -51,3 +51,9 @@ Processing test sample 4/5 (after training)
 Processing test sample 5/5 (after training)
 
 Processing complete. Saved 5 results. Failed: 0
+[main fbdd1af] BERT Script Results for Run 59932 (Model: bert, Dataset: scienceqa, Epochs: 10, Commit: a57abe9)
+ 3 files changed, 59 insertions(+)
+ create mode 100644 data/full/bert_results_59932_ds-scienceqa.pkl
+ create mode 100644 slurm-outputs/slurm.59932.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   a57abe9..fbdd1af  main -> main
