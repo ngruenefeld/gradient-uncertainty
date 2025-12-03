@@ -78,7 +78,7 @@ def process_test_samples(
                 )
                 labels = inputs.input_ids.clone().to(device)
 
-            uncertainty = bert_gradient(
+            uncertainty, entropies = bert_gradient(
                 inputs, labels, model, normalize=normalize
             ).item()
 
@@ -90,6 +90,8 @@ def process_test_samples(
                     "uncertainty_before": uncertainty,
                     "uncertainty_after": None,
                     "uncertainty_difference": None,
+                    "entropies_before": entropies,
+                    "entropies_after": None,
                 }
                 results.append(result_entry)
             else:
@@ -98,6 +100,7 @@ def process_test_samples(
                 results[idx]["uncertainty_difference"] = (
                     uncertainty - results[idx]["uncertainty_before"]
                 )
+                results[idx]["entropies_after"] = entropies
 
         except Exception as e:
             print(f"Error processing test sample {idx+1} {phase} training: {str(e)}")
