@@ -30,3 +30,8 @@ Traceback (most recent call last):
     with open(os.path.expanduser(".oai_api_key"), "r") as f:
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: '.oai_api_key'
+[main 59e4ede] Domain Specific LLM Script Results for Run 59967 (Commit: a36a9dd)
+ 1 file changed, 32 insertions(+)
+ create mode 100644 slurm-outputs/slurm.59967.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   a36a9dd..59e4ede  main -> main

@@ -1,0 +1,98 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 59e4ede11c5c7498f6cce828e1d3285c23f5abfb
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 59968
+Dataset: ag-pubmed
+Model: llama-3-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: test
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: random
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 5
+Loading model in 4-bit precision to reduce memory usage
+Traceback (most recent call last):
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/utils/_http.py", line 409, in hf_raise_for_status
+    response.raise_for_status()
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/utils/hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 961, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1068, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1596, in _raise_on_head_call_error
+    raise head_call_error
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1484, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1401, in get_hf_file_metadata
+    r = _request_wrapper(
+        ^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 285, in _request_wrapper
+    response = _request_wrapper(
+               ^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 309, in _request_wrapper
+    hf_raise_for_status(response)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/utils/_http.py", line 426, in hf_raise_for_status
+    raise _format(GatedRepoError, message, response) from e
+huggingface_hub.errors.GatedRepoError: 401 Client Error. (Request ID: Root=1-6930cb53-3ca84a28762c60ad06a6df72;993da0ef-4b20-4054-942e-15062e5d7a58)
+
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted. You must have access to it and be authenticated to access it. Please log in.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/domain_specific.py", line 461, in <module>
+    main(args)
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/scripts/domain_specific.py", line 137, in main
+    model = AutoModelForCausalLM.from_pretrained(model_path, **model_load_params)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 526, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1021, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/configuration_utils.py", line 590, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/configuration_utils.py", line 649, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/utils/hub.py", line 421, in cached_file
+    raise EnvironmentError(
+OSError: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/meta-llama/Meta-Llama-3-8B.
+401 Client Error. (Request ID: Root=1-6930cb53-3ca84a28762c60ad06a6df72;993da0ef-4b20-4054-942e-15062e5d7a58)
+
+Cannot access gated repo for url https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json.
+Access to model meta-llama/Meta-Llama-3-8B is restricted. You must have access to it and be authenticated to access it. Please log in.
