@@ -4524,3 +4524,9 @@ tensor([nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, na
        device='cuda:0', dtype=torch.float16, grad_fn=<NegBackward0>)
 Sample 25 (dataset index 24) processed successfully with 3 rephrasings.
 Processing complete. Saved 25 successful results. Failed: 0
+[main e37953b] Domain Specific LLM Script Results for Run 60017 (Commit: d2a7bde)
+ 3 files changed, 4532 insertions(+)
+ create mode 100644 data/test/domainspecific_results_60017_llama-3-8b_4bit_random_ag-pubmed.pkl
+ create mode 100644 slurm-outputs/slurm.60017.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   d2a7bde..e37953b  main -> main
