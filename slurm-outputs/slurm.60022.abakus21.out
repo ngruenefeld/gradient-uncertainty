@@ -22,4 +22,4 @@ Number of perturbations: 3
 Max tokens: 0
 Sample Size Per Label: 100
 Loading model in 4-bit precision to reduce memory usage
-Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [12:37<37:52, 757.39s/it]Downloading shards:  50%|█████     | 2/4 [19:13<18:09, 544.96s/it]
