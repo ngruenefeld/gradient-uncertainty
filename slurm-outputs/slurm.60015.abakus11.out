@@ -175,3 +175,7 @@ torch.Size([1, 402, 128256])
 torch.Size([402])
 Error processing sample 25 (dataset index 24): too many values to unpack (expected 2)
 Processing complete, but no successful results to save. All 25 samples failed.
+[main 096988c] Domain Specific LLM Script Results for Run 60015 (Commit: ebd4e1c)
+ 1 file changed, 153 insertions(+), 1 deletion(-)
+To github.com:ngruenefeld/gradient-uncertainty.git
+   fb15524..096988c  main -> main
