@@ -92,3 +92,8 @@ torch.Size([1, 187, 32001])
 torch.Size([187])
 Error processing sample 10 (dataset index 9): too many values to unpack (expected 2)
 Processing complete, but no successful results to save. All 10 samples failed.
+[main ebd4e1c] Domain Specific LLM Script Results for Run 60013 (Commit: 4983dd1)
+ 1 file changed, 94 insertions(+)
+ create mode 100644 slurm-outputs/slurm.60013.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   4983dd1..ebd4e1c  main -> main

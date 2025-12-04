@@ -1,0 +1,25 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: ebd4e1ca3056d395441d2d3ea54c8e6e3b2f7ab0
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 60015
+Dataset: ag-pubmed
+Model: llama-3-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: test
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: random
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 5
+Loading model in 4-bit precision to reduce memory usage
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [03:13<09:41, 194.00s/it]
