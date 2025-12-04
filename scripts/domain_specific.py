@@ -210,7 +210,6 @@ def main(args):
                 continue
 
             gradient, prompt_length, entropies = gradient_result
-            print(entropies)
             gradient_norm = torch.norm(gradient).item()
 
             # Clear memory after calculating gradient
