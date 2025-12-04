@@ -116,9 +116,9 @@ def completion_gradient(
             for score in outputs.logits:
                 # score shape: (batch_size, vocab_size)
                 print(score)
-                probs = torch.softmax(score, dim=-1)
-                print(probs)
-                log_probs = torch.log(probs + 1e-10)
+                # probs = torch.softmax(score, dim=-1)
+                # print(probs)
+                log_probs = torch.log_softmax(score, dim=-1)
                 print(log_probs)
                 entropy = -torch.sum(probs * log_probs, dim=-1)
                 print(entropy)
