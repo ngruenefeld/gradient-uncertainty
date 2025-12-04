@@ -111,6 +111,7 @@ def completion_gradient(
         loss = outputs.loss
 
         if hasattr(outputs, "logits"):
+            print(full_encodings.input_ids.shape)
             print(outputs.logits.shape)
             entropies = []
             for score in outputs.logits:
