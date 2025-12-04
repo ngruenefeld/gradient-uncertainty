@@ -110,15 +110,15 @@ def completion_gradient(
         outputs = model(input_ids=input_ids, labels=labels)
         loss = outputs.loss
 
-        print(outputs)
-
         if hasattr(outputs, "logits"):
+            print(outputs.logits.shape)
             entropies = []
             for score in outputs.logits:
                 # score shape: (batch_size, vocab_size)
                 probs = torch.softmax(score, dim=-1)
                 log_probs = torch.log(probs + 1e-10)
                 entropy = -torch.sum(probs * log_probs, dim=-1)
+                print(entropy.shape)
                 entropies = entropy.tolist()
         else:
             entropies = []
@@ -154,7 +154,7 @@ def completion_gradient(
         gc.collect()
         torch.cuda.empty_cache()
 
-        return uncertainty, completion_length
+        return uncertainty, completion_length, entropies
     except Exception as e:
         print(f"Error in completion_gradient: {str(e)}")
         # Make sure to free memory
