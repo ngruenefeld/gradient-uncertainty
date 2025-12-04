@@ -724,3 +724,8 @@ tensor([[ -8.7656,  -7.1992,  -3.7363,  ..., -16.9062, -16.9062, -16.9062],
 Error in completion_gradient: name 'probs' is not defined
 Error calculating gradient for sample 25 (dataset index 24): name 'probs' is not defined
 Processing complete, but no successful results to save. All 25 samples failed.
+[main 6779e22] Domain Specific LLM Script Results for Run 60018 (Commit: 8cc63aa)
+ 2 files changed, 732 insertions(+)
+ create mode 100644 slurm-outputs/slurm.60018.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   8cc63aa..6779e22  main -> main
