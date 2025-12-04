@@ -22,4 +22,9 @@ Number of perturbations: 3
 Max tokens: 0
 Sample Size Per Label: 100
 Loading model in 4-bit precision to reduce memory usage
-Downloading shards:   0%|          | 0/7 [00:00<?, ?it/s]Downloading shards:  14%|█▍        | 1/7 [10:56<1:05:39, 656.62s/it]Downloading shards:  29%|██▊       | 2/7 [17:06<40:39, 487.84s/it]  Downloading shards:  43%|████▎     | 3/7 [23:25<29:13, 438.41s/it]
+Downloading shards:   0%|          | 0/7 [00:00<?, ?it/s]Downloading shards:  14%|█▍        | 1/7 [10:56<1:05:39, 656.62s/it]Downloading shards:  29%|██▊       | 2/7 [17:06<40:39, 487.84s/it]  Downloading shards:  43%|████▎     | 3/7 [23:25<29:13, 438.41s/it]Downloading shards:  57%|█████▋    | 4/7 [27:53<18:33, 371.12s/it]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 4998.85 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--Intelligent-Internet--II-Medical-7B-Preview/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+Downloading shards:  71%|███████▏  | 5/7 [31:00<10:09, 304.51s/it]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 3662.87 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--Intelligent-Internet--II-Medical-7B-Preview/blobs only has 0.00 MB free disk space.
+  warnings.warn(
+Downloading shards:  86%|████████▌ | 6/7 [33:05<04:03, 243.46s/it]/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/huggingface_hub/file_download.py:752: UserWarning: Not enough free disk space to download the file. The expected file size is: 2179.99 MB. The target location /home/g/gruenefeld/.cache/huggingface/hub/models--Intelligent-Internet--II-Medical-7B-Preview/blobs only has 0.00 MB free disk space.
+  warnings.warn(
