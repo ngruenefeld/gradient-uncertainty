@@ -209,7 +209,8 @@ def main(args):
                 torch.cuda.empty_cache()  # Ensure memory is freed
                 continue
 
-            gradient, prompt_length = gradient_result
+            gradient, prompt_length, entropies = gradient_result
+            print(entropies)
             gradient_norm = torch.norm(gradient).item()
 
             # Clear memory after calculating gradient
@@ -301,7 +302,7 @@ def main(args):
                     torch.cuda.empty_cache()
                     break
 
-                rephrasing_gradient, rephrased_prompt_length = (
+                rephrasing_gradient, rephrased_prompt_length, _ = (
                     rephrasing_gradient_result
                 )
                 rephrasing_lengths.append(rephrased_prompt_length)
