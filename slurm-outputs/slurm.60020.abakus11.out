@@ -1459,3 +1459,73 @@ Processing sample 472 (dataset index 471)
 Sample 472 (dataset index 471) processed successfully with 3 rephrasings.
 Processing sample 473/500 (dataset index: 472)
 Processing sample 473 (dataset index 472)
+Sample 473 (dataset index 472) processed successfully with 3 rephrasings.
+Processing sample 474/500 (dataset index: 473)
+Processing sample 474 (dataset index 473)
+Sample 474 (dataset index 473) processed successfully with 3 rephrasings.
+Processing sample 475/500 (dataset index: 474)
+Processing sample 475 (dataset index 474)
+Sample 475 (dataset index 474) processed successfully with 3 rephrasings.
+Processing sample 476/500 (dataset index: 475)
+Processing sample 476 (dataset index 475)
+Sample 476 (dataset index 475) processed successfully with 3 rephrasings.
+Processing sample 477/500 (dataset index: 476)
+Processing sample 477 (dataset index 476)
+Sample 477 (dataset index 476) processed successfully with 3 rephrasings.
+Processing sample 478/500 (dataset index: 477)
+Processing sample 478 (dataset index 477)
+Sample 478 (dataset index 477) processed successfully with 3 rephrasings.
+Processing sample 479/500 (dataset index: 478)
+Processing sample 479 (dataset index 478)
+Sample 479 (dataset index 478) processed successfully with 3 rephrasings.
+Processing sample 480/500 (dataset index: 479)
+Processing sample 480 (dataset index 479)
+Sample 480 (dataset index 479) processed successfully with 3 rephrasings.
+Processing sample 481/500 (dataset index: 480)
+Processing sample 481 (dataset index 480)
+Sample 481 (dataset index 480) processed successfully with 3 rephrasings.
+Processing sample 482/500 (dataset index: 481)
+Processing sample 482 (dataset index 481)
+Sample 482 (dataset index 481) processed successfully with 1 rephrasings.
+Processing sample 483/500 (dataset index: 482)
+Processing sample 483 (dataset index 482)
+Sample 483 (dataset index 482) processed successfully with 3 rephrasings.
+Processing sample 484/500 (dataset index: 483)
+Processing sample 484 (dataset index 483)
+Sample 484 (dataset index 483) processed successfully with 3 rephrasings.
+Processing sample 485/500 (dataset index: 484)
+Processing sample 485 (dataset index 484)
+Sample 485 (dataset index 484) processed successfully with 3 rephrasings.
+Processing sample 486/500 (dataset index: 485)
+Processing sample 486 (dataset index 485)
+Sample 486 (dataset index 485) processed successfully with 3 rephrasings.
+Processing sample 487/500 (dataset index: 486)
+Processing sample 487 (dataset index 486)
+Sample 487 (dataset index 486) processed successfully with 3 rephrasings.
+Processing sample 488/500 (dataset index: 487)
+Processing sample 488 (dataset index 487)
+Sample 488 (dataset index 487) processed successfully with 3 rephrasings.
+Processing sample 489/500 (dataset index: 488)
+Processing sample 489 (dataset index 488)
+Sample 489 (dataset index 488) processed successfully with 3 rephrasings.
+Processing sample 490/500 (dataset index: 489)
+Processing sample 490 (dataset index 489)
+Sample 490 (dataset index 489) processed successfully with 3 rephrasings.
+Processing sample 491/500 (dataset index: 490)
+Processing sample 491 (dataset index 490)
+Sample 491 (dataset index 490) processed successfully with 3 rephrasings.
+Processing sample 492/500 (dataset index: 491)
+Processing sample 492 (dataset index 491)
+JSONDecodeError: Expecting ',' delimiter: line 22845 column 1 (char 53707)
+Error getting rephrasings for sample 492 (dataset index 491): Invalid JSON response from API
+Processing sample 493/500 (dataset index: 492)
+Processing sample 493 (dataset index 492)
+Sample 493 (dataset index 492) processed successfully with 3 rephrasings.
+Processing sample 494/500 (dataset index: 493)
+Processing sample 494 (dataset index 493)
+Sample 494 (dataset index 493) processed successfully with 3 rephrasings.
+Processing sample 495/500 (dataset index: 494)
+Processing sample 495 (dataset index 494)
+Sample 495 (dataset index 494) processed successfully with 3 rephrasings.
+Processing sample 496/500 (dataset index: 495)
+Processing sample 496 (dataset index 495)
