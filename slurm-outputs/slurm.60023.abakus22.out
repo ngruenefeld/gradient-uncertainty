@@ -23,4 +23,4 @@ Max tokens: 0
 Sample Size Per Label: 100
 Loading model in 4-bit precision to reduce memory usage
 Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [05:16<15:49, 316.45s/it]Downloading shards:  50%|█████     | 2/4 [12:42<13:05, 392.77s/it]Downloading shards:  75%|███████▌  | 3/4 [19:14<06:32, 392.54s/it]Downloading shards: 100%|██████████| 4/4 [21:00<00:00, 279.16s/it]Downloading shards: 100%|██████████| 4/4 [21:00<00:00, 315.06s/it]
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [02:36<07:49, 156.66s/it]
