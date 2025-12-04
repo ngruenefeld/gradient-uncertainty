@@ -1,0 +1,94 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 4983dd17ba476e95368a3ad69dc466a8483c8ce4
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 60013
+Dataset: finefineweb
+Model: medicine-chat
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: test
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 1
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.10s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:04<00:02,  2.08s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.85s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.91s/it]
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Processing sample 1/10 (dataset index: 0)
+Processing sample 1 (dataset index 0)
+torch.Size([1, 690])
+torch.Size([1, 690, 32001])
+torch.Size([690])
+Error processing sample 1 (dataset index 0): too many values to unpack (expected 2)
+Processing sample 2/10 (dataset index: 1)
+Processing sample 2 (dataset index 1)
+torch.Size([1, 1453])
+torch.Size([1, 1453, 32001])
+torch.Size([1453])
+Error processing sample 2 (dataset index 1): too many values to unpack (expected 2)
+Processing sample 3/10 (dataset index: 2)
+Processing sample 3 (dataset index 2)
+torch.Size([1, 829])
+torch.Size([1, 829, 32001])
+torch.Size([829])
+Error processing sample 3 (dataset index 2): too many values to unpack (expected 2)
+Processing sample 4/10 (dataset index: 3)
+Processing sample 4 (dataset index 3)
+torch.Size([1, 659])
+torch.Size([1, 659, 32001])
+torch.Size([659])
+Error processing sample 4 (dataset index 3): too many values to unpack (expected 2)
+Processing sample 5/10 (dataset index: 4)
+Processing sample 5 (dataset index 4)
+torch.Size([1, 284])
+torch.Size([1, 284, 32001])
+torch.Size([284])
+Error processing sample 5 (dataset index 4): too many values to unpack (expected 2)
+Processing sample 6/10 (dataset index: 5)
+Processing sample 6 (dataset index 5)
+torch.Size([1, 549])
+torch.Size([1, 549, 32001])
+torch.Size([549])
+Error processing sample 6 (dataset index 5): too many values to unpack (expected 2)
+Processing sample 7/10 (dataset index: 6)
+Processing sample 7 (dataset index 6)
+torch.Size([1, 1721])
+torch.Size([1, 1721, 32001])
+torch.Size([1721])
+Error processing sample 7 (dataset index 6): too many values to unpack (expected 2)
+Processing sample 8/10 (dataset index: 7)
+Processing sample 8 (dataset index 7)
+torch.Size([1, 280])
+torch.Size([1, 280, 32001])
+torch.Size([280])
+Error processing sample 8 (dataset index 7): too many values to unpack (expected 2)
+Processing sample 9/10 (dataset index: 8)
+Processing sample 9 (dataset index 8)
+torch.Size([1, 352])
+torch.Size([1, 352, 32001])
+torch.Size([352])
+Error processing sample 9 (dataset index 8): too many values to unpack (expected 2)
+Processing sample 10/10 (dataset index: 9)
+Processing sample 10 (dataset index 9)
+torch.Size([1, 187])
+torch.Size([1, 187, 32001])
+torch.Size([187])
+Error processing sample 10 (dataset index 9): too many values to unpack (expected 2)
+Processing complete, but no successful results to save. All 10 samples failed.
