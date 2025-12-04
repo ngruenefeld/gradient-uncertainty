@@ -341,6 +341,7 @@ def main(args):
                 "rephrased_prompt_lengths": rephrasing_lengths,
                 "rephrased_gradients": rephrasing_gradient_norms,
                 "rephrased_gradient_std": rephrasing_gradient_std,
+                "entropies": entropies,
             }
             results.append(result_entry)
             processed_count += 1
