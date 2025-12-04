@@ -424,3 +424,9 @@ torch.Size([1, 408, 128256])
 torch.Size([408])
 Sample 25 (dataset index 24) processed successfully with 3 rephrasings.
 Processing complete. Saved 25 successful results. Failed: 0
+[main 48ab919] Domain Specific LLM Script Results for Run 60016 (Commit: 05e0d54)
+ 3 files changed, 430 insertions(+)
+ create mode 100644 data/test/domainspecific_results_60016_llama-3-8b_4bit_random_ag-pubmed.pkl
+ create mode 100644 slurm-outputs/slurm.60016.abakus11.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   05e0d54..48ab919  main -> main
