@@ -1,0 +1,56 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: bb53af5f5e02dc0767b4bead77f4ea0c887d44e6
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 60033
+Dataset: finefineweb
+Model: medicine-chat
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: test
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 1
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.19s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:04<00:02,  2.16s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.93s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  2.00s/it]
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/env/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Processing sample 1/10 (dataset index: 0)
+Processing sample 1 (dataset index 0)
+Sample 1 (dataset index 0) processed successfully with 1 rephrasings.
+Processing sample 2/10 (dataset index: 1)
+Processing sample 2 (dataset index 1)
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/10 (dataset index: 2)
+Processing sample 3 (dataset index 2)
+Sample 3 (dataset index 2) processed successfully with 1 rephrasings.
+Processing sample 4/10 (dataset index: 3)
+Processing sample 4 (dataset index 3)
+Sample 4 (dataset index 3) processed successfully with 5 rephrasings.
+Processing sample 5/10 (dataset index: 4)
+Processing sample 5 (dataset index 4)
+Sample 5 (dataset index 4) processed successfully with 3 rephrasings.
+Processing sample 6/10 (dataset index: 5)
+Processing sample 6 (dataset index 5)
+Sample 6 (dataset index 5) processed successfully with 2 rephrasings.
+Processing sample 7/10 (dataset index: 6)
+Processing sample 7 (dataset index 6)
+Sample 7 (dataset index 6) processed successfully with 3 rephrasings.
+Processing sample 8/10 (dataset index: 7)
+Processing sample 8 (dataset index 7)
