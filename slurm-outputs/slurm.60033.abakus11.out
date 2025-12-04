@@ -62,3 +62,8 @@ Processing sample 10/10 (dataset index: 9)
 Processing sample 10 (dataset index 9)
 Sample 10 (dataset index 9) processed successfully with 3 rephrasings.
 Processing complete. Saved 10 successful results. Failed: 0
+[main af2cb76] Domain Specific LLM Script Results for Run 60033 (Commit: bb53af5)
+ 2 files changed, 8 insertions(+)
+ create mode 100644 data/test/domainspecific_results_60033_medicine-chat_4bit_rephrase_finefineweb.pkl
+To github.com:ngruenefeld/gradient-uncertainty.git
+   7ab428e..af2cb76  main -> main
