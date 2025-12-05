@@ -1,0 +1,36 @@
+slurmstepd-abakus21: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus21: error: Setting TMPDIR to /tmp
+Running job with commit: b69511f19c31e5e670a75fd1a8d91849516aaa72
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/g/gruenefeld/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Job number: 60103
+Dataset: finefineweb
+Model: medicine-llama-3-8b
+GPT Model: gpt-4o-mini-2024-07-18
+Key mode: keyfile
+Mode: full
+Quantization bits: 4
+Full gradient: False
+Response only: True
+Normalize: False
+Perturbation mode: rephrase
+Number of perturbations: 3
+Max tokens: 0
+Sample Size Per Label: 100
+Loading model in 4-bit precision to reduce memory usage
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:52<04:24, 52.98s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [01:45<03:30, 52.50s/it]Loading checkpoint shards:  50%|█████     | 3/6 [02:37<02:37, 52.42s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [03:29<01:44, 52.16s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [04:21<00:52, 52.02s/it]Loading checkpoint shards: 100%|██████████| 6/6 [04:43<00:00, 42.06s/it]Loading checkpoint shards: 100%|██████████| 6/6 [04:43<00:00, 47.29s/it]
+Processing sample 1/1000 (dataset index: 0)
+Processing sample 1 (dataset index 0)
+Sample 1 (dataset index 0) processed successfully with 3 rephrasings.
+Processing sample 2/1000 (dataset index: 1)
+Processing sample 2 (dataset index 1)
+Sample 2 (dataset index 1) processed successfully with 3 rephrasings.
+Processing sample 3/1000 (dataset index: 2)
+Processing sample 3 (dataset index 2)
+Sample 3 (dataset index 2) processed successfully with 1 rephrasings.
+Processing sample 4/1000 (dataset index: 3)
+Processing sample 4 (dataset index 3)
