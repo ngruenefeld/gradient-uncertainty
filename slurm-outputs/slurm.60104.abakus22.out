@@ -3095,3 +3095,9 @@ Processing sample 1000/1000 (dataset index: 999)
 Processing sample 1000 (dataset index 999)
 Sample 1000 (dataset index 999) processed successfully with 3 rephrasings.
 Processing complete. Saved 929 successful results. Failed: 71
+[main 6429c82] Domain Specific LLM Script Results for Run 60104 (Commit: 7378780)
+ 6 files changed, 906 insertions(+)
+ create mode 100644 data/full/domainspecific_results_60104_llama-3-8b_4bit_rephrase_finefineweb.pkl
+ create mode 100644 slurm-outputs/slurm.60107.abakus21.out
+To github.com:ngruenefeld/gradient-uncertainty.git
+   d294f55..6429c82  main -> main
