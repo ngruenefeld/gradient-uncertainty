@@ -5863,3 +5863,157 @@ Processing sample 1896 (dataset index 1895)
 Sample 1896 (dataset index 1895) processed successfully with 3 rephrasings.
 Processing sample 1897/7200 (dataset index: 1896)
 Processing sample 1897 (dataset index 1896)
+Sample 1897 (dataset index 1896) processed successfully with 3 rephrasings.
+Processing sample 1898/7200 (dataset index: 1897)
+Processing sample 1898 (dataset index 1897)
+Sample 1898 (dataset index 1897) processed successfully with 3 rephrasings.
+Processing sample 1899/7200 (dataset index: 1898)
+Processing sample 1899 (dataset index 1898)
+Sample 1899 (dataset index 1898) processed successfully with 3 rephrasings.
+Processing sample 1900/7200 (dataset index: 1899)
+Processing sample 1900 (dataset index 1899)
+Sample 1900 (dataset index 1899) processed successfully with 3 rephrasings.
+Processing sample 1901/7200 (dataset index: 1900)
+Processing sample 1901 (dataset index 1900)
+Sample 1901 (dataset index 1900) processed successfully with 3 rephrasings.
+Processing sample 1902/7200 (dataset index: 1901)
+Processing sample 1902 (dataset index 1901)
+Sample 1902 (dataset index 1901) processed successfully with 3 rephrasings.
+Processing sample 1903/7200 (dataset index: 1902)
+Processing sample 1903 (dataset index 1902)
+Sample 1903 (dataset index 1902) processed successfully with 3 rephrasings.
+Processing sample 1904/7200 (dataset index: 1903)
+Processing sample 1904 (dataset index 1903)
+Sample 1904 (dataset index 1903) processed successfully with 3 rephrasings.
+Processing sample 1905/7200 (dataset index: 1904)
+Processing sample 1905 (dataset index 1904)
+Sample 1905 (dataset index 1904) processed successfully with 3 rephrasings.
+Processing sample 1906/7200 (dataset index: 1905)
+Processing sample 1906 (dataset index 1905)
+Sample 1906 (dataset index 1905) processed successfully with 3 rephrasings.
+Processing sample 1907/7200 (dataset index: 1906)
+Processing sample 1907 (dataset index 1906)
+Sample 1907 (dataset index 1906) processed successfully with 3 rephrasings.
+Processing sample 1908/7200 (dataset index: 1907)
+Processing sample 1908 (dataset index 1907)
+Sample 1908 (dataset index 1907) processed successfully with 3 rephrasings.
+Processing sample 1909/7200 (dataset index: 1908)
+Processing sample 1909 (dataset index 1908)
+Sample 1909 (dataset index 1908) processed successfully with 3 rephrasings.
+Processing sample 1910/7200 (dataset index: 1909)
+Processing sample 1910 (dataset index 1909)
+Sample 1910 (dataset index 1909) processed successfully with 3 rephrasings.
+Processing sample 1911/7200 (dataset index: 1910)
+Processing sample 1911 (dataset index 1910)
+Sample 1911 (dataset index 1910) processed successfully with 3 rephrasings.
+Processing sample 1912/7200 (dataset index: 1911)
+Processing sample 1912 (dataset index 1911)
+Sample 1912 (dataset index 1911) processed successfully with 3 rephrasings.
+Processing sample 1913/7200 (dataset index: 1912)
+Processing sample 1913 (dataset index 1912)
+Sample 1913 (dataset index 1912) processed successfully with 3 rephrasings.
+Processing sample 1914/7200 (dataset index: 1913)
+Processing sample 1914 (dataset index 1913)
+Sample 1914 (dataset index 1913) processed successfully with 3 rephrasings.
+Processing sample 1915/7200 (dataset index: 1914)
+Processing sample 1915 (dataset index 1914)
+Sample 1915 (dataset index 1914) processed successfully with 3 rephrasings.
+Processing sample 1916/7200 (dataset index: 1915)
+Processing sample 1916 (dataset index 1915)
+Sample 1916 (dataset index 1915) processed successfully with 3 rephrasings.
+Processing sample 1917/7200 (dataset index: 1916)
+Processing sample 1917 (dataset index 1916)
+Sample 1917 (dataset index 1916) processed successfully with 3 rephrasings.
+Processing sample 1918/7200 (dataset index: 1917)
+Processing sample 1918 (dataset index 1917)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 66.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 8.06 MiB is free. Including non-PyTorch memory, this process has 19.54 GiB memory in use. Of the allocated memory 18.68 GiB is allocated by PyTorch, and 649.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 1918 (dataset index 1917): CUDA out of memory. Tried to allocate 66.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 8.06 MiB is free. Including non-PyTorch memory, this process has 19.54 GiB memory in use. Of the allocated memory 18.68 GiB is allocated by PyTorch, and 649.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 1919/7200 (dataset index: 1918)
+Processing sample 1919 (dataset index 1918)
+Sample 1919 (dataset index 1918) processed successfully with 3 rephrasings.
+Processing sample 1920/7200 (dataset index: 1919)
+Processing sample 1920 (dataset index 1919)
+Sample 1920 (dataset index 1919) processed successfully with 3 rephrasings.
+Processing sample 1921/7200 (dataset index: 1920)
+Processing sample 1921 (dataset index 1920)
+Sample 1921 (dataset index 1920) processed successfully with 3 rephrasings.
+Processing sample 1922/7200 (dataset index: 1921)
+Processing sample 1922 (dataset index 1921)
+Sample 1922 (dataset index 1921) processed successfully with 3 rephrasings.
+Processing sample 1923/7200 (dataset index: 1922)
+Processing sample 1923 (dataset index 1922)
+Sample 1923 (dataset index 1922) processed successfully with 3 rephrasings.
+Processing sample 1924/7200 (dataset index: 1923)
+Processing sample 1924 (dataset index 1923)
+Sample 1924 (dataset index 1923) processed successfully with 3 rephrasings.
+Processing sample 1925/7200 (dataset index: 1924)
+Processing sample 1925 (dataset index 1924)
+Sample 1925 (dataset index 1924) processed successfully with 3 rephrasings.
+Processing sample 1926/7200 (dataset index: 1925)
+Processing sample 1926 (dataset index 1925)
+Sample 1926 (dataset index 1925) processed successfully with 3 rephrasings.
+Processing sample 1927/7200 (dataset index: 1926)
+Processing sample 1927 (dataset index 1926)
+Sample 1927 (dataset index 1926) processed successfully with 3 rephrasings.
+Processing sample 1928/7200 (dataset index: 1927)
+Processing sample 1928 (dataset index 1927)
+Sample 1928 (dataset index 1927) processed successfully with 3 rephrasings.
+Processing sample 1929/7200 (dataset index: 1928)
+Processing sample 1929 (dataset index 1928)
+Sample 1929 (dataset index 1928) processed successfully with 3 rephrasings.
+Processing sample 1930/7200 (dataset index: 1929)
+Processing sample 1930 (dataset index 1929)
+Sample 1930 (dataset index 1929) processed successfully with 3 rephrasings.
+Processing sample 1931/7200 (dataset index: 1930)
+Processing sample 1931 (dataset index 1930)
+Sample 1931 (dataset index 1930) processed successfully with 3 rephrasings.
+Processing sample 1932/7200 (dataset index: 1931)
+Processing sample 1932 (dataset index 1931)
+Sample 1932 (dataset index 1931) processed successfully with 3 rephrasings.
+Processing sample 1933/7200 (dataset index: 1932)
+Processing sample 1933 (dataset index 1932)
+Sample 1933 (dataset index 1932) processed successfully with 3 rephrasings.
+Processing sample 1934/7200 (dataset index: 1933)
+Processing sample 1934 (dataset index 1933)
+Sample 1934 (dataset index 1933) processed successfully with 3 rephrasings.
+Processing sample 1935/7200 (dataset index: 1934)
+Processing sample 1935 (dataset index 1934)
+Sample 1935 (dataset index 1934) processed successfully with 2 rephrasings.
+Processing sample 1936/7200 (dataset index: 1935)
+Processing sample 1936 (dataset index 1935)
+Sample 1936 (dataset index 1935) processed successfully with 3 rephrasings.
+Processing sample 1937/7200 (dataset index: 1936)
+Processing sample 1937 (dataset index 1936)
+Sample 1937 (dataset index 1936) processed successfully with 3 rephrasings.
+Processing sample 1938/7200 (dataset index: 1937)
+Processing sample 1938 (dataset index 1937)
+Sample 1938 (dataset index 1937) processed successfully with 3 rephrasings.
+Processing sample 1939/7200 (dataset index: 1938)
+Processing sample 1939 (dataset index 1938)
+Sample 1939 (dataset index 1938) processed successfully with 3 rephrasings.
+Processing sample 1940/7200 (dataset index: 1939)
+Processing sample 1940 (dataset index 1939)
+Sample 1940 (dataset index 1939) processed successfully with 4 rephrasings.
+Processing sample 1941/7200 (dataset index: 1940)
+Processing sample 1941 (dataset index 1940)
+Sample 1941 (dataset index 1940) processed successfully with 3 rephrasings.
+Processing sample 1942/7200 (dataset index: 1941)
+Processing sample 1942 (dataset index 1941)
+Sample 1942 (dataset index 1941) processed successfully with 3 rephrasings.
+Processing sample 1943/7200 (dataset index: 1942)
+Processing sample 1943 (dataset index 1942)
+Sample 1943 (dataset index 1942) processed successfully with 3 rephrasings.
+Processing sample 1944/7200 (dataset index: 1943)
+Processing sample 1944 (dataset index 1943)
+Sample 1944 (dataset index 1943) processed successfully with 3 rephrasings.
+Processing sample 1945/7200 (dataset index: 1944)
+Processing sample 1945 (dataset index 1944)
+Sample 1945 (dataset index 1944) processed successfully with 3 rephrasings.
+Processing sample 1946/7200 (dataset index: 1945)
+Processing sample 1946 (dataset index 1945)
+Sample 1946 (dataset index 1945) processed successfully with 3 rephrasings.
+Processing sample 1947/7200 (dataset index: 1946)
+Processing sample 1947 (dataset index 1946)
+Sample 1947 (dataset index 1946) processed successfully with 3 rephrasings.
+Processing sample 1948/7200 (dataset index: 1947)
+Processing sample 1948 (dataset index 1947)
