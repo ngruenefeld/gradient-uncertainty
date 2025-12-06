@@ -6017,3 +6017,697 @@ Processing sample 1947 (dataset index 1946)
 Sample 1947 (dataset index 1946) processed successfully with 3 rephrasings.
 Processing sample 1948/7200 (dataset index: 1947)
 Processing sample 1948 (dataset index 1947)
+Sample 1948 (dataset index 1947) processed successfully with 3 rephrasings.
+Processing sample 1949/7200 (dataset index: 1948)
+Processing sample 1949 (dataset index 1948)
+Sample 1949 (dataset index 1948) processed successfully with 3 rephrasings.
+Processing sample 1950/7200 (dataset index: 1949)
+Processing sample 1950 (dataset index 1949)
+Sample 1950 (dataset index 1949) processed successfully with 3 rephrasings.
+Processing sample 1951/7200 (dataset index: 1950)
+Processing sample 1951 (dataset index 1950)
+Sample 1951 (dataset index 1950) processed successfully with 1 rephrasings.
+Processing sample 1952/7200 (dataset index: 1951)
+Processing sample 1952 (dataset index 1951)
+Sample 1952 (dataset index 1951) processed successfully with 3 rephrasings.
+Processing sample 1953/7200 (dataset index: 1952)
+Processing sample 1953 (dataset index 1952)
+Sample 1953 (dataset index 1952) processed successfully with 3 rephrasings.
+Processing sample 1954/7200 (dataset index: 1953)
+Processing sample 1954 (dataset index 1953)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 886.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 582.06 MiB is free. Including non-PyTorch memory, this process has 18.98 GiB memory in use. Of the allocated memory 17.94 GiB is allocated by PyTorch, and 830.85 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 1954 (dataset index 1953): CUDA out of memory. Tried to allocate 886.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 582.06 MiB is free. Including non-PyTorch memory, this process has 18.98 GiB memory in use. Of the allocated memory 17.94 GiB is allocated by PyTorch, and 830.85 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 1955/7200 (dataset index: 1954)
+Processing sample 1955 (dataset index 1954)
+Sample 1955 (dataset index 1954) processed successfully with 3 rephrasings.
+Processing sample 1956/7200 (dataset index: 1955)
+Processing sample 1956 (dataset index 1955)
+Sample 1956 (dataset index 1955) processed successfully with 3 rephrasings.
+Processing sample 1957/7200 (dataset index: 1956)
+Processing sample 1957 (dataset index 1956)
+Sample 1957 (dataset index 1956) processed successfully with 3 rephrasings.
+Processing sample 1958/7200 (dataset index: 1957)
+Processing sample 1958 (dataset index 1957)
+Sample 1958 (dataset index 1957) processed successfully with 3 rephrasings.
+Processing sample 1959/7200 (dataset index: 1958)
+Processing sample 1959 (dataset index 1958)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 62.06 MiB is free. Including non-PyTorch memory, this process has 19.49 GiB memory in use. Of the allocated memory 18.08 GiB is allocated by PyTorch, and 1.19 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 1959 (dataset index 1958): CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 62.06 MiB is free. Including non-PyTorch memory, this process has 19.49 GiB memory in use. Of the allocated memory 18.08 GiB is allocated by PyTorch, and 1.19 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 1960/7200 (dataset index: 1959)
+Processing sample 1960 (dataset index 1959)
+Sample 1960 (dataset index 1959) processed successfully with 3 rephrasings.
+Processing sample 1961/7200 (dataset index: 1960)
+Processing sample 1961 (dataset index 1960)
+Sample 1961 (dataset index 1960) processed successfully with 3 rephrasings.
+Processing sample 1962/7200 (dataset index: 1961)
+Processing sample 1962 (dataset index 1961)
+Sample 1962 (dataset index 1961) processed successfully with 3 rephrasings.
+Processing sample 1963/7200 (dataset index: 1962)
+Processing sample 1963 (dataset index 1962)
+Sample 1963 (dataset index 1962) processed successfully with 3 rephrasings.
+Processing sample 1964/7200 (dataset index: 1963)
+Processing sample 1964 (dataset index 1963)
+Sample 1964 (dataset index 1963) processed successfully with 3 rephrasings.
+Processing sample 1965/7200 (dataset index: 1964)
+Processing sample 1965 (dataset index 1964)
+Sample 1965 (dataset index 1964) processed successfully with 1 rephrasings.
+Processing sample 1966/7200 (dataset index: 1965)
+Processing sample 1966 (dataset index 1965)
+Sample 1966 (dataset index 1965) processed successfully with 3 rephrasings.
+Processing sample 1967/7200 (dataset index: 1966)
+Processing sample 1967 (dataset index 1966)
+Sample 1967 (dataset index 1966) processed successfully with 3 rephrasings.
+Processing sample 1968/7200 (dataset index: 1967)
+Processing sample 1968 (dataset index 1967)
+Sample 1968 (dataset index 1967) processed successfully with 3 rephrasings.
+Processing sample 1969/7200 (dataset index: 1968)
+Processing sample 1969 (dataset index 1968)
+Sample 1969 (dataset index 1968) processed successfully with 3 rephrasings.
+Processing sample 1970/7200 (dataset index: 1969)
+Processing sample 1970 (dataset index 1969)
+Sample 1970 (dataset index 1969) processed successfully with 3 rephrasings.
+Processing sample 1971/7200 (dataset index: 1970)
+Processing sample 1971 (dataset index 1970)
+Sample 1971 (dataset index 1970) processed successfully with 3 rephrasings.
+Processing sample 1972/7200 (dataset index: 1971)
+Processing sample 1972 (dataset index 1971)
+Sample 1972 (dataset index 1971) processed successfully with 3 rephrasings.
+Processing sample 1973/7200 (dataset index: 1972)
+Processing sample 1973 (dataset index 1972)
+Sample 1973 (dataset index 1972) processed successfully with 3 rephrasings.
+Processing sample 1974/7200 (dataset index: 1973)
+Processing sample 1974 (dataset index 1973)
+Sample 1974 (dataset index 1973) processed successfully with 3 rephrasings.
+Processing sample 1975/7200 (dataset index: 1974)
+Processing sample 1975 (dataset index 1974)
+Sample 1975 (dataset index 1974) processed successfully with 3 rephrasings.
+Processing sample 1976/7200 (dataset index: 1975)
+Processing sample 1976 (dataset index 1975)
+Sample 1976 (dataset index 1975) processed successfully with 3 rephrasings.
+Processing sample 1977/7200 (dataset index: 1976)
+Processing sample 1977 (dataset index 1976)
+Sample 1977 (dataset index 1976) processed successfully with 3 rephrasings.
+Processing sample 1978/7200 (dataset index: 1977)
+Processing sample 1978 (dataset index 1977)
+Sample 1978 (dataset index 1977) processed successfully with 3 rephrasings.
+Processing sample 1979/7200 (dataset index: 1978)
+Processing sample 1979 (dataset index 1978)
+Sample 1979 (dataset index 1978) processed successfully with 1 rephrasings.
+Processing sample 1980/7200 (dataset index: 1979)
+Processing sample 1980 (dataset index 1979)
+Sample 1980 (dataset index 1979) processed successfully with 3 rephrasings.
+Processing sample 1981/7200 (dataset index: 1980)
+Processing sample 1981 (dataset index 1980)
+Sample 1981 (dataset index 1980) processed successfully with 3 rephrasings.
+Processing sample 1982/7200 (dataset index: 1981)
+Processing sample 1982 (dataset index 1981)
+Sample 1982 (dataset index 1981) processed successfully with 3 rephrasings.
+Processing sample 1983/7200 (dataset index: 1982)
+Processing sample 1983 (dataset index 1982)
+Sample 1983 (dataset index 1982) processed successfully with 3 rephrasings.
+Processing sample 1984/7200 (dataset index: 1983)
+Processing sample 1984 (dataset index 1983)
+Sample 1984 (dataset index 1983) processed successfully with 3 rephrasings.
+Processing sample 1985/7200 (dataset index: 1984)
+Processing sample 1985 (dataset index 1984)
+Sample 1985 (dataset index 1984) processed successfully with 3 rephrasings.
+Processing sample 1986/7200 (dataset index: 1985)
+Processing sample 1986 (dataset index 1985)
+Sample 1986 (dataset index 1985) processed successfully with 3 rephrasings.
+Processing sample 1987/7200 (dataset index: 1986)
+Processing sample 1987 (dataset index 1986)
+Sample 1987 (dataset index 1986) processed successfully with 3 rephrasings.
+Processing sample 1988/7200 (dataset index: 1987)
+Processing sample 1988 (dataset index 1987)
+Sample 1988 (dataset index 1987) processed successfully with 5 rephrasings.
+Processing sample 1989/7200 (dataset index: 1988)
+Processing sample 1989 (dataset index 1988)
+Sample 1989 (dataset index 1988) processed successfully with 3 rephrasings.
+Processing sample 1990/7200 (dataset index: 1989)
+Processing sample 1990 (dataset index 1989)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 992.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 904.06 MiB is free. Including non-PyTorch memory, this process has 18.67 GiB memory in use. Of the allocated memory 18.23 GiB is allocated by PyTorch, and 214.37 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 1990 (dataset index 1989): CUDA out of memory. Tried to allocate 992.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 904.06 MiB is free. Including non-PyTorch memory, this process has 18.67 GiB memory in use. Of the allocated memory 18.23 GiB is allocated by PyTorch, and 214.37 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 1991/7200 (dataset index: 1990)
+Processing sample 1991 (dataset index 1990)
+Sample 1991 (dataset index 1990) processed successfully with 3 rephrasings.
+Processing sample 1992/7200 (dataset index: 1991)
+Processing sample 1992 (dataset index 1991)
+Sample 1992 (dataset index 1991) processed successfully with 3 rephrasings.
+Processing sample 1993/7200 (dataset index: 1992)
+Processing sample 1993 (dataset index 1992)
+Sample 1993 (dataset index 1992) processed successfully with 3 rephrasings.
+Processing sample 1994/7200 (dataset index: 1993)
+Processing sample 1994 (dataset index 1993)
+Sample 1994 (dataset index 1993) processed successfully with 3 rephrasings.
+Processing sample 1995/7200 (dataset index: 1994)
+Processing sample 1995 (dataset index 1994)
+Sample 1995 (dataset index 1994) processed successfully with 3 rephrasings.
+Processing sample 1996/7200 (dataset index: 1995)
+Processing sample 1996 (dataset index 1995)
+Sample 1996 (dataset index 1995) processed successfully with 4 rephrasings.
+Processing sample 1997/7200 (dataset index: 1996)
+Processing sample 1997 (dataset index 1996)
+Sample 1997 (dataset index 1996) processed successfully with 3 rephrasings.
+Processing sample 1998/7200 (dataset index: 1997)
+Processing sample 1998 (dataset index 1997)
+Sample 1998 (dataset index 1997) processed successfully with 3 rephrasings.
+Processing sample 1999/7200 (dataset index: 1998)
+Processing sample 1999 (dataset index 1998)
+Sample 1999 (dataset index 1998) processed successfully with 3 rephrasings.
+Processing sample 2000/7200 (dataset index: 1999)
+Processing sample 2000 (dataset index 1999)
+Sample 2000 (dataset index 1999) processed successfully with 3 rephrasings.
+Processing sample 2001/7200 (dataset index: 2000)
+Processing sample 2001 (dataset index 2000)
+Sample 2001 (dataset index 2000) processed successfully with 3 rephrasings.
+Processing sample 2002/7200 (dataset index: 2001)
+Processing sample 2002 (dataset index 2001)
+Sample 2002 (dataset index 2001) processed successfully with 3 rephrasings.
+Processing sample 2003/7200 (dataset index: 2002)
+Processing sample 2003 (dataset index 2002)
+Sample 2003 (dataset index 2002) processed successfully with 3 rephrasings.
+Processing sample 2004/7200 (dataset index: 2003)
+Processing sample 2004 (dataset index 2003)
+Sample 2004 (dataset index 2003) processed successfully with 3 rephrasings.
+Processing sample 2005/7200 (dataset index: 2004)
+Processing sample 2005 (dataset index 2004)
+Sample 2005 (dataset index 2004) processed successfully with 3 rephrasings.
+Processing sample 2006/7200 (dataset index: 2005)
+Processing sample 2006 (dataset index 2005)
+Sample 2006 (dataset index 2005) processed successfully with 3 rephrasings.
+Processing sample 2007/7200 (dataset index: 2006)
+Processing sample 2007 (dataset index 2006)
+Sample 2007 (dataset index 2006) processed successfully with 3 rephrasings.
+Processing sample 2008/7200 (dataset index: 2007)
+Processing sample 2008 (dataset index 2007)
+Sample 2008 (dataset index 2007) processed successfully with 3 rephrasings.
+Processing sample 2009/7200 (dataset index: 2008)
+Processing sample 2009 (dataset index 2008)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 76.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 62.06 MiB is free. Including non-PyTorch memory, this process has 19.49 GiB memory in use. Of the allocated memory 18.63 GiB is allocated by PyTorch, and 647.39 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 2009 (dataset index 2008): CUDA out of memory. Tried to allocate 76.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 62.06 MiB is free. Including non-PyTorch memory, this process has 19.49 GiB memory in use. Of the allocated memory 18.63 GiB is allocated by PyTorch, and 647.39 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 2010/7200 (dataset index: 2009)
+Processing sample 2010 (dataset index 2009)
+Sample 2010 (dataset index 2009) processed successfully with 3 rephrasings.
+Processing sample 2011/7200 (dataset index: 2010)
+Processing sample 2011 (dataset index 2010)
+Sample 2011 (dataset index 2010) processed successfully with 3 rephrasings.
+Processing sample 2012/7200 (dataset index: 2011)
+Processing sample 2012 (dataset index 2011)
+Sample 2012 (dataset index 2011) processed successfully with 3 rephrasings.
+Processing sample 2013/7200 (dataset index: 2012)
+Processing sample 2013 (dataset index 2012)
+Sample 2013 (dataset index 2012) processed successfully with 3 rephrasings.
+Processing sample 2014/7200 (dataset index: 2013)
+Processing sample 2014 (dataset index 2013)
+Sample 2014 (dataset index 2013) processed successfully with 3 rephrasings.
+Processing sample 2015/7200 (dataset index: 2014)
+Processing sample 2015 (dataset index 2014)
+Sample 2015 (dataset index 2014) processed successfully with 3 rephrasings.
+Processing sample 2016/7200 (dataset index: 2015)
+Processing sample 2016 (dataset index 2015)
+Sample 2016 (dataset index 2015) processed successfully with 3 rephrasings.
+Processing sample 2017/7200 (dataset index: 2016)
+Processing sample 2017 (dataset index 2016)
+Sample 2017 (dataset index 2016) processed successfully with 5 rephrasings.
+Processing sample 2018/7200 (dataset index: 2017)
+Processing sample 2018 (dataset index 2017)
+Sample 2018 (dataset index 2017) processed successfully with 3 rephrasings.
+Processing sample 2019/7200 (dataset index: 2018)
+Processing sample 2019 (dataset index 2018)
+Sample 2019 (dataset index 2018) processed successfully with 3 rephrasings.
+Processing sample 2020/7200 (dataset index: 2019)
+Processing sample 2020 (dataset index 2019)
+Sample 2020 (dataset index 2019) processed successfully with 3 rephrasings.
+Processing sample 2021/7200 (dataset index: 2020)
+Processing sample 2021 (dataset index 2020)
+Sample 2021 (dataset index 2020) processed successfully with 3 rephrasings.
+Processing sample 2022/7200 (dataset index: 2021)
+Processing sample 2022 (dataset index 2021)
+Sample 2022 (dataset index 2021) processed successfully with 3 rephrasings.
+Processing sample 2023/7200 (dataset index: 2022)
+Processing sample 2023 (dataset index 2022)
+Sample 2023 (dataset index 2022) processed successfully with 3 rephrasings.
+Processing sample 2024/7200 (dataset index: 2023)
+Processing sample 2024 (dataset index 2023)
+Sample 2024 (dataset index 2023) processed successfully with 3 rephrasings.
+Processing sample 2025/7200 (dataset index: 2024)
+Processing sample 2025 (dataset index 2024)
+Sample 2025 (dataset index 2024) processed successfully with 3 rephrasings.
+Processing sample 2026/7200 (dataset index: 2025)
+Processing sample 2026 (dataset index 2025)
+Sample 2026 (dataset index 2025) processed successfully with 3 rephrasings.
+Processing sample 2027/7200 (dataset index: 2026)
+Processing sample 2027 (dataset index 2026)
+Sample 2027 (dataset index 2026) processed successfully with 3 rephrasings.
+Processing sample 2028/7200 (dataset index: 2027)
+Processing sample 2028 (dataset index 2027)
+Sample 2028 (dataset index 2027) processed successfully with 3 rephrasings.
+Processing sample 2029/7200 (dataset index: 2028)
+Processing sample 2029 (dataset index 2028)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 538.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 418.06 MiB is free. Including non-PyTorch memory, this process has 19.14 GiB memory in use. Of the allocated memory 18.66 GiB is allocated by PyTorch, and 259.72 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 2029 (dataset index 2028): CUDA out of memory. Tried to allocate 538.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 418.06 MiB is free. Including non-PyTorch memory, this process has 19.14 GiB memory in use. Of the allocated memory 18.66 GiB is allocated by PyTorch, and 259.72 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 2030/7200 (dataset index: 2029)
+Processing sample 2030 (dataset index 2029)
+Sample 2030 (dataset index 2029) processed successfully with 3 rephrasings.
+Processing sample 2031/7200 (dataset index: 2030)
+Processing sample 2031 (dataset index 2030)
+Sample 2031 (dataset index 2030) processed successfully with 3 rephrasings.
+Processing sample 2032/7200 (dataset index: 2031)
+Processing sample 2032 (dataset index 2031)
+Sample 2032 (dataset index 2031) processed successfully with 3 rephrasings.
+Processing sample 2033/7200 (dataset index: 2032)
+Processing sample 2033 (dataset index 2032)
+Sample 2033 (dataset index 2032) processed successfully with 3 rephrasings.
+Processing sample 2034/7200 (dataset index: 2033)
+Processing sample 2034 (dataset index 2033)
+Sample 2034 (dataset index 2033) processed successfully with 4 rephrasings.
+Processing sample 2035/7200 (dataset index: 2034)
+Processing sample 2035 (dataset index 2034)
+Sample 2035 (dataset index 2034) processed successfully with 3 rephrasings.
+Processing sample 2036/7200 (dataset index: 2035)
+Processing sample 2036 (dataset index 2035)
+Sample 2036 (dataset index 2035) processed successfully with 3 rephrasings.
+Processing sample 2037/7200 (dataset index: 2036)
+Processing sample 2037 (dataset index 2036)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 78.06 MiB is free. Including non-PyTorch memory, this process has 19.48 GiB memory in use. Of the allocated memory 18.22 GiB is allocated by PyTorch, and 1.03 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 2037 (dataset index 2036): CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 78.06 MiB is free. Including non-PyTorch memory, this process has 19.48 GiB memory in use. Of the allocated memory 18.22 GiB is allocated by PyTorch, and 1.03 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 2038/7200 (dataset index: 2037)
+Processing sample 2038 (dataset index 2037)
+Sample 2038 (dataset index 2037) processed successfully with 3 rephrasings.
+Processing sample 2039/7200 (dataset index: 2038)
+Processing sample 2039 (dataset index 2038)
+Sample 2039 (dataset index 2038) processed successfully with 3 rephrasings.
+Processing sample 2040/7200 (dataset index: 2039)
+Processing sample 2040 (dataset index 2039)
+Sample 2040 (dataset index 2039) processed successfully with 3 rephrasings.
+Processing sample 2041/7200 (dataset index: 2040)
+Processing sample 2041 (dataset index 2040)
+Sample 2041 (dataset index 2040) processed successfully with 3 rephrasings.
+Processing sample 2042/7200 (dataset index: 2041)
+Processing sample 2042 (dataset index 2041)
+Sample 2042 (dataset index 2041) processed successfully with 3 rephrasings.
+Processing sample 2043/7200 (dataset index: 2042)
+Processing sample 2043 (dataset index 2042)
+Sample 2043 (dataset index 2042) processed successfully with 3 rephrasings.
+Processing sample 2044/7200 (dataset index: 2043)
+Processing sample 2044 (dataset index 2043)
+Sample 2044 (dataset index 2043) processed successfully with 3 rephrasings.
+Processing sample 2045/7200 (dataset index: 2044)
+Processing sample 2045 (dataset index 2044)
+Sample 2045 (dataset index 2044) processed successfully with 3 rephrasings.
+Processing sample 2046/7200 (dataset index: 2045)
+Processing sample 2046 (dataset index 2045)
+Sample 2046 (dataset index 2045) processed successfully with 3 rephrasings.
+Processing sample 2047/7200 (dataset index: 2046)
+Processing sample 2047 (dataset index 2046)
+Sample 2047 (dataset index 2046) processed successfully with 3 rephrasings.
+Processing sample 2048/7200 (dataset index: 2047)
+Processing sample 2048 (dataset index 2047)
+Sample 2048 (dataset index 2047) processed successfully with 3 rephrasings.
+Processing sample 2049/7200 (dataset index: 2048)
+Processing sample 2049 (dataset index 2048)
+Sample 2049 (dataset index 2048) processed successfully with 3 rephrasings.
+Processing sample 2050/7200 (dataset index: 2049)
+Processing sample 2050 (dataset index 2049)
+Sample 2050 (dataset index 2049) processed successfully with 3 rephrasings.
+Processing sample 2051/7200 (dataset index: 2050)
+Processing sample 2051 (dataset index 2050)
+Sample 2051 (dataset index 2050) processed successfully with 3 rephrasings.
+Processing sample 2052/7200 (dataset index: 2051)
+Processing sample 2052 (dataset index 2051)
+Sample 2052 (dataset index 2051) processed successfully with 3 rephrasings.
+Processing sample 2053/7200 (dataset index: 2052)
+Processing sample 2053 (dataset index 2052)
+Sample 2053 (dataset index 2052) processed successfully with 3 rephrasings.
+Processing sample 2054/7200 (dataset index: 2053)
+Processing sample 2054 (dataset index 2053)
+Sample 2054 (dataset index 2053) processed successfully with 3 rephrasings.
+Processing sample 2055/7200 (dataset index: 2054)
+Processing sample 2055 (dataset index 2054)
+Sample 2055 (dataset index 2054) processed successfully with 3 rephrasings.
+Processing sample 2056/7200 (dataset index: 2055)
+Processing sample 2056 (dataset index 2055)
+Sample 2056 (dataset index 2055) processed successfully with 3 rephrasings.
+Processing sample 2057/7200 (dataset index: 2056)
+Processing sample 2057 (dataset index 2056)
+Sample 2057 (dataset index 2056) processed successfully with 3 rephrasings.
+Processing sample 2058/7200 (dataset index: 2057)
+Processing sample 2058 (dataset index 2057)
+Sample 2058 (dataset index 2057) processed successfully with 3 rephrasings.
+Processing sample 2059/7200 (dataset index: 2058)
+Processing sample 2059 (dataset index 2058)
+Sample 2059 (dataset index 2058) processed successfully with 1 rephrasings.
+Processing sample 2060/7200 (dataset index: 2059)
+Processing sample 2060 (dataset index 2059)
+Sample 2060 (dataset index 2059) processed successfully with 3 rephrasings.
+Processing sample 2061/7200 (dataset index: 2060)
+Processing sample 2061 (dataset index 2060)
+Sample 2061 (dataset index 2060) processed successfully with 3 rephrasings.
+Processing sample 2062/7200 (dataset index: 2061)
+Processing sample 2062 (dataset index 2061)
+Sample 2062 (dataset index 2061) processed successfully with 3 rephrasings.
+Processing sample 2063/7200 (dataset index: 2062)
+Processing sample 2063 (dataset index 2062)
+Sample 2063 (dataset index 2062) processed successfully with 3 rephrasings.
+Processing sample 2064/7200 (dataset index: 2063)
+Processing sample 2064 (dataset index 2063)
+Sample 2064 (dataset index 2063) processed successfully with 3 rephrasings.
+Processing sample 2065/7200 (dataset index: 2064)
+Processing sample 2065 (dataset index 2064)
+Sample 2065 (dataset index 2064) processed successfully with 3 rephrasings.
+Processing sample 2066/7200 (dataset index: 2065)
+Processing sample 2066 (dataset index 2065)
+Sample 2066 (dataset index 2065) processed successfully with 3 rephrasings.
+Processing sample 2067/7200 (dataset index: 2066)
+Processing sample 2067 (dataset index 2066)
+Sample 2067 (dataset index 2066) processed successfully with 3 rephrasings.
+Processing sample 2068/7200 (dataset index: 2067)
+Processing sample 2068 (dataset index 2067)
+Sample 2068 (dataset index 2067) processed successfully with 3 rephrasings.
+Processing sample 2069/7200 (dataset index: 2068)
+Processing sample 2069 (dataset index 2068)
+Sample 2069 (dataset index 2068) processed successfully with 3 rephrasings.
+Processing sample 2070/7200 (dataset index: 2069)
+Processing sample 2070 (dataset index 2069)
+Sample 2070 (dataset index 2069) processed successfully with 3 rephrasings.
+Processing sample 2071/7200 (dataset index: 2070)
+Processing sample 2071 (dataset index 2070)
+Sample 2071 (dataset index 2070) processed successfully with 3 rephrasings.
+Processing sample 2072/7200 (dataset index: 2071)
+Processing sample 2072 (dataset index 2071)
+Sample 2072 (dataset index 2071) processed successfully with 3 rephrasings.
+Processing sample 2073/7200 (dataset index: 2072)
+Processing sample 2073 (dataset index 2072)
+Sample 2073 (dataset index 2072) processed successfully with 3 rephrasings.
+Processing sample 2074/7200 (dataset index: 2073)
+Processing sample 2074 (dataset index 2073)
+Sample 2074 (dataset index 2073) processed successfully with 3 rephrasings.
+Processing sample 2075/7200 (dataset index: 2074)
+Processing sample 2075 (dataset index 2074)
+Sample 2075 (dataset index 2074) processed successfully with 3 rephrasings.
+Processing sample 2076/7200 (dataset index: 2075)
+Processing sample 2076 (dataset index 2075)
+Sample 2076 (dataset index 2075) processed successfully with 3 rephrasings.
+Processing sample 2077/7200 (dataset index: 2076)
+Processing sample 2077 (dataset index 2076)
+Sample 2077 (dataset index 2076) processed successfully with 3 rephrasings.
+Processing sample 2078/7200 (dataset index: 2077)
+Processing sample 2078 (dataset index 2077)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 82.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 24.06 MiB is free. Including non-PyTorch memory, this process has 19.53 GiB memory in use. Of the allocated memory 18.44 GiB is allocated by PyTorch, and 876.85 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 2078 (dataset index 2077): CUDA out of memory. Tried to allocate 82.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 24.06 MiB is free. Including non-PyTorch memory, this process has 19.53 GiB memory in use. Of the allocated memory 18.44 GiB is allocated by PyTorch, and 876.85 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 2079/7200 (dataset index: 2078)
+Processing sample 2079 (dataset index 2078)
+Sample 2079 (dataset index 2078) processed successfully with 3 rephrasings.
+Processing sample 2080/7200 (dataset index: 2079)
+Processing sample 2080 (dataset index 2079)
+Sample 2080 (dataset index 2079) processed successfully with 3 rephrasings.
+Processing sample 2081/7200 (dataset index: 2080)
+Processing sample 2081 (dataset index 2080)
+Sample 2081 (dataset index 2080) processed successfully with 1 rephrasings.
+Processing sample 2082/7200 (dataset index: 2081)
+Processing sample 2082 (dataset index 2081)
+Sample 2082 (dataset index 2081) processed successfully with 3 rephrasings.
+Processing sample 2083/7200 (dataset index: 2082)
+Processing sample 2083 (dataset index 2082)
+Sample 2083 (dataset index 2082) processed successfully with 3 rephrasings.
+Processing sample 2084/7200 (dataset index: 2083)
+Processing sample 2084 (dataset index 2083)
+Sample 2084 (dataset index 2083) processed successfully with 3 rephrasings.
+Processing sample 2085/7200 (dataset index: 2084)
+Processing sample 2085 (dataset index 2084)
+Sample 2085 (dataset index 2084) processed successfully with 3 rephrasings.
+Processing sample 2086/7200 (dataset index: 2085)
+Processing sample 2086 (dataset index 2085)
+Sample 2086 (dataset index 2085) processed successfully with 3 rephrasings.
+Processing sample 2087/7200 (dataset index: 2086)
+Processing sample 2087 (dataset index 2086)
+Sample 2087 (dataset index 2086) processed successfully with 3 rephrasings.
+Processing sample 2088/7200 (dataset index: 2087)
+Processing sample 2088 (dataset index 2087)
+Sample 2088 (dataset index 2087) processed successfully with 3 rephrasings.
+Processing sample 2089/7200 (dataset index: 2088)
+Processing sample 2089 (dataset index 2088)
+Sample 2089 (dataset index 2088) processed successfully with 3 rephrasings.
+Processing sample 2090/7200 (dataset index: 2089)
+Processing sample 2090 (dataset index 2089)
+Sample 2090 (dataset index 2089) processed successfully with 3 rephrasings.
+Processing sample 2091/7200 (dataset index: 2090)
+Processing sample 2091 (dataset index 2090)
+Sample 2091 (dataset index 2090) processed successfully with 3 rephrasings.
+Processing sample 2092/7200 (dataset index: 2091)
+Processing sample 2092 (dataset index 2091)
+Sample 2092 (dataset index 2091) processed successfully with 3 rephrasings.
+Processing sample 2093/7200 (dataset index: 2092)
+Processing sample 2093 (dataset index 2092)
+Sample 2093 (dataset index 2092) processed successfully with 3 rephrasings.
+Processing sample 2094/7200 (dataset index: 2093)
+Processing sample 2094 (dataset index 2093)
+Sample 2094 (dataset index 2093) processed successfully with 3 rephrasings.
+Processing sample 2095/7200 (dataset index: 2094)
+Processing sample 2095 (dataset index 2094)
+Sample 2095 (dataset index 2094) processed successfully with 3 rephrasings.
+Processing sample 2096/7200 (dataset index: 2095)
+Processing sample 2096 (dataset index 2095)
+Sample 2096 (dataset index 2095) processed successfully with 3 rephrasings.
+Processing sample 2097/7200 (dataset index: 2096)
+Processing sample 2097 (dataset index 2096)
+Sample 2097 (dataset index 2096) processed successfully with 1 rephrasings.
+Processing sample 2098/7200 (dataset index: 2097)
+Processing sample 2098 (dataset index 2097)
+Sample 2098 (dataset index 2097) processed successfully with 3 rephrasings.
+Processing sample 2099/7200 (dataset index: 2098)
+Processing sample 2099 (dataset index 2098)
+Sample 2099 (dataset index 2098) processed successfully with 3 rephrasings.
+Processing sample 2100/7200 (dataset index: 2099)
+Processing sample 2100 (dataset index 2099)
+Sample 2100 (dataset index 2099) processed successfully with 3 rephrasings.
+Processing sample 2101/7200 (dataset index: 2100)
+Processing sample 2101 (dataset index 2100)
+Sample 2101 (dataset index 2100) processed successfully with 3 rephrasings.
+Processing sample 2102/7200 (dataset index: 2101)
+Processing sample 2102 (dataset index 2101)
+Sample 2102 (dataset index 2101) processed successfully with 3 rephrasings.
+Processing sample 2103/7200 (dataset index: 2102)
+Processing sample 2103 (dataset index 2102)
+Sample 2103 (dataset index 2102) processed successfully with 3 rephrasings.
+Processing sample 2104/7200 (dataset index: 2103)
+Processing sample 2104 (dataset index 2103)
+Sample 2104 (dataset index 2103) processed successfully with 3 rephrasings.
+Processing sample 2105/7200 (dataset index: 2104)
+Processing sample 2105 (dataset index 2104)
+Sample 2105 (dataset index 2104) processed successfully with 3 rephrasings.
+Processing sample 2106/7200 (dataset index: 2105)
+Processing sample 2106 (dataset index 2105)
+Sample 2106 (dataset index 2105) processed successfully with 3 rephrasings.
+Processing sample 2107/7200 (dataset index: 2106)
+Processing sample 2107 (dataset index 2106)
+Sample 2107 (dataset index 2106) processed successfully with 3 rephrasings.
+Processing sample 2108/7200 (dataset index: 2107)
+Processing sample 2108 (dataset index 2107)
+Sample 2108 (dataset index 2107) processed successfully with 3 rephrasings.
+Processing sample 2109/7200 (dataset index: 2108)
+Processing sample 2109 (dataset index 2108)
+Sample 2109 (dataset index 2108) processed successfully with 3 rephrasings.
+Processing sample 2110/7200 (dataset index: 2109)
+Processing sample 2110 (dataset index 2109)
+Sample 2110 (dataset index 2109) processed successfully with 3 rephrasings.
+Processing sample 2111/7200 (dataset index: 2110)
+Processing sample 2111 (dataset index 2110)
+Sample 2111 (dataset index 2110) processed successfully with 3 rephrasings.
+Processing sample 2112/7200 (dataset index: 2111)
+Processing sample 2112 (dataset index 2111)
+Sample 2112 (dataset index 2111) processed successfully with 3 rephrasings.
+Processing sample 2113/7200 (dataset index: 2112)
+Processing sample 2113 (dataset index 2112)
+Sample 2113 (dataset index 2112) processed successfully with 3 rephrasings.
+Processing sample 2114/7200 (dataset index: 2113)
+Processing sample 2114 (dataset index 2113)
+Sample 2114 (dataset index 2113) processed successfully with 3 rephrasings.
+Processing sample 2115/7200 (dataset index: 2114)
+Processing sample 2115 (dataset index 2114)
+Sample 2115 (dataset index 2114) processed successfully with 3 rephrasings.
+Processing sample 2116/7200 (dataset index: 2115)
+Processing sample 2116 (dataset index 2115)
+Sample 2116 (dataset index 2115) processed successfully with 3 rephrasings.
+Processing sample 2117/7200 (dataset index: 2116)
+Processing sample 2117 (dataset index 2116)
+Sample 2117 (dataset index 2116) processed successfully with 3 rephrasings.
+Processing sample 2118/7200 (dataset index: 2117)
+Processing sample 2118 (dataset index 2117)
+Sample 2118 (dataset index 2117) processed successfully with 3 rephrasings.
+Processing sample 2119/7200 (dataset index: 2118)
+Processing sample 2119 (dataset index 2118)
+Sample 2119 (dataset index 2118) processed successfully with 3 rephrasings.
+Processing sample 2120/7200 (dataset index: 2119)
+Processing sample 2120 (dataset index 2119)
+Sample 2120 (dataset index 2119) processed successfully with 3 rephrasings.
+Processing sample 2121/7200 (dataset index: 2120)
+Processing sample 2121 (dataset index 2120)
+Sample 2121 (dataset index 2120) processed successfully with 3 rephrasings.
+Processing sample 2122/7200 (dataset index: 2121)
+Processing sample 2122 (dataset index 2121)
+Sample 2122 (dataset index 2121) processed successfully with 3 rephrasings.
+Processing sample 2123/7200 (dataset index: 2122)
+Processing sample 2123 (dataset index 2122)
+Sample 2123 (dataset index 2122) processed successfully with 3 rephrasings.
+Processing sample 2124/7200 (dataset index: 2123)
+Processing sample 2124 (dataset index 2123)
+Sample 2124 (dataset index 2123) processed successfully with 3 rephrasings.
+Processing sample 2125/7200 (dataset index: 2124)
+Processing sample 2125 (dataset index 2124)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 94.06 MiB is free. Including non-PyTorch memory, this process has 19.46 GiB memory in use. Of the allocated memory 18.23 GiB is allocated by PyTorch, and 1.00 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 2125 (dataset index 2124): CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 94.06 MiB is free. Including non-PyTorch memory, this process has 19.46 GiB memory in use. Of the allocated memory 18.23 GiB is allocated by PyTorch, and 1.00 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 2126/7200 (dataset index: 2125)
+Processing sample 2126 (dataset index 2125)
+Sample 2126 (dataset index 2125) processed successfully with 3 rephrasings.
+Processing sample 2127/7200 (dataset index: 2126)
+Processing sample 2127 (dataset index 2126)
+Sample 2127 (dataset index 2126) processed successfully with 3 rephrasings.
+Processing sample 2128/7200 (dataset index: 2127)
+Processing sample 2128 (dataset index 2127)
+Sample 2128 (dataset index 2127) processed successfully with 3 rephrasings.
+Processing sample 2129/7200 (dataset index: 2128)
+Processing sample 2129 (dataset index 2128)
+Sample 2129 (dataset index 2128) processed successfully with 3 rephrasings.
+Processing sample 2130/7200 (dataset index: 2129)
+Processing sample 2130 (dataset index 2129)
+Sample 2130 (dataset index 2129) processed successfully with 3 rephrasings.
+Processing sample 2131/7200 (dataset index: 2130)
+Processing sample 2131 (dataset index 2130)
+Sample 2131 (dataset index 2130) processed successfully with 3 rephrasings.
+Processing sample 2132/7200 (dataset index: 2131)
+Processing sample 2132 (dataset index 2131)
+Sample 2132 (dataset index 2131) processed successfully with 1 rephrasings.
+Processing sample 2133/7200 (dataset index: 2132)
+Processing sample 2133 (dataset index 2132)
+Sample 2133 (dataset index 2132) processed successfully with 3 rephrasings.
+Processing sample 2134/7200 (dataset index: 2133)
+Processing sample 2134 (dataset index 2133)
+Sample 2134 (dataset index 2133) processed successfully with 3 rephrasings.
+Processing sample 2135/7200 (dataset index: 2134)
+Processing sample 2135 (dataset index 2134)
+Sample 2135 (dataset index 2134) processed successfully with 3 rephrasings.
+Processing sample 2136/7200 (dataset index: 2135)
+Processing sample 2136 (dataset index 2135)
+Sample 2136 (dataset index 2135) processed successfully with 3 rephrasings.
+Processing sample 2137/7200 (dataset index: 2136)
+Processing sample 2137 (dataset index 2136)
+Sample 2137 (dataset index 2136) processed successfully with 3 rephrasings.
+Processing sample 2138/7200 (dataset index: 2137)
+Processing sample 2138 (dataset index 2137)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 106.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 28.06 MiB is free. Including non-PyTorch memory, this process has 19.53 GiB memory in use. Of the allocated memory 18.58 GiB is allocated by PyTorch, and 735.33 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 2138 (dataset index 2137): CUDA out of memory. Tried to allocate 106.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 28.06 MiB is free. Including non-PyTorch memory, this process has 19.53 GiB memory in use. Of the allocated memory 18.58 GiB is allocated by PyTorch, and 735.33 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 2139/7200 (dataset index: 2138)
+Processing sample 2139 (dataset index 2138)
+Sample 2139 (dataset index 2138) processed successfully with 3 rephrasings.
+Processing sample 2140/7200 (dataset index: 2139)
+Processing sample 2140 (dataset index 2139)
+Sample 2140 (dataset index 2139) processed successfully with 3 rephrasings.
+Processing sample 2141/7200 (dataset index: 2140)
+Processing sample 2141 (dataset index 2140)
+Sample 2141 (dataset index 2140) processed successfully with 3 rephrasings.
+Processing sample 2142/7200 (dataset index: 2141)
+Processing sample 2142 (dataset index 2141)
+Sample 2142 (dataset index 2141) processed successfully with 3 rephrasings.
+Processing sample 2143/7200 (dataset index: 2142)
+Processing sample 2143 (dataset index 2142)
+Sample 2143 (dataset index 2142) processed successfully with 3 rephrasings.
+Processing sample 2144/7200 (dataset index: 2143)
+Processing sample 2144 (dataset index 2143)
+Sample 2144 (dataset index 2143) processed successfully with 3 rephrasings.
+Processing sample 2145/7200 (dataset index: 2144)
+Processing sample 2145 (dataset index 2144)
+Sample 2145 (dataset index 2144) processed successfully with 3 rephrasings.
+Processing sample 2146/7200 (dataset index: 2145)
+Processing sample 2146 (dataset index 2145)
+Sample 2146 (dataset index 2145) processed successfully with 3 rephrasings.
+Processing sample 2147/7200 (dataset index: 2146)
+Processing sample 2147 (dataset index 2146)
+Sample 2147 (dataset index 2146) processed successfully with 3 rephrasings.
+Processing sample 2148/7200 (dataset index: 2147)
+Processing sample 2148 (dataset index 2147)
+Sample 2148 (dataset index 2147) processed successfully with 3 rephrasings.
+Processing sample 2149/7200 (dataset index: 2148)
+Processing sample 2149 (dataset index 2148)
+Sample 2149 (dataset index 2148) processed successfully with 3 rephrasings.
+Processing sample 2150/7200 (dataset index: 2149)
+Processing sample 2150 (dataset index 2149)
+Sample 2150 (dataset index 2149) processed successfully with 3 rephrasings.
+Processing sample 2151/7200 (dataset index: 2150)
+Processing sample 2151 (dataset index 2150)
+Sample 2151 (dataset index 2150) processed successfully with 3 rephrasings.
+Processing sample 2152/7200 (dataset index: 2151)
+Processing sample 2152 (dataset index 2151)
+Sample 2152 (dataset index 2151) processed successfully with 3 rephrasings.
+Processing sample 2153/7200 (dataset index: 2152)
+Processing sample 2153 (dataset index 2152)
+Sample 2153 (dataset index 2152) processed successfully with 3 rephrasings.
+Processing sample 2154/7200 (dataset index: 2153)
+Processing sample 2154 (dataset index 2153)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 96.06 MiB is free. Including non-PyTorch memory, this process has 19.46 GiB memory in use. Of the allocated memory 18.57 GiB is allocated by PyTorch, and 671.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 2154 (dataset index 2153): CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 96.06 MiB is free. Including non-PyTorch memory, this process has 19.46 GiB memory in use. Of the allocated memory 18.57 GiB is allocated by PyTorch, and 671.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 2155/7200 (dataset index: 2154)
+Processing sample 2155 (dataset index 2154)
+Sample 2155 (dataset index 2154) processed successfully with 3 rephrasings.
+Processing sample 2156/7200 (dataset index: 2155)
+Processing sample 2156 (dataset index 2155)
+Sample 2156 (dataset index 2155) processed successfully with 3 rephrasings.
+Processing sample 2157/7200 (dataset index: 2156)
+Processing sample 2157 (dataset index 2156)
+Sample 2157 (dataset index 2156) processed successfully with 3 rephrasings.
+Processing sample 2158/7200 (dataset index: 2157)
+Processing sample 2158 (dataset index 2157)
+Sample 2158 (dataset index 2157) processed successfully with 3 rephrasings.
+Processing sample 2159/7200 (dataset index: 2158)
+Processing sample 2159 (dataset index 2158)
+Sample 2159 (dataset index 2158) processed successfully with 3 rephrasings.
+Processing sample 2160/7200 (dataset index: 2159)
+Processing sample 2160 (dataset index 2159)
+Sample 2160 (dataset index 2159) processed successfully with 3 rephrasings.
+Processing sample 2161/7200 (dataset index: 2160)
+Processing sample 2161 (dataset index 2160)
+Sample 2161 (dataset index 2160) processed successfully with 3 rephrasings.
+Processing sample 2162/7200 (dataset index: 2161)
+Processing sample 2162 (dataset index 2161)
+Sample 2162 (dataset index 2161) processed successfully with 3 rephrasings.
+Processing sample 2163/7200 (dataset index: 2162)
+Processing sample 2163 (dataset index 2162)
+Sample 2163 (dataset index 2162) processed successfully with 3 rephrasings.
+Processing sample 2164/7200 (dataset index: 2163)
+Processing sample 2164 (dataset index 2163)
+Sample 2164 (dataset index 2163) processed successfully with 3 rephrasings.
+Processing sample 2165/7200 (dataset index: 2164)
+Processing sample 2165 (dataset index 2164)
+Sample 2165 (dataset index 2164) processed successfully with 3 rephrasings.
+Processing sample 2166/7200 (dataset index: 2165)
+Processing sample 2166 (dataset index 2165)
+Sample 2166 (dataset index 2165) processed successfully with 3 rephrasings.
+Processing sample 2167/7200 (dataset index: 2166)
+Processing sample 2167 (dataset index 2166)
+Sample 2167 (dataset index 2166) processed successfully with 3 rephrasings.
+Processing sample 2168/7200 (dataset index: 2167)
+Processing sample 2168 (dataset index 2167)
+Sample 2168 (dataset index 2167) processed successfully with 3 rephrasings.
+Processing sample 2169/7200 (dataset index: 2168)
+Processing sample 2169 (dataset index 2168)
+Sample 2169 (dataset index 2168) processed successfully with 3 rephrasings.
+Processing sample 2170/7200 (dataset index: 2169)
+Processing sample 2170 (dataset index 2169)
+Sample 2170 (dataset index 2169) processed successfully with 3 rephrasings.
+Processing sample 2171/7200 (dataset index: 2170)
+Processing sample 2171 (dataset index 2170)
+Sample 2171 (dataset index 2170) processed successfully with 3 rephrasings.
+Processing sample 2172/7200 (dataset index: 2171)
+Processing sample 2172 (dataset index 2171)
+Sample 2172 (dataset index 2171) processed successfully with 3 rephrasings.
+Processing sample 2173/7200 (dataset index: 2172)
+Processing sample 2173 (dataset index 2172)
+Sample 2173 (dataset index 2172) processed successfully with 3 rephrasings.
+Processing sample 2174/7200 (dataset index: 2173)
+Processing sample 2174 (dataset index 2173)
+Sample 2174 (dataset index 2173) processed successfully with 2 rephrasings.
+Processing sample 2175/7200 (dataset index: 2174)
+Processing sample 2175 (dataset index 2174)
+Sample 2175 (dataset index 2174) processed successfully with 3 rephrasings.
+Processing sample 2176/7200 (dataset index: 2175)
+Processing sample 2176 (dataset index 2175)
