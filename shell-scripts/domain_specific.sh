@@ -7,7 +7,7 @@
 #SBATCH --chdir=/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty
 #SBATCH --output=/home/g/gruenefeld/Documents/GitHub/gradient-uncertainty/slurm-outputs/slurm.%j.%N.out
 #SBATCH --ntasks=1
-#SBATCH --time=5-00:00:00
+#SBATCH --time=1-00:00:00
 
 # Default values
 DATASET="ag-pubmed"
