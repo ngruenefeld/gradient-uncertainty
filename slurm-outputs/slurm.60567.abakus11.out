@@ -1,0 +1,4 @@
+slurmstepd-abakus11: error: Unable to create TMPDIR [/tmp/user/24470]: Permission denied
+slurmstepd-abakus11: error: Setting TMPDIR to /tmp
+Running job with commit: 874e9d4b0514db5a1ed368e9aeabff7b813473f1
+slurmstepd-abakus11: error: *** JOB 60567 ON abakus11 CANCELLED AT 2025-12-10T09:19:33 ***
