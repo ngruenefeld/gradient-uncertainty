@@ -21297,3 +21297,115 @@ Processing sample 7019 (dataset index 7018)
 Sample 7019 (dataset index 7018) processed successfully with 3 rephrasings.
 Processing sample 7020/7200 (dataset index: 7019)
 Processing sample 7020 (dataset index 7019)
+Sample 7020 (dataset index 7019) processed successfully with 3 rephrasings.
+Processing sample 7021/7200 (dataset index: 7020)
+Processing sample 7021 (dataset index 7020)
+Sample 7021 (dataset index 7020) processed successfully with 3 rephrasings.
+Processing sample 7022/7200 (dataset index: 7021)
+Processing sample 7022 (dataset index 7021)
+Sample 7022 (dataset index 7021) processed successfully with 3 rephrasings.
+Processing sample 7023/7200 (dataset index: 7022)
+Processing sample 7023 (dataset index 7022)
+Sample 7023 (dataset index 7022) processed successfully with 3 rephrasings.
+Processing sample 7024/7200 (dataset index: 7023)
+Processing sample 7024 (dataset index 7023)
+Sample 7024 (dataset index 7023) processed successfully with 3 rephrasings.
+Processing sample 7025/7200 (dataset index: 7024)
+Processing sample 7025 (dataset index 7024)
+Sample 7025 (dataset index 7024) processed successfully with 3 rephrasings.
+Processing sample 7026/7200 (dataset index: 7025)
+Processing sample 7026 (dataset index 7025)
+Sample 7026 (dataset index 7025) processed successfully with 3 rephrasings.
+Processing sample 7027/7200 (dataset index: 7026)
+Processing sample 7027 (dataset index 7026)
+Sample 7027 (dataset index 7026) processed successfully with 3 rephrasings.
+Processing sample 7028/7200 (dataset index: 7027)
+Processing sample 7028 (dataset index 7027)
+Sample 7028 (dataset index 7027) processed successfully with 3 rephrasings.
+Processing sample 7029/7200 (dataset index: 7028)
+Processing sample 7029 (dataset index 7028)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 62.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 46.00 MiB is free. Including non-PyTorch memory, this process has 23.50 GiB memory in use. Of the allocated memory 22.18 GiB is allocated by PyTorch, and 1.06 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 7029 (dataset index 7028): CUDA out of memory. Tried to allocate 62.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 46.00 MiB is free. Including non-PyTorch memory, this process has 23.50 GiB memory in use. Of the allocated memory 22.18 GiB is allocated by PyTorch, and 1.06 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 7030/7200 (dataset index: 7029)
+Processing sample 7030 (dataset index 7029)
+Sample 7030 (dataset index 7029) processed successfully with 3 rephrasings.
+Processing sample 7031/7200 (dataset index: 7030)
+Processing sample 7031 (dataset index 7030)
+Sample 7031 (dataset index 7030) processed successfully with 3 rephrasings.
+Processing sample 7032/7200 (dataset index: 7031)
+Processing sample 7032 (dataset index 7031)
+Sample 7032 (dataset index 7031) processed successfully with 3 rephrasings.
+Processing sample 7033/7200 (dataset index: 7032)
+Processing sample 7033 (dataset index 7032)
+Sample 7033 (dataset index 7032) processed successfully with 3 rephrasings.
+Processing sample 7034/7200 (dataset index: 7033)
+Processing sample 7034 (dataset index 7033)
+Sample 7034 (dataset index 7033) processed successfully with 3 rephrasings.
+Processing sample 7035/7200 (dataset index: 7034)
+Processing sample 7035 (dataset index 7034)
+Sample 7035 (dataset index 7034) processed successfully with 3 rephrasings.
+Processing sample 7036/7200 (dataset index: 7035)
+Processing sample 7036 (dataset index 7035)
+Sample 7036 (dataset index 7035) processed successfully with 3 rephrasings.
+Processing sample 7037/7200 (dataset index: 7036)
+Processing sample 7037 (dataset index 7036)
+Sample 7037 (dataset index 7036) processed successfully with 3 rephrasings.
+Processing sample 7038/7200 (dataset index: 7037)
+Processing sample 7038 (dataset index 7037)
+Sample 7038 (dataset index 7037) processed successfully with 3 rephrasings.
+Processing sample 7039/7200 (dataset index: 7038)
+Processing sample 7039 (dataset index 7038)
+Sample 7039 (dataset index 7038) processed successfully with 3 rephrasings.
+Processing sample 7040/7200 (dataset index: 7039)
+Processing sample 7040 (dataset index 7039)
+Sample 7040 (dataset index 7039) processed successfully with 3 rephrasings.
+Processing sample 7041/7200 (dataset index: 7040)
+Processing sample 7041 (dataset index 7040)
+Sample 7041 (dataset index 7040) processed successfully with 3 rephrasings.
+Processing sample 7042/7200 (dataset index: 7041)
+Processing sample 7042 (dataset index 7041)
+Sample 7042 (dataset index 7041) processed successfully with 3 rephrasings.
+Processing sample 7043/7200 (dataset index: 7042)
+Processing sample 7043 (dataset index 7042)
+Sample 7043 (dataset index 7042) processed successfully with 3 rephrasings.
+Processing sample 7044/7200 (dataset index: 7043)
+Processing sample 7044 (dataset index 7043)
+Sample 7044 (dataset index 7043) processed successfully with 3 rephrasings.
+Processing sample 7045/7200 (dataset index: 7044)
+Processing sample 7045 (dataset index 7044)
+Sample 7045 (dataset index 7044) processed successfully with 3 rephrasings.
+Processing sample 7046/7200 (dataset index: 7045)
+Processing sample 7046 (dataset index 7045)
+Sample 7046 (dataset index 7045) processed successfully with 3 rephrasings.
+Processing sample 7047/7200 (dataset index: 7046)
+Processing sample 7047 (dataset index 7046)
+Sample 7047 (dataset index 7046) processed successfully with 3 rephrasings.
+Processing sample 7048/7200 (dataset index: 7047)
+Processing sample 7048 (dataset index 7047)
+Sample 7048 (dataset index 7047) processed successfully with 3 rephrasings.
+Processing sample 7049/7200 (dataset index: 7048)
+Processing sample 7049 (dataset index 7048)
+Sample 7049 (dataset index 7048) processed successfully with 3 rephrasings.
+Processing sample 7050/7200 (dataset index: 7049)
+Processing sample 7050 (dataset index 7049)
+Sample 7050 (dataset index 7049) processed successfully with 3 rephrasings.
+Processing sample 7051/7200 (dataset index: 7050)
+Processing sample 7051 (dataset index 7050)
+Sample 7051 (dataset index 7050) processed successfully with 3 rephrasings.
+Processing sample 7052/7200 (dataset index: 7051)
+Processing sample 7052 (dataset index 7051)
+Sample 7052 (dataset index 7051) processed successfully with 3 rephrasings.
+Processing sample 7053/7200 (dataset index: 7052)
+Processing sample 7053 (dataset index 7052)
+Sample 7053 (dataset index 7052) processed successfully with 3 rephrasings.
+Processing sample 7054/7200 (dataset index: 7053)
+Processing sample 7054 (dataset index 7053)
+Sample 7054 (dataset index 7053) processed successfully with 3 rephrasings.
+Processing sample 7055/7200 (dataset index: 7054)
+Processing sample 7055 (dataset index 7054)
+Sample 7055 (dataset index 7054) processed successfully with 3 rephrasings.
+Processing sample 7056/7200 (dataset index: 7055)
+Processing sample 7056 (dataset index 7055)
+Sample 7056 (dataset index 7055) processed successfully with 3 rephrasings.
+Processing sample 7057/7200 (dataset index: 7056)
+Processing sample 7057 (dataset index 7056)
