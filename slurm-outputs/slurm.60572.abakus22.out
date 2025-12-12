@@ -21288,3 +21288,549 @@ Processing sample 7019 (dataset index 7018)
 Sample 7019 (dataset index 7018) processed successfully with 3 rephrasings.
 Processing sample 7020/7200 (dataset index: 7019)
 Processing sample 7020 (dataset index 7019)
+Sample 7020 (dataset index 7019) processed successfully with 4 rephrasings.
+Processing sample 7021/7200 (dataset index: 7020)
+Processing sample 7021 (dataset index 7020)
+Sample 7021 (dataset index 7020) processed successfully with 3 rephrasings.
+Processing sample 7022/7200 (dataset index: 7021)
+Processing sample 7022 (dataset index 7021)
+Sample 7022 (dataset index 7021) processed successfully with 3 rephrasings.
+Processing sample 7023/7200 (dataset index: 7022)
+Processing sample 7023 (dataset index 7022)
+Sample 7023 (dataset index 7022) processed successfully with 3 rephrasings.
+Processing sample 7024/7200 (dataset index: 7023)
+Processing sample 7024 (dataset index 7023)
+Sample 7024 (dataset index 7023) processed successfully with 4 rephrasings.
+Processing sample 7025/7200 (dataset index: 7024)
+Processing sample 7025 (dataset index 7024)
+Sample 7025 (dataset index 7024) processed successfully with 3 rephrasings.
+Processing sample 7026/7200 (dataset index: 7025)
+Processing sample 7026 (dataset index 7025)
+Sample 7026 (dataset index 7025) processed successfully with 3 rephrasings.
+Processing sample 7027/7200 (dataset index: 7026)
+Processing sample 7027 (dataset index 7026)
+Sample 7027 (dataset index 7026) processed successfully with 3 rephrasings.
+Processing sample 7028/7200 (dataset index: 7027)
+Processing sample 7028 (dataset index 7027)
+Sample 7028 (dataset index 7027) processed successfully with 1 rephrasings.
+Processing sample 7029/7200 (dataset index: 7028)
+Processing sample 7029 (dataset index 7028)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 62.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 30.00 MiB is free. Including non-PyTorch memory, this process has 23.51 GiB memory in use. Of the allocated memory 22.18 GiB is allocated by PyTorch, and 1.08 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for sample 7029 (dataset index 7028): CUDA out of memory. Tried to allocate 62.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 30.00 MiB is free. Including non-PyTorch memory, this process has 23.51 GiB memory in use. Of the allocated memory 22.18 GiB is allocated by PyTorch, and 1.08 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 7030/7200 (dataset index: 7029)
+Processing sample 7030 (dataset index 7029)
+Sample 7030 (dataset index 7029) processed successfully with 3 rephrasings.
+Processing sample 7031/7200 (dataset index: 7030)
+Processing sample 7031 (dataset index 7030)
+Sample 7031 (dataset index 7030) processed successfully with 3 rephrasings.
+Processing sample 7032/7200 (dataset index: 7031)
+Processing sample 7032 (dataset index 7031)
+Sample 7032 (dataset index 7031) processed successfully with 3 rephrasings.
+Processing sample 7033/7200 (dataset index: 7032)
+Processing sample 7033 (dataset index 7032)
+Sample 7033 (dataset index 7032) processed successfully with 3 rephrasings.
+Processing sample 7034/7200 (dataset index: 7033)
+Processing sample 7034 (dataset index 7033)
+Sample 7034 (dataset index 7033) processed successfully with 3 rephrasings.
+Processing sample 7035/7200 (dataset index: 7034)
+Processing sample 7035 (dataset index 7034)
+Sample 7035 (dataset index 7034) processed successfully with 1 rephrasings.
+Processing sample 7036/7200 (dataset index: 7035)
+Processing sample 7036 (dataset index 7035)
+Sample 7036 (dataset index 7035) processed successfully with 3 rephrasings.
+Processing sample 7037/7200 (dataset index: 7036)
+Processing sample 7037 (dataset index 7036)
+Sample 7037 (dataset index 7036) processed successfully with 3 rephrasings.
+Processing sample 7038/7200 (dataset index: 7037)
+Processing sample 7038 (dataset index 7037)
+Sample 7038 (dataset index 7037) processed successfully with 3 rephrasings.
+Processing sample 7039/7200 (dataset index: 7038)
+Processing sample 7039 (dataset index 7038)
+Sample 7039 (dataset index 7038) processed successfully with 3 rephrasings.
+Processing sample 7040/7200 (dataset index: 7039)
+Processing sample 7040 (dataset index 7039)
+Sample 7040 (dataset index 7039) processed successfully with 3 rephrasings.
+Processing sample 7041/7200 (dataset index: 7040)
+Processing sample 7041 (dataset index 7040)
+Sample 7041 (dataset index 7040) processed successfully with 3 rephrasings.
+Processing sample 7042/7200 (dataset index: 7041)
+Processing sample 7042 (dataset index 7041)
+Sample 7042 (dataset index 7041) processed successfully with 3 rephrasings.
+Processing sample 7043/7200 (dataset index: 7042)
+Processing sample 7043 (dataset index 7042)
+Sample 7043 (dataset index 7042) processed successfully with 3 rephrasings.
+Processing sample 7044/7200 (dataset index: 7043)
+Processing sample 7044 (dataset index 7043)
+Sample 7044 (dataset index 7043) processed successfully with 1 rephrasings.
+Processing sample 7045/7200 (dataset index: 7044)
+Processing sample 7045 (dataset index 7044)
+Sample 7045 (dataset index 7044) processed successfully with 3 rephrasings.
+Processing sample 7046/7200 (dataset index: 7045)
+Processing sample 7046 (dataset index 7045)
+Sample 7046 (dataset index 7045) processed successfully with 3 rephrasings.
+Processing sample 7047/7200 (dataset index: 7046)
+Processing sample 7047 (dataset index 7046)
+Sample 7047 (dataset index 7046) processed successfully with 3 rephrasings.
+Processing sample 7048/7200 (dataset index: 7047)
+Processing sample 7048 (dataset index 7047)
+Sample 7048 (dataset index 7047) processed successfully with 3 rephrasings.
+Processing sample 7049/7200 (dataset index: 7048)
+Processing sample 7049 (dataset index 7048)
+Sample 7049 (dataset index 7048) processed successfully with 3 rephrasings.
+Processing sample 7050/7200 (dataset index: 7049)
+Processing sample 7050 (dataset index 7049)
+Sample 7050 (dataset index 7049) processed successfully with 3 rephrasings.
+Processing sample 7051/7200 (dataset index: 7050)
+Processing sample 7051 (dataset index 7050)
+Sample 7051 (dataset index 7050) processed successfully with 3 rephrasings.
+Processing sample 7052/7200 (dataset index: 7051)
+Processing sample 7052 (dataset index 7051)
+Sample 7052 (dataset index 7051) processed successfully with 3 rephrasings.
+Processing sample 7053/7200 (dataset index: 7052)
+Processing sample 7053 (dataset index 7052)
+Sample 7053 (dataset index 7052) processed successfully with 3 rephrasings.
+Processing sample 7054/7200 (dataset index: 7053)
+Processing sample 7054 (dataset index 7053)
+Sample 7054 (dataset index 7053) processed successfully with 3 rephrasings.
+Processing sample 7055/7200 (dataset index: 7054)
+Processing sample 7055 (dataset index 7054)
+Sample 7055 (dataset index 7054) processed successfully with 3 rephrasings.
+Processing sample 7056/7200 (dataset index: 7055)
+Processing sample 7056 (dataset index 7055)
+Sample 7056 (dataset index 7055) processed successfully with 3 rephrasings.
+Processing sample 7057/7200 (dataset index: 7056)
+Processing sample 7057 (dataset index 7056)
+Sample 7057 (dataset index 7056) processed successfully with 3 rephrasings.
+Processing sample 7058/7200 (dataset index: 7057)
+Processing sample 7058 (dataset index 7057)
+Sample 7058 (dataset index 7057) processed successfully with 3 rephrasings.
+Processing sample 7059/7200 (dataset index: 7058)
+Processing sample 7059 (dataset index 7058)
+Sample 7059 (dataset index 7058) processed successfully with 3 rephrasings.
+Processing sample 7060/7200 (dataset index: 7059)
+Processing sample 7060 (dataset index 7059)
+Sample 7060 (dataset index 7059) processed successfully with 3 rephrasings.
+Processing sample 7061/7200 (dataset index: 7060)
+Processing sample 7061 (dataset index 7060)
+Sample 7061 (dataset index 7060) processed successfully with 3 rephrasings.
+Processing sample 7062/7200 (dataset index: 7061)
+Processing sample 7062 (dataset index 7061)
+Sample 7062 (dataset index 7061) processed successfully with 3 rephrasings.
+Processing sample 7063/7200 (dataset index: 7062)
+Processing sample 7063 (dataset index 7062)
+Sample 7063 (dataset index 7062) processed successfully with 3 rephrasings.
+Processing sample 7064/7200 (dataset index: 7063)
+Processing sample 7064 (dataset index 7063)
+Sample 7064 (dataset index 7063) processed successfully with 3 rephrasings.
+Processing sample 7065/7200 (dataset index: 7064)
+Processing sample 7065 (dataset index 7064)
+Sample 7065 (dataset index 7064) processed successfully with 3 rephrasings.
+Processing sample 7066/7200 (dataset index: 7065)
+Processing sample 7066 (dataset index 7065)
+Sample 7066 (dataset index 7065) processed successfully with 3 rephrasings.
+Processing sample 7067/7200 (dataset index: 7066)
+Processing sample 7067 (dataset index 7066)
+Sample 7067 (dataset index 7066) processed successfully with 1 rephrasings.
+Processing sample 7068/7200 (dataset index: 7067)
+Processing sample 7068 (dataset index 7067)
+Sample 7068 (dataset index 7067) processed successfully with 3 rephrasings.
+Processing sample 7069/7200 (dataset index: 7068)
+Processing sample 7069 (dataset index 7068)
+Sample 7069 (dataset index 7068) processed successfully with 1 rephrasings.
+Processing sample 7070/7200 (dataset index: 7069)
+Processing sample 7070 (dataset index 7069)
+Sample 7070 (dataset index 7069) processed successfully with 3 rephrasings.
+Processing sample 7071/7200 (dataset index: 7070)
+Processing sample 7071 (dataset index 7070)
+Sample 7071 (dataset index 7070) processed successfully with 9 rephrasings.
+Processing sample 7072/7200 (dataset index: 7071)
+Processing sample 7072 (dataset index 7071)
+Sample 7072 (dataset index 7071) processed successfully with 3 rephrasings.
+Processing sample 7073/7200 (dataset index: 7072)
+Processing sample 7073 (dataset index 7072)
+Sample 7073 (dataset index 7072) processed successfully with 3 rephrasings.
+Processing sample 7074/7200 (dataset index: 7073)
+Processing sample 7074 (dataset index 7073)
+Sample 7074 (dataset index 7073) processed successfully with 3 rephrasings.
+Processing sample 7075/7200 (dataset index: 7074)
+Processing sample 7075 (dataset index 7074)
+Sample 7075 (dataset index 7074) processed successfully with 3 rephrasings.
+Processing sample 7076/7200 (dataset index: 7075)
+Processing sample 7076 (dataset index 7075)
+Sample 7076 (dataset index 7075) processed successfully with 3 rephrasings.
+Processing sample 7077/7200 (dataset index: 7076)
+Processing sample 7077 (dataset index 7076)
+Sample 7077 (dataset index 7076) processed successfully with 3 rephrasings.
+Processing sample 7078/7200 (dataset index: 7077)
+Processing sample 7078 (dataset index 7077)
+Sample 7078 (dataset index 7077) processed successfully with 3 rephrasings.
+Processing sample 7079/7200 (dataset index: 7078)
+Processing sample 7079 (dataset index 7078)
+Sample 7079 (dataset index 7078) processed successfully with 3 rephrasings.
+Processing sample 7080/7200 (dataset index: 7079)
+Processing sample 7080 (dataset index 7079)
+Sample 7080 (dataset index 7079) processed successfully with 4 rephrasings.
+Processing sample 7081/7200 (dataset index: 7080)
+Processing sample 7081 (dataset index 7080)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 66.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 18.00 MiB is free. Including non-PyTorch memory, this process has 23.52 GiB memory in use. Of the allocated memory 22.14 GiB is allocated by PyTorch, and 1.13 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for rephrasing 2 in sample 7081 (dataset index 7080): CUDA out of memory. Tried to allocate 66.00 MiB. GPU 0 has a total capacity of 23.56 GiB of which 18.00 MiB is free. Including non-PyTorch memory, this process has 23.52 GiB memory in use. Of the allocated memory 22.14 GiB is allocated by PyTorch, and 1.13 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 7082/7200 (dataset index: 7081)
+Processing sample 7082 (dataset index 7081)
+Sample 7082 (dataset index 7081) processed successfully with 3 rephrasings.
+Processing sample 7083/7200 (dataset index: 7082)
+Processing sample 7083 (dataset index 7082)
+Sample 7083 (dataset index 7082) processed successfully with 3 rephrasings.
+Processing sample 7084/7200 (dataset index: 7083)
+Processing sample 7084 (dataset index 7083)
+Sample 7084 (dataset index 7083) processed successfully with 3 rephrasings.
+Processing sample 7085/7200 (dataset index: 7084)
+Processing sample 7085 (dataset index 7084)
+Sample 7085 (dataset index 7084) processed successfully with 7 rephrasings.
+Processing sample 7086/7200 (dataset index: 7085)
+Processing sample 7086 (dataset index 7085)
+Sample 7086 (dataset index 7085) processed successfully with 3 rephrasings.
+Processing sample 7087/7200 (dataset index: 7086)
+Processing sample 7087 (dataset index 7086)
+Sample 7087 (dataset index 7086) processed successfully with 3 rephrasings.
+Processing sample 7088/7200 (dataset index: 7087)
+Processing sample 7088 (dataset index 7087)
+Sample 7088 (dataset index 7087) processed successfully with 3 rephrasings.
+Processing sample 7089/7200 (dataset index: 7088)
+Processing sample 7089 (dataset index 7088)
+Sample 7089 (dataset index 7088) processed successfully with 3 rephrasings.
+Processing sample 7090/7200 (dataset index: 7089)
+Processing sample 7090 (dataset index 7089)
+Sample 7090 (dataset index 7089) processed successfully with 3 rephrasings.
+Processing sample 7091/7200 (dataset index: 7090)
+Processing sample 7091 (dataset index 7090)
+Sample 7091 (dataset index 7090) processed successfully with 3 rephrasings.
+Processing sample 7092/7200 (dataset index: 7091)
+Processing sample 7092 (dataset index 7091)
+Sample 7092 (dataset index 7091) processed successfully with 3 rephrasings.
+Processing sample 7093/7200 (dataset index: 7092)
+Processing sample 7093 (dataset index 7092)
+Sample 7093 (dataset index 7092) processed successfully with 3 rephrasings.
+Processing sample 7094/7200 (dataset index: 7093)
+Processing sample 7094 (dataset index 7093)
+Sample 7094 (dataset index 7093) processed successfully with 3 rephrasings.
+Processing sample 7095/7200 (dataset index: 7094)
+Processing sample 7095 (dataset index 7094)
+Sample 7095 (dataset index 7094) processed successfully with 3 rephrasings.
+Processing sample 7096/7200 (dataset index: 7095)
+Processing sample 7096 (dataset index 7095)
+Sample 7096 (dataset index 7095) processed successfully with 3 rephrasings.
+Processing sample 7097/7200 (dataset index: 7096)
+Processing sample 7097 (dataset index 7096)
+Sample 7097 (dataset index 7096) processed successfully with 3 rephrasings.
+Processing sample 7098/7200 (dataset index: 7097)
+Processing sample 7098 (dataset index 7097)
+Sample 7098 (dataset index 7097) processed successfully with 3 rephrasings.
+Processing sample 7099/7200 (dataset index: 7098)
+Processing sample 7099 (dataset index 7098)
+Sample 7099 (dataset index 7098) processed successfully with 3 rephrasings.
+Processing sample 7100/7200 (dataset index: 7099)
+Processing sample 7100 (dataset index 7099)
+Sample 7100 (dataset index 7099) processed successfully with 3 rephrasings.
+Processing sample 7101/7200 (dataset index: 7100)
+Processing sample 7101 (dataset index 7100)
+Sample 7101 (dataset index 7100) processed successfully with 3 rephrasings.
+Processing sample 7102/7200 (dataset index: 7101)
+Processing sample 7102 (dataset index 7101)
+Sample 7102 (dataset index 7101) processed successfully with 3 rephrasings.
+Processing sample 7103/7200 (dataset index: 7102)
+Processing sample 7103 (dataset index 7102)
+Sample 7103 (dataset index 7102) processed successfully with 3 rephrasings.
+Processing sample 7104/7200 (dataset index: 7103)
+Processing sample 7104 (dataset index 7103)
+Sample 7104 (dataset index 7103) processed successfully with 3 rephrasings.
+Processing sample 7105/7200 (dataset index: 7104)
+Processing sample 7105 (dataset index 7104)
+Sample 7105 (dataset index 7104) processed successfully with 18 rephrasings.
+Processing sample 7106/7200 (dataset index: 7105)
+Processing sample 7106 (dataset index 7105)
+Sample 7106 (dataset index 7105) processed successfully with 1 rephrasings.
+Processing sample 7107/7200 (dataset index: 7106)
+Processing sample 7107 (dataset index 7106)
+Sample 7107 (dataset index 7106) processed successfully with 3 rephrasings.
+Processing sample 7108/7200 (dataset index: 7107)
+Processing sample 7108 (dataset index 7107)
+Sample 7108 (dataset index 7107) processed successfully with 3 rephrasings.
+Processing sample 7109/7200 (dataset index: 7108)
+Processing sample 7109 (dataset index 7108)
+Sample 7109 (dataset index 7108) processed successfully with 3 rephrasings.
+Processing sample 7110/7200 (dataset index: 7109)
+Processing sample 7110 (dataset index 7109)
+Sample 7110 (dataset index 7109) processed successfully with 3 rephrasings.
+Processing sample 7111/7200 (dataset index: 7110)
+Processing sample 7111 (dataset index 7110)
+Sample 7111 (dataset index 7110) processed successfully with 3 rephrasings.
+Processing sample 7112/7200 (dataset index: 7111)
+Processing sample 7112 (dataset index 7111)
+Sample 7112 (dataset index 7111) processed successfully with 3 rephrasings.
+Processing sample 7113/7200 (dataset index: 7112)
+Processing sample 7113 (dataset index 7112)
+Sample 7113 (dataset index 7112) processed successfully with 3 rephrasings.
+Processing sample 7114/7200 (dataset index: 7113)
+Processing sample 7114 (dataset index 7113)
+Sample 7114 (dataset index 7113) processed successfully with 1 rephrasings.
+Processing sample 7115/7200 (dataset index: 7114)
+Processing sample 7115 (dataset index 7114)
+Sample 7115 (dataset index 7114) processed successfully with 3 rephrasings.
+Processing sample 7116/7200 (dataset index: 7115)
+Processing sample 7116 (dataset index 7115)
+Sample 7116 (dataset index 7115) processed successfully with 3 rephrasings.
+Processing sample 7117/7200 (dataset index: 7116)
+Processing sample 7117 (dataset index 7116)
+Sample 7117 (dataset index 7116) processed successfully with 3 rephrasings.
+Processing sample 7118/7200 (dataset index: 7117)
+Processing sample 7118 (dataset index 7117)
+Sample 7118 (dataset index 7117) processed successfully with 3 rephrasings.
+Processing sample 7119/7200 (dataset index: 7118)
+Processing sample 7119 (dataset index 7118)
+Sample 7119 (dataset index 7118) processed successfully with 3 rephrasings.
+Processing sample 7120/7200 (dataset index: 7119)
+Processing sample 7120 (dataset index 7119)
+Sample 7120 (dataset index 7119) processed successfully with 3 rephrasings.
+Processing sample 7121/7200 (dataset index: 7120)
+Processing sample 7121 (dataset index 7120)
+Sample 7121 (dataset index 7120) processed successfully with 3 rephrasings.
+Processing sample 7122/7200 (dataset index: 7121)
+Processing sample 7122 (dataset index 7121)
+Sample 7122 (dataset index 7121) processed successfully with 3 rephrasings.
+Processing sample 7123/7200 (dataset index: 7122)
+Processing sample 7123 (dataset index 7122)
+Sample 7123 (dataset index 7122) processed successfully with 4 rephrasings.
+Processing sample 7124/7200 (dataset index: 7123)
+Processing sample 7124 (dataset index 7123)
+Sample 7124 (dataset index 7123) processed successfully with 3 rephrasings.
+Processing sample 7125/7200 (dataset index: 7124)
+Processing sample 7125 (dataset index 7124)
+Sample 7125 (dataset index 7124) processed successfully with 3 rephrasings.
+Processing sample 7126/7200 (dataset index: 7125)
+Processing sample 7126 (dataset index 7125)
+Sample 7126 (dataset index 7125) processed successfully with 1 rephrasings.
+Processing sample 7127/7200 (dataset index: 7126)
+Processing sample 7127 (dataset index 7126)
+Sample 7127 (dataset index 7126) processed successfully with 3 rephrasings.
+Processing sample 7128/7200 (dataset index: 7127)
+Processing sample 7128 (dataset index 7127)
+Sample 7128 (dataset index 7127) processed successfully with 3 rephrasings.
+Processing sample 7129/7200 (dataset index: 7128)
+Processing sample 7129 (dataset index 7128)
+Sample 7129 (dataset index 7128) processed successfully with 3 rephrasings.
+Processing sample 7130/7200 (dataset index: 7129)
+Processing sample 7130 (dataset index 7129)
+Sample 7130 (dataset index 7129) processed successfully with 3 rephrasings.
+Processing sample 7131/7200 (dataset index: 7130)
+Processing sample 7131 (dataset index 7130)
+Sample 7131 (dataset index 7130) processed successfully with 3 rephrasings.
+Processing sample 7132/7200 (dataset index: 7131)
+Processing sample 7132 (dataset index 7131)
+Sample 7132 (dataset index 7131) processed successfully with 3 rephrasings.
+Processing sample 7133/7200 (dataset index: 7132)
+Processing sample 7133 (dataset index 7132)
+Sample 7133 (dataset index 7132) processed successfully with 3 rephrasings.
+Processing sample 7134/7200 (dataset index: 7133)
+Processing sample 7134 (dataset index 7133)
+Sample 7134 (dataset index 7133) processed successfully with 3 rephrasings.
+Processing sample 7135/7200 (dataset index: 7134)
+Processing sample 7135 (dataset index 7134)
+Sample 7135 (dataset index 7134) processed successfully with 1 rephrasings.
+Processing sample 7136/7200 (dataset index: 7135)
+Processing sample 7136 (dataset index 7135)
+Sample 7136 (dataset index 7135) processed successfully with 3 rephrasings.
+Processing sample 7137/7200 (dataset index: 7136)
+Processing sample 7137 (dataset index 7136)
+Sample 7137 (dataset index 7136) processed successfully with 3 rephrasings.
+Processing sample 7138/7200 (dataset index: 7137)
+Processing sample 7138 (dataset index 7137)
+Sample 7138 (dataset index 7137) processed successfully with 3 rephrasings.
+Processing sample 7139/7200 (dataset index: 7138)
+Processing sample 7139 (dataset index 7138)
+Sample 7139 (dataset index 7138) processed successfully with 3 rephrasings.
+Processing sample 7140/7200 (dataset index: 7139)
+Processing sample 7140 (dataset index 7139)
+Sample 7140 (dataset index 7139) processed successfully with 3 rephrasings.
+Processing sample 7141/7200 (dataset index: 7140)
+Processing sample 7141 (dataset index 7140)
+Sample 7141 (dataset index 7140) processed successfully with 3 rephrasings.
+Processing sample 7142/7200 (dataset index: 7141)
+Processing sample 7142 (dataset index 7141)
+Sample 7142 (dataset index 7141) processed successfully with 3 rephrasings.
+Processing sample 7143/7200 (dataset index: 7142)
+Processing sample 7143 (dataset index 7142)
+Sample 7143 (dataset index 7142) processed successfully with 3 rephrasings.
+Processing sample 7144/7200 (dataset index: 7143)
+Processing sample 7144 (dataset index 7143)
+Sample 7144 (dataset index 7143) processed successfully with 3 rephrasings.
+Processing sample 7145/7200 (dataset index: 7144)
+Processing sample 7145 (dataset index 7144)
+Sample 7145 (dataset index 7144) processed successfully with 3 rephrasings.
+Processing sample 7146/7200 (dataset index: 7145)
+Processing sample 7146 (dataset index 7145)
+Sample 7146 (dataset index 7145) processed successfully with 3 rephrasings.
+Processing sample 7147/7200 (dataset index: 7146)
+Processing sample 7147 (dataset index 7146)
+Sample 7147 (dataset index 7146) processed successfully with 3 rephrasings.
+Processing sample 7148/7200 (dataset index: 7147)
+Processing sample 7148 (dataset index 7147)
+Sample 7148 (dataset index 7147) processed successfully with 9 rephrasings.
+Processing sample 7149/7200 (dataset index: 7148)
+Processing sample 7149 (dataset index 7148)
+Sample 7149 (dataset index 7148) processed successfully with 3 rephrasings.
+Processing sample 7150/7200 (dataset index: 7149)
+Processing sample 7150 (dataset index 7149)
+Sample 7150 (dataset index 7149) processed successfully with 3 rephrasings.
+Processing sample 7151/7200 (dataset index: 7150)
+Processing sample 7151 (dataset index 7150)
+Sample 7151 (dataset index 7150) processed successfully with 3 rephrasings.
+Processing sample 7152/7200 (dataset index: 7151)
+Processing sample 7152 (dataset index 7151)
+Sample 7152 (dataset index 7151) processed successfully with 3 rephrasings.
+Processing sample 7153/7200 (dataset index: 7152)
+Processing sample 7153 (dataset index 7152)
+JSONDecodeError: Extra data: line 1699 column 333 (char 4177)
+Error getting rephrasings for sample 7153 (dataset index 7152): Invalid JSON response from API
+Processing sample 7154/7200 (dataset index: 7153)
+Processing sample 7154 (dataset index 7153)
+Sample 7154 (dataset index 7153) processed successfully with 3 rephrasings.
+Processing sample 7155/7200 (dataset index: 7154)
+Processing sample 7155 (dataset index 7154)
+Sample 7155 (dataset index 7154) processed successfully with 3 rephrasings.
+Processing sample 7156/7200 (dataset index: 7155)
+Processing sample 7156 (dataset index 7155)
+Sample 7156 (dataset index 7155) processed successfully with 2 rephrasings.
+Processing sample 7157/7200 (dataset index: 7156)
+Processing sample 7157 (dataset index 7156)
+Sample 7157 (dataset index 7156) processed successfully with 3 rephrasings.
+Processing sample 7158/7200 (dataset index: 7157)
+Processing sample 7158 (dataset index 7157)
+Sample 7158 (dataset index 7157) processed successfully with 3 rephrasings.
+Processing sample 7159/7200 (dataset index: 7158)
+Processing sample 7159 (dataset index 7158)
+Sample 7159 (dataset index 7158) processed successfully with 3 rephrasings.
+Processing sample 7160/7200 (dataset index: 7159)
+Processing sample 7160 (dataset index 7159)
+Sample 7160 (dataset index 7159) processed successfully with 1 rephrasings.
+Processing sample 7161/7200 (dataset index: 7160)
+Processing sample 7161 (dataset index 7160)
+Sample 7161 (dataset index 7160) processed successfully with 3 rephrasings.
+Processing sample 7162/7200 (dataset index: 7161)
+Processing sample 7162 (dataset index 7161)
+Sample 7162 (dataset index 7161) processed successfully with 3 rephrasings.
+Processing sample 7163/7200 (dataset index: 7162)
+Processing sample 7163 (dataset index 7162)
+Sample 7163 (dataset index 7162) processed successfully with 3 rephrasings.
+Processing sample 7164/7200 (dataset index: 7163)
+Processing sample 7164 (dataset index 7163)
+Sample 7164 (dataset index 7163) processed successfully with 1 rephrasings.
+Processing sample 7165/7200 (dataset index: 7164)
+Processing sample 7165 (dataset index 7164)
+Sample 7165 (dataset index 7164) processed successfully with 3 rephrasings.
+Processing sample 7166/7200 (dataset index: 7165)
+Processing sample 7166 (dataset index 7165)
+Sample 7166 (dataset index 7165) processed successfully with 3 rephrasings.
+Processing sample 7167/7200 (dataset index: 7166)
+Processing sample 7167 (dataset index 7166)
+Sample 7167 (dataset index 7166) processed successfully with 3 rephrasings.
+Processing sample 7168/7200 (dataset index: 7167)
+Processing sample 7168 (dataset index 7167)
+Sample 7168 (dataset index 7167) processed successfully with 3 rephrasings.
+Processing sample 7169/7200 (dataset index: 7168)
+Processing sample 7169 (dataset index 7168)
+Sample 7169 (dataset index 7168) processed successfully with 3 rephrasings.
+Processing sample 7170/7200 (dataset index: 7169)
+Processing sample 7170 (dataset index 7169)
+Sample 7170 (dataset index 7169) processed successfully with 3 rephrasings.
+Processing sample 7171/7200 (dataset index: 7170)
+Processing sample 7171 (dataset index 7170)
+Sample 7171 (dataset index 7170) processed successfully with 3 rephrasings.
+Processing sample 7172/7200 (dataset index: 7171)
+Processing sample 7172 (dataset index 7171)
+Sample 7172 (dataset index 7171) processed successfully with 1 rephrasings.
+Processing sample 7173/7200 (dataset index: 7172)
+Processing sample 7173 (dataset index 7172)
+Sample 7173 (dataset index 7172) processed successfully with 3 rephrasings.
+Processing sample 7174/7200 (dataset index: 7173)
+Processing sample 7174 (dataset index 7173)
+Sample 7174 (dataset index 7173) processed successfully with 3 rephrasings.
+Processing sample 7175/7200 (dataset index: 7174)
+Processing sample 7175 (dataset index 7174)
+Sample 7175 (dataset index 7174) processed successfully with 3 rephrasings.
+Processing sample 7176/7200 (dataset index: 7175)
+Processing sample 7176 (dataset index 7175)
+JSONDecodeError: Extra data: line 1 column 4125 (char 4124)
+Error getting rephrasings for sample 7176 (dataset index 7175): Invalid JSON response from API
+Processing sample 7177/7200 (dataset index: 7176)
+Processing sample 7177 (dataset index 7176)
+Sample 7177 (dataset index 7176) processed successfully with 3 rephrasings.
+Processing sample 7178/7200 (dataset index: 7177)
+Processing sample 7178 (dataset index 7177)
+Sample 7178 (dataset index 7177) processed successfully with 3 rephrasings.
+Processing sample 7179/7200 (dataset index: 7178)
+Processing sample 7179 (dataset index 7178)
+Sample 7179 (dataset index 7178) processed successfully with 3 rephrasings.
+Processing sample 7180/7200 (dataset index: 7179)
+Processing sample 7180 (dataset index 7179)
+Sample 7180 (dataset index 7179) processed successfully with 3 rephrasings.
+Processing sample 7181/7200 (dataset index: 7180)
+Processing sample 7181 (dataset index 7180)
+Sample 7181 (dataset index 7180) processed successfully with 3 rephrasings.
+Processing sample 7182/7200 (dataset index: 7181)
+Processing sample 7182 (dataset index 7181)
+Sample 7182 (dataset index 7181) processed successfully with 3 rephrasings.
+Processing sample 7183/7200 (dataset index: 7182)
+Processing sample 7183 (dataset index 7182)
+Sample 7183 (dataset index 7182) processed successfully with 3 rephrasings.
+Processing sample 7184/7200 (dataset index: 7183)
+Processing sample 7184 (dataset index 7183)
+Sample 7184 (dataset index 7183) processed successfully with 3 rephrasings.
+Processing sample 7185/7200 (dataset index: 7184)
+Processing sample 7185 (dataset index 7184)
+Sample 7185 (dataset index 7184) processed successfully with 3 rephrasings.
+Processing sample 7186/7200 (dataset index: 7185)
+Processing sample 7186 (dataset index 7185)
+Sample 7186 (dataset index 7185) processed successfully with 3 rephrasings.
+Processing sample 7187/7200 (dataset index: 7186)
+Processing sample 7187 (dataset index 7186)
+Sample 7187 (dataset index 7186) processed successfully with 3 rephrasings.
+Processing sample 7188/7200 (dataset index: 7187)
+Processing sample 7188 (dataset index 7187)
+Sample 7188 (dataset index 7187) processed successfully with 3 rephrasings.
+Processing sample 7189/7200 (dataset index: 7188)
+Processing sample 7189 (dataset index 7188)
+Sample 7189 (dataset index 7188) processed successfully with 3 rephrasings.
+Processing sample 7190/7200 (dataset index: 7189)
+Processing sample 7190 (dataset index 7189)
+Sample 7190 (dataset index 7189) processed successfully with 3 rephrasings.
+Processing sample 7191/7200 (dataset index: 7190)
+Processing sample 7191 (dataset index 7190)
+Sample 7191 (dataset index 7190) processed successfully with 3 rephrasings.
+Processing sample 7192/7200 (dataset index: 7191)
+Processing sample 7192 (dataset index 7191)
+Sample 7192 (dataset index 7191) processed successfully with 3 rephrasings.
+Processing sample 7193/7200 (dataset index: 7192)
+Processing sample 7193 (dataset index 7192)
+Sample 7193 (dataset index 7192) processed successfully with 3 rephrasings.
+Processing sample 7194/7200 (dataset index: 7193)
+Processing sample 7194 (dataset index 7193)
+Sample 7194 (dataset index 7193) processed successfully with 1 rephrasings.
+Processing sample 7195/7200 (dataset index: 7194)
+Processing sample 7195 (dataset index 7194)
+Sample 7195 (dataset index 7194) processed successfully with 1 rephrasings.
+Processing sample 7196/7200 (dataset index: 7195)
+Processing sample 7196 (dataset index 7195)
+Sample 7196 (dataset index 7195) processed successfully with 3 rephrasings.
+Processing sample 7197/7200 (dataset index: 7196)
+Processing sample 7197 (dataset index 7196)
+Sample 7197 (dataset index 7196) processed successfully with 3 rephrasings.
+Processing sample 7198/7200 (dataset index: 7197)
+Processing sample 7198 (dataset index 7197)
+Sample 7198 (dataset index 7197) processed successfully with 3 rephrasings.
+Processing sample 7199/7200 (dataset index: 7198)
+Processing sample 7199 (dataset index 7198)
+Sample 7199 (dataset index 7198) processed successfully with 3 rephrasings.
+Processing sample 7200/7200 (dataset index: 7199)
+Processing sample 7200 (dataset index 7199)
+Sample 7200 (dataset index 7199) processed successfully with 3 rephrasings.
+Processing complete. Saved 6990 successful results. Failed: 210
