@@ -22164,3 +22164,15 @@ Processing sample 7200/7200 (dataset index: 7199)
 Processing sample 7200 (dataset index 7199)
 Sample 7200 (dataset index 7199) processed successfully with 3 rephrasings.
 Processing complete. Saved 6660 successful results. Failed: 540
+[main 5a1a710] Domain Specific LLM Script Results for Run 60919 (Commit: 609c004)
+ 9 files changed, 87059 insertions(+)
+ create mode 100644 data/full/domainspecific_results_60919_qwen2.5-7b-instruct_4bit_rephrase_finefineweb.pkl
+ create mode 100644 slurm-outputs/slurm.60918.abakus11.out
+ create mode 100644 slurm-outputs/slurm.60919.abakus12.out
+ create mode 100644 slurm-outputs/slurm.60920.abakus21.out
+ create mode 100644 slurm-outputs/slurm.60921.abakus22.out
+remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File data/full/domainspecific_results_60919_qwen2.5-7b-instruct_4bit_rephrase_finefineweb.pkl is 72.66 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To github.com:ngruenefeld/gradient-uncertainty.git
+   609c004..5a1a710  main -> main
