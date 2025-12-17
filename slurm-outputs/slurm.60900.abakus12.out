@@ -7215,3 +7215,4 @@ Processing sample 2337 (dataset index 2336)
 Sample 2337 (dataset index 2336) processed successfully with 3 rephrasings.
 Processing sample 2338/7200 (dataset index: 2337)
 Processing sample 2338 (dataset index 2337)
+slurmstepd-abakus12: error: *** JOB 60900 ON abakus12 CANCELLED AT 2025-12-13T10:31:08 ***

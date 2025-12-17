@@ -7000,3 +7000,8 @@ Processing sample 2270 (dataset index 2269)
 Sample 2270 (dataset index 2269) processed successfully with 3 rephrasings.
 Processing sample 2271/7200 (dataset index: 2270)
 Processing sample 2271 (dataset index 2270)
+Error in completion_gradient: CUDA out of memory. Tried to allocate 138.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 68.06 MiB is free. Including non-PyTorch memory, this process has 19.49 GiB memory in use. Of the allocated memory 18.47 GiB is allocated by PyTorch, and 806.11 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Error calculating gradient for rephrasing 6 in sample 2271 (dataset index 2270): CUDA out of memory. Tried to allocate 138.00 MiB. GPU 0 has a total capacity of 19.58 GiB of which 68.06 MiB is free. Including non-PyTorch memory, this process has 19.49 GiB memory in use. Of the allocated memory 18.47 GiB is allocated by PyTorch, and 806.11 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Processing sample 2272/7200 (dataset index: 2271)
+Processing sample 2272 (dataset index 2271)
+slurmstepd-abakus11: error: *** JOB 60902 ON abakus11 CANCELLED AT 2025-12-13T10:31:08 ***

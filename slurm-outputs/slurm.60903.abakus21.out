@@ -6792,3 +6792,16 @@ Processing sample 2220 (dataset index 2219)
 Sample 2220 (dataset index 2219) processed successfully with 3 rephrasings.
 Processing sample 2221/7200 (dataset index: 2220)
 Processing sample 2221 (dataset index 2220)
+Sample 2221 (dataset index 2220) processed successfully with 1 rephrasings.
+Processing sample 2222/7200 (dataset index: 2221)
+Processing sample 2222 (dataset index 2221)
+Sample 2222 (dataset index 2221) processed successfully with 3 rephrasings.
+Processing sample 2223/7200 (dataset index: 2222)
+Processing sample 2223 (dataset index 2222)
+Sample 2223 (dataset index 2222) processed successfully with 3 rephrasings.
+Processing sample 2224/7200 (dataset index: 2223)
+Processing sample 2224 (dataset index 2223)
+Sample 2224 (dataset index 2223) processed successfully with 3 rephrasings.
+Processing sample 2225/7200 (dataset index: 2224)
+Processing sample 2225 (dataset index 2224)
+slurmstepd-abakus21: error: *** JOB 60903 ON abakus21 CANCELLED AT 2025-12-13T10:31:08 ***
